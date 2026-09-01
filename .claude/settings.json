@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python crawlers/*.py)",
+      "Bash(python crawlers/*.py *)",
+      "Bash(pip install -r crawlers/requirements.txt)",
+      "Bash(git status)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git branch*)",
+      "Bash(git remote -v)"
+    ]
+  }
+}
