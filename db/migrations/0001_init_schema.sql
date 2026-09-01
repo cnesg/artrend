@@ -179,4 +179,3 @@ create table provenance_records (
   )
 );
 create index idx_provenance_artwork on provenance_records(artwork_id);
-</content>
