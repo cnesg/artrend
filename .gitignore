@@ -1,0 +1,5 @@
+crawlers/raw/
+crawlers/__pycache__/
+__pycache__/
+*.pyc
+.env
