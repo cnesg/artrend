@@ -57,6 +57,30 @@ class PgStore:
         self._museum_cache[name] = museum_id
         return museum_id
 
+    def get_or_create_gallery(self, name: str, city: str | None = None, country: str | None = None, website: str | None = None) -> str:
+        cache_key = f"gallery:{name}"
+        if cache_key in self._museum_cache:
+            return self._museum_cache[cache_key]
+        self.cur.execute("select id from galleries where name = %s limit 1", (name,))
+        row = self.cur.fetchone()
+        if row is None:
+            self.cur.execute(
+                "insert into galleries (name, city, country, website) values (%s, %s, %s, %s) returning id",
+                (name, city, country, website),
+            )
+            row = self.cur.fetchone()
+        gallery_id = str(row[0])
+        self._museum_cache[cache_key] = gallery_id
+        return gallery_id
+
+    def insert_gallery_representation(self, **fields: Any) -> None:
+        cols = list(fields.keys())
+        placeholders = ", ".join(["%s"] * len(cols))
+        self.cur.execute(
+            f"insert into gallery_representations ({', '.join(cols)}) values ({placeholders})",
+            list(fields.values()),
+        )
+
     def _ensure_artist_cache(self) -> None:
         if self._artist_cache is not None:
             return
@@ -160,8 +184,17 @@ class DryRunStore:
     """실제 DB 없이 파싱/매핑 로직만 검증. 카운트만 집계하고 항상 새로 적재한다고 가정."""
 
     def __init__(self) -> None:
-        self.counts = {"sources": 0, "artists": 0, "artworks": 0, "museum_holdings": 0, "museums": 0}
+        self.counts = {
+            "sources": 0,
+            "artists": 0,
+            "artworks": 0,
+            "museum_holdings": 0,
+            "museums": 0,
+            "galleries": 0,
+            "gallery_representations": 0,
+        }
         self._museum_cache: dict[str, str] = {}
+        self._gallery_cache: dict[str, str] = {}
         self._artist_cache: dict[str, str] = {}
         self._next_id = 1
         self.samples: list[dict] = []
@@ -190,6 +223,15 @@ class DryRunStore:
             self.counts["artists"] += 1
             self._artist_cache[name] = self._fresh_id()
         return self._artist_cache[name]
+
+    def get_or_create_gallery(self, name: str, city: str | None = None, country: str | None = None, website: str | None = None) -> str:
+        if name not in self._gallery_cache:
+            self.counts["galleries"] += 1
+            self._gallery_cache[name] = self._fresh_id()
+        return self._gallery_cache[name]
+
+    def insert_gallery_representation(self, **fields: Any) -> None:
+        self.counts["gallery_representations"] += 1
 
     def insert_artwork(self, **fields: Any) -> str:
         self.counts["artworks"] += 1

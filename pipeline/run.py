@@ -17,10 +17,14 @@ sys.stdout.reconfigure(line_buffering=True)
 
 import aic
 import cleveland
+import galleries
 import met
 import mmca
+import moma
 import nga
 import smithsonian
+import smk
+import tate
 from db import get_connection
 from store import DryRunStore, PgStore
 
@@ -30,8 +34,12 @@ LOADERS = {
     "cleveland": cleveland.load,
     "smithsonian": smithsonian.load,
     "mmca": mmca.load,
+    "smk": smk.load,
+    "galleries": galleries.load,
+    "moma": moma.load,
+    "tate": tate.load,
 }
-ALL_SITES = ["met", "aic", "cleveland", "nga", "smithsonian", "mmca"]
+ALL_SITES = ["met", "aic", "cleveland", "nga", "smithsonian", "mmca", "smk", "galleries", "moma", "tate"]
 
 
 def main() -> None:

@@ -61,6 +61,11 @@ GALLERIES: dict[str, dict] = {
         "list_path": "/artist/list",
         "pattern": r'href="(/artist/view/[a-zA-Z0-9\-_/]+)"[^>]*>(.*?)</a>',
     },
+    "pkm": {
+        "base": "https://www.pkmgallery.com",
+        "list_path": "/artists",
+        "pattern": r"href='(/artists/[a-zA-Z0-9\-_/]+)'[^>]*>(.*?)</a>",
+    },
     "arario": {"base": "https://www.arariogallery.com", "list_path": "/artists/", "pattern": ARTLOGIC_PATTERN},
     "ropac": {"base": "https://www.ropac.net", "list_path": "/artists/", "pattern": ARTLOGIC_PATTERN},
     "wooson": {"base": "https://www.woosongallery.com", "list_path": "/artists/", "pattern": ARTLOGIC_PATTERN},
