@@ -19,6 +19,7 @@ from common import already_fetched, save_raw
 
 if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     sys.stdout.reconfigure(encoding="utf-8")
+sys.stdout.reconfigure(line_buffering=True)
 
 API_BASE = "https://api.artic.edu/api/v1"
 SITE_NAME = "aic"
@@ -75,8 +76,9 @@ def crawl(limit: int, page_size: int, delay: float, skip_existing: bool) -> None
                 license_note=LICENSE_NOTE,
             )
             saved += 1
-            time.sleep(delay)
 
+        print(f"[aic] {saved}건 진행 중...", flush=True)
+        time.sleep(delay)
         page += 1
 
     print(f"[aic] 완료 — {saved}건 저장")
