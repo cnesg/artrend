@@ -101,6 +101,32 @@ GALLERIES: dict[str, dict] = {
         "list_path": "/artists",
         "pattern": ARTLOGIC_PATTERN,
     },
+    "shugoarts": {
+        "base": "",
+        "list_path": "https://shugoarts.com/en/artists/",
+        "pattern": r'href="(https://shugoarts\.com/en/artists/[a-zA-Z0-9\-]+)"[^>]*>(.*?)</a>',
+    },
+    "tomiokoyama": {
+        "base": "",
+        "list_path": "https://www.tomiokoyamagallery.com/en/artists",
+        "pattern": r'href="(https://www\.tomiokoyamagallery\.com/en/artists/[a-zA-Z0-9\-]+/)"[^>]*>(.*?)</a>',
+    },
+    "estherschipper": {
+        "base": "https://www.estherschipper.com",
+        "list_path": "/artists",
+        "pattern": ARTLOGIC_PATTERN,
+    },
+    "maxhetzler": {
+        "base": "https://www.maxhetzler.com",
+        "list_path": "/artists",
+        "pattern": r'href="(/artists/[a-zA-Z0-9\-_]+)"[^>]*>(.*?)</a>',
+    },
+    "otafinearts": {
+        "base": "https://otafinearts.com",
+        "list_path": "/artists",
+        "pattern": ARTLOGIC_PATTERN,
+        "exclude_slugs": {"list", "grid"},
+    },
     "koeniggalerie": {
         "base": "https://www.koeniggalerie.com",
         "list_path": "/pages/artist-overview",
@@ -120,6 +146,9 @@ GALLERIES: dict[str, dict] = {
 #   명시 차단 — 명확한 거부 시그널이라 제외.
 # - Gladstone Gallery: robots.txt 자체가 404(부재) — MMCA/일본 국립미술관과
 #   같은 애매한 상황이라 정책 판단 없이 크롤링하지 않고 후보로만 남겨둠.
+# - Taka Ishii Gallery, neugerriemschneider: robots.txt는 문제없으나 작가
+#   목록 페이지가 클라이언트 렌더링이라 requests로는 개별 작가 링크를 못 얻음
+#   (홈페이지/카테고리 페이지에 정적 링크가 아예 없음) — SPA로 판단, 제외.
 
 
 def crawl_gallery(key: str, delay: float, skip_existing: bool) -> int:

@@ -28,6 +28,11 @@ GALLERY_INFO: dict[str, tuple[str, str, str]] = {
     "victoriamiro": ("빅토리아미로 (Victoria Miro)", "런던", "영국"),
     "koeniggalerie": ("쾨니히갤러리 (König Galerie)", "베를린", "독일"),
     "gladstone": ("글래드스톤갤러리 (Gladstone Gallery)", "뉴욕", "미국"),
+    "shugoarts": ("슈고아츠 (ShugoArts)", "도쿄", "일본"),
+    "tomiokoyama": ("토미오코야마갤러리 (Tomio Koyama Gallery)", "도쿄", "일본"),
+    "estherschipper": ("에스더쉬퍼 (Esther Schipper)", "베를린", "독일"),
+    "maxhetzler": ("막스헤츨러갤러리 (Galerie Max Hetzler)", "베를린", "독일"),
+    "otafinearts": ("오타파인아츠 (Ota Fine Arts)", "도쿄", "일본"),
 }
 
 
