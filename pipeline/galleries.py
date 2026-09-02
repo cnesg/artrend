@@ -21,6 +21,12 @@ GALLERY_INFO: dict[str, tuple[str, str, str]] = {
     "pace": ("페이스갤러리 (Pace Gallery)", "뉴욕", "미국"),
     "lehmannmaupin": ("리만머핀 (Lehmann Maupin)", "뉴욕", "미국"),
     "perrotin": ("페로탕 (Perrotin)", "파리", "프랑스"),
+    "davidzwirner": ("데이비드즈워너 (David Zwirner)", "뉴욕", "미국"),
+    "whitecube": ("화이트큐브 (White Cube)", "런던", "영국"),
+    "mariangoodman": ("마리안굿맨 (Marian Goodman Gallery)", "뉴욕", "미국"),
+    "spruethmagers": ("스프루스마거스 (Sprüth Magers)", "베를린", "독일"),
+    "victoriamiro": ("빅토리아미로 (Victoria Miro)", "런던", "영국"),
+    "koeniggalerie": ("쾨니히갤러리 (König Galerie)", "베를린", "독일"),
 }
 
 

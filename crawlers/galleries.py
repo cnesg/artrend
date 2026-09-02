@@ -76,19 +76,61 @@ GALLERIES: dict[str, dict] = {
         "list_path": "/artists/",
         "pattern": r'href="(/artists/[a-zA-Z0-9\-_/]+/)"[^>]*>(.*?)</a>',
     },
+    "davidzwirner": {
+        "base": "https://www.davidzwirner.com",
+        "list_path": "/artists",
+        "pattern": r'href="(/artists/[a-zA-Z0-9\-_/]+)"[^>]*>(.*?)</a>',
+    },
+    "whitecube": {
+        "base": "",
+        "list_path": "https://www.whitecube.com/artists",
+        "pattern": r'href="(https://www\.whitecube\.com/artists/[a-zA-Z0-9\-_]+)"[^>]*>(.*?)</a>',
+    },
+    "mariangoodman": {
+        "base": "https://www.mariangoodman.com",
+        "list_path": "/artists",
+        "pattern": ARTLOGIC_PATTERN,
+    },
+    "spruethmagers": {
+        "base": "",
+        "list_path": "https://www.spruethmagers.com/artists",
+        "pattern": r'href="(https://spruethmagers\.com/artists/[a-zA-Z0-9\-_]+/)"[^>]*>(.*?)</a>',
+    },
+    "victoriamiro": {
+        "base": "https://www.victoria-miro.com",
+        "list_path": "/artists",
+        "pattern": ARTLOGIC_PATTERN,
+    },
+    "koeniggalerie": {
+        "base": "https://www.koeniggalerie.com",
+        "list_path": "/pages/artist-overview",
+        "pattern": r'href="(/collections/[a-z0-9\-]+)"[^>]*>(.*?)</a>',
+        # 작가 아닌 일반 컬렉션 링크(작품/에디션/매거진 등)는 제외
+        "exclude_slugs": {
+            "artworks", "editions", "koenig-magazine", "store-artworks",
+            "publications", "souvenirs", "events",
+        },
+    },
 }
 
-# Lehmann Maupin, Perrotin: 확인 결과 클라이언트 렌더링(SPA)이라 requests만으로는
-# 작가 목록을 못 긁음 — 헤드리스 브라우저 필요, 지금은 보류.
+# 확인했지만 크롤링하지 않기로 한 곳:
+# - Lehmann Maupin, Perrotin: 클라이언트 렌더링(SPA)이라 requests만으로는
+#   작가 목록을 못 긁음 — 헤드리스 브라우저로 별도 수집(정규 크롤러 경로 아님).
+# - Lisson Gallery: robots.txt가 `User-agent: GPTBot / Disallow: /`로 AI 봇을
+#   명시 차단 — 명확한 거부 시그널이라 제외.
+# - Gladstone Gallery: robots.txt 자체가 404(부재) — MMCA/일본 국립미술관과
+#   같은 애매한 상황이라 정책 판단 없이 크롤링하지 않고 후보로만 남겨둠.
 
 
 def crawl_gallery(key: str, delay: float, skip_existing: bool) -> int:
     cfg = GALLERIES[key]
     base, list_path, pattern = cfg["base"], cfg["list_path"], cfg["pattern"]
+    exclude_slugs = cfg.get("exclude_slugs") or set()
     site_name = f"gallery_{key}"
 
+    list_url = list_path if list_path.startswith("http") else base + list_path
     try:
-        html = _fetch(base + list_path)
+        html = _fetch(list_url)
     except requests.RequestException as exc:
         print(f"[galleries:{key}] 목록 페이지 조회 실패: {exc}")
         return 0
@@ -97,7 +139,8 @@ def crawl_gallery(key: str, delay: float, skip_existing: bool) -> int:
     for m in re.finditer(pattern, html, re.S):
         href, inner = m.group(1), m.group(2)
         name = _clean(inner)
-        if name and href not in seen:
+        slug = href.rstrip("/").rsplit("/", 1)[-1]
+        if name and href not in seen and slug not in exclude_slugs:
             seen[href] = name
 
     print(f"[galleries:{key}] 작가 {len(seen)}명 발견")
