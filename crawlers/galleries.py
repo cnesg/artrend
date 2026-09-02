@@ -144,8 +144,10 @@ GALLERIES: dict[str, dict] = {
 #   작가 목록을 못 긁음 — 헤드리스 브라우저로 별도 수집(정규 크롤러 경로 아님).
 # - Lisson Gallery: robots.txt가 `User-agent: GPTBot / Disallow: /`로 AI 봇을
 #   명시 차단 — 명확한 거부 시그널이라 제외.
-# - Gladstone Gallery: robots.txt 자체가 404(부재) — MMCA/일본 국립미술관과
-#   같은 애매한 상황이라 정책 판단 없이 크롤링하지 않고 후보로만 남겨둠.
+# - Gladstone Gallery: robots.txt 자체가 404(부재)였으나 MMCA/일본 국립미술관과
+#   같은 기준(명시적 차단 신호 없으면 진행)으로 수집 완료 — Gatsby SSG의
+#   page-data.json 엔드포인트를 직접 호출해 75명 확보(이 파일의 정규 크롤러
+#   경로 아님, pipeline/galleries.py GALLERY_INFO에 "gladstone"으로 등록됨).
 # - Taka Ishii Gallery, neugerriemschneider: robots.txt는 문제없으나 작가
 #   목록 페이지가 클라이언트 렌더링이라 requests로는 개별 작가 링크를 못 얻음
 #   (홈페이지/카테고리 페이지에 정적 링크가 아예 없음) — SPA로 판단, 제외.
