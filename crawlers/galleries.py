@@ -58,15 +58,23 @@ GALLERIES: dict[str, dict] = {
     },
     "gallery_hyundai": {
         "base": "https://www.galleryhyundai.com",
-        "list_path": "/artists",
-        "pattern": r'href="(/artists/[a-zA-Z0-9\-_/]+)"[^>]*>(.*?)</a>',
+        "list_path": "/artist/list",
+        "pattern": r'href="(/artist/view/[a-zA-Z0-9\-_/]+)"[^>]*>(.*?)</a>',
     },
     "arario": {"base": "https://www.arariogallery.com", "list_path": "/artists/", "pattern": ARTLOGIC_PATTERN},
     "ropac": {"base": "https://www.ropac.net", "list_path": "/artists/", "pattern": ARTLOGIC_PATTERN},
     "wooson": {"base": "https://www.woosongallery.com", "list_path": "/artists/", "pattern": ARTLOGIC_PATTERN},
     "gallery_baton": {"base": "https://www.gallerybaton.com", "list_path": "/artists/", "pattern": ARTLOGIC_PATTERN},
     "johyun": {"base": "https://www.johyungallery.com", "list_path": "/artists/", "pattern": ARTLOGIC_PATTERN},
+    "pace": {
+        "base": "https://www.pacegallery.com",
+        "list_path": "/artists/",
+        "pattern": r'href="(/artists/[a-zA-Z0-9\-_/]+/)"[^>]*>(.*?)</a>',
+    },
 }
+
+# Lehmann Maupin, Perrotin: 확인 결과 클라이언트 렌더링(SPA)이라 requests만으로는
+# 작가 목록을 못 긁음 — 헤드리스 브라우저 필요, 지금은 보류.
 
 
 def crawl_gallery(key: str, delay: float, skip_existing: bool) -> int:
