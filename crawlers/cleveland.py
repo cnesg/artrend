@@ -15,7 +15,7 @@ import time
 
 import requests
 
-from common import already_fetched, save_raw
+from common import already_fetched, save_raw, with_retry
 
 if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     sys.stdout.reconfigure(encoding="utf-8")
@@ -32,13 +32,20 @@ def crawl(limit: int, delay: float, skip_existing: bool) -> None:
     saved = 0
     skip = 0
     while saved < limit:
-        resp = requests.get(
-            f"{API_BASE}/artworks/",
-            params={"skip": skip, "limit": min(PAGE_SIZE, limit - saved)},
-            timeout=30,
-        )
-        resp.raise_for_status()
-        items = resp.json().get("data") or []
+        def _fetch_page():
+            resp = requests.get(
+                f"{API_BASE}/artworks/",
+                params={"skip": skip, "limit": min(PAGE_SIZE, limit - saved)},
+                timeout=30,
+            )
+            resp.raise_for_status()
+            return resp.json().get("data") or []
+
+        try:
+            items = with_retry(_fetch_page)
+        except requests.RequestException as exc:
+            print(f"[cleveland] skip={skip} 조회 실패, 중단: {exc}")
+            break
         if not items:
             break
 

@@ -17,7 +17,7 @@ import time
 
 import requests
 
-from common import already_fetched, save_raw
+from common import already_fetched, save_raw, with_retry
 
 if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     sys.stdout.reconfigure(encoding="utf-8")
@@ -32,22 +32,32 @@ ART_DEPARTMENT_IDS = [9, 11, 12, 15, 19, 21]
 
 
 def fetch_object_ids(department_id: int) -> list[int]:
-    resp = requests.get(f"{API_BASE}/objects", params={"departmentIds": department_id}, timeout=30)
-    resp.raise_for_status()
-    return resp.json().get("objectIDs") or []
+    def _do():
+        resp = requests.get(f"{API_BASE}/objects", params={"departmentIds": department_id}, timeout=30)
+        resp.raise_for_status()
+        return resp.json().get("objectIDs") or []
+
+    return with_retry(_do)
 
 
 def fetch_object(object_id: int) -> dict:
-    resp = requests.get(f"{API_BASE}/objects/{object_id}", timeout=30)
-    resp.raise_for_status()
-    return resp.json()
+    def _do():
+        resp = requests.get(f"{API_BASE}/objects/{object_id}", timeout=30)
+        resp.raise_for_status()
+        return resp.json()
+
+    return with_retry(_do)
 
 
 def crawl(limit: int, department_ids: list[int], delay: float, skip_existing: bool) -> None:
     object_ids: list[int] = []
     seen: set[int] = set()
     for dept_id in department_ids:
-        ids = fetch_object_ids(dept_id)
+        try:
+            ids = fetch_object_ids(dept_id)
+        except requests.RequestException as exc:
+            print(f"[met] 부서 {dept_id} 목록 조회 실패, 건너뜀: {exc}")
+            continue
         print(f"[met] 부서 {dept_id}: 오브젝트 {len(ids)}건 확인")
         for oid in ids:
             if oid not in seen:

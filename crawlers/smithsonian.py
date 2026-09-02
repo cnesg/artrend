@@ -16,7 +16,7 @@ import time
 
 import requests
 
-from common import already_fetched, save_raw
+from common import already_fetched, save_raw, with_retry
 
 if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     sys.stdout.reconfigure(encoding="utf-8")
@@ -54,18 +54,25 @@ def crawl(limit: int, query: str, units: list[str], delay: float, skip_existing:
     start = 0
     total = None
     while saved < limit:
-        resp = requests.get(
-            f"{API_BASE}/search",
-            params={
-                "q": q,
-                "api_key": api_key,
-                "rows": min(ROWS_PER_PAGE, limit - saved),
-                "start": start,
-            },
-            timeout=30,
-        )
-        resp.raise_for_status()
-        body = resp.json().get("response") or {}
+        def _fetch_page():
+            resp = requests.get(
+                f"{API_BASE}/search",
+                params={
+                    "q": q,
+                    "api_key": api_key,
+                    "rows": min(ROWS_PER_PAGE, limit - saved),
+                    "start": start,
+                },
+                timeout=30,
+            )
+            resp.raise_for_status()
+            return resp.json().get("response") or {}
+
+        try:
+            body = with_retry(_fetch_page)
+        except requests.RequestException as exc:
+            print(f"[smithsonian] start={start} 조회 실패, 중단: {exc}")
+            break
         if total is None:
             total = body.get("rowCount")
             print(f"[smithsonian] 검색 결과 총 {total}건 (쿼리: {q})")
