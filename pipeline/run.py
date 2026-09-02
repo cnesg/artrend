@@ -18,16 +18,25 @@ sys.stdout.reconfigure(line_buffering=True)
 import aic
 import cleveland
 import met
+import mmca
 import nga
+import smithsonian
 from db import get_connection
 from store import DryRunStore, PgStore
 
-LOADERS = {"met": met.load, "aic": aic.load, "cleveland": cleveland.load}
+LOADERS = {
+    "met": met.load,
+    "aic": aic.load,
+    "cleveland": cleveland.load,
+    "smithsonian": smithsonian.load,
+    "mmca": mmca.load,
+}
+ALL_SITES = ["met", "aic", "cleveland", "nga", "smithsonian", "mmca"]
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="아트그래프 raw -> DB 정규화 파이프라인")
-    parser.add_argument("--site", choices=["all", "met", "aic", "cleveland", "nga"], default="all")
+    parser.add_argument("--site", choices=["all", *ALL_SITES], default="all")
     parser.add_argument("--limit", type=int, default=None, help="nga 전용 — 처리할 최대 행 수")
     parser.add_argument("--dry-run", action="store_true", help="DB에 쓰지 않고 파싱 결과만 집계")
     args = parser.parse_args()
@@ -39,7 +48,7 @@ def main() -> None:
     else:
         store = PgStore(get_connection())
 
-    sites = ["met", "aic", "cleveland", "nga"] if args.site == "all" else [args.site]
+    sites = ALL_SITES if args.site == "all" else [args.site]
     for site in sites:
         if site == "nga":
             nga.load(store, limit=args.limit)

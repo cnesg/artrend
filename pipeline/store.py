@@ -93,9 +93,18 @@ class PgStore:
     def _flush_artists(self) -> None:
         if not self._pending_artists:
             return
-        cols = ["id", "name", "nationality", "birth_year", "death_year", "bio", "source_id"]
+        cols = ["id", "name", "name_en", "nationality", "birth_year", "death_year", "bio", "source_id"]
         rows = [
-            (aid, name, f.get("nationality"), f.get("birth_year"), f.get("death_year"), f.get("bio"), f.get("source_id"))
+            (
+                aid,
+                name,
+                f.get("name_en"),
+                f.get("nationality"),
+                f.get("birth_year"),
+                f.get("death_year"),
+                f.get("bio"),
+                f.get("source_id"),
+            )
             for aid, name, f in self._pending_artists
         ]
         execute_values(self.cur, f"insert into artists ({', '.join(cols)}) values %s", rows)
@@ -105,12 +114,13 @@ class PgStore:
         self._flush_artists()
         if not self._pending_artworks:
             return
-        cols = ["id", "artist_id", "title", "year_created", "medium", "dimensions", "description", "source_id"]
+        cols = ["id", "artist_id", "title", "title_en", "year_created", "medium", "dimensions", "description", "source_id"]
         rows = [
             (
                 aid,
                 f.get("artist_id"),
                 f.get("title"),
+                f.get("title_en"),
                 f.get("year_created"),
                 f.get("medium"),
                 f.get("dimensions"),

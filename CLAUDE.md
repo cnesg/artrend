@@ -44,13 +44,14 @@ docs/            설계 문서 — 아래 "읽어야 할 문서" 참고
 - `cleveland.py` — Cleveland Museum of Art API, 테스트 완료
 - `nga.py` — National Gallery of Art CSV 덤프. `objects.csv`는 provenance 필드에 줄바꿈 포함이라 `wc -l`로는 28만 행처럼 보이지만 실제 레코드는 **145,658건** — DB 적재 완료 (아래 파이프라인 상태 참고)
 - `smithsonian.py` — Smithsonian Open Access API. `SMITHSONIAN_API_KEY`는 `crawlers/.env`에 저장(git 추적 안 됨). 유물/과학표본 제외하고 미술 소장 부서만(`ART_UNITS`: SAAM/HMSG/NPG/CHNDM/FSG/NMAfA) 필터링 — **83,386건 전체 수집 완료** (2026-09-02)
-- `mmca.py` — 국립현대미술관. 공식 API가 없어 소장품 검색 페이지가 쓰는 내부 JSON 엔드포인트(`/collections/AjaxCollectionsList.do`)를 그대로 이용. robots.txt(2026-09-02 확인)는 `/pr/collectionsGuideList.do` 등 일부만 막고 이 엔드포인트는 허용 — 총 11,764건, 전체 수집 진행 중. 이미지 저작권은 레코드별 `copyrightAllowYn` 필드로 개별 확인 필요
+- `mmca.py` — 국립현대미술관. 공식 API가 없어 소장품 검색 페이지가 쓰는 내부 JSON 엔드포인트(`/collections/AjaxCollectionsList.do`)를 그대로 이용. robots.txt(2026-09-02 확인)는 `/pr/collectionsGuideList.do` 등 일부만 막고 이 엔드포인트는 허용 — **11,749건 전체 수집 완료** (2026-09-02). 이미지 저작권은 레코드별 `copyrightAllowYn` 필드로 개별 확인 필요
 - `common.py` — 공통 저장 유틸. `save_raw`가 `raw/<site>/<id>.json` + `<id>.meta.json` 쌍으로 저장, `with_retry`가 지수 백오프 재시도 담당 (대량 수집 중 타임아웃 한 번에 프로세스 전체가 죽는 문제 겪고 추가함)
 
 **스켈레톤만 존재, 미완성**:
-- `emuseum.py` — 국립중앙박물관 e뮤지엄 API. **API 키 발급 보류 중** (사용자 판단으로 일단 미착수 유지). 키 발급되면 TODO 2곳(엔드포인트, 응답 파싱 경로)만 채우면 됨.
+- `emuseum.py` — 방치. 아래 "제외 결정" 참고.
 
-**제외 결정** (2026-09-02, robots.txt 재확인 후 확정):
+**제외 결정** (2026-09-02, robots.txt 재확인/스코프 재검토 후 확정):
+- **e뮤지엄 / 공공데이터포털 "20개 기관 통합 유물정보" API** — **완전 중단**. 이름 그대로 유물(문화재) 전반(도자기·불상·공예품·고문서 등) 데이터라 프로젝트 스코프(미술품)와 어긋남. 지금까지 확보한 6개 소스(Met/AIC/Cleveland/NGA/Smithsonian/MMCA)만으로도 약 45만 건 규모라 안 채워도 무방. `crawlers/.env`의 `SMITHSONIAN_API_KEY`는 유지, e뮤지엄 키는 발급 신청 자체를 하지 않기로 함.
 - **Gagosian** — robots.txt에 `Content-Signal: ai-train=no` + `ClaudeBot`/`GPTBot`/`CCBot`/`Bytespider` 등 AI 봇을 이름으로 명시 차단. 명확한 거부 시그널이라 제외.
 - **Hauser & Wirth** — robots.txt 요청 자체가 Vercel 봇 차단(Security Checkpoint)에 막혀 429 응답. 우회는 ToS 위반 소지가 커서 제외.
 
@@ -66,7 +67,6 @@ raw JSON/CSV → `db/migrations/0001_init_schema.sql` 스키마로 정규화하�
 
 ## 사용자 개입이 필요한 항목 (막혀서 못 넘어간 것들)
 
-- **e뮤지엄 API 키 발급** — data.go.kr 계정 필요, 현재 보류 중
 - **다른 사유 갤러리(Pace, David Zwirner, White Cube, 국내 국제갤러리·PKM·갤러리현대 등) robots.txt/ToS 개별 확인** — Gagosian/Hauser & Wirth는 판정 완료(둘 다 제외), 나머지는 미조사
 
 ## 작업 스타일 메모
