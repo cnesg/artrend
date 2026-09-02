@@ -19,6 +19,8 @@ GALLERY_INFO: dict[str, tuple[str, str, str]] = {
     "gallery_baton": ("갤러리바톤 (Gallery Baton)", "서울", "대한민국"),
     "johyun": ("조현화랑 (Johyun Gallery)", "부산", "대한민국"),
     "pace": ("페이스갤러리 (Pace Gallery)", "뉴욕", "미국"),
+    "lehmannmaupin": ("리만머핀 (Lehmann Maupin)", "뉴욕", "미국"),
+    "perrotin": ("페로탕 (Perrotin)", "파리", "프랑스"),
 }
 
 
