@@ -27,6 +27,7 @@ GALLERY_INFO: dict[str, tuple[str, str, str]] = {
     "spruethmagers": ("스프루스마거스 (Sprüth Magers)", "베를린", "독일"),
     "victoriamiro": ("빅토리아미로 (Victoria Miro)", "런던", "영국"),
     "koeniggalerie": ("쾨니히갤러리 (König Galerie)", "베를린", "독일"),
+    "gladstone": ("글래드스톤갤러리 (Gladstone Gallery)", "뉴욕", "미국"),
 }
 
 
