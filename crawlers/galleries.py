@@ -137,6 +137,14 @@ GALLERIES: dict[str, dict] = {
             "publications", "souvenirs", "events",
         },
     },
+    "leeahn": {
+        # HTTPS 인증서가 깨져 있음(SSLCertVerificationError, CN 불일치) — 사이트
+        # 자체는 정상 운영 중이고 HTTP는 정상 응답해서 http로 접속. robots.txt는
+        # 특정 SEO봇만 차단, AI봇 차단 없음.
+        "base": "http://www.leeahngallery.com/artists",
+        "list_path": "/list",
+        "pattern": r'href="\.(/view\?wm_id=\d+)"[^>]*>(.*?)</a>',
+    },
 }
 
 # 확인했지만 크롤링하지 않기로 한 곳:

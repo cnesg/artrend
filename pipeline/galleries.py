@@ -33,6 +33,7 @@ GALLERY_INFO: dict[str, tuple[str, str, str]] = {
     "estherschipper": ("에스더쉬퍼 (Esther Schipper)", "베를린", "독일"),
     "maxhetzler": ("막스헤츨러갤러리 (Galerie Max Hetzler)", "베를린", "독일"),
     "otafinearts": ("오타파인아츠 (Ota Fine Arts)", "도쿄", "일본"),
+    "leeahn": ("리안갤러리 (Leeahn Gallery)", "대구", "대한민국"),
 }
 
 
