@@ -1,12 +1,20 @@
 """정규화 적재 대상 저장소.
 
-PgStore: 실제 Supabase Postgres에 적재.
+PgStore: 실제 Supabase Postgres에 적재. artworks/museum_holdings/artists는
+개별 INSERT가 아니라 execute_values로 배치 처리한다 (NGA 28만 행을 원격 DB에
+한 행씩 왕복하면 감당 못 할 정도로 느려서 — id는 클라이언트에서 uuid로 미리
+생성해 FK 참조를 즉시 반환하고, 실제 INSERT는 버퍼가 차면 몰아서 실행).
 DryRunStore: DB 연결 없이 파싱 결과만 집계 — Supabase 프로젝트 생성 전 검증용.
 사이트별 로더(met.py 등)는 이 인터페이스만 보고 작성한다.
 """
 from __future__ import annotations
 
+import uuid
 from typing import Any
+
+from psycopg2.extras import execute_values
+
+BATCH_SIZE = 500
 
 
 class PgStore:
@@ -14,7 +22,10 @@ class PgStore:
         self.conn = conn
         self.cur = conn.cursor()
         self._museum_cache: dict[str, str] = {}
-        self._artist_cache: dict[str, str] = {}
+        self._artist_cache: dict[str, str] | None = None  # lazy: name -> id
+        self._pending_artists: list[tuple[str, str, dict]] = []
+        self._pending_artworks: list[tuple[str, dict]] = []
+        self._pending_holdings: list[tuple[str, dict]] = []
 
     def source_already_loaded(self, raw_path: str) -> bool:
         self.cur.execute("select id from sources where raw_path = %s limit 1", (raw_path,))
@@ -46,44 +57,92 @@ class PgStore:
         self._museum_cache[name] = museum_id
         return museum_id
 
+    def _ensure_artist_cache(self) -> None:
+        if self._artist_cache is not None:
+            return
+        self.cur.execute("select name, id from artists")
+        self._artist_cache = {name: str(aid) for name, aid in self.cur.fetchall()}
+
     def get_or_create_artist(self, name: str | None, **fields: Any) -> str | None:
         if not name:
             return None
+        self._ensure_artist_cache()
         if name in self._artist_cache:
             return self._artist_cache[name]
-        self.cur.execute("select id from artists where name = %s limit 1", (name,))
-        row = self.cur.fetchone()
-        if row is None:
-            cols = ["name", *fields.keys()]
-            vals = [name, *fields.values()]
-            placeholders = ", ".join(["%s"] * len(vals))
-            self.cur.execute(
-                f"insert into artists ({', '.join(cols)}) values ({placeholders}) returning id",
-                vals,
-            )
-            row = self.cur.fetchone()
-        artist_id = str(row[0])
-        self._artist_cache[name] = artist_id
-        return artist_id
+        new_id = str(uuid.uuid4())
+        self._pending_artists.append((new_id, name, fields))
+        self._artist_cache[name] = new_id
+        return new_id
 
     def insert_artwork(self, **fields: Any) -> str:
-        cols = list(fields.keys())
-        placeholders = ", ".join(["%s"] * len(cols))
-        self.cur.execute(
-            f"insert into artworks ({', '.join(cols)}) values ({placeholders}) returning id",
-            list(fields.values()),
-        )
-        return str(self.cur.fetchone()[0])
+        new_id = str(uuid.uuid4())
+        self._pending_artworks.append((new_id, fields))
+        if len(self._pending_artworks) >= BATCH_SIZE:
+            self._flush_artworks()
+        return new_id
 
     def insert_museum_holding(self, **fields: Any) -> None:
-        cols = list(fields.keys())
-        placeholders = ", ".join(["%s"] * len(cols))
-        self.cur.execute(
-            f"insert into museum_holdings ({', '.join(cols)}) values ({placeholders})",
-            list(fields.values()),
-        )
+        new_id = str(uuid.uuid4())
+        self._pending_holdings.append((new_id, fields))
+        if len(self._pending_holdings) >= BATCH_SIZE:
+            self._flush_holdings()
+            # 배치마다 커밋 — 대량 로드를 하나의 트랜잭션으로 묶으면 pooler가
+            # 중간에 끊었을 때 전부 롤백되고, 끝나기 전까지 진행 상황도 볼 수 없다.
+            self.conn.commit()
+
+    def _flush_artists(self) -> None:
+        if not self._pending_artists:
+            return
+        cols = ["id", "name", "nationality", "birth_year", "death_year", "bio", "source_id"]
+        rows = [
+            (aid, name, f.get("nationality"), f.get("birth_year"), f.get("death_year"), f.get("bio"), f.get("source_id"))
+            for aid, name, f in self._pending_artists
+        ]
+        execute_values(self.cur, f"insert into artists ({', '.join(cols)}) values %s", rows)
+        self._pending_artists.clear()
+
+    def _flush_artworks(self) -> None:
+        self._flush_artists()
+        if not self._pending_artworks:
+            return
+        cols = ["id", "artist_id", "title", "year_created", "medium", "dimensions", "description", "source_id"]
+        rows = [
+            (
+                aid,
+                f.get("artist_id"),
+                f.get("title"),
+                f.get("year_created"),
+                f.get("medium"),
+                f.get("dimensions"),
+                f.get("description"),
+                f.get("source_id"),
+            )
+            for aid, f in self._pending_artworks
+        ]
+        execute_values(self.cur, f"insert into artworks ({', '.join(cols)}) values %s", rows)
+        self._pending_artworks.clear()
+
+    def _flush_holdings(self) -> None:
+        self._flush_artworks()
+        if not self._pending_holdings:
+            return
+        cols = ["id", "museum_id", "artwork_id", "accession_number", "acquisition_date", "source_id"]
+        rows = [
+            (
+                hid,
+                f.get("museum_id"),
+                f.get("artwork_id"),
+                f.get("accession_number"),
+                f.get("acquisition_date"),
+                f.get("source_id"),
+            )
+            for hid, f in self._pending_holdings
+        ]
+        execute_values(self.cur, f"insert into museum_holdings ({', '.join(cols)}) values %s", rows)
+        self._pending_holdings.clear()
 
     def commit(self) -> None:
+        self._flush_holdings()
         self.conn.commit()
 
 

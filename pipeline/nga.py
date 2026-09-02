@@ -99,6 +99,8 @@ def load(store, limit: int | None = None) -> int:
                 source_id=objects_source_id,
             )
             loaded += 1
+            if loaded % 5000 == 0:
+                print(f"[pipeline:nga] {loaded}건 진행 중...", flush=True)
 
     store.commit()
     print(f"[pipeline:nga] {loaded}건 적재")
