@@ -47,13 +47,21 @@ def load(store) -> int:
             if row.get("Department") not in ART_DEPARTMENTS:
                 continue
 
-            artist_name = (row.get("Artist Display Name") or "").strip() or None
+            # Met CSV는 작가가 여럿인 오브젝트(주로 판화)를 "|"로 구분해 병렬
+            # 배열로 담는다(Artist Display Name/Nationality/Begin Date/...가
+            # 전부 같은 순서로 "|" 분리됨) — 스키마가 artworks.artist_id 단일
+            # FK라 전원을 다 못 담으므로, Met 컨벤션대로 첫 번째(주작가)만 취함.
+            artist_name = (row.get("Artist Display Name") or "").split("|")[0].strip() or None
+            nationality = (row.get("Artist Nationality") or "").split("|")[0].strip() or None
+            begin_date = (row.get("Artist Begin Date") or "").split("|")[0].strip()
+            end_date = (row.get("Artist End Date") or "").split("|")[0].strip()
+            bio = (row.get("Artist Display Bio") or "").split("|")[0].strip() or None
             artist_id = store.get_or_create_artist(
                 artist_name,
-                nationality=(row.get("Artist Nationality") or None),
-                birth_year=to_int((row.get("Artist Begin Date") or "").strip()),
-                death_year=to_int((row.get("Artist End Date") or "").strip()),
-                bio=(row.get("Artist Display Bio") or None),
+                nationality=nationality,
+                birth_year=to_int(begin_date),
+                death_year=to_int(end_date),
+                bio=bio,
                 source_id=source_id,
             )
 

@@ -16,15 +16,28 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
 sys.stdout.reconfigure(line_buffering=True)
 
 import aic
+import auctions
+import barnes
+import bonhams
 import cleveland
+import europeana
 import galleries
+import getty
+import getty_provenance_sales
+import japan_museums
+import louvre
+import mia
+import walters
 import met
 import mmca
 import moma
 import nga
+import rijksmuseum
 import smithsonian
 import smk
 import tate
+import wikidata_museums
+import vam
 from db import get_connection
 from store import DryRunStore, PgStore
 
@@ -38,8 +51,26 @@ LOADERS = {
     "galleries": galleries.load,
     "moma": moma.load,
     "tate": tate.load,
+    "louvre": louvre.load,
+    "rijksmuseum": rijksmuseum.load,
+    "wikidata_museums": wikidata_museums.load,
+    "japan_museums": japan_museums.load,
+    "getty": getty.load,
+    "barnes": barnes.load,
+    "walters": walters.load,
+    "mia": mia.load,
+    "auctions": auctions.load,
+    "vam": vam.load,
+    "getty_provenance_sales": getty_provenance_sales.load,
+    "europeana": europeana.load,
+    "bonhams": bonhams.load,
 }
-ALL_SITES = ["met", "aic", "cleveland", "nga", "smithsonian", "mmca", "smk", "galleries", "moma", "tate"]
+ALL_SITES = [
+    "met", "aic", "cleveland", "nga", "smithsonian", "mmca", "smk", "galleries",
+    "moma", "tate", "louvre", "rijksmuseum", "wikidata_museums", "japan_museums",
+    "getty", "barnes", "walters", "mia", "auctions", "vam", "getty_provenance_sales",
+    "europeana", "bonhams",
+]
 
 
 def main() -> None:
