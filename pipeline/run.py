@@ -19,12 +19,15 @@ import aic
 import auctions
 import barnes
 import bonhams
+import busan_art_museum
 import cleveland
 import europeana
 import galleries
 import getty
 import getty_provenance_sales
+import gmoma
 import japan_museums
+import leeum
 import louvre
 import mia
 import walters
@@ -32,7 +35,9 @@ import met
 import mmca
 import moma
 import nga
+import pinault
 import rijksmuseum
+import sema
 import smithsonian
 import smk
 import tate
@@ -64,12 +69,17 @@ LOADERS = {
     "getty_provenance_sales": getty_provenance_sales.load,
     "europeana": europeana.load,
     "bonhams": bonhams.load,
+    "sema": sema.load,
+    "busan_art_museum": busan_art_museum.load,
+    "gmoma": gmoma.load,
+    "leeum": leeum.load,
+    "pinault": pinault.load,
 }
 ALL_SITES = [
     "met", "aic", "cleveland", "nga", "smithsonian", "mmca", "smk", "galleries",
     "moma", "tate", "louvre", "rijksmuseum", "wikidata_museums", "japan_museums",
     "getty", "barnes", "walters", "mia", "auctions", "vam", "getty_provenance_sales",
-    "europeana", "bonhams",
+    "europeana", "bonhams", "sema", "busan_art_museum", "gmoma", "leeum", "pinault",
 ]
 
 

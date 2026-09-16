@@ -84,10 +84,16 @@ def fetch_record(sakuhin_id: str) -> str:
     return with_retry(_do)
 
 
-def collect_sakuhin_ids(delay: float) -> list[str]:
-    """작가 요미 색인을 순회해 전체 작품 ID를 모은다(작가 단위 중복 방지)."""
+def collect_sakuhin_ids(delay: float) -> tuple[list[str], bool]:
+    """작가 요미 색인을 순회해 전체 작품 ID를 모은다(작가 단위 중복 방지).
+
+    반환값 두 번째 항목은 KANA_LIST를 전부 순회했는지 여부 — 외부 요인으로
+    루프 중간에 프로세스가 exit code 0으로 조용히 끝나버리는 사례가 있어서
+    (2026-09-08, 46개 중 20개만 처리하고 종료) 호출부에서 "진짜 완주했는지"를
+    확인할 수 있게 명시적으로 넘긴다."""
     sakuhin_ids: set[str] = set()
     seen_sakka: set[str] = set()
+    completed_kana = 0
 
     for kana in KANA_LIST:
         html = fetch_yomi_page(kana)
@@ -105,14 +111,21 @@ def collect_sakuhin_ids(delay: float) -> list[str]:
             sakuhin_ids.update(ids)
             time.sleep(delay)
 
-        print(f"[japan_museums] 요미 '{kana}' 처리 완료 — 누적 작품 {len(sakuhin_ids)}건, 작가 {len(seen_sakka)}명")
+        completed_kana += 1
+        print(f"[japan_museums] 요미 '{kana}' 처리 완료 — 누적 작품 {len(sakuhin_ids)}건, 작가 {len(seen_sakka)}명 ({completed_kana}/{len(KANA_LIST)})")
         time.sleep(delay)
 
-    return sorted(sakuhin_ids, key=int)
+    return sorted(sakuhin_ids, key=int), completed_kana == len(KANA_LIST)
 
 
 def crawl(limit: int, delay: float, skip_existing: bool) -> None:
-    sakuhin_ids = collect_sakuhin_ids(delay)
+    sakuhin_ids, index_complete = collect_sakuhin_ids(delay)
+    if not index_complete:
+        print(
+            f"[japan_museums] 경고: 요미 색인을 끝까지 순회하지 못하고 중단됨 — "
+            f"작품 ID {len(sakuhin_ids)}건만 확보한 상태로 저장을 시도함. "
+            f"이 실행 결과를 '완료'로 간주하지 말 것, 재실행 필요."
+        )
     print(f"[japan_museums] 작품 ID 총 {len(sakuhin_ids)}건 확인, 저장 시작")
 
     saved = 0
