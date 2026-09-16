@@ -60,7 +60,7 @@ def load(store) -> int:
                 artist_name,
                 nationality=nationality,
                 birth_year=to_int(begin_date),
-                death_year=to_int(end_date),
+                death_year=(lambda y: None if y is not None and y >= 9000 else y)(to_int(end_date)),  # Met은 생존 작가 End Date를 9999로 표기 (2026-09-16, 2,290행 NULL 처리)
                 bio=bio,
                 source_id=source_id,
             )

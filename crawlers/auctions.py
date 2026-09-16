@@ -122,8 +122,16 @@ def crawl(type_key: str, skip_existing: bool) -> None:
     saved = 0
     for row in bindings:
         stmt_uri = row["stmt"]["value"]
-        # statement URI 끝의 GUID를 레코드 id로 사용 — 같은 작품이 여러 번 경매에 나온 경우도 구분됨
-        record_id = f"{type_key}_" + stmt_uri.rsplit("/", 1)[-1].replace("$", "_")
+        # statement URI 끝의 "QID-GUID"를 레코드 id로 그대로 쓴다(2026-09-16 수정 —
+        # 예전엔 f"{type_key}_" 접두사를 붙였는데, 한 작품이 두 미술유형 범주의
+        # instance-of를 동시에 만족하면(예: painting이자 self_portrait) 완전히
+        # 같은 statement가 두 범주 질의에 모두 걸려서 접두사만 다른 별개 파일로
+        # 중복 저장됐다 — already_fetched가 파일명 전체로 비교하다 보니 이미 저장된
+        # 걸 못 알아챔. QID-GUID는 statement 자체의 고유 식별자라 접두사 없이도
+        # "같은 작품이 여러 번 경매에 나온 정상 케이스"(다른 GUID)는 그대로 각각
+        # 구분되고, "같은 statement 중복 크롤"(같은 GUID)만 제대로 스킵된다.
+        # art_type은 record 내용에는 그대로 남아있어 유실 없음(하단 참고).
+        record_id = stmt_uri.rsplit("/", 1)[-1].replace("$", "_")
 
         if skip_existing and already_fetched(site_name, record_id):
             continue
