@@ -1,0 +1,21 @@
+-- 0004_drop_artist_market_metrics.sql
+-- 2026-09-15 작업분담 §W2: artist_market_metrics 삭제.
+--
+-- 이 테이블(및 그 record_price_usd/total_turnover_usd 등 컬럼)은
+-- auction_lots.price_usd에 의존하는데, price_usd 상당수가 역사 통화
+-- (18~19세기 유럽 경매: livres/francs/Reichsmark/Dutch guilders 등)를
+-- 임의 근사 환율로 환산했거나, 통화 미상 로트를 "USD로 간주"해 채운
+-- 값이라 실제 시장가치와 무관하다 (진단: docs/mia... 아님,
+-- C:\Users\CNCITY\.claude\plans\jiggly-mixing-summit.md §3-2-6 참고).
+--
+-- pipeline/nullify_historical_price_usd.py로 price_usd/estimate_*_usd를
+-- 먼저 정리한 뒤, 이 테이블은 통째로 제거한다. 필요해지면 정리된
+-- auction_lots.price_usd 기준으로 뷰(view)로 재도입할 수 있다 — 지금은
+-- 재생성하지 않는다.
+--
+-- pipeline/build_curated_vault.py, pipeline/enrich_artist_bios.py는 이 테이블
+-- 조회를 try/except로 감싸 폴백(빈 dict) 처리하도록 같은 날 수정됨.
+-- pipeline/enrich_auction_db.py는 이 테이블을 재생성하는 원 스크립트이므로,
+-- 재실행 시 테이블이 다시 생기고 재적재된다 — 재실행 전 반드시 확인할 것.
+
+drop table if exists artist_market_metrics cascade;

@@ -101,6 +101,9 @@ GALLERY_INFO: dict[str, tuple[str, str, str]] = {
     "athrart": ("아쓰르갤러리 (Athr Gallery)", "제다", "사우디아라비아"),
     "goodmangallery": ("굿맨갤러리 (Goodman Gallery)", "요하네스버그", "남아프리카공화국"),
     "roslynoxley9": ("로슬린옥슬리9 (Roslyn Oxley9 Gallery)", "시드니", "호주"),
+    "takaishii": ("타카이시이갤러리 (Taka Ishii Gallery)", "도쿄", "일본"),
+    "simon": ("갤러리시몬 (Gallery Simon)", "서울", "대한민국"),
+    "pyo": ("표갤러리 (Pyo Gallery)", "서울", "대한민국"),
 }
 
 
