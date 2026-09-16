@@ -1,0 +1,2820 @@
+[
+  {
+    "keep_id": "df85068a-7061-4639-9e0a-b38243a2f133",
+    "keep_name": "Francis Bedford",
+    "dupes": [
+      {
+        "id": "b3d35c58-527d-40e3-919f-319c2893d7df",
+        "name": "Francis Bedmore",
+        "reasoning": "웹서치: 'Francis Bedmore'라는 독립 화가/사진가 기록을 찾지 못함. Francis Bedford(1815-1894)는 매우 유명한 영국 사진가로 풍부하게 문서화됨 - 대량 소스에서 반복된 OCR/전사 오류로 추정. 확신도는 중간."
+      }
+    ],
+    "moved_artwork_ids": [
+      "016521e1-5ca1-401a-bdce-0c36229ab49b",
+      "7202014f-00d4-498d-a929-f0111878da41",
+      "f600ec07-f33a-4a5e-97bf-d7bf8b871048",
+      "486b08a5-c17a-4f38-99b6-b3cef9887121",
+      "77d10588-2074-4846-aeec-a252e535eb1b",
+      "c12d5819-e1a7-49c0-8ef1-9f5ba96e91a6",
+      "432761e1-dd90-41e4-8bdd-0610c5b6e4c2",
+      "6977c896-8806-4014-9d74-f2f28f240e38",
+      "e5cb88f3-0be9-4d31-a62e-23c49c88b0c1",
+      "87656fb5-79c3-471d-b27f-edda60a59f2f",
+      "430d48f6-674d-49b6-9e2e-39dad88817a5",
+      "e20a094e-4e8a-414c-ba1e-e66555901f31",
+      "a6f0b9c2-5814-4769-a84f-be99f1fee022",
+      "58448389-0edb-4344-98da-84e3aadea694",
+      "26011758-6fea-46ce-8763-1c9c9e16e712",
+      "e6654edb-8581-4dd2-84d3-9b80b84466d9",
+      "512d9779-398c-4d13-bd29-b5a4f8e16efe",
+      "c51c1b26-3896-4f31-82b2-bb66035d1f96",
+      "e006b32d-3b89-4d25-92da-679f0a6d418f",
+      "096268f1-959f-49cb-9d81-170fbde3153e",
+      "bd6ac0ef-1fc8-4547-a9ba-f326e3693a90",
+      "8bafdf61-04d1-4af4-80ce-8c7e712f031e",
+      "265689f8-66fa-43fb-a5ea-f6e95643f53d",
+      "443af0e3-c407-4576-8e50-354132ed77ab",
+      "7f2f44c0-7f44-48a8-9f4c-e757d0e49b05",
+      "6208e428-e791-4b95-a2d1-496d5a0c5b7b",
+      "4eec2dde-fc2a-41a1-9467-e84147d23373",
+      "b0b7e941-b96c-4707-9c6c-6a3f79d3dee7",
+      "c49edb93-c81d-49e4-ae69-564787e07ba3",
+      "20395d6f-69c0-4e6e-b872-50a45b8b860e",
+      "273a3926-6d64-47a4-a2c5-6c3e076af3e6",
+      "8455314c-e56b-4030-8425-ee7bd41da60b",
+      "5b77a0f3-7ae1-4d62-acbf-430a54c8ae6e",
+      "cdd5a91c-b5be-46da-9661-3eda6f0f4076",
+      "e377dcb3-5322-4568-8f05-f132550ba594",
+      "1ef6fc30-f019-4daa-af16-4458a39312a9",
+      "712dd83b-03ee-46be-b07b-e0b16fe0f245",
+      "a75aa2ea-4117-4f7b-bbc7-c75ff78ff517",
+      "e831ae4a-86df-4693-92d1-48bce4334565",
+      "3a597db6-bed4-4555-a723-59c4722dffae",
+      "64405c12-7072-43af-992c-b446135d8e2f",
+      "1cdab461-4105-4c4b-8905-b2e3d3dc97d3",
+      "5d6a0298-5adf-4d4e-9d56-bcaf58f3d0f6",
+      "975289f0-75f8-46bc-b534-ecb678de0093",
+      "ece3893d-040b-4c44-8da5-df03f20f26a8",
+      "430005a5-b146-42a4-9f84-451d08d43f06",
+      "1da67bf2-9011-4993-8945-4f9368841133",
+      "f25e38b9-e14e-448a-acfe-4286521e03ed",
+      "f2c3b4e7-8e7f-4d3a-9b22-f5e2c6cae37f",
+      "7c3e3d5a-243e-4afe-8afd-af3d33912f2a",
+      "2b286854-dd71-4897-a531-d3ff9f7352bd",
+      "ce7ed963-1db0-4e14-99a4-18c2c0fd8b55",
+      "a03d4a11-228a-4468-b6e4-e1133d41f58e",
+      "9e53c87e-75b5-44f6-9cdc-1b1a8601bac1",
+      "4cec2fb2-3646-45ce-b01f-09ff3cc5957f",
+      "9139bd80-4133-4dfd-b7b9-90c3e9b03632",
+      "5e660837-0bbb-42b9-b180-80c628b23ec4",
+      "bd8ae1a4-86d1-4d85-9b8a-a2519644dc3a",
+      "c06f2740-d56e-40a1-8f20-c67ecb817a9d",
+      "62c97001-cd03-4366-9534-6987ef2243a4",
+      "b16cf561-8e74-44a3-9eb1-f6bd27dc2b6e",
+      "e1c7bf83-9da0-47ac-8276-0770a8216652",
+      "ab2434f2-93ad-4faf-bf0a-816db8e3ceec",
+      "f2efd3e4-5f92-4c93-94c8-6ab47cddc49a",
+      "486710f4-09d1-4d99-8796-6702fed9f59a",
+      "a48969b4-1f86-4da1-8cbe-2fd415b4c785",
+      "2932050b-873c-463a-856c-fb6f9e76d777",
+      "b5c6ffda-535a-4b04-9a2d-34bbe16a8a1e",
+      "7a43000c-b494-42ad-b12c-92a0c4097deb",
+      "57851e80-8bb5-4ff3-9a6e-1ca36f8bdbb7",
+      "6042bd5a-0198-4fe2-baf1-578568113d7d",
+      "2b31b1a5-7047-4c2a-881b-eb386b288273",
+      "842d4b32-c02a-4d7b-a795-820953b2e83f",
+      "423818ec-98df-45e3-a91d-5000f87ee790",
+      "b6af4a74-ce85-43d3-92f7-323967efc5d3",
+      "58cd25a7-cbd2-4448-aebb-4c07892e5eae",
+      "698b9a4c-d16b-4d8b-8db4-930bf35c12d5",
+      "060d0396-bba2-4e5a-95c3-c3719e6dd21b",
+      "49c654f7-a388-4931-8899-762c61fca4f2",
+      "10bd7b7b-5a16-47c7-8678-e06d810e76fa",
+      "a381612a-4bc5-4a09-85f2-3672262ad3f5",
+      "c5103919-5ce4-4b9b-956e-e85c14d863b6",
+      "9aa2bce5-c192-4b0a-975d-ffbc5bac82b0",
+      "45f0f030-0e39-45f6-823e-42e50a93d72a",
+      "9614e126-0572-40b4-9bfb-180763373559",
+      "ced254a4-a173-4da5-94a9-ff39511ef305",
+      "0125ec69-d0ac-42be-8b81-3362da54e1c3",
+      "fa9308f4-4746-4a67-b253-3987c9c45a3f",
+      "861263dd-6d6b-4ff7-bb04-b9fa1cb8b7fb",
+      "85aa2319-41e1-47a7-803c-79f86f475a86",
+      "927edcc8-f9f2-43a5-9f5c-02befcb79336",
+      "dbd947de-0dee-4618-9b5c-a281929b0e4f",
+      "beb70572-08d8-49a5-b1ec-7a90f2d4b9cc",
+      "4c0896a0-f1fc-41ad-9cd1-6a05d51da954",
+      "59ec08ad-1132-443f-9fcb-aed479f188b9",
+      "4e2f9722-78ca-44b1-9626-8193ad17db44",
+      "8221c274-f784-48eb-ae71-e6f9ecb18c25",
+      "4be10de6-d2e4-4c85-8601-db8db071c19c",
+      "c19b416d-12f9-4ae0-aa43-b59f61904604",
+      "10b88092-03c9-4183-923e-453a29849ba1",
+      "7d582dce-9cc0-4ac7-9a10-9e2aafdc8d59",
+      "14efb070-ddeb-4b86-bb7b-ecc43233c33a",
+      "885a7e7d-b20b-4427-bd1b-fa5b1ab4eb65",
+      "55332564-00f7-4164-9815-0cb850676488",
+      "e115c536-d299-4e1f-8fe4-58b851f72343",
+      "8b48848f-96bf-46cf-9242-d750a6888502",
+      "6187ee73-b67b-4886-ae1c-c16023979441",
+      "00053982-3167-4977-8728-0785f655039c",
+      "e9861e43-fadc-478d-808f-c2555e9679af",
+      "89af741b-050b-4887-9c09-605b6da255f9",
+      "4e8ace27-7d2f-4643-b0ec-4913a05ed39f",
+      "fcdc8113-8285-4310-8040-14edf62e9b0d",
+      "754b2b64-7b91-43f2-a324-fea3e8d5e88b",
+      "cda4b444-9e35-46d4-a718-a78558cc5d4a",
+      "c31de801-8a92-4c6b-af5c-753feb0733f4",
+      "c457b68a-b6e8-483b-a320-0378523c7705",
+      "94726b5a-922a-410a-b616-a551e51a99d3",
+      "dca45653-3705-4f85-aec1-5a3ecc7f1075",
+      "c0fd1ba5-622f-4bed-9f63-4947c43c6bf0",
+      "3f49e224-5eb7-4c3d-b03e-6d0e84c47847",
+      "12d9458c-d733-4593-a192-25923224760d",
+      "0941e1fa-87f0-4906-89b8-93864ad32329",
+      "355dd7f3-e8fc-4611-a57f-b64bd971c26e",
+      "b278c2a1-7e34-44de-9b6a-13a8a4d36899",
+      "e64ab873-f1ed-42dd-9491-3d569c0c35d4",
+      "dd93329e-3ec2-431e-b3d6-6123d66a1872",
+      "6b63e989-21fc-4d00-8900-431ec09095ed",
+      "5c1304c5-21d9-4b0a-80ce-539fab3371bd",
+      "f7fb514c-0d9b-4b00-9f9c-9f9f1c0a9351",
+      "f1fa27f5-abf5-44c6-8ab7-1bca2b84d8d8",
+      "6eacb2fe-e4da-402b-b6f6-d122c28c8403",
+      "b1de814e-7c6d-41ea-a7a7-4ff6b0e699b1",
+      "55c43ab2-4f8a-4d30-9f7e-9e0773602318",
+      "efaa43fd-1c63-4fc2-a9a3-b4a1440e4776",
+      "69c0afa6-4c2a-40b0-afc2-3edcdcf1e3b7",
+      "af81939a-71df-4dca-9b45-b53f7cfc8da4",
+      "1496f747-619d-48ed-8291-9e41c629d0b2",
+      "c55187c4-184d-40d3-971c-9e9b5408880f",
+      "37983989-bbd1-4636-bc81-16dd42e153b9",
+      "f6184be8-4de0-4af1-8c99-bce6e9d38869",
+      "2bea3096-dd8a-41c2-950a-1648d24edab2",
+      "7d32534b-e5b9-454f-bb18-349ea231a6ff",
+      "a8ca5341-0ded-4963-9a69-742e4b6dc2bf",
+      "0161cd25-a5ba-4f58-aacb-de1d9afa87c2",
+      "51f8fcee-cacc-43f7-a587-f3e9e4762972",
+      "ec310bca-25fe-4dc6-9e19-512761701fcc",
+      "e7ce4b8a-8c1a-4e68-bbe4-0f1db39e8b6c",
+      "55ce23ba-93ba-4865-8396-e36aee229aea",
+      "605eaa3e-8258-4b61-ac5b-555c20705b7c",
+      "989481c6-eaa3-4604-bfa2-99a0fc84e128",
+      "5282987e-dd85-4bd2-b103-9dcde3d93c0f",
+      "b3bc29e5-d6ed-4ad7-9f7b-db7e52b834d9",
+      "6fa6d161-7098-4b7f-a2fd-86115a7767e8",
+      "5aaf5f2e-1f4f-4206-83c5-30638d6e8cdf",
+      "013b26fc-443d-4ce3-8dad-bd56e57c6246",
+      "1c0f8865-03e7-4945-832e-13497deb227a",
+      "3671e612-448e-4c40-80dc-12f6d307299b",
+      "c18f4b9e-9e13-46b1-bca2-e32e8216a734",
+      "841068af-a0df-4bcf-b6ac-90db84ab28f2",
+      "b6d4b63f-941d-4615-98f8-3b4b9bfbb35b",
+      "80ad40f5-ac9a-4ea2-9bf3-c0f26839157c",
+      "d986fae0-b184-404b-9c31-5374cd030bf5",
+      "1ec6d5df-213a-475d-ba2d-a92996a021eb",
+      "d7dc482e-5362-4d61-a6d8-6b068876b035",
+      "d0e549e0-00b2-46c4-9e27-a2f63898faef",
+      "df7e3de6-401a-4c72-9523-6a531d7ee9cc",
+      "2db50697-8173-45a7-b959-3656177d580d",
+      "3b04b863-6606-44c3-8e2f-1c40ae449d40",
+      "794ff6cf-f6ba-4241-b7a1-1aa00bd288e6",
+      "4e655c28-1709-4508-bf54-389353458d40",
+      "97d2166e-ed1b-41d6-8036-47f635af42e6",
+      "8361157a-c390-49b5-a97a-84ce76378dcf",
+      "21d64193-8ff1-4a44-97fc-1292214ab82a",
+      "08d76440-7fe8-4f9d-afb5-317454851b52",
+      "20187d5d-eca0-4521-a155-82e03ade3118",
+      "8fd85175-a1b9-4686-b9bb-11a42ccaccc0",
+      "d27c602e-ca00-4efd-bc1e-ecffc6139fec",
+      "ba0b614e-5f74-42fb-83c4-5ec7dcdbe404",
+      "19f10815-bd18-4e27-8226-2165d2f9945c",
+      "60deb3bb-20a5-41cc-8208-a99c2d37ef3e",
+      "0a7bed8c-7f52-42e8-b0ff-9f1496e6e233",
+      "0bc2c8f6-d37d-4463-a979-5d79e166e499",
+      "e78ab097-7c86-4102-a6b9-0dd63a0e7e7b",
+      "1090754b-34a5-480d-9e22-5ab5399e2e9d",
+      "2157a1c9-6351-4f77-b045-0ff5b2a175f2",
+      "e4ccd146-5055-459b-b6e6-3dae0944cf58",
+      "8bab54b1-bb48-4342-854c-a3046678a10e",
+      "47ec7d79-76cb-4724-8c0b-3ea43aaec1d1",
+      "8362092e-aa21-48e1-bc1f-34a92455a875",
+      "c068b89d-2f59-474a-88d5-ad4f4f2d731f",
+      "206dfe5d-0b45-4205-80ec-1a17ebf6bc53",
+      "0d297427-df14-4f04-bee3-73cbe6ebdded",
+      "c8251925-11cc-4528-b89f-f8f64749967b",
+      "1a930615-b686-4b74-b87d-cce084f400da",
+      "fd2eee38-69cc-46f2-b8f0-b36153c69fad",
+      "aba638e9-64fb-4052-9166-e8ec0db43e5a",
+      "b875a05e-d000-4a5a-b9ab-8e585472814e",
+      "2dc49ace-4569-404e-ba4f-72a50ef02c27"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "bb21bf31-ce26-41a7-9017-5c7dff9ba2a5",
+    "keep_name": "Rembrandt van Rijn",
+    "dupes": [
+      {
+        "id": "2a5cb3e7-ec44-478e-a031-39be7457c978",
+        "name": "Rembrandt van Ryn",
+        "reasoning": "사용자 확정: 렘브란트의 역사적 철자변형"
+      },
+      {
+        "id": "600d9781-b184-4eb2-893d-0b845abfe56f",
+        "name": "Rembrandt Van Rhyn",
+        "reasoning": "렘브란트 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "21901267-73ca-42d9-84f6-24d97012264f",
+      "f6266ea0-735e-415b-96d8-b43903457b5d",
+      "c164eeb5-39dd-46c1-a7b3-7102c656848a",
+      "b2f4b5be-788a-4b88-9c4b-751db8355856",
+      "9cfaba8f-acf7-427a-97fc-5cc1018b3257",
+      "60f530a0-bd0a-4cc4-b159-56a87eac88b4",
+      "d052ebac-84bd-4f42-84a1-a6f5b5284e8c",
+      "77a09431-de4a-4aad-abc1-f7d43cd4ac31",
+      "18dbad17-0fb4-4480-8507-f3b0b4a904c8",
+      "b608739f-2932-4828-85ba-ea73182b3799",
+      "cbd6b0c0-0212-4181-9c6d-e3003fcbcb5a",
+      "033792d8-21cd-4528-8e63-53398e898679",
+      "b8789eab-af97-48cb-8952-f22b2fe6b240",
+      "13b212d6-7343-4fd5-aea2-cceb4740d977",
+      "4983790b-9708-48b7-ae04-828a28556908",
+      "9c844932-275d-4963-bc44-bf083400a8a0",
+      "e97e1e3e-e800-48c5-926f-9cbbd854c88d",
+      "66606da1-0957-48e8-b7ad-40a132a4d39d",
+      "ce1af523-f68f-4fa3-b3ce-5fdf6159b373",
+      "8672c7d4-6f82-4191-9192-e926727fbadd",
+      "76b55c1e-3d52-4c2c-b78a-ccaff6d99ebe",
+      "ff61feeb-4b07-499e-9d2a-fed393322e84",
+      "3946c800-858e-446c-8324-4073d0d5359f",
+      "eb590898-74b9-4181-978d-4dbe031df0a1",
+      "5a2bf31d-ae4c-45d6-9f4c-283b0bbf0aa7",
+      "b11b4141-14a1-4198-8359-8fb9fc0b37f1",
+      "a926fde8-b2d4-48c9-8360-54a9843c44a2",
+      "589a3fb1-6998-48a2-ad5b-f3dce8dff5ad",
+      "2f162d2d-123d-4095-9510-29c76a6dceb6",
+      "c8b2a311-804b-44cf-9272-53f89eea7b81",
+      "8ba2bf08-0d77-4898-ba1b-fc0c9cd59e94",
+      "7d5aa232-a701-4906-9afe-16bd7486f9bb",
+      "6ef61347-c6a0-4f26-bfd3-3c4253e1d650",
+      "f1a38b8d-0a69-45ac-a3c3-3236a0b77403",
+      "94182660-ec0c-4395-9636-eb811a2bd75e",
+      "9276caca-4a16-4db1-8ddd-bd9c584a1e8e",
+      "1c60570a-b3b5-465e-9892-52d2ab35379b",
+      "7b643f19-8d3f-411e-a3ec-381a85ad060d",
+      "bac43f2f-f204-4d2e-9e7c-5a9a1622464c",
+      "a0232080-d86a-45ec-bc86-cc1cb267d488",
+      "924e7be6-0c40-4d9b-8486-5d5351153a37",
+      "43ed2c06-a2e1-407f-bb83-66363f7ad7d0",
+      "7825f787-3cb8-47e5-a861-f94b953b1260",
+      "7333c3ec-dc83-492e-9738-3b64ea2f88bc",
+      "42be4ed4-b976-4cc3-a11b-8f0508ee4f63",
+      "e44c2e29-659a-4cfc-9d84-eb81c3fb2440",
+      "7a177eac-19e2-4111-86bb-054b035c42fc",
+      "e9179b70-bcca-4788-9e35-98b1ce0ef346",
+      "e4c64eda-ab11-4231-9514-46a2be0b2292",
+      "8ea8a3df-fac2-4723-a75d-8547bc520d4d",
+      "669bba9f-4def-4a67-b5c4-e2d3ab8e3667",
+      "d6bcc29e-1085-480d-b275-7a822292e56f",
+      "a47ef8a3-c03d-48ec-b047-48163b0fa626",
+      "ada22e3f-08db-467f-b7e0-f4f6418a864a",
+      "5f8a1cf8-825d-4e89-8a00-f877f11e65f1",
+      "c8b14126-be8e-43ff-bcb6-2cca1d002009",
+      "ca87944a-5add-471d-ab61-01795a4cba28",
+      "4e4ecf3e-791c-41c5-b3ba-7b544b7409ee",
+      "05c9bf9b-1e0f-470a-9966-6a4c037d0ef9",
+      "3c438a9d-e59b-453a-8163-1d968100dfb3",
+      "5c6ca028-d536-417c-b34e-d948521f3e77",
+      "8213f3cf-d14a-4e33-b920-b276c74ca06d",
+      "05931c11-95db-4e5e-abc0-0aa7b1eda19a",
+      "05306695-0731-4f88-bb4b-c0d37d732fb8",
+      "955cc326-18fc-44c5-9c94-e00f65416863",
+      "d521fdca-ab6d-4d5d-a3e3-8029e55874dc",
+      "6647bc3a-d5df-4a28-a221-62a912978f7b",
+      "9f582ead-6a66-40d2-8a3b-4f017fa63da4",
+      "6451203d-27b2-41b9-a9fc-5ccb6c43244f",
+      "8b7563cc-2778-4352-8da6-b8728dfca9fb",
+      "62983f47-f631-4904-b2e5-ad51785898f2",
+      "7c897695-4a72-414f-8071-669347acd2c8",
+      "32d91015-63d4-4b53-9b6b-bfcf8190b199",
+      "4cb58fe2-9fc0-41fd-bb68-5acbce406bfc",
+      "34885e9f-3dc6-46a0-9c75-c696bd219e8f",
+      "f1f04cfc-0488-4011-9ead-64bec05becbd",
+      "fd2d4514-55fc-4c63-891c-518770504f49",
+      "6407f75e-b498-4dbc-b57e-9027aac09539",
+      "9d1792d7-ed41-4177-a384-3ff62c922cd3",
+      "87327676-f1fb-498f-b739-23e002bb17ff",
+      "3061d411-5320-4d29-a3ab-4bd5d9b70ddc",
+      "033ecbb4-12a0-4252-9b13-c608b90d9a56",
+      "8719d5fd-9f30-4724-9cc8-8bd646a220d1",
+      "7bab1770-9958-4095-bd32-6d4278a9e71c",
+      "003e960c-4286-4416-9bf5-9f059d44395d",
+      "d51b982e-3d18-4aba-97c5-95ff49677bf7",
+      "47a80e5a-a633-4118-b483-2d7f147ca360",
+      "5f5cca28-268d-48e6-9a11-9c1a236b1d4e",
+      "10d4068c-b746-487c-97be-e425b392299c",
+      "485f9026-625a-46ca-82eb-028e21fa6bae",
+      "4405c189-85fb-44e8-bd79-0e7c40e7213f",
+      "f8f50425-0e6c-4100-a13f-2f9e0da0bbe3",
+      "dab92abe-8a47-40b6-b9f1-02f42bf6bdc9",
+      "2a2f3939-f511-4a1e-a558-b65b75f99575",
+      "8cff8118-7bff-4b90-a07c-b0af42a9f02f",
+      "dc316f1c-db35-47a3-85c9-1cb56dc471c8",
+      "45982b51-f874-4e95-aa51-eac9b9d18767",
+      "30efc3f8-6ef5-44f7-8a57-d6e5ecb60c78",
+      "52e29b08-9a45-47b3-ba87-c0c74ab6af3e",
+      "011b6e5f-5a64-43c5-a879-ec2fe9d71f64",
+      "20925f5c-9334-4f8c-abf2-753395e69eac",
+      "2d132933-39f8-488f-acfd-a81ed3614032",
+      "6600b902-e18f-4009-8e10-b38c86f99577",
+      "6d098e1a-c6a0-49e7-b4be-7f9048e165b9",
+      "05dcd644-1a20-47a9-a811-30605b479e56",
+      "a32b6ee0-f876-4d78-9f97-8e30361e95f3",
+      "939a93e3-e234-42f6-9363-b7bb423745af",
+      "408d4a36-16fd-4da4-82a1-86df0e9e3d7d",
+      "eeb06b0d-79fb-4061-84ec-b53df3d78604",
+      "2b08693c-9750-4192-983b-f2fc1008f901",
+      "36b0ff2e-8bbe-4c90-b6c6-c1919fe31530",
+      "a8d3bc85-671b-4ad0-b89a-5002f6a7345d",
+      "75766d41-b87e-45a2-957f-ff3c4b672d98",
+      "9f182010-8ae5-468c-919d-d6b8f4980b92",
+      "e70d0462-72d8-4cc6-81a3-54783f6adccc",
+      "607a71e3-ac82-4415-b89d-a0132c0a9d8a",
+      "269bb44c-c8b3-44a5-a3d8-47259fdc79b4",
+      "1e4aac08-bc51-4925-886d-b20bece6b3c8",
+      "4eb3177b-6974-4011-86e0-87130d9469a3",
+      "62f97542-8bb1-4703-b392-93884a76ddc0",
+      "8bd3b742-2eb7-428f-ba29-5be0b699ffb3",
+      "8784df3c-7ad6-492b-82be-1f8875449090",
+      "78dd7502-ed3b-419b-97e3-29a69c8f8d95",
+      "fc8d0fc6-e91b-4a8e-bc3e-79effa34160c",
+      "1fbeaf4b-b086-4f63-96b7-b2fb44a4805e",
+      "4d21f77c-3c48-4083-aa5e-e13ef3062756",
+      "9764b96d-792d-4aea-a414-8182e97f6fda",
+      "2d2bd099-db90-4c42-87d2-a9fbd61c680c",
+      "1ead91c0-498c-4254-9bc7-c50aa9558d7e",
+      "291fe6a1-2098-4ad9-a6f7-1371c3fb3ec4",
+      "6bdb1ca4-0620-4a41-aa65-530b6b2582dc",
+      "494576c6-881c-4ee8-ae76-2c280bfdf89c",
+      "a958df4f-ba06-4ae1-9ba8-40f2343fa69a",
+      "73762f90-c31f-4598-ad1f-d34a67147a61",
+      "050ef00d-cb47-4539-b49d-c1df37e11c03",
+      "692fe6c8-d529-4303-9be5-09e95a0a5162",
+      "35d1629e-5616-4c45-891c-5875da3ed112",
+      "5eb5bc5b-e869-40b3-97dc-bae65a9f833b",
+      "7c6c3759-2353-4eee-bc22-9239b3ad1afb",
+      "23cd4c2f-efb4-4eec-a44d-039199434b08",
+      "8ab3d31a-c815-42ef-826b-3e9babdbfaf7",
+      "70ad4b95-6142-4597-b03a-ee14286b2dbf",
+      "916d0848-9256-451e-b1dc-8f1c7940a674",
+      "166f0728-65e5-4046-ae7b-4882659e0ea0",
+      "d06c36dd-5a0a-4869-a24d-2e326c333089",
+      "c030f79c-5145-4e06-b3eb-6dff48065c82",
+      "83785e70-b543-431e-a99d-feb3784cf8d5",
+      "c3244ea5-7bf5-4c41-b42d-9febaa3e1aa1",
+      "f0e68eea-e1c7-49d2-b62d-ee77e53233ab",
+      "ed411a8d-090f-4e0d-80c3-cfe16c36b0d6",
+      "3ee93582-4a8d-485b-a557-07a993dd73ca",
+      "28450d1f-c816-464a-b12a-3f6c573ef946",
+      "f60ccfd1-d7e1-4ab4-8a71-31609950dc71",
+      "7f9256ff-0c5c-455b-bb1c-8a0bee29fb60",
+      "900430ee-5394-4b61-b251-812a1f664d67",
+      "2053f848-0c79-432c-ad07-4f9f1f5db139",
+      "16a9f918-6f4f-494d-95a2-73faccd1f4f5",
+      "03a7dca7-8e2d-4bfd-b2b7-1610016e1a2a",
+      "862feb42-6b89-4a32-814d-2f091603c192",
+      "cc70c3cc-00f3-46bb-aa13-9b595ac3b809",
+      "ea57994e-dca2-49af-9fd1-485412cabcce",
+      "c3cb16af-b16d-4aeb-bf6e-229a9bde02f7",
+      "40e8881b-582c-440d-8e29-e7b25d82d8a2",
+      "f37042b7-3b2a-4c28-a801-03f18f03deaa",
+      "772939e4-e37e-487d-97bd-3c621c3265e9",
+      "003e8dc6-07ee-4235-b001-2a9904a926d1",
+      "3222497c-8fa7-4562-9c0b-00e7ce2e66ff",
+      "e917940f-2fc1-438c-ad7c-c3d3534d30f9",
+      "10c69863-2134-4d73-aa1e-d5d039bd08f0",
+      "01940a63-ef36-4066-a6b7-d12a1ad25ee2",
+      "2faa048c-f494-4fa4-bfe9-8a8706ea2bb3",
+      "0792cad9-fb25-4e8c-8956-81ace0584dad",
+      "7947b977-dd73-4e15-9932-c66578c5ca3b",
+      "66db47ff-be61-4cea-a2eb-331d82f42299",
+      "34681e4f-76bf-4914-9d88-9e56825862bd",
+      "4b0c7f1b-6ce9-4cbb-a222-059a4513016e",
+      "e7f1addb-571c-42d7-9131-1dcf287e9e8b",
+      "4bacd746-eb5e-4b6f-99a7-b7f9e6664f11",
+      "0842878c-4a29-4ee6-b890-73ab0242da65",
+      "ea324240-d384-48d8-8106-96a3d5b99138",
+      "f1b5c53d-ba02-4271-a620-0933966cd304",
+      "83e3686c-b570-4167-b828-58cb42e5fd1f",
+      "1dd0a80d-2ce1-4f75-bc11-d9ecd716a27f",
+      "148001fb-0f32-4227-ba1d-2705f16c3218",
+      "8657038d-a935-441a-a9b6-9c934478fa94",
+      "0c069848-ff6c-43e5-b69b-d45223330af0",
+      "3f267d12-b863-4c46-80e5-d738bda10c26",
+      "50e4f380-1282-400d-91c2-833b7ca901dd",
+      "21a74a49-0a25-416c-a98e-91609f9f474e",
+      "93e836f8-a5a2-441a-bb80-9149754e8985",
+      "b58ef047-7345-44ca-9801-b48395c41d77",
+      "b232688e-91a8-49ae-ab7e-736ea042bc8b",
+      "9dd8d90b-c0b4-44ee-ab35-2f48cdeff6a9",
+      "62d31a3e-f19c-49b1-9cbc-2f663377f56b",
+      "f28c1048-6447-4339-9dd7-5e2ae6739dd7",
+      "1064318e-7f97-412c-9068-1dabd3aff5af",
+      "67e38182-33e6-4c7a-962a-beaebfd93c3b",
+      "8f733214-e862-4fed-8a00-81415fc8ffdd",
+      "e3d8bc95-429b-4b89-92a8-85ddde40c178",
+      "b1e2ed8c-6cad-481d-ad98-538b06897e63",
+      "8e7541d9-2b4a-41fa-ba5c-b08982532341",
+      "5dcf6e1e-43e2-470e-809b-2564654f66d5",
+      "ff9065b8-cc41-464b-aabf-2e37ef9237a5",
+      "aa7e3f21-4e67-4c33-a807-23df411fc15c",
+      "4c1307b2-a06f-48fa-a4a8-e614b51127d5",
+      "c240dd8f-82d4-44ef-8690-bfb2fd148401",
+      "6d1833f4-54d1-47b1-a97f-9ef844cd2fe5",
+      "0cea2b0b-9c22-4782-acae-e689087a4349",
+      "a05c51bf-7585-4942-b4ff-ae6662c26c21",
+      "b8d6c084-a7d9-456c-8be1-ef3e73333b18",
+      "244fb4bd-a109-4f62-b961-bbb803e54a11",
+      "10cb0d95-9feb-4043-9cf9-9bb5b9056bef",
+      "0d14c763-8236-431a-8e37-6707eef2d70e",
+      "c9cf8ac1-c388-4e5e-a12d-c56237a28fe8",
+      "8d87b7c8-6ad6-4221-ab50-e0df3a2d397e",
+      "9eab0be3-cdc2-4a58-8c24-63c8240cea61"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "b550d8d4-1889-4987-ad51-4022c91716b1",
+    "keep_name": "Os. (J. van)",
+    "dupes": [
+      {
+        "id": "8462945a-c6e5-4037-86c5-d45be9d361fa",
+        "name": "Os, Jan van",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+      }
+    ],
+    "moved_artwork_ids": [
+      "3894b116-3895-4704-87b7-c1cc2cfaa164",
+      "420d90df-3e24-4e8a-a60a-896cb912495a",
+      "2e59fe70-4f04-46bd-956c-70be7d6fc85e",
+      "4e24ea85-836e-4449-b635-851a399e3fde",
+      "4571bff2-ad9d-4144-91f6-58cb50ee2a5f",
+      "85ec4346-70e3-4591-b5fc-e5df73a15278",
+      "61d31d43-95d7-4f6a-8d8c-ddfe758c559e",
+      "60bb672c-91dc-4336-bab9-5354e2143923",
+      "bf1b8472-0adb-4261-9a2c-e2a37773a8c7",
+      "cbdeca15-a554-488c-9d5d-b5a196257f07",
+      "82d9eabf-643c-4ea4-8021-1f3392547129",
+      "44a0d9e1-e7e5-4c92-b825-7c224517bbd7",
+      "01e00fed-3424-4780-a373-1c39d9751df8",
+      "482dbcf0-7324-41bc-9290-1d3c2e89c599",
+      "6c9a0c81-4376-48c8-960a-9538390718b6",
+      "8a946260-c2e2-485d-a062-8f34e9b61115",
+      "5ae3a877-442c-4637-88ed-991ffb7dceed",
+      "c814b619-4246-4c6b-a3ba-113b9ccdf2b3",
+      "90a4abc3-93f6-424b-ac25-ac9fc430d53b",
+      "d35b60a0-6923-4547-a439-cc03a12bedeb",
+      "ca313e44-1906-4bcb-8c56-e54f493dad08",
+      "a2926cb9-e78d-4e60-b5cc-d3a678677c60",
+      "761285b5-5abf-4d14-8ee7-ddd9b805d215",
+      "56e6ba45-9b54-4470-84d2-581ebcfda7af",
+      "d46231b7-5f9a-4c48-8142-8bcc336b2384",
+      "8c993896-a178-4946-b616-3e1dc3c6a961",
+      "aeddfe90-bd30-412d-8587-3e836517642c",
+      "fe6fcb47-842d-4726-ad94-85804452fce6",
+      "fb4836ac-036c-46bd-9a0f-38bfea971956",
+      "ba7b5553-4dce-4164-ae06-0201db09e000",
+      "01a41833-3e42-4d6a-85f2-e31a58c63b99",
+      "16a9787d-61a2-4932-912a-b42d40fbb89d",
+      "e60020fe-c0b9-4868-a0ca-21e1efe4034d"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "092c888b-e0dc-43d5-bc58-ae75a66b44ed",
+    "keep_name": "Compe. (J. ten)",
+    "dupes": [
+      {
+        "id": "4b2787af-9b3d-496b-a904-db1957f44962",
+        "name": "Compe, Jan ten",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+      }
+    ],
+    "moved_artwork_ids": [
+      "3ed9e83d-a95e-4bca-942e-54fa58fc93ab",
+      "48d917ce-4eb8-4f29-b15c-9baec730164d",
+      "a70d3bb6-0b14-4614-a046-239d4490958d",
+      "a796a918-c4b5-4cbe-8d64-76fdc201cd64",
+      "b1ac4f7e-2832-466a-9779-cdbfd22fd9ac",
+      "17944f1a-13d2-45b2-85fc-2fd7c7cb60cd",
+      "ba4ca814-9c88-4ab1-a45d-597bbe0bab82",
+      "2d57eefe-6986-426c-b2e6-85d9859e2c3a",
+      "ab792171-31e8-419f-8704-b00e7523b928",
+      "5b0bb429-7393-4d94-a9c0-e59cbd158532",
+      "767bc937-ceb7-4a5a-9fb5-5ee53e972bf1",
+      "410e161c-dfa9-4d90-8912-d246dff874d1",
+      "11dad5ba-8a85-45e0-968a-0548b0184b8b",
+      "b543c37d-1bf1-40f1-9737-95f7d5109790",
+      "316249dc-93db-484e-b62e-213dfae8cda4",
+      "777bd80a-e26b-4c0d-a7cc-c6fe9a2f05f4",
+      "296c0620-f5e8-46da-af74-b2a4b784f417",
+      "dc14e126-5259-4952-a8c0-922497fd25fa",
+      "6e3fbee4-acb5-44fe-8c64-b204052e85bf",
+      "f7c75be2-5df3-4916-8adb-70a112ab954d",
+      "4cfcecc5-4d88-4f95-8877-596f8032277a",
+      "ed26463d-624a-4063-9489-5d583339076a",
+      "69c71cac-74c2-47a3-85d7-c3545cd1e2fc",
+      "95a63242-db4b-4f7e-a3e2-95ae3025d884",
+      "96653104-847f-4661-b950-6c851a4faeac"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "5a2673b2-d49b-475e-9a4e-5be0195105d3",
+    "keep_name": "Salomon Ruysdael",
+    "dupes": [
+      {
+        "id": "39078e39-1e22-42fc-b919-bd54aa246fb7",
+        "name": "Salomon Ruisdaal",
+        "reasoning": "동일 화가 Salomon van Ruysdael의 철자변형"
+      },
+      {
+        "id": "ba4db527-28e3-4163-9f32-8e4a085ac003",
+        "name": "Salomon Ruisdal",
+        "reasoning": "동일 화가 Salomon van Ruysdael의 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "8ff869e2-3c3d-4b41-9ba6-3b1d20f0e940",
+      "716cec5d-1f0c-467f-a6db-8f4d4e81e288",
+      "70b4429e-c8c4-4ae1-8e2d-9437c34f31e6",
+      "209da9fc-0f79-4129-b61d-714b061c55e7",
+      "104c17dc-4b14-4fc2-8460-73ecf2453985",
+      "b2a93fde-9fe9-4ffc-9708-82ecc2b2ca81",
+      "cf078d44-7a80-43a3-8cf4-1caa7275bdb6",
+      "a8e37c0e-f4c4-4272-b7ca-8d6af2835d2c",
+      "61c42a40-1f38-4a40-b8c4-5cf79548a62e",
+      "d2f34c47-5d27-4a85-bdd1-8ef1bce7d4cd",
+      "9b78d641-a313-40c4-92c6-a6642516a6a3",
+      "432d2e59-78b7-49a2-b21f-c4f419b53f6c",
+      "67ba3541-2945-4c20-bbb6-97ca194dd321",
+      "7ffb6a5c-5bb0-4018-abe0-0693c5a80b60",
+      "0c45bdb3-c1d7-4f01-b999-1c2e3dc0712f",
+      "39e9b91e-29a9-4179-8130-686ee53ca173",
+      "05967243-5407-49d5-9d94-c32558486006",
+      "cbe0bf03-96fa-471c-bf88-2434ecff1000",
+      "6ff8878b-7a53-449d-b60d-5880d6c07bf8",
+      "e5889e68-95c9-4693-976d-9493e29346cf",
+      "dce7c5ee-a865-4ab4-9921-4231b961b2d4",
+      "fa71c924-91cc-4942-b0a7-b8a9c704bd25",
+      "3467020d-6e9f-44c8-97f1-6488f05f6a19",
+      "6dd0eb25-343e-4e8f-905c-457816602a53",
+      "2c1b2ae7-9fe0-4996-95df-79c1da71a739",
+      "f034df59-c10b-423a-b793-74e1b079365b",
+      "eed4bbf1-8994-49f0-8921-70a3f2266a31",
+      "98692566-1fb3-444d-89de-7307f5a8bd3d",
+      "f6e397a2-983e-4ad2-aff1-e6f68d69178b",
+      "20a6cf1b-2cc4-49e1-bd22-23cab8443d52",
+      "5dfcac44-6dfd-4805-8abb-157c7b27c9c5",
+      "dcea44be-e02d-48ce-8d06-1fdc3cc33259",
+      "6c336184-4837-4870-81c9-1e62594f8aff",
+      "1b2084c9-6527-428c-840d-f68583d60fe1",
+      "0e7bf60c-7be9-436b-bbfb-633f53470f54",
+      "9338e9aa-9d54-43d8-b85f-3a7a3dce9562",
+      "5b96707a-3f5f-48d3-9218-ec2626858b25",
+      "95af2cf2-d2c9-41ae-a225-0ddc09635ae5",
+      "c14930a1-290a-4eef-998c-aa977ac7900b",
+      "2d052a08-10c4-4f43-b17d-92cbc3625ec1",
+      "f7fbbe4d-8d0e-4e45-ae01-cbb914426569",
+      "02c3b79c-30f4-4a8e-aa72-7d7818a6df42",
+      "1ef726c6-2af5-4364-a017-7953dd08de76",
+      "02af1c02-baca-4fd7-baf9-f0b946a6b90f",
+      "88cd6ad8-82ec-4d9f-b6ca-c4d52bc4e352",
+      "6719b9f1-81e4-45f0-bc8d-6ee036c132df",
+      "e21dd463-9706-4511-b2c2-fa5a33906821",
+      "2731fb0a-d25f-4a65-a180-36faa4f03f4e"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "2d781670-c454-466f-b11a-d321d24ff38d",
+    "keep_name": "Luca Giordano",
+    "dupes": [
+      {
+        "id": "ca23f7b1-7bdd-4c2d-b186-911cdb37cd34",
+        "name": "Luca Jordano",
+        "reasoning": "역사적으로 문서화된 대체 음역, Luca Giordano"
+      }
+    ],
+    "moved_artwork_ids": [
+      "4bcfdeb6-ce9a-4c0c-8e4f-b90072ab61c6",
+      "cc63a058-a8a3-43b3-b306-d6d5abc3a470",
+      "2f0bcae7-6304-42d3-a541-ee077516e173",
+      "ca2ac1e8-0cab-4a4c-beaa-640c93364c82",
+      "4fc1e7c5-623c-4702-9809-9a9ddec1f458",
+      "5491f55a-123e-4f0c-93fe-637429a64003",
+      "4d6f46ba-c18b-407f-8511-d3dc3cf17f99",
+      "4b380024-e7ce-499b-abd5-bc5258d57b3a",
+      "6ebdfc82-af0f-4888-8dda-bba0de373912",
+      "6c10323f-a8c6-4f83-aec4-583e3ebf6bc3",
+      "d2968476-d358-40ae-bfe2-046c06e203c9",
+      "8b544fb3-7127-489e-8484-2ed9aa7c9081",
+      "173aba72-2339-42a8-8f20-2b526fd683ac",
+      "5248374e-2c15-4b65-8b43-038a8a3570db",
+      "74e7e102-c84e-422e-adbb-28296175de76",
+      "0022a041-0f7b-4eac-a94a-bfd037c7591b",
+      "c7b1f3bb-a88c-4699-926e-16baf1199d75",
+      "0bbd5328-c66b-42de-a742-3496e5925330",
+      "4676a788-9ca2-44b0-9107-8fa74fe5b57b",
+      "46dc0d88-36a7-4ab7-a6ef-6a3d57ec055f",
+      "17ae08a7-16dd-458f-ba8d-f43856a730d3",
+      "6500f238-ddbe-401e-9590-7bf1a5b2c432",
+      "fafacce7-96b3-4644-a910-63cc294ccaba",
+      "aac2bf11-b513-4f03-acd7-4eddd1a7c059",
+      "ce053ec8-9a25-4a64-9d47-9a846e96824a",
+      "1b4502eb-0a61-4096-ab17-ef249f5ce633",
+      "6512e286-d854-4d32-8d94-edd7e204d96e",
+      "d4d1b8c8-210e-45f5-9298-98d31c9281fe",
+      "5924c4a3-627e-4277-a379-3b5b485045f1",
+      "44238194-6b9f-4c04-b606-64c07e5823c3",
+      "56531137-711a-40dd-b2fa-b3941a145960",
+      "93ed1de9-b6cc-46f8-9d57-58635d5f4526",
+      "0b7c57d8-f036-4114-a214-2a7f7d0f8f4e",
+      "31f1057c-47bc-4324-872f-84a881180d83",
+      "9bb9187c-daaf-4672-aae7-ce098be12d81",
+      "63259472-7e25-4a71-aa64-0f3bc8f4d33f",
+      "7d4ee8f3-17c3-4d27-b717-a3e0440476c6",
+      "08817135-1c55-4d5e-b08a-4858029acb7f",
+      "abfb0055-73b6-4a27-8a25-f6e70ab84ab0",
+      "84eeca40-041f-4cee-8867-73b903246305"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "e3103f84-17c3-40d8-a050-f177f18e1b0d",
+    "keep_name": "Lucas Giordano",
+    "dupes": [
+      {
+        "id": "f8ae15dd-cdd4-4894-8798-d23cd30b9b8f",
+        "name": "Lucas Jordano",
+        "reasoning": "위와 동일 인물의 다른 표기"
+      }
+    ],
+    "moved_artwork_ids": [
+      "6c4043df-9ff5-4ca8-be46-9e7df34fda19",
+      "36a21c17-add5-4a41-afd2-73e974bbf309",
+      "1e210c90-5d34-487a-8641-ff87cb0832b5",
+      "641ca8ee-b40c-4b91-9902-1066779b34d8",
+      "3def976b-f832-4e5d-b261-fd54c6d20fe7",
+      "88914370-19e0-4dd5-ab9f-326190d70b79",
+      "9cc71685-e894-4374-998b-645dc1422939",
+      "271d3b7d-8c4b-4095-b92d-2a9a5a903aac",
+      "0d888c09-6975-492e-aa0e-98cb9fd294f4",
+      "996baab8-af96-4d9b-822c-4e4f26e13810",
+      "6eb2e976-a978-4c3d-9a1a-8c00d1bea3e4",
+      "fc9beb1d-d2b4-46a1-8387-a0ce5ac0e0e1",
+      "66d4edbc-d15f-45ec-94b5-d36596cb6d1a",
+      "ed930832-3c4b-4550-a478-b62281f8443e",
+      "3880c1bf-35e3-4cfe-af95-254fa1ae37f0",
+      "65b070bd-1703-4fdd-9f95-2b4c458b2f82",
+      "ed94d973-cd3f-4782-811c-5d464b5dd3fb",
+      "f924a566-a6ec-4aa3-9ad2-7142fd62d02e",
+      "686b5889-4181-47d3-ac42-b5e52c21de8e",
+      "b7ea378d-d433-4345-8a9d-708823e8235f",
+      "7ca6620d-1df7-46f5-aaa8-cd785f49de6e",
+      "8c5070ea-6fd6-4739-8266-db3c123ad023",
+      "d8a62e1f-f1bc-4e6d-8873-a760815e3bc9",
+      "5a2d9aca-0de2-4edb-b4c1-9fcc326f8bda",
+      "5ffaa6bd-d24f-498a-894b-ebbe5aef8c69",
+      "f9e735bb-f4ad-47a3-a7f2-6024776bee99",
+      "6c70c873-13f1-4e26-8a5e-845a121c48ba",
+      "15035e45-522a-49e2-8436-fe39c2c7f12b",
+      "1677c105-13c3-49f0-8d36-926918027d09",
+      "c0e364cd-f65a-4f1d-96a4-a7d5e871f3a8",
+      "f16bb3bc-6785-4b64-9e35-7e544f80fa51",
+      "2e2f96b8-9dcb-493f-8232-310f99cdd4e3",
+      "a50ac9e7-c5f3-45d2-b987-6a001b2f88d2",
+      "abfbba49-ff78-468f-8fa3-03ca35967198",
+      "25ac5f84-f273-45e6-8cfb-42d0b90d5a6c",
+      "b36cba88-198a-439c-9f3c-7aeb2fc6f699",
+      "407438cc-bd96-49df-9ab4-37b4e362c448",
+      "801a6303-f87d-4849-a112-68cf51d7ada1",
+      "41c44eed-d586-44e5-8cb7-f8cfb78fa68f",
+      "eb4bff70-2553-4a18-89de-a3787c224ead"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "5e706016-cd95-4aeb-88a9-b3dbbbe0dca5",
+    "keep_name": "Adam Pynacker",
+    "dupes": [
+      {
+        "id": "45585cf3-f2bd-4dae-8ed7-97b5bfe916b3",
+        "name": "Adam Pinaker",
+        "reasoning": "동일 화가 Adam Pynacker의 철자변형"
+      },
+      {
+        "id": "5d379ee5-4d13-414d-aaaa-3c85d8744b93",
+        "name": "Adam Pynakert",
+        "reasoning": "동일 화가 Adam Pynacker의 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "f94f4a17-12ea-429f-8a6d-3c332b867743",
+      "113f9abe-a4c2-4356-9e3c-d25aceca6e0a",
+      "c93339df-560f-49b8-b2ee-8ed488380219",
+      "1966ff87-18e2-4a6b-9167-d0ed75a5bf1f",
+      "20db8154-a3d1-4bfa-8c3a-c155fa07e5e2",
+      "abe69ec4-d981-4280-a51a-69769635e1f8",
+      "9754779c-4a0b-4be3-b84b-8b5a6a25b5d0",
+      "ab361971-5159-4055-a920-23c6a922b948",
+      "4f916bdf-ae81-4a2f-bdf8-f502ab6d6fde",
+      "6b7cfdca-c159-48cf-8ae6-52136eda58d8",
+      "15faf0ce-cfb2-4b9d-97ce-c58b3f90f339",
+      "2f53d6dd-7406-4a0c-99cf-d751b43ef510",
+      "99c95a97-3400-41a6-9891-63dc61b07605",
+      "131e19cb-956d-47ef-97a2-1b262fb6a727",
+      "e8fc8ad4-6e5c-43eb-95df-bd903006c688",
+      "a3575542-3c46-4d83-9e65-a9911b70caa0",
+      "44cd93c8-3b87-4596-a665-bf6d6872845b",
+      "e44ecccc-0f2c-4b0d-a647-d73206bcb392",
+      "f620d5e9-f48c-486a-ae36-258805b89115",
+      "1a8e7e34-679c-42f3-ad99-ab7ac0dfca7f",
+      "6be3a5b4-1594-4f82-be3a-da520777ed6f",
+      "47fb01dd-01ee-4d63-8599-f18f9fa8c33a",
+      "15d1da32-cc9c-4d59-943d-ab1cf9ba8621",
+      "f2547987-2ca6-415b-b09e-6690a86dd64f",
+      "2ac5ff8c-ba59-4b6a-b555-7bcdfe378049",
+      "2b06acd0-99bd-4cf1-8cf2-712cf4340bba",
+      "8490ddf8-eabb-427f-bd7e-c43d434b3733",
+      "9b0c974d-5708-4b81-818a-3862a32743dd",
+      "75839394-a24c-4091-af6e-465c078cf35f",
+      "42966fb3-3774-4e65-a48f-f198e4729286",
+      "343bfab6-d695-445f-aa26-4c42b6f6857b",
+      "e7bc8bec-65f2-4175-a2ea-c1abe9f85ea4",
+      "92160526-37e6-4fff-af3a-0cb0c14bae26",
+      "8a69eb99-8080-4cfc-84bc-f05a42be6688",
+      "d26832e6-3ed0-4040-9778-d192c9eba1e6",
+      "7b5563a9-c9a0-4fe4-94a4-5c82de9dd42e",
+      "f5577be8-ee35-42de-b1c4-b00abd155363",
+      "8d9b28b8-a83c-41a2-b557-6afdd9e6139d",
+      "6d775384-95ff-4d0c-9b7a-c6a4613457af",
+      "58ac4e92-21f1-48ca-8039-b33dab026932",
+      "2887f563-64ef-4db1-bba0-01ab24741d52"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "404640e5-55e0-4b43-8278-5fef7d769931",
+    "keep_name": "Heinrich Keuhn",
+    "dupes": [
+      {
+        "id": "f8737683-0bf8-4909-9a72-25b8733c63a0",
+        "name": "Heinrich Kuehn",
+        "reasoning": "동일 인물 Heinrich Kühn(오스트리아 픽토리얼리즘 사진가)의 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "c1e3bddc-2249-4ef7-a930-42f04c95f40e",
+      "123f51ac-8c7f-49d2-a319-74980626aa16",
+      "9859cc26-1fdf-462a-8bf3-ac483ef5c5f0",
+      "086a286a-8f68-475e-8977-13305f495cd1",
+      "95f17c6e-85b2-4b41-a5d2-2bf744aa827e",
+      "03fc523d-12bb-4e60-8fd8-d772864daae5",
+      "c2e04971-fb9d-420a-81e5-b2cbc13831f4",
+      "203b9e72-0be1-42be-ad92-cf0daf8cdc7b",
+      "f26e7cfa-da7a-46d3-810c-e350a35132bd",
+      "d4e81578-98e3-46d5-a54d-d74e2ec2d145",
+      "47a340c0-d328-4b9c-8733-9f020fa399b2",
+      "6eb6cbe5-64d3-4c1c-9b21-3fb911f9192e",
+      "a045835c-0612-4669-a414-6c56f8c7f373",
+      "dc370b98-c17e-4f8f-931b-bdaf44554491",
+      "469af698-8785-4584-98e7-f110177a07ec",
+      "85f4dcd5-538f-4492-8a63-e5dbbc8d7f42",
+      "d6089d2b-425d-48dd-979d-4297894eae7e",
+      "2b8c99c9-6f25-4cb8-953e-a141f468d2ef"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "2b5cb1ab-e185-4614-b99a-a420366105ab",
+    "keep_name": "O JUN",
+    "dupes": [
+      {
+        "id": "37d47a91-cd82-443d-83f3-849a0650efcc",
+        "name": "O.J.",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+      }
+    ],
+    "moved_artwork_ids": [
+      "15a31ddf-93ef-4189-9567-bc07e16051ce",
+      "1d6d5c97-463f-46b8-bb5c-b1428e341c2c",
+      "069c4c15-7edb-4967-93c9-ba3d9e58f9fe",
+      "3c445cd6-d460-4a7e-9b3c-f577c0cd9532",
+      "8b36a288-15a1-4276-a16e-237868755747",
+      "47aa20c0-3a23-46a4-bf27-8cded7c257f8",
+      "f0b2a1d0-a3d7-4bb3-8fd6-7828554cef9f",
+      "3895eec2-59e8-415e-9867-9b9fa9bc300b",
+      "43b5986f-0fe8-45c0-be57-9db6f8d15829",
+      "509fb853-3a62-4373-a1f9-5ac64d91a95b",
+      "786d6cc5-0e10-44bc-b5a7-eabcfe55ecd5",
+      "9a27d057-4711-4368-a6dc-9b44bcdf4172",
+      "4b10fa84-4f39-48d0-bd5f-5389ae394ddd",
+      "eadc9ef2-b655-4cbc-ba43-c1f04792651a",
+      "398ccbba-c8cc-4320-8322-05af540dfd1a",
+      "286a2be9-1f98-4250-93a5-85ec6da0a127"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "2509905c-9d39-4416-87d6-c5626480e5f4",
+    "keep_name": "Rosa di Tivoli",
+    "dupes": [
+      {
+        "id": "fed97979-4e3f-4e09-bb18-b285e24fd96d",
+        "name": "Rosa of Tivoli",
+        "reasoning": "동일 별명의 이탈리아어/영어 번역, Philipp Peter Roos('Rosa da Tivoli')"
+      }
+    ],
+    "moved_artwork_ids": [
+      "9061b082-44c8-4a8f-91ef-39f7d6a889a2",
+      "115458df-9abd-43c2-b77a-26d097694f11",
+      "54500b86-d3b1-471d-927f-820f25c935c1",
+      "d902562b-1155-4ae6-b4e4-32b633ab678b",
+      "0eee13fe-97dc-4802-8516-a0241bd09604",
+      "641bf44e-b720-4fce-aac4-16603995ef00",
+      "6a0ebbb0-6d06-4cc8-9f67-2b48935ae26a",
+      "55e7de9d-968b-4f43-b004-612501fab26a",
+      "c64facd8-5ba3-4267-bc40-40bde578fbba",
+      "26ba927c-7807-4fb1-9e79-d05943d95046",
+      "78d44bf7-fd87-4f04-a32c-87a1fc2080a0",
+      "661250be-b741-48ea-96c2-31f998548a9e",
+      "08be5d25-74d6-4c77-8c5b-120abb3a6eee",
+      "9c367f79-8480-4eef-ac74-baa37fa0bf59",
+      "1552a2e2-c3a0-4198-a6c6-6b037d842359",
+      "f89ff4c0-86a2-400e-85a4-df3f1407b589",
+      "cd3752e8-689b-47fe-9a61-aa0483540323",
+      "bbecdd19-7c4a-4197-b189-db3c56916267",
+      "525d5878-419f-4aec-ac92-cafa887a4a0b",
+      "eedb3198-c99a-477d-9bf8-66f9556452b1",
+      "17cc7983-ce24-4d6b-89c7-dd3c8ffed098",
+      "359c7e26-9b5d-49b3-97b5-719675224a9c",
+      "b25f2396-1b41-49eb-93aa-d43ba6d4fe93",
+      "0cd50f4c-c701-419f-8dd6-10017538dc94",
+      "ef19193e-db10-469b-b867-96791de98126",
+      "feaab22e-6485-4b89-88bf-0bb63db80ae2",
+      "62029148-3dbc-47e5-afe7-2a2ba5458423"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "1535b2a5-f452-4e6a-b398-23f5d668263a",
+    "keep_name": "Man Ray (Emmanuel Radnitzky)",
+    "dupes": [
+      {
+        "id": "fc711426-8a5f-43ab-ac2c-01c04ff4fac5",
+        "name": "Man Ray (Emmanuel Rudnitsky)",
+        "reasoning": "맨 레이 본명(Emmanuel Radnitzky)의 음역 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "b4515245-14b6-4d21-85ec-b630c693d28e",
+      "ffa15b25-8693-4bbb-9689-3c5d4d009f8d",
+      "d314dbdf-0d15-4135-8791-cc7ec51efe3c",
+      "6a4d9ead-0ddd-426d-a3aa-f1eb4ea3f8e3",
+      "98583de0-c8ea-4740-8107-d26c6100ae11",
+      "dc61004f-f7c9-4d37-8ce5-8d8be7078323",
+      "9e63b491-b110-4078-bce2-e5a5031568f2",
+      "c1390f00-b45b-423c-80e9-33a6cc65b0d0",
+      "f86b6574-8fb4-4182-bb52-78105ea2d1b0",
+      "7db93b49-540b-401c-b1cb-e8023c0a724c",
+      "1e31b6bc-b421-45dd-9371-35afb3e971f4",
+      "b85ffe51-51f5-4473-a572-bb0ed52ceebc",
+      "8551c8f1-6b96-481c-bd09-60d614b1f817",
+      "aaf4ca04-0f88-4c3e-95bb-8445f93e305b",
+      "74c2d93f-f6a7-4955-aea9-9245b9203c76",
+      "9966bae3-e411-4258-8e42-66b60262076d",
+      "ba349b1e-d89a-4fcc-8e85-0b55affe24f0"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "9c69ae13-03b6-4a47-ad42-c3add4d7d2af",
+    "keep_name": "Annibal Carrache",
+    "dupes": [
+      {
+        "id": "97f0fa5f-8b9c-480c-b305-f2be7b772195",
+        "name": "Annibal Carracci",
+        "reasoning": "안니발레 카라치의 프랑스어/이탈리아어 표기 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "68882911-0ed0-4514-842e-19e18e8a88aa",
+      "f8b02f3e-34a6-464d-a55e-691daf0eb419",
+      "ffbf5de7-4762-4a50-8534-efb00434d17f",
+      "d3a8463c-677a-46da-91bc-d4e3d031e475",
+      "3dc9d031-599a-4fe2-881e-b1391d37c8c2",
+      "297668aa-b134-4dc4-87ef-0105f81bffc2",
+      "46350957-6aa5-4502-9a1d-a881bd833961",
+      "51322be7-de5b-4da3-9d25-7f46f9831be3",
+      "9c0750ad-7d1b-423c-88b4-83919680446c",
+      "d4afe538-f6ea-4eb2-8b5a-ea03213caf1c",
+      "6f040c92-a689-43af-9c10-6b0b7522e3d2",
+      "45055478-589d-49fe-8dee-46dcff09fbd7",
+      "41f8f87e-ee68-476b-ab9d-c4d9a7f42b6e",
+      "3fbc45ad-9afc-45fc-a497-5700792ab71b",
+      "ac12d539-c5af-403f-8bfd-fa9f4763cab1",
+      "621f9ab3-9e8d-447a-8fe8-1c8f90340dd9",
+      "4ca6c8ae-865d-4df6-abce-740df0a9f19c",
+      "23bba508-217c-4d84-9729-a4588fad1c30",
+      "c52197d0-e1b3-41f9-871a-957c589ec494",
+      "e07672ac-09cc-4b3c-a7a4-c5c50b697613",
+      "5bb1e5c1-cf9b-4d56-854a-7a528052b9f2",
+      "55a8fb8b-7a1c-443e-88a7-b54fd4f7c0e1",
+      "b94964b6-6326-4ddf-9e56-638d09bbcf41",
+      "66db761c-a534-453b-ab1c-783560e4f4e5",
+      "6f8fa592-d9e8-4bfd-81ff-154a7ae1c8be",
+      "3564930e-5ca2-4de6-9df4-3804795fdd2e"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "9c5e4f09-0c94-4b49-99bb-61ebb8bafc82",
+    "keep_name": "ANN. CARRACCI",
+    "dupes": [
+      {
+        "id": "7b7f89ff-58be-4518-ba31-5948924592df",
+        "name": "Ann. Carrache",
+        "reasoning": "카라치 약칭 표기 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "3c9f622e-3004-449c-b543-942e6f5ca492",
+      "ba6d1fbb-4c4a-45f6-a8f6-9adec0ad9d7a",
+      "1ca67972-96a3-4704-8f8f-99053056832f",
+      "bba74e4a-08a5-49bc-b792-c8383a6ce291",
+      "70fdd6ac-69ce-4474-b488-ba678bf2d8e2",
+      "bac836ae-5d5e-467a-813f-8e1ae9c5e2fb",
+      "d966937b-3e7d-4d5a-908d-f54580531d05",
+      "969d6d1d-cd4d-4838-b6c9-4d9a700d765b",
+      "ca3376ff-804d-48c1-932b-3edb1ec21dee",
+      "b237c960-fc83-415c-9015-4da7d08d6263",
+      "db66f6fc-fd8b-4a43-bdbd-4bd1cb8beb36",
+      "4e9a042e-7206-4010-ac71-d94398dc15b8",
+      "8b8cb46a-8d0b-48bf-b1ab-7d668b3bbea5",
+      "6b0c8d44-2dfe-4906-abf4-f2f255c2386b",
+      "d4f1e1f3-2745-4681-a661-87ad1ecd4c13",
+      "d1c114d0-04d2-45b6-8dff-91d3c16c35b1",
+      "214d73e9-490e-41c7-970b-101d26ee19e1",
+      "3303ed32-f7c3-4b49-9504-487cf02024be",
+      "42f8fb23-79b1-4258-8236-41cb8e50a0bf",
+      "d5e0a128-bd5e-4632-a65b-33734aba15cc",
+      "562f9676-16f7-4d20-94c7-31d12f483272",
+      "52e4bb17-0420-443f-aff8-be6539fd4f98",
+      "c5eb8a24-6eb4-4fb0-a02a-6f3d05a95052",
+      "c6f01c29-1f65-4dc3-bf4b-ac08a4619feb",
+      "5c355fbc-18d5-4854-b523-cf727017f24e"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "bcc11961-042f-4a8d-9e42-bc545706412c",
+    "keep_name": "Carel Lodewijk Dake",
+    "dupes": [
+      {
+        "id": "eeea1605-8254-4965-acac-6ee7252dfcd7",
+        "name": "Carel Lodewyck Dake",
+        "reasoning": "동일 인물 Carel Lodewijk Dake의 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "30400f28-fa5e-4530-825e-0826ae57e2ff",
+      "932430ad-f8db-43fb-bbca-6f08ff3ceffa",
+      "1dec7c45-a02d-4c1a-96a9-96f052ebacf2",
+      "d26d6caf-bedf-499b-b483-025a17345f6d",
+      "1c16026d-dd6a-4527-b791-963a645e29f0",
+      "d6b2bf47-9cab-4be9-93c5-cf37b9d75b41",
+      "a4877d2c-0bbf-46b0-91e8-10485ee777a5",
+      "1acf31df-274a-47d2-a189-edc64387d0cb",
+      "9a5541a1-ff27-4968-9d52-c30f66cfbd54",
+      "e838b152-0c68-46b4-8245-c67514d66fc3",
+      "078e23ea-b3ea-4cc4-bf3e-dd459bef0d46",
+      "c5fd6dcd-c790-425d-9ee5-d3c5012d1e52",
+      "1ec293c3-7a7e-4ee0-afe2-b2707d288041"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "b09b1810-6833-416b-9dd8-c3338ef170ee",
+    "keep_name": "Justus van den Nijpoort",
+    "dupes": [
+      {
+        "id": "4dfe61b8-01bd-422e-befc-c0f299708dbc",
+        "name": "Justus van den Nypoort",
+        "reasoning": "동일 인물 판화가 Justus van den Nypoort의 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "94ddee76-60f2-4670-8f6a-297b67ae1e3e",
+      "10bf897a-d571-4f54-9777-7b688a8ac529",
+      "58a73df5-7795-4f4b-966e-57cc89f0c67d",
+      "1c27a6eb-1ae0-4f94-b71e-6120581c588f",
+      "f471a303-3408-48a7-b221-d476204b4e9f",
+      "0f4878ba-25b5-46a7-9ee1-9cec71273e5f",
+      "978d0df6-565f-474b-b5f7-ec18583cb355",
+      "7d1454ff-65bb-482b-bf9e-8070d7d8e158",
+      "8c74a8bd-e57f-4450-8bed-6b6ff9939416",
+      "f0b98a3f-2901-4736-874d-754aab5bd824"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "9971dfa7-20fa-40ab-9eaa-e58980773c70",
+    "keep_name": "Goupil & Cie.",
+    "dupes": [
+      {
+        "id": "8b79455a-e71a-4994-b18c-293ba53e43d9",
+        "name": "Goupil et Cie.",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(company_suffix) - 프로그램적으로 토큰 비교 검증"
+      },
+      {
+        "id": "2714093c-c457-48ca-8b06-bc5fc0f80231",
+        "name": "Goupil & Co.",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(company_suffix) - 프로그램적으로 토큰 비교 검증"
+      },
+      {
+        "id": "bec04537-ca14-49bc-b47c-d703126a6cf9",
+        "name": "Goupil et Cie",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(company_suffix) - 프로그램적으로 토큰 비교 검증"
+      }
+    ],
+    "moved_artwork_ids": [
+      "d7eb2390-ece7-40a4-b501-8d937b4426c5",
+      "a471a7aa-baab-4a66-b0b3-3cb74f3152cd",
+      "b28806b8-69cc-4c94-884a-a9f559bffb20",
+      "a60883f6-a5d6-4032-a170-8d73fc145275",
+      "06388572-f01c-4d16-865c-ec1f61114d53",
+      "2243fb5b-e1a7-48b9-bca2-9f02c129e315",
+      "f6f9b096-edb1-4eb4-a1ff-5f3c79b69d61",
+      "8270d877-4c12-404b-884a-19ccc5b332f4",
+      "d9e7fde8-c44a-4a62-84cc-09a67cb4d628",
+      "0931c5fd-dd14-46d9-ae0f-50c29fd31590",
+      "a9b0f545-bdf0-46b4-8f04-537da6f5f603",
+      "f9da2605-1d19-4fcb-ade6-238453eb762c",
+      "8002d2c8-24ad-4a0f-afce-26c879a68414",
+      "9dce8f30-ead1-4878-b24f-7a523083e44a",
+      "761f5422-3dfc-4b70-899f-b51b2faf3b1c",
+      "28d4cad4-ddda-4432-8712-9f5ebbdf4d12",
+      "6a88cb45-7bc9-46ba-ad67-d34f41ea1db8",
+      "2ae823e4-4f8a-4bad-90c8-ca4133664e36",
+      "3014345d-b08f-4745-afb4-569abeb67ca8",
+      "abf91cc1-8dbe-4fa1-8cfa-3f06b2fba36f",
+      "2ed374db-a307-40cb-835b-8154bfdbdd12",
+      "74521399-e469-4e94-98e5-165d04904b50"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "90a68a16-d6e3-4b95-967a-ccbab40f226d",
+    "keep_name": "Watanabe Seitei",
+    "dupes": [
+      {
+        "id": "35970df5-0b3d-4c56-82a2-8594915dfe93",
+        "name": "Watanabe Shōtei",
+        "reasoning": "동일 인물의 서로 다른 한자 독음(같은 일본 화가)"
+      }
+    ],
+    "moved_artwork_ids": [
+      "85ba952f-02c6-4053-a52d-5c33ce19b7ad",
+      "17cdc29e-d770-4fb7-b485-6aefeafcb0d6",
+      "1e75b7bb-068e-43e9-a621-4f0875dc7b91",
+      "22cc506d-e3ef-4dd3-804a-d3c50d93ff4c",
+      "c03e6500-74a3-449b-9a8a-9d0a839fe6cd",
+      "8d7457ff-2425-4d83-a1e8-f17c2d93711a",
+      "8a263480-d987-4871-a19a-7ac1dc82db20",
+      "f7e5f61e-56fd-4774-8774-1d6befbbb417",
+      "e0c4f5a8-cd72-413e-8de6-f34dfdd629ce"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "7a2485a6-ded1-4505-a952-13ec023f75bb",
+    "keep_name": "Antoine Vandick",
+    "dupes": [
+      {
+        "id": "1882f936-5055-46ae-b6c3-5808808819d2",
+        "name": "Antoine Van-Dyck",
+        "reasoning": "동일 인물 안토니 반 다이크의 프랑스어 표기 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "237dbe99-1589-46d3-ae82-6eadefea63b6",
+      "82a7fb01-7e3a-499d-817b-0fdc13346d75",
+      "33167638-078a-4502-ac0a-95d1f7f6c834",
+      "5bb7f815-1e72-4234-8286-a60289eb4617",
+      "cd01f232-4c5f-42c6-a78c-088834a36628",
+      "437a0abb-510d-4842-8b80-7cc7f15dfd12",
+      "1d8c2529-5390-4878-bb31-31a319c638d4",
+      "c5dcdd9c-88b7-4f04-b3ce-a76202729864",
+      "1486268e-6998-482a-aede-afb8b7e65cb4",
+      "c4c93336-e55b-4bf1-9afc-7df7a5af6581",
+      "a2147690-7e2f-4c2b-8575-fe72dba7c335",
+      "537ed6e4-e055-4cbb-9741-aac249281a30",
+      "a897f606-57cf-4123-b358-332b3b0ade20",
+      "7a7546dc-fdbe-455b-b2c6-4f97750de6fe",
+      "f4e6c24d-4b68-4bbc-8a7b-3b9c15fd136f",
+      "833a5682-b545-4147-8b88-094cc457139b",
+      "5bbbe24c-26bc-428a-adda-37aebc27f13e"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "9fcf9f1c-7052-41c4-850c-f9df1b69285b",
+    "keep_name": "Sir J Reynolds",
+    "dupes": [
+      {
+        "id": "ed8efbb1-24bc-401a-8bdd-b5e94d8d43b1",
+        "name": "Sir Jos. Reynolds",
+        "reasoning": "조슈아 레이놀즈 경 약칭 표기 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "a62b0271-d531-4c66-acdd-f84954203949",
+      "e0dfd527-10c4-404d-aa96-c88008edf71f",
+      "c61f2887-b499-4c1e-90c4-5b3732066e1e",
+      "530c21c7-cdd0-40bd-be4a-4af81d140b85",
+      "cfaea155-798b-4321-b4d4-05ae6ea8616c",
+      "de15d65d-b33b-425a-a0d3-7b5bddae1ad2",
+      "28e1a18e-cf80-41dd-988e-1fcd9a94568f",
+      "9c1c76eb-3cd8-40a8-8e42-c05ff5053279",
+      "b3220799-e7e4-462f-a356-27c81ccc10e8",
+      "12a55560-80c9-4f38-8289-fe1811af3e2b",
+      "c304f607-ee59-4f83-81ee-9bd62c98836f",
+      "f73be19f-c140-43b6-9ec2-cf69ada35dfa",
+      "c47a2aa2-790f-440a-aa1c-6abd438c8424",
+      "e4412913-6754-42a0-a40f-373cd371c95d",
+      "e0db7134-4707-4c19-a5d5-b9fe6e754502",
+      "2e074d4d-3995-4910-82ed-c80721ea9c00"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "f2c2566d-9892-415f-ba14-e45d687c44b8",
+    "keep_name": "Adam Elsheimer",
+    "dupes": [
+      {
+        "id": "51685e6e-b250-4c04-8979-288f7ade0689",
+        "name": "Adam Elseymer",
+        "reasoning": "동일 화가 Adam Elsheimer의 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "89bcbe43-a436-4a28-98e0-a7340978c396",
+      "0dd2a80a-2edc-4209-af03-de57da51852d",
+      "463fce0a-b23c-4eda-892a-bc8d6c943fb9",
+      "58c15414-1e80-4aef-8a5a-9b216be6a95a",
+      "202e10dc-f33d-4a85-9029-9fad58d4727d",
+      "0ac89ea9-d71d-4c6f-a3e9-f0d3cf0be1b9",
+      "2c9dde60-c3f4-4baf-849b-8fbe56f7ce7c",
+      "7a096b46-4cbe-4d10-8e40-20e83166caa7",
+      "43cbcae5-09ef-46ca-bc3c-502649e5f05e",
+      "f33ec595-98d2-41f9-aa74-54202b304287",
+      "0bff3e9a-5496-42d7-b07a-c6e4af782c7a",
+      "57cbcef6-675a-4b23-bc94-09bebe7bb59d",
+      "10505d58-657f-44e2-be7a-75105d1d0e48",
+      "8e6cc38c-d703-464e-88e6-5380cc77f71b"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "127befc5-8605-4a46-b36e-68fa569f3bc0",
+    "keep_name": "Godefroy Scalken",
+    "dupes": [
+      {
+        "id": "9306daaa-67c3-43d8-a571-903d43cacd8f",
+        "name": "Godefroy Schalcken",
+        "reasoning": "동일 인물 Godfried Schalcken의 프랑스어 표기 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "4dd58654-9139-4c1b-8017-df2eff4b1745",
+      "a93d144b-33d4-4cc3-8794-bd9eb8b2ca64",
+      "3f30204a-9843-4634-9a95-7a796bb4ae45",
+      "fd0ccc7a-25e1-49c3-8e55-2f06948511ed",
+      "ec626f48-7712-4805-b72c-edeac8581b1d",
+      "6a38def5-25a3-4564-a7a8-0396c8030083",
+      "e327823e-c014-4ab2-95b1-fbe0c6ec3eef",
+      "75b923b2-e84e-4068-891e-70f8e34aaa67",
+      "fb5321ab-2722-4c69-88a4-330f6fd01de5",
+      "378eba49-bdd0-4c6a-8d9a-aa0ededcc5fa",
+      "d2c5b699-f983-4f73-b9f9-4d19b647060c",
+      "3abfa2c2-c4a1-42f4-9dc5-417ac1100fc1",
+      "26cc3980-eb44-4fa0-9bbb-65fc02e7a58d",
+      "2e5f0bfc-85ba-4b77-a95a-9f7acd07b488"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "971626ca-22dd-4cac-aab9-c1ba826d2cf1",
+    "keep_name": "Disdéri & Co.",
+    "dupes": [
+      {
+        "id": "aeb93793-f0ed-4ffa-896f-eec72a7be916",
+        "name": "Disdéri & Cie.",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(company_suffix) - 프로그램적으로 토큰 비교 검증"
+      }
+    ],
+    "moved_artwork_ids": [
+      "4a2cf696-a97f-4bcb-9908-c58ecf0b252f",
+      "f0e27dee-bdc3-4440-b4f3-208fbb7d93c3",
+      "15bca961-5c2f-4eb5-bf23-369552f75b67",
+      "e9f44b69-a534-4aac-a6dc-67003f0bf710",
+      "86c55dfb-3c0a-44ee-bf8c-b20a3cff4460",
+      "85cd687c-cb6f-47bb-8510-c516176b29ec",
+      "bf8d7d7d-c69a-475c-b2fc-4aef29af3ffe"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "d92df09e-36e1-4eb8-a479-ed32828492b9",
+    "keep_name": "Mstislav Valerianovitch Dobuzinski",
+    "dupes": [
+      {
+        "id": "b3337661-1893-401a-a653-a7a230264286",
+        "name": "Mstislav Valerianovic Dobuzinskij",
+        "reasoning": "동일 인물 Mstislav Dobuzhinsky의 음역 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "8b962f8b-aef6-4ed4-b5af-bba5a23989bf",
+      "69f29cc1-9f4b-491e-bea7-6efc9780ed31",
+      "9072cf32-193c-42e0-9b28-c0f0a81fbb1b",
+      "bccfbb77-adf2-434e-8a5e-029207ae3660",
+      "135e931d-28bb-47be-bd9c-0492e6c2b3c0",
+      "72641a2b-b9d7-4d86-87e2-35b88c06e689",
+      "f9ecff56-3613-409e-8d19-4ab24b543514"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "0cb440cd-0296-4e1a-8728-e135fefc0328",
+    "keep_name": "ein unbekannter Meister",
+    "dupes": [
+      {
+        "id": "16d48da9-a101-4be1-a7cb-95361fd4a013",
+        "name": "ein ohnbekannter Meister",
+        "reasoning": "고어체 철자(ohn=un의 옛 표기)일 뿐 동일 의미('무명 거장')"
+      }
+    ],
+    "moved_artwork_ids": [
+      "0e7b634d-894a-4106-aab3-b70688b3c804",
+      "24a3fdb1-1f60-434b-9e82-9eeac70881bb",
+      "480729ef-ca33-40bb-90ca-19bcd93da042",
+      "7dea3a59-7d01-43ea-983c-bb120f94a611",
+      "6f29c81b-e213-4d79-8f5d-a91bd845defb",
+      "9c4d0d71-ef3a-4d74-8605-0c0d32e8e09f",
+      "72b0054f-a5a5-4120-96fa-162ac78d9388",
+      "5c8a41e7-5924-47de-9b1e-af9ece125af2",
+      "e98ce933-ced3-4984-995c-6a4d8a899ca7",
+      "2d19b7e7-b38f-4259-a197-c0e93f2a8312",
+      "8e36bbf9-f270-487d-aa03-84498730a717",
+      "95b7c085-a82e-43ab-8361-c6901e53963a",
+      "b57bea5f-296b-4416-a918-114757b0b40a"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "414a24f0-3775-4308-b190-de35dc67fd68",
+    "keep_name": "Sir P. Lely",
+    "dupes": [
+      {
+        "id": "ef72dbc7-eea3-4a49-a21d-3749f31d63e4",
+        "name": "Sir P. Lilly",
+        "reasoning": "동일 인물 Peter Lely 경의 표기 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "b9d4f6c3-231d-4844-8fe9-f0d1163cf6ec",
+      "a5424e30-6438-44df-84fe-ffab51166b74",
+      "e907bfb7-4b0b-46f8-b1d8-3ada6b21dca6",
+      "ac2b53b9-4a17-4a34-a2de-9ba8d759857a",
+      "052a4ed6-cdf4-4b91-9fda-4c0f564158aa",
+      "66deee44-e22d-4000-954e-48fb20b90f93",
+      "a879357e-b6cf-4569-a043-ff24841aadb5",
+      "7d163daa-8d64-4862-80d5-03f62ca05399",
+      "6921f097-55a2-4398-aa29-8c74df4497f6",
+      "ca6b6626-c42c-4a9a-83a6-64d942930971",
+      "020da2b9-825d-43ce-8b60-ec5f585ac554",
+      "face607f-601b-4f76-bac4-cec5176a1eaf"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "13e19207-d106-452a-a33e-2b663c1a254a",
+    "keep_name": "Vois, Ary de",
+    "dupes": [
+      {
+        "id": "5d4cc5ca-71e6-41fb-acd3-e0e989a97c44",
+        "name": "Vois (A. de)",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+      }
+    ],
+    "moved_artwork_ids": [
+      "35842d4b-88e5-48dc-9e7c-177f821dba09",
+      "80d754e0-d348-455d-97d2-a63f18b8c5fb",
+      "6652f685-d6fc-40da-9805-64cc7f1d68d7",
+      "62dcd9ff-fcb5-44d3-924a-cb086e09dc75",
+      "6eb4313f-770d-4f38-bacb-8ed294244a85",
+      "9ee9934d-3078-4a17-8f75-ba2c6911756e",
+      "72b8a892-5bdd-46a1-9be8-9652482d44d1",
+      "bcab4e29-e16a-495a-81d8-2cff89c3a507",
+      "1e50c8c4-195e-4c2d-91c2-edba87ed9aee",
+      "5393e03e-bb48-414d-a097-23a9ad8d7328",
+      "502b9f1b-e880-42dd-9727-f7cfa8f8d43f",
+      "e1681a25-37dc-4bf6-84a1-0a2ddb4e2c45"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "1542bd6f-9dc2-436a-97a3-fab11f2e8e89",
+    "keep_name": "Sir Joshua Reynolds",
+    "dupes": [
+      {
+        "id": "ae17f272-0a61-40f7-abde-b851394de2f8",
+        "name": "Sir Josh. Reynolds",
+        "reasoning": "조슈아 레이놀즈 경 약칭 표기 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "cb4fb145-86bc-4b31-ba93-6c233987acdd",
+      "9eb7c562-e551-4e7b-8c58-ebbe89361827",
+      "5cb369fd-b9e5-41c3-8606-2ca081b53c79",
+      "904439b5-71b9-4039-bb44-c3e7c58de449",
+      "e7e9e26a-6b1e-4d1d-a1d5-a506bf9cf592",
+      "e837a9ed-5bff-4cee-8ce9-26d410ce21dc",
+      "c6d76c92-c9d9-400f-a136-10010bc7f14d",
+      "3861bbec-c196-4584-b899-eb18e5a29060",
+      "a7949727-a7f8-45ee-a27f-d7b5f010928a",
+      "fffff943-ae27-4bc8-9c7e-60eeb10ec3a1",
+      "19e9c111-040a-47b2-91bc-c83dac152df9"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "1d05b4cd-e544-4bfd-b203-e68eda292c84",
+    "keep_name": "Both, Jan",
+    "dupes": [
+      {
+        "id": "fcf8c52c-f147-4d59-8176-4b505d882f28",
+        "name": "Both (J.)",
+        "reasoning": "동일 화가 형식 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "f74f22f0-f462-4840-9176-9ce7a09e80d3",
+      "e7f42c79-c113-4021-8ed9-de8013c0993d",
+      "4754f89a-6200-4ff0-af9b-1f213ebff046",
+      "ab11c86e-65b1-435e-b954-ec45c3b01d60",
+      "1dab249b-7f7c-4498-b3f7-2be1bc12f42a",
+      "40bd0e6c-9b6b-45d3-b0b1-22aeece8a9c5",
+      "3c77915c-4266-4a6f-802c-61a0b57ea6eb",
+      "1fbba385-cb45-4233-b641-71a361cb0f01",
+      "86941a98-46c5-449e-954c-48ec5e7aaade",
+      "04ca0863-56a7-49cb-b1ab-01a5284a77b3",
+      "a817b92d-07ab-496d-b043-f3f46240b679"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "cf9919d0-0ffb-4867-a538-bb97b9dd80ab",
+    "keep_name": "Adrien Vandenvelde",
+    "dupes": [
+      {
+        "id": "42e4b59e-76b8-4d7e-b8a2-8707a2404084",
+        "name": "Adrien Vanden-Veld",
+        "reasoning": "동일 화가 Adriaen van de Velde 표기 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "bb80169c-8dfb-477f-9227-86a18d7765eb",
+      "a9582c71-7828-40f4-ab08-36600a92d9c0",
+      "3d2252b0-6dfc-41dd-a896-4e766d7c5224",
+      "deca1e8e-6e3d-479d-848b-b709fd4f453a",
+      "12576e18-a57b-4206-a97e-ad2d655d3fc5",
+      "a128a9c0-2ff1-448b-a5d5-040266ecfe90",
+      "8a44d2c9-118d-4614-ba21-74fee7ed33ea",
+      "1ac89911-e974-4abf-bf0e-311b3a03f463",
+      "4576a1ab-80d9-4203-8299-535b724c0553",
+      "28e40db9-2865-4d94-83c3-773b78bb3107"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "f69b9038-2f32-4a5a-8611-9ff8cb629380",
+    "keep_name": "Claude Lorraine",
+    "dupes": [
+      {
+        "id": "33a98a25-621e-45d4-a157-638d5161c4d2",
+        "name": "Claude Lorain",
+        "reasoning": "동일 인물 Claude Lorrain 표기 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "3389dfdd-ef48-4138-9605-ccac41460466",
+      "f9185707-005c-40d1-97cb-f33708d558cf",
+      "1ed4fd1a-0a03-44dd-b77d-31323be36823",
+      "76868ecb-a12c-418b-b803-8bf691160bb7",
+      "bd6ef478-82d9-483b-9503-b6d8fbb75b2a",
+      "e6c9602e-7e97-4c21-9c12-088dc13ad477",
+      "726e1f01-bbfd-4347-83a1-d4d104fce4bf",
+      "f6cc2723-05ba-4a58-9b27-a2e10c0ccb98",
+      "564aa6ca-2659-4c13-9f13-8d71c32d507f",
+      "f9cbcb89-d394-48ca-968e-506965c87d38"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "60af1c9c-1201-4137-ab2a-fe81020f823f",
+    "keep_name": "Perin del Vague",
+    "dupes": [
+      {
+        "id": "a2f919f1-61e7-4005-b66a-c70c1d50bfcb",
+        "name": "Perin del Vaga",
+        "reasoning": "동일 인물 Perino del Vaga 표기 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "18be6703-fec0-4a53-9a61-a115c1a6d6ec",
+      "41b47f9c-5e93-4be0-9cd2-bbb1a3cc7eb7",
+      "334a4812-93da-48dd-8696-291d93aad937",
+      "051dc6bc-0a68-449d-ba8e-ede189922188",
+      "a529c2f5-5b51-4c97-b34b-6381c48ed1a0",
+      "c55a5576-26e4-420a-b719-2856d059e964",
+      "cbed0d39-4187-4ec5-b494-aca9e0792a49",
+      "42729d4d-0594-4ce9-855b-ca7bc9b13d8c",
+      "f2bc996e-d318-4745-a235-f6ee58c114b8",
+      "97e6c5d6-8a2b-4a54-9509-88a41d326a77"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "0f1465b6-af4b-49e1-9633-c778cdc0edff",
+    "keep_name": "Léonard Misonne",
+    "dupes": [
+      {
+        "id": "0f284d95-101a-43c9-a98b-3e575b0c4097",
+        "name": "Léonard Missone",
+        "reasoning": "동일 사진가 Léonard Misonne 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "c7e0be88-375a-4bcb-85b6-a5b0dd3a32b0",
+      "6184f1cc-9083-4f66-8a0a-d438b3cfb5b9",
+      "2af3899a-86ef-4b85-af1d-02995dde5b84",
+      "9e8c5345-8016-4b63-a5a5-511ae10f13c2",
+      "ee6c182a-0b5d-4c25-b432-8105b24999e4"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "c984c487-a1cb-4538-8744-752db5858ea3",
+    "keep_name": "Old Franks",
+    "dupes": [
+      {
+        "id": "3030a4eb-14d8-4fe0-91a9-c87013f71451",
+        "name": "Old Franck",
+        "reasoning": "동일 별명 표기 변형('Old Franck', Frans Francken the Elder)으로 추정"
+      }
+    ],
+    "moved_artwork_ids": [
+      "ffe28963-c6a6-459b-bd0b-c796dee4e7f1",
+      "3edf4b6f-1478-4876-b211-f202db302a92",
+      "bbb9a232-5b30-49ac-a06e-be476f4fb902",
+      "6a3f9df4-240a-4677-bda8-106c62dc687f",
+      "75220d9f-b7c6-4613-9b0d-9e4fe8483269",
+      "9d7eb7ac-f6e4-4ebe-bb66-4d556335a633",
+      "ecfa0774-24cf-45b9-9d3a-d58642ed5bdc",
+      "5c891693-887e-49ef-ab3a-61fcfced5432",
+      "ee63040d-9296-42e8-a0ed-7bf25cf34698"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "0f29b8d9-d645-433d-a17f-34d3e806a512",
+    "keep_name": "Quinten Metsys",
+    "dupes": [
+      {
+        "id": "9cccb22a-c039-43bc-b4b1-531803a79394",
+        "name": "Quinten Massys",
+        "reasoning": "동일 화가 Quentin Matsys의 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "4dbfd299-8cc8-44db-b75e-50c8c639b09c",
+      "ea00ccaf-0485-4d65-88e4-c462237e82fd",
+      "0b6b015d-0994-4036-a3d4-9424d0c08564",
+      "8bbc5c51-4be9-49a8-a73e-98b2f8a26ea5",
+      "a59f1e6f-f85f-494a-a64b-597e08745b56",
+      "8535293e-58d9-4fcb-89d4-db9942f56537"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "74a6cca2-9e7d-4ae1-a5c7-e63ca5d3c84f",
+    "keep_name": "Sir A. More",
+    "dupes": [
+      {
+        "id": "d318aa1e-cd6e-41ce-a32f-7938b8bcd5ee",
+        "name": "Sir Ant. More",
+        "reasoning": "동일 인물 안토니스 모르 경 약칭 표기 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "9dfe4053-c687-4364-ad1b-7c5bb3f576ea",
+      "64150ae3-142f-4e65-bf3e-f8bd60fdddda",
+      "f5cd3283-568f-410e-aa62-059cf7eb28e0",
+      "d2825711-0740-44e4-b04e-9fc2e1d97c1b",
+      "2f37a537-af90-4f38-baf0-72a61fa5f1a1",
+      "62215d56-5b13-4ddb-8f16-47ce21de44fb",
+      "23c8f676-583f-474e-be97-17dab034d607",
+      "e45851b3-1e52-48b5-9b8f-bf2b3b9ae4d5",
+      "cf035cb7-f138-417c-80ae-09a19c73a1fe"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "c85ca25d-208c-4c9f-8855-94dd43a770f0",
+    "keep_name": "Velde (Adriaan van de)",
+    "dupes": [
+      {
+        "id": "98bdba82-d3a0-4f71-be13-35ddb2402257",
+        "name": "Velde (Adrien Van den)",
+        "reasoning": "동일 화가 형식+언어 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "bd92845b-6f2d-4804-9655-a38721fa27b9",
+      "c69b458c-67d3-42d5-bb77-933508a8880c",
+      "3961b8cb-244e-4516-82d0-b191cba9e615",
+      "bb5c5af6-a1e1-49ed-b765-fbde0b63d0eb",
+      "c9170635-8ac6-4778-9d71-50de094e4b5f",
+      "152afccc-483d-48bd-9311-e9025e6e1ad9",
+      "83dd8d27-4ccc-4131-9cf6-6093605a67f0",
+      "1bd9ed3c-0dab-444a-8676-21e925ad7e97",
+      "4f9becec-0433-4acc-9781-316c76ab6cd1"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "87af5f9c-1cfb-47b6-bcd5-f78cedae152a",
+    "keep_name": "Adolphe Braun & Cie.",
+    "dupes": [
+      {
+        "id": "e687745c-040d-4ef0-8d95-bdf3d63a6953",
+        "name": "Adolphe Braun & Co.",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(company_suffix) - 프로그램적으로 토큰 비교 검증"
+      }
+    ],
+    "moved_artwork_ids": [
+      "18b369a0-a428-48cc-b852-30a36a21e32f",
+      "90d38701-a64c-49ca-acb8-422dbd501c05",
+      "5f5680e0-b4be-4f02-a015-4bc80d33bc55",
+      "7190564e-6422-44d9-8aea-907a7af85bef"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "08d7085e-f17d-4009-843c-fb8b04ad9801",
+    "keep_name": "Mstislav Dobuzhinsky",
+    "dupes": [
+      {
+        "id": "982885ef-f799-418b-8cd5-3cf839e09ece",
+        "name": "Mstislav Dobuzhinskii",
+        "reasoning": "동일 인물 음역 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "a8c5e868-dfe4-4711-a80f-1fe68b61c0ab",
+      "ec8088ba-a4d2-4608-8fd3-dc218a67604c",
+      "37e37edc-f661-458e-b8c7-928d095b3a33",
+      "cf410936-e475-436b-a246-374ad6b9d83f"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "3de5a30f-e51f-4b19-8e32-a74265312138",
+    "keep_name": "Dusacq et Cie.",
+    "dupes": [
+      {
+        "id": "d11767fc-38ea-42cb-b06b-9250fd80b063",
+        "name": "Dusacq & Cie.",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(company_suffix) - 프로그램적으로 토큰 비교 검증"
+      }
+    ],
+    "moved_artwork_ids": [
+      "02bbda1b-5978-49a0-a5fc-ee8fa8490f52",
+      "7598e5a4-46be-42e8-8682-0d5094805251",
+      "d8eebc30-9ea4-48a2-bb77-6360118c1fca",
+      "ecded0c9-657e-46b6-b9f3-6405c403c4c8"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "3e368626-4344-44cb-aec0-67e5b278c957",
+    "keep_name": "Partridge, John Bernard (Sir RI)",
+    "dupes": [
+      {
+        "id": "dce540d4-40a3-49a7-97a2-6a7d672222f3",
+        "name": "Partridge, John Bernard RI (Sir)",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+      }
+    ],
+    "moved_artwork_ids": [
+      "7c50c870-cf17-4923-b734-578bac3c78ac",
+      "3001eba9-a55e-4f3f-a82e-d25b1816756a",
+      "03afaf8b-f4d1-4b4d-bb86-3760d92a1160",
+      "84735834-b5ef-49df-9d42-2ab00a0d8f8c"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "2635a914-7494-438f-9dc3-c1dfe60ef916",
+    "keep_name": "Samson & Co.",
+    "dupes": [
+      {
+        "id": "77d5a0ec-375a-48e4-9065-13a68355fe7c",
+        "name": "Samson & Cie.",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(company_suffix) - 프로그램적으로 토큰 비교 검증"
+      }
+    ],
+    "moved_artwork_ids": [
+      "49ededc7-f407-4f0e-96d5-31091d6479d1",
+      "f3c1e298-a684-4b10-9c41-d4625441011d",
+      "aa384216-93fc-4b15-ab4a-723c5a89e0c4",
+      "2618a9ad-6c45-42f8-ab02-0e84ab4ef348"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "587d1699-3440-4fd3-9b5f-9fc27be149b9",
+    "keep_name": "Q. Brekelenkamp",
+    "dupes": [
+      {
+        "id": "c91b64d1-50f9-47cc-b7d3-00725a84adf5",
+        "name": "Q. Breekelekamp",
+        "reasoning": "동일 인물 Quiringh van Brekelenkam 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "6d8c6378-eb09-45a6-b842-a5e5db3bafbb",
+      "1712f08b-d926-4742-bdea-6aee82d1f8de",
+      "02c5a83c-5a7c-462d-8d6c-ab219472f9d9",
+      "ce26d757-f81e-4a18-84b0-c38dbfa9fb90",
+      "43fcc311-9ee4-49d9-858d-169578e54bbc",
+      "cb53468e-2375-4909-8d13-5781a47197a1",
+      "fa09826e-285a-4e3d-b1a1-e3d29739391e"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "ec8ae5ca-817f-4b31-851f-e7fdee778e94",
+    "keep_name": "Michel Ange",
+    "dupes": [
+      {
+        "id": "60d6724d-9b29-4454-8a02-8b65f3b7c155",
+        "name": "Michel Angelo",
+        "reasoning": "미켈란젤로의 프랑스어/영어 혼용 표기"
+      }
+    ],
+    "moved_artwork_ids": [
+      "20d0ad17-24ce-4902-b567-68206fcb7ee2",
+      "6ed98488-3a56-46c4-a7d1-f83297b522cd",
+      "524fb476-59ba-4c5f-8713-19f582884703",
+      "df3bcd72-b4d1-4cfa-9528-f745197a066b",
+      "557a847b-63b0-43a5-93db-1dfce446c3cc",
+      "ec23a219-37fc-44d9-85a0-0a27c7758ce5",
+      "5de8a1a6-4607-4b9d-9064-fc7af7e40e27"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "e08e1db8-e46d-4d6d-9b71-9c466ac059a0",
+    "keep_name": "Old Wyck",
+    "dupes": [
+      {
+        "id": "140dc751-c65a-4c3b-851f-2d66720da9e8",
+        "name": "Old Wyke",
+        "reasoning": "'Old Wyck' 별명의 동일 인물(Thomas Wyck) 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "b8a7925f-b94f-4773-8f91-c0cc640b8685",
+      "213a2a49-014e-47cc-9489-704b68debdf4",
+      "3d8aa59d-0f15-4477-bfab-f97176fe6374",
+      "9b5a151f-a513-4355-af7f-f6a1b4a0f914",
+      "1cd18aef-2e65-4596-8f17-81b7f87e36d5",
+      "3721e7d2-089e-4f63-b901-ee0e6460d0f9",
+      "197fd7c2-f081-4a7c-9f60-ec6416c79e67"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "e168034f-ae46-4cf0-bca6-a8c25a991df6",
+    "keep_name": "Raymond de Lafage",
+    "dupes": [
+      {
+        "id": "b2ce3b74-a933-417e-8df3-6c30ee7d4da4",
+        "name": "Raymond la Fage",
+        "reasoning": "동일 인물(Raymond Lafage) 표기 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "927246fb-9903-4114-b4d4-0ce21345ba83",
+      "4be6bbb3-8869-42fa-b5ab-ef073e00c156",
+      "34c4b0a5-cb57-4e7a-9633-f0e560ff652c",
+      "e793fde5-df6f-4392-9bbc-943b59532644",
+      "c2bcc415-ad37-47e2-8c1e-201bb8c134fb",
+      "bd9823ec-c13a-4301-827e-84aa6233e78a",
+      "c5812690-f2a9-4023-97bd-0deddea1300e"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "bf50a952-c762-4e86-bfae-b004ea487624",
+    "keep_name": "Phil. Wouvermans",
+    "dupes": [
+      {
+        "id": "e86c702e-d211-4033-851b-d4cc98efb8a2",
+        "name": "Phil. Wauwermans",
+        "reasoning": "동일 화가 Philips Wouwerman 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "c71f26b4-b881-4900-b73e-d6918eedfa73",
+      "3c747883-e4ae-40ea-8a19-7a99486dedb8",
+      "c19a7f1c-317a-48b3-b042-cc9d7bbe4324",
+      "cfa3c146-9dc4-44b8-ae27-c8eda4299703",
+      "e915b410-2901-4892-be12-9b207a7362a4",
+      "ceb8cff3-48de-498b-8738-74f9a8e1e3d9",
+      "d96e5072-8778-4e57-bd4d-e619503ab46a"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "714f15a1-fb62-4c39-b7df-d262225825c8",
+    "keep_name": "Balthasar van den Bossche",
+    "dupes": [
+      {
+        "id": "bd03f8a1-44c5-4455-bd15-e1060f034b0b",
+        "name": "Balthasar van den Bosch",
+        "reasoning": "동일 화가 성씨 축약 표기"
+      }
+    ],
+    "moved_artwork_ids": [
+      "3cd081e0-b2b0-48ca-897d-7814af654465",
+      "17e1af90-aae1-4fad-991c-3f99792b7ead",
+      "1b061cf3-90d7-41bd-b859-8786e6c1b5ea",
+      "56e36b0e-2f80-4f4f-97e6-28f8d2f755be",
+      "58dac2e0-9fa7-40fc-a8cd-e5938be9b22a"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "72c58dfa-ca18-4a89-a151-dea47cd491f0",
+    "keep_name": "Peeter Snijers",
+    "dupes": [
+      {
+        "id": "9e67df68-11ad-42df-a5ad-871577b2bb75",
+        "name": "Peeter Snayers",
+        "reasoning": "동일 화가 Pieter Snayers 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "67a9d40d-1fda-4731-b461-a79ac427dd30",
+      "90937d68-f5be-49f6-96c2-3d0f2648cd43",
+      "f8bebe75-5f36-417b-b891-f7add9ad6820",
+      "8dd53af8-262f-4d7c-a07c-58f139586b04",
+      "10285cd9-aa18-4c70-919b-f6ec9dad14b4"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "306bd0c1-3fb3-4b63-b5cf-63b82ab20382",
+    "keep_name": "Sir Anthony More",
+    "dupes": [
+      {
+        "id": "8c68828a-7d00-489f-bd06-2bcb8f3287e2",
+        "name": "Sir Anthony Moor",
+        "reasoning": "동일 인물 안토니스 모르 경의 표기 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "a025bf72-39a3-4902-9b2b-e3bfee920cc5",
+      "8e19359c-1153-4969-ad47-4972b45dae4f",
+      "15b98f81-160e-42ae-b3e2-320bb998d033",
+      "f4ab76b6-a053-48bf-b356-0e0c9a91385d",
+      "591d6ca3-b63c-4d18-abb2-ec5f214d7044",
+      "5788220c-14bc-494c-b242-a071d345ad5c",
+      "9a72ec90-69ba-4cc3-87d3-2ee23c23f15b"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "3b45f2f0-d05a-4bdb-9580-22782f527d3c",
+    "keep_name": "Bakhuizen, Ludolf",
+    "dupes": [
+      {
+        "id": "cdb60017-23d5-49c2-99eb-629ed9cd45c8",
+        "name": "Bakhuizen (Ludolph)",
+        "reasoning": "동일 화가 형식 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "2e5a605b-2c65-49f7-9be9-9c50589fd381",
+      "3080a03f-7c8d-47ae-b17a-40d7431f0501",
+      "d4386312-da0c-4fbe-bc8e-2d7ab15e6e62",
+      "cb23a61c-60e7-468a-8261-1fd09f1986eb",
+      "3193c2ba-3d6f-4192-b954-797da0eee590",
+      "4bbb7bbf-e940-4ecd-9181-8ebe443d51de"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "1147101c-a7a1-4170-9d2b-40fea9525af5",
+    "keep_name": "Breughel de Velours",
+    "dupes": [
+      {
+        "id": "1b8381bd-3d7f-4d07-958a-bc8946f89b4a",
+        "name": "Breughel de Vlour",
+        "reasoning": "'벨벳 브뤼헐' 별명 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "4633d034-a3e1-4321-b5ad-3197a992c728",
+      "4f67b0a8-ed72-470a-8ff7-68d1252b0661",
+      "4c3d3768-25cb-41d5-a70a-6203aeafad7e",
+      "113ef9fb-ebd1-4a72-b447-5f2b83ea9aae",
+      "7e9fe0ce-edd6-4a6f-b1b6-4bfbabcf7205",
+      "df0e081f-2117-48b6-8915-38194e86e220"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "b3ca77ef-8b1a-4ce1-a151-cc4b02fd2e8e",
+    "keep_name": "Emanuel de Witte",
+    "dupes": [
+      {
+        "id": "78af008c-06bc-41de-ab56-8d9f156bd1fd",
+        "name": "Emanuel De Wit",
+        "reasoning": "동일 화가 축약 표기 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "f420773c-1456-4afd-bd8c-c449962934b3",
+      "02261d25-5adc-4bbe-8737-ede533c2064b",
+      "60246485-690e-45d9-8d16-65d5829b4e58",
+      "6c38ab62-183c-4007-aede-6b4e4ccc3939",
+      "3a4793e8-597a-4bce-9b22-6681c0b8261f",
+      "8785d8f9-2d68-4e4c-ad61-78d1be9ba292"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "fc9e192d-86c7-464a-986e-3b52e7f4deee",
+    "keep_name": "Dominique Zampieri dit le Dominiquain",
+    "dupes": [
+      {
+        "id": "1e9369e6-a67e-4386-8016-8f5658ece3b1",
+        "name": "Dominique Zampieri, dit le Dominicain",
+        "reasoning": "'도메니키노' 별명 표기 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "b5435de0-4f02-4389-bdf2-923a5be950a3",
+      "b57a2639-e03a-4e64-9022-4aa8db9afe4e",
+      "b1c831ff-69ad-4968-8f47-7856f86d62bb",
+      "c4b7bc9d-6356-40a5-98ce-40b0b8c6ae62",
+      "c4c5504b-5ebe-48bc-9125-359f92cd70d4",
+      "0dc0ecfe-2ef6-47b1-a009-cb6b96b5530e"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "933bd7c1-5214-44fe-9c30-de535f601cce",
+    "keep_name": "Mayer & Pierson",
+    "dupes": [
+      {
+        "id": "f18d92d9-5fb2-48f4-b49b-e5efbf9a32ab",
+        "name": "Mayer et Pierson",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+      }
+    ],
+    "moved_artwork_ids": [
+      "1f74ae88-91d1-4989-8544-061c8030828b",
+      "ede55ecc-7eed-4d61-9c7c-f5e3c30e19c8",
+      "198e3b42-828c-496c-91ed-7e25b82dd6d4"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "b70aa660-1977-4cfa-a0fe-f9a74e1e19ac",
+    "keep_name": "Velvet Breughel",
+    "dupes": [
+      {
+        "id": "987ea299-5be6-4f42-b3b4-767f6ff53206",
+        "name": "Velvet Brueghel",
+        "reasoning": "동일 화가 가문 성씨 철자변형(Breughel/Brueghel)"
+      }
+    ],
+    "moved_artwork_ids": [
+      "0764f3ec-b2da-4274-a4b2-3fab82242c7a",
+      "8f9249d4-ab82-4d87-adf0-28faa22fc02d",
+      "28c47f09-999c-4146-aa43-13717e646dca",
+      "cc20f98f-c7ea-4508-a52e-19296b13180b",
+      "d8d9933a-4da6-40c8-ba2c-3c60ca1fd37d",
+      "d4ca7e1a-8f0c-48de-a079-f5f8b5faf7c8"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "ea15c749-bcd2-4e9b-9fd6-2fe3654b0989",
+    "keep_name": "Adriaen de Grijef",
+    "dupes": [
+      {
+        "id": "686b3452-37e7-4270-8321-7ae89a08e5eb",
+        "name": "Adriaen de Gryef",
+        "reasoning": "동일 플랑드르 화가 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "b8673bca-e655-41ad-bf78-126adb0fa73d",
+      "86853e4f-c30d-4a2c-a7b5-d07db16ed7f8",
+      "0fbb5f52-2a82-4cf7-a507-50953ab4f964"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "240ae000-c445-423f-9da5-8796fe24d5e5",
+    "keep_name": "Dirk Koedijck",
+    "dupes": [
+      {
+        "id": "472ad628-9d16-4b01-b1b0-21821a3efca0",
+        "name": "Dirk Koedyck",
+        "reasoning": "동일 화가 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "96eec0b3-e6ad-4363-9c8a-810dff0fbbb2",
+      "76d52f5f-37ea-4f21-a305-475327869e71",
+      "51020084-4604-4302-a38e-b9f64d75f468"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "789da061-a1d0-4c44-be1e-bdb751d900dd",
+    "keep_name": "Ulisse Aldrovandus",
+    "dupes": [
+      {
+        "id": "1d39acc9-815d-4c47-8306-e6423dcff6ae",
+        "name": "Ulisse Aldrovandi",
+        "reasoning": "동일 박물학자 라틴어/이탈리아어 표기"
+      }
+    ],
+    "moved_artwork_ids": [
+      "90187ee4-9767-42da-a5d6-96ab21995410",
+      "beaac96e-4424-4a4a-a009-39b983124a63",
+      "525c061b-5d6b-4925-b641-21679f2b2cfe"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "cafd16b7-ca2e-4aa4-81fe-791e192ed91d",
+    "keep_name": "Zacharias Blijhooft",
+    "dupes": [
+      {
+        "id": "599483fd-4f74-4580-a8c9-2e50d454793f",
+        "name": "Zacharias Blyhooft",
+        "reasoning": "동일 인물 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "f1cc7264-566a-44d1-a81b-03a2735e39a5",
+      "b9d3b48c-5faa-4357-bdac-fb28a8f90ba2",
+      "b65ea5b7-fd7a-43e0-9a32-734de4846578"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "ad13f51a-15e1-4225-8f40-a872d580a6e5",
+    "keep_name": "Eduard Steinberg",
+    "dupes": [
+      {
+        "id": "551f1fa0-16c9-4178-8b93-2876923b5ad6",
+        "name": "Eduard Shteynberg",
+        "reasoning": "동일 인물 Eduard Steinberg 음역 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "862ddd97-b0fb-4bd3-a30c-6bd322739324",
+      "73d11f9e-7e8a-41a6-b8c3-d541ca1927b4",
+      "96c52126-1455-472f-a99c-3b00109774d3"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "e96cbbf2-d47b-44ef-8809-b68bfb5cf57a",
+    "keep_name": "Aug. Carrache",
+    "dupes": [
+      {
+        "id": "c50038e4-0db7-45ff-a0a6-5fe837e1483b",
+        "name": "Aug. Carracci",
+        "reasoning": "아고스티노 카라치 약칭 표기 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "9e3f0d96-726e-43d6-9c68-5b0188c574ae",
+      "9bf4443f-395d-46c3-972a-a7b3dcb19de9",
+      "19ac3264-92d5-4ffd-a41b-f607f12b5571",
+      "88dd9191-99f8-475c-b171-b2167829a4bf",
+      "971e0e40-b11b-44a0-b205-e9d7543cb455",
+      "9db9c9d1-0825-4d3d-8ad5-89adb2ad668a"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "194e752f-17e4-4c8f-9ac2-d2c38f9a32e4",
+    "keep_name": "Egbert Hemskerck",
+    "dupes": [
+      {
+        "id": "8375124e-1dcc-4a8f-80c0-a16ac79374c4",
+        "name": "Egbert Heemskerk",
+        "reasoning": "동일 화가 가문 철자변형"
+      },
+      {
+        "id": "545edbcf-c9d9-4c44-bb16-f0b3faeb3b5b",
+        "name": "Egbert Hemskirk",
+        "reasoning": "동일 화가 가문 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "e1357e16-4f89-42be-b780-0866e111659b",
+      "1c5ce35f-39e1-494b-ab94-9fa89ffccc62",
+      "51b6bc5a-1464-4061-b831-b5f35bc54ebe",
+      "ad9d8997-c300-4577-87a2-545599924904",
+      "d2f36086-3c49-46e0-ab36-077b3f1a8fd7",
+      "48a21afe-f19b-473b-8acc-5d9ec6c23119",
+      "361e05ce-24f7-4d92-aff8-e0f1a73d3939",
+      "d309d75a-b949-42b7-a4ac-139608183cba",
+      "c376e64a-2b16-4786-8a80-d62179416e63",
+      "f1e126ac-5c19-4d24-a018-e8ea0babcbd7",
+      "5fedf19c-0fb4-4186-8294-20901b2401f8"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "a0108881-2763-4caa-a1f8-cf31a1adf7f2",
+    "keep_name": "Klaus Fußmann",
+    "dupes": [
+      {
+        "id": "7f2859fb-9746-4afd-86e8-b1b953c61b99",
+        "name": "Klaus Fussmann",
+        "reasoning": "동일 독일 화가 ß/ss 표기 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "6cf8b63e-18ce-4285-8076-b368628c469b",
+      "4f86db13-4ed9-455d-b730-ba25903e501e",
+      "c631a393-da17-44cb-8699-8dd2b625a020"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "052a0329-dac9-4e4f-8a19-84f97b3554f6",
+    "keep_name": "Veit Stoss",
+    "dupes": [
+      {
+        "id": "dd11bed6-e1de-4f77-a296-49a6077ca96d",
+        "name": "Veit Stoß",
+        "reasoning": "동일 조각가 Veit Stoß ß 표기 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "a6e6b05d-a6be-4457-8109-2e79d1234580",
+      "2c1d1aab-04ea-4307-8877-31059ca2c5b3",
+      "00bbb713-a72f-4cd5-bc81-cd3e748f2cf3",
+      "ce112e91-a617-4266-8773-9bc9abd9125c",
+      "e8ba3af5-ba7a-445c-aacd-d2ac79171c22",
+      "f31a2535-f495-4b9f-bbd3-5437e0c63a29"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "b52e0674-dfbe-494c-a233-35dce4d31207",
+    "keep_name": "Anton Raphael Mengs",
+    "dupes": [
+      {
+        "id": "2844ecdf-4301-47e0-9b17-6a25f7524d28",
+        "name": "Anton Rafael Mengs",
+        "reasoning": "동일 인물 이름 표기 변형(Raphael/Rafael)"
+      }
+    ],
+    "moved_artwork_ids": [
+      "505a41d1-ca2f-4e9a-bf6a-4edabe7325a7",
+      "60ccd487-2021-4857-ba07-ab550d6e849c",
+      "57add3fb-28f9-4e19-b6d8-ce0383f97431",
+      "bdb0ffd7-8651-4309-9f85-1d01ad41ee62"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "f749ae3f-7713-4170-ba61-54cafa0bd36e",
+    "keep_name": "Lingelbach. (J.)",
+    "dupes": [
+      {
+        "id": "093bee46-fe1f-4b39-89f5-f891cce067f9",
+        "name": "Lingelbach. (Jan)",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+      }
+    ],
+    "moved_artwork_ids": [
+      "fa8b540d-7d1b-4024-b891-74e5a462a47c",
+      "c8c6bce7-ca27-4805-b6e5-13a5b1680a39",
+      "335ba4d0-e4f4-4e07-ba0c-b04dd5e06249",
+      "cd52660b-c178-4ecd-8921-a188972d3fed"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "34a981d5-b0f5-4c52-953b-ff9ea7a334b5",
+    "keep_name": "Corneille Dusart",
+    "dupes": [
+      {
+        "id": "67046893-7bdc-42d2-9c2b-30a6da878b3a",
+        "name": "Corneille Dussaert",
+        "reasoning": "동일 화가 Cornelis Dusart 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "2d166bcd-b27c-4ff4-9b7e-b8cb287e6563",
+      "65254bc6-eb85-4ef4-a8ea-889ad92832cb",
+      "a782d1dc-2f1a-44e5-83fc-df85587f29ea",
+      "1886a222-71c7-4253-9753-522df45a6aad",
+      "4660be2f-6b25-4c9d-85c4-72386d42f4f9"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "dd031aa7-bfd2-4559-a98c-5e5472b46988",
+    "keep_name": "Théobald Michau",
+    "dupes": [
+      {
+        "id": "67adc0f1-edff-4fca-a405-8e2d358c92de",
+        "name": "Theobald Michault",
+        "reasoning": "동일 플랑드르 화가 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "114828c7-c2a2-40e7-8abe-17db59327f02",
+      "9250eec9-31c3-4e1d-9479-694e559c0160",
+      "9c835ce4-34ef-4246-b2eb-4ce90e03eea1",
+      "8ae4e506-8a9a-474b-9c69-cf36f4023c30",
+      "fda1a666-85cf-4478-af98-dccba87679ce"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "9249daff-53d6-4e6a-80bc-8ea20f58f4c2",
+    "keep_name": "Wynants Jan",
+    "dupes": [
+      {
+        "id": "28de5fa7-3a02-46ed-8be8-3666d16e748b",
+        "name": "Wynants (J.)",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+      },
+      {
+        "id": "206d8a81-d6a3-4bd4-9d65-c750a1d07530",
+        "name": "Wynants. (J.)",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+      }
+    ],
+    "moved_artwork_ids": [
+      "cc454cc4-4452-449d-97ac-b8c85d5f1d56",
+      "f1057720-bb72-4bb3-a64e-f8ae0f467b1f",
+      "10f5d842-241b-4e4b-91a7-c7fec7ef25a3",
+      "3555afd0-d74d-4dfe-87dc-0798c3b70f34",
+      "dd6d9349-35c3-407c-876c-4e6c92a82ba0",
+      "442b26f3-ea2c-4122-8bad-e6ce1b074037",
+      "15425b66-fa22-4ab0-bdae-1a09c166efaf",
+      "00118fb4-0635-4062-b786-5a5a1b6492c3",
+      "9a1ea505-2dfc-4117-9151-8e5d0416391d"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "65d526cb-ce12-4fea-a51c-9005ba81fcba",
+    "keep_name": "Ludolph Backhuysen",
+    "dupes": [
+      {
+        "id": "8ff0a68b-6825-42c7-a7e8-34b2fbe66218",
+        "name": "Ludolph Backhuizen",
+        "reasoning": "동일 화가 Ludolf Bakhuizen의 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "e924b4ac-520d-4bcb-9c9a-4f81558d1c10",
+      "037d1143-bba6-446c-bbb7-70beff53ee51",
+      "5956d5f3-4200-4a43-bd85-5fd0852cfef1",
+      "9a8b84cd-279d-42b5-b5b2-a426b83b19d3",
+      "31b6099d-08b9-4553-9bba-46c621c83d95"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "b40de076-3c1a-4266-9c4c-5f9485e6cabd",
+    "keep_name": "Sir Anthony Vandyke",
+    "dupes": [
+      {
+        "id": "97af42e3-06ac-4954-a80b-c4c6a380515b",
+        "name": "Sir Anthony Vandyck",
+        "reasoning": "동일 인물 안토니 반 다이크의 표기 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "0fe4f4c7-fa05-411b-9dbd-c8278f810cd0",
+      "68e37b68-5b06-4d65-b55f-4a78c3e3e03d",
+      "d09e06a6-86ff-4ab4-a03d-2f4cb16bd587",
+      "0a9ee16a-c77b-43cd-b379-5b1c84751b05",
+      "a2c5b6a5-0252-49f7-b1e4-47d138e5c4b2"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "303ef5bf-9e32-4cca-ad9a-e8255d75c411",
+    "keep_name": "Vanden Bosch",
+    "dupes": [
+      {
+        "id": "1a1a8cfc-d793-48a1-bcaf-7f71b0b01cc4",
+        "name": "Vanden Bos",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+      }
+    ],
+    "moved_artwork_ids": [
+      "90bee422-d993-4636-a7b3-4fc0b40ef525",
+      "22cac6ca-f912-4513-9737-f3934a866c7c",
+      "95964111-abb3-4efc-a393-a044b992c932",
+      "995c1ee4-061e-41b4-887a-c31f0c3db473",
+      "e3971d50-5e3a-4b79-a472-e6956a5c5913"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "9e20e7f0-c1b4-4693-9334-75369099ed2c",
+    "keep_name": "Godefroi Schalcken",
+    "dupes": [
+      {
+        "id": "8c5303da-e99a-4f81-9e78-8a95d2ccfefd",
+        "name": "Godefroi Scalken",
+        "reasoning": "동일 인물 Godfried Schalcken의 표기 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "63e85ae5-1620-450a-b5e1-9ea285904267",
+      "1768d933-edf5-4f5a-aafa-629f38c5bfe8",
+      "067c476b-4145-4fa1-8003-2ae6b1069776",
+      "742fc095-f54e-41c6-a890-b0f5d8a9439f",
+      "d53e3db3-c82f-47be-8ed7-bd901011e2c8"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "b850316d-649b-455f-894b-7c04bab6a95e",
+    "keep_name": "Asselijn (J.)",
+    "dupes": [
+      {
+        "id": "bf219559-3b94-44a1-9e42-306a8b3c8031",
+        "name": "Asselijn (Jan)",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+      }
+    ],
+    "moved_artwork_ids": [
+      "7cf8a1a1-c1bf-4b79-a4e8-3a2bd905e85d",
+      "9eb0a4ed-72b9-4e09-8fa0-35572aac892e",
+      "26832503-fa07-411a-8c4e-cb814925e6e9",
+      "c677936d-3f37-4dd0-9bde-1bdb2611af2d",
+      "dbd93c04-f232-472f-b932-7976264e951a"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "7c145297-8e77-4801-a106-86f15753de33",
+    "keep_name": "Andy Tsihnahjinnie",
+    "dupes": [
+      {
+        "id": "8bb6fa75-1f26-485e-b444-ddf8b3a5a085",
+        "name": "Andy Tsinajinnie",
+        "reasoning": "동일 나바호족 작가 Andy Tsinajinnie 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "3da62783-ae97-4929-9180-d8e60ee53c27",
+      "23cf89af-3172-48b1-8033-9d5799fabadf",
+      "59b2a745-b4c2-4377-9f56-3a16e8135544"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "02e96063-641d-4a61-b1e9-f9ce4f03d26b",
+    "keep_name": "Anton Strassgschwandtner",
+    "dupes": [
+      {
+        "id": "4a00bcb9-5f75-4173-a902-1ad954ff4aba",
+        "name": "Anton Straßgschwandtner",
+        "reasoning": "동일 인물 ß/ss 표기 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "4db1e0e3-671f-484c-901a-a282a1b0bf71",
+      "f9d802c3-93f3-41c2-8f58-efddb3fc4a29",
+      "6e5f2945-90cf-4e8c-b504-de66345f046b",
+      "9fd1a75c-7e0f-431b-ac38-aa95b752f698",
+      "c18ba2f2-175f-425f-9514-b0b7a5128c2d"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "878d228d-81c7-425b-9bb7-ac459801d3aa",
+    "keep_name": "Everdingen, Allaert van",
+    "dupes": [
+      {
+        "id": "b2363969-c28d-40c9-9fc8-c8d4ecc7eb5a",
+        "name": "Everdingen (Albert van)",
+        "reasoning": "동일 화가 형식+이름 표기 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "138ebe2e-ef86-4bb9-a647-98873bebd2a8",
+      "eab8412e-a5ce-4058-b6ab-2495c36281aa",
+      "935eac35-72a3-40ee-b8f7-0729caaaf0ac",
+      "a0fcd3e5-29a2-441b-9b6d-99df0c5a831f"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "eaae0321-7e41-42eb-b41a-4c54722b80f8",
+    "keep_name": "Anthonie van den Bos",
+    "dupes": [
+      {
+        "id": "16362a27-dab5-455e-8a4a-1f06c00fea2d",
+        "name": "Anthonie van den Bosch",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+      }
+    ],
+    "moved_artwork_ids": [
+      "8d05baab-6678-449f-bd47-540ab9efc150",
+      "5a30e2d1-8017-4d59-8d74-b893edc75628"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "f3382bce-ad54-41a1-b8ae-08aa91545ad3",
+    "keep_name": "Antoine Watteau",
+    "dupes": [
+      {
+        "id": "b7b3f091-51de-437e-9bf3-4d157d5e3bf3",
+        "name": "Antoine Vateau",
+        "reasoning": "동일 인물 Antoine Watteau 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "c7fef20f-d8ce-4ab1-b5e9-aa712e1a794c",
+      "60da2066-c6d3-4d95-9580-c2cd11338bd0",
+      "2104d7cd-faa1-487d-8316-67bd1e86a7a7",
+      "a45d5037-dbf4-4b7d-baad-763905927ff5"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "b6c9cada-0bf9-4577-9146-d26f85edb306",
+    "keep_name": "Aelbert Cuyp",
+    "dupes": [
+      {
+        "id": "9ec41bb7-f3d1-4a88-89a3-86555c5109b6",
+        "name": "Aelbert Cuijp",
+        "reasoning": "동일 화가 철자변형(ij/y는 네덜란드어에서 동일)"
+      }
+    ],
+    "moved_artwork_ids": [
+      "66a5793d-1ee6-407b-9da8-74322b807066",
+      "78dc5c32-bac2-4503-b4f9-efd3491702a6",
+      "085321c5-0928-45e7-9055-e82187dab6cd",
+      "3ac80c00-9f63-451d-9460-d1285f615b84"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "e0f82e72-60a6-4d85-a05e-c72dbc4ad22d",
+    "keep_name": "Huchtenburg, Jan van",
+    "dupes": [
+      {
+        "id": "14268c0c-7d72-435a-a9c6-38374bf3453b",
+        "name": "Huchtenburg (J. van)",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+      },
+      {
+        "id": "1ae88563-1e29-4600-9ae4-255ea7db3413",
+        "name": "Huchtenburg. (J. van)",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+      }
+    ],
+    "moved_artwork_ids": [
+      "24a969cb-c09c-4fd6-9055-7c9ad0d45b33",
+      "479c17f9-4b2a-47b6-a5c7-721ca65fd1ad",
+      "b89416c5-3aa7-4b9d-aadf-b901059813dd",
+      "e15775d5-705d-4b51-9bc9-c876cdb3af53",
+      "1eaf3230-3fbd-4ff0-817a-e94e4646781a",
+      "73b1bd4b-b12c-432b-8d05-6346e541b32a",
+      "1af70d03-c0e5-45da-8f30-ea344732260b",
+      "735c4e7e-e934-44d3-8869-d6fcefcc58c3"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "fbcbc108-10f9-4a4a-9fac-ade4cdb997c7",
+    "keep_name": "Cornelis van Poelenburch",
+    "dupes": [
+      {
+        "id": "ddf3fd34-97d4-4461-893d-f620fbabb75d",
+        "name": "Cornelis van Poelenburg",
+        "reasoning": "동일 화가 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "f4d4115e-f816-4996-9f7b-5b4c0d37bde1",
+      "fc07b71e-a103-4752-8679-f045eea18cdf"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "89a2c74a-90aa-47ce-aff5-48eecfffe385",
+    "keep_name": "Remondini Family",
+    "dupes": [
+      {
+        "id": "c14cf9ce-66bd-41b7-9070-5fc5fa22690a",
+        "name": "Remondini, familie",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+      }
+    ],
+    "moved_artwork_ids": [
+      "8c26fdda-24f4-4d0f-982a-899b4beff7f8",
+      "fcfc04b5-b634-4938-bab6-30aa2774c325"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "5c0cb4be-d7e2-40a0-b546-06aa5e659acf",
+    "keep_name": "Adriaen Isenbrandt",
+    "dupes": [
+      {
+        "id": "38cd3217-7d1e-460b-b5d7-41fa79c5e298",
+        "name": "Adriaen Ysenbrant",
+        "reasoning": "동일 플랑드르 화가 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "e5efdd13-8c9e-401d-a718-36dee0c4fc0d",
+      "b5dacf7a-e171-4194-b1c3-29298b60d792",
+      "740260a1-fb20-4582-a3ea-9ec17facd7fd",
+      "5fc9661b-4883-4e9c-903d-8fa7d1207a65"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "ea0d8581-7308-42f2-b1b0-fd57cc4b8834",
+    "keep_name": "Taddeo Zuccaro",
+    "dupes": [
+      {
+        "id": "78974c46-79bf-4846-a0ce-eaaaed39f377",
+        "name": "Taddeo Zucchero",
+        "reasoning": "동일 이탈리아 화가 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "6e9a48b9-db07-44de-888a-259b65bb04df",
+      "5543eca3-baa8-4317-9d91-8a145ac2e71b",
+      "8ae0d217-0430-4ecd-9b99-ffd1083605bd",
+      "2ddccbca-9918-49e8-bda7-ca59aa2ddb07"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "ca318f9b-51b7-4c2e-a7d6-5a1d6a730421",
+    "keep_name": "Guillaume De Heus",
+    "dupes": [
+      {
+        "id": "756981ec-a4a0-4cec-a913-65d28a81c866",
+        "name": "Guillaume de Heusch",
+        "reasoning": "동일 화가 Willem de Heusch 표기 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "a99d537c-b34d-465a-b538-b792c205f35f",
+      "9039917c-9580-4b44-babf-afa47e483b24",
+      "019135f3-a374-4445-b134-09c52d85e6b1",
+      "8d812f62-29f3-47c7-9746-3e7c6194d862"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "a5ddf113-47df-4d51-8476-70906ba944e2",
+    "keep_name": "Poelenburg (Corneille)",
+    "dupes": [
+      {
+        "id": "53135cdd-a4ed-4e27-af38-9d0beca05db1",
+        "name": "Poelenburg (Corneil)",
+        "reasoning": "동일 화가 이름 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "3a23f0b2-d398-4fb4-a0c5-81e5bde9ab4b",
+      "608420c2-115a-4f2a-ab6e-7102c67fca26",
+      "877f50a7-6a11-4b46-bb4c-0cf8e5e8c19b",
+      "ce3b5e03-3a2b-49e0-8f15-37e4c5fe200b"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "ce4d045c-d3b6-463a-9e57-8b43edf7f6e8",
+    "keep_name": "Herman Zagtleven",
+    "dupes": [
+      {
+        "id": "52137f2b-91c1-4cc8-9538-f5401926b458",
+        "name": "Herman Zachtleven",
+        "reasoning": "동일 화가 Herman Saftleven 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "da3a9210-1ac0-459c-827d-eeaefccc770c",
+      "9b912a02-72ce-4f2a-8625-2e0aa72e0b5d",
+      "a5ebeda9-2a31-4a26-878a-5597850de0b7",
+      "375abf56-4ffd-4bce-a2bf-c704e6b85450"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "07aa4519-6c68-4acd-ab54-d6271a5da2c7",
+    "keep_name": "Rudolf Grossmann",
+    "dupes": [
+      {
+        "id": "2196a7b6-83d7-4bd0-91be-059e272139b1",
+        "name": "Rudolf Großmann",
+        "reasoning": "동일 독일 판화가 ß/ss 표기 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "e4094997-67a7-4934-8348-4727307a2bcf",
+      "9510731e-0856-4f28-88dd-e0bfdf9e2c7c"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "c8c6e4e5-3d45-47e9-a109-a7a745420d64",
+    "keep_name": "Frans Francken",
+    "dupes": [
+      {
+        "id": "6f42cb8d-b460-4a06-a63a-0046982fa873",
+        "name": "Frans Franck",
+        "reasoning": "동일 플랑드르 화가 가문 성씨 축약 표기"
+      }
+    ],
+    "moved_artwork_ids": [
+      "89b4108c-0456-4b35-8b77-64fc673a7a0e",
+      "fd52fe6a-4a73-4168-b831-1a887e4a6c79",
+      "d89f9155-1a65-4437-964a-0d595e238a3d",
+      "8b607b55-63ad-4738-a9b0-14e8fd2a7574"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "8edf28f8-4b69-458a-b37b-6007d16ff853",
+    "keep_name": "Gool. (Jan van)",
+    "dupes": [
+      {
+        "id": "933700bb-1d12-447a-8201-71a10f0e0421",
+        "name": "Gool. (J. van)",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+      }
+    ],
+    "moved_artwork_ids": [
+      "63b5db9b-bd90-45a6-bdac-7aa04feb0429",
+      "7ccc5bc8-cad4-4c19-961e-25e92b61deee",
+      "78c27656-26cb-4390-bd93-9e308cfa8afc",
+      "46fbfca2-bfce-4cd0-a09f-79bb63271893"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "9e2bd4b1-9db2-4d9a-b0e7-ec9dcaf0dc99",
+    "keep_name": "Corn. Poelenburg",
+    "dupes": [
+      {
+        "id": "56c415e5-4b9a-4a38-bc51-664766d5b88a",
+        "name": "Corn. Poelembourg",
+        "reasoning": "동일 화가 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "bdadc6b6-25b0-4f0e-8e3f-177944e676e2",
+      "a7ed92c4-de0d-4820-9551-299fbf0fb612",
+      "0ac97993-e71e-4a41-a03a-8759ec16f8c0",
+      "eccab4b8-d7bb-41a9-aaed-0260b2e464f7"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "b122458e-ef6e-4a86-b2ab-48cdebc5776c",
+    "keep_name": "Jakob Jordaens",
+    "dupes": [
+      {
+        "id": "e721f772-ab65-4ff8-b81c-8f258b2bd631",
+        "name": "Jakob Jordan",
+        "reasoning": "철자변형, 동일 저명 플랑드르 화가 Jacob Jordaens"
+      }
+    ],
+    "moved_artwork_ids": [
+      "2b9099d6-49b8-4953-b302-58515435ad8c",
+      "695e794c-82d8-417c-865e-2aa9a4083f2c"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "2bcec603-f2b9-4242-af4b-6c4ce1cd8966",
+    "keep_name": "Aleksandr Orlovsky",
+    "dupes": [
+      {
+        "id": "2437b7fd-acb6-4b0e-858b-889d64058fe1",
+        "name": "Aleksandr Orlowski",
+        "reasoning": "동일 폴란드-러시아 화가 Aleksander Orłowski 음역 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "a9424d06-9355-40fe-8378-28bd36914593",
+      "95871ece-78ec-41fa-b829-e10a2da8109d"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "25c3d5bb-5ae7-466d-86ea-36af67f3ff09",
+    "keep_name": "Abraham Diepenbeck",
+    "dupes": [
+      {
+        "id": "a5d3bf26-24e3-464c-8327-3f7ec7bc01cd",
+        "name": "Abraham Diepenbeke",
+        "reasoning": "동일 플랑드르 화가 Abraham van Diepenbeeck 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "ed73eac4-0ad0-45ed-99f8-cfaf089e437c",
+      "b51a6e22-4c78-4279-a04b-9f3b4bca6154",
+      "055bb73c-80d1-4373-a85d-c95bc2403a54",
+      "5cc1411e-1677-496f-8463-c8d9e8abaa73"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "ff9ea0d6-a686-494a-9e67-655ca4825897",
+    "keep_name": "Bertall et Cie.",
+    "dupes": [
+      {
+        "id": "8002c0c0-7ca4-4fe0-b8a5-c4bfededd4ac",
+        "name": "Bertall & Cie.",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(company_suffix) - 프로그램적으로 토큰 비교 검증"
+      }
+    ],
+    "moved_artwork_ids": [
+      "dc786e77-953d-48df-8a5e-a3a338209463",
+      "76abf9aa-d6c9-495f-a6d0-046f200e343b"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "0fde3f0a-a955-4817-852e-1fa4f33d2079",
+    "keep_name": "Dagron et Cie.",
+    "dupes": [
+      {
+        "id": "ea47990c-f60e-434a-9370-f5fd62cef43f",
+        "name": "Dagron & Cie.",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(company_suffix) - 프로그램적으로 토큰 비교 검증"
+      }
+    ],
+    "moved_artwork_ids": [
+      "cfe5c727-6166-44d8-813e-f20f0e97cb1f",
+      "659d6f49-5bb1-447d-8276-d117a4e1d31f"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "4f73aaad-8e59-4db8-9703-2e5afb1c03c8",
+    "keep_name": "Lucca Giordano",
+    "dupes": [
+      {
+        "id": "508b778a-dc48-4df7-bc7c-80c2d9a996be",
+        "name": "Lucca Jordano",
+        "reasoning": "위와 동일 인물의 다른 표기"
+      }
+    ],
+    "moved_artwork_ids": [
+      "a6a15db1-ff56-4009-bb0b-48841db7381b",
+      "78b02b1a-cce1-4925-acca-86759de3af06",
+      "81fb7245-f404-4250-b736-cb9ed12b5fc2",
+      "18d5fe6c-6c38-4888-b7bb-24bc5b4225d1"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "0ddd3750-4c81-402d-8864-833949e3c13f",
+    "keep_name": "Cornelius Pulenburg",
+    "dupes": [
+      {
+        "id": "b73d11db-abde-42b2-b4ac-4e7eeb602365",
+        "name": "Cornelius Poelenburg",
+        "reasoning": "동일 화가 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "d63aff8e-9a66-4e49-8992-41791d69ea7a",
+      "614b59e8-11df-4938-9066-740ccbe98243",
+      "2e1a2280-bcec-4516-9b58-4dd12513c927",
+      "6d8c90f5-e2d4-4a53-9d3c-bfd9eca1892e"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "efadb7da-5a80-4a38-99c7-a34cf14342b9",
+    "keep_name": "Charnaux frères & Co.",
+    "dupes": [
+      {
+        "id": "051402d4-afec-482d-98c7-f3a344bdb55d",
+        "name": "Charnaux Frères & Cie.",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(company_suffix) - 프로그램적으로 토큰 비교 검증"
+      }
+    ],
+    "moved_artwork_ids": [
+      "d28f825a-370c-4eae-b25f-a5f365c673b2",
+      "6ab41664-0b9e-49cf-8d04-ef1e434e0592"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "8ebc2049-7c7b-46ab-8b3b-7e56ab5b5d0c",
+    "keep_name": "Tho. Wyck",
+    "dupes": [
+      {
+        "id": "b5b47017-4c21-4581-93df-35a6b843f6f0",
+        "name": "Tho. Wyke",
+        "reasoning": "동일 인물 Thomas Wyck 철자변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "e0f0bd29-5275-4540-860c-152308fd68d8",
+      "c9526145-5148-47c5-82c3-e28ff9f6e303",
+      "3a85814c-ae7c-4708-95af-e46475261eee",
+      "1cf6c339-0d2a-4f8d-8287-ac856f7335ce"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "91c890f2-0a84-488d-9ddc-7dbcb693a1c8",
+    "keep_name": "Andrei Voznesensky",
+    "dupes": [
+      {
+        "id": "5555f030-18f2-4a73-8ea1-1f63c5262080",
+        "name": "Andrei Voznesenskii",
+        "reasoning": "동일 저명 러시아 시인/예술가 음역 변형"
+      }
+    ],
+    "moved_artwork_ids": [
+      "26b464d3-ecc4-4004-8ae6-7c87699198b0",
+      "2b55a65a-632e-43a4-8e0c-69301ee592ba"
+    ],
+    "moved_gallery_representation_ids": []
+  },
+  {
+    "keep_id": "7c6a3b86-3023-4980-a94d-36e3f0216a05",
+    "keep_name": "Duroni et Murer",
+    "dupes": [
+      {
+        "id": "7a38ae69-c2bd-406b-8b28-8fa2141c9d6f",
+        "name": "Duroni & Murer",
+        "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+      }
+    ],
+    "moved_artwork_ids": [
+      "5ce741c8-bf32-48a1-92c6-5a6449933e91",
+      "cda45ae9-154a-4fd4-b512-d75182d5c364"
+    ],
+    "moved_gallery_representation_ids": []
+  }
+]

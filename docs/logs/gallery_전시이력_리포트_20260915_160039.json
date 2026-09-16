@@ -1,0 +1,677 @@
+{
+  "generated_at": "2026-09-15T07:00:39.359877+00:00",
+  "galleries": [
+    {
+      "key": "kukje",
+      "files": 88,
+      "entries": 380,
+      "rate_per_file": 4.32,
+      "low_quality_flag": false
+    },
+    {
+      "key": "gallery_hyundai",
+      "files": 52,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "pkm",
+      "files": 44,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "arario",
+      "files": 54,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "ropac",
+      "files": 77,
+      "entries": 2,
+      "rate_per_file": 0.03,
+      "low_quality_flag": true
+    },
+    {
+      "key": "wooson",
+      "files": 60,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "gallery_baton",
+      "files": 44,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "johyun",
+      "files": 42,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "pace",
+      "files": 102,
+      "entries": 3339,
+      "rate_per_file": 32.74,
+      "low_quality_flag": false
+    },
+    {
+      "key": "lehmannmaupin",
+      "files": 0,
+      "entries": 0,
+      "rate_per_file": 0,
+      "low_quality_flag": false
+    },
+    {
+      "key": "perrotin",
+      "files": 0,
+      "entries": 0,
+      "rate_per_file": 0,
+      "low_quality_flag": false
+    },
+    {
+      "key": "davidzwirner",
+      "files": 86,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "whitecube",
+      "files": 71,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "mariangoodman",
+      "files": 83,
+      "entries": 1,
+      "rate_per_file": 0.01,
+      "low_quality_flag": true
+    },
+    {
+      "key": "spruethmagers",
+      "files": 80,
+      "entries": 4,
+      "rate_per_file": 0.05,
+      "low_quality_flag": true
+    },
+    {
+      "key": "victoriamiro",
+      "files": 46,
+      "entries": 1,
+      "rate_per_file": 0.02,
+      "low_quality_flag": true
+    },
+    {
+      "key": "koeniggalerie",
+      "files": 131,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "gladstone",
+      "files": 0,
+      "entries": 0,
+      "rate_per_file": 0,
+      "low_quality_flag": false
+    },
+    {
+      "key": "shugoarts",
+      "files": 17,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "tomiokoyama",
+      "files": 54,
+      "entries": 1470,
+      "rate_per_file": 27.22,
+      "low_quality_flag": false
+    },
+    {
+      "key": "estherschipper",
+      "files": 60,
+      "entries": 1,
+      "rate_per_file": 0.02,
+      "low_quality_flag": true
+    },
+    {
+      "key": "maxhetzler",
+      "files": 63,
+      "entries": 2491,
+      "rate_per_file": 39.54,
+      "low_quality_flag": false
+    },
+    {
+      "key": "otafinearts",
+      "files": 24,
+      "entries": 11,
+      "rate_per_file": 0.46,
+      "low_quality_flag": false
+    },
+    {
+      "key": "leeahn",
+      "files": 78,
+      "entries": 24,
+      "rate_per_file": 0.31,
+      "low_quality_flag": false
+    },
+    {
+      "key": "313artproject",
+      "files": 22,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "gallery2",
+      "files": 18,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "galleriacontinua",
+      "files": 72,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "massimodecarlo",
+      "files": 80,
+      "entries": 2427,
+      "rate_per_file": 30.34,
+      "low_quality_flag": false
+    },
+    {
+      "key": "seankelly",
+      "files": 39,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "303gallery",
+      "files": 34,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "alminerech",
+      "files": 99,
+      "entries": 2641,
+      "rate_per_file": 26.68,
+      "low_quality_flag": false
+    },
+    {
+      "key": "regenprojects",
+      "files": 35,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "mizuma",
+      "files": 47,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "scaithebathhouse",
+      "files": 29,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "skarstedt",
+      "files": 39,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "mennour",
+      "files": 49,
+      "entries": 31,
+      "rate_per_file": 0.63,
+      "low_quality_flag": false
+    },
+    {
+      "key": "gallerychosun",
+      "files": 16,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "matthewmarks",
+      "files": 34,
+      "entries": 6,
+      "rate_per_file": 0.18,
+      "low_quality_flag": false
+    },
+    {
+      "key": "paulacooper",
+      "files": 408,
+      "entries": 3,
+      "rate_per_file": 0.01,
+      "low_quality_flag": true
+    },
+    {
+      "key": "caseykaplan",
+      "files": 29,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "luhringaugustine",
+      "files": 50,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "petzel",
+      "files": 42,
+      "entries": 47,
+      "rate_per_file": 1.12,
+      "low_quality_flag": false
+    },
+    {
+      "key": "takeninagawa",
+      "files": 17,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "anomalytokyo",
+      "files": 40,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "carliergebauer",
+      "files": 35,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "kurimanzutto",
+      "files": 43,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "krinzinger",
+      "files": 100,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "sadiecoles",
+      "files": 63,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "sungallery",
+      "files": 24,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "ocimuseum",
+      "files": 291,
+      "entries": 74,
+      "rate_per_file": 0.25,
+      "low_quality_flag": false
+    },
+    {
+      "key": "tanyabonakdar",
+      "files": 43,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "jamescohan",
+      "files": 41,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "cheimread",
+      "files": 26,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "nararoesler",
+      "files": 8,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "kasmin",
+      "files": 42,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "milesmcenery",
+      "files": 66,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "jackshainman",
+      "files": 42,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "antonkern",
+      "files": 140,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "miandn",
+      "files": 13,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "nonakahill",
+      "files": 52,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "waitingroom",
+      "files": 9,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "meyerriegger",
+      "files": 29,
+      "entries": 1,
+      "rate_per_file": 0.03,
+      "low_quality_flag": true
+    },
+    {
+      "key": "wentrup",
+      "files": 22,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "mai36",
+      "files": 53,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "capitainpetzel",
+      "files": 32,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "annetgelink",
+      "files": 30,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "vielmetter",
+      "files": 48,
+      "entries": 57,
+      "rate_per_file": 1.19,
+      "low_quality_flag": false
+    },
+    {
+      "key": "zenox",
+      "files": 32,
+      "entries": 8,
+      "rate_per_file": 0.25,
+      "low_quality_flag": false
+    },
+    {
+      "key": "xavierhufkens",
+      "files": 56,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "dvirgallery",
+      "files": 51,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "cardigallery",
+      "files": 97,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "meminc",
+      "files": 33,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "proyectosmonclova",
+      "files": 25,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "gallerykiche",
+      "files": 12,
+      "entries": 156,
+      "rate_per_file": 13.0,
+      "low_quality_flag": false
+    },
+    {
+      "key": "cristinaguerra",
+      "files": 26,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "vsf",
+      "files": 19,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "nightgallery",
+      "files": 38,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "barakatcontemporary",
+      "files": 26,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "tinakimgallery",
+      "files": 27,
+      "entries": 2,
+      "rate_per_file": 0.07,
+      "low_quality_flag": true
+    },
+    {
+      "key": "andrewkreps",
+      "files": 41,
+      "entries": 8,
+      "rate_per_file": 0.2,
+      "low_quality_flag": false
+    },
+    {
+      "key": "thomasschulte",
+      "files": 14,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "kaynegriffin",
+      "files": 18,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "ghebaly",
+      "files": 40,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "taronasu",
+      "excluded": "no_gallery_row",
+      "files": 0,
+      "entries": 0
+    },
+    {
+      "key": "omr",
+      "files": 24,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "stpi",
+      "files": 107,
+      "entries": 60,
+      "rate_per_file": 0.56,
+      "low_quality_flag": false
+    },
+    {
+      "key": "whitespace",
+      "files": 31,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "thethirdline",
+      "files": 29,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "athrart",
+      "files": 7,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "goodmangallery",
+      "files": 41,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "roslynoxley9",
+      "files": 38,
+      "entries": 1147,
+      "rate_per_file": 30.18,
+      "low_quality_flag": false
+    },
+    {
+      "key": "takaishii",
+      "files": 0,
+      "entries": 0,
+      "rate_per_file": 0,
+      "low_quality_flag": false
+    },
+    {
+      "key": "simon",
+      "files": 0,
+      "entries": 0,
+      "rate_per_file": 0,
+      "low_quality_flag": false
+    },
+    {
+      "key": "pyo",
+      "files": 0,
+      "entries": 0,
+      "rate_per_file": 0,
+      "low_quality_flag": false
+    }
+  ],
+  "total_galleries_processed": 93,
+  "total_entries_to_insert": 14377,
+  "skipped_no_artist_match": 613,
+  "parse_fail_samples": [
+    "pace/artists-friedrich-kunath: [group] 2020: 5,471 miles , Blum & Poe, Los Angeles, July 21–August 15, 2020. Friend of Ours , (organized by Benjamin Godsill and Joel Mesler), Rental Gallery, East",
+    "pace/artists-yoo-youngkuk: [group] 1966: O, Kwang-su. “Yu Yong-guk and his Art.\" Korea Journal , 1 August 1966.",
+    "maxhetzler/artists-paul-mccarthy: [group] 1952: –",
+    "maxhetzler/artists-tursic-and-mille: [solo] 2008: 6,5 Le musée de Sérignan, Sérignan Story of Every Day Galerie Charlotte Moser, Geneva",
+    "massimodecarlo/artists-aaron-garber-maikovska: [solo] 2023: I, Lost Corner Lot Play, MASSIMODECARLO PRC, Valley Step, MASSIMODECARLO, Hong Kong",
+    "massimodecarlo/artists-aaron-garber-maikovska: [solo] 2022: J, Cushion of Air, Blum & Poe, Tokyo",
+    "massimodecarlo/artists-aaron-garber-maikovska: [solo] 2021: B, Wilson’s Corner (Open Range), CLEARING Gallery, Brussels I, Yucaipa, MASSIMODECARLO, Milano",
+    "massimodecarlo/artists-alfie-caine: [solo] 2024: F, Green Stairway and Yellow Roses, MASSIMODECARLO Pièce Unique, Paris",
+    "massimodecarlo/artists-alvaro-barrington: [solo] 2025: I, MY MAMA TOLD ME YOU WAS A PROBLEM, BITCH , MASSIMODECARLO, Milano",
+    "ocimuseum/https-www-ocimuseum-org-artist-93: [group] 1995: 싹, 선재 미술관, 서울 뼈, 인스탄트 갤러리, 서울 시멘트와 미술의 만남展, 성곡미술관, 서울"
+  ]
+}

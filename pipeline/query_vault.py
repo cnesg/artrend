@@ -31,7 +31,7 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
 load_dotenv(Path(__file__).resolve().parent / ".env")
 
 MODEL_NAME = "intfloat/multilingual-e5-small"
-VAULT_ROOT = Path(__file__).resolve().parent.parent / "vault"
+VAULT_ROOT = Path(__file__).resolve().parent.parent / "vault_curated"
 
 # 답변 생성용 — 임베딩(로컬 모델)과는 별개, Gemini generateContent REST 호출.
 # 특정 버전에 고정하지 않고 latest 별칭 사용(모델 세대 바뀌어도 코드 안 건드리게).
@@ -188,25 +188,48 @@ def extract_name_candidate(query: str) -> str | None:
     return " ".join(best)
 
 
-def resolve_entity(conn, name_candidate: str) -> tuple[str, str] | None:
-    """artists.name과 정확/부분 일치하는 행을 찾아 (artist_id, name) 반환.
-    정확 일치(대소문자 무시) 우선, 없으면 부분 일치 중 가장 짧은(가장 구체적인) 것."""
+ENTITY_TABLES = [  # (doc_type, vault 폴더, 테이블, 이름 컬럼들)
+    ("artist", "artists", "artists", ("name", "name_en")),
+    ("museum", "museums", "museums", ("name", "name_en")),
+    ("gallery", "galleries", "galleries", ("name",)),
+    ("auction_house", "auction_houses", "auction_houses", ("name",)),
+]
+
+
+def _name_variants(n: str) -> list[str]:
+    """'국립현대미술관 (MMCA)' → ['국립현대미술관 (mmca)', '국립현대미술관', 'mmca']"""
+    n = n.strip().lower()
+    out = [n]
+    m = re.match(r"^(.*?)\s*\(([^)]+)\)\s*$", n)
+    if m:
+        out += [m.group(1).strip(), m.group(2).strip()]
+    return out
+
+
+def resolve_entity(conn, name_candidate: str) -> tuple[str, str, str] | None:
+    """artists/museums/galleries/auction_houses 이름과 정확 일치(대소문자·괄호 병기 무시)하는 행을 찾아
+    (doc_type, entity_id, name) 반환. 2026-09-16: 기존엔 artists만 봐서 '국립현대미술관' 같은 기관 질의가
+    semantic 경로로만 갔고 실패했음. 정확 일치가 없을 때만 artists 부분 일치(가장 짧은 이름)로 폴백."""
+    cand = name_candidate.strip().lower()
     cur = conn.cursor()
-    cur.execute(
-        "select id, name from artists where lower(name) = lower(%s) limit 1",
-        (name_candidate,),
-    )
-    row = cur.fetchone()
-    if row:
-        cur.close()
-        return str(row[0]), row[1]
-    cur.execute(
-        "select id, name from artists where name ilike %s order by length(name) asc limit 1",
-        (f"%{name_candidate}%",),
-    )
+    for doc_type, _folder, table, cols in ENTITY_TABLES:
+        where = " or ".join(f"lower({c}) = %s" for c in cols)
+        cur.execute(f"select id, name, {cols[-1]} from {table} where {where} limit 5", (cand,) * len(cols))
+        rows = cur.fetchall()
+        # 괄호 병기('페이스갤러리 (Pace Gallery)')는 SQL 정확 일치로 못 잡으니 후보를 넓게 읽어 파이썬에서 변형 비교 후 합침
+        like = " or ".join(f"lower({c}) like %s" for c in cols)
+        cur.execute(f"select id, name, {cols[-1]} from {table} where {like} limit 50", (f"%{cand}%",) * len(cols))
+        seen = {r[0] for r in rows}
+        rows += [r for r in cur.fetchall() if r[0] not in seen and (cand in _name_variants(r[1] or "") or cand in _name_variants(r[2] or ""))]
+        if rows:
+            cur.close()
+            # 같은 이름의 행이 여럿(예: 프로버넌스에서 승격된 'Pace Gallery' 유령 행 + 로스터 있는 '페이스갤러리 (Pace Gallery)')이면
+            # 호출자가 vault 문서가 있는 쪽을 고르도록 전부 반환
+            return [(doc_type, str(r[0]), r[1]) for r in rows]
+    cur.execute("select id, name from artists where name ilike %s order by length(name) asc limit 1", (f"%{name_candidate}%",))
     row = cur.fetchone()
     cur.close()
-    return (str(row[0]), row[1]) if row else None
+    return [("artist", str(row[0]), row[1])] if row else None
 
 
 def main() -> None:
@@ -226,25 +249,30 @@ def main() -> None:
 
     conn = psycopg2.connect(dsn)
 
-    name_candidate = extract_name_candidate(args.query)
+    # 고유명사 후보: 라틴 2단어 이상 구간, 없으면 짧은 질의 전체("국립현대미술관", "이우환" 같은 한글 단일 명칭 대응)
+    name_candidate = extract_name_candidate(args.query) or (args.query.strip() if len(args.query.strip()) <= 40 else None)
     resolved = resolve_entity(conn, name_candidate) if name_candidate else None
+    matches, doc_type, ent_name = [], None, None
+    for doc_type, ent_id, ent_name in resolved or []:
+        folder = next(f for t, f, _tb, _c in ENTITY_TABLES if t == doc_type)
+        id8 = ent_id.replace("-", "")[:8]
+        matches = list(VAULT_ROOT.glob(f"{folder}/*({id8}).md"))
+        if matches:
+            break
     if resolved:
-        artist_id, artist_name = resolved
-        id8 = artist_id.replace("-", "")[:8]
-        matches = list(VAULT_ROOT.glob(f"artists/*({id8}).md"))
         if matches:
             conn.close()
-            print(f"[query] 고유명사 매칭: \"{name_candidate}\" -> \"{artist_name}\" (정확/부분 일치, semantic search 생략)")
+            print(f"[query] 고유명사 매칭: \"{name_candidate}\" -> [{doc_type}] \"{ent_name}\" (정확 일치, semantic search 생략)")
             doc_path = matches[0]
             rel_path = str(doc_path.relative_to(VAULT_ROOT)).replace("\\", "/")
-            print(f"\n1. [artist] {rel_path}\n")
+            print(f"\n1. [{doc_type}] {rel_path}\n")
             if args.show or args.answer:
                 content = doc_path.read_text(encoding="utf-8")
                 if args.show:
                     print(f"    {content[:300].replace(chr(10), ' ')}...")
                 if args.answer:
                     print("\n[answer] Gemini에 답변 생성 요청 중...\n")
-                    print(generate_answer(args.query, [(rel_path, "artist", content)]))
+                    print(generate_answer(args.query, [(rel_path, doc_type, content)]))
             return
 
     paths, types, matrix = load_corpus(conn, only_types)

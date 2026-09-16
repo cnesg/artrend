@@ -46,6 +46,15 @@ def frontmatter(**fields) -> str:
     return "\n".join(lines)
 
 
+def append_unquoted_fields(fm: str, **fields) -> str:
+    """frontmatter()가 만든 quoted-string 전용 블록에 숫자/불린 필드를 추가한다.
+    옵시디언 Bases에서 정렬/필터하려면 값이 quoted string이면 안 되기 때문
+    (vault_obsidian 정리 작업, 2026-09-14 — enrich_vault_frontmatter.py와 필드명을 맞춤)."""
+    assert fm.endswith("---\n")
+    extra = "".join(f"{k}: {v}\n" for k, v in fields.items())
+    return fm[: -len("---\n")] + extra + "---\n"
+
+
 def write_md(path: Path, content: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content, encoding="utf-8")
@@ -245,9 +254,16 @@ def _export_one_artist(
 
         galleries = [gallery_slug[g] for g in reps_by_artist.get(id_, []) if g in gallery_slug]
 
+        total = artwork_counts.get(id_, 0)
+        auction_total = auction_counts.get(id_, 0)
+
         fm = frontmatter(
             type="artist", name=name, name_en=name_en,
             birth_year=birth_year, death_year=death_year, nationality=nationality,
+        )
+        fm = append_unquoted_fields(
+            fm, artwork_count=total, auction_count=auction_total,
+            has_gallery="true" if galleries else "false",
         )
         life = f"{birth_year or '?'}–{death_year or '?'}" if (birth_year or death_year) else ""
         body = f"# {name}\n\n"
@@ -417,13 +433,13 @@ def export_auction_houses(conn, artist_slug: dict[str, str]) -> dict[str, str]:
     for id_, name, country in houses:
         slug = slugify(name, id_)
         id_to_slug[id_] = slug
+        lots = lots_by_house.get(id_, [])
+        total = lot_counts.get(id_, 0)
         fm = frontmatter(type="auction_house", name=name, country=country)
+        fm = append_unquoted_fields(fm, lot_count=total)
         body = f"# {name}\n\n"
         if country:
             body += f"국가: {country}\n\n"
-
-        lots = lots_by_house.get(id_, [])
-        total = lot_counts.get(id_, 0)
         body += f"## 낙찰 기록 ({total}건)\n\n"
         if lots:
             body += "| 경매명 | 날짜 | 작품 | 작가 | 낙찰가 | 통화 | 낙찰여부 |\n|---|---|---|---|---|---|---|\n"
@@ -483,15 +499,16 @@ def export_collectors(conn, artist_slug: dict[str, str]) -> int:
     count = 0
     for id_, name, is_institution, bio in rows:
         slug = slugify(name, id_)
+        records = by_collector.get(id_, [])
+        total = counts.get(id_, 0)
         fm = frontmatter(type="collector", name=name, is_institution=is_institution)
+        fm = append_unquoted_fields(fm, provenance_count=total)
         body = f"# {name}\n\n"
         if is_institution:
             body += "기관 컬렉터\n\n"
         if bio:
             body += f"{bio}\n\n"
 
-        records = by_collector.get(id_, [])
-        total = counts.get(id_, 0)
         body += f"## 소장/거쳐간 작품 ({total}건)\n\n"
         if records:
             body += "| 작품 | 작가 | 취득일 | 취득방법 | 처분일 |\n|---|---|---|---|---|\n"

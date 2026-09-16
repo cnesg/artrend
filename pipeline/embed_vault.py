@@ -1,4 +1,9 @@
-"""vault/ 마크다운 문서 -> 로컬 다국어 임베딩 모델 -> vault_embeddings 테이블 적재.
+"""vault_curated/ 마크다운 문서 -> 로컬 다국어 임베딩 모델 -> vault_embeddings 테이블 적재.
+
+2026-09-15: 1세대 vault/는 폐기(docs/QA아키텍처.md), vault_embeddings는 dead 참조라
+vault_embeddings_legacy_20260915로 rename됨(0005). 이 스크립트는 2세대
+vault_curated/ 기준으로 새 vault_embeddings 테이블(0012)에 적재하도록 갱신됨.
+vault_curated는 M6(정본화) 이전 산출물이라 재생성 전까지는 실제 임베딩 실행 보류.
 
 Gemini API(무료 티어 일일 1,000건 쿼터)로 시작했으나 vault 규모(약 18만 건)에 비해
 턱없이 부족해(전체 완주까지 약 186일) 로컬 모델로 전환함(2026-09-03).
@@ -37,9 +42,22 @@ sys.stdout.reconfigure(line_buffering=True)
 
 load_dotenv(Path(__file__).resolve().parent / ".env")
 
-VAULT_ROOT = Path(__file__).resolve().parent.parent / "vault"
+VAULT_ROOT = Path(__file__).resolve().parent.parent / "vault_curated"
 MODEL_NAME = "intfloat/multilingual-e5-small"
 MAX_CHARS = 6000
+
+# 폴더명(복수형) -> doc_type(단수형). "galleries".rstrip("s") == "gallerie"가
+# 되는 등 단순 rstrip으로는 안 깨지는 것도 있고 깨지는 것도 있어(2026-09-15
+# vault_curated 폴더 확인 시 발견) 명시 매핑을 우선 쓰고, 매핑에 없는 폴더만
+# rstrip("s")로 폴백한다.
+DOC_TYPE_MAP = {
+    "artists": "artist",
+    "artworks": "artwork",
+    "auction_houses": "auction_house",
+    "collectors": "collector",
+    "galleries": "gallery",
+    "museums": "museum",
+}
 
 
 def content_hash(text: str) -> str:
@@ -74,7 +92,8 @@ def compact_for_embedding(text: str) -> str:
 
 
 def doc_type_of(path: Path) -> str:
-    return path.relative_to(VAULT_ROOT).parts[0].rstrip("s")  # artists -> artist 등
+    folder = path.relative_to(VAULT_ROOT).parts[0]
+    return DOC_TYPE_MAP.get(folder, folder.rstrip("s"))
 
 
 def iter_vault_docs(only_types: set[str] | None) -> list[Path]:
@@ -93,14 +112,34 @@ def main() -> None:
     parser.add_argument("--limit", type=int, default=None, help="테스트용 — 처리할 최대 문서 수")
     parser.add_argument("--batch-size", type=int, default=32, help="인코딩 배치 크기")
     parser.add_argument("--types", type=str, default=None, help="artists,museums,galleries 중 쉼표구분 (기본 전체)")
+    parser.add_argument("--shard-index", type=int, default=0, help="병렬 실행 시 이 프로세스가 맡을 샤드 번호(0-based)")
+    parser.add_argument("--shard-count", type=int, default=1, help="병렬 실행 시 전체 샤드 수 — 문서를 shard-count개로 나눠 shard-index만 처리")
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="모델 로딩/DB 접속 없이 대상 문서 수·doc_type 분포만 출력하고 종료",
+    )
     args = parser.parse_args()
+
+    only_types = set(args.types.split(",")) if args.types else None
+    docs = iter_vault_docs(only_types)
+
+    if args.dry_run:
+        from collections import Counter
+
+        counts = Counter(doc_type_of(p) for p in docs)
+        print(f"[embed] --dry-run: VAULT_ROOT={VAULT_ROOT}")
+        print(f"[embed] 대상 문서 {len(docs)}건")
+        for doc_type, n in sorted(counts.items()):
+            print(f"  {doc_type}: {n}")
+        return
 
     dsn = os.environ.get("DATABASE_URL")
     if not dsn:
         raise RuntimeError("DATABASE_URL 환경변수가 필요합니다")
-
-    only_types = set(args.types.split(",")) if args.types else None
-    docs = iter_vault_docs(only_types)
+    if args.shard_count > 1:
+        docs = [d for i, d in enumerate(docs) if i % args.shard_count == args.shard_index]
+        print(f"[embed] 샤드 {args.shard_index}/{args.shard_count} — 이 프로세스 담당 {len(docs)}건")
     if args.limit:
         docs = docs[: args.limit]
     print(f"[embed] 대상 문서 {len(docs)}건")

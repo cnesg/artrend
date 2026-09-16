@@ -1,0 +1,6146 @@
+[
+  {
+    "keep_id": "4106f0aa-b085-450b-a986-4974f3304040",
+    "keep_name": "Mary Sully",
+    "keep_richness": 23,
+    "dupes": [
+      {
+        "id": "809ae4df-34b9-489a-b9b3-80647e231b0a",
+        "name": "Mary Kelly",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "00ed126a-c3af-43ad-9a9d-ac88c76211cf",
+    "keep_name": "Mary Miss",
+    "keep_richness": 14,
+    "dupes": [
+      {
+        "id": "0ba9a8eb-6ccb-4f3f-a3ca-6e25c2964b3b",
+        "name": "Mary Mito",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "2d576632-9c5a-4e78-9be6-c1c092f2a342",
+    "keep_name": "Cornelis Bos",
+    "keep_richness": 542,
+    "dupes": [
+      {
+        "id": "b7bd4398-7074-40d1-b6f8-e632ec8a5686",
+        "name": "Cornelis Buys",
+        "richness": 30
+      }
+    ]
+  },
+  {
+    "keep_id": "e7a8928b-dfea-408e-941e-eded247906e4",
+    "keep_name": "Cornelis van Dalen",
+    "keep_richness": 43,
+    "dupes": [
+      {
+        "id": "4a9aafcf-d89d-4613-bd5e-520cdd899994",
+        "name": "Cornelis van Jagen",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "3f35ec00-3e24-48bf-9d24-6ada5baeb4a8",
+    "keep_name": "Cornelis Droochsloot",
+    "keep_richness": 13,
+    "dupes": [
+      {
+        "id": "d8618256-0adb-4f8a-9d14-89b6e724ae7a",
+        "name": "Cornelis Droogsloot",
+        "richness": 5
+      }
+    ]
+  },
+  {
+    "keep_id": "87b12b37-f727-4464-86b9-0a3d4256b0d6",
+    "keep_name": "Alfred Sisley",
+    "keep_richness": 400,
+    "dupes": [
+      {
+        "id": "9c97e9bf-f2fd-4d88-8754-bb6e394dc149",
+        "name": "Alfred Seeley",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "714dd88f-1acd-4cc2-9df0-f509ad57876b",
+    "keep_name": "Alfred Maurer",
+    "keep_richness": 78,
+    "dupes": [
+      {
+        "id": "70602ecf-0b47-46e7-8ca5-9b1544f575df",
+        "name": "Alfred Marxer",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_id": "691f4cb0-7707-4775-9921-df164d882d31",
+    "keep_name": "Alfred A. Hart",
+    "keep_richness": 48,
+    "dupes": [
+      {
+        "id": "2cbcae33-99b1-4548-af7d-c213923dc5d6",
+        "name": "Alfred A. Adt",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "1968a0b0-3fda-406a-902d-06703ab1d515",
+    "keep_name": "Alfred Lorens",
+    "keep_richness": 44,
+    "dupes": [
+      {
+        "id": "81427840-72d0-4ec7-9e2f-7746849ad82c",
+        "name": "Alfred Loges",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "87bf796b-e9eb-4860-b48f-26b3f6b1badf",
+    "keep_name": "Alfred Ronner",
+    "keep_richness": 40,
+    "dupes": [
+      {
+        "id": "bf8997da-17c1-4df3-84b0-162be3822126",
+        "name": "Alfred Roller",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "45cd0feb-8daf-4375-bc1d-0ec3be0d44d8",
+    "keep_name": "Alfred Ost",
+    "keep_richness": 40,
+    "dupes": [
+      {
+        "id": "2045d4fc-5055-4a0c-8579-af215c71e9a3",
+        "name": "Alfred East",
+        "richness": 22
+      }
+    ]
+  },
+  {
+    "keep_id": "bae0ec55-01bf-4d47-a96a-c580a7810730",
+    "keep_name": "Alfred Wallis",
+    "keep_richness": 34,
+    "dupes": [
+      {
+        "id": "6cfc1b74-da0f-4b1c-bcbd-09c2e5e09cc3",
+        "name": "Alfred Ellis",
+        "richness": 16
+      }
+    ]
+  },
+  {
+    "keep_id": "80f61892-142c-4c60-b532-0f56d8903c00",
+    "keep_name": "Alfred Rich",
+    "keep_richness": 10,
+    "dupes": [
+      {
+        "id": "de52e633-3362-4dd5-b2ea-bae0cfcb9581",
+        "name": "Alfred Reth",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "e98ec57b-f8f6-4415-8f82-58510c9d2f65",
+    "keep_name": "Alfred Heide",
+    "keep_richness": 5,
+    "dupes": [
+      {
+        "id": "faff6617-67ff-45a6-8342-adc769584ac5",
+        "name": "Alfred Hesse",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "a333df57-3cb2-42d9-a413-538047282a5d",
+    "keep_name": "Alfred Pohl",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "2fdf22cd-22d5-440a-bc4a-19740b38e9de",
+        "name": "Alfred Poell",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "ad96f26e-1d49-4a4e-99e3-7ea4df18632c",
+    "keep_name": "Alfred Rossi",
+    "keep_richness": 2,
+    "dupes": [
+      {
+        "id": "474dafb1-bf70-411d-bdef-ad66311da35a",
+        "name": "Alfred Russo",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "38206372-15c9-4fe2-aa81-83845ee9ccf7",
+    "keep_name": "Alfred Batson",
+    "keep_richness": 2,
+    "dupes": [
+      {
+        "id": "0cfe023c-95b6-4824-98d6-6d507bdd985c",
+        "name": "Alfred Dawson",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "2ad8251b-9090-44c0-86e9-2beb72196a19",
+    "keep_name": "Alfred Garnier",
+    "keep_richness": 2,
+    "dupes": [
+      {
+        "id": "ed13e95c-2e45-488d-903f-70058f3c141e",
+        "name": "Alfred Bernier",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "28e88dbf-db34-4975-801e-7323f4e6368a",
+    "keep_name": "Alfred Mills",
+    "keep_richness": 2,
+    "dupes": [
+      {
+        "id": "c7e7be5e-40b8-4bcb-8c5d-979a1b25924c",
+        "name": "Alfred Milan",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "1666d9d0-6594-4fee-aefe-0b3bcabd25df",
+    "keep_name": "Alfred Krüger",
+    "keep_richness": 2,
+    "dupes": [
+      {
+        "id": "f05677f1-fbaf-408c-96ba-29a33a67d026",
+        "name": "Alfred Kremer",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "91597d89-5369-4da0-9d74-606f882fed64",
+    "keep_name": "Bernard Essers",
+    "keep_richness": 108,
+    "dupes": [
+      {
+        "id": "cffe32c0-4abe-4cba-a313-dd0cd533c70b",
+        "name": "Bernard Eilers",
+        "richness": 56
+      }
+    ]
+  },
+  {
+    "keep_id": "e47fa148-acc5-40a7-887e-db5875d73b39",
+    "keep_name": "Bernard Lens",
+    "keep_richness": 14,
+    "dupes": [
+      {
+        "id": "39f0a033-3371-40cc-925a-52adce87f3e2",
+        "name": "Bernard Klene",
+        "richness": 10
+      }
+    ]
+  },
+  {
+    "keep_id": "c1d7a355-ce3b-43cb-8a75-e7d85651d205",
+    "keep_name": "Bernard de Hoog",
+    "keep_richness": 10,
+    "dupes": [
+      {
+        "id": "dbc0440c-4a24-489c-957c-5d193a9ad1af",
+        "name": "Bernard de Jong",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "02215914-4cf8-43da-935f-9f18b2aeb145",
+    "keep_name": "Anton Hansch",
+    "keep_richness": 61,
+    "dupes": [
+      {
+        "id": "01794c9c-66f8-4b9e-9ef7-a4d944b9cf05",
+        "name": "Anton Hähnisch",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "000d00bd-e473-44e4-8580-d98d3e06f3b3",
+    "keep_name": "Anton Joseph von Prenner",
+    "keep_richness": 32,
+    "dupes": [
+      {
+        "id": "e1fe3798-80b8-4a71-a0eb-6946b0449b45",
+        "name": "Anton Josef von Kenner",
+        "richness": 12
+      }
+    ]
+  },
+  {
+    "keep_id": "71212ed4-1781-4128-bd93-d7148b5043a7",
+    "keep_name": "Anton Prinner",
+    "keep_richness": 30,
+    "dupes": [
+      {
+        "id": "98edf548-ee66-4f26-984b-d0dcb091c836",
+        "name": "Anton Psenner",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "485e80ee-08e7-4613-8ab1-7a96a17a2352",
+    "keep_name": "Anton Altmann",
+    "keep_richness": 16,
+    "dupes": [
+      {
+        "id": "3c324563-e2e5-447d-8781-7b8e50c0b803",
+        "name": "Anton Hallmann",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "35dd94a3-6baa-46f9-ad19-dad6d9f9772b",
+    "keep_name": "Anton Hula",
+    "keep_richness": 12,
+    "dupes": [
+      {
+        "id": "02776a12-fb96-443d-be46-6c8547ab9b7a",
+        "name": "Anton Haala",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "a5e98752-c6ce-4f18-9493-7de9d394dae1",
+    "keep_name": "Anton Fenz",
+    "keep_richness": 11,
+    "dupes": [
+      {
+        "id": "956ba27a-7394-4d28-ad1a-b9d1a59d2d18",
+        "name": "Anton Petz",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "85df566a-4e3d-4305-8953-1726b5257b2d",
+    "keep_name": "Lorenzo Loli",
+    "keep_richness": 210,
+    "dupes": [
+      {
+        "id": "561a592a-c873-4f4c-b2ac-557058d26c4e",
+        "name": "Lorenzo Lotti",
+        "richness": 5
+      }
+    ]
+  },
+  {
+    "keep_id": "d684a9ff-f064-4628-a32f-36d52c425a5f",
+    "keep_name": "Torii Kiyomitsu",
+    "keep_richness": 21,
+    "dupes": [
+      {
+        "id": "bac1a2eb-c317-4b79-affc-422b5f6af9c3",
+        "name": "Torii Kiyomasu",
+        "richness": 13
+      }
+    ]
+  },
+  {
+    "keep_id": "c4f6a250-5b48-4901-8716-2702e4cc7e5e",
+    "keep_name": "Walter Helbig",
+    "keep_richness": 46,
+    "dupes": [
+      {
+        "id": "eeb68c12-d25d-4e87-a8ff-6acdd865e9d2",
+        "name": "Walter Heimig",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "cb8346eb-d079-42ac-9aaa-b127752621b1",
+    "keep_name": "Walter Rose",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "08f3eeab-d2e7-4c51-b011-fdfe0f071367",
+        "name": "Walter Bosse",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "e6a13357-da7f-4143-9f9e-0697c9db4154",
+    "keep_name": "Zhang Huan",
+    "keep_richness": 70,
+    "dupes": [
+      {
+        "id": "f4e641c5-1cd6-4847-a7e5-6cb82ead04ff",
+        "name": "Zhang Yan",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "9e64e050-84b8-4f24-9f7d-96090ecaae06",
+    "keep_name": "Zhang Yu",
+    "keep_richness": 62,
+    "dupes": [
+      {
+        "id": "61a4fad2-baca-4726-94ca-cc3e9e03b231",
+        "name": "Zhang Wo",
+        "richness": 6
+      },
+      {
+        "id": "1ed8b0ea-b9c6-4556-82a8-608c9a89f08f",
+        "name": "Zhang Yihu",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "a9a5c212-acaa-4165-a89d-7ca60870b109",
+    "keep_name": "Zhang Hong",
+    "keep_richness": 18,
+    "dupes": [
+      {
+        "id": "6ab31e70-067d-403a-b46d-2d7579ab14c0",
+        "name": "Zhang Heng",
+        "richness": 12
+      },
+      {
+        "id": "1a014d5a-4971-4b3e-9ab4-32fd4420cb43",
+        "name": "Zhang Zhong",
+        "richness": 4
+      },
+      {
+        "id": "88a10650-00bc-47b8-96c0-b91f1e303fef",
+        "name": "Zhang Chong",
+        "richness": 2
+      },
+      {
+        "id": "315b4011-25eb-411c-95c8-57f319813071",
+        "name": "Zhang Ling",
+        "richness": 2
+      },
+      {
+        "id": "0771d0a1-740c-46c4-8614-f67225bf476b",
+        "name": "Zhang Ding",
+        "richness": 0
+      },
+      {
+        "id": "4bea5583-d0db-4762-be1d-c01890408b86",
+        "name": "ZHANG Gong",
+        "richness": 0
+      }
+    ]
+  },
+  {
+    "keep_id": "8af953cf-2b07-4326-ac82-3e7c56b6f5df",
+    "keep_name": "Zhang Yin",
+    "keep_richness": 14,
+    "dupes": [
+      {
+        "id": "2cb76dca-cacb-42f1-82c6-e242fee86e8a",
+        "name": "Zhang Qia",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "7fd04aa8-e611-4a0d-951c-6b79d3887bca",
+    "keep_name": "Zhang Xiong",
+    "keep_richness": 12,
+    "dupes": [
+      {
+        "id": "e47761e7-91e6-4ddc-951c-14979d347a35",
+        "name": "Zhang Xiang",
+        "richness": 5
+      }
+    ]
+  },
+  {
+    "keep_id": "17e04249-7ab3-4d9b-8fb2-a2622fc794ea",
+    "keep_name": "Li Shan",
+    "keep_richness": 40,
+    "dupes": [
+      {
+        "id": "9f64b7e4-9ab4-48e8-9119-55a0ca59e32c",
+        "name": "Li Can",
+        "richness": 8
+      },
+      {
+        "id": "7f62fe7e-f3ba-49ac-809d-8ea42e604967",
+        "name": "Li Jian",
+        "richness": 6
+      },
+      {
+        "id": "c0ce3c44-d834-4a8e-8ca7-3e92133afab1",
+        "name": "Li Sheng",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "a3c6cf07-7388-4d5a-b555-f0e92d13ade4",
+    "keep_name": "Li Jin",
+    "keep_richness": 11,
+    "dupes": [
+      {
+        "id": "0fe67c16-6c26-4eef-950a-2d463c43e1ad",
+        "name": "Li Qun",
+        "richness": 2
+      },
+      {
+        "id": "25d54380-3548-4619-bf42-61b25abd1241",
+        "name": "Li Xiu",
+        "richness": 0
+      },
+      {
+        "id": "9ea201e2-340d-4709-bded-660330b53268",
+        "name": "Li Lin",
+        "richness": 0
+      },
+      {
+        "id": "a5e6168f-1e3f-4413-9ef6-4a3e92de7f90",
+        "name": "Li, Dinu",
+        "richness": 0
+      }
+    ]
+  },
+  {
+    "keep_id": "4285d465-4544-40c4-bdf7-5f4ab3e0677d",
+    "keep_name": "Li Kan",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "deb79174-35ae-49fe-bd36-3d95b1c7a640",
+        "name": "Li Zai",
+        "richness": 0
+      }
+    ]
+  },
+  {
+    "keep_id": "50e624cd-1cf8-4089-ae13-8eca5f9c570c",
+    "keep_name": "Wang Hui",
+    "keep_richness": 85,
+    "dupes": [
+      {
+        "id": "1c74cf7c-9ee3-4997-b1ae-05bd1cd7ec11",
+        "name": "Wang Gai",
+        "richness": 18
+      },
+      {
+        "id": "eef532fc-a0e5-4300-83e0-0f02e0eee3e5",
+        "name": "Wang Wu",
+        "richness": 9
+      },
+      {
+        "id": "b7911d6b-3709-47e2-b88f-4d4da18c7284",
+        "name": "Wang Yu",
+        "richness": 5
+      },
+      {
+        "id": "f1e9d777-91d3-44ce-9cec-a840ed226d51",
+        "name": "Wang Shu",
+        "richness": 5
+      },
+      {
+        "id": "77a90e2d-b2fc-4ac9-b2b2-8270a5c16b6e",
+        "name": "Wang Luo",
+        "richness": 3
+      },
+      {
+        "id": "3614ea2b-8396-46a5-ad10-58c6a9dd6e51",
+        "name": "Wang Xi",
+        "richness": 2
+      },
+      {
+        "id": "45e4c0e4-d4bd-4407-8fbf-ff3aa9d80ebc",
+        "name": "Wang Chi",
+        "richness": 2
+      },
+      {
+        "id": "e5367f9a-59bc-4ef1-bffb-e5cabc5ff026",
+        "name": "WANG Tuo",
+        "richness": 0
+      }
+    ]
+  },
+  {
+    "keep_id": "dfafcf88-c88c-4d2e-b834-bc35bc020619",
+    "keep_name": "Wang Jian",
+    "keep_richness": 69,
+    "dupes": [
+      {
+        "id": "d41a0ca0-0d4a-4bca-a692-a5ac0d7164ab",
+        "name": "Wang Qiao",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "188a8f0e-3d47-471d-bc58-5273d172e513",
+    "keep_name": "Wang Yongyu",
+    "keep_richness": 28,
+    "dupes": [
+      {
+        "id": "5d7bed82-244a-4888-afcc-af3d707a9959",
+        "name": "Wang Fangyu",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "40c4e4fb-fca0-4ecd-bd3f-0a5341494ced",
+    "keep_name": "Wang Geyi",
+    "keep_richness": 18,
+    "dupes": [
+      {
+        "id": "c60d5c03-9be4-47fb-999b-5d821e5cd3e1",
+        "name": "Wang Wei",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "94a05588-a3d3-4714-ae05-8049518da094",
+    "keep_name": "Wang Jinsong",
+    "keep_richness": 13,
+    "dupes": [
+      {
+        "id": "c3af6d99-a425-4eb1-80da-06fa2b120792",
+        "name": "Wang Qingsong",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "fbc799b0-8909-4efd-9787-adee9eabf526",
+    "keep_name": "Wang Yuan",
+    "keep_richness": 8,
+    "dupes": [
+      {
+        "id": "03040cb2-992f-453e-9810-412e0eace1ae",
+        "name": "Wang Yun",
+        "richness": 6
+      },
+      {
+        "id": "b0aa62f7-1c6e-4666-b23e-c22094f4612c",
+        "name": "Wang Yin",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "c3432d9e-895c-4154-aeee-e436abae5bf7",
+    "keep_name": "Wang Su",
+    "keep_richness": 7,
+    "dupes": [
+      {
+        "id": "cadb6ba5-4de7-4800-aa85-0a40f63a0a93",
+        "name": "Wang Li",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "a32ee28f-398a-4eaa-8281-024cfe016f4f",
+    "keep_name": "Alexandre Ken",
+    "keep_richness": 10,
+    "dupes": [
+      {
+        "id": "8e4e9271-e23a-47a5-88d2-93df5cfdbceb",
+        "name": "Alexandre Séon",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "63ebfd9f-fb44-4058-ab1c-08994645fb09",
+    "keep_name": "Johan Teyler",
+    "keep_richness": 54,
+    "dupes": [
+      {
+        "id": "d84c32f4-5656-494b-94e2-641b363e5269",
+        "name": "Johan Keller",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "2f722b64-8f90-4988-b97c-a352c17f7fb9",
+    "keep_name": "Johan David Swartz",
+    "keep_richness": 18,
+    "dupes": [
+      {
+        "id": "44afd526-f0d6-4181-8882-12126bea3618",
+        "name": "Johan David Schwartz",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "8b49af7f-4dba-4568-a591-fc1e87af29c6",
+    "keep_name": "Alphonse Leroy",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "015bf338-26b6-4594-9f96-114e176fe3e9",
+        "name": "Alphonse Levy",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "84cf1ef0-5a1d-4023-8318-e7e20aa6bbb2",
+    "keep_name": "Andreas Lach",
+    "keep_richness": 11,
+    "dupes": [
+      {
+        "id": "17742abc-cd59-403c-8783-7ebe0a90f5ea",
+        "name": "Andreas Bloch",
+        "richness": 10
+      }
+    ]
+  },
+  {
+    "keep_id": "0063945c-6dbf-4ece-9fa1-78c1f51e1af7",
+    "keep_name": "Alexander Koester",
+    "keep_richness": 163,
+    "dupes": [
+      {
+        "id": "3a97f3c2-afc0-44e1-87cb-20958ab5554f",
+        "name": "Alexander Keoster",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_id": "0573e06e-cad5-47f6-b6dd-c17d8658b95f",
+    "keep_name": "Alexander Adriaenssen",
+    "keep_richness": 59,
+    "dupes": [
+      {
+        "id": "573624bd-34e7-4f86-90f7-65dfc78352fb",
+        "name": "Alexander Adriansen",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "5e41be3a-9e09-439b-b35f-ca961ffce6ff",
+    "keep_name": "Alexander Ivanov",
+    "keep_richness": 38,
+    "dupes": [
+      {
+        "id": "9e0dbe48-58bd-4d8b-a116-10d5699bc4de",
+        "name": "Alexander Yanov",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "b5febb4c-cfad-4902-9542-26434760f93e",
+    "keep_name": "Alexander Kerrinck",
+    "keep_richness": 1,
+    "dupes": [
+      {
+        "id": "8771d37c-33c1-4014-9e50-0326f9f9ca54",
+        "name": "Alexander Keirrincks",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_id": "0fee125a-052b-410f-b414-2835e9988be7",
+    "keep_name": "Friedrich Dürer",
+    "keep_richness": 38,
+    "dupes": [
+      {
+        "id": "463379cc-0782-40ac-bb05-3e2cfbdc7d4a",
+        "name": "Friedrich Dürck",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "3c3f28e4-acb1-42b7-b5e3-32e1a65f8726",
+    "keep_name": "Friedrich Hasler",
+    "keep_richness": 12,
+    "dupes": [
+      {
+        "id": "c99c4a95-61de-4485-93c8-7c1aa1273f53",
+        "name": "Friedrich Adler",
+        "richness": 5
+      }
+    ]
+  },
+  {
+    "keep_id": "3689356e-ecfe-4aa1-8db1-e5e8cb3bf49d",
+    "keep_name": "Friedrich Lieder",
+    "keep_richness": 8,
+    "dupes": [
+      {
+        "id": "32d20790-b95d-4529-ade4-4171ed632e05",
+        "name": "Friedrich Roeder",
+        "richness": 4
+      },
+      {
+        "id": "b5a1b14b-42f7-4287-bea8-e4a15848204d",
+        "name": "Friedrich Liegel",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "24689fff-b401-4449-acf3-963c49d9599c",
+    "keep_name": "Friedrich Feigl",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "0691e494-40c4-45ab-8105-1d164c335d32",
+        "name": "Friedrich Keil",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "81191d18-655f-4542-9a9a-0ac84a6ef7ae",
+    "keep_name": "Friedrich Giessmann",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "3624c593-392e-4bc6-aca9-3463f404c95a",
+        "name": "Friedrich Lissmann",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "07146548-24e5-49a0-90c7-dba48b63c9f5",
+    "keep_name": "Friedrich Hahn",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "8680b323-4ded-49a3-8d6b-9063018bc792",
+        "name": "Friedrich Kuhn",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "b7fe5570-f0f0-416f-ba5a-2ca534487c62",
+    "keep_name": "Christian Bérard",
+    "keep_richness": 164,
+    "dupes": [
+      {
+        "id": "ab7f89d2-a328-42c0-8f57-ef2aec968ded",
+        "name": "Christian Brand",
+        "richness": 9
+      }
+    ]
+  },
+  {
+    "keep_id": "c192392a-ed19-4d33-8f3f-a2531c19c56f",
+    "keep_name": "Christian Mali",
+    "keep_richness": 18,
+    "dupes": [
+      {
+        "id": "a0684517-def9-446d-857f-e9cd9a4dfc56",
+        "name": "Christian Maler",
+        "richness": 12
+      }
+    ]
+  },
+  {
+    "keep_id": "3389f064-263c-45a0-9b68-3ffedd501775",
+    "keep_name": "Augustus Fay",
+    "keep_richness": 14,
+    "dupes": [
+      {
+        "id": "9ad64314-27cc-4dfa-b8d4-3ebdd8c48738",
+        "name": "Augustus Fox",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "1c5383bc-6c2d-4421-b279-4c8bd660a443",
+    "keep_name": "Pedro de Moya",
+    "keep_richness": 9,
+    "dupes": [
+      {
+        "id": "05abc226-8ef2-48bf-932e-52bf04816c70",
+        "name": "Pedro de Mena",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "d2f88af7-1880-451f-8bda-20c241bc3921",
+    "keep_name": "La Fage",
+    "keep_richness": 94,
+    "dupes": [
+      {
+        "id": "6b98a3af-1dd7-4a0d-b02c-8f166ed1e62a",
+        "name": "La Fargue",
+        "richness": 25
+      },
+      {
+        "id": "0a224de7-1b61-4d76-8c21-1643b51d50fc",
+        "name": "La Cave",
+        "richness": 20
+      }
+    ]
+  },
+  {
+    "keep_id": "e5dda77c-ab7e-4f42-b6cb-7b1826968ec0",
+    "keep_name": "La Hire",
+    "keep_richness": 79,
+    "dupes": [
+      {
+        "id": "6d028815-1838-412a-8ac2-620407be9dbc",
+        "name": "la Chine",
+        "richness": 7
+      },
+      {
+        "id": "c034e6da-f9c7-4cef-a4d5-b33a837a2745",
+        "name": "La Pira",
+        "richness": 5
+      }
+    ]
+  },
+  {
+    "keep_id": "a2b0eb23-4404-4596-bf02-98524da45d7c",
+    "keep_name": "Abraham de Blois",
+    "keep_richness": 142,
+    "dupes": [
+      {
+        "id": "abfa4349-4a0e-485a-a92d-6eae281a2eb3",
+        "name": "Abraham Le Blond",
+        "richness": 10
+      }
+    ]
+  },
+  {
+    "keep_id": "29ba9eee-d347-4d7d-9f9c-7e26197c44e1",
+    "keep_name": "Philipp Helmer",
+    "keep_richness": 8,
+    "dupes": [
+      {
+        "id": "3147d6ae-98f7-4ac4-8053-70e22c276cb9",
+        "name": "Philipp Haller",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "227d43a2-4461-4161-b4f5-f1c687ae345c",
+    "keep_name": "Philipp Arons",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "72583e70-9ada-466e-a2e6-3d23aaa4b616",
+        "name": "Philipp Roos",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "2db7cd59-1257-4cf3-9cd8-99936507009b",
+    "keep_name": "Nicolas Régnier",
+    "keep_richness": 36,
+    "dupes": [
+      {
+        "id": "918d344e-93a7-4e8a-ba1e-a549722d1f29",
+        "name": "Nicolas Besnier",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "f8ba4cb8-aec3-4af3-acea-1a7d18055f83",
+    "keep_name": "Nicolas Jacquin",
+    "keep_richness": 33,
+    "dupes": [
+      {
+        "id": "0350cbf2-761c-4fcd-9197-e6a7ecf51c9b",
+        "name": "Nicolas Jacques",
+        "richness": 11
+      }
+    ]
+  },
+  {
+    "keep_id": "81585d28-7651-4d44-a71d-a806d70ee283",
+    "keep_name": "Nicolas Pigné",
+    "keep_richness": 10,
+    "dupes": [
+      {
+        "id": "0028db90-e8e2-40ef-bdd5-b6ea7de296d3",
+        "name": "Nicolas Pinet",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "daac529d-4599-4119-8d8d-99d22f4d19da",
+    "keep_name": "Nicolas Sanson",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "cabe2e2a-e303-4534-be5c-a2c56ecc0dfc",
+        "name": "Nicolas Pinson",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "92b0a9ec-120c-467c-adeb-8b5f24276bfc",
+    "keep_name": "Jean-Baptiste Mallet",
+    "keep_richness": 19,
+    "dupes": [
+      {
+        "id": "add1ae59-5f42-4c04-ae72-06976c51cf02",
+        "name": "Jean-Baptiste Molle",
+        "richness": 5
+      }
+    ]
+  },
+  {
+    "keep_id": "27257938-4df9-438e-a003-d90a8e6fef7e",
+    "keep_name": "Jean-Baptiste Bénard",
+    "keep_richness": 5,
+    "dupes": [
+      {
+        "id": "df7dfee5-c03c-4189-ac8a-cda7b363df48",
+        "name": "Jean-Baptiste Lenardi",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "ff57d6c0-13f9-440f-bfc7-4abeec73595e",
+    "keep_name": "Emile Bernard",
+    "keep_richness": 1735,
+    "dupes": [
+      {
+        "id": "6262ac21-0b93-4582-818f-289c4c31b7f9",
+        "name": "Emile Béchard",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "daac9ebb-bd66-4d33-ae32-d6053055dd60",
+    "keep_name": "Ludwig Sander",
+    "keep_richness": 24,
+    "dupes": [
+      {
+        "id": "df618f90-49cc-4ba2-b0eb-1f2dea9cac77",
+        "name": "Ludwig Bender",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "93bc7806-99a9-47ea-9c78-52dd8772d231",
+    "keep_name": "Ludwig Bock",
+    "keep_richness": 16,
+    "dupes": [
+      {
+        "id": "d27e1709-20bb-4175-b689-9fff58418eb8",
+        "name": "Ludwig Koch",
+        "richness": 9
+      }
+    ]
+  },
+  {
+    "keep_id": "76001783-118a-4e7f-adfb-e74feabe46e4",
+    "keep_name": "Frank Moore",
+    "keep_richness": 34,
+    "dupes": [
+      {
+        "id": "f5bc9b55-f450-44f8-99d4-83995b1a0918",
+        "name": "Frank Majore",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "62f9b22a-1285-4708-94d2-a2b89eca2d69",
+    "keep_name": "Frank Walter",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "2fde3928-77f3-4314-9a29-f05ccbc51ee2",
+        "name": "Frank Walton",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "cc38b8b8-8c45-46ab-a913-83db05e42372",
+    "keep_name": "August Weger",
+    "keep_richness": 515,
+    "dupes": [
+      {
+        "id": "6222281e-8e3a-4cae-932e-6411feb8653f",
+        "name": "August Rieger",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "00bddd12-d6ee-45cc-9100-067842e77c08",
+    "keep_name": "August Leu",
+    "keep_richness": 5,
+    "dupes": [
+      {
+        "id": "f9c06a33-1cf3-4d70-8468-164e8fbe7f0d",
+        "name": "August Laux",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "56c6d6c0-e89f-42c2-9c26-cba2e121d361",
+    "keep_name": "Victor Petit",
+    "keep_richness": 198,
+    "dupes": [
+      {
+        "id": "fc74e7eb-9766-4bd1-8175-2216b7f4e8be",
+        "name": "Victor Peter",
+        "richness": 31
+      }
+    ]
+  },
+  {
+    "keep_id": "4df2b9de-a1ba-48ce-a985-da41ccdf09fb",
+    "keep_name": "Giuseppe Guzzi",
+    "keep_richness": 18,
+    "dupes": [
+      {
+        "id": "c5adabcd-e1a1-40c9-b8e2-b98ae66fdc44",
+        "name": "Giuseppe Cozzi",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "683a7616-529c-4285-9f4e-c2b53a9a71cd",
+    "keep_name": "Giuseppe Marri",
+    "keep_richness": 8,
+    "dupes": [
+      {
+        "id": "84368f90-2282-489a-a092-da6d21767130",
+        "name": "Giuseppe Barni",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "8a9f0711-3ba1-4029-8955-872807db0eef",
+    "keep_name": "Wolfgang Huber",
+    "keep_richness": 40,
+    "dupes": [
+      {
+        "id": "f0fe799c-c921-4e66-a7b0-a305e33a7548",
+        "name": "Wolfgang Leber",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "38a2f0db-1459-4547-b3d7-50fce1343995",
+    "keep_name": "Maurice Heaton",
+    "keep_richness": 24,
+    "dupes": [
+      {
+        "id": "3795a913-2d30-43f4-b750-b60b21a6247e",
+        "name": "Maurice Felton",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "3fc625dd-fe41-468a-af99-5946040c96a8",
+    "keep_name": "Bernhard Keil",
+    "keep_richness": 26,
+    "dupes": [
+      {
+        "id": "63619a89-04d9-475d-8baf-007709d2bb6b",
+        "name": "Bernhard Klein",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "e98a36e9-4f12-4a62-8c5a-f96ab23134f6",
+    "keep_name": "Max Klinger",
+    "keep_richness": 1190,
+    "dupes": [
+      {
+        "id": "7abf7366-8ee4-4deb-888f-ed7f8ef0f486",
+        "name": "Max Lingner",
+        "richness": 46
+      },
+      {
+        "id": "bce25520-600b-40df-83bc-d4b92dffe08c",
+        "name": "Max Krieger",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "5540eaf2-b398-43b4-bfca-623cc41cc65c",
+    "keep_name": "Max Kaus",
+    "keep_richness": 43,
+    "dupes": [
+      {
+        "id": "b7ad907b-bda4-4606-9ed5-5e167b61ba9a",
+        "name": "Max Baur",
+        "richness": 4
+      },
+      {
+        "id": "738a78aa-13fc-4a9a-aada-f50060acc1cd",
+        "name": "Max Rauh",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "8c67aa4f-bf0d-473a-bb97-aa3e16af9187",
+    "keep_name": "Max Schödl",
+    "keep_richness": 23,
+    "dupes": [
+      {
+        "id": "72ef2325-8586-45ad-88ec-d2b1c2aef5e9",
+        "name": "Max Scholz",
+        "richness": 7
+      }
+    ]
+  },
+  {
+    "keep_id": "dba0d0ff-9c9c-4c60-a93b-cbe316bb83d3",
+    "keep_name": "Max Kaufman",
+    "keep_richness": 14,
+    "dupes": [
+      {
+        "id": "0cbc20e6-7169-4d45-9e7a-880fb65682e1",
+        "name": "Max Kauffmann",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "3cb703ae-0246-465f-ab6a-f9147237d8a8",
+    "keep_name": "Max Buri",
+    "keep_richness": 10,
+    "dupes": [
+      {
+        "id": "669b0e42-66cb-46ea-a601-8c21850196f9",
+        "name": "Max Bude",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "750068b7-b15b-45fe-b2f0-1689f65ade00",
+    "keep_name": "Max Walter",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "ebb41eb0-6095-456d-8c89-63faffaeb136",
+        "name": "Max Watters",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "3b69f164-f2c5-412a-a788-0a8b16e4f125",
+    "keep_name": "Chen Chun",
+    "keep_richness": 35,
+    "dupes": [
+      {
+        "id": "1ccc958a-fde3-4471-a960-4d5b5ae14801",
+        "name": "Chen Huan",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "b1ab6119-a912-41ea-a229-01e05dd2b538",
+    "keep_name": "Chen Wu",
+    "keep_richness": 34,
+    "dupes": [
+      {
+        "id": "82f175eb-575c-4d31-b258-6c4c94cb64b9",
+        "name": "Chen Shu",
+        "richness": 8
+      },
+      {
+        "id": "2ec700d6-1d68-48a9-8ecf-696301c6cffd",
+        "name": "Chen Qi",
+        "richness": 8
+      },
+      {
+        "id": "8e726322-0358-415d-982a-cacf0d7ad10a",
+        "name": "Chen Gua",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "1d6656ab-87a2-4947-9549-db7b2fb30eac",
+    "keep_name": "Chen Yanning",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "07a14e0a-c38d-48fc-abcb-2eb35116bc53",
+        "name": "Chen Banding",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "b9134224-6538-497c-9263-5759c641d04e",
+    "keep_name": "Philippe Lauri",
+    "keep_richness": 88,
+    "dupes": [
+      {
+        "id": "a7d13f76-da78-4cf7-a062-deb6474c34df",
+        "name": "Philippe Luti",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "c686e631-c39b-4bfe-83c0-325e5940ff6a",
+    "keep_name": "Philippe Morel",
+    "keep_richness": 16,
+    "dupes": [
+      {
+        "id": "419bcec6-cecf-405a-814e-aff644efa2c5",
+        "name": "Philippe Mora",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "e890f327-b1eb-4a53-a992-f64d8ef0d769",
+    "keep_name": "Ralph Balson",
+    "keep_richness": 76,
+    "dupes": [
+      {
+        "id": "ae22f1cb-f6d8-4486-8c94-0f148df46b1a",
+        "name": "Ralph Barton",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "e1c948fa-9052-4867-b2a6-88252394bcf5",
+    "keep_name": "Simon Morris",
+    "keep_richness": 28,
+    "dupes": [
+      {
+        "id": "5f4c4c7d-b6bf-449f-8de1-313c44f79260",
+        "name": "Simon Maris",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "d85bcaab-9245-4812-bf13-3ae31d8e8370",
+    "keep_name": "Simon Braun",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "0bbf7aaa-2ad7-433e-8bdb-482f7635347f",
+        "name": "Simon Baus",
+        "richness": 6
+      },
+      {
+        "id": "2b7158c9-dc41-454f-abb3-e8118e65aef5",
+        "name": "Simon Blau",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "6fb8eaf9-e15e-4290-90de-bf19cbd0b233",
+    "keep_name": "Frederic Millet",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "e8d4bc9d-c0c7-412b-b9ff-2cf812569bdc",
+        "name": "Frédéric Villot",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "9491a8ab-f0a2-402d-87bc-7b95234ba1e1",
+    "keep_name": "Benjamin Patterson",
+    "keep_richness": 184,
+    "dupes": [
+      {
+        "id": "fbe9275f-3c92-462e-9b4c-dd10eff919b0",
+        "name": "Benjamin Patersen",
+        "richness": 38
+      }
+    ]
+  },
+  {
+    "keep_id": "09cb6089-e943-4e59-a8d9-28d8bf57b9c3",
+    "keep_name": "Benjamin Holl",
+    "keep_richness": 22,
+    "dupes": [
+      {
+        "id": "57329f9f-97f7-4bbd-ad93-00c302546b0a",
+        "name": "Benjamin Cole",
+        "richness": 10
+      }
+    ]
+  },
+  {
+    "keep_id": "08d33db2-390b-4bca-a46a-2cdafbde038d",
+    "keep_name": "Benjamin Sanders",
+    "keep_richness": 22,
+    "dupes": [
+      {
+        "id": "d72c052a-3f9c-4432-9ec6-1698921bfd32",
+        "name": "Benjamin Lander",
+        "richness": 14
+      }
+    ]
+  },
+  {
+    "keep_id": "fe167674-abc6-4314-8983-e5eed338fe4d",
+    "keep_name": "Conrad Gesner",
+    "keep_richness": 54,
+    "dupes": [
+      {
+        "id": "aefec830-b845-4ead-a504-8b1efff9c6fd",
+        "name": "Conrad Geiger",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "0745ecb0-f2a7-4715-919b-0e4c867e29ea",
+    "keep_name": "Conrad Buno",
+    "keep_richness": 26,
+    "dupes": [
+      {
+        "id": "cb7c6f63-eff8-41d2-b8cc-084c0af4773f",
+        "name": "Conrad Buff",
+        "richness": 14
+      }
+    ]
+  },
+  {
+    "keep_id": "709f50cc-5556-463c-b3fe-c5e12cf6ce13",
+    "keep_name": "Conrad Rooks",
+    "keep_richness": 12,
+    "dupes": [
+      {
+        "id": "d46dbf07-4760-49a8-aef5-ee3e2934cb30",
+        "name": "Conrad Cook",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "23274748-3b6d-420d-97c6-993fbf1dbd5a",
+    "keep_name": "Stephen Bram",
+    "keep_richness": 10,
+    "dupes": [
+      {
+        "id": "ee71af65-b058-48e9-83e7-872b685b156e",
+        "name": "Stephen Beal",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "1657bbbd-d7c7-4d7b-81ef-67cfd6f68ca7",
+    "keep_name": "Samuel van Hoogstraten",
+    "keep_richness": 157,
+    "dupes": [
+      {
+        "id": "673818f3-fc76-436d-ad49-cc824c61ee79",
+        "name": "Samuel Van Hogstracten",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "86652216-2d6b-47c8-972e-230a9c782b34",
+    "keep_name": "Samuel Colman",
+    "keep_richness": 75,
+    "dupes": [
+      {
+        "id": "d341af4f-a851-418f-a293-9ff8f8372394",
+        "name": "Samuel Hofman",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "ea7ea6b3-d5e4-4d63-8dc7-0f276a02a9ab",
+    "keep_name": "Samuel Amsler",
+    "keep_richness": 64,
+    "dupes": [
+      {
+        "id": "4d7ddd16-1fef-4617-bcbe-f2a356dc3c57",
+        "name": "Samuel Adler",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "db6832b1-4fff-4b4c-bb12-869bab0a1d29",
+    "keep_name": "Samuel Percy",
+    "keep_richness": 18,
+    "dupes": [
+      {
+        "id": "bb2ccafc-b72a-4443-96fa-4c80a3d03853",
+        "name": "Samuel Peck",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "40e695bf-691f-49e2-b997-9fcad2acaf02",
+    "keep_name": "Samuel Wood",
+    "keep_richness": 10,
+    "dupes": [
+      {
+        "id": "da943713-fc86-4d5b-816d-af846f5a4788",
+        "name": "Samuel Cook",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "50c95a09-afc3-4fa9-8a71-ebaa73bd5c17",
+    "keep_name": "Samuel Wale",
+    "keep_richness": 10,
+    "dupes": [
+      {
+        "id": "cee0064f-5eed-497d-81da-17ddf0769ad4",
+        "name": "Samuel Haile",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "731212f8-afc6-464f-a029-e7ffaed20c49",
+    "keep_name": "Samuel Buck",
+    "keep_richness": 8,
+    "dupes": [
+      {
+        "id": "c0375e5a-aa04-49f2-b7be-b667c112dcca",
+        "name": "Samuel Burt",
+        "richness": 5
+      },
+      {
+        "id": "d37ac3e6-1be9-45f5-bf9c-7f0724e2a8f3",
+        "name": "Samuel Bak",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "157e5005-5e37-4014-be38-7e2e86cb6c65",
+    "keep_name": "Samuel Ellis",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "dda80853-c6f4-4fd7-ad84-2c6bd58d0853",
+        "name": "Samuel Willis",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "61da517e-bf78-45a8-a61c-cf5b6aa6c525",
+    "keep_name": "Samuel Sangster",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "936739e1-0586-4f52-8008-949d5a879ea2",
+        "name": "Samuel Bagster",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "65c3e402-0207-4f0e-8cd1-b1b2a20a8350",
+    "keep_name": "Samuel Jones",
+    "keep_richness": 2,
+    "dupes": [
+      {
+        "id": "01b37c38-d65b-4900-9f9b-f460a964b441",
+        "name": "Samuel Lines",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "c4f9f48e-3910-445b-815c-cc92b7759d86",
+    "keep_name": "Samuel Yeo",
+    "keep_richness": 2,
+    "dupes": [
+      {
+        "id": "633d67ed-3dbd-4988-b85c-6d2e2c49399f",
+        "name": "Samuel Lee",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "33c4ab4a-c363-461f-ad4f-e2d1d8b05822",
+    "keep_name": "Samuel Foote",
+    "keep_richness": 2,
+    "dupes": [
+      {
+        "id": "f51c3b41-dd43-4838-bc43-8b82f1c98d81",
+        "name": "Samuel Forde",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "de15859b-b687-42ff-9757-104b96245b19",
+    "keep_name": "Lawrence Reiter",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "081f77aa-e560-4012-96dc-2b68c0d4e2e1",
+        "name": "Lawrence, Peter",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "7adde283-f5ea-4a53-a496-5f5a837e342d",
+    "keep_name": "Pietro Paulo Tozzi",
+    "keep_richness": 118,
+    "dupes": [
+      {
+        "id": "af89d3b6-62e2-491e-ab91-4c01954d30aa",
+        "name": "Pietro Paolo Bonzi",
+        "richness": 10
+      }
+    ]
+  },
+  {
+    "keep_id": "fca79ecb-d785-4f5f-aae1-eaa6d6027e1c",
+    "keep_name": "Pietro Novelli",
+    "keep_richness": 15,
+    "dupes": [
+      {
+        "id": "1c05e8dd-7aa8-4df1-9dc5-d987d85c74dc",
+        "name": "Pietro Roselli",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "81cd0c6a-f16b-4bb5-9b10-b68a6f5eeb85",
+    "keep_name": "Barbara Rossi",
+    "keep_richness": 402,
+    "dupes": [
+      {
+        "id": "a699118b-7424-45d3-ab0a-9652ec1f0423",
+        "name": "Barbara Rose",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "5e90117b-f9cc-4b15-a357-e8ff1ad91be7",
+    "keep_name": "Barbara Gluck",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "3dad858f-cd82-4b97-97fb-42cd6e9b0549",
+        "name": "Barbara Tuck",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "3a96da1c-4930-485f-8b46-b5cc5b71fc81",
+    "keep_name": "Arnold Crane",
+    "keep_richness": 16,
+    "dupes": [
+      {
+        "id": "23dc8307-6f11-4675-a148-b08bfa254fb2",
+        "name": "Arnold Chang",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "960e60f9-89df-4c56-9296-1a1e2d33aabd",
+    "keep_name": "Francis Alÿs",
+    "keep_richness": 428,
+    "dupes": [
+      {
+        "id": "ffb63f7b-d2f5-4d3f-8deb-c679dc9b0549",
+        "name": "Francis Hals",
+        "richness": 7
+      },
+      {
+        "id": "c6cf8297-74de-49d1-b751-09c9f94ef88c",
+        "name": "Francis Halls",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "ad88f874-d28e-4bde-ac8a-4aed850ad0d1",
+    "keep_name": "Ferdinand Bol",
+    "keep_richness": 569,
+    "dupes": [
+      {
+        "id": "da5c0a47-2db6-4dff-986e-1c6916e6d871",
+        "name": "Ferdinand Jodl",
+        "richness": 5
+      }
+    ]
+  },
+  {
+    "keep_id": "5f98039f-152f-4ca4-a193-1abf4296d110",
+    "keep_name": "Ferdinand, Louis",
+    "keep_richness": 80,
+    "dupes": [
+      {
+        "id": "33bf4ff7-e48e-4c98-84db-c8f835b76683",
+        "name": "Ferdinand Kruis",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "c52a7df2-461c-41c6-906b-3a2bbfc26a4d",
+    "keep_name": "Ferdinand Berger",
+    "keep_richness": 16,
+    "dupes": [
+      {
+        "id": "30b87fe2-e06e-4c23-abb1-fa6190e5130d",
+        "name": "Ferdinand Beurer",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "f5349a19-0705-4e61-8165-02c37b0516f8",
+    "keep_name": "Otto Dix",
+    "keep_richness": 680,
+    "dupes": [
+      {
+        "id": "92dd765b-c29c-4c2e-a2e4-b456a54cd454",
+        "name": "Otto Dill",
+        "richness": 15
+      }
+    ]
+  },
+  {
+    "keep_id": "8bfed85b-54bd-40fd-8af5-2f4575252d93",
+    "keep_name": "Otto van Veen",
+    "keep_richness": 184,
+    "dupes": [
+      {
+        "id": "17fc9b3d-00c5-4d42-8af1-7113cd36a5e4",
+        "name": "Otto van Rees",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "42339503-ab3c-4761-bb0b-cf8bb6c2a50f",
+    "keep_name": "Otto Mueller",
+    "keep_richness": 174,
+    "dupes": [
+      {
+        "id": "f4c376a2-10ac-469c-b3e8-2dcc303cbe96",
+        "name": "Otto Möller",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "8ffeae2b-36b0-4bc1-9638-26e0ddfbef2b",
+    "keep_name": "Otto Nagel",
+    "keep_richness": 30,
+    "dupes": [
+      {
+        "id": "3dc99aba-c814-4e38-bf2b-9ad4762fed0d",
+        "name": "Otto Nebel",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "10e74b5e-2344-47d8-b102-581cb91dccc4",
+    "keep_name": "Otto Schoff",
+    "keep_richness": 14,
+    "dupes": [
+      {
+        "id": "973bc8f5-7a8c-4dca-9c65-35e9a3a42b4b",
+        "name": "Otto Schön",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "7f7e7352-ddb8-4c5d-aedc-217c8760281a",
+    "keep_name": "Otto Seitz",
+    "keep_richness": 14,
+    "dupes": [
+      {
+        "id": "9a6f2a45-6644-45bf-85d1-bd42210b687a",
+        "name": "Otto Nemitz",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "dc6019d7-1316-41b5-8dda-ec20ab908a54",
+    "keep_name": "Otto Eglau",
+    "keep_richness": 12,
+    "dupes": [
+      {
+        "id": "53e6eddf-e5ce-4058-9064-bbe669717374",
+        "name": "Otto Grau",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "30e50814-f502-4dda-ae96-953f32370d26",
+    "keep_name": "Otto Hennig",
+    "keep_richness": 8,
+    "dupes": [
+      {
+        "id": "083fdb49-c6e4-44d6-86b1-65d1397f65ce",
+        "name": "Otto Herbig",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "97f0eef8-a9b8-45e7-9661-2aaabc0cf618",
+    "keep_name": "Xu Bing",
+    "keep_richness": 117,
+    "dupes": [
+      {
+        "id": "9dd0eca6-d5f2-4bc5-a8fe-3d61c55ace8a",
+        "name": "Xu Fang",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "9a25217f-9882-445a-955d-3524454889a0",
+    "keep_name": "Wilhelm Bendz",
+    "keep_richness": 294,
+    "dupes": [
+      {
+        "id": "a6a90e6a-da71-4073-9912-bc5f3d6445e7",
+        "name": "Wilhelm Gentz",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_id": "e779e37d-2947-4489-875a-ba12e09d199f",
+    "keep_name": "Wilhelm Schreuer",
+    "keep_richness": 59,
+    "dupes": [
+      {
+        "id": "2c323af0-2d1c-4f54-beb7-52bbfadfddd5",
+        "name": "Wilhelm Schröter",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "85b03e93-7725-4680-9d90-e5ddb9a085df",
+    "keep_name": "Wilhelm Dümler",
+    "keep_richness": 24,
+    "dupes": [
+      {
+        "id": "2dc23026-7f43-4475-a76b-9817b72c36c8",
+        "name": "Wilhelm Müller",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "305fe551-f1c8-45b9-887d-e35c2b75db20",
+    "keep_name": "Wilhelm Koller",
+    "keep_richness": 22,
+    "dupes": [
+      {
+        "id": "42d95d86-e356-4d78-9e18-2b08603d60ce",
+        "name": "Wilhelm, Holter",
+        "richness": 14
+      },
+      {
+        "id": "ac493c4d-c8a5-4364-8336-291059a99e87",
+        "name": "Wilhelm Körber",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "6c97781b-b8a3-465a-9e4d-92ff4cd53ec7",
+    "keep_name": "Wilhelm Unger",
+    "keep_richness": 14,
+    "dupes": [
+      {
+        "id": "d0cc646e-43df-465f-b05a-34a702a63710",
+        "name": "Wilhelm Burger",
+        "richness": 10
+      },
+      {
+        "id": "8b1db3ab-6fde-4957-93d2-685accfe51d0",
+        "name": "Wilhelm Engel",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "6a247e3b-f975-4649-a8d5-256a9c89b5e7",
+    "keep_name": "Wilhelm Riedel",
+    "keep_richness": 10,
+    "dupes": [
+      {
+        "id": "7e3be01c-a466-4467-b0f0-787ebb7c467b",
+        "name": "Wilhelm Biede",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "0a350b0f-7b8d-4827-980e-bb24b6bdae7c",
+    "keep_name": "Wilhelm Schimmel",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "3645e847-2d6c-40fe-a484-e88b44ecce47",
+        "name": "Wilhelm Schirmer",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "25b7c74a-d4b6-4e06-b052-a77c360a5792",
+    "keep_name": "Wilhelm Kray",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "a2b30b09-afa4-4254-8dd0-258c75abbc3f",
+        "name": "Wilhelm Frey",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "653ab3bd-fe11-4624-8c87-acc52863ce6c",
+    "keep_name": "Wilhelm Räuber",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "d437d8a5-865d-47f6-81d1-245fc43626ad",
+        "name": "Wilhelm Bauer",
+        "richness": 4
+      },
+      {
+        "id": "ddda1863-7910-4bd2-bfc6-d1f6b0309b2b",
+        "name": "Wilhelm Reuter",
+        "richness": 3
+      }
+    ]
+  },
+  {
+    "keep_id": "a55f0339-5f69-4bd0-b172-6534158edc26",
+    "keep_name": "Wilhelm Hester",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "eaa3d897-91d1-4a5a-948e-7be5d5a40a86",
+        "name": "Wilhelm Nestler",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "91f645eb-1156-4e6d-951a-838f931eb338",
+    "keep_name": "Wilhelm Kåge",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "8b6d906a-b31c-4e02-8d74-0531fa5739cd",
+        "name": "Wilhelm Kalf",
+        "richness": 2
+      },
+      {
+        "id": "63775a19-8271-4bf8-a670-569664587b1b",
+        "name": "Wilhelm Nagel",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_id": "1eb222eb-4719-459e-982d-453a3dc62f26",
+    "keep_name": "Wilhelm Haas",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "8d176aa4-0f7e-4c52-a4c1-9acfd17dea58",
+        "name": "Wilhelm Hahn",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "03816118-4431-421e-a07c-c720996a8ab5",
+    "keep_name": "Wilhelm Rohr",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "710b12dd-7c3e-474d-8f26-a1995b526702",
+        "name": "Wilhelm Sohn",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "899b98ee-c469-4b76-bd08-1bcc413f909f",
+    "keep_name": "Wilhelm Meyer",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "11bcf4b1-b171-4294-8971-fb231c3f2989",
+        "name": "Wilhelm Moser",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "122bcd1d-941b-41f5-a726-d30026a3960f",
+    "keep_name": "Wilhelm Hartan",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "1888dfa4-c4dd-4f59-81f0-f0c1c7865e0f",
+        "name": "Wilhelm Hartmann",
+        "richness": 2
+      },
+      {
+        "id": "5d945122-6b6b-4218-9091-cd3af7546619",
+        "name": "Wilhelm Hartes",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_id": "e123ccc7-d196-4364-b3a8-ef3cae37b3fa",
+    "keep_name": "Wilhelm Becker",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "b5fa6a6f-51d9-4d2c-975f-c53948becd91",
+        "name": "Wilhelm Bröker",
+        "richness": 3
+      }
+    ]
+  },
+  {
+    "keep_id": "b1860143-2e47-4dea-8a4c-4418b1b02a9e",
+    "keep_name": "Wilhelm Heine",
+    "keep_richness": 3,
+    "dupes": [
+      {
+        "id": "604cc3c9-12cd-4a9d-b57f-28455297062b",
+        "name": "Wilhelm Hühne",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "36cb2ef7-5d20-4b26-9227-8b1243d3767c",
+    "keep_name": "Wilhelm Schmetz",
+    "keep_richness": 3,
+    "dupes": [
+      {
+        "id": "8ee12f9a-e15d-4ce9-a07a-b87561cbae87",
+        "name": "Wilhelm Schultz",
+        "richness": 2
+      },
+      {
+        "id": "3acb0c8f-2660-4004-acb5-db5b1128055f",
+        "name": "Wilhelm Schuetze",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_id": "d733e7fc-3b89-4982-952a-bbc5e39434e0",
+    "keep_name": "Wilhelm Hauff",
+    "keep_richness": 2,
+    "dupes": [
+      {
+        "id": "68eba0e4-9d6c-4b22-8467-a5afe0408f4d",
+        "name": "Wilhelm Kalff",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_id": "06b2c48d-3ec0-4b82-bb38-b7d5b6074fcc",
+    "keep_name": "Wilhelm Pose",
+    "keep_richness": 2,
+    "dupes": [
+      {
+        "id": "f7759bc7-1397-4e31-8622-f2bc1a7d19b0",
+        "name": "Wilhelm Klose",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_id": "32b29454-4998-4318-8636-1c907bfb0804",
+    "keep_name": "Wilhelm Krüger",
+    "keep_richness": 2,
+    "dupes": [
+      {
+        "id": "14d82488-15c8-43e1-8937-7f6ddfd877fa",
+        "name": "Wilhelm Krigar",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "9268e836-ce4f-4378-995e-9e9bf2ee734c",
+    "keep_name": "Claude Gillot",
+    "keep_richness": 313,
+    "dupes": [
+      {
+        "id": "096f710c-e3d5-4a90-bcab-802d5e006e37",
+        "name": "Claude Callot",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "fce0ff06-b7f9-4551-b6ad-be4e6b297881",
+    "keep_name": "Claude Varin",
+    "keep_richness": 9,
+    "dupes": [
+      {
+        "id": "1f6bb454-34ea-45da-91ed-5034aeb185ce",
+        "name": "Claude Baron",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "2156c900-48d0-4a34-801b-9c2add2464fc",
+    "keep_name": "Adam Willaerts",
+    "keep_richness": 75,
+    "dupes": [
+      {
+        "id": "84b8a272-2ad9-435d-93f0-b259cffce1bc",
+        "name": "Adam Willards",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "b0499738-66d6-49cb-bf47-fede4cfcfe95",
+    "keep_name": "Sir Thomas Lawrence",
+    "keep_richness": 146,
+    "dupes": [
+      {
+        "id": "e26218ee-965d-457d-8bd9-05d71bce56fb",
+        "name": "Sir Thos. Lawrence",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "cebe3ed3-cf2b-4a26-80c9-008a31602ff2",
+    "keep_name": "Sheng Mao",
+    "keep_richness": 8,
+    "dupes": [
+      {
+        "id": "244d0d30-71dc-4af2-8a68-5f5c6268e984",
+        "name": "Sheng Mou",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "eb858439-d0ef-472e-8aa6-6792ac211a0d",
+    "keep_name": "Giacomo Balla",
+    "keep_richness": 62,
+    "dupes": [
+      {
+        "id": "473979d7-6f4a-4d8a-935d-ebf9f1ef0d72",
+        "name": "Giacomo Palma",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "db521d04-8403-462c-99cf-12de82ae7a81",
+    "keep_name": "Bartolomeo Schedoni",
+    "keep_richness": 89,
+    "dupes": [
+      {
+        "id": "fd9534e4-0226-4eae-adeb-ee15ae3a2c04",
+        "name": "Bartolomeo Schidone",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "11827814-d6bf-4334-892d-da8a0a6dd4b2",
+    "keep_name": "Eugène Fromentin",
+    "keep_richness": 85,
+    "dupes": [
+      {
+        "id": "df3a7897-fec1-4f44-8335-100b8f9c1445",
+        "name": "Eugène Froment",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "d5dc113c-70d1-4ea5-802f-88958515b2f2",
+    "keep_name": "Eugene Higgins",
+    "keep_richness": 48,
+    "dupes": [
+      {
+        "id": "ed5759a2-32f7-4075-a42c-f87b6e93dda6",
+        "name": "Eugene Dwiggins",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "3f0a6693-7503-41b9-87bd-23be77b8fee0",
+    "keep_name": "Eugène Druet",
+    "keep_richness": 16,
+    "dupes": [
+      {
+        "id": "ded8333e-46b4-4018-bc5b-2414aa24cf93",
+        "name": "Eugène Daudet",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "dc3ae9cf-d38c-43b7-9a2a-74dd7208cd96",
+    "keep_name": "Eugène Baron",
+    "keep_richness": 14,
+    "dupes": [
+      {
+        "id": "ec2a6638-bb85-4186-8eca-4e021f4dc4d1",
+        "name": "Eugène Balan",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "9aba821f-eda7-455b-b10b-862e8e88bf1d",
+    "keep_name": "Eugène Pirou",
+    "keep_richness": 12,
+    "dupes": [
+      {
+        "id": "b518b348-e5dd-4ac4-a434-47f849afbe01",
+        "name": "Eugène Piot",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "967e852f-ee67-435b-b9b3-db4d88a0560b",
+    "keep_name": "Frans Huys",
+    "keep_richness": 392,
+    "dupes": [
+      {
+        "id": "8ecaa5b1-1edb-4cb5-9aad-23f62c0f4e4b",
+        "name": "Frans Hens",
+        "richness": 116
+      }
+    ]
+  },
+  {
+    "keep_id": "451ea5a6-a5d3-49a7-adb4-0ae49ddd22ad",
+    "keep_name": "Frans Hals",
+    "keep_richness": 336,
+    "dupes": [
+      {
+        "id": "cd5d8f66-98a4-4529-bf2c-cfc04f952e1e",
+        "name": "Frans Nols",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "02c23ff4-d112-4f9e-bb11-e14e78c400ec",
+    "keep_name": "Frans Post",
+    "keep_richness": 62,
+    "dupes": [
+      {
+        "id": "22641384-bb6b-4c64-91eb-9720e142017d",
+        "name": "Frans Proost",
+        "richness": 41
+      }
+    ]
+  },
+  {
+    "keep_id": "fd1dccc4-e08d-4f39-8578-23592400875b",
+    "keep_name": "Andrew Bush",
+    "keep_richness": 24,
+    "dupes": [
+      {
+        "id": "6d80ceb8-90a3-4b6e-afc3-cca902b169c0",
+        "name": "Andrew Both",
+        "richness": 9
+      }
+    ]
+  },
+  {
+    "keep_id": "19426b78-92d5-4b7f-b9a8-531366b2f7d5",
+    "keep_name": "Andrew McLeod",
+    "keep_richness": 12,
+    "dupes": [
+      {
+        "id": "c5bf5009-cfe7-4844-8d52-be98f4682007",
+        "name": "Andrew McLean",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "d11660ca-4575-4ef6-b09e-0622d662fad6",
+    "keep_name": "Arthur Dove",
+    "keep_richness": 490,
+    "dupes": [
+      {
+        "id": "6495d018-5b2c-411f-bb32-d5903987ccfa",
+        "name": "Arthur Hope",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "9c34b7b2-8e6c-4486-b80a-db916fad2604",
+    "keep_name": "Arthur Devis",
+    "keep_richness": 51,
+    "dupes": [
+      {
+        "id": "f3926387-1f92-4908-92c0-f0c3be71ecb8",
+        "name": "Arthur Davies",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "c4f31b10-7eee-4633-a6a1-7809b8537391",
+    "keep_name": "Arthur Locker",
+    "keep_richness": 12,
+    "dupes": [
+      {
+        "id": "b01bc7e9-f712-4976-a79d-db374044673d",
+        "name": "Arthur Tucker",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "f618ce7b-e435-4db7-a281-0e77beaa4c24",
+    "keep_name": "Bob Hanf",
+    "keep_richness": 10,
+    "dupes": [
+      {
+        "id": "03468e3d-a768-4086-96b3-991b71ea01d5",
+        "name": "Bob Kane",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "922d7c25-5cc4-4a21-8a32-8cf41f4dd34a",
+    "keep_name": "Fritz Scholder",
+    "keep_richness": 98,
+    "dupes": [
+      {
+        "id": "9fcd87bb-cf37-4cc2-9833-dc7520dcdff4",
+        "name": "Fritz Schider",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "22c64668-fad4-4dce-a9b4-6aef0f36d40c",
+    "keep_name": "Fritz Erler",
+    "keep_richness": 31,
+    "dupes": [
+      {
+        "id": "c74e1cf3-6123-4de4-b8a3-7b2b0ae5fa67",
+        "name": "Fritz Werner",
+        "richness": 10
+      }
+    ]
+  },
+  {
+    "keep_id": "1baf8b6f-a99e-4991-a898-10afdc4a7675",
+    "keep_name": "Fritz Luckhardt",
+    "keep_richness": 12,
+    "dupes": [
+      {
+        "id": "0c0bb6b8-03b3-4622-90a0-9d5927f946a0",
+        "name": "Fritz Burkhardt",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "a5302e9c-bc8a-4eae-befb-8ce018b1949e",
+    "keep_name": "Utagawa Toyohiro",
+    "keep_richness": 103,
+    "dupes": [
+      {
+        "id": "9094d909-7d8d-47ce-bf3c-1722c25922ec",
+        "name": "Utagawa Toyoharu",
+        "richness": 69
+      }
+    ]
+  },
+  {
+    "keep_id": "9ed5f0fc-9e1b-4f6b-87af-5262da8f6ca7",
+    "keep_name": "Utagawa Yoshitora",
+    "keep_richness": 84,
+    "dupes": [
+      {
+        "id": "5854ab3b-3081-40a9-a44a-55b990d73dfc",
+        "name": "Utagawa Yoshitoyo",
+        "richness": 17
+      },
+      {
+        "id": "d59c3521-e13a-4ccb-9573-fa916459ce56",
+        "name": "Utagawa Yoshimori",
+        "richness": 17
+      }
+    ]
+  },
+  {
+    "keep_id": "d1fed97a-273d-4cc6-b4e1-19227018702b",
+    "keep_name": "Utagawa Kunimasa",
+    "keep_richness": 79,
+    "dupes": [
+      {
+        "id": "62edc79a-019a-4a60-8cf6-90e887bfdd82",
+        "name": "Utagawa Kuniyasu",
+        "richness": 34
+      },
+      {
+        "id": "553ba4ec-af7a-449e-94fd-1c44e3d6644f",
+        "name": "Utagawa Kunimaru",
+        "richness": 10
+      },
+      {
+        "id": "a0b14d7e-aa90-4f25-86b9-50e1345175ec",
+        "name": "Utagawa Kuninaga",
+        "richness": 8
+      },
+      {
+        "id": "4d73eabc-32ca-4c1b-8b08-21cd10e01a46",
+        "name": "Utagawa Kunihisa",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "1dd42f5c-1ccd-44e9-9635-bc715c165cfe",
+    "keep_name": "Utagawa Kunihiro",
+    "keep_richness": 7,
+    "dupes": [
+      {
+        "id": "6666e652-c47a-44ad-bd24-ad0c53ed1b8b",
+        "name": "Utagawa Kunihide",
+        "richness": 5
+      }
+    ]
+  },
+  {
+    "keep_id": "80798669-5e14-48a2-91d0-c1afe56c4dd6",
+    "keep_name": "Josef Mánes",
+    "keep_richness": 41,
+    "dupes": [
+      {
+        "id": "7483362f-bc31-483e-ac9b-8220e8b6a065",
+        "name": "Josef Mader",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "e2300eed-26f9-4367-934d-5b15543b882f",
+    "keep_name": "Josef Lauer",
+    "keep_richness": 36,
+    "dupes": [
+      {
+        "id": "54f7b3e2-2059-4d2e-a588-4517a1014a14",
+        "name": "Josef Bayer",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "ed24d300-5cc1-4821-b715-d08cf10ee310",
+    "keep_name": "Josef Holzer",
+    "keep_richness": 17,
+    "dupes": [
+      {
+        "id": "f680dca5-a7dc-4d74-ae95-8dfbede0b987",
+        "name": "Josef Haller",
+        "richness": 4
+      },
+      {
+        "id": "04f684ca-346c-4b0f-8020-15e7c486bc82",
+        "name": "Josef Hofer",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "951746c4-9437-4940-bdf6-c3df9a2a902f",
+    "keep_name": "Josef Achmann",
+    "keep_richness": 8,
+    "dupes": [
+      {
+        "id": "c782c707-68a7-4678-b86e-815dd85d7de7",
+        "name": "Josef Axmann",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "43d4d1f8-5475-4bfa-8bb5-3f86bcc9768d",
+    "keep_name": "Adolphe Braun",
+    "keep_richness": 268,
+    "dupes": [
+      {
+        "id": "7228ff5c-b728-46ea-9078-1482cad93d86",
+        "name": "Adolphe Beau",
+        "richness": 10
+      }
+    ]
+  },
+  {
+    "keep_id": "2b4dbf21-108c-4315-b9d6-99d93e974c6a",
+    "keep_name": "Jules Hallez",
+    "keep_richness": 23,
+    "dupes": [
+      {
+        "id": "1e4c2713-b0a7-456e-942e-342f3a734788",
+        "name": "Jules Allen",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "c07568b8-3950-4fef-9bd4-836921de2ed4",
+    "keep_name": "Jules Robert",
+    "keep_richness": 10,
+    "dupes": [
+      {
+        "id": "3f1a1e4a-3479-4a46-87ef-28c11fa0b158",
+        "name": "Jules Hébert",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "519417e0-8e93-4549-b0bc-358f032d40fd",
+    "keep_name": "Harry Meijer",
+    "keep_richness": 78,
+    "dupes": [
+      {
+        "id": "24983b35-4491-419c-bd96-afd83cdb08f6",
+        "name": "Harry Meyer",
+        "richness": 16
+      }
+    ]
+  },
+  {
+    "keep_id": "a01a818f-4701-49e6-90bf-de24c396b49a",
+    "keep_name": "Harry Weese",
+    "keep_richness": 22,
+    "dupes": [
+      {
+        "id": "1be19c14-405b-4ace-b8ae-ae251d31da9d",
+        "name": "Harry Wedge",
+        "richness": 16
+      }
+    ]
+  },
+  {
+    "keep_id": "33c61af1-d291-43e2-b742-6de3ac846e38",
+    "keep_name": "Huang Yan",
+    "keep_richness": 18,
+    "dupes": [
+      {
+        "id": "851ba1a1-da7a-44fa-9071-73db60d7b21f",
+        "name": "Huang Quan",
+        "richness": 6
+      },
+      {
+        "id": "94444d6b-fcc0-42ab-bc9a-13afcc5b9e08",
+        "name": "Huang Yi",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "d6dd00a2-b2ab-4de5-a40b-fb9f866c9220",
+    "keep_name": "Martin Parr",
+    "keep_richness": 165,
+    "dupes": [
+      {
+        "id": "602474f5-8a87-4b1e-8534-9aa1df1250c7",
+        "name": "Martin pere",
+        "richness": 3
+      }
+    ]
+  },
+  {
+    "keep_id": "6d5aef81-a064-4e71-8237-7fb13bddf4b4",
+    "keep_name": "Martin de Vos",
+    "keep_richness": 59,
+    "dupes": [
+      {
+        "id": "c9f4dd96-7595-4cbb-8d91-167aa27b6b7c",
+        "name": "Martin de Vosse",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_id": "c213e352-2ad9-49d0-b83f-126a4e6e642a",
+    "keep_name": "Martin Carlin",
+    "keep_richness": 38,
+    "dupes": [
+      {
+        "id": "2d5ebb7f-63e1-4a12-8a1e-269a655153d0",
+        "name": "Martin Palin",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "b9be58ad-726a-41e6-8692-7e08808bed94",
+    "keep_name": "Martin Wong",
+    "keep_richness": 33,
+    "dupes": [
+      {
+        "id": "6b3f67ed-42a7-45bd-bbc6-528f3c29661c",
+        "name": "Martin Zorg",
+        "richness": 4
+      },
+      {
+        "id": "b0c39c3b-c9ea-48e4-9408-e83e388f77a8",
+        "name": "Martin Lorg",
+        "richness": 1
+      },
+      {
+        "id": "ace596eb-0cf8-469e-9de0-71248469f89b",
+        "name": "Martin Zing",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_id": "b2a5a2ea-d5a3-4d50-b17b-0a3e76c79cb4",
+    "keep_name": "Martin Knoller",
+    "keep_richness": 32,
+    "dupes": [
+      {
+        "id": "c93888a4-8116-46dd-a7d5-ec5ed89c04d6",
+        "name": "Martin Pröller",
+        "richness": 2
+      },
+      {
+        "id": "5cc9843b-d960-4be5-91e7-ca32a51cb7b5",
+        "name": "Martin Zoller",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "a8a6fcfb-9df6-4e7b-8137-06b5989bb9fc",
+    "keep_name": "Martin Scheffel",
+    "keep_richness": 18,
+    "dupes": [
+      {
+        "id": "29553a28-b356-4c41-8173-0c2ecafec928",
+        "name": "Martin Schedel",
+        "richness": 14
+      }
+    ]
+  },
+  {
+    "keep_id": "6cde98de-9301-4246-ad24-10f685b05bde",
+    "keep_name": "Martin, Keith",
+    "keep_richness": 18,
+    "dupes": [
+      {
+        "id": "c4b494b1-18a9-47d2-b79a-c60b6600f3d7",
+        "name": "Martin Smith",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "8d8c7e4f-a3e3-45d9-8181-e42c8ea9514a",
+    "keep_name": "Martin Eder",
+    "keep_richness": 18,
+    "dupes": [
+      {
+        "id": "927cf74a-3475-40f7-9097-039cc806c6f4",
+        "name": "Martin Adel",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "48fdacb2-68b5-421f-b120-3b6e318f9285",
+    "keep_name": "Martin Mower",
+    "keep_richness": 16,
+    "dupes": [
+      {
+        "id": "2b38549f-2431-4345-90dc-218941ddc511",
+        "name": "Martin Kober",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "8f38cf16-850f-49d7-9bf0-b6a529cc10bb",
+    "keep_name": "Martin le Pere",
+    "keep_richness": 9,
+    "dupes": [
+      {
+        "id": "9ad631a9-29b8-47dd-94a0-12011e3244ab",
+        "name": "Martin de Paepe",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_id": "747941b1-e38a-43ec-9a21-2620fa752f27",
+    "keep_name": "Martin Basher",
+    "keep_richness": 8,
+    "dupes": [
+      {
+        "id": "61a8c991-5ff0-42c4-8a45-295335cf688b",
+        "name": "Martin Baer",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "b2fb3f54-9662-4433-bec6-0a533ab2fcfe",
+    "keep_name": "Martin Hemskerke",
+    "keep_richness": 7,
+    "dupes": [
+      {
+        "id": "ef091574-36fa-4547-9109-07e7b45cb6b5",
+        "name": "Martin Hemskerck",
+        "richness": 6
+      },
+      {
+        "id": "b8f991a5-b01f-41bd-a81c-d9877d034f56",
+        "name": "Martin Heemskerk",
+        "richness": 5
+      },
+      {
+        "id": "33e80582-5213-4379-ac9f-ebf69c4fef01",
+        "name": "[Martin] Hemskirk",
+        "richness": 1
+      },
+      {
+        "id": "901041b2-4b5b-4ac3-a60a-887972750c47",
+        "name": "Martin Hemskirk",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_id": "fd0eb214-d4f0-4e6b-b0eb-8b9cb5dbc534",
+    "keep_name": "Martin Åberg",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "e90c2473-d4e5-4324-95ef-ad39c30cae3a",
+        "name": "Martin Zerg",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_id": "0f5f71db-6e8d-49c3-9eb5-5a6cfd7481ce",
+    "keep_name": "Martin Beck",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "73a44b69-89a3-4d77-ac46-1e06e1d76040",
+        "name": "Martin Benka",
+        "richness": 4
+      },
+      {
+        "id": "84ed99eb-707e-44f2-9fe1-05fa891327af",
+        "name": "Martin Bülck",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "f5062f10-fd12-420d-a2ac-b5e1d5df155b",
+    "keep_name": "Martin Schnell",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "1a2c5d8a-33f3-487b-a1d9-ebc71bae9e68",
+        "name": "Martin Schedl",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "3da25e4c-a972-4fd3-8220-c471681ab4f7",
+    "keep_name": "Martin Zürn",
+    "keep_richness": 3,
+    "dupes": [
+      {
+        "id": "ec077ad2-3202-423e-ab95-a64556415635",
+        "name": "Martin Kuhn",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "0230a12e-0dd5-4746-91bb-b5c2531c004b",
+    "keep_name": "Martin Carey",
+    "keep_richness": 2,
+    "dupes": [
+      {
+        "id": "24f77fe2-eb2e-45ea-889c-ebfa79b68a09",
+        "name": "Martin Frey",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "6562a4b9-8e31-49a0-9e92-655fa120fad3",
+    "keep_name": "Martin Riester",
+    "keep_richness": 2,
+    "dupes": [
+      {
+        "id": "d1e0cbb5-c482-4619-ad66-5468a13fdfaf",
+        "name": "Martin Ritter",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "8f2f1b22-f3f3-409b-aad4-106902f8a553",
+    "keep_name": "Martin des Goblin",
+    "keep_richness": 1,
+    "dupes": [
+      {
+        "id": "7aee0f13-fc9c-4ab7-ac8b-52beac7b7597",
+        "name": "Martin des Gobelins",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_id": "12f3ebf3-8cb1-498d-ad70-517137134da7",
+    "keep_name": "Martin, disciple de Wander-Meulen",
+    "keep_richness": 1,
+    "dupes": [
+      {
+        "id": "e76afd98-a783-49e2-9dfb-98d9f4026dc0",
+        "name": "Martin, disciple de Vandermeulen",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_id": "5c430b96-029f-4cc3-99a6-a8b3091ccf61",
+    "keep_name": "Martin Heemskerck",
+    "keep_richness": 1,
+    "dupes": [
+      {
+        "id": "3f0bd615-2263-4f1a-99eb-1f3425aff377",
+        "name": "Martin Kemskerck",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_id": "cc3044f4-72ed-404a-919e-5a221c998e4d",
+    "keep_name": "Lee Kang-So",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "1b3483d6-26d6-4c41-bf9a-44adda6f3286",
+        "name": "Lee Kang-Hyo",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "88775609-0752-466f-ba65-a9aa319a834d",
+    "keep_name": "Carlo Ponti",
+    "keep_richness": 154,
+    "dupes": [
+      {
+        "id": "f4e681fa-cf78-4f08-bb92-70df8a9f1b13",
+        "name": "Carlo Lotti",
+        "richness": 16
+      },
+      {
+        "id": "f2add81f-c7e9-455f-b9a0-09498bf4e938",
+        "name": "Carlo Loti",
+        "richness": 9
+      }
+    ]
+  },
+  {
+    "keep_id": "84855c1b-88b9-4d93-9d62-fa48b837df31",
+    "keep_name": "Carlo Cesi",
+    "keep_richness": 46,
+    "dupes": [
+      {
+        "id": "235d50b6-f5b8-4bb0-8f06-0e1c90b45946",
+        "name": "Carlo Crespi",
+        "richness": 3
+      }
+    ]
+  },
+  {
+    "keep_id": "905ba078-5e94-423f-817f-5bd3ce89092a",
+    "keep_name": "Carlo Carrá",
+    "keep_richness": 34,
+    "dupes": [
+      {
+        "id": "428170c9-cc0f-4098-bd8c-b2a4a52c6fca",
+        "name": "Carlo Scarpa",
+        "richness": 32
+      }
+    ]
+  },
+  {
+    "keep_id": "52cf1039-7819-434f-8f40-9044abdd054a",
+    "keep_name": "Maria Martinez",
+    "keep_richness": 57,
+    "dupes": [
+      {
+        "id": "7badfa65-f051-440c-861b-337163281c52",
+        "name": "Maria Martins",
+        "richness": 36
+      },
+      {
+        "id": "f73eade7-4ad6-48ef-b5ed-758f5653b64c",
+        "name": "Maria Martineau",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "5aacaa04-fef5-44e1-ab83-fc78bfc2dcf3",
+    "keep_name": "Maria Olsen",
+    "keep_richness": 8,
+    "dupes": [
+      {
+        "id": "9a9f46c9-0660-4a72-8ae3-e7609478ba4c",
+        "name": "Maria Roosen",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "4e2c90e4-1cd7-446d-9190-d7cb8da53fbf",
+    "keep_name": "Mrs. Beale",
+    "keep_richness": 41,
+    "dupes": [
+      {
+        "id": "da77daba-9cd1-4bd8-a111-0aaf01dc5633",
+        "name": "Mrs. Bell",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "7d793afb-5730-4b83-a0ec-145e34703fbb",
+    "keep_name": "Sebastien Franck",
+    "keep_richness": 50,
+    "dupes": [
+      {
+        "id": "2e65fc97-4c4a-4bb1-9568-c24eb2953abc",
+        "name": "Sebastien Vranckx",
+        "richness": 5
+      }
+    ]
+  },
+  {
+    "keep_id": "46b725cc-af99-450d-b8ab-50624212f75e",
+    "keep_name": "Wolf Kahn",
+    "keep_richness": 46,
+    "dupes": [
+      {
+        "id": "2b076068-2757-40b2-8e98-bd58922c6305",
+        "name": "Wolf Karl",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "06fbe352-a4a0-4b78-ae86-f258cfe100b9",
+    "keep_name": "Rosa Alba",
+    "keep_richness": 16,
+    "dupes": [
+      {
+        "id": "23f54ae3-4ef2-4d73-a46c-bf2446820b26",
+        "name": "Rosa Barba",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "75c5afa1-ce1a-49f1-95bd-deaf370ccd9f",
+    "keep_name": "Heinrich Füger",
+    "keep_richness": 60,
+    "dupes": [
+      {
+        "id": "cc758049-6c56-4bc8-923b-ae033c166c23",
+        "name": "Heinrich Zügel",
+        "richness": 11
+      }
+    ]
+  },
+  {
+    "keep_id": "72986a05-81fe-478c-af2b-6deff986e0a2",
+    "keep_name": "Heinrich Meyer",
+    "keep_richness": 52,
+    "dupes": [
+      {
+        "id": "29090296-ae83-4353-983a-9051e0918e97",
+        "name": "Heinrich Weber",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "28843866-b7de-4f48-b17e-d46b0cc755ca",
+    "keep_name": "Heinrich Schmidt",
+    "keep_richness": 36,
+    "dupes": [
+      {
+        "id": "cb292124-0028-40bb-b81f-7f265ac7c19a",
+        "name": "Heinrich Schlitt",
+        "richness": 7
+      }
+    ]
+  },
+  {
+    "keep_id": "da06de36-eea6-45cb-9bb9-f55407ca3ee0",
+    "keep_name": "Heinrich Dreber",
+    "keep_richness": 16,
+    "dupes": [
+      {
+        "id": "0c8cc382-89ce-44db-9a13-a81d9003980d",
+        "name": "Heinrich Graber",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "37e6058c-3991-42cd-92e5-48b8b504bb8c",
+    "keep_name": "Heinrich Walter",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "8a676e8b-a453-4ebd-8a39-622caee03bb4",
+        "name": "Heinrich Winter",
+        "richness": 5
+      }
+    ]
+  },
+  {
+    "keep_id": "35910c3a-335f-4291-8fe4-8a45ec04ca15",
+    "keep_name": "Gerard Verdijk",
+    "keep_richness": 10,
+    "dupes": [
+      {
+        "id": "606cbaa1-6b03-42fb-addf-aa51c97c5d08",
+        "name": "Gerard Hordijk",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "ca633f2f-3d2d-4c80-849d-b320475c8514",
+    "keep_name": "Frederick Sang",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "80de687e-3e22-4f40-8cd4-430a5b062e9c",
+        "name": "Frederick Shane",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "d3f7b86b-4f7d-4a74-94d7-c3c2c94ad476",
+    "keep_name": "Gerrit Lamberts",
+    "keep_richness": 244,
+    "dupes": [
+      {
+        "id": "fa90427f-6113-4b73-a0b8-040ac225b4b3",
+        "name": "Gerrit Alberts",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "7ee30d27-1451-4ff1-9207-acd17ff00ede",
+    "keep_name": "Italian 15th/16th Century",
+    "keep_richness": 40,
+    "dupes": [
+      {
+        "id": "da08a3ce-7b4e-4f26-8de1-84f404f0f016",
+        "name": "Italian 18th/19th Century",
+        "richness": 16
+      },
+      {
+        "id": "faae8e27-4b84-4add-b441-e9e9e94d203a",
+        "name": "Italian 17th/19th Century",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "07cf65db-280f-405e-8c9e-b3b596bf36c8",
+    "keep_name": "Hermann Selle",
+    "keep_richness": 218,
+    "dupes": [
+      {
+        "id": "9b1ea9b8-272f-43e9-b040-597c477d0a7b",
+        "name": "Hermann Eller",
+        "richness": 10
+      }
+    ]
+  },
+  {
+    "keep_id": "9a139444-e1ca-4fd0-a305-9205ee194d2f",
+    "keep_name": "Hermann Weyer",
+    "keep_richness": 34,
+    "dupes": [
+      {
+        "id": "23a843fd-38c8-4469-a8eb-72938de44c29",
+        "name": "Hermann Bever",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "3f01e102-02f8-45b1-a84e-a89ba44dd4a4",
+    "keep_name": "Hermann Huber",
+    "keep_richness": 16,
+    "dupes": [
+      {
+        "id": "7b34c125-f57f-4550-8977-ee086fadc2b9",
+        "name": "Hermann Teuber",
+        "richness": 14
+      },
+      {
+        "id": "de018ee8-d940-498f-99c8-cc9a0459170f",
+        "name": "Hermann Euler",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "d035fd22-6638-4fd7-9d7a-a934aa1acfa4",
+    "keep_name": "Hermann Böbel",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "c5b9c076-a283-49a8-9144-f1c4645e4f50",
+        "name": "Hermann Vogel",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "270ecb79-75f2-4600-93d3-a14218c628d4",
+    "keep_name": "Hermann Joseph Neefe",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "b020163f-51a7-4bc3-bcdb-02fc7456343b",
+        "name": "Hermann Josef Neefe",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "d824688d-63af-4cb9-8fdd-a08ce17d4a5c",
+    "keep_name": "Dorothy Norman",
+    "keep_richness": 76,
+    "dupes": [
+      {
+        "id": "d17597a5-25ab-4478-b659-43d2a9ef7012",
+        "name": "Dorothy Bowman",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "381fd4a6-4931-4291-adc6-30602cb2450d",
+    "keep_name": "Dorothy Hood",
+    "keep_richness": 18,
+    "dupes": [
+      {
+        "id": "e144f831-02e2-4018-ba94-1ff9e696ba02",
+        "name": "Dorothy Bond",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "896ed5b7-51e8-4309-90db-3efe40570667",
+    "keep_name": "Nancy Randall",
+    "keep_richness": 62,
+    "dupes": [
+      {
+        "id": "246df328-3523-46a7-8a2c-356dd6280a45",
+        "name": "Nancy Andell",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "a9e3dc5e-6d5f-4f38-8867-64545e919ddb",
+    "keep_name": "Peggy Hay",
+    "keep_richness": 10,
+    "dupes": [
+      {
+        "id": "334b9943-5b97-4cf4-9928-ad39cdf8d368",
+        "name": "Peggy Shaw",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "bce5ddc2-dbcc-45c4-a755-c94ffcc08f6e",
+    "keep_name": "Satō Gyodai",
+    "keep_richness": 39,
+    "dupes": [
+      {
+        "id": "927f78d9-1401-4f25-b6fd-d4f78d34c998",
+        "name": "Satō Hōdai",
+        "richness": 24
+      },
+      {
+        "id": "1bc6ac74-84c2-4947-92bb-0999f5ebd86a",
+        "name": "Sato Hodai",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "5c6525ec-c674-4deb-ad6d-6f61f75d8962",
+    "keep_name": "Félix Cogen",
+    "keep_richness": 46,
+    "dupes": [
+      {
+        "id": "e3bda0b7-a8ff-4096-af45-496b5682e7b1",
+        "name": "Félix Rozen",
+        "richness": 24
+      }
+    ]
+  },
+  {
+    "keep_id": "c6fa2a30-f129-404d-ab5b-dd74d42250a5",
+    "keep_name": "Dirk But",
+    "keep_richness": 10,
+    "dupes": [
+      {
+        "id": "1e978a9d-75f4-4b03-b1c7-b82bcd0b3be7",
+        "name": "Dirk Bouts",
+        "richness": 5
+      }
+    ]
+  },
+  {
+    "keep_id": "689e138d-2f86-4cb4-8381-709b384e8ea8",
+    "keep_name": "Suzanne Bucher",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "2b422737-9774-4c14-9d1a-49f920c4f416",
+        "name": "Suzanne Archer",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "f9b484a2-0255-4584-9bc0-20bb059ff689",
+    "keep_name": "Anna Petrus",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "a456bffc-278c-4d29-b599-d843f7280dd8",
+        "name": "Anna Peters",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "59c1f438-de0b-4029-a467-1c28bcfb6200",
+    "keep_name": "Old Vandevelde",
+    "keep_richness": 7,
+    "dupes": [
+      {
+        "id": "d357bbb1-007d-4d60-82e8-bda2d5c0a92b",
+        "name": "Old Vanderveldt",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "4ca68646-2481-4af3-a59d-da2af3bd4ebc",
+    "keep_name": "Peeter Neeffs",
+    "keep_richness": 14,
+    "dupes": [
+      {
+        "id": "fb351cb8-198a-4bca-a559-a008ae62d8c9",
+        "name": "Peeter Neef",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "1ebc6a69-dce3-4276-8d55-c2dd7829bb30",
+    "keep_name": "André Marty",
+    "keep_richness": 48,
+    "dupes": [
+      {
+        "id": "2c6c346b-4a4b-496d-9aa8-1fe06ec21d42",
+        "name": "André Mare",
+        "richness": 24
+      },
+      {
+        "id": "54a2acb4-e6b5-4129-a640-85133fb0267c",
+        "name": "André Maury",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "4280173a-e98c-4d65-bdab-59b47be33816",
+    "keep_name": "André Delsarte",
+    "keep_richness": 28,
+    "dupes": [
+      {
+        "id": "0a42308e-a687-4fdb-9a14-fc2c9dbe01e1",
+        "name": "André Del-Sarto",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "dedc93a7-8c80-4ee4-aed6-c78ead47a1a3",
+    "keep_name": "André Gill",
+    "keep_richness": 18,
+    "dupes": [
+      {
+        "id": "0213a378-f9bb-4201-a512-c9ae4f32afdc",
+        "name": "André Gide",
+        "richness": 14
+      },
+      {
+        "id": "dfaf6851-9109-4f75-a2af-3a34c13d5ef3",
+        "name": "André Billy",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "b7808781-70a4-498c-b949-dc19cc1e3ca0",
+    "keep_name": "André Favory",
+    "keep_richness": 8,
+    "dupes": [
+      {
+        "id": "2dbd5a08-b853-4e46-9339-2a06affd6742",
+        "name": "Andre Flory",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "9003dc21-e4f2-467b-884f-b025bfe7f912",
+    "keep_name": "Alois Auer",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "4609df99-7e9f-46b9-8b76-3a232d035c78",
+        "name": "Alois Beer",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "c1ae10c4-afa0-42e4-8c60-ebcf3ade0c54",
+    "keep_name": "Willy Boers",
+    "keep_richness": 8,
+    "dupes": [
+      {
+        "id": "83254c3a-db18-4464-bf2e-8aec7664af10",
+        "name": "Willy Blees",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "4f6fbb92-bab5-463b-84b0-b635841d5330",
+    "keep_name": "Lucas Jordane",
+    "keep_richness": 35,
+    "dupes": [
+      {
+        "id": "75516088-e291-4b00-8211-33152fd35c4b",
+        "name": "Lucas Jordaens",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "004fc92d-167c-45b1-9468-db51900ee005",
+    "keep_name": "Lucas Achtschellinck",
+    "keep_richness": 18,
+    "dupes": [
+      {
+        "id": "3d42c967-938f-413f-8614-88f53c73937d",
+        "name": "Lucas Achtschelling",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "19db7715-776d-4def-8fa2-1b72604536dc",
+    "keep_name": "Katsukawa Shunkо̄",
+    "keep_richness": 218,
+    "dupes": [
+      {
+        "id": "f1349852-dc52-426e-923f-57c3dedf4f65",
+        "name": "Katsukawa Shunei",
+        "richness": 28
+      }
+    ]
+  },
+  {
+    "keep_id": "92f5eb90-69d2-445f-8f08-5decc8f8f3a6",
+    "keep_name": "Katsukawa Shunzan",
+    "keep_richness": 45,
+    "dupes": [
+      {
+        "id": "3362b153-d91a-4b47-b7bd-e33fdf11c080",
+        "name": "Katsukawa Shunsen",
+        "richness": 28
+      }
+    ]
+  },
+  {
+    "keep_id": "4eeae435-82df-45cb-8408-95b751d28b55",
+    "keep_name": "Scott Wilson",
+    "keep_richness": 22,
+    "dupes": [
+      {
+        "id": "7383a7ac-90f3-454e-88c4-085956c6c87a",
+        "name": "Scott Olson",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "ca36c034-7b2d-4ae5-827b-4025c4b36473",
+    "keep_name": "Jack Whitten",
+    "keep_richness": 61,
+    "dupes": [
+      {
+        "id": "a47cbd40-349d-46d7-a016-460bef818a0c",
+        "name": "Jack Britten",
+        "richness": 34
+      }
+    ]
+  },
+  {
+    "keep_id": "b10f2516-e61f-426f-82ab-d03562d16bec",
+    "keep_name": "Jack Earl",
+    "keep_richness": 24,
+    "dupes": [
+      {
+        "id": "edc4a38d-d87c-4fea-969d-d9c3afb82024",
+        "name": "Jack Sal",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "535bce55-3d75-45eb-b88a-06e8893e07c6",
+    "keep_name": "Ernest Hébert",
+    "keep_richness": 178,
+    "dupes": [
+      {
+        "id": "82a12098-4bf0-4306-9d72-1e409a6c089b",
+        "name": "Ernest Albert",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "d661b7b4-4570-401f-9590-bff3fd45c3e2",
+    "keep_name": "Ernest Board",
+    "keep_richness": 14,
+    "dupes": [
+      {
+        "id": "64d016d9-ae89-417c-a878-d3b24147fcf5",
+        "name": "Ernest Born",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "806cce9b-6b83-4c7f-ada8-f4e631dd0a5d",
+    "keep_name": "Ernest Kees",
+    "keep_richness": 12,
+    "dupes": [
+      {
+        "id": "122863cc-15ea-4917-988f-96c980e2c376",
+        "name": "Ernest Knee",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "80a91391-7cfa-42cc-bd20-f9e5f9d813aa",
+    "keep_name": "Fred Becker",
+    "keep_richness": 133,
+    "dupes": [
+      {
+        "id": "9d77bbab-6fed-4db6-a8e3-e30482d8c000",
+        "name": "Fred Picker",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "790f5e86-5d67-48f0-98f1-70234b48cc84",
+    "keep_name": "Fred Leist",
+    "keep_richness": 26,
+    "dupes": [
+      {
+        "id": "e5c415b4-f96e-46fc-9685-bf16e06dc4ac",
+        "name": "Fred Lewis",
+        "richness": 16
+      }
+    ]
+  },
+  {
+    "keep_id": "04e2809a-9964-4b01-b231-1101371b459f",
+    "keep_name": "Fred Cress",
+    "keep_richness": 22,
+    "dupes": [
+      {
+        "id": "44f517f0-f790-4e86-a93d-1e4f98c0f198",
+        "name": "Fred Ross",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "11b81ea8-4c51-439a-8534-7289b6317ec8",
+    "keep_name": "Fred Koot",
+    "keep_richness": 16,
+    "dupes": [
+      {
+        "id": "eb779116-833a-4806-bd69-d06dd965be30",
+        "name": "Fred Korth",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "addf585a-6365-42e7-9479-d62dad955cfc",
+    "keep_name": "Susan Derges",
+    "keep_richness": 38,
+    "dupes": [
+      {
+        "id": "3df149e3-b345-499f-be74-2191f7d3e2db",
+        "name": "Susan Berger",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "271cf58b-b483-4d7b-9eb8-7af9ec3893e1",
+    "keep_name": "Susan Schwalb",
+    "keep_richness": 15,
+    "dupes": [
+      {
+        "id": "c35bf18d-7954-4f15-b2ae-b655ae137b81",
+        "name": "Susan Schmall",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "7bd6e07b-4b2c-46ef-b56a-5d6ac706a900",
+    "keep_name": "Paolo Monti",
+    "keep_richness": 802,
+    "dupes": [
+      {
+        "id": "38085c99-8ce4-40f7-96d1-3e7c644a5e2d",
+        "name": "Paolo Boni",
+        "richness": 92
+      }
+    ]
+  },
+  {
+    "keep_id": "ca0f83fa-2441-4bfc-95da-a3b8e88a73bb",
+    "keep_name": "Paolo Caliari, dit Veronese",
+    "keep_richness": 20,
+    "dupes": [
+      {
+        "id": "d7a437c1-7b9b-465d-9273-1be302cfe672",
+        "name": "Paolo Caliari il Veronese",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "96510aef-7f38-4a94-b1a7-615b5bb8c617",
+    "keep_name": "Paolo Pagani",
+    "keep_richness": 15,
+    "dupes": [
+      {
+        "id": "0fe7b57b-7c25-4169-9ad4-8fa5b7c56f6d",
+        "name": "Paolo Panini",
+        "richness": 5
+      }
+    ]
+  },
+  {
+    "keep_id": "607cc6de-6951-4bce-b473-f0bc94722f67",
+    "keep_name": "Morris, Carl",
+    "keep_richness": 56,
+    "dupes": [
+      {
+        "id": "6c4078c9-a251-4d97-b14f-3e5bcb38f69f",
+        "name": "Morris, Mary",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "e2018624-9c3c-4e9e-b27f-82c319dfd196",
+    "keep_name": "Gustave Pellet",
+    "keep_richness": 36,
+    "dupes": [
+      {
+        "id": "5dbe862c-51b4-40c5-af11-b7f3d5404a6c",
+        "name": "Gustave Keller",
+        "richness": 20
+      }
+    ]
+  },
+  {
+    "keep_id": "b2485535-418c-4819-9247-5991f9628123",
+    "keep_name": "Alice Mason",
+    "keep_richness": 16,
+    "dupes": [
+      {
+        "id": "52c5d885-0689-4832-bee1-b2bbe3be4a11",
+        "name": "Alice Rahon",
+        "richness": 14
+      }
+    ]
+  },
+  {
+    "keep_id": "c2589abf-c5c4-46a7-aa8b-e5f2457719e2",
+    "keep_name": "Dennis Rowan",
+    "keep_richness": 11,
+    "dupes": [
+      {
+        "id": "59a22e70-8a19-4e24-be30-013e6e25a52d",
+        "name": "Dennis Nolan",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "8196268f-5eba-4a5b-b72a-3eeba4674d77",
+    "keep_name": "Piet Esser",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "29679201-a070-4021-9261-950116d8bcdb",
+        "name": "Piet Visser",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "b79e7be2-52f9-4c19-8e17-9f5024f5dc58",
+    "keep_name": "Ernst Fuchs",
+    "keep_richness": 32,
+    "dupes": [
+      {
+        "id": "4db7c399-545e-4918-80d1-258e3cddc749",
+        "name": "Ernst Juch",
+        "richness": 12
+      }
+    ]
+  },
+  {
+    "keep_id": "4d1ec43c-dd47-4401-aa04-68058eebd832",
+    "keep_name": "Ernst Graner",
+    "keep_richness": 12,
+    "dupes": [
+      {
+        "id": "bac682ae-7ab0-44c5-8521-0e5d81043798",
+        "name": "Ernst Graef",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "852ed7b6-5dd3-4306-a681-223692745155",
+    "keep_name": "Ernst Kaiser",
+    "keep_richness": 8,
+    "dupes": [
+      {
+        "id": "d1e71831-f9d9-4e42-a25b-b49f45b5372c",
+        "name": "Ernst Haider",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "8bb873e4-5f10-4688-8869-e3f8b7ac546b",
+    "keep_name": "Ernst Adolf Meissner",
+    "keep_richness": 7,
+    "dupes": [
+      {
+        "id": "fbf8275e-fef0-43ec-9c0d-635e09b34d3c",
+        "name": "Ernst Adolph Meissner",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "aa010df8-c0d4-4196-8e00-6a9c5075c0be",
+    "keep_name": "Alan Cohen",
+    "keep_richness": 76,
+    "dupes": [
+      {
+        "id": "206f6e20-a2ad-4880-b07e-70304e46d56c",
+        "name": "Alan Cote",
+        "richness": 18
+      }
+    ]
+  },
+  {
+    "keep_id": "a644f2e9-6a26-4fd4-a76f-1e5b11704965",
+    "keep_name": "Alan Turner",
+    "keep_richness": 25,
+    "dupes": [
+      {
+        "id": "d0e4556d-228d-42ee-a565-422e115c95a2",
+        "name": "Alan Sumner",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "db644099-e427-45f5-858d-a8ed8323be2d",
+    "keep_name": "Camille Bernabé",
+    "keep_richness": 12,
+    "dupes": [
+      {
+        "id": "6ce462d5-ba9d-49ca-b960-73147819f5f2",
+        "name": "CAMILLE BERNARD",
+        "richness": 12
+      }
+    ]
+  },
+  {
+    "keep_id": "f646db26-9fa5-44a7-8d68-20e84d844e31",
+    "keep_name": "Ronald Davis",
+    "keep_richness": 142,
+    "dupes": [
+      {
+        "id": "f2ffd3e0-cd89-4b4b-a1f0-706763218f21",
+        "name": "Ronald Paris",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "ec63a91c-5578-439c-83f5-f5276846b9e8",
+    "keep_name": "Larry Clark",
+    "keep_richness": 238,
+    "dupes": [
+      {
+        "id": "4b69f716-2c17-4cda-8fe7-104632eea5ce",
+        "name": "Larry Stark",
+        "richness": 64
+      }
+    ]
+  },
+  {
+    "keep_id": "c8cd6aa9-7e53-4238-a831-5a48ff9786fc",
+    "keep_name": "Larry Day",
+    "keep_richness": 20,
+    "dupes": [
+      {
+        "id": "bc8f45b8-7626-49bc-9765-867b1f746a05",
+        "name": "Larry Gray",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "fe5513f8-12a9-4053-b0fb-7d3944f6bfce",
+    "keep_name": "Sam Falk",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "75f867f8-91e4-4da3-b664-ff19c2732515",
+        "name": "Sam Falls",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "4da6f752-5a18-479d-8c1c-04a1d7d6fefa",
+    "keep_name": "Sam Kaner",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "7f0fdb48-177b-418a-a25a-194e5a7c0caa",
+        "name": "Sam Kramer",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "b7e83aac-cc35-47ec-94d5-d357f7641a30",
+    "keep_name": "Tom Roberts",
+    "keep_richness": 220,
+    "dupes": [
+      {
+        "id": "023b4c24-23c2-4e57-9443-f001f3b9daf7",
+        "name": "Tom Robertson",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "ffd95d3f-26b4-4ac3-963e-42e6bcada7e5",
+    "keep_name": "Tom Lee",
+    "keep_richness": 43,
+    "dupes": [
+      {
+        "id": "c0c0418c-e26e-454b-a807-91507e2e52e9",
+        "name": "Tom Lid",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "e770f245-bd11-434b-9fd1-0971e71d0c65",
+    "keep_name": "Dan, Lars",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "49733750-de5f-4b15-b39a-06f58ae5f6a7",
+        "name": "Dan Arps",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "1b697fad-5497-4ff6-8cfa-d9e135bbcf8a",
+    "keep_name": "Léon Dolez",
+    "keep_richness": 104,
+    "dupes": [
+      {
+        "id": "fcf302c2-987f-4ae8-8429-a18df71f5770",
+        "name": "Leon Pole",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "c1f3c973-cd82-41f6-8d87-972b814ba686",
+    "keep_name": "Leon Joliot",
+    "keep_richness": 10,
+    "dupes": [
+      {
+        "id": "4c8cb6a5-d19c-4a9f-8b21-0fd4f02043f5",
+        "name": "Léon Jallot",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "d56d3b75-33ee-4f7d-9058-c40b747e444f",
+    "keep_name": "Anthony Caro",
+    "keep_richness": 33,
+    "dupes": [
+      {
+        "id": "27817f78-55aa-42e8-b2b7-9ca728844167",
+        "name": "Anthony Clark",
+        "richness": 12
+      }
+    ]
+  },
+  {
+    "keep_id": "2ff0ca10-ced6-4c0c-b4fd-797aaa9ce3f8",
+    "keep_name": "Herbert Bayer",
+    "keep_richness": 186,
+    "dupes": [
+      {
+        "id": "bb903bc7-7f1c-42f8-99be-73ea80bc935a",
+        "name": "Herbert Meyer",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "bb361621-a8c1-412a-9e4d-722b7e85c2e7",
+    "keep_name": "Herbert Cole",
+    "keep_richness": 8,
+    "dupes": [
+      {
+        "id": "83e4aed9-d510-4300-bc7b-aa54793afb19",
+        "name": "Herbert Rose",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "40d948f1-8645-4ffd-9673-d6ba6f35290e",
+    "keep_name": "Roger Chastel",
+    "keep_richness": 182,
+    "dupes": [
+      {
+        "id": "349d9f46-8a32-49c1-a459-b1d37cc39630",
+        "name": "Roger Chancel",
+        "richness": 32
+      }
+    ]
+  },
+  {
+    "keep_id": "20060baa-b1bb-4781-bcac-0b21c6d1b6b3",
+    "keep_name": "Roger Vieillard",
+    "keep_richness": 170,
+    "dupes": [
+      {
+        "id": "1c38a78d-73a9-426a-8d64-79ee2ef3cccf",
+        "name": "Roger Vuillard",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "75ef929f-7cd4-4649-be90-d8dc90b4ded5",
+    "keep_name": "Roger Vail",
+    "keep_richness": 78,
+    "dupes": [
+      {
+        "id": "a0034102-3b0a-4de8-869d-bcb9c4aea93f",
+        "name": "Roger Weil",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "c60d7636-df14-41e5-a73c-a3c2f8d84bfb",
+    "keep_name": "Hendrik ter Keurs",
+    "keep_richness": 762,
+    "dupes": [
+      {
+        "id": "444bf99d-6af3-4bd3-9366-1c536f722b4b",
+        "name": "Hendrik de Heus",
+        "richness": 30
+      }
+    ]
+  },
+  {
+    "keep_id": "1e206cf8-705e-4622-a030-9781fcd1dce1",
+    "keep_name": "Hendrik Numan",
+    "keep_richness": 174,
+    "dupes": [
+      {
+        "id": "0d7bacaa-33b2-418f-8b3b-362ebe2e7e75",
+        "name": "Hendrik Gutman",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "0b6b8924-28c2-4abd-8a1a-7d58733b8c4f",
+    "keep_name": "Hendrik Meijer",
+    "keep_richness": 80,
+    "dupes": [
+      {
+        "id": "231ad539-5a10-4b52-9a78-2e57f02b9ed1",
+        "name": "Hendrik Doijer",
+        "richness": 10
+      }
+    ]
+  },
+  {
+    "keep_id": "055f6080-162e-45ae-a8fd-bc7f28ffc39b",
+    "keep_name": "Hendrik Nicolaas Werkman",
+    "keep_richness": 72,
+    "dupes": [
+      {
+        "id": "7f369121-d76b-4b99-b6e2-c78f05b2cf57",
+        "name": "Hendrik Nicholas Werkman",
+        "richness": 3
+      }
+    ]
+  },
+  {
+    "keep_id": "6f3d4924-2fe8-4a27-a906-ecfa32c218fe",
+    "keep_name": "Hendrik Chabot",
+    "keep_richness": 68,
+    "dupes": [
+      {
+        "id": "86ef1c6d-0510-4c01-8945-540a9ec49ecb",
+        "name": "Hendrik Chalon",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "659d75bc-6af4-4b1c-8625-52f3bb07510c",
+    "keep_name": "Hendrik Martenszoon Sorgh",
+    "keep_richness": 40,
+    "dupes": [
+      {
+        "id": "66f8563c-a9e5-4384-85c9-54e18d7619b8",
+        "name": "Hendrik Maartenszoon Zorg",
+        "richness": 3
+      }
+    ]
+  },
+  {
+    "keep_id": "72652867-ca99-43e3-8217-18deb9633fbc",
+    "keep_name": "Hendrik van Steenwijk II",
+    "keep_richness": 36,
+    "dupes": [
+      {
+        "id": "40433dc2-eb6c-4757-9280-57a5878073d2",
+        "name": "Hendrik van Steenwyk II",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_id": "f6942be1-c8e6-436f-9685-2b842847b88c",
+    "keep_name": "Hendrik Causé",
+    "keep_richness": 30,
+    "dupes": [
+      {
+        "id": "9ad500d4-caf1-43f6-9745-5927a50f1b43",
+        "name": "Hendrik Carré",
+        "richness": 2
+      },
+      {
+        "id": "4fa0728e-4684-4849-9dbb-e6ad2835de92",
+        "name": "Hendrik Caree",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_id": "d51f08bf-cdfd-44fb-9aaf-24cb60c5e4b8",
+    "keep_name": "Hendrik de Vries",
+    "keep_richness": 30,
+    "dupes": [
+      {
+        "id": "29d086f1-4290-4d4f-b604-8be9d3146d04",
+        "name": "Hendrik de Vliet",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_id": "f2462ca9-6252-474d-a3df-85b56623ac74",
+    "keep_name": "Hendrik Pola",
+    "keep_richness": 20,
+    "dupes": [
+      {
+        "id": "e619eb2c-be6b-4964-8899-1c7b962d6974",
+        "name": "Hendrik Post",
+        "richness": 12
+      }
+    ]
+  },
+  {
+    "keep_id": "fb865657-5ae3-421f-803c-3db4efd62d2e",
+    "keep_name": "Hendrik Winter",
+    "keep_richness": 12,
+    "dupes": [
+      {
+        "id": "7686f2f9-9428-4864-bf46-66a165e372f5",
+        "name": "Hendrik Bitter",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "5e4f7863-8859-47da-96ab-e6931a3de83c",
+    "keep_name": "Hendrik van den Bosch",
+    "keep_richness": 10,
+    "dupes": [
+      {
+        "id": "021c4b38-4985-463e-b803-d931464eb5d5",
+        "name": "Hendrik Van Der Borcht",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "83df6065-b208-4880-93b5-75a31deb7ce9",
+    "keep_name": "Hendrik Martensz Sorgh",
+    "keep_richness": 10,
+    "dupes": [
+      {
+        "id": "ca764630-57fe-4dc2-9c40-89c4ddf4dc00",
+        "name": "Hendrik Maertensz Zorg",
+        "richness": 2
+      },
+      {
+        "id": "7db0356d-be63-463f-8447-e3bfbb92a099",
+        "name": "Hendrik Marten Sorgh",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_id": "5e574674-aedc-41d3-a5c6-3dd7caa11eba",
+    "keep_name": "Hendrik Fortman",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "1a6a75f4-9750-48f2-9153-e4ac5b8177d2",
+        "name": "Hendrik Feltman",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "89454c83-2aff-46df-b0e0-5ee63f84fe9f",
+    "keep_name": "Hendrik Reekers",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "ead5501a-cc40-4b82-a870-4cb55091e3c2",
+        "name": "Hendrik Seegers",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "928a1649-6f32-4e7f-81de-131e172ce723",
+    "keep_name": "Hendrik Scheffer",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "14ac3b6c-2705-42d2-9bfa-dcad41ea6a32",
+        "name": "Hendrik Schepper",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "0b79596f-0552-4408-bfac-95407c417531",
+    "keep_name": "Hendrik Lynslager",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "5d0d3b49-18f9-4932-8203-ce8dda0c9777",
+        "name": "Hendrik Lijnslager",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "deb4e904-089f-476e-a9ff-5598739a711d",
+    "keep_name": "Hendrik de Meijer",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "c95fa4e8-e6e5-4d9f-9bbb-f93a2dd73c8d",
+        "name": "Hendrik de Meyer",
+        "richness": 2
+      }
+    ]
+  },
+  {
+    "keep_id": "dae0e5c5-e113-4424-a3d3-637d00df6c32",
+    "keep_name": "Patrick, James",
+    "keep_richness": 8,
+    "dupes": [
+      {
+        "id": "265ba597-88bf-4e06-ae60-b23c5a9b2945",
+        "name": "Patrick Hayes",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "a9653fdb-bd22-4e84-b34e-580b3bdae91e",
+    "keep_name": "Frederik Willem Zürcher",
+    "keep_richness": 70,
+    "dupes": [
+      {
+        "id": "17bc7b42-e136-49f0-a78d-df7ab85e147f",
+        "name": "Frederik William Zurcher",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "b4e98804-1203-4c9e-a128-22e75a23295c",
+    "keep_name": "Pavel Zamfir Zugrav din Laz",
+    "keep_richness": 20,
+    "dupes": [
+      {
+        "id": "99b62b3a-463b-4c65-bd8b-e61babba264e",
+        "name": "Pavel Zamfir Zugravu de Laz",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "cab94120-1fc4-4d77-ac9b-1c14ab2b9356",
+    "keep_name": "Gustav Sandberg",
+    "keep_richness": 36,
+    "dupes": [
+      {
+        "id": "daffd7e1-5997-4d71-8571-b74097f9165b",
+        "name": "Gustav Lundberg",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "c87f1bfe-c752-41c7-9691-584b81bf9be7",
+    "keep_name": "Chris Mars",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "e5d99489-642f-4cae-895e-5e658d3e5e05",
+        "name": "Chris Ware",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "58ac099d-14c2-47e5-be94-5f96f52fa67d",
+    "keep_name": "Ed Moses",
+    "keep_richness": 180,
+    "dupes": [
+      {
+        "id": "17c1c8b2-9289-45d6-84c0-5e6f811e2595",
+        "name": "Ed Bowes",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "8173a768-ef41-46a4-a0db-55830b9168fc",
+    "keep_name": "Jerzy Fedkowicz",
+    "keep_richness": 32,
+    "dupes": [
+      {
+        "id": "49192982-5c49-4d7e-95ca-39c77c281c46",
+        "name": "Jerzy Fedorowicz",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "ac71510d-0ac1-41d6-a4d1-f72e66620717",
+    "keep_name": "Baron Adolf de Meyer",
+    "keep_richness": 60,
+    "dupes": [
+      {
+        "id": "6e69bdf6-77ec-474a-8b2c-792afb4b2001",
+        "name": "Baron Adolph de Meyer",
+        "richness": 48
+      }
+    ]
+  },
+  {
+    "keep_id": "b94e4dbc-4373-419d-8b43-e7b7048dab1f",
+    "keep_name": "Mabel Juli",
+    "keep_richness": 10,
+    "dupes": [
+      {
+        "id": "c86143d4-57ea-4f57-aaee-0940be142f4a",
+        "name": "Mabel Rubli",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "26b529a6-e9f6-4491-9937-3e40c9d73f94",
+    "keep_name": "Edwin Vazquez",
+    "keep_richness": 18,
+    "dupes": [
+      {
+        "id": "1bf961c9-9d4d-47ac-9a45-548e0bdf8a98",
+        "name": "Edwin Vazkez",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "4860da5b-5881-4a7f-8f27-5d238d4fe16f",
+    "keep_name": "Leo Katz",
+    "keep_richness": 41,
+    "dupes": [
+      {
+        "id": "e591bd01-bb53-4de6-a41a-388fd6149409",
+        "name": "Leo Putz",
+        "richness": 14
+      }
+    ]
+  },
+  {
+    "keep_id": "68a1d22d-2cc5-4be8-9325-d1c0c63cc4af",
+    "keep_name": "Emil Hoppé",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "602114f9-9226-4c7f-abba-5c8461283cf4",
+        "name": "Emil Tappe",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "2b5cb1ab-e185-4614-b99a-a420366105ab",
+    "keep_name": "O JUN",
+    "keep_richness": 135,
+    "dupes": [
+      {
+        "id": "546a288e-c163-4b84-ade8-f5090d6ab929",
+        "name": "O. Luni",
+        "richness": 0
+      }
+    ]
+  },
+  {
+    "keep_id": "aec87b07-2e32-4ef8-90b7-1f33dc20fdcf",
+    "keep_name": "O. Masseus",
+    "keep_richness": 24,
+    "dupes": [
+      {
+        "id": "a3af5aaf-69dd-4ad5-83de-24ac82fb4957",
+        "name": "O. Marceus",
+        "richness": 5
+      }
+    ]
+  },
+  {
+    "keep_id": "d41f1681-647b-4cb2-ae43-885701cc2e28",
+    "keep_name": "Geoffrey James",
+    "keep_richness": 72,
+    "dupes": [
+      {
+        "id": "d5d30682-947e-4986-889b-c88422cecb60",
+        "name": "Geoffrey Jones",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "830b0e10-eada-41fc-897b-1d3204426ecc",
+    "keep_name": "Douglas Gordon",
+    "keep_richness": 56,
+    "dupes": [
+      {
+        "id": "a3648868-00de-4285-9a58-066d79c15a3a",
+        "name": "Douglas Morton",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "ffdcb4af-d342-45f7-9a2d-3495c196d6f1",
+    "keep_name": "Douglas Wilson",
+    "keep_richness": 25,
+    "dupes": [
+      {
+        "id": "ae52c0e4-3dff-4ec3-a99a-c7c5c3d31b65",
+        "name": "Douglas Watson",
+        "richness": 20
+      }
+    ]
+  },
+  {
+    "keep_id": "6ae1763b-a43b-4757-ac62-c05f89255747",
+    "keep_name": "Adrien Brouwer",
+    "keep_richness": 45,
+    "dupes": [
+      {
+        "id": "0c18aaf1-4fc3-49d9-ab11-95e09e47e050",
+        "name": "Adrien Brauver",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "e1125c1f-5467-4e1b-986a-9ded9f689d8f",
+    "keep_name": "Suzuki Nanrei",
+    "keep_richness": 13,
+    "dupes": [
+      {
+        "id": "4ed36e4a-fea4-4ce5-a5ae-c3ace2f589c0",
+        "name": "Suzuki Sansei",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "7f3b9f4f-b885-4d1b-be06-f04aa851af80",
+    "keep_name": "Wilson, Eva",
+    "keep_richness": 100,
+    "dupes": [
+      {
+        "id": "318df196-70e9-450f-b2de-943b139d9f0d",
+        "name": "Wilson, Emma",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "d5e2b96f-3927-4fbc-96ac-293db898aa01",
+    "keep_name": "Liu Du",
+    "keep_richness": 18,
+    "dupes": [
+      {
+        "id": "bcdcd4ab-3dd4-48c4-b8a4-41f524b7986e",
+        "name": "Liu Dan",
+        "richness": 5
+      }
+    ]
+  },
+  {
+    "keep_id": "4b0ac1fc-c701-449f-aacd-d5a37d43450b",
+    "keep_name": "Julius Hahn",
+    "keep_richness": 48,
+    "dupes": [
+      {
+        "id": "b9437299-847e-4edc-bbd4-c99b2eb01132",
+        "name": "Julius Hall",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "7672d007-bd9a-4251-b552-5bf3a978d66a",
+    "keep_name": "Julius Hübner",
+    "keep_richness": 16,
+    "dupes": [
+      {
+        "id": "88c47eb2-e1a3-44f5-890e-a92b118a0eff",
+        "name": "Julius Hüther",
+        "richness": 13
+      }
+    ]
+  },
+  {
+    "keep_id": "5c5458b2-4388-4db8-969f-ff56c9713154",
+    "keep_name": "Ikeda, Masuo",
+    "keep_richness": 114,
+    "dupes": [
+      {
+        "id": "06a670d1-058b-474a-b7ff-2862ac9b42e5",
+        "name": "Ikeda, Tatsuo",
+        "richness": 16
+      }
+    ]
+  },
+  {
+    "keep_id": "02c536fd-4623-43b3-9c74-03b04ddc2dc4",
+    "keep_name": "Nikolai Kul'bin",
+    "keep_richness": 46,
+    "dupes": [
+      {
+        "id": "f0721bcd-7ce3-455a-bef5-c11935690865",
+        "name": "Nikolai Il'in",
+        "richness": 16
+      }
+    ]
+  },
+  {
+    "keep_id": "14da16c3-488d-4dd4-aaf0-5e972e1f9564",
+    "keep_name": "Wu Wei",
+    "keep_richness": 16,
+    "dupes": [
+      {
+        "id": "301ad8b3-09f2-4018-8394-079e3f97cfb6",
+        "name": "Wu Deyi",
+        "richness": 4
+      },
+      {
+        "id": "ddb3191d-3e84-4b7d-9591-3259c085b7ec",
+        "name": "Wu Weiye",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "9ad0569e-e4ac-42c8-97e5-696ce6eaf325",
+    "keep_name": "Wu Bing",
+    "keep_richness": 12,
+    "dupes": [
+      {
+        "id": "02899b10-a865-451e-bfbd-8243f62be0d3",
+        "name": "Wu Bin",
+        "richness": 12
+      },
+      {
+        "id": "86387185-68da-4629-91b0-e44ff3d02952",
+        "name": "Wu Hong",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "0aad372f-2a37-4abf-8f1a-9c37b414dc83",
+    "keep_name": "Vladimir Makovsky",
+    "keep_richness": 18,
+    "dupes": [
+      {
+        "id": "fe152145-a456-4663-8ef5-5f0169e8be29",
+        "name": "Vladimir Mayakovsky",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "84a91041-61f9-4b4e-b898-86b64bec2390",
+    "keep_name": "Rudolf Koller",
+    "keep_richness": 87,
+    "dupes": [
+      {
+        "id": "7a80e40e-e7f4-4f17-80c6-8d2f97393f0d",
+        "name": "Rudolf Kügler",
+        "richness": 20
+      }
+    ]
+  },
+  {
+    "keep_id": "efb8d8ee-a0a5-4327-879a-652e3f936aa6",
+    "keep_name": "Rudolf Denk",
+    "keep_richness": 14,
+    "dupes": [
+      {
+        "id": "d3cc55c9-7c7d-4e9a-90c2-45a7a29d2783",
+        "name": "Rudolf Junk",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "b914bdc7-91df-401d-9c1a-109f1e5a4842",
+    "keep_name": "Rudolf Bacher",
+    "keep_richness": 12,
+    "dupes": [
+      {
+        "id": "47237ef3-9b48-4515-8c62-ae9aaeaf0024",
+        "name": "Rudolf Bauer",
+        "richness": 10
+      },
+      {
+        "id": "b153c364-dde6-418d-90f3-a57ac90fcdec",
+        "name": "Rudolf Wacker",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "6867ec45-3710-4dc6-8867-f90e6ba8d86d",
+    "keep_name": "Rudolf Sieck",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "b7447af6-8117-4ac3-b7c4-1bb13296f338",
+        "name": "Rudolf Fleck",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "b25c9a4d-a5c5-4b89-a655-95304f3c508d",
+    "keep_name": "Marcus Behmer",
+    "keep_richness": 104,
+    "dupes": [
+      {
+        "id": "02031c48-dc5f-4c3f-a440-2869e9f35d1f",
+        "name": "Marcus Selmer",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "22cf5aec-a0d3-4244-9774-83b1a57204be",
+    "keep_name": "Marcus Amerman",
+    "keep_richness": 7,
+    "dupes": [
+      {
+        "id": "1b9d9918-3112-4d88-b18d-afa748356cfa",
+        "name": "Marcus Waterman",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "0a1f1440-53d4-42db-9cf4-9162e6759bfb",
+    "keep_name": "Manfred Willmann",
+    "keep_richness": 10,
+    "dupes": [
+      {
+        "id": "672d07d4-b554-41c6-80d0-216cea42f6c2",
+        "name": "Manfred Hollmann",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "397ea44f-d862-4267-b239-9bf520522636",
+    "keep_name": "Lars Tiller",
+    "keep_richness": 14,
+    "dupes": [
+      {
+        "id": "6edbc05f-a347-4fc7-ad97-079f3e61f383",
+        "name": "Lars Müller",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "b5658931-5b4a-4eea-b670-5c7b4e2e9a23",
+    "keep_name": "Theodor Werner",
+    "keep_richness": 662,
+    "dupes": [
+      {
+        "id": "7d811835-1dab-4bec-8464-15582d170384",
+        "name": "Theodor Weber",
+        "richness": 5
+      }
+    ]
+  },
+  {
+    "keep_id": "bf8eafe8-a232-4ab4-a480-d3f62362fbd8",
+    "keep_name": "Theodor Glatz",
+    "keep_richness": 16,
+    "dupes": [
+      {
+        "id": "0c6b6075-b613-4bc8-a02e-45c89a8b050d",
+        "name": "Theodor Götz",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "8a8d1d69-2ff6-4f30-a568-787c478463c4",
+    "keep_name": "K. Molenaar",
+    "keep_richness": 128,
+    "dupes": [
+      {
+        "id": "496b28cd-21c1-4f36-baa9-fe93ce2cad44",
+        "name": "K. Molinaer",
+        "richness": 9
+      }
+    ]
+  },
+  {
+    "keep_id": "97923fce-40aa-48db-8370-00ad54f2ae05",
+    "keep_name": "Gotô Kenjô",
+    "keep_richness": 16,
+    "dupes": [
+      {
+        "id": "0a33e637-b70f-41e5-9993-24fb62c3cf62",
+        "name": "Gotô Enjô",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "0f91c18c-d940-4348-9728-9f149fa4d815",
+    "keep_name": "Roelof Loots",
+    "keep_richness": 32,
+    "dupes": [
+      {
+        "id": "977da457-742d-4f80-a4a0-19c4b202a11b",
+        "name": "Roelof Koets",
+        "richness": 17
+      }
+    ]
+  },
+  {
+    "keep_id": "9b63ec7d-526d-4e83-b882-e2f5ea353090",
+    "keep_name": "Joe Zucker",
+    "keep_richness": 86,
+    "dupes": [
+      {
+        "id": "abee3784-4d19-4c86-a661-e70b00577c31",
+        "name": "Joe Zirker",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "2ce22ef8-8c21-4267-9792-9008c5ea2a45",
+    "keep_name": "Nicolaes Maes",
+    "keep_richness": 335,
+    "dupes": [
+      {
+        "id": "b9aeaecf-80a5-498f-addd-a19b70737147",
+        "name": "Nicolaes Muys",
+        "richness": 28
+      },
+      {
+        "id": "a448c586-cc75-4508-8205-86245ccf51b9",
+        "name": "Nicolaes Hals",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "bea348ae-2c5b-441a-b3d9-737f35354369",
+    "keep_name": "Nicolaes Ryckmans",
+    "keep_richness": 94,
+    "dupes": [
+      {
+        "id": "b33a09b3-9ba8-4393-92f4-a324788d21e1",
+        "name": "Nicolaes Rijckmans",
+        "richness": 16
+      }
+    ]
+  },
+  {
+    "keep_id": "bfb04003-d71f-4f9e-b0e6-5d3e520b0660",
+    "keep_name": "Nicolaes Lastman",
+    "keep_richness": 20,
+    "dupes": [
+      {
+        "id": "73a77198-0499-433a-a85a-9041cf216f76",
+        "name": "Nicolaes Aartman",
+        "richness": 18
+      }
+    ]
+  },
+  {
+    "keep_id": "fb7ee769-1308-410a-bb04-04d055d99a8c",
+    "keep_name": "Raffaello Vanni",
+    "keep_richness": 9,
+    "dupes": [
+      {
+        "id": "c2fff107-7bd2-47a5-a294-f97ac2a38ec2",
+        "name": "Raffaello Santi",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "2c4383d0-770d-4419-8259-d536784869c3",
+    "keep_name": "Stefan Popowski",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "3b1cff1c-1dc7-401d-b8a2-ab236927259d",
+        "name": "Stefan Poplawski",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "09c1dbde-ece6-4dcd-818f-7ebca742c3de",
+    "keep_name": "Kano Toshun",
+    "keep_richness": 35,
+    "dupes": [
+      {
+        "id": "de9f411f-bf3e-4f0d-91fc-8c90eb51c324",
+        "name": "Kanô Eishun",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "b5183102-6ca7-4754-8407-b75b372c95b0",
+    "keep_name": "Kano Naonobu",
+    "keep_richness": 29,
+    "dupes": [
+      {
+        "id": "2f40a3d0-9362-4d4e-ba30-42bd658322d6",
+        "name": "Kanō Naganobu",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "03d7a80d-9c0c-4efe-b803-99254dc66f7d",
+    "keep_name": "Kano Kazunobu",
+    "keep_richness": 15,
+    "dupes": [
+      {
+        "id": "2cda9cae-80bc-4fa2-ba9c-94b4c87945f7",
+        "name": "Kano Yasunobu",
+        "richness": 13
+      },
+      {
+        "id": "a145c21f-fd49-4b44-97c2-aaebdf7403f8",
+        "name": "Kanō Yasunobu",
+        "richness": 10
+      }
+    ]
+  },
+  {
+    "keep_id": "745d4ba5-b29a-4100-b97e-17ad59d213eb",
+    "keep_name": "Kanō Norinobu",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "b3c0d1e0-ab68-4ca8-9eba-49834646207a",
+        "name": "Kanō Korenobu",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "69e54624-691f-42b4-9223-b2c34bca0d99",
+    "keep_name": "Julian Hooper",
+    "keep_richness": 20,
+    "dupes": [
+      {
+        "id": "1a1e3f20-0bd8-433a-882a-1ca7b13aad07",
+        "name": "Julian Hoeber",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "286ae3a2-d72a-4ed1-b06b-7672fdfe9afa",
+    "keep_name": "Dick Beer",
+    "keep_richness": 8,
+    "dupes": [
+      {
+        "id": "34a45dec-734c-49a5-a4cb-a11ddbe6cc5e",
+        "name": "Dick, Beau",
+        "richness": 5
+      }
+    ]
+  },
+  {
+    "keep_id": "7e857b74-c7f1-497a-8eaa-4d585794148b",
+    "keep_name": "Gaston La Touche",
+    "keep_richness": 70,
+    "dupes": [
+      {
+        "id": "6112ee5a-2fd1-4526-9235-ce67176c0a1f",
+        "name": "Gaston de Latouche",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "fc2e65a6-af0f-4346-ab51-60285d0959d4",
+    "keep_name": "Lu Zhi",
+    "keep_richness": 24,
+    "dupes": [
+      {
+        "id": "86e16a27-a9e1-4c71-85f2-4d59ad277785",
+        "name": "Lu Wei",
+        "richness": 7
+      }
+    ]
+  },
+  {
+    "keep_id": "f942749f-c535-4654-a84e-d0c72b1840f6",
+    "keep_name": "White, Wayne",
+    "keep_richness": 26,
+    "dupes": [
+      {
+        "id": "0f243d3d-d4d9-4de2-8e35-088d1b09403c",
+        "name": "White, Wade",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "69244749-a18e-426f-8281-dcdc532446d8",
+    "keep_name": "Harper, Johann",
+    "keep_richness": 8,
+    "dupes": [
+      {
+        "id": "87ff5c1d-d87b-4105-bec4-81e3dd38bc63",
+        "name": "Harper, John",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "0c140900-21e4-4c22-a046-946aab56122e",
+    "keep_name": "Cor. Jansen",
+    "keep_richness": 16,
+    "dupes": [
+      {
+        "id": "506164e7-95aa-4185-9480-025f4e9f5375",
+        "name": "Cor. Janssens",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "303ef5bf-9e32-4cca-ad9a-e8255d75c411",
+    "keep_name": "Vanden Bosch",
+    "keep_richness": 13,
+    "dupes": [
+      {
+        "id": "94fd577b-baf0-4bcc-bedb-4891b59b85d5",
+        "name": "Vanden Bossche",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "920f8db8-b16b-460c-b897-5e78712c5e18",
+    "keep_name": "Tadeusz Brzozowski",
+    "keep_richness": 24,
+    "dupes": [
+      {
+        "id": "7021faf8-5fa1-4953-ab06-e7d6b0d8c53b",
+        "name": "Tadeusz Brodowski",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "284d04e3-4761-4a8b-ad70-86fc7555875b",
+    "keep_name": "Adolph Menzel",
+    "keep_richness": 262,
+    "dupes": [
+      {
+        "id": "b7092de9-80ed-456d-a996-9e6af6d9f5ac",
+        "name": "Adolph Münzer",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "c0f98afa-cdf1-4336-b335-e90ea4273812",
+    "keep_name": "Yan Hui",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "f66330be-43ad-4e33-88bf-2240d626207f",
+        "name": "YAN LEI",
+        "richness": 0
+      }
+    ]
+  },
+  {
+    "keep_id": "4a80df1c-81cf-4313-a004-dd65cfd1a310",
+    "keep_name": "Ludolf Bakhuysen",
+    "keep_richness": 209,
+    "dupes": [
+      {
+        "id": "4ac0cd74-fbc6-45f8-8243-96ceb9b9c3d1",
+        "name": "Ludolf Backhuyzen",
+        "richness": 7
+      },
+      {
+        "id": "b137c5af-00d7-464c-9619-19e42af78e4e",
+        "name": "Ludolf Backuysen",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "3148541e-349b-456d-a240-18a1b42e3f5e",
+    "keep_name": "Eduard Lange",
+    "keep_richness": 8,
+    "dupes": [
+      {
+        "id": "cc9efecf-a2a9-4843-b5c8-2039b4266267",
+        "name": "Eduard Daege",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "910f0e96-9d23-4320-95b2-ee027b91866e",
+    "keep_name": "Adrianus Kok",
+    "keep_richness": 18,
+    "dupes": [
+      {
+        "id": "dd461701-db21-4135-84e2-963ea7802ae2",
+        "name": "Adrianus Kocx",
+        "richness": 16
+      }
+    ]
+  },
+  {
+    "keep_id": "64407eef-8437-45d8-b481-d9f4fd7b624a",
+    "keep_name": "Francisque Millet",
+    "keep_richness": 115,
+    "dupes": [
+      {
+        "id": "a871f9d2-cfde-4b81-b58d-470adfc217be",
+        "name": "Francisque Milé",
+        "richness": 17
+      }
+    ]
+  },
+  {
+    "keep_id": "be46cbea-0199-4c8a-b63a-f3b85783c6a5",
+    "keep_name": "Ian Berry",
+    "keep_richness": 10,
+    "dupes": [
+      {
+        "id": "226d386b-bad4-46a8-8432-adb6f6d34529",
+        "name": "Ian Parry",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "a6077d73-50b6-4fa7-9f6d-a92ae1f46640",
+    "keep_name": "Barent Gaal",
+    "keep_richness": 30,
+    "dupes": [
+      {
+        "id": "4cb9c81b-c31f-4a14-b9e0-e5a1773528e3",
+        "name": "Barent Graat",
+        "richness": 15
+      }
+    ]
+  },
+  {
+    "keep_id": "2b184038-0e23-42ed-a3e8-e620d2e07975",
+    "keep_name": "Lois Lane",
+    "keep_richness": 67,
+    "dupes": [
+      {
+        "id": "4c6ba7c9-e602-43bd-9908-d406bbf858b3",
+        "name": "Lois Long",
+        "richness": 40
+      }
+    ]
+  },
+  {
+    "keep_id": "21219147-d3ca-43cc-a470-db3bf49f51a0",
+    "keep_name": "Saul, Peter",
+    "keep_richness": 77,
+    "dupes": [
+      {
+        "id": "a1aec481-3032-4408-adf3-76600408a2ea",
+        "name": "Saul Leiter",
+        "richness": 34
+      }
+    ]
+  },
+  {
+    "keep_id": "32af06f8-4d6d-4934-b7ce-1fa32f354508",
+    "keep_name": "Marvin Koner",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "0fc22257-13ca-49ed-87d4-fcba25568454",
+        "name": "Marvin Cone",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "edcac9c4-ea52-4a1c-a9e8-a634258b0f7e",
+    "keep_name": "Vera Molnar",
+    "keep_richness": 14,
+    "dupes": [
+      {
+        "id": "34144f2c-c437-4975-93dd-82e0b17ac1c5",
+        "name": "Vera Möller",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "535722cc-24bc-4fdf-98ad-901571a70656",
+    "keep_name": "Guo Xi",
+    "keep_richness": 24,
+    "dupes": [
+      {
+        "id": "079f34a7-1c8e-481e-beac-e7cbe051f67f",
+        "name": "Guo Min",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "3c6be5af-334d-47b5-93a7-0e10466043b7",
+    "keep_name": "Chevalier Breydel",
+    "keep_richness": 17,
+    "dupes": [
+      {
+        "id": "eee22cb4-2d10-4b5d-89b9-f4b8be3881b2",
+        "name": "Chevalier Bredael",
+        "richness": 13
+      }
+    ]
+  },
+  {
+    "keep_id": "76e3f838-5be1-4989-bc44-e45c8ac03cbf",
+    "keep_name": "Marcelle Wahl",
+    "keep_richness": 18,
+    "dupes": [
+      {
+        "id": "387170ba-cb0d-4ee6-ac49-0250752e107f",
+        "name": "Marcelle Cahn",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "fb702d5b-d4c5-46b1-af18-d3b674e2b462",
+    "keep_name": "Ethel Myers",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "4810aa6d-0bfd-4fc4-831d-9b764b4e812c",
+        "name": "Ethel Mars",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "be9c923f-8219-4fb4-940f-ea46b4a82425",
+    "keep_name": "Diana Hobson",
+    "keep_richness": 7,
+    "dupes": [
+      {
+        "id": "3314464d-d53b-4e38-bf5c-cf8c3546be6c",
+        "name": "Diana Olson",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "b1d7eb25-09db-4017-992a-156561b65105",
+    "keep_name": "Vander Poel",
+    "keep_richness": 118,
+    "dupes": [
+      {
+        "id": "77e9c083-5c1b-4ee2-bb6e-844b942123e5",
+        "name": "vander Does",
+        "richness": 68
+      },
+      {
+        "id": "9def1c5e-2236-4d13-8c8a-d8b8d66747af",
+        "name": "Vander Doës",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "a3ff824e-1fad-4368-92d1-020ee8aaae16",
+    "keep_name": "Vander Heyden",
+    "keep_richness": 75,
+    "dupes": [
+      {
+        "id": "aae227b7-a909-4809-9723-92bee83c2d69",
+        "name": "Vander Hyde",
+        "richness": 9
+      }
+    ]
+  },
+  {
+    "keep_id": "14831d37-9b18-46ef-81db-e3d3ca3b8d09",
+    "keep_name": "Vander Velde",
+    "keep_richness": 48,
+    "dupes": [
+      {
+        "id": "7b199895-352b-4d28-991e-a77b16f41e9a",
+        "name": "Vander Venne",
+        "richness": 6
+      },
+      {
+        "id": "846d6411-a65c-4f8f-97bc-98d3d111495e",
+        "name": "Vander Velt",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_id": "1ef17c14-90ce-4d5b-8925-35ba24ead592",
+    "keep_name": "vander Hagen",
+    "keep_richness": 17,
+    "dupes": [
+      {
+        "id": "7a81b94b-6826-4f52-9bc8-c9aad2998829",
+        "name": "Vander Lanen",
+        "richness": 4
+      },
+      {
+        "id": "9f8f7583-5d00-498f-9cbb-d46612e5642f",
+        "name": "Vander Laen",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_id": "081e4396-7ce6-4e66-8f42-743567413ad2",
+    "keep_name": "Vander Laenen",
+    "keep_richness": 16,
+    "dupes": [
+      {
+        "id": "03bfc2ed-0df5-46db-92a2-70d5b5d7d749",
+        "name": "Vander Lane",
+        "richness": 1
+      },
+      {
+        "id": "a69d3a3f-8d7c-43a9-bb87-1728e05bf5ea",
+        "name": "vander Lammen",
+        "richness": 1
+      },
+      {
+        "id": "6bca0a77-c1d2-43e5-984d-eeeea1c05010",
+        "name": "Vander Laane",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_id": "bb21bf31-ce26-41a7-9017-5c7dff9ba2a5",
+    "keep_name": "Rembrandt van Rijn",
+    "keep_richness": 5983,
+    "dupes": [
+      {
+        "id": "d9b64f54-7640-4a7d-b310-d33ef3895e5b",
+        "name": "Rembrandt van Rhin",
+        "richness": 9
+      },
+      {
+        "id": "d58a10ab-ecd3-4672-9ce7-80d9b594c562",
+        "name": "Rembrandt (Van Rhin)",
+        "richness": 5
+      }
+    ]
+  },
+  {
+    "keep_id": "2a5eaf5d-c313-4803-82a8-f86979dc6050",
+    "keep_name": "Rembrandt Van-Ryn",
+    "keep_richness": 23,
+    "dupes": [
+      {
+        "id": "01c75ae8-6f94-443d-8b92-e3fab115e9df",
+        "name": "Rembrandt Van-Rhin",
+        "richness": 11
+      }
+    ]
+  },
+  {
+    "keep_id": "9dcb0d7e-73b9-46f5-a771-c46ea5780d9e",
+    "keep_name": "Neefs. (Pieter)",
+    "keep_richness": 13,
+    "dupes": [
+      {
+        "id": "439e6efa-8722-46ff-8a8e-5764d50a42c9",
+        "name": "Neefs (Peters)",
+        "richness": 10
+      }
+    ]
+  },
+  {
+    "keep_id": "88ab7304-8a77-4541-814b-f33335e62e59",
+    "keep_name": "Gasparo Van-Vitelle",
+    "keep_richness": 14,
+    "dupes": [
+      {
+        "id": "912f45b1-cbdb-4f7a-92e8-573f7c4d4fe0",
+        "name": "Gasparo Vanvitelli",
+        "richness": 5
+      },
+      {
+        "id": "b86fd6bb-5e6b-4c22-82c9-c4d0433e2ae4",
+        "name": "Gasparo Vanvitelly",
+        "richness": 5
+      }
+    ]
+  },
+  {
+    "keep_id": "6a57caf4-5e93-493e-8105-cffea1726ac1",
+    "keep_name": "Kazimir Malevich",
+    "keep_richness": 281,
+    "dupes": [
+      {
+        "id": "7b1d17ce-4077-4c5d-b906-586c7cabc60f",
+        "name": "Kazimir Yasevich",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "c7af2013-45d8-4ee1-8541-cd239534101e",
+    "keep_name": "Marko ml., Karol",
+    "keep_richness": 12,
+    "dupes": [
+      {
+        "id": "390a7c02-f9e8-4ed5-b37c-b4d708bb33ab",
+        "name": "Marko st., Karol",
+        "richness": 10
+      }
+    ]
+  },
+  {
+    "keep_id": "23ad2be1-de92-4a39-8b45-6f4867bf8024",
+    "keep_name": "Yuki Kimura",
+    "keep_richness": 20,
+    "dupes": [
+      {
+        "id": "43dd0932-33c9-4990-a380-f29a68d953f9",
+        "name": "Yuki Kihara",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "565bd26d-6761-4877-83a8-ddcf4d5b8cb3",
+    "keep_name": "Liang Yuwei",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "54d1c40e-5257-4f86-8f33-5049a2443b6d",
+        "name": "Liang Yue",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "8097ac1e-2356-488f-9f4c-eafacf795e58",
+    "keep_name": "Mieczyslaw Berman",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "e26aafea-d8a9-4efd-a879-8af4296610b6",
+        "name": "Mieczyslaw Wejman",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "8bbd1745-b807-4c4e-aa9e-867c2d652893",
+    "keep_name": "Rembrant van Rhyn",
+    "keep_richness": 44,
+    "dupes": [
+      {
+        "id": "5e949b49-6841-4674-87df-a435e6d8b6e3",
+        "name": "Rembrant Van Rin",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "714d38b9-5638-47b1-aa40-9eb78b8e90bb",
+    "keep_name": "Stanisław Kamocki",
+    "keep_richness": 14,
+    "dupes": [
+      {
+        "id": "c5023eeb-f6b6-4953-9165-a63cd5815e35",
+        "name": "Stanisław Jarocki",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "3d683588-b426-465f-89bf-cfe59128598d",
+    "keep_name": "Day & Co.",
+    "keep_richness": 8,
+    "dupes": [
+      {
+        "id": "9c59bb4e-bf30-45c3-ad49-9d3ce1f92d20",
+        "name": "Day & Son",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "51c77c02-6c45-42dd-8ad3-a5229c4b78c8",
+    "keep_name": "Barthelemi Schiedon",
+    "keep_richness": 17,
+    "dupes": [
+      {
+        "id": "fedd198d-1484-4afb-b3df-3688ef24aa3f",
+        "name": "Barthélemi Schidone",
+        "richness": 7
+      },
+      {
+        "id": "e3a07d65-43c5-4487-bae0-32ec0c6d3076",
+        "name": "Barthelemi Schidone",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "880e1681-8435-4f8c-b2dc-a8ad12127d4f",
+    "keep_name": "Jardin (Carle du)",
+    "keep_richness": 10,
+    "dupes": [
+      {
+        "id": "967d9b8c-8567-4102-a805-ca182313beca",
+        "name": "Jardin (Charles Du)",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "76086679-eb86-49e6-a31c-5b0561113d7d",
+    "keep_name": "Seb. Franks",
+    "keep_richness": 22,
+    "dupes": [
+      {
+        "id": "1dcc06ed-dd7f-4441-b088-79fe199adf0e",
+        "name": "Seb. Franck",
+        "richness": 5
+      }
+    ]
+  },
+  {
+    "keep_id": "571765f1-ecc0-4f4b-ac71-3e8c12127660",
+    "keep_name": "Lin Liang",
+    "keep_richness": 20,
+    "dupes": [
+      {
+        "id": "4d8e40c7-d538-41c9-80d0-c27f46b1a659",
+        "name": "Lin Gang",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "aa45df84-9efe-4871-b449-19606aa1fad7",
+    "keep_name": "Józef Polkowski",
+    "keep_richness": 8,
+    "dupes": [
+      {
+        "id": "67564e11-2113-4898-9e1a-84ea3894be10",
+        "name": "Józef Doskowski",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "d8c744d4-534d-4c0e-b62b-f124a439a66b",
+    "keep_name": "Tosa Mitsunari",
+    "keep_richness": 17,
+    "dupes": [
+      {
+        "id": "c84276db-fb4d-45b8-abf2-e2c889aff282",
+        "name": "Tosa Mitsunori",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "d2cb2d46-bc9f-404b-9cd4-a0066c992ab4",
+    "keep_name": "Veronese, Paolo",
+    "keep_richness": 385,
+    "dupes": [
+      {
+        "id": "ece5f59a-1818-4aa9-abc8-8b84d018d8b3",
+        "name": "Veronese (Paul)",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "4ab1208f-d9cf-40e0-bb28-6b0ee7edb6be",
+    "keep_name": "Cheng Men",
+    "keep_richness": 24,
+    "dupes": [
+      {
+        "id": "a4874be0-a55c-4f0d-a8e7-70e6a98af024",
+        "name": "Cheng Ming",
+        "richness": 5
+      }
+    ]
+  },
+  {
+    "keep_id": "871b0a15-f00b-4b95-a7e9-a94b48af5ba6",
+    "keep_name": "Nielsen, Kai",
+    "keep_richness": 150,
+    "dupes": [
+      {
+        "id": "dc3515c9-d378-44b1-af7e-faeab40b95a2",
+        "name": "Nielsen, Jais",
+        "richness": 44
+      }
+    ]
+  },
+  {
+    "keep_id": "6560b063-a10c-401b-a900-2e4351ced265",
+    "keep_name": "Tawaraya Sōtatsu",
+    "keep_richness": 18,
+    "dupes": [
+      {
+        "id": "31692fc7-6aae-4bc6-9cf9-179cd358754c",
+        "name": "Tawaraya Sōsetsu",
+        "richness": 9
+      }
+    ]
+  },
+  {
+    "keep_id": "e92c9962-076a-4c28-a75c-9df01453b7ca",
+    "keep_name": "Preisler, Johann Daniel",
+    "keep_richness": 10,
+    "dupes": [
+      {
+        "id": "c3e8bb0b-4d0e-4406-b90b-8563805a3fee",
+        "name": "Preisler, Johannes Daniel",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "f3f69a62-e027-4405-910d-5d005f502136",
+    "keep_name": "Fischer, Carl",
+    "keep_richness": 16,
+    "dupes": [
+      {
+        "id": "08b51112-a0ce-4be9-84e8-9ff519f00781",
+        "name": "Fischer, Paul",
+        "richness": 9
+      }
+    ]
+  },
+  {
+    "keep_id": "1d420141-6903-4b8a-969e-14bf7be3730a",
+    "keep_name": "Rombouts, Theodoor",
+    "keep_richness": 39,
+    "dupes": [
+      {
+        "id": "d731ca47-2ff2-443b-aa59-7222574fdeaa",
+        "name": "Rombouts (Théodore)",
+        "richness": 12
+      }
+    ]
+  },
+  {
+    "keep_id": "4eb617f0-396b-4e22-9042-ca65c0634b44",
+    "keep_name": "Zhao Yong",
+    "keep_richness": 25,
+    "dupes": [
+      {
+        "id": "6e45d9bf-12fb-46af-96c6-6e1c0f97774c",
+        "name": "Zhao Yan",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "1db28898-b532-4c7c-ae74-0cc0edbe8f6d",
+    "keep_name": "Zhao Qi",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "bf185f52-1367-4283-80bf-82224dcdaaeb",
+        "name": "Zhao Lin",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "7139145d-03ab-4fe7-860c-6f8803a2ce24",
+    "keep_name": "Christiaan Josi",
+    "keep_richness": 36,
+    "dupes": [
+      {
+        "id": "49377f3b-a9f1-46df-a2b9-0d385ce4a621",
+        "name": "Christiaan Bos",
+        "richness": 24
+      }
+    ]
+  },
+  {
+    "keep_id": "bb254078-a1de-42fe-982e-8b1ff8db0989",
+    "keep_name": "Hendrikus IJkelenstam",
+    "keep_richness": 90,
+    "dupes": [
+      {
+        "id": "4c3ae907-f884-4982-bb35-9307a9e596d2",
+        "name": "Hendrikus Ykelenstam",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "36ade7f2-820d-41a7-8c1e-71e227dbac5c",
+    "keep_name": "Hasegawa Settei",
+    "keep_richness": 20,
+    "dupes": [
+      {
+        "id": "64a55b80-5776-4061-870c-ffb47a6bd4f9",
+        "name": "Hasegawa Settan",
+        "richness": 7
+      }
+    ]
+  },
+  {
+    "keep_id": "8eaa3097-9cab-4880-a4e2-1b004b3e2fb3",
+    "keep_name": "Cole, Robert",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "7980acf7-e2a5-4f8d-87bb-3d1c1e0e07ca",
+        "name": "Cole Rogers",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "47034e86-7a4a-41ae-9b16-c3526d86ede1",
+    "keep_name": "Petersen, Arne",
+    "keep_richness": 4,
+    "dupes": [
+      {
+        "id": "daa50a6f-1c53-4070-bd13-d0d12530c158",
+        "name": "Petersen, Aage",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "f39bcba5-e8ad-41e3-a2c7-c4c807f85c72",
+    "keep_name": "Luini, Bernardino",
+    "keep_richness": 154,
+    "dupes": [
+      {
+        "id": "d2216002-0849-4bb7-9ddd-0cf4c381ce03",
+        "name": "Luini (Bernardo)",
+        "richness": 5
+      }
+    ]
+  },
+  {
+    "keep_id": "eb96437f-1ad1-46ee-af0d-a1b63711809f",
+    "keep_name": "Katsushika Hokusai",
+    "keep_richness": 2165,
+    "dupes": [
+      {
+        "id": "295dcae1-58d5-4c3c-b460-5d69414cd773",
+        "name": "Katsushika Hokuga",
+        "richness": 5
+      },
+      {
+        "id": "a3c6236f-3736-49eb-85ad-fee18ee8acd1",
+        "name": "Katsushika Hokumei",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "32b0de89-bbd7-4968-85c2-a056942a0533",
+    "keep_name": "Dujardin (Carl)",
+    "keep_richness": 7,
+    "dupes": [
+      {
+        "id": "ebf46572-8839-42ef-967e-b6a615ddfe11",
+        "name": "Dujardin (Karle)",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "213cc4b5-65df-45e0-9485-174cb1ea2ad1",
+    "keep_name": "Sun Hu",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "9601c5ed-6fb5-4e26-8afc-19e6889c905a",
+        "name": "Sun Zhi",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "d2967f2f-46a8-405e-ab24-b278297ee0e2",
+    "keep_name": "Moor, Carel de",
+    "keep_richness": 30,
+    "dupes": [
+      {
+        "id": "ab43e1e9-499b-45a3-a901-916d88b282bf",
+        "name": "Moor (Carle De)",
+        "richness": 12
+      }
+    ]
+  },
+  {
+    "keep_id": "c4e9328c-5516-4eb1-b7cc-6210750f3f27",
+    "keep_name": "Pierre-Antoine Demachy",
+    "keep_richness": 15,
+    "dupes": [
+      {
+        "id": "6a79506a-3c16-4c6b-9a6b-15ec77756a38",
+        "name": "Pierre-Antoine Machy",
+        "richness": 5
+      }
+    ]
+  },
+  {
+    "keep_id": "d9774b0e-a3e5-417f-8d5f-2c8d3e0ced59",
+    "keep_name": "Huijgh Pietersz Voskuijl",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "28af8f0f-73f7-4d0d-89c0-ba836b4b3713",
+        "name": "Huijgh Pietersz. Voskuyl",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "0953c471-7459-4b7b-a41c-a866598f78fb",
+    "keep_name": "Mieczysław Wejman",
+    "keep_richness": 14,
+    "dupes": [
+      {
+        "id": "25a14803-9c0d-422a-b10e-bc5df9497e3f",
+        "name": "Mieczysław Berman",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "3d7f10ca-8516-4287-916c-940cefc46a21",
+    "keep_name": "Lang Jan",
+    "keep_richness": 22,
+    "dupes": [
+      {
+        "id": "11243b29-f2d7-4b81-8eea-24bf007f15c3",
+        "name": "Lang, John",
+        "richness": 10
+      }
+    ]
+  },
+  {
+    "keep_id": "2e77432f-b4f8-43ad-9832-a0c387529326",
+    "keep_name": "Hamano Yasuyuki",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "7c381069-f648-4c92-96bc-6a7e8ef61566",
+        "name": "Hamano Masayuki",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "4f0f53f7-d592-4c8b-899d-cc2d1450d72f",
+    "keep_name": "Eiraku Wazen",
+    "keep_richness": 8,
+    "dupes": [
+      {
+        "id": "4f30f768-3088-49ec-9330-cd2f273df12c",
+        "name": "Eiraku Hozen",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "57d6b4fd-05aa-4fd4-b9d5-98b33242ed88",
+    "keep_name": "Calligrapher: Shen Hu",
+    "keep_richness": 15,
+    "dupes": [
+      {
+        "id": "a0c1cfdc-cc57-4922-a89b-d8d50624c941",
+        "name": "Calligrapher: Zheng Mu",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "b3fe2f74-f0f9-4912-8d64-bb178ecc36b3",
+    "keep_name": "Calligrapher: Zeng Xi",
+    "keep_richness": 12,
+    "dupes": [
+      {
+        "id": "6a5fab19-ffd1-40f5-8bfb-1b0d9149bbea",
+        "name": "Calligrapher: Tang Di",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "992a6410-4fcf-45dc-90e8-aa2b308b7f27",
+    "keep_name": "Calligrapher: Tang Hong",
+    "keep_richness": 9,
+    "dupes": [
+      {
+        "id": "0e0f7b41-d38c-4024-8143-5210eb09d18c",
+        "name": "Calligrapher: Wang Ying",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "e60e652b-18f6-4b92-8b26-c515fd3d8417",
+    "keep_name": "Calligrapher: Zhao Zhiqian",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "24cbbb40-1887-41f3-8caa-de7b68e0fe45",
+        "name": "Calligrapher: Zhang Zhihan",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "d70f5171-b312-4422-8815-d4be7f792fe9",
+    "keep_name": "Tai Dam",
+    "keep_richness": 24,
+    "dupes": [
+      {
+        "id": "243ae681-41b6-447d-a70b-f29fa67a3de9",
+        "name": "Tai Lao",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "c2374a53-5264-49e4-8d59-75a7bedc2d93",
+    "keep_name": "Engraver: Jacob Houbraken",
+    "keep_richness": 7,
+    "dupes": [
+      {
+        "id": "acf50671-c8ad-41b5-9f81-2655c68b067a",
+        "name": "Engraver: Jacobus Houbraken",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "5f874243-b831-4984-95df-223607632c6b",
+    "keep_name": "Itaya Hiromasa",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "7186817f-454c-4611-a5cb-74a41157a13f",
+        "name": "Itaya Hironaga",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "4ccf54f5-e9c4-415b-baed-4e0a2ce20cb0",
+    "keep_name": "Kawanabe Kyōsai",
+    "keep_richness": 259,
+    "dupes": [
+      {
+        "id": "d1f875de-f1f5-42ef-9941-5223a32a84d3",
+        "name": "Kawanabe Kyо̄sui",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "219f8443-2277-4ea8-848f-37a928904331",
+    "keep_name": "Ding Yunpeng",
+    "keep_richness": 22,
+    "dupes": [
+      {
+        "id": "a4b92fcd-aa2c-4436-b70d-f37ecafb4fd0",
+        "name": "Ding Guanpeng",
+        "richness": 21
+      }
+    ]
+  },
+  {
+    "keep_id": "58711488-cffc-4454-b9d2-069965f6676c",
+    "keep_name": "Eleni Revi",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "a0ab621c-13b8-4ebd-be36-d7aa507bdff1",
+        "name": "Eleni Deli",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "e0b86827-65b6-46b3-9e9f-5fc2b1d89606",
+    "keep_name": "Professor Josef Wopfner",
+    "keep_richness": 9,
+    "dupes": [
+      {
+        "id": "19543881-5941-41fd-80b1-94805928bc18",
+        "name": "Professor Joseph Wopfner",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "8856e583-7ced-4f2e-aff5-e79bdc901c69",
+    "keep_name": "ein guter Meister",
+    "keep_richness": 37,
+    "dupes": [
+      {
+        "id": "7820fdb7-345b-47bd-a98a-2aef50681947",
+        "name": "ein alter Meister",
+        "richness": 21
+      }
+    ]
+  },
+  {
+    "keep_id": "dd142d17-011b-47ce-a054-d04ac2fc4177",
+    "keep_name": "ein guter niederländischer Meister",
+    "keep_richness": 31,
+    "dupes": [
+      {
+        "id": "94ed7f72-946c-4163-bd30-1530b5ec8b7c",
+        "name": "ein alter niederländischer Meister",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "ecb43dba-fd33-4cbe-9ec5-0d4072c86d96",
+    "keep_name": "ein guter unbekannter Meister",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "ae013c34-4c87-499c-9dda-f87babb2e0f0",
+        "name": "ein alter unbekanter Meister",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "03e44a36-bcbe-4c93-ac0d-85726fe09807",
+    "keep_name": "Stunder, Ján Jakub",
+    "keep_richness": 8,
+    "dupes": [
+      {
+        "id": "3d76255a-9244-44b7-801a-897d89c884a9",
+        "name": "Stunder, Johan Jacob",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "aba4905c-8dae-4bc6-bcd7-68f4760d4bb5",
+    "keep_name": "een goed Meester",
+    "keep_richness": 185,
+    "dupes": [
+      {
+        "id": "8b3ae90b-3761-4ed9-a9fd-adc7102125c6",
+        "name": "Een Oud Meester",
+        "richness": 77
+      }
+    ]
+  },
+  {
+    "keep_id": "88bb8aad-d8d8-43c0-bead-1b97f761de5f",
+    "keep_name": "Een Italiaansch Meester",
+    "keep_richness": 67,
+    "dupes": [
+      {
+        "id": "24e1f26f-7e82-4ffd-ab23-50df8ab8f048",
+        "name": "Een Italiaans Meester",
+        "richness": 5
+      }
+    ]
+  },
+  {
+    "keep_id": "948d53de-4957-4d7d-a447-e9e10f459e0b",
+    "keep_name": "Tassaert, Philippe Joseph",
+    "keep_richness": 46,
+    "dupes": [
+      {
+        "id": "e3c0f39f-4f78-4782-9006-4b7f0f0d1200",
+        "name": "Tassaert, Philip Joseph",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "47073c72-4879-49c6-a454-773c1d6a1f0c",
+    "keep_name": "Lan Ying",
+    "keep_richness": 54,
+    "dupes": [
+      {
+        "id": "65cb87db-c073-4bc6-8841-c91df9bfb952",
+        "name": "Lan Meng",
+        "richness": 8
+      }
+    ]
+  },
+  {
+    "keep_id": "a74a0d4f-a868-4647-83ae-b33bf6b6dd93",
+    "keep_name": "Lan Franco",
+    "keep_richness": 21,
+    "dupes": [
+      {
+        "id": "490e7f62-cb9d-4010-b80e-54f3361040cd",
+        "name": "Lan Frank",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "91a4d995-724c-44e7-9214-273afe823e47",
+    "keep_name": "Thygesen, Rudolph",
+    "keep_richness": 32,
+    "dupes": [
+      {
+        "id": "1fc660c2-8a90-4664-b39b-b98da556f996",
+        "name": "Thygesen, Rudolf",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "9019be43-f9fc-4862-b129-9ec28a52270b",
+    "keep_name": "Popa Ion",
+    "keep_richness": 184,
+    "dupes": [
+      {
+        "id": "9c1477b7-574f-47a6-a101-26ad03cfed27",
+        "name": "Popa Ivan",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "76bd833b-9605-4a27-a6a1-64754e6a2a08",
+    "keep_name": "Mihăescu, Viorela",
+    "keep_richness": 10,
+    "dupes": [
+      {
+        "id": "cb73fc69-56d0-455c-a6a5-3eddf823bd99",
+        "name": "Mihăescu Viorica",
+        "richness": 4
+      }
+    ]
+  },
+  {
+    "keep_id": "f670bd2b-6367-481a-9c99-ef5646a61eba",
+    "keep_name": "Hering, Henry",
+    "keep_richness": 6,
+    "dupes": [
+      {
+        "id": "7e362861-7344-49ff-bb5c-194b57bed1f9",
+        "name": "Hering, Harry",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "7c050a7d-74c0-4ad0-8755-de321d0f3999",
+    "keep_name": "Keirincx, Alexander",
+    "keep_richness": 59,
+    "dupes": [
+      {
+        "id": "e9db5cc1-d5be-4908-8f5b-d3909c151a98",
+        "name": "Keirincx, Alexandre",
+        "richness": 6
+      }
+    ]
+  },
+  {
+    "keep_id": "d94d3bcc-e6df-409f-aa7f-7c1e005d3f36",
+    "keep_name": "Lieve Verschuier",
+    "keep_richness": 24,
+    "dupes": [
+      {
+        "id": "3ac202e6-45b4-4d3c-8751-d476f794613c",
+        "name": "Lieve Verschuur",
+        "richness": 5
+      }
+    ]
+  },
+  {
+    "keep_id": "d759724c-132e-4b52-8ac1-7ab3f506aea2",
+    "keep_name": "Stoenescu Eustațiu",
+    "keep_richness": 80,
+    "dupes": [
+      {
+        "id": "a6710ffe-c2e4-41b4-a441-8842a3640e0e",
+        "name": "Stoenescu, Eustaițu",
+        "richness": 4
+      }
+    ]
+  }
+]

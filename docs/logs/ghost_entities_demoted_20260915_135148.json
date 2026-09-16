@@ -1,0 +1,2582 @@
+[
+ {
+  "kind": "museum",
+  "id": "1c373fcd-eee3-466f-ba7c-9aa0b855cc39",
+  "name": "Contemporary Arts Council of The Museum of Modern Art",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "60e29f9b-65a1-4ec3-af27-11aaebfd3669",
+  "name": "Library Council of The Museum of Modern Art",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "2cd122d9-e612-4119-b03e-960002ebc5a1",
+  "name": "Museum purchase",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "a5b86dfa-b29c-4cba-96e1-0f392981b034",
+  "name": "Dyson Perrins Museum Trust",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "a706bc20-0c50-4f4d-826c-df1d4248d271",
+  "name": "Friends of the Museum Fund",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "785089a7-8c63-4ed2-8345-237ad95872c5",
+  "name": "Corrine Riley and museum purchase",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "2cd0e391-dfe7-4f2c-8be2-859fe27e4c3a",
+  "name": "Painting and Drawing Society of The Cleveland Museum of Art",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "b0adac98-1531-4e3b-b853-7fadbd13b888",
+  "name": "Museum Purchase Fund",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "ad036b97-3809-4b83-97f2-5f6315acfb34",
+  "name": "Junior Associates of The Museum of Modern Art",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "d4f83f3a-1802-4f1f-9d15-0edad13ca87f",
+  "name": "Contemporary Arts Council of The Museum of Modern Art and the Fund",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "270ddd35-ef29-4bee-948c-ba5e5b62f01e",
+  "name": "Womens Council of the Cleveland Museum of Art",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "3541ecdf-5b7b-499f-98fe-f3df663498f0",
+  "name": "Museum of Modern Art and Committee on Photography Fund",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "f2f2f343-d1ee-435a-9735-75220cd37586",
+  "name": "Cincinnati Museum Association",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "b04b4518-23b9-41bb-851e-2395044218a1",
+  "name": "Staff of the Cleveland Museum of Art",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "afee44ab-3487-4ee2-acdd-0e000e7d8f31",
+  "name": "Edward Steichen by direction of Joanna T. Steichen and the International Museum of Photography at George Eastman House",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "49d29b9f-b1aa-4f67-b733-122f8db5df95",
+  "name": "National Gallery and donations from the Art Fund",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "38f26d5e-6d88-4c3e-b4ae-0ae964340749",
+  "name": "Department of Museum Education",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "55f8801f-6efa-4fbc-855b-d34d08523ea5",
+  "name": "Friends of The Cleveland Museum of Art",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "c1d00107-6d43-4968-b769-44e759f4e82c",
+  "name": "Museum Surplus Fund",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "23c7bb69-fb4f-4e47-a0f7-75be56eaf729",
+  "name": "Special Purchasing Committee of the Museum Training Program",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "db9277bd-4635-483f-9a19-a27451dbfa65",
+  "name": "Mrs. Wai-kam Ho and the Womens Council of The Cleveland Museum of Art",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "30e5528a-dfd5-44f9-b649-7e2a85dbedff",
+  "name": "Museum members in 1989",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "4561af39-4bde-405e-a3f0-56eb99b9f657",
+  "name": "Rodin to his pupil Malvina Hoffman and given by her to The Metropolitan Museum of Art",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "c2c3569e-488e-4849-ae22-e1b2b86993a5",
+  "name": "Museum of Modern Art Department of Publications",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "1c23c4a7-3a16-4f68-9e73-9f25c5b91eab",
+  "name": "Contemporary Arts Council of The Museum of Modern Art and Committee on Media and Performance Art Funds",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "3bf2889b-2861-4ca1-8376-05708e2ad27b",
+  "name": "Tom Joyce and museum purchase with funds donated by Carl Jennings",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "b121f7c8-d675-4010-bbc3-16677931c279",
+  "name": "Byron R. Meyer and the Contemporary Arts Council of The Museum of Modern Art",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "460aeeca-e4bc-4dda-b6e6-3ebc259e0f8d",
+  "name": "Lyn and ET Williams Jr. and The Friends of Education of The Museum of Modern Art",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "3415be94-d047-4fb0-9c27-7d62d1c3ef48",
+  "name": "Chuck and Jan Rosenak and museum purchase made possible by Mrs. E. C. Hobson",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "92f4ae79-c0a5-4190-995a-d9e5d4d9a20a",
+  "name": "Contemporary Arts Council of The Museum of Modern Art and the Jacqueline Brody Fund",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "c229740e-f1d1-4537-a096-4ebb6600861b",
+  "name": "International Council of The Museum of Modern Art",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "d65650cf-245f-433e-98f6-4574c5a37647",
+  "name": "Womens Council of the Cleveland Museum of Art on the occasion of its fiftieth anniversary",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "01b5afae-0a0d-44b7-bc0d-63679ccb3144",
+  "name": "Associates of the Department of Prints and Illustrated Books in celebration of the Museum's reopening",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "51e0d231-9e1d-46c8-85ad-ce6e4788733a",
+  "name": "Council of The Museum of Modern Art and The Modern Women's Fund",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "c9bc1b19-23c7-40d6-9877-0e7bf3d90b6a",
+  "name": "Metropolitan Museum of Art Sales Production Department",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "4114aaab-a1e9-4a37-a0e5-5e3edd1ec8d0",
+  "name": "Friends of Education of The Museum of Modern Art",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "19fb6415-1bcf-474f-9294-17b0c6ce8a30",
+  "name": "Society of Frisins of Roerich Museum New York",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "06480f21-7be2-4244-be26-c44df5b6344c",
+  "name": "Purchased jointly by The Museum of Modern Art",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "7bbe8d62-3a25-41ee-9357-c8e2995770b9",
+  "name": "Contemporary Art Society of the Cleveland Museum of Art",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "d45b1fd5-15a0-4985-9058-cc4ded8ca63c",
+  "name": "Mrs. Gordon to the National Gallery",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "75d2a282-bf9e-474c-92e5-c87ee3e03c95",
+  "name": "Herman A. Elsberg on the Fortieth Anniversary of the Museum",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "0ba6be1f-feb7-479a-89a9-2d39456e4411",
+  "name": "Friends and Members of the Staff of the Museum",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "6629cfa0-7765-4af3-9daa-8069ee665362",
+  "name": "Department of Painting and Sculpture of The Museum of Modern Art",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "24b1383c-3bc6-4327-8dca-407f3aaaf033",
+  "name": "Friends of Education of The Museum of Modern Art and Kathy and Richard S. Fuld",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "ed56501d-4a84-432f-852f-cfdb05cfc50c",
+  "name": "Metropolitan Museum of Art Volunteer Anniversary Fund",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "b6c19fd3-997c-4b6b-906e-664705d4529c",
+  "name": "Museum purhcase from Friends of the Museum Fund",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "1c836b3f-e481-41b3-8c5f-903853dd146c",
+  "name": "Dr. Richard D. Bullock and museum purchase made possible by Walter Beck and Reverend F. Ward Denys",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "0da27435-2cb7-48be-9ed5-fb82eb5070c6",
+  "name": "Friends of Museum Fund",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "733a9648-6bea-4d02-816e-e725da8c43d6",
+  "name": "James Maroney and museum purchase",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "3124d8e7-6261-4e8a-9ee9-0dc04c3e076f",
+  "name": "Museum of Modern Art and the Committee on Drawings and Prints Fund",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "7caff09d-5378-41b0-b830-41f86a6c75d2",
+  "name": "Eve Clendenin to The Museum of Modern Art and The Solomon R. Guggenheim Museums",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "c76554ea-28a8-4ea8-ac71-7dc944df4443",
+  "name": "Friends of Education of The Museum of Modern Art and The Judith Rothschild Contemporary Drawings",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "8e5b214e-e4b8-4d32-9b54-d3a5a51e55e4",
+  "name": "International Council of The Museum of Modern Art and Alexandra A. Herzan",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "7c5f881b-2f35-4efa-b12f-ebd0a254f16a",
+  "name": "James F. Dicke II and museum purchase made possible by the American Art Forum",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "ef57006c-af6a-4a51-afa1-b68dd929199f",
+  "name": "Museum Publications Department",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "d9f52a26-8aad-45f3-b183-c5f57e93f776",
+  "name": "Princess of Wales inaugurates the \"Victoria and Albert Museum\" new collections: Charles and Diana",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "0264789f-c02d-4ebd-9553-dbec9fca24ca",
+  "name": "Arthur and Madeleine Lejwa to The Metropolitan Museum of Art",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "1d18d3ea-0e90-44c9-9d7a-b65019499086",
+  "name": "Mrs. Stanley Keith to museum",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "553e7d03-4d04-447b-a890-1aa1750130f6",
+  "name": "Museum Department of Publications",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "d373500c-8251-467b-80ef-d3cc4768538a",
+  "name": "Thomas M. Evans and museum purchase",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "bb8f7129-c7d4-4cba-b225-4ee9a22a607f",
+  "name": "National Gallery of Modern Art with assistance from the Art Fund",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "7c6de689-ad1d-400f-ac86-170688a7b6cb",
+  "name": "William and Margaret Lipscomb in celebration of the museum’s centennial",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "8feaef85-1467-4158-9317-0a67c8202b0a",
+  "name": "Norbert Hornstein and Amy Weinberg and museum purchase",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "8ef08891-9371-446d-b939-1ffc7cfd046f",
+  "name": "Commissioned by the Museum",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "e50daa2c-ae93-4a74-b387-b4f0c84ff7f1",
+  "name": "Friends of Contemporary Drawing and of The Friends of Education of The Museum of Modern Art",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "499b0855-92ba-427f-ad04-6b4555ed6503",
+  "name": "Members' Acquisitions Fund of Cooper Hewitt Smithsonian Design Museum",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "6e45675d-fb63-4b72-bc70-ddd5c71b0082",
+  "name": "Anna Marie and Robert F. Shapiro in celebration of the Museum's 75th anniversary",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "f90a73cf-1c70-466d-95cf-b1773a572c58",
+  "name": "Cleveland Museum of Art and Bequest of William R. Valentiner",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "73526147-d045-4470-9580-c3fcd467fd2f",
+  "name": "Cleveland Museum of Art Facilities Department",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "f3f9d52b-fc82-4941-824d-597502807276",
+  "name": "Column & Stripe: The Young Friends of the Cleveland Museum of Art",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "cb7acd2e-cce9-48f9-b16d-b2d763a350df",
+  "name": "Chuck and Jan Rosenak and museum purchase made possible by Ralph Cross Johnson",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "b22645ab-a76f-45b9-9cb8-7aca3af37770",
+  "name": "Friends of the Museum at the University of Georgia",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "museum",
+  "id": "746bee06-e0da-41ed-afa7-6fc1d915075d",
+  "name": "Estate of Loyall Farragut to the United States National Museum",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "6edcad86-f326-4efd-8dbc-4f8b3adf9ce1",
+  "name": "Yaneff International Gallery",
+  "bucket": "collector_person"
+ },
+ {
+  "kind": "museum",
+  "id": "f9883ac9-af49-4ef3-98c6-4d7e42ea77a9",
+  "name": "Mr. Sang-goo Kong in celebration of the museum’s Korean art collection",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "37d04c36-305f-4461-86f1-69482b3b28ff",
+  "name": "Museum Moderner Kunst Stiftung Ludwig Wien). The Cleveland Museum of Art",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "611ae4ea-31e2-44eb-8cbe-12d6b932ee48",
+  "name": "Associated American Artists to the Whitney Museum of American Art",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "museum",
+  "id": "4c0d6f96-be76-4106-a674-458a117d9505",
+  "name": "Chance and is now in the Fitzwilliam Museum",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "4ff6a6eb-aa5e-4fb6-8f24-bfa5315ff9a5",
+  "name": "Neeld sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "02431a1e-8066-4d55-8c26-c0399e735ebf",
+  "name": "John Goldsmith Phillips",
+  "bucket": "collector_person"
+ },
+ {
+  "kind": "house",
+  "id": "fe8f28ee-0102-4d1c-94cc-16b52cfebfc4",
+  "name": "Christie's via Ursus Books",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "abb7fdbc-81e7-4a63-99eb-3655b4ac9c48",
+  "name": "Mensing Sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "2c097677-85b4-4e0d-9d9c-68d25a032807",
+  "name": "Christie Calder Salomon Fund",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "house",
+  "id": "484ed8c3-3497-4a37-b245-91c7f0947ae4",
+  "name": "Dillée sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "d1c43246-9ed1-4531-ad3b-f8097717cd02",
+  "name": "Michael Phillips and Juliana Phillips",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "house",
+  "id": "8cb092ff-0a64-4347-b2ff-37f8b9922975",
+  "name": "Third Degas sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "370ad939-def4-4638-ae31-c0a617c4c265",
+  "name": "John Goldmsith Phillips",
+  "bucket": "collector_person"
+ },
+ {
+  "kind": "house",
+  "id": "a1fdc818-b015-4df1-9d12-78ec3fdb5dc2",
+  "name": "Decorative Arts Council with funds from the 1999 Antiques Show and Sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "0c4c1cab-0402-4628-af7b-a7560bb3c2df",
+  "name": "Cahen sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "948b0e8f-38c1-48ff-bb9a-fe4e8efb1e6c",
+  "name": "Demidov sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "5da529ed-871a-4c63-8f55-b784a0791c72",
+  "name": "Ernst Rathenau estate sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "7182a26a-79ba-4ce2-9373-bab3cba795bd",
+  "name": "Hèle sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "da75c50a-bb37-4623-aa44-b0f0453e8857",
+  "name": "Fountaine sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "fed0d2c3-fd3f-497a-9076-4417cfec3393",
+  "name": "Phillips Family Fund",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "house",
+  "id": "26966ad8-75d7-4331-86ab-25419e9cdc54",
+  "name": "Richard E. and Christie Calder Salomon Fund",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "house",
+  "id": "3e61aab3-5582-461d-be66-b9bbc1765a76",
+  "name": "J.A.G. Weigel sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "7dd5c12b-3b3d-4e69-bc9b-845d24fa5c37",
+  "name": "Christie's New York via Ursus Books Ltd",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "ea07051a-db9f-4daf-a82d-548bfea48bd7",
+  "name": "John Goldsmith Phillips and Walter Hauser",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "house",
+  "id": "46c72675-6a69-4206-b9d0-60cf8cb35aea",
+  "name": "Lutz sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "1cc237b1-eaad-41c0-acb1-24dfb8b0f213",
+  "name": "Cognacq sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "d49e5522-db96-4306-a442-148d9e62bcf5",
+  "name": "Delacroix posthumous sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "024361b7-341d-475a-a5fa-3dc2d5af4fc9",
+  "name": "Cabruja sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "5a42d073-4601-4f5e-a691-5cc26b1b485a",
+  "name": "Tarral sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "018658cb-453c-46c3-b035-ae6937317193",
+  "name": "Chapuis sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "62fade64-47e5-4a95-8274-36fd092b9471",
+  "name": "Earl of Arran sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "54089b2a-f2b5-4d1d-8f23-0d648883e419",
+  "name": "Blot sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "1e6de339-3af5-4e17-94cc-8656108fd3b7",
+  "name": "Tweed sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "b101d77a-493f-41b3-8db9-d41abf359c37",
+  "name": "Bardini sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "874fe886-c1ac-4601-ab5b-c36ede589b7e",
+  "name": "Phillips Collection",
+  "bucket": "collector_person"
+ },
+ {
+  "kind": "house",
+  "id": "4517ada3-fddb-4d58-840a-15267ba7bda5",
+  "name": "Degas Atelier sale II:378). Gustave Pellet",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "0c1c34f2-61a0-45e0-8a3b-d1b19961200b",
+  "name": "Dudley sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "4ca9cf99-1c02-4d7f-a7df-c70c633e4629",
+  "name": "Mrs. Howard C. Phillips",
+  "bucket": "collector_person"
+ },
+ {
+  "kind": "house",
+  "id": "49019a95-d34b-4cfe-b559-9c0de2fd153c",
+  "name": "Mr. Duncan Phillips",
+  "bucket": "collector_person"
+ },
+ {
+  "kind": "house",
+  "id": "9dcfea77-5c61-4d0a-9c63-aee5a78760d0",
+  "name": "Possibly Marie-Antoine Didot sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "833ef1de-ef6b-40f9-b0fe-59af6047b0a5",
+  "name": "Buhot family sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "19e910a5-11e2-451e-b9bb-a40a75ab8f23",
+  "name": "Degas atelier sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "942e6d08-a417-473e-a63e-83d39f2f5d1a",
+  "name": "Seligmann sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "5e3c85a9-66f3-4a67-b975-2c9b9f8054b4",
+  "name": "Bonelli sale by private contract",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "7fa7c8bc-f312-454c-9bef-99a282bb7026",
+  "name": "Bonelli sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "e55eeab5-5e77-4d4e-a874-c58f0a773b45",
+  "name": "Sebright sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "b67cf1ff-f8c9-4f01-aead-15647520b82e",
+  "name": "Mr. and Mrs. Mark Phillips",
+  "bucket": "collector_person"
+ },
+ {
+  "kind": "house",
+  "id": "35efd949-1d38-48b5-a6df-4ddc977d88ce",
+  "name": "Valerio's study sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "616eb9e4-2a89-4e53-93e5-926a7667e754",
+  "name": "Bubb Kuyper sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "22e3386d-cb98-4c07-8518-6db1c09d34f9",
+  "name": "Monson sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "90fe4e2e-2167-48f2-91a0-95c71d38189b",
+  "name": "Mrs. Wallace B. Phillips",
+  "bucket": "collector_person"
+ },
+ {
+  "kind": "house",
+  "id": "ce9aeaff-d06a-441a-83cc-2d5392a42163",
+  "name": "Sutton sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "9498460d-7948-4680-87e4-96c486365563",
+  "name": "Kunstauktionshaus Dr. Fritz Nagel",
+  "bucket": "collector_person"
+ },
+ {
+  "kind": "house",
+  "id": "0799359c-48c6-4dab-8862-fe941f6cb08d",
+  "name": "Mr. and Mrs. Lawrence R. Phillips",
+  "bucket": "collector_person"
+ },
+ {
+  "kind": "house",
+  "id": "867bf0dc-63bb-42e8-944c-39e654ba2ac9",
+  "name": "Engel-Gros.  Neither the sale in Paris on 30 May 1904",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "b24cc752-c7e8-4ed3-a188-0e43f6322c65",
+  "name": "Delacroix estate sale Paris",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "aae70041-be4d-48c5-98c9-f8973fc3413a",
+  "name": "Hess sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "aa6c0232-abfa-45c3-89ee-0691d186ba59",
+  "name": "Strawberry Hill sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "c8c9a51f-b155-4188-a330-6782956a0670",
+  "name": "Virginia Phillips",
+  "bucket": "collector_person"
+ },
+ {
+  "kind": "house",
+  "id": "a558b259-60ae-455f-8541-5ea166fe9a27",
+  "name": "Anonymous sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "1f4f18ea-82fe-4907-9d5e-c0db925e7375",
+  "name": "Estate sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "8edc1c19-36ff-4138-84a8-9d16e2be5f1c",
+  "name": "Kinloss sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "c1059b22-ed9a-4429-b497-b9ce84c82a74",
+  "name": "Zachary sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "8704732f-6b0e-4656-9697-869ade4f1609",
+  "name": "Gifford Phillips",
+  "bucket": "collector_person"
+ },
+ {
+  "kind": "house",
+  "id": "4fa2c2a7-907d-4157-9a70-2b1aecb54c17",
+  "name": "For sale by unidentified owner",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "1a5de291-be74-40ca-9060-76385d6ab643",
+  "name": "Richard Foster's estate sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "1b7e297e-d80c-40dd-9412-3505aa7dbf50",
+  "name": "Mr. and Mrs. Gifford Phillips",
+  "bucket": "collector_person"
+ },
+ {
+  "kind": "house",
+  "id": "1320268e-9861-4fc9-94ea-98f8f0e42294",
+  "name": "Cortlandt Field Bishop Sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "69ad6ad0-0c67-4f72-a13e-f10a9282b1c8",
+  "name": "Payen sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "0fb81bed-3110-451c-8ed3-ff70fa76b2ff",
+  "name": "John S. Phillips",
+  "bucket": "collector_person"
+ },
+ {
+  "kind": "house",
+  "id": "789c2941-22de-45f6-be19-c9b7441f7961",
+  "name": "Christie's New York via Ursus Rare Books",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "cbda7c3f-7918-4876-8669-31e9cc271575",
+  "name": "Christie's via Ursus Rare Books",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "50a56e15-3422-4ce8-ac7e-ee8518b6ef97",
+  "name": "Duncan Phillips",
+  "bucket": "collector_person"
+ },
+ {
+  "kind": "house",
+  "id": "fb8bca06-4900-49b2-92f9-55fe7ed876d9",
+  "name": "Manet sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "ff680881-1fa7-4afb-a191-508415df35a6",
+  "name": "Michel-Lévy sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "ae5d3f72-211b-4943-974f-9fba3ee9d57b",
+  "name": "Degas sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "4dbe0b62-4a6c-4c39-8a45-5fd9066d355e",
+  "name": "Paul Huet's studio sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "7223a4b0-40d0-4f45-b6dc-d735749bec08",
+  "name": "Christie's via Ursus Rare books",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "8ab96256-42ee-45f9-af85-ccd6bae3b861",
+  "name": "Barbara Church sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "05d37bf1-afa3-4969-b9fe-1b9ce8943db0",
+  "name": "Delacroix sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "538a6ea1-97b9-48ba-8047-dab83dde3170",
+  "name": "Earl of Essex sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "953debfc-b3e4-44fe-a722-0a76cce8cbac",
+  "name": "Egyptian and Oriental Antiquities Which Will Be Sold by Auction by Messrs. Sotheby",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "9ba6345a-d99c-414d-8097-14873d2f3c91",
+  "name": "Darnley sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "7329259d-a264-4171-bc29-4b8c8dc153f8",
+  "name": "Strauss sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "6e22b051-15ea-4776-a29d-7e2c114b5503",
+  "name": "Hazard sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "c44d7a8f-1a5c-4280-8483-c215b44bada3",
+  "name": "Deanna Gayle Phillips",
+  "bucket": "collector_person"
+ },
+ {
+  "kind": "house",
+  "id": "2b024ade-1727-4211-a91e-ec4b89b887d8",
+  "name": "Sale Baron Regnault",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "8fe313d5-2f9a-4410-8455-0f812c25f354",
+  "name": "Lansdowne sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "0e51827c-56a9-422d-94d8-59ee5e36d35a",
+  "name": "Hollstein and Puppel Sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "504faf5a-d408-47e2-92df-b3064e3b3624",
+  "name": "Brownlow sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "737198f3-fd50-4c0e-a2dd-2f8b20099169",
+  "name": "Sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "42986022-f12f-435c-b34e-270bbcb32650",
+  "name": "Zayas sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "0b24bfb2-d92f-43a7-9181-75276dc472bb",
+  "name": "Probably Feuchere sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "f546ca8b-200c-4fbb-9592-7970a9544c0f",
+  "name": "Lyndhurst Library Sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "cda7dac3-a6aa-4779-a799-623a48c95103",
+  "name": "Degas atelier sale I",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "176c2bab-b7a0-4d0f-99e8-bc52382babe2",
+  "name": "Gilhofer & Ranschburg sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "6e246b9e-6752-48e3-aaf6-9aa1e2007e83",
+  "name": "Purchased before 1914 at a private sale in France by James Hazen Hyde",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "58274c4c-17b5-4605-ae89-a0e0988c088c",
+  "name": "Decorative Arts Council with proceeds from the 2001 Antiques Show and Sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "b0919f10-4476-4397-8cd5-e913a311ec12",
+  "name": "4th Degas sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "cf8bffab-cb58-48e9-bed4-2e0c3a9ab4c9",
+  "name": "Péreire sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "343143d6-aa6a-42c4-a865-eb346caa5235",
+  "name": "Pourtalès-Gorgier sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "e1033023-a31c-42ee-b101-6ef14a12f667",
+  "name": "Savile family sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "3695ed03-8f68-447b-868f-6f7223335067",
+  "name": "Mark and Juliana Phillips",
+  "bucket": "collector_person"
+ },
+ {
+  "kind": "house",
+  "id": "6fb6d85d-43ac-4505-9dc1-aacac6e8cc79",
+  "name": "FLOCKS/Christien Meindertsma",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "house",
+  "id": "5da060b7-6e87-45f8-8e23-03f24516c73c",
+  "name": "Sir Claude Phillips",
+  "bucket": "collector_person"
+ },
+ {
+  "kind": "house",
+  "id": "fad77ecf-47a2-4f61-9218-07ff7e9781a3",
+  "name": "De Berry sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "e959f63b-e102-4682-8a5e-88aa8653b760",
+  "name": "Alba sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "426e8336-8407-41bf-9927-2ef6c824bcf5",
+  "name": "Vever sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "a3e77287-0cb2-4135-ac82-2bb441114fed",
+  "name": "Gifford Phillips and Purchase",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "a456431b-0404-437a-92ff-0801f29e3152",
+  "name": "Ivan E. and Winifred Phillips",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "house",
+  "id": "06a09d8a-d13f-4735-bfff-30f0ddfcc7fc",
+  "name": "Havemeyer sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "bcca1c77-358e-4227-84b4-62613a33ff3d",
+  "name": "Poullain estate sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "f133df2d-31c0-4209-9b36-22577431e0a8",
+  "name": "Le Brun sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "dbd1efab-0cdc-4412-82d6-8c8371848d21",
+  "name": "Westminster sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "8631d51f-ac6f-4a33-82d4-7b0209108e54",
+  "name": "Natanson sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "604af7c6-c24b-4817-b817-26c753f63e6d",
+  "name": "Dudensing sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "754912ee-04f5-4a75-ae66-bd73fd91ae4e",
+  "name": "Boudin sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "4c22f322-bbb2-4ecf-9b55-268a9d2593b9",
+  "name": "Gauguin sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "b6ee15d8-b52d-4f12-8515-d3da6e94d79f",
+  "name": "Summer estate sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "82906907-2c67-45ee-b627-cb3b2b9e8b34",
+  "name": "Christien Meindertsma",
+  "bucket": "collector_person"
+ },
+ {
+  "kind": "house",
+  "id": "b89dfc01-ef0c-4768-9c6a-26f86bafbfc7",
+  "name": "Decorative Arts Council with funds from the 2000 Antiques Show and Sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "12541b97-4b65-474b-a1a7-f4a61d1307de",
+  "name": "Ernest Brown & Phillips",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "house",
+  "id": "08df9d98-2811-4bd3-a666-1fd0fd4d6def",
+  "name": "Mrs. Samuel Laib Sale Proceeds Fund",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "e851b96a-3e29-404f-9966-87c74b45e2f4",
+  "name": "Ivan Phillips Gift and Harry G. Sperling Fund",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "house",
+  "id": "d2e3e5d6-419c-45a0-b0d4-fd445a50f18c",
+  "name": "Spencer sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "9fb134ce-24b8-4048-bfe2-29906e7ba47e",
+  "name": "Flavian sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "5a17f805-0912-4dbe-9615-cc023e3dcdca",
+  "name": "Hamilton Palace sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "93be3275-3eeb-4661-9229-70692550dc3d",
+  "name": "Anderdon sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "8f1de782-d352-4281-b4b4-a58cf91a3b3d",
+  "name": "Munro sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "d0e09297-044f-4d49-aa4d-fef2ad882e51",
+  "name": "Sotheby's sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "9f782d57-d635-4f81-9d56-85c726ec7264",
+  "name": "Chatsworth sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "d45a36a8-3de8-413e-bf27-e567378bd599",
+  "name": "Sanderson sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "93aeebce-b047-4f50-b0a0-03bf0d8cc704",
+  "name": "Goldschmidt sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "5a8411b5-45ef-4d60-b557-e1e1a4872c4f",
+  "name": "Sattler sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "f2c9d427-1dfd-4b15-a853-063c3c903fc0",
+  "name": "Kaunitz sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "e1b0fd7b-af3c-4977-ab31-4595d86884ec",
+  "name": "Dutch Phillips & Co",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "house",
+  "id": "630e2cfd-2a2d-4db3-a330-98938298219a",
+  "name": "Lucas sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "e3e5ddce-01b2-4658-864a-8a9f95e70b42",
+  "name": "Charles Phillips",
+  "bucket": "collector_person"
+ },
+ {
+  "kind": "house",
+  "id": "43b2ca65-510c-45cc-abf0-28b00c3099d5",
+  "name": "Littlehales sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "703d5bd0-c910-4dbb-8fa4-87be779b8049",
+  "name": "Fagan and Grignion sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "18ba143b-3f14-4c62-ad6d-9ef384237ee1",
+  "name": "Richard E. and Christie Salomon Fund",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "house",
+  "id": "4f82233e-c427-4e1c-aed3-73bf077350e7",
+  "name": "Mr. Mark Phillips",
+  "bucket": "collector_person"
+ },
+ {
+  "kind": "house",
+  "id": "52c981b6-4465-431d-9b9f-4acc1b60192e",
+  "name": "Michael Phillips and Juliana Maio",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "house",
+  "id": "5f180a60-fd29-4d95-994e-fc01f3c2487b",
+  "name": "Debruge-Dumenil sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "a5fdb109-6f50-4329-94b7-4e8653004259",
+  "name": "Hollstein and Poppel Sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "62339f8a-99f1-4b2f-a34f-18edaace8c01",
+  "name": "John Constable sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "65214b9c-7937-40c1-9829-621aa3ed59dc",
+  "name": "Higgins sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "2fe25ec1-f411-405d-a531-85e6b5da713d",
+  "name": "3rd atelier sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "b62e9c19-d5e5-4d49-a8fb-b83639bb3c7a",
+  "name": "Hollstein and Puppel Sale 1929",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "70da23c9-5459-48da-9830-652d39bd4a0f",
+  "name": "Mr. and Mrs. Neil Phillips",
+  "bucket": "collector_person"
+ },
+ {
+  "kind": "house",
+  "id": "1e25a6dc-ceb0-42a5-b36e-a4445dda30a5",
+  "name": "Chase sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "71d8c79b-2fd7-4280-9b17-588475d7278e",
+  "name": "Wesendonk sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "9f21e233-b489-47a8-bd30-dcffc65dfec2",
+  "name": "Brown & Phillips",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "house",
+  "id": "7b0e5e10-1584-4b81-b5bc-2f86bfb86533",
+  "name": "Woodner sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "89c5ebc6-948e-44a2-a8a5-be8268140cea",
+  "name": "Christie's New York via Ursus Books",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "c9bacb1d-fb49-4d7b-8bbf-eff505a222c9",
+  "name": "Austen sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "d45bb3fa-4d03-4a2e-a43b-69f89e3df256",
+  "name": "Ferraguti sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "b7ff264c-b7e4-45c6-8237-90603c7da5ca",
+  "name": "Mrs. F. C. Phillips",
+  "bucket": "collector_person"
+ },
+ {
+  "kind": "house",
+  "id": "ead15520-7e94-4f24-964b-0b9c95dd729a",
+  "name": "Mellon sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "34d4935b-8756-4b27-b6da-b6a4cea9c22c",
+  "name": "ABC Sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "a3e72d3a-f674-4abb-bdf3-e27c08c7f65c",
+  "name": "4th sale of Kahnweiler",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "888cdd22-e2a4-4b27-a0f9-b32e640e8fc8",
+  "name": "Barbee sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "810c7750-0c01-4c68-b05f-69f50d4abe79",
+  "name": "Bonaparte sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "f0690518-45b7-4101-8a80-16f5dc9614c0",
+  "name": "Sotheby's Inc. Gift and Harry G. Sperling Fund",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "house",
+  "id": "6b52ba6a-5abf-4cae-856e-ccec1e138c46",
+  "name": "Stumpf sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "cf0f8618-90cd-48ed-8411-c2af21a5bf05",
+  "name": "Rosenthal sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "234d810b-17bb-4c66-b1e7-63f005012408",
+  "name": "Friends of Photography Auction",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "house",
+  "id": "6432a85a-28f1-4b40-b70d-4c262442a750",
+  "name": "Triqueti sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "e0b03b8b-8b96-4211-96de-e3b57397afd9",
+  "name": "Ann Broadhurst Phillips and her cousin",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "house",
+  "id": "a7997914-a7b4-4176-98c2-70a88fbf59cf",
+  "name": "Faure sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "d4773786-be3c-459d-846b-d4a2f6f88e85",
+  "name": "Hoschedé sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "8edb1041-d762-454a-87cc-14590079cb48",
+  "name": "Dachery sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "64b4d8ce-8066-483c-a7f0-1c617a478055",
+  "name": "Schönborn sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "0c95c41e-7138-4cf4-b2fb-7e23b53b54c7",
+  "name": "Ivan E. Phillips and Jacqueline Getty Phillips",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "house",
+  "id": "453d61ab-2d00-423d-9bd9-bcb6cac9fb4b",
+  "name": "Bull sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "7d85565b-926e-40b9-acb0-d311aec501ef",
+  "name": "Shrewsbury sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "c82d4b56-1633-4ed8-86ce-84fe4ad85596",
+  "name": "Degas atelier sale number 1",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "44c55114-99f9-4a5b-b383-95eea1f20af1",
+  "name": "Mrs. Henry L. Phillips",
+  "bucket": "collector_person"
+ },
+ {
+  "kind": "house",
+  "id": "5ef03a55-8ab8-46b0-a763-82bc9272701c",
+  "name": "John G. Phillips",
+  "bucket": "collector_person"
+ },
+ {
+  "kind": "house",
+  "id": "81345ce6-269f-49f2-a530-0f9763e08d53",
+  "name": "M. F.... sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "347b1b89-a12e-4fe9-8b72-ee7422224859",
+  "name": "Pissarro sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "6b99ef59-0fc5-43a6-bfb3-a0fe0fabfda8",
+  "name": "Baugnée sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "7ecba0f1-ecc8-4a14-9335-f371bd96a503",
+  "name": "Dawson sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "24e67fdc-c1c6-40d4-a08b-d2317b2b5d62",
+  "name": "Pontremoli sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "5771982d-5e4e-4d88-9c6f-3c87c4bf6b5e",
+  "name": "Laurent-Richard sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "5d1d9171-b387-4777-9e61-ffdc2930e22b",
+  "name": "Plattis sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "9095b592-44f7-4739-9436-524a0f4e5733",
+  "name": "Hampden sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "42f1a1a0-7900-45a9-bcc7-e3b00654688b",
+  "name": "Daguerreian Society Annual Benefit Auction",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "house",
+  "id": "f011f504-4e31-444d-9c2b-c5f6cde9ec4f",
+  "name": "2nd studio sale of the artist",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "70ce42e5-6d9b-41d5-8ad6-414905063112",
+  "name": "Studio sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "db850110-d3ef-4ad3-ba6b-e067ee098d8b",
+  "name": "Roux de Billancourt sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "ea486a43-561f-4555-9428-15491ca2f80f",
+  "name": "Parke-Bernet sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "dceba5f6-b249-4bf7-b307-328755f68833",
+  "name": "Charles Deering Print Sale Fund",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "ed1b9768-23fd-40a0-8e10-eed4ba79bbc7",
+  "name": "De Berry exhibition and sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "dd17a0bb-80d4-44e4-afcf-6dbe2d1d8f65",
+  "name": "Roger Marx sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "ec078dd7-a986-4ca3-b836-bffac76e971e",
+  "name": "Herz sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "8ed9f7f0-d94a-4230-99c1-21ddb308a954",
+  "name": "Mroczek Brothers Auctioneers & Associates",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "house",
+  "id": "a41a3639-ec17-4816-8153-4ccfe809d7e2",
+  "name": "Reportedly Gericault's Paris atelier sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "c59ab455-d258-43d5-8fcb-f6b2faa3d618",
+  "name": "Ibos sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "b2edf8b2-98f7-41dd-abf4-da3cde968d2f",
+  "name": "Des Arts sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "8edd3777-c25a-4457-bf31-3ea047d3d82e",
+  "name": "Vitta sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "3d096c1c-3ecc-4529-9b2a-6e9b97f6afa8",
+  "name": "Geddes estate sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "161583f4-adf4-44f0-8210-1bf5d6630303",
+  "name": "Kleinberger sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "082a12d8-fc93-4be4-8b10-e5eab7e7697a",
+  "name": "Cheramy estate sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "41f07423-5685-4c63-8cd0-b1bcdfe9aac1",
+  "name": "Probably anonymous sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "8b8f87e8-9fb2-4770-b65d-da5e1a84dd7d",
+  "name": "Heyse sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "5f75080f-61a9-47c8-8f07-4c9c1a24c63a",
+  "name": "Ivan E. and Jacqueline Phillips",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "house",
+  "id": "6269b038-8e13-4250-8b0e-4991f88ebd4b",
+  "name": "Somervell sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "4b57bdfc-dcd9-4c96-8b14-4375593dd46b",
+  "name": "C.G. Boerner sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "71b21fdd-7c51-4e48-8a9b-27a4836e6f71",
+  "name": "Bonheur sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "9e2c1d8b-d1ae-49c5-aa27-494a3f60bef3",
+  "name": "Cross sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "e13dd736-e3c2-4993-9ff9-7625760ccdd5",
+  "name": "Probably purchased at auction in New York in the late 1930s by Louis E. Shecter",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "9510c0d5-255e-4786-82fa-9d6f2cc55ccc",
+  "name": "Gurley as nos. 235 and 236 of this sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "house",
+  "id": "6d60829d-8efa-4001-ab7f-ffbbe7946047",
+  "name": "Henry Walters at the Thomas Waggaman Sale",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "b24b4aec-a5f8-481b-a9af-6c4d2c4cbe68",
+  "name": "Friends of the Tate Gallery 1983",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "d95b3163-d939-4894-989c-414142da0abb",
+  "name": "Friends of the Tate Gallery 1987",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "9f4a61d9-58ff-4a29-b0dc-0feb64c71114",
+  "name": "Friends of the Tate Gallery out of funds bequeathed by Miss Helen Arbuthnot 1983",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "ed9c659c-e3ad-4b7e-bcd8-eaa8f8350e15",
+  "name": "Warner Communications Inc. and Matching Funds from the National Endowment",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "a411d38d-a856-46a4-900b-ff1b23862f50",
+  "name": "Humanities Fund Inc",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "512c0b57-27ed-45b9-8e59-caa7524ecd2f",
+  "name": "Gallery Group in Honor of Dr. Sherman E. Lee",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "baf3a7f1-dc80-42b8-9c37-39782aea9122",
+  "name": "Jacques Baruch Gallery and Purchase",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "6d8c3d74-e213-4455-bdb7-ac7134cc75f8",
+  "name": "Anonymous dealer",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "313407a1-3a37-4925-9428-38cdf9515639",
+  "name": "Richard L. Feigen on behalf of the Richard Feigen Gallery",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "5fab7ffc-5de8-4009-86bb-48eb66244631",
+  "name": "David Posnett and the Leger Galleries 1996 to celebrate the Tate Gallery Centenary 1997",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "2786fce3-bb69-4c05-b6a7-9e7d3587bb01",
+  "name": "Jacquinot to Galerie Pardo",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "975cd7f5-8163-4bd9-9ed1-66d4e429a848",
+  "name": "Blumka Gallery. Chester D. Tripp Fund",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "1c66fd80-e582-4174-9f61-b07aa63d6165",
+  "name": "Catharine Lorillard Wolfe Art Club Inc",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "f9752d2c-6d36-4b5e-ab45-08afc45b41d8",
+  "name": "Cooling Gallery to Hirshl and Adler",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "e7c60812-cf33-42ba-a603-d4307c81ffc4",
+  "name": "Friends of the Tate Gallery 1996",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "15169cc9-20ab-48a5-a75f-19620101e0ec",
+  "name": "Friends of the Tate Gallery 1981",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "c863e32a-68e8-4185-919b-373033bded95",
+  "name": "Mrs Gilbert Cousland 1996 to celebrate the Tate Gallery Centenary 1997",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "26c3c8aa-ac16-46b0-9263-27eb54916974",
+  "name": "Friends of the Tate Gallery 1986",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "a6592c9e-88aa-4afc-8032-26c53ee3c2d7",
+  "name": "Marlborough-Gerson Gallery to Dorothy Braude Edinburg",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "1d358d19-bcf0-47cb-a26f-c905f55a7e52",
+  "name": "Ray Yoshida. Sold by Russell Bowman Art Advisory",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "a619c75a-2403-4215-a0df-7f1b68e6a813",
+  "name": "Agnew's to celebrate the Tate Gallery Centenary 1997",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "fe5d5057-b733-4948-baa2-f5576ba72497",
+  "name": "New York: College of Fine Arts",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "0b6038af-27dd-4ff9-ac8f-763fa9097782",
+  "name": "Mrs. Nancy E. Symington and Mr. Charles C. Glover III) The Corcoran Gallery of Art",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "a137ef4a-9f6e-4af8-9c3b-3ec12870f68a",
+  "name": "Photography Gallery Fund",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "6a974856-cf17-42f4-8a33-e67bdf30d812",
+  "name": "Maxwell Davidson Gallery to Dr. and Mrs. Martin Gecht",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "af9f733f-c1a7-481a-a8d3-8328f6d8d92e",
+  "name": "Inc. Purchase Fund",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "42a166ad-08cb-4db4-8d68-4affa0016ca8",
+  "name": "Friends of the Tate Gallery 1963",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "b68fab1e-2e11-409a-8bc9-226abe8fb2ef",
+  "name": "Friends of the Tate Gallery 1968",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "683cefe1-991c-4f7d-b1ae-4c36ca49d5f6",
+  "name": "Antiquarian and Landmarks Society Inc. of Connecticutt",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "44e2ff80-11be-436b-9a07-c8d18a983110",
+  "name": "Janet Wolfson de Botton 1996 to celebrate the Tate Gallery Centenary 1997",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "bc000a05-306b-4b73-9317-0db840e13430",
+  "name": "Friends of the Tate Gallery 1958",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "4412124e-66a4-4c81-9c4a-ec52ea21c801",
+  "name": "Friends of the Tate Gallery 1982",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "f69475c0-ce76-4332-90d6-f4dbc297fbd7",
+  "name": "Herbert Palmer Gallery to Dawn Netsch",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "4d0ef086-51c8-4e19-9c5a-6692938b681c",
+  "name": "Hafner Associates Inc",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "a2aa620f-9d17-4fd1-bd50-5e0b48753af7",
+  "name": "Axel Duckert Gallery to Kay Otto Fisker",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "abb0e023-6a70-4529-a03c-b00518aea3c0",
+  "name": "Friends of the Tate Gallery in honour of Richard Morphet",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "764d28d6-ada3-4cec-b2e6-5b2daa395f2b",
+  "name": "Dealer",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "cd9f0d14-b887-41c6-8f69-f6b94ae562d1",
+  "name": "Fine Art Society",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "4455a2e1-e7a6-474b-862d-b5a615b3ccf4",
+  "name": "Friends of the Corcoran Gallery of Art)",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "05ff96c0-8bde-4c05-8c27-cb7febe6f709",
+  "name": "Everfast Fabrics Inc. Gift Fund",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "ee03a4b1-a977-486d-b80d-9483a2e5023f",
+  "name": "Friends of the Tate Gallery 1974",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "9d5664b3-78dc-43aa-8a48-ad88fce796fb",
+  "name": "French dealer to Ratton-Ladrière",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "285605d4-2fff-4bc4-a9dd-30e5b74f6024",
+  "name": "Stefan Lennert Ltd. to Dr. and Mrs. Martin Gecht",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "8fdc3091-52b7-4883-81c6-a2c885b99e23",
+  "name": "Mrs Gilbert Cousland 1996 to celebrate the Tate Gallery Centenary and the Hogarth Tercentenary 1997",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "46e0c9ad-e9b0-4bb1-a987-cf970a1d9f34",
+  "name": "Salander-O’Reilly Gallery to the Maxwell Davidson Gallery",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "75b6d218-d322-4529-87a1-0abe80143167",
+  "name": "Frank B Bristow to the Corcoran Gallery of Art",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "f8aaf924-c0ce-456b-a3a2-e45d9dac4dad",
+  "name": "Women's Committee of the Lakewood Civic Art Gallery",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "6af6e14f-5a1d-47ad-b30b-58c744585387",
+  "name": "Walton Gallery to Browne and Diane Goodwin",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "8e65d81a-2036-43b0-8ef8-80d7399d1d8b",
+  "name": "Friends of the Tate Gallery 1971",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "15e8f0a9-ef59-45f5-b652-b45e0cc7c46b",
+  "name": "Friends of the Tate Gallery 1969",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "cca39fab-c5e6-4f9b-beb0-03ba74d2d9ff",
+  "name": "Sold by Albert Roullier Gallery",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "f8a31f79-a2e8-4a2c-a36e-f9e36f101f03",
+  "name": "Fine Art Society PLC",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "acff9d60-c14f-46e7-a927-68750114a647",
+  "name": "Shipped by the artist to the art dealer",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "52a3cdde-a136-4e78-94ca-ac8f92b48889",
+  "name": "Association of International Photography Art Dealers",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "358a9732-e3e1-47cb-9f91-bdd363b57eb8",
+  "name": "Edward C. and Mary Walker 1937 to The Corcoran Gallery of Art",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "6e64c670-87f0-43fa-a8af-447be6f9c7c1",
+  "name": "Ian Fleming-Williams 1995 to celebrate the Tate Gallery Centenary 1997",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "ef5c8ebd-23aa-4d18-bd11-e0ad74e36a52",
+  "name": "Society of American Graphic Artists Inc",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "6b240061-e856-42d2-b4e6-e4a2424f8436",
+  "name": "Gallery Edo NYC. Nathalie Gookin Fund",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "e43b322c-e0d3-4de4-8939-9a0f5dbb0d5d",
+  "name": "Friends of the Tate Gallery 2000",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "0d8c4b1e-0432-4e58-89d6-d84c515ff510",
+  "name": "Sold by Galerie Percier",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "8abb42a4-4354-4a00-9c78-cce19fec70e9",
+  "name": "Friends of the Tate Gallery 1967",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "a5fe8c73-703d-46ea-9fa9-0977b37f4d44",
+  "name": "Thomas Borgman Gallery to Dr. and Mrs. Martin Gecht",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "98a57148-b745-42de-b910-e56cfe9a2295",
+  "name": "American Society of Graphic Artists Inc",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "e4423a26-b4dc-4582-a496-5d29c41ae505",
+  "name": "Friends of the Tate Gallery 1966",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "bc9c4229-60e1-4829-8c69-b7077c624429",
+  "name": "Friends of the Tate Gallery 1988",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "a6dacc19-eb0e-48d2-bccd-e0b5884b2f30",
+  "name": "Gallery to Richard and Mary L. Gray and the Gray Collection Trust",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "8b7c55e5-5185-4118-ad08-7949b980d021",
+  "name": "Fine Arts Associates",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "1f444709-ba89-4e88-93b1-169eadc219e1",
+  "name": "Francis Carnwath to mark his term of office at the Tate Gallery and",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "e2a0041f-4d88-4444-a411-f996007390dc",
+  "name": "Art Rental and Sales Gallery Fund",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "bf45acaa-b3f9-4a9b-8ad5-187fc0960291",
+  "name": "Shepherd Gallery Associates",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "e2bada40-1ff1-48e7-93ab-982216585a9c",
+  "name": "Galerie Nathan to Paul Rosenberg Gallery and Co",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "f7b7029c-9eac-42ef-84f6-0bf4d680567f",
+  "name": "Esso UK plc to mark the first anniversary of the opening of the Tate Gallery Liverpool 1989",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "e91182b9-a548-4625-ab2c-f19dd763439e",
+  "name": "American Graphic Society Inc",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "47b50238-f137-4ec0-9440-bd37d3b5200f",
+  "name": "Purchased with funds provided by Photo Gallery Fund",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "def64aba-798c-4e2a-956f-8d168944f969",
+  "name": "Anne Christopherson 1996 to celebrate the Tate Gallery Centenary 1997",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "f8996122-65b6-4367-a5fe-858fc6a46b26",
+  "name": "Inc. Gift Fund",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "0bc4bbe9-48e0-4ce4-a700-1d877f816144",
+  "name": "Gallery Group Fund",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "530b00af-8236-4d12-9141-b0c0dc09354b",
+  "name": "Sold by Adler Gallery",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "6709bc60-b932-4647-a0a1-6553a413d879",
+  "name": "Georges Bonger Gallery to Dorothy Braude Edinburg",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "aadc3a43-c2c3-4301-a1ac-02903951b132",
+  "name": "Joseph M. May Memorial Association Inc",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "bfd532d9-c2c6-49db-9c84-e56a73c3e78e",
+  "name": "Art Dealers Association Fund",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "5dff9b86-fa8d-450c-8df7-4f5f0a6e6f13",
+  "name": "Tyler Graphics Ltd in honour of Pat Gilmour",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "748b3ebb-3316-49f3-8bf3-b70a007f77f1",
+  "name": "Friends of the Tate Gallery 1990",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "ef7fd9e8-81cc-4f92-83e5-c5908097be34",
+  "name": "Friends of the Tate Gallery 1962",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "0c4675cc-61b6-4d5a-a848-b748d48765fa",
+  "name": "Gallery Fine Arts Associates",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "b1d921e6-45cd-440e-a837-48ba09055f9b",
+  "name": "Lennon-Weinberg Gallery to Cynthia Carlson and Bob Bertoletti",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "f37cc3bd-0ef3-49fc-8a26-151a58057fc2",
+  "name": "Frank B. Bristow to Corcoran Gallery of Art",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "1de403b7-15ed-4fde-84f4-830b40b0c1f1",
+  "name": "Art Rental and Sales Gallery of the Woman's Board Fund",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "8fff73a6-8d9a-4062-89e9-062b542c6e7a",
+  "name": "Friends of the Tate Gallery",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "a6091ce0-14fa-4da0-b30e-5280dd79a33c",
+  "name": "Friends of the Tate Gallery 1959",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "2f6e7ce4-030e-4f1a-b145-cbe290f7a2c1",
+  "name": "Ancient Armor...sold by Mr. George Robins...at Lang's Shooting Gallery",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "36b8028a-167a-4acd-be8d-8ed965768cae",
+  "name": "Contemporary Art Society to celebrate the Tate Gallery Centenary 1997",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "b892367b-fff4-42f3-907d-ef1b69baaa00",
+  "name": "J. B. Neumann to Saidenberg Gallery",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "3f47aa50-12a3-4872-b91a-c1ef986f0a1d",
+  "name": "American Art Association & Anderson Galleries Inc",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "19ed5af4-91e8-4fb9-8f2b-bece11dfa4f0",
+  "name": "Publications Department and the Trustees of the Tate Gallery Trust",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "ee9ec07b-33ba-4b5b-b7e8-2df6793c632a",
+  "name": "Fine Art Society Ltd",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "da114a33-8def-484a-917a-d82724529f97",
+  "name": "Susan Schulman Fine Art Inc. and Carolyn Bullard Fine Prints and Drawings LLC",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "bf192c2d-625b-4bd7-a846-3864bfa13480",
+  "name": "Friends of the Tate Gallery 1984",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "22ec0048-13c5-4d94-8589-739367471138",
+  "name": "Friends of the Tate Gallery 1994",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "ab85c468-b6c1-446e-ab2c-6f87967f4892",
+  "name": "Florentine dealer or private",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "ee468e16-ea19-4988-875c-7e5bc0471592",
+  "name": "Guild Gallery",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "d200e115-b0bf-4905-9add-96b4524c5094",
+  "name": "Gift from the Trustees of the Corcoran Gallery of Art",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "0c9de611-bcb5-41e9-95f7-4ec78e4d1684",
+  "name": "Fine Arts Society",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "7f878768-e7a4-4b9a-ad02-4eda4bf2b02b",
+  "name": "Friends of the Tate Gallery 1980",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "ae52924d-9ba0-4a94-8c27-62027b6491cd",
+  "name": "Etchings of Paris:  The Gallery of Notre Dame",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "28a0499b-4bce-4c74-bc86-e274bdfcd4d4",
+  "name": "Friends of the Tate Gallery 1961",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "91650c55-9869-41e7-bdb1-e245b7d2d3e9",
+  "name": "Alexander Drake to the Macbeth Gallery",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "c487076a-12bb-4218-98b3-6c32e779fdd7",
+  "name": "Friends of the Tate Gallery 1964",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "506c9cf6-dd7c-4305-a826-216206b0fe63",
+  "name": "Leonard Roberts to celebrate the Tate Gallery Centenary 1997",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "c752cbad-91bc-4b88-96ce-d5cecb976819",
+  "name": "Westinghouse Electric Corporation and Rockefeller Center Inc",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "0cbf5643-4628-495d-a2f8-a6b94b91ae8e",
+  "name": "Aline B. Saarinen to Wildenstein Gallery",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "bb335004-3a7a-42a8-a9c5-8fe9641ea241",
+  "name": "Friends of the Tate Gallery 1960",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "f5cb0b35-39be-403e-ba3a-0dbf6272cd47",
+  "name": "Laurent Delaye Gallery with assistance from David and Janice Blackburn 2002",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "4b685ad7-6160-4584-8fbf-e32c210463a3",
+  "name": "Friends of the Tate Gallery 1973",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "efddc202-4e51-411f-9ff0-1f3ed86aaf57",
+  "name": "Frumkin & Struve Gallery Chicago Benefactors of Architecture Endowment Fund",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "80788b9c-0f5b-4f9b-b0cc-2879b7d0adb1",
+  "name": "Friends of the Tate Gallery 2001",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "d25e15f5-60d9-411e-a68e-736abb8eceb5",
+  "name": "Friends of the Tate Gallery 1998",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "56052f8b-f69b-4999-9739-8c94b47e33d2",
+  "name": "Friends of the Tate Gallery 1999",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "cd1f915a-ed5c-431c-aa47-619756641b27",
+  "name": "Fine Art Society to J. Leslie Wright",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "f83d7340-f286-4581-ac38-1e6006427e54",
+  "name": "Mrs Gilbert Cousland to celebrate the Tate Gallery Centenary 1997",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "f0603d50-aa48-4751-a6fe-ec874111c2ac",
+  "name": "Timothy Taylor Gallery with funds provided by Mr and Mrs Jonathan Green 2003",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "a800ef46-b26a-4275-99a9-78f1e5546c04",
+  "name": "Frith Banbury and allocated to the Tate Gallery 2009",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "7d13d121-b92b-426e-8c07-dde6c08fdf9f",
+  "name": "Gallery Fund",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "0439ba4a-39fa-47ed-aa52-0ee8f25fd41e",
+  "name": "Friends of the Tate Gallery with funds provided by Associated Rediffusion Ltd 1959",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "cdc1c636-a1c7-4cc3-99ae-cd9f69a89b11",
+  "name": "Sir Alan and Lady Bowness to celebrate the opening of Tate Gallery St Ives 1993",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "abe7d641-89db-40ce-966d-4c2b430ef817",
+  "name": "Fine Arts Alumni Association",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "9a3f1f66-f22f-4f27-a49a-b402a6a6a1b6",
+  "name": "Women's Committee of the Art Gallery of Toronto",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "07035128-f218-42c9-9b05-8ecbe32af025",
+  "name": "Fréderique Tison to Galerie Claude Bernard",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "f657a95b-7701-4580-8978-3e6317e0471e",
+  "name": "Fine Art Society to John Walter Clarke",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "aeb2d121-bd03-4aeb-886c-93e32c77d03a",
+  "name": "W. E. Duits Ltd. to Charles Worcester",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "3df1e898-5c0e-432a-953c-d2761ceefb03",
+  "name": "Friends of the Tate Gallery 1970",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "2e074d07-15ba-4a48-b1df-6321521dc44b",
+  "name": "Adele R. Levy Fund Inc",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "e1ab10a4-1df3-453c-9b2b-0ae236f748ce",
+  "name": "Carlton Gallery. Joseph J. Ryerson Fund income",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "cfcec6d8-6829-4819-9d74-2ac2fbd2829e",
+  "name": "Stephen Golub Fine Arts Trust",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "a92f4ec6-0b61-48c5-a60d-180c59c4b01f",
+  "name": "Friends of the Tate Gallery 1985",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "d7b19557-aa77-4ff3-934d-804cad9080a3",
+  "name": "Friends of the Tate Gallery and the Art Fund",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "f9701fa7-716e-4895-a2aa-66d1c4f018aa",
+  "name": "Photography Gallery Purchased with funds provided by Fund",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "666729ee-45a5-4c32-9679-1560102cc6e5",
+  "name": "Sold by Sidney Janis Gallery",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "004d3046-d98e-4103-9737-1a4beaf3619f",
+  "name": "Friends of the Tate Gallery 1965",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "bbcc24dc-0cd2-45d1-976f-6dbd7b7a03c6",
+  "name": "American Friends of the Tate Gallery 1961",
+  "bucket": "collector_inst"
+ },
+ {
+  "kind": "gallery",
+  "id": "58697cc8-0cd1-4cc8-ac09-c6781b90979a",
+  "name": "Warner Communications Inc. Purchase Fund",
+  "bucket": "unknown"
+ },
+ {
+  "kind": "gallery",
+  "id": "c527fdad-385c-437c-b53f-b9350708573e",
+  "name": "Squire Gallery to P.&D. Colnaghi and Company",
+  "bucket": "unknown"
+ }
+]

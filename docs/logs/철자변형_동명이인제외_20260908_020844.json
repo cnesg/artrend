@@ -1,0 +1,135 @@
+[
+  {
+    "keep_id": "19db7715-776d-4def-8fa2-1b72604536dc",
+    "keep_name": "Katsukawa Shunkо̄",
+    "dupe_id": "f1349852-dc52-426e-923f-57c3dedf4f65",
+    "dupe_name": "Katsukawa Shunei",
+    "reason": "birth_year gap 19: 1743 vs 1762"
+  },
+  {
+    "keep_id": "d2dd7eda-1926-4ca7-9d81-7e7b4090444f",
+    "keep_name": "Torii Kiyomitsu I",
+    "dupe_id": "80d541f6-9c14-4e23-b6ad-6ebd8ee4699c",
+    "dupe_name": "Torii Kiyomasu I",
+    "reason": "birth_year gap 39: 1735 vs 1696"
+  },
+  {
+    "keep_id": "edcc4003-e9d5-4bad-abf4-b3547eba3add",
+    "keep_name": "Rebecca Horn",
+    "dupe_id": "5817e59f-7e1e-4807-9b15-580b4ece4129",
+    "dupe_name": "Rebecca Shore",
+    "reason": "nationality mismatch: 'German' vs 'American'"
+  },
+  {
+    "keep_id": "d1fed97a-273d-4cc6-b4e1-19227018702b",
+    "keep_name": "Utagawa Kunimasa",
+    "dupe_id": "553ba4ec-af7a-449e-94fd-1c44e3d6644f",
+    "dupe_name": "Utagawa Kunimaru",
+    "reason": "birth_year gap 20: 1773 vs 1793"
+  },
+  {
+    "keep_id": "d1fed97a-273d-4cc6-b4e1-19227018702b",
+    "keep_name": "Utagawa Kunimasa",
+    "dupe_id": "82818b16-0481-4f10-9ccc-fb9603cd1787",
+    "dupe_name": "Utagawa Kokunimasa",
+    "reason": "birth_year gap 101: 1773 vs 1874"
+  },
+  {
+    "keep_id": "f09331e4-4376-4bf9-b78e-c3bfc4405cee",
+    "keep_name": "Bernard Cohen",
+    "dupe_id": "33eca6a7-ad01-4de2-8e26-9253b0d2d15d",
+    "dupe_name": "Bernard Kohn",
+    "reason": "nationality mismatch: 'British' vs 'American'"
+  },
+  {
+    "keep_id": "9b63ec7d-526d-4e83-b882-e2f5ea353090",
+    "keep_name": "Joe Zucker",
+    "dupe_id": "abee3784-4d19-4c86-a661-e70b00577c31",
+    "dupe_name": "Joe Zirker",
+    "reason": "birth_year gap 17: 1941 vs 1924"
+  },
+  {
+    "keep_id": "9e64e050-84b8-4f24-9f7d-96090ecaae06",
+    "keep_name": "Zhang Yu",
+    "dupe_id": "8af953cf-2b07-4326-ac82-3e7c56b6f5df",
+    "dupe_name": "Zhang Yin",
+    "reason": "birth_year gap 428: 1333 vs 1761"
+  },
+  {
+    "keep_id": "cea0369e-390f-4bdc-8871-a67ae0afeb01",
+    "keep_name": "WANG Chen",
+    "dupe_id": "fad014ac-a3b2-4c9a-846c-48e06103dc6f",
+    "dupe_name": "Wang Wen",
+    "reason": "birth_year gap 223: 1720 vs 1497"
+  },
+  {
+    "keep_id": "d684a9ff-f064-4628-a32f-36d52c425a5f",
+    "keep_name": "Torii Kiyomitsu",
+    "dupe_id": "bac1a2eb-c317-4b79-affc-422b5f6af9c3",
+    "dupe_name": "Torii Kiyomasu",
+    "reason": "birth_year gap 29: 1735 vs 1706"
+  },
+  {
+    "keep_id": "8d3f1da9-8a4a-4b04-8e44-692bf11bba40",
+    "keep_name": "Zhu Da",
+    "dupe_id": "a3772f57-0b64-4edb-affc-461f6fd3d8ba",
+    "dupe_name": "Zhu Duan",
+    "reason": "birth_year gap 136: 1626 vs 1490"
+  },
+  {
+    "keep_id": "bf64a4e7-4257-493d-bf19-0afc9ee563e0",
+    "keep_name": "Otto Neumann",
+    "dupe_id": "76c18ac1-ceac-463f-a5be-17ac8bb2abb2",
+    "dupe_name": "Otto Treumann",
+    "reason": "nationality mismatch: 'German' vs 'Dutch'"
+  },
+  {
+    "keep_id": "61fb060b-7a25-4af5-b4bd-28cce4fdf090",
+    "keep_name": "Adolf Loos",
+    "dupe_id": "77bfb313-b7ce-4ad7-8d18-8b0a8d63f55f",
+    "dupe_name": "Adolf Lins",
+    "reason": "nationality mismatch: 'Austrian' vs 'German'"
+  },
+  {
+    "keep_id": "7747a1ae-8718-4cd0-bcc8-4973466e5fe6",
+    "keep_name": "Giuseppe Mazzuoli",
+    "dupe_id": "a68ff687-05d2-4420-aa06-c9819fe1b4db",
+    "dupe_name": "Giuseppe Bezzuoli",
+    "reason": "birth_year gap 140: 1644 vs 1784"
+  },
+  {
+    "keep_id": "7b3ce194-152d-45dc-b49c-62450f0eb114",
+    "keep_name": "Utagawa Kuninao",
+    "dupe_id": "a358a2e3-7aec-4284-9f02-966392108cec",
+    "dupe_name": "Utagawa Kunisato",
+    "reason": "birth_year gap 57: 1793 vs 1850"
+  },
+  {
+    "keep_id": "f2472f5b-1d96-46f1-9455-9d749feacb7f",
+    "keep_name": "Carlo Guarienti",
+    "dupe_id": "99334558-142b-4f51-af51-c464e4195cee",
+    "dupe_name": "Carlo Arienti",
+    "reason": "birth_year gap 122: 1923 vs 1801"
+  },
+  {
+    "keep_id": "30972b1c-f057-4130-abc9-6a5cd017e11b",
+    "keep_name": "Frédéric Brentel",
+    "dupe_id": "ce2406a0-50e8-42b4-9063-bd42df5e8c1c",
+    "dupe_name": "Frederic Brenner",
+    "reason": "nationality mismatch: 'German' vs 'French'"
+  },
+  {
+    "keep_id": "e2e9c2d5-c0a1-4ad8-a437-57d0cf8d46cd",
+    "keep_name": "Mary T. Smith",
+    "dupe_id": "7ad2a082-743b-47b4-b837-2a37655870f2",
+    "dupe_name": "Mary N. Keith",
+    "reason": "birth_year gap 98: 1905 vs 1807"
+  },
+  {
+    "keep_id": "8838ad8e-ab85-4e92-8567-0f33df9854cd",
+    "keep_name": "Martha Walter",
+    "dupe_id": "f8732610-5f8c-4dd8-b548-f1183f3fb5f9",
+    "dupe_name": "Martha Alber",
+    "reason": "nationality mismatch: 'American' vs 'Austrian'"
+  }
+]

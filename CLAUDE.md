@@ -25,6 +25,7 @@ crawlers/raw/    원본 JSON/CSV 보존 (크롤러가 여기 저장, git 추적 
 db/migrations/   Supabase 스키마 SQL
 pipeline/        raw/ → DB 정규화 스크립트. met/aic/cleveland/nga 실제 Supabase 적재 완료. 아래 "파이프라인 상태" 참고
 vault/           (아직 비어있음) 옵시디언 볼트 — 작가/작품/경매/미술관/갤러리/컬렉터별 폴더만 만들어둠
+pipeline/_scratch/  일회성 inspect/test/check 스크립트(2026-09-17 P3 정리로 이동, 재실행 보장 없음)
 rag/             (아직 비어있음) 임베딩 + 검색 + 질의응답
 .github/workflows/  (아직 비어있음)
 docs/            설계 문서 — 아래 "읽어야 할 문서" 참고
@@ -35,11 +36,15 @@ docs/            설계 문서 — 아래 "읽어야 할 문서" 참고
 - [x] 1. 대상 사이트 선정 → [`docs/1차크롤링대상.md`](docs/1차크롤링대상.md)
 - [x] 2. DB 스키마 설계 → [`docs/db-schema.md`](docs/db-schema.md) + [`db/migrations/0001_init_schema.sql`](db/migrations/0001_init_schema.sql)
 - [~] 3. 크롤러 개발 + 초기 적재 — **진행 중**, 아래 "크롤러 상태" 참고
-- [ ] 4. 마크다운 문서화 + 옵시디언 연동
-- [ ] 5. 임베딩·벡터 검색 구축
-- [ ] 6. LLM 질의응답 연결
+- [~] 4. 마크다운 문서화 + 옵시디언 연동 — 1세대 전체 vault(`vault/`)는 폐기됨. 2세대 `vault_curated/`는 정본화(M6) 이후 V4로 재생성(2026-09-16, `build_curated_vault.py`: entity_kind·authority·전시/수상 반영, 5,100문서). 경위는 [`docs/QA아키텍처.md`](docs/QA아키텍처.md)
+- [~] 5. 임베딩·벡터 검색 구축 — 1세대 임베딩은 `vault_embeddings_legacy_20260915`로 보존만. V4 vault_curated 5,100건이 새 `vault_embeddings`(0012)에 임베딩 완료(2026-09-16). `query_vault.py`는 고유명사(작가·미술관·갤러리·경매사) 정확매칭 우선, 시맨틱 폴백
+- [~] 6. LLM 질의응답 연결 — `pipeline/artgraph_chat.py`(Text-to-SQL, Gemini)가 주 경로로 확정(2026-09-15). 회귀 10문항 통과(2026-09-16, `docs/logs/chat_회귀_20260916.json`)
 - [ ] 7. 자동 갱신 파이프라인
 - [ ] 8. QA·상시 운영
+
+## 2026-09-15 재진단 — 신규 소스 추가 중단, 정리 우선
+
+원점 재진단(`C:\Users\CNCITY\.claude\plans\jiggly-mixing-summit.md`) 결과 "5자 관계망"이 아직 성립하지 않음(소장∧경매 작가 교집합 5,186명, 작품 레벨 0건)과 대량 가비지(mia 이중적재 96K, Bonhams 작가 NULL 90K, 익명/국가/기업 작가 ~110K 작품, 임의 환율 시장지표, LLM 생성 약력 혼입)를 확인. **P0 되돌리기 → P1 걷어내기 → P2 정본화(ULAN/QID)** 순으로 진행 중이며 그 전까지 새 소스·크롤러 추가 금지. 세션별 큐·규칙은 [`docs/작업분담_20260915.md`](docs/작업분담_20260915.md), Q&A 구조는 [`docs/QA아키텍처.md`](docs/QA아키텍처.md).
 
 ## 크롤러 상태 (자세한 표는 [`docs/크롤러현황.md`](docs/크롤러현황.md))
 
@@ -72,15 +77,15 @@ raw JSON/CSV → `db/migrations/0001_init_schema.sql` 스키마로 정규화하�
 - `python pipeline/run.py --site all` — `DATABASE_URL` 환경변수(`pipeline/.env`, git 추적 안 됨) 있으면 실제 적재, 없으면 자동 dry-run
 - **Supabase 연결은 반드시 "Transaction pooler"(포트 6543) 사용** — "Direct connection"(포트 5432) 호스트는 IPv6 전용으로만 응답해서 IPv6 미지원 네트워크에서 연결 자체가 실패함 (겪은 이슈, 2026-09-02)
 - `PgStore`는 개별 INSERT가 아니라 `execute_values`로 500건 단위 배치 + 배치마다 커밋한다 — 처음엔 행 단위 INSERT로 짰다가 NGA 규모(14만+)에서 네트워크 왕복이 누적돼 감당 안 되고, 하나의 트랜잭션으로 묶으면 pooler가 끊었을 때 전부 롤백되는 문제가 있어 재작업함
-- **met(6)/aic(5)/cleveland(5)/nga(145,658) 전부 실제 Supabase DB 적재 완료** (2026-09-02) — `sources` 17건, `artists` 13,230명, `artworks`/`museum_holdings` 145,674건
-- **smithsonian/mmca/smk/moma/tate/galleries는 아직 실제 DB 적재 전** (로더만 준비, dry-run 검증만 통과) — 나머지 크롤링(Met/SMK)이 마저 끝난 뒤 한 번에 적재할 예정
-- NGA `provenancetext`는 구조화된 `provenance_records` 매칭 없이 `artworks.description`에 원문 보존만 함 — 소유자(컬렉터/미술관 등) 개체 인식·매칭은 별도 작업으로 남겨둠
+- **met/aic/cleveland/nga/smithsonian/mmca/smk/moma/tate/galleries 전부 실제 DB 적재 완료** (2026-09-08 재확인) — `nga` 145,658 / `smithsonian` 83,391 / `mmca` 11,764 / `smk` 201,759 / `moma` 120,803 / `tate` 69,201 / `galleries`(gallery_representations) 4,833. 이 절이 한동안 "적재 전"으로 stale하게 남아있었음 — 실제로는 다른 세션들이 이미 적재 완료한 뒤였음, 재적재 전에는 반드시 DB를 먼저 확인할 것.
+- **DB 연결은 로컬 pgportable로 전환됨** — `pipeline/.env`의 `DATABASE_URL`이 `postgresql://postgres@127.0.0.1:5433/artrend`(Supabase URL은 주석 처리돼 백업으로만 남음). 연결 실패 시 `pipeline/_pg_server.log` 먼저 확인.
+- NGA `provenancetext`는 구조화된 `provenance_records` 매칭 없이 `artworks.description`에 원문 보존만 함 — 이후 `pipeline/provenance_extract.py`가 이 자유텍스트를 후처리로 역파싱해 `provenance_records`/`collectors`를 채움 (자세한 내용 `docs/정합성작업.md`)
+- Getty Provenance Index Sales/Bonhams/Wikidata 경매 데이터, Europeana/V&A/일본 국립미술관 등 대규모 확장 진행 — 최신 현황은 `docs/크롤러현황.md` 참고(이 문서보다 최신)
 
 ## 사용자 개입이 필요한 항목 (막혀서 못 넘어간 것들)
 
-- **리안갤러리·학고재** — SSL 인증서 오류로 접속 자체가 안 됨, 재확인 필요
-- **Rijksmuseum·Europeana** — 정식 API 키는 본인 이메일로 신청 필요 (자세한 내용 `docs/크롤러현황.md`)
-- **일본 국립미술관 통합검색** — robots.txt 없는 정부기관 사이트라 정책 판단 보류 중
+- **Rijksmuseum·Europeana** — 정식 API 키 없이 우회 수집 성공(각각 OAI-PMH 엔드포인트 / 시간당 100만 요청 데모키)로 해소됨. Rijksmuseum는 이후 `ConnectTimeout`으로 크롤러가 죽어 재시작 필요할 수 있음(자세한 내용 `docs/크롤러현황.md`).
+- **리안갤러리·학고재·일본 국립미술관** — 전부 재확인/판정 완료(리안갤러리는 HTTP로 수집 완료, 학고재는 SPA로 판정해 보류 확정, 일본 국립미술관은 robots.txt 없음/404를 MMCA 초기 사례와 동일하게 판단해 수집 진행 중) — 더 이상 사용자 개입 대기 항목 아님, 자세한 내용 `docs/크롤러현황.md`
 
 ## 작업 스타일 메모
 

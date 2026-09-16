@@ -1,0 +1,401 @@
+[
+  {
+    "keep_id": "58f52db0-a9b3-4536-9d50-99e9475abc2a",
+    "keep_name": "Alphonse Legros",
+    "dupe_id": "8b49af7f-4dba-4568-a591-fc1e87af29c6",
+    "dupe_name": "Alphonse Leroy",
+    "reason": "nationality mismatch: 'French and British' vs 'French'"
+  },
+  {
+    "keep_id": "6b3d4aa0-3c86-488a-863e-9ad46e90b92f",
+    "keep_name": "Jean-Louis Forain",
+    "dupe_id": "c610566f-4715-473b-83b8-e61749985aa3",
+    "dupe_name": "Jean-Louis Morin",
+    "reason": "birth_year gap 98: 1852 vs 1754"
+  },
+  {
+    "keep_id": "3f4343d8-a984-44b5-80b2-2a23dc1633f7",
+    "keep_name": "Hansen, H.P.",
+    "dupe_id": "3c821367-71a1-4846-953b-2a01a071f7d9",
+    "dupe_name": "Hansen, J.Th.",
+    "reason": "birth_year gap 19: 1829 vs 1848"
+  },
+  {
+    "keep_id": "8e38d9bc-6050-417f-a3b4-9e522a0e01c8",
+    "keep_name": "Torii Kiyonaga",
+    "dupe_id": "f5cf1a7b-4bc3-4372-b0c4-bf64eb71ef2a",
+    "dupe_name": "Torii Kiyotada",
+    "reason": "birth_year gap 32: 1752 vs 1720"
+  },
+  {
+    "keep_id": "d11660ca-4575-4ef6-b09e-0622d662fad6",
+    "keep_name": "Arthur Dove",
+    "dupe_id": "6495d018-5b2c-411f-bb32-d5903987ccfa",
+    "dupe_name": "Arthur Hope",
+    "reason": "birth_year gap 30: 1880 vs 1850"
+  },
+  {
+    "keep_id": "56c6d6c0-e89f-42c2-9c26-cba2e121d361",
+    "keep_name": "Victor Petit",
+    "dupe_id": "fc74e7eb-9766-4bd1-8175-2216b7f4e8be",
+    "dupe_name": "Victor Peter",
+    "reason": "birth_year gap 23: 1817 vs 1840"
+  },
+  {
+    "keep_id": "24b6488a-aded-4728-bcaf-4f33302d4093",
+    "keep_name": "Jean-Baptiste Pater",
+    "dupe_id": "362f92d2-6e58-49b0-ad54-993339a6f5e0",
+    "dupe_name": "Jean-Baptiste Patas",
+    "reason": "birth_year gap 49: 1695 vs 1744"
+  },
+  {
+    "keep_id": "58ac099d-14c2-47e5-be94-5f96f52fa67d",
+    "keep_name": "Ed Moses",
+    "dupe_id": "17c1c8b2-9289-45d6-84c0-5e6f811e2595",
+    "dupe_name": "Ed Bowes",
+    "reason": "birth_year gap 18: 1926 vs 1944"
+  },
+  {
+    "keep_id": "a5302e9c-bc8a-4eae-befb-8ce018b1949e",
+    "keep_name": "Utagawa Toyohiro",
+    "dupe_id": "9094d909-7d8d-47ce-bf3c-1722c25922ec",
+    "dupe_name": "Utagawa Toyoharu",
+    "reason": "birth_year gap 28: 1763 vs 1735"
+  },
+  {
+    "keep_id": "d1fed97a-273d-4cc6-b4e1-19227018702b",
+    "keep_name": "Utagawa Kunimasa",
+    "dupe_id": "62edc79a-019a-4a60-8cf6-90e887bfdd82",
+    "dupe_name": "Utagawa Kuniyasu",
+    "reason": "birth_year gap 21: 1773 vs 1794"
+  },
+  {
+    "keep_id": "693e7050-32b5-41cb-9eae-e6ed76bbd0ab",
+    "keep_name": "Carlo Losi",
+    "dupe_id": "84855c1b-88b9-4d93-9d62-fa48b837df31",
+    "dupe_name": "Carlo Cesi",
+    "reason": "birth_year gap 135: 1757 vs 1622"
+  },
+  {
+    "keep_id": "2b184038-0e23-42ed-a3e8-e620d2e07975",
+    "keep_name": "Lois Lane",
+    "dupe_id": "4c6ba7c9-e602-43bd-9908-d406bbf858b3",
+    "dupe_name": "Lois Long",
+    "reason": "birth_year gap 30: 1948 vs 1918"
+  },
+  {
+    "keep_id": "d0b8dd24-d3ae-4ac3-83ac-c50a7bdc6083",
+    "keep_name": "André Collot",
+    "dupe_id": "617a2e1f-b1bb-4abb-8318-b636a8cae7b9",
+    "dupe_name": "André Mollet",
+    "reason": "birth_year gap 1880: 1897 vs 17"
+  },
+  {
+    "keep_id": "11827814-d6bf-4334-892d-da8a0a6dd4b2",
+    "keep_name": "Eugène Fromentin",
+    "dupe_id": "df3a7897-fec1-4f44-8335-100b8f9c1445",
+    "dupe_name": "Eugène Froment",
+    "reason": "birth_year gap 24: 1820 vs 1844"
+  },
+  {
+    "keep_id": "dfafcf88-c88c-4d2e-b834-bc35bc020619",
+    "keep_name": "Wang Jian",
+    "dupe_id": "fbc799b0-8909-4efd-9787-adee9eabf526",
+    "dupe_name": "Wang Yuan",
+    "reason": "birth_year gap 264: 1598 vs 1862"
+  },
+  {
+    "keep_id": "dfafcf88-c88c-4d2e-b834-bc35bc020619",
+    "keep_name": "Wang Jian",
+    "dupe_id": "b0aa62f7-1c6e-4666-b23e-c22094f4612c",
+    "dupe_name": "Wang Yin",
+    "reason": "birth_year gap 252: 1598 vs 1850"
+  },
+  {
+    "keep_id": "d824688d-63af-4cb9-8fdd-a08ce17d4a5c",
+    "keep_name": "Dorothy Norman",
+    "dupe_id": "d17597a5-25ab-4478-b659-43d2a9ef7012",
+    "dupe_name": "Dorothy Bowman",
+    "reason": "birth_year gap 22: 1905 vs 1927"
+  },
+  {
+    "keep_id": "cea0369e-390f-4bdc-8871-a67ae0afeb01",
+    "keep_name": "WANG Chen",
+    "dupe_id": "8ad29ab4-6969-4b3b-8d86-626c3ddf5364",
+    "dupe_name": "Wang Chong",
+    "reason": "birth_year gap 226: 1720 vs 1494"
+  },
+  {
+    "keep_id": "1ebc6a69-dce3-4276-8d55-c2dd7829bb30",
+    "keep_name": "André Marty",
+    "dupe_id": "2c6c346b-4a4b-496d-9aa8-1fe06ec21d42",
+    "dupe_name": "André Mare",
+    "reason": "birth_year gap 30: 1857 vs 1887"
+  },
+  {
+    "keep_id": "0a198ce8-7d77-4074-b1f6-18fa315796b5",
+    "keep_name": "Lü Ji",
+    "dupe_id": "fc2e65a6-af0f-4346-ab51-60285d0959d4",
+    "dupe_name": "Lu Zhi",
+    "reason": "birth_year gap 66: 1430 vs 1496"
+  },
+  {
+    "keep_id": "0a198ce8-7d77-4074-b1f6-18fa315796b5",
+    "keep_name": "Lü Ji",
+    "dupe_id": "9e9c30dd-c129-4f55-9287-a45fa41360f6",
+    "dupe_name": "Lu Hui",
+    "reason": "birth_year gap 421: 1430 vs 1851"
+  },
+  {
+    "keep_id": "96556b4a-b275-4846-a4eb-aabd6542c64f",
+    "keep_name": "Ernst Haas",
+    "dupe_id": "8e89cf40-3e4f-4894-92e8-6e012b395100",
+    "dupe_name": "Ernst Hasse",
+    "reason": "nationality mismatch: 'Austrian' vs 'German'"
+  },
+  {
+    "keep_id": "92f5eb90-69d2-445f-8f08-5decc8f8f3a6",
+    "keep_name": "Katsukawa Shunzan",
+    "dupe_id": "3362b153-d91a-4b47-b7bd-e33fdf11c080",
+    "dupe_name": "Katsukawa Shunsen",
+    "reason": "birth_year gap 20: 1782 vs 1762"
+  },
+  {
+    "keep_id": "905ba078-5e94-423f-817f-5bd3ce89092a",
+    "keep_name": "Carlo Carrá",
+    "dupe_id": "428170c9-cc0f-4098-bd8c-b2a4a52c6fca",
+    "dupe_name": "Carlo Scarpa",
+    "reason": "birth_year gap 25: 1881 vs 1906"
+  },
+  {
+    "keep_id": "17e04249-7ab3-4d9b-8fb2-a2622fc794ea",
+    "keep_name": "Li Shan",
+    "dupe_id": "4285d465-4544-40c4-bdf7-5f4ab3e0677d",
+    "dupe_name": "Li Kan",
+    "reason": "birth_year gap 441: 1686 vs 1245"
+  },
+  {
+    "keep_id": "6f6fa11c-44dc-4bc8-b49b-9e4dcb61d48b",
+    "keep_name": "Fritz Henle",
+    "dupe_id": "189c5cbb-e658-46ba-843c-f946034e447e",
+    "dupe_name": "Fritz Hege",
+    "reason": "nationality mismatch: 'American, born Germany' vs 'German'"
+  },
+  {
+    "keep_id": "47073c72-4879-49c6-a454-773c1d6a1f0c",
+    "keep_name": "Lan Ying",
+    "dupe_id": "65cb87db-c073-4bc6-8841-c91df9bfb952",
+    "dupe_name": "Lan Meng",
+    "reason": "birth_year gap 29: 1585 vs 1614"
+  },
+  {
+    "keep_id": "11969aae-1510-45c5-8221-4a8b48e04fbf",
+    "keep_name": "Wu Li",
+    "dupe_id": "14da16c3-488d-4dd4-aaf0-5e972e1f9564",
+    "dupe_name": "Wu Wei",
+    "reason": "birth_year gap 173: 1632 vs 1459"
+  },
+  {
+    "keep_id": "11969aae-1510-45c5-8221-4a8b48e04fbf",
+    "keep_name": "Wu Li",
+    "dupe_id": "02899b10-a865-451e-bfbd-8243f62be0d3",
+    "dupe_name": "Wu Bin",
+    "reason": "birth_year gap 49: 1632 vs 1583"
+  },
+  {
+    "keep_id": "9919dae0-dcd8-49c4-88fd-291a9b470e04",
+    "keep_name": "Li Song",
+    "dupe_id": "98419412-da49-4671-a509-da737a81b24f",
+    "dupe_name": "Li Tang",
+    "reason": "birth_year gap 96: 1166 vs 1070"
+  },
+  {
+    "keep_id": "3b69f164-f2c5-412a-a788-0a8b16e4f125",
+    "keep_name": "Chen Chun",
+    "dupe_id": "82f175eb-575c-4d31-b258-6c4c94cb64b9",
+    "dupe_name": "Chen Shu",
+    "reason": "birth_year gap 177: 1483 vs 1660"
+  },
+  {
+    "keep_id": "9904ded3-4f5e-4269-b964-1b11d53f411c",
+    "keep_name": "Ni Zan",
+    "dupe_id": "ac20df8b-a242-43c1-a11c-95ec5df5d7b1",
+    "dupe_name": "Ni Tian",
+    "reason": "birth_year gap 549: 1306 vs 1855"
+  },
+  {
+    "keep_id": "5a22ae16-480b-442b-8795-7bcc03fc3244",
+    "keep_name": "Li Di",
+    "dupe_id": "a3c6cf07-7388-4d5a-b555-f0e92d13ade4",
+    "dupe_name": "Li Jin",
+    "reason": "birth_year gap 858: 1100 vs 1958"
+  },
+  {
+    "keep_id": "5a22ae16-480b-442b-8795-7bcc03fc3244",
+    "keep_name": "Li Di",
+    "dupe_id": "7ade76e3-23cf-4d42-8b53-f1c15cc81b47",
+    "dupe_name": "Li Yin",
+    "reason": "birth_year gap 550: 1100 vs 1650"
+  },
+  {
+    "keep_id": "1336fe6b-36d4-43e7-87e5-d33da72f9dd0",
+    "keep_name": "Auguste Bry",
+    "dupe_id": "57994d45-eef8-40b5-af2b-c0cb1cb851a4",
+    "dupe_name": "Auguste Bert",
+    "reason": "birth_year gap 51: 1805 vs 1856"
+  },
+  {
+    "keep_id": "6209c611-d683-4d21-aa23-2fa150b17409",
+    "keep_name": "Luigi Garzi",
+    "dupe_id": "bdf207c2-3762-4d49-8b5c-c1983b2392ad",
+    "dupe_name": "Luigi Bardi",
+    "reason": "birth_year gap 112: 1638 vs 1750"
+  },
+  {
+    "keep_id": "dedc93a7-8c80-4ee4-aed6-c78ead47a1a3",
+    "keep_name": "André Gill",
+    "dupe_id": "0213a378-f9bb-4201-a512-c9ae4f32afdc",
+    "dupe_name": "André Gide",
+    "reason": "birth_year gap 29: 1840 vs 1869"
+  },
+  {
+    "keep_id": "f0146cc0-b445-4433-aa9a-8fda95f5f25f",
+    "keep_name": "Tang Yin",
+    "dupe_id": "2466d327-5cb1-4b36-afe5-9279c707adf1",
+    "dupe_name": "Tang Di",
+    "reason": "birth_year gap 408: 1470 vs 1878"
+  },
+  {
+    "keep_id": "f0146cc0-b445-4433-aa9a-8fda95f5f25f",
+    "keep_name": "Tang Yin",
+    "dupe_id": "1f966a14-3553-40d2-9d38-fd97e095391c",
+    "dupe_name": "Tang Yifen",
+    "reason": "birth_year gap 308: 1470 vs 1778"
+  },
+  {
+    "keep_id": "aa07f5fd-10b9-4ff5-9000-ddea3a403198",
+    "keep_name": "Paolo Gioli",
+    "dupe_id": "f0ab78ab-be26-4925-9491-e496a5cf9fb1",
+    "dupe_name": "Paolo Giovio",
+    "reason": "birth_year gap 459: 1942 vs 1483"
+  },
+  {
+    "keep_id": "f942749f-c535-4654-a84e-d0c72b1840f6",
+    "keep_name": "White, Wayne",
+    "dupe_id": "0f243d3d-d4d9-4de2-8e35-088d1b09403c",
+    "dupe_name": "White, Wade",
+    "reason": "birth_year gap 19: 1890 vs 1909"
+  },
+  {
+    "keep_id": "b10f2516-e61f-426f-82ab-d03562d16bec",
+    "keep_name": "Jack Earl",
+    "dupe_id": "edc4a38d-d87c-4fea-969d-d9c3afb82024",
+    "dupe_name": "Jack Sal",
+    "reason": "birth_year gap 20: 1934 vs 1954"
+  },
+  {
+    "keep_id": "7b3aa8f1-bdb4-41a9-ae75-40df57179484",
+    "keep_name": "Tosa Mitsuoki",
+    "dupe_id": "c84276db-fb4d-45b8-abf2-e2c889aff282",
+    "dupe_name": "Tosa Mitsunori",
+    "reason": "birth_year gap 34: 1617 vs 1583"
+  },
+  {
+    "keep_id": "f3f69a62-e027-4405-910d-5d005f502136",
+    "keep_name": "Fischer, Carl",
+    "dupe_id": "08b51112-a0ce-4be9-84e8-9ff519f00781",
+    "dupe_name": "Fischer, Paul",
+    "reason": "birth_year gap 27: 1887 vs 1860"
+  },
+  {
+    "keep_id": "c8cd6aa9-7e53-4238-a831-5a48ff9786fc",
+    "keep_name": "Larry Day",
+    "dupe_id": "bc8f45b8-7626-49bc-9765-867b1f746a05",
+    "dupe_name": "Larry Gray",
+    "reason": "birth_year gap 23: 1921 vs 1944"
+  },
+  {
+    "keep_id": "3a96da1c-4930-485f-8b46-b5cc5b71fc81",
+    "keep_name": "Arnold Crane",
+    "dupe_id": "23dc8307-6f11-4675-a148-b08bfa254fb2",
+    "dupe_name": "Arnold Chang",
+    "reason": "birth_year gap 22: 1932 vs 1954"
+  },
+  {
+    "keep_id": "a8703be2-2170-4e59-b528-a04e31495b50",
+    "keep_name": "Benjamin Trott",
+    "dupe_id": "37e10629-fcf9-4da4-a4f3-59c78f91d4cb",
+    "dupe_name": "Benjamin Roth",
+    "reason": "birth_year gap 83: 1767 vs 1850"
+  },
+  {
+    "keep_id": "cebe3ed3-cf2b-4a26-80c9-008a31602ff2",
+    "keep_name": "Sheng Mao",
+    "dupe_id": "28823a08-5659-42f4-ab80-4f917f5b7179",
+    "dupe_name": "Sheng Maoye",
+    "reason": "birth_year gap 305: 1310 vs 1615"
+  },
+  {
+    "keep_id": "29a4c5af-e370-4d61-af39-90ee1011ab64",
+    "keep_name": "Xu Wei",
+    "dupe_id": "689479ef-bf62-4165-a778-39385f556085",
+    "dupe_name": "Xu Ben",
+    "reason": "birth_year gap 186: 1521 vs 1335"
+  },
+  {
+    "keep_id": "fb0bc764-0514-41d7-8af2-a1c61c579721",
+    "keep_name": "Shi Lu",
+    "dupe_id": "df051024-f758-4a97-8922-9b0be166ad91",
+    "dupe_name": "Shi Rui",
+    "reason": "birth_year gap 519: 1919 vs 1400"
+  },
+  {
+    "keep_id": "ceb1ce5d-1238-4744-88ae-ab6d8cb25e1f",
+    "keep_name": "Chen Guan",
+    "dupe_id": "28ce6392-fef2-46bb-9159-603deb729db3",
+    "dupe_name": "Chen Ruyan",
+    "reason": "birth_year gap 237: 1563 vs 1326"
+  },
+  {
+    "keep_id": "6867ec45-3710-4dc6-8867-f90e6ba8d86d",
+    "keep_name": "Rudolf Sieck",
+    "dupe_id": "7a04f972-78f8-472e-b546-150d8424e208",
+    "dupe_name": "Rudolf Siebeck",
+    "reason": "birth_year gap 65: 1877 vs 1812"
+  },
+  {
+    "keep_id": "4f0f53f7-d592-4c8b-899d-cc2d1450d72f",
+    "keep_name": "Eiraku Wazen",
+    "dupe_id": "4f30f768-3088-49ec-9330-cd2f273df12c",
+    "dupe_name": "Eiraku Hozen",
+    "reason": "birth_year gap 28: 1823 vs 1795"
+  },
+  {
+    "keep_id": "0490f71b-b44e-4462-8ab2-e4db24902854",
+    "keep_name": "Pietro Bernini",
+    "dupe_id": "351776d5-7ef2-4bcd-bdef-970dc7a004a1",
+    "dupe_name": "Pietro Cerini",
+    "reason": "birth_year gap 138: 1562 vs 1700"
+  },
+  {
+    "keep_id": "003790ee-9a16-431b-a0a6-6797b88eba9e",
+    "keep_name": "Yan Han",
+    "dupe_id": "c0f98afa-cdf1-4336-b335-e90ea4273812",
+    "dupe_name": "Yan Hui",
+    "reason": "birth_year gap 671: 1916 vs 1245"
+  },
+  {
+    "keep_id": "b412a0cb-1b6f-40b2-a0d7-deac261ae21e",
+    "keep_name": "Vincenzo Grandi",
+    "dupe_id": "553cf636-60f8-4b91-8bf1-36840d325c29",
+    "dupe_name": "Vincenzo Galdi",
+    "reason": "birth_year gap 383: 1507 vs 1890"
+  },
+  {
+    "keep_id": "6fb8eaf9-e15e-4290-90de-bf19cbd0b233",
+    "keep_name": "Frederic Millet",
+    "dupe_id": "e8d4bc9d-c0c7-412b-b9ff-2cf812569bdc",
+    "dupe_name": "Frédéric Villot",
+    "reason": "birth_year gap 23: 1786 vs 1809"
+  }
+]

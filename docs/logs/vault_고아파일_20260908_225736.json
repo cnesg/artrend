@@ -1,0 +1,36 @@
+{
+  "artists": {
+    "total_files": 210021,
+    "db_count": 199244,
+    "orphan_count": 5,
+    "orphan_paths": [
+      "C:\\Users\\CNCITY\\artrend\\vault\\artists\\J.R. (8ab11f14).md",
+      "C:\\Users\\CNCITY\\artrend\\vault\\artists\\JÁN MANCUŠKA (54d419ed).md",
+      "C:\\Users\\CNCITY\\artrend\\vault\\artists\\Michael E Smith (3f6667b5).md",
+      "C:\\Users\\CNCITY\\artrend\\vault\\artists\\MR (360e586c).md",
+      "C:\\Users\\CNCITY\\artrend\\vault\\artists\\TJ Wilcox (1f2fdeee).md"
+    ],
+    "unparseable_paths": []
+  },
+  "museums": {
+    "total_files": 739,
+    "db_count": 742,
+    "orphan_count": 0,
+    "orphan_paths": [],
+    "unparseable_paths": []
+  },
+  "galleries": {
+    "total_files": 1772,
+    "db_count": 1772,
+    "orphan_count": 0,
+    "orphan_paths": [],
+    "unparseable_paths": []
+  },
+  "artworks": {
+    "total_files": 2661676,
+    "db_count": 2660817,
+    "orphan_count": 0,
+    "orphan_paths": [],
+    "unparseable_paths": []
+  }
+}

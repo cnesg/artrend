@@ -5,3 +5,5 @@ __pycache__/
 .env
 vault/
 pipeline/_*.log
+docs/_*.log
+vault_curated/

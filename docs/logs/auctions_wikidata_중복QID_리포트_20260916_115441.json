@@ -1,0 +1,1235 @@
+{
+  "generated_at": "2026-09-16T02:54:41.288438+00:00",
+  "note": "QID만으로 묶지 않고 (QID,statement GUID)로만 중복 판정 — 근거는 파일 상단 docstring 참고",
+  "raw_path_total": 1012,
+  "qid_guid_groups": 803,
+  "duplicate_groups": 209,
+  "duplicate_lots_to_drop": 209,
+  "artworks_to_drop": 209,
+  "empty_auctions_to_drop": 169,
+  "samples": [
+    {
+      "qid_guid": "Q106388311-79B43A7A-88E4-4C0E-A076-08D5E23931C2",
+      "keep_lot_id": "20a01464-c3a3-4b73-907c-8ead176e1acb",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q106388311-79B43A7A-88E4-4C0E-A076-08D5E23931C2.json",
+      "drop_lot_ids": [
+        "0b8ac5f1-e9db-4f61-8afc-9dc22f65bae0"
+      ],
+      "drop_auction_ids": [
+        "690f7b70-c5c7-4f90-af9b-382f491a67bc"
+      ],
+      "drop_artwork_ids": [
+        "fc62fa4b-75a7-4847-b6cd-18eb2406b557"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q106388311-79B43A7A-88E4-4C0E-A076-08D5E23931C2.json"
+      ],
+      "title": "Portrait of Janina Propper",
+      "lot_number": "278",
+      "hammer_price": "15000.0",
+      "auction_date": "2017-06-13"
+    },
+    {
+      "qid_guid": "Q107291726-c60d7169-4480-955d-db68-65aeab24d9a7",
+      "keep_lot_id": "4dee800b-63ad-44d3-8351-030af9bed9e7",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q107291726-c60d7169-4480-955d-db68-65aeab24d9a7.json",
+      "drop_lot_ids": [
+        "f83100a8-4bf1-4cd9-aefe-ed634768d227"
+      ],
+      "drop_auction_ids": [
+        "030e1fec-0448-4d1f-b4d4-285e2d1ba785"
+      ],
+      "drop_artwork_ids": [
+        "b9a9125e-292b-4217-8ff8-88b0b444a0bd"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q107291726-c60d7169-4480-955d-db68-65aeab24d9a7.json"
+      ],
+      "title": "Portrait of Emilia Witowska",
+      "lot_number": "221",
+      "hammer_price": "112500.0",
+      "auction_date": "2021-06-18"
+    },
+    {
+      "qid_guid": "Q105939302-2D3F28A0-A8D9-4E80-B673-0CF0A99877E2",
+      "keep_lot_id": "23807061-7285-4b91-bd60-4799331a1f69",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q105939302-2D3F28A0-A8D9-4E80-B673-0CF0A99877E2.json",
+      "drop_lot_ids": [
+        "45e3bd0a-7cee-4c09-984c-8c12a6fe922e"
+      ],
+      "drop_auction_ids": [
+        "15a24bac-2bd5-4e44-9608-7913e4464a24"
+      ],
+      "drop_artwork_ids": [
+        "db6a817f-95e8-47fc-aef7-6c0aa2712b29"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q105939302-2D3F28A0-A8D9-4E80-B673-0CF0A99877E2.json"
+      ],
+      "title": "Portrait of Stanisław Czuryłło",
+      "lot_number": "211",
+      "hammer_price": "26000.0",
+      "auction_date": "2008-10-22"
+    },
+    {
+      "qid_guid": "Q106249610-573D7A7D-666D-4452-AC1A-67E112ED5671",
+      "keep_lot_id": "57488e56-5320-496e-8930-42966eab1bd2",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q106249610-573D7A7D-666D-4452-AC1A-67E112ED5671.json",
+      "drop_lot_ids": [
+        "d8556662-02f7-47e4-83fe-603e3dbd6802"
+      ],
+      "drop_auction_ids": [
+        "033522f6-3217-4383-8ee8-cfaad858e760"
+      ],
+      "drop_artwork_ids": [
+        "4bfbeb39-986b-44f0-9789-d7ffa99ca08a"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q106249610-573D7A7D-666D-4452-AC1A-67E112ED5671.json"
+      ],
+      "title": "Portrait of Irena Fedorowiczowa",
+      "lot_number": "76",
+      "hammer_price": "62000.0",
+      "auction_date": "2006-12-10"
+    },
+    {
+      "qid_guid": "Q106249611-AE382FFB-71C6-4D33-B20F-2A395FE221EA",
+      "keep_lot_id": "a4ad8add-52d9-4949-8d25-75369a47e02d",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q106249611-AE382FFB-71C6-4D33-B20F-2A395FE221EA.json",
+      "drop_lot_ids": [
+        "58389b7a-360b-4769-8dfe-2dbf77a80e69"
+      ],
+      "drop_auction_ids": [
+        "083f8018-7e62-4fb1-8a70-ca31974031c4"
+      ],
+      "drop_artwork_ids": [
+        "cebe5a55-a5fe-4da2-8372-ddda87cff687"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q106249611-AE382FFB-71C6-4D33-B20F-2A395FE221EA.json"
+      ],
+      "title": "Portrait of Jadwiga Pulichowa, née Fedorowicz",
+      "lot_number": "85",
+      "hammer_price": "25000.0",
+      "auction_date": "2007-03-18"
+    },
+    {
+      "qid_guid": "Q106249613-976824F3-2411-464B-9ED8-6203BF3B5A56",
+      "keep_lot_id": "ff4c535d-45e6-45d3-80b3-21a4d5010b35",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q106249613-976824F3-2411-464B-9ED8-6203BF3B5A56.json",
+      "drop_lot_ids": [
+        "2f074ac0-4e15-40d2-b325-6feda2a51a4d"
+      ],
+      "drop_auction_ids": [
+        "b8d24f9e-cbce-4449-ab81-4cabd5c3bd90"
+      ],
+      "drop_artwork_ids": [
+        "86aeb6ee-b153-430c-b4ed-bbf2ce0bdae9"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q106249613-976824F3-2411-464B-9ED8-6203BF3B5A56.json"
+      ],
+      "title": "Meeting with a unicorn in the Rocky Mountains",
+      "lot_number": "74",
+      "hammer_price": "50000.0",
+      "auction_date": "2005-09-25"
+    },
+    {
+      "qid_guid": "Q106249618-95DF0DD6-06A0-4773-AAC4-BA8C63720D7B",
+      "keep_lot_id": "189d4834-daa3-4973-a0da-903dfae8a164",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q106249618-95DF0DD6-06A0-4773-AAC4-BA8C63720D7B.json",
+      "drop_lot_ids": [
+        "6df48dd5-ef7d-4457-8567-fa1705831031"
+      ],
+      "drop_auction_ids": [
+        "3d530aab-bdee-473c-8992-2d8cdac13aaa"
+      ],
+      "drop_artwork_ids": [
+        "d39620a7-e578-41ce-955b-d8eb6db7034c"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q106249618-95DF0DD6-06A0-4773-AAC4-BA8C63720D7B.json"
+      ],
+      "title": "Woman's Portrait",
+      "lot_number": null,
+      "hammer_price": "4400.0",
+      "auction_date": "1995-03-12"
+    },
+    {
+      "qid_guid": "Q106107352-6676CCAB-CB95-43BA-9BBD-299B5F633015",
+      "keep_lot_id": "6f36c0ff-82d7-474e-ae81-f61d744b40ae",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q106107352-6676CCAB-CB95-43BA-9BBD-299B5F633015.json",
+      "drop_lot_ids": [
+        "6d2094b9-092f-44b3-ada4-68b2494ca458"
+      ],
+      "drop_auction_ids": [
+        "8df077f4-2e91-464b-ac05-1e4b01dd3149"
+      ],
+      "drop_artwork_ids": [
+        "3eb15a9a-3629-449e-80ff-a90558b15bda"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q106107352-6676CCAB-CB95-43BA-9BBD-299B5F633015.json"
+      ],
+      "title": "Portrait of Stanisław Bielatowicz",
+      "lot_number": null,
+      "hammer_price": null,
+      "auction_date": "1998-12-06"
+    },
+    {
+      "qid_guid": "Q106249605-CF3A0704-AB9E-4952-9E75-E97B7FFB966B",
+      "keep_lot_id": "7704c157-54b3-410b-b45e-1b12ad37ffda",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q106249605-CF3A0704-AB9E-4952-9E75-E97B7FFB966B.json",
+      "drop_lot_ids": [
+        "a20977d3-81c7-4450-a6cb-20198828d852"
+      ],
+      "drop_auction_ids": [
+        "ac4f950f-7e13-4263-8d1c-e3018b710e87"
+      ],
+      "drop_artwork_ids": [
+        "063b04fb-e73c-4ad9-8ed1-a18894aec261"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q106249605-CF3A0704-AB9E-4952-9E75-E97B7FFB966B.json"
+      ],
+      "title": "Portrait of Irena Wiedyskiewicz-Polniakowa",
+      "lot_number": "184",
+      "hammer_price": null,
+      "auction_date": "2007-12-09"
+    },
+    {
+      "qid_guid": "Q106249611-34546EC6-3F68-4C0F-9AC6-3FF5DE7C650B",
+      "keep_lot_id": "ee859481-520a-4b86-834b-c5011132d9fe",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q106249611-34546EC6-3F68-4C0F-9AC6-3FF5DE7C650B.json",
+      "drop_lot_ids": [
+        "fe7be761-73f4-4862-9ab3-db8db6923a85"
+      ],
+      "drop_auction_ids": [
+        "a75a7985-89c8-4f62-a8b5-5ee246a27e4a"
+      ],
+      "drop_artwork_ids": [
+        "bce33d48-6ed9-46ed-a53c-419760c168b6"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q106249611-34546EC6-3F68-4C0F-9AC6-3FF5DE7C650B.json"
+      ],
+      "title": "Portrait of Jadwiga Pulichowa, née Fedorowicz",
+      "lot_number": "46",
+      "hammer_price": null,
+      "auction_date": "2023-10-22"
+    },
+    {
+      "qid_guid": "Q106249623-83E0831E-9B28-4AD6-99E8-9854B92745F3",
+      "keep_lot_id": "8d163fc9-112e-4a65-8c03-1622a1b57bc7",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q106249623-83E0831E-9B28-4AD6-99E8-9854B92745F3.json",
+      "drop_lot_ids": [
+        "8f398ca6-ddad-40c8-91a7-7c46c1c93f0b"
+      ],
+      "drop_auction_ids": [
+        "ce1be298-0c7c-4bfe-a9c4-57e4d4bce378"
+      ],
+      "drop_artwork_ids": [
+        "1a856578-00fd-4810-9403-2a6e43217106"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q106249623-83E0831E-9B28-4AD6-99E8-9854B92745F3.json"
+      ],
+      "title": "Portrait of a boy,  Tomasz Domaniewski",
+      "lot_number": "63",
+      "hammer_price": null,
+      "auction_date": "2022-06-26"
+    },
+    {
+      "qid_guid": "Q106249621-C8B503EB-0E73-4834-9762-B4E9B9D44C00",
+      "keep_lot_id": "fb210462-7010-4699-8842-b3cd4362639a",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q106249621-C8B503EB-0E73-4834-9762-B4E9B9D44C00.json",
+      "drop_lot_ids": [
+        "ea6f42dc-fe8f-4163-a8cb-ad70b0560c1f"
+      ],
+      "drop_auction_ids": [
+        "dc2ec643-47fe-4e91-8407-ce51b67f741a"
+      ],
+      "drop_artwork_ids": [
+        "75a19ddd-5472-4a0f-9d1f-aa69155f7db7"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q106249621-C8B503EB-0E73-4834-9762-B4E9B9D44C00.json"
+      ],
+      "title": "Portrait of Anna Rydel",
+      "lot_number": null,
+      "hammer_price": "5300.0",
+      "auction_date": "1992-10-11"
+    },
+    {
+      "qid_guid": "Q106249622-BEC2D636-13F5-4423-88FA-784132CBD99D",
+      "keep_lot_id": "2a54cf5f-412a-4109-8770-1bfddccd94ef",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q106249622-BEC2D636-13F5-4423-88FA-784132CBD99D.json",
+      "drop_lot_ids": [
+        "1cf5a7dc-ad56-497f-905e-411637513da2"
+      ],
+      "drop_auction_ids": [
+        "12e90314-8e86-4055-b493-e50ff38aa547"
+      ],
+      "drop_artwork_ids": [
+        "8703081e-98d5-4216-a403-90ea0790359a"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q106249622-BEC2D636-13F5-4423-88FA-784132CBD99D.json"
+      ],
+      "title": "Portrait of Bogdan Jax Ronikier",
+      "lot_number": null,
+      "hammer_price": "9500.0",
+      "auction_date": "1991-04-28"
+    },
+    {
+      "qid_guid": "Q106249640-578635BD-280E-4C1F-9BCE-34E501779946",
+      "keep_lot_id": "1fbe1dfb-b8b2-4b62-9747-99e9797bb563",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q106249640-578635BD-280E-4C1F-9BCE-34E501779946.json",
+      "drop_lot_ids": [
+        "e4e3d421-6bcf-4367-afcd-3524ec261ade"
+      ],
+      "drop_auction_ids": [
+        "86dd2f6a-715c-46c8-b970-e194b92f08b9"
+      ],
+      "drop_artwork_ids": [
+        "0a2b250d-82c7-40f5-a76d-e4ea6b6daed0"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q106249640-578635BD-280E-4C1F-9BCE-34E501779946.json"
+      ],
+      "title": "Portrait of the pianist Gorecki",
+      "lot_number": "58",
+      "hammer_price": null,
+      "auction_date": "2004-05-23"
+    },
+    {
+      "qid_guid": "Q106249652-3EBE24F5-7638-4B70-9ECC-306036AD939C",
+      "keep_lot_id": "96d34dea-4d88-4cea-8a3d-3b441140d321",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q106249652-3EBE24F5-7638-4B70-9ECC-306036AD939C.json",
+      "drop_lot_ids": [
+        "ab1e8417-6c83-4245-98d4-219cde909773"
+      ],
+      "drop_auction_ids": [
+        "55ad036b-e82a-4ac6-b581-9804aabedcfa"
+      ],
+      "drop_artwork_ids": [
+        "97e3d224-0306-4ed7-be10-ea8d05b65474"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q106249652-3EBE24F5-7638-4B70-9ECC-306036AD939C.json"
+      ],
+      "title": "Portrait of Kazimiera Żuławska",
+      "lot_number": "33",
+      "hammer_price": null,
+      "auction_date": "2005-03-19"
+    },
+    {
+      "qid_guid": "Q136892338-8799FE9A-1DCE-453D-AFBA-403FB0AEE6D6",
+      "keep_lot_id": "e4fea45b-3e76-450c-ad78-9c5fa7d6b748",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/painting_Q136892338-8799FE9A-1DCE-453D-AFBA-403FB0AEE6D6.json",
+      "drop_lot_ids": [
+        "c8169d16-7222-4a6b-8c31-211eb5f1efbb"
+      ],
+      "drop_auction_ids": [
+        "436646bd-629c-4eee-8452-5f3c9b1f180c"
+      ],
+      "drop_artwork_ids": [
+        "c32c8331-7649-4863-85e9-54ce6ff0e333"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/self_portrait_Q136892338-8799FE9A-1DCE-453D-AFBA-403FB0AEE6D6.json"
+      ],
+      "title": "The Dream (The Bed)",
+      "lot_number": "13",
+      "hammer_price": "54660000.0",
+      "auction_date": "2025-11-20"
+    },
+    {
+      "qid_guid": "Q106833076-6EC5B35F-6246-425D-802B-24E1A0426C94",
+      "keep_lot_id": "aea73a81-c8b7-4227-927a-f44770cbbfc0",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q106833076-6EC5B35F-6246-425D-802B-24E1A0426C94.json",
+      "drop_lot_ids": [
+        "13d0a73e-d088-4000-9b39-70b39b4700f9"
+      ],
+      "drop_auction_ids": [
+        "d10a52d3-9639-440e-80f6-32642ca2d8c6"
+      ],
+      "drop_artwork_ids": [
+        "3a622c11-d892-4fd6-a07b-b301b25b2da4"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q106833076-6EC5B35F-6246-425D-802B-24E1A0426C94.json"
+      ],
+      "title": "Portrait of a Woman",
+      "lot_number": "3",
+      "hammer_price": null,
+      "auction_date": "2024-12-04"
+    },
+    {
+      "qid_guid": "Q106833076-C1B16C73-BDC7-4F15-914D-9B5FBF1D66A4",
+      "keep_lot_id": "4363ed2d-3d45-4437-a724-69b43b8773be",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q106833076-C1B16C73-BDC7-4F15-914D-9B5FBF1D66A4.json",
+      "drop_lot_ids": [
+        "c055ea65-0559-4772-abef-5742347d6cad"
+      ],
+      "drop_auction_ids": [
+        "8b4d94c4-0cc6-4b4e-b71b-ea4c99321259"
+      ],
+      "drop_artwork_ids": [
+        "972e00fc-5e35-4929-9539-678c242921c9"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q106833076-C1B16C73-BDC7-4F15-914D-9B5FBF1D66A4.json"
+      ],
+      "title": "Portrait of a Woman",
+      "lot_number": "36",
+      "hammer_price": null,
+      "auction_date": "2024-06-16"
+    },
+    {
+      "qid_guid": "Q139762938-60CAEDC3-FBCE-44B2-987B-812691F85491",
+      "keep_lot_id": "31ed2e0c-4972-4fa4-a52b-ae5d3785170a",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/painting_Q139762938-60CAEDC3-FBCE-44B2-987B-812691F85491.json",
+      "drop_lot_ids": [
+        "6e3dfb2d-4049-4617-be9f-cce348f31977"
+      ],
+      "drop_auction_ids": [
+        "6d5fe412-d946-4893-ab57-e697fa4d24ce"
+      ],
+      "drop_artwork_ids": [
+        "2425b9a5-571e-4d71-a02f-c409b25fbc41"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/double_sided_painting_Q139762938-60CAEDC3-FBCE-44B2-987B-812691F85491.json"
+      ],
+      "title": "Two Girls with a Bathtub",
+      "lot_number": "52",
+      "hammer_price": "3790000.0",
+      "auction_date": "2024-03-07"
+    },
+    {
+      "qid_guid": "Q139762970-FBE413C1-DBBE-4307-8720-27632AA82CDE",
+      "keep_lot_id": "acb7529b-662d-4fb3-9fd5-1f66f565a4e1",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/painting_Q139762970-FBE413C1-DBBE-4307-8720-27632AA82CDE.json",
+      "drop_lot_ids": [
+        "a32295f7-e4d5-405c-a6b1-c5095f2d0c09"
+      ],
+      "drop_auction_ids": [
+        "6d5fe412-d946-4893-ab57-e697fa4d24ce"
+      ],
+      "drop_artwork_ids": [
+        "326e1736-9bb4-4e54-9362-5c7c8a9387d7"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/double_sided_painting_Q139762970-FBE413C1-DBBE-4307-8720-27632AA82CDE.json"
+      ],
+      "title": "Seated Black-Haired Female Nude",
+      "lot_number": "52",
+      "hammer_price": "3790000.0",
+      "auction_date": "2024-03-07"
+    },
+    {
+      "qid_guid": "Q107291734-5AE23321-F299-4956-9EDE-04A1FA81AEDE",
+      "keep_lot_id": "9ae2a0cc-ab2a-4ff7-8bf1-a5c1ae6d0632",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q107291734-5AE23321-F299-4956-9EDE-04A1FA81AEDE.json",
+      "drop_lot_ids": [
+        "e09b0587-56f7-423a-b781-9c7d25fcb23b"
+      ],
+      "drop_auction_ids": [
+        "b2c553e6-07af-4504-ae1c-36941e39544d"
+      ],
+      "drop_artwork_ids": [
+        "a7f1f96f-05a3-4edc-b08a-1da9229d78a4"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q107291734-5AE23321-F299-4956-9EDE-04A1FA81AEDE.json"
+      ],
+      "title": "Portrait of Aleksandra Totwenowa",
+      "lot_number": "22",
+      "hammer_price": null,
+      "auction_date": "2019-11-20"
+    },
+    {
+      "qid_guid": "Q107291747-23C48884-DCCD-4385-92B2-AB7DA05084FF",
+      "keep_lot_id": "85ce4b2c-7ff7-4db6-aa65-4fba9a230f3c",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q107291747-23C48884-DCCD-4385-92B2-AB7DA05084FF.json",
+      "drop_lot_ids": [
+        "923c4d32-43c6-4e7a-8162-e0947630dd50"
+      ],
+      "drop_auction_ids": [
+        "9fedd4ef-444c-4d68-82d1-b62513408ad0"
+      ],
+      "drop_artwork_ids": [
+        "2174976f-f6d1-49df-aa04-18a50b1fc28f"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q107291747-23C48884-DCCD-4385-92B2-AB7DA05084FF.json"
+      ],
+      "title": "Portrait of Janina Czerbakowa née Soborska",
+      "lot_number": "4",
+      "hammer_price": null,
+      "auction_date": "2023-09-20"
+    },
+    {
+      "qid_guid": "Q107291739-A034990A-2CD3-4A0A-BF9A-2742C1F0BE07",
+      "keep_lot_id": "dcd1b252-4231-47f7-aca3-6914a5e74df6",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q107291739-A034990A-2CD3-4A0A-BF9A-2742C1F0BE07.json",
+      "drop_lot_ids": [
+        "bfa17904-5f33-4836-a397-20d719e0735f"
+      ],
+      "drop_auction_ids": [
+        "8bd5fcbc-f412-4bcc-90dd-bf5592564f01"
+      ],
+      "drop_artwork_ids": [
+        "31f0c698-982a-49d6-9f52-6c22baa0cc0c"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q107291739-A034990A-2CD3-4A0A-BF9A-2742C1F0BE07.json"
+      ],
+      "title": "Portrait of a woman",
+      "lot_number": "19",
+      "hammer_price": "80000.0",
+      "auction_date": "2021-02-10"
+    },
+    {
+      "qid_guid": "Q107291741-74770666-CAA0-4DCB-97A5-9E8541584889",
+      "keep_lot_id": "6d172b21-4a10-44a3-827b-980f87beb0f0",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q107291741-74770666-CAA0-4DCB-97A5-9E8541584889.json",
+      "drop_lot_ids": [
+        "372499b3-d4ba-4c88-9cdb-14b205283966"
+      ],
+      "drop_auction_ids": [
+        "ae7400ce-a6a9-4075-8b61-eb62a2edaf3c"
+      ],
+      "drop_artwork_ids": [
+        "e58f98fe-ff1c-405b-a389-f986cff379da"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q107291741-74770666-CAA0-4DCB-97A5-9E8541584889.json"
+      ],
+      "title": "Portrait of Doctor Pakowski",
+      "lot_number": "24",
+      "hammer_price": "160000.0",
+      "auction_date": "2021-06-01"
+    },
+    {
+      "qid_guid": "Q107291781-DBD46CCC-A032-4C44-963B-26BA87F75A81",
+      "keep_lot_id": "16e234d8-dab6-44de-b48c-12689ea9ed4a",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q107291781-DBD46CCC-A032-4C44-963B-26BA87F75A81.json",
+      "drop_lot_ids": [
+        "871cd294-d4c1-4cef-9407-892ff715f9d0"
+      ],
+      "drop_auction_ids": [
+        "b0483941-f788-441a-b6da-c8651ccaa19a"
+      ],
+      "drop_artwork_ids": [
+        "537eb976-e83f-40fc-a992-a2d07d625259"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q107291781-DBD46CCC-A032-4C44-963B-26BA87F75A81.json"
+      ],
+      "title": "Portrait of Zdzisław Czermański",
+      "lot_number": "4",
+      "hammer_price": null,
+      "auction_date": "2023-05-13"
+    },
+    {
+      "qid_guid": "Q108177074-B6399BB8-2B23-43DB-A812-CE5EB2554B64",
+      "keep_lot_id": "562b3722-a05d-4ac5-815e-3d816700f39e",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q108177074-B6399BB8-2B23-43DB-A812-CE5EB2554B64.json",
+      "drop_lot_ids": [
+        "f45dcbf7-5fd7-46a1-9034-3f30413e9f71"
+      ],
+      "drop_auction_ids": [
+        "e17aa34f-c380-4ded-a99f-7c3e172e3166"
+      ],
+      "drop_artwork_ids": [
+        "4d6fd507-a150-4683-833f-c73dd6eb54b8"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q108177074-B6399BB8-2B23-43DB-A812-CE5EB2554B64.json"
+      ],
+      "title": "Portrait of a man, in profile",
+      "lot_number": null,
+      "hammer_price": null,
+      "auction_date": "1996-10-20"
+    },
+    {
+      "qid_guid": "Q108229304-192545B3-5D28-432A-AD72-30E808DD69AE",
+      "keep_lot_id": "760c5764-3dec-4965-ba55-d5f8d6d24d52",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q108229304-192545B3-5D28-432A-AD72-30E808DD69AE.json",
+      "drop_lot_ids": [
+        "a5daa3ea-e2d3-49b8-90fe-9ae78d4977f4"
+      ],
+      "drop_auction_ids": [
+        "7dd5a6b5-af00-4277-adc1-eb98c8e23074"
+      ],
+      "drop_artwork_ids": [
+        "428fe126-6a81-432e-b550-87cd40f90698"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q108229304-192545B3-5D28-432A-AD72-30E808DD69AE.json"
+      ],
+      "title": "Portrait of Olga Wojakowa",
+      "lot_number": "34",
+      "hammer_price": null,
+      "auction_date": "2019-12-14"
+    },
+    {
+      "qid_guid": "Q108659619-22DE668C-BFAE-4F1B-8E4F-3201E39DFDE4",
+      "keep_lot_id": "803081a4-773b-4e6a-8043-a2c35def7ebe",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q108659619-22DE668C-BFAE-4F1B-8E4F-3201E39DFDE4.json",
+      "drop_lot_ids": [
+        "3514178b-54f0-4a9a-bfd5-ab9cd1a7640d"
+      ],
+      "drop_auction_ids": [
+        "6737c093-074f-4f0f-9af8-1cb4f6442483"
+      ],
+      "drop_artwork_ids": [
+        "4c1e98fa-f261-4ee2-861c-3ddf05a09a6f"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q108659619-22DE668C-BFAE-4F1B-8E4F-3201E39DFDE4.json"
+      ],
+      "title": "Portrait of a woman",
+      "lot_number": "36",
+      "hammer_price": null,
+      "auction_date": "2010-12-11"
+    },
+    {
+      "qid_guid": "Q108659640-61B0F1BE-56D7-403E-8DE8-898F6033A94C",
+      "keep_lot_id": "873573af-3d8c-4b44-9747-093a4d9103d3",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q108659640-61B0F1BE-56D7-403E-8DE8-898F6033A94C.json",
+      "drop_lot_ids": [
+        "9fbc2d59-c39c-490d-b775-bf2634f80c5c"
+      ],
+      "drop_auction_ids": [
+        "9d81ae3e-c446-4a40-bbc9-eb946a8b4c4e"
+      ],
+      "drop_artwork_ids": [
+        "f225e1bf-4219-485c-818d-b727e183ef5b"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q108659640-61B0F1BE-56D7-403E-8DE8-898F6033A94C.json"
+      ],
+      "title": "Portrait of Mrs. Lisicka-Ponińska",
+      "lot_number": null,
+      "hammer_price": null,
+      "auction_date": "1998-02-22"
+    },
+    {
+      "qid_guid": "Q108659668-3E0A4E54-0C26-488F-9A4C-CB39E0F298F5",
+      "keep_lot_id": "7ef0b9c7-ceeb-4f86-b202-97face03d09f",
+      "keep_raw_path": "crawlers/raw/auctions_wikidata/drawing_Q108659668-3E0A4E54-0C26-488F-9A4C-CB39E0F298F5.json",
+      "drop_lot_ids": [
+        "0e8b6152-522f-4572-b72e-5be791ab34dc"
+      ],
+      "drop_auction_ids": [
+        "75feebaa-44de-48ff-9765-543d95d70fa9"
+      ],
+      "drop_artwork_ids": [
+        "25d6be63-f630-43f7-9518-2496235615da"
+      ],
+      "drop_raw_paths": [
+        "crawlers/raw/auctions_wikidata/pastel_artwork_Q108659668-3E0A4E54-0C26-488F-9A4C-CB39E0F298F5.json"
+      ],
+      "title": "Portrait of a man",
+      "lot_number": "14",
+      "hammer_price": null,
+      "auction_date": "2014-11-29"
+    }
+  ],
+  "drop_lot_ids": [
+    "0b8ac5f1-e9db-4f61-8afc-9dc22f65bae0",
+    "f83100a8-4bf1-4cd9-aefe-ed634768d227",
+    "45e3bd0a-7cee-4c09-984c-8c12a6fe922e",
+    "d8556662-02f7-47e4-83fe-603e3dbd6802",
+    "58389b7a-360b-4769-8dfe-2dbf77a80e69",
+    "2f074ac0-4e15-40d2-b325-6feda2a51a4d",
+    "6df48dd5-ef7d-4457-8567-fa1705831031",
+    "6d2094b9-092f-44b3-ada4-68b2494ca458",
+    "a20977d3-81c7-4450-a6cb-20198828d852",
+    "fe7be761-73f4-4862-9ab3-db8db6923a85",
+    "8f398ca6-ddad-40c8-91a7-7c46c1c93f0b",
+    "ea6f42dc-fe8f-4163-a8cb-ad70b0560c1f",
+    "1cf5a7dc-ad56-497f-905e-411637513da2",
+    "e4e3d421-6bcf-4367-afcd-3524ec261ade",
+    "ab1e8417-6c83-4245-98d4-219cde909773",
+    "c8169d16-7222-4a6b-8c31-211eb5f1efbb",
+    "13d0a73e-d088-4000-9b39-70b39b4700f9",
+    "c055ea65-0559-4772-abef-5742347d6cad",
+    "6e3dfb2d-4049-4617-be9f-cce348f31977",
+    "a32295f7-e4d5-405c-a6b1-c5095f2d0c09",
+    "e09b0587-56f7-423a-b781-9c7d25fcb23b",
+    "923c4d32-43c6-4e7a-8162-e0947630dd50",
+    "bfa17904-5f33-4836-a397-20d719e0735f",
+    "372499b3-d4ba-4c88-9cdb-14b205283966",
+    "871cd294-d4c1-4cef-9407-892ff715f9d0",
+    "f45dcbf7-5fd7-46a1-9034-3f30413e9f71",
+    "a5daa3ea-e2d3-49b8-90fe-9ae78d4977f4",
+    "3514178b-54f0-4a9a-bfd5-ab9cd1a7640d",
+    "9fbc2d59-c39c-490d-b775-bf2634f80c5c",
+    "0e8b6152-522f-4572-b72e-5be791ab34dc",
+    "69c303a9-7754-4897-8d65-6616d2178107",
+    "0c450410-6ecf-4724-9ce0-f17ee78dbd0c",
+    "cbb5d081-af2d-4ce4-8f03-564328ce89fb",
+    "2c86c00f-f508-4cb5-9f14-6c36043ff41b",
+    "4e7ceb80-5c93-4381-8639-7c192bee5417",
+    "60af698d-4d75-4c50-b4c3-83bc81e8f051",
+    "d8c58066-a25d-4465-ada8-0fb1285cf787",
+    "18f57014-3b5c-43bb-a185-6de436bc5483",
+    "e6c298dc-7af2-4681-9e4b-cde156314eda",
+    "2cdf9b29-2846-4872-8b6d-e5c877b0ed19",
+    "413b2c26-f2e4-4410-85ff-cf0d1f424067",
+    "c4f235df-3f17-4563-9865-e3a68b678dd9",
+    "04f25e63-05aa-4f35-a31e-d1199825e403",
+    "fba969e5-49f6-406d-920e-f3f4bc0517b8",
+    "dfbe6ac6-60de-4b7c-b64a-05ee46c95e15",
+    "2293a220-8846-4b34-b1cc-3b62dc448090",
+    "015aeeb2-fa5d-48a4-803f-b32f377cc8a5",
+    "a7ee8789-c615-4367-a6a1-a02d9e426dc9",
+    "b04e0542-0a15-4c03-a712-04b03d265599",
+    "fbce54ef-429e-468d-98c4-b4366bb7feb1",
+    "31cb703b-5d0c-497b-bb02-bbcbb2070f0f",
+    "98328cea-8eab-4b81-a170-2dc90d514bbc",
+    "9537e330-2ed3-4d19-b9dc-c9e71f2ae62b",
+    "ee1d5508-609d-4519-a897-7dbaf2517aa8",
+    "515ebb79-df64-4c3c-843e-f1892360467c",
+    "ae30df89-5d11-4505-87db-12488fc97412",
+    "d8c7e3d3-d444-4982-9cff-9ada5ffc1d33",
+    "0bd102fe-3ebc-446f-87e8-cc294d983836",
+    "7dd703f7-c0bc-489c-84ce-7fd779fea797",
+    "845b6ce8-6acb-4bf8-ab44-5635f778b0b3",
+    "62709d26-f90e-4c63-a2ce-850463d37105",
+    "dd09f945-68d6-4073-816d-ed48cc3bc1ba",
+    "0ad88b30-ce91-43f0-9a0b-4431c9acd1b5",
+    "3f01301d-c266-4e41-9799-221d4cb370dc",
+    "e27372e3-5119-483f-8615-518fd1e873d9",
+    "96b12703-ee0b-4167-83cf-e4940beadf6c",
+    "d09a79e4-e4bc-4c04-a176-9b0965b177ff",
+    "77d3a70d-d356-40ab-ab06-572fea4ea95d",
+    "b4671c08-31d5-43eb-9970-582d3af03586",
+    "e2232fe7-90f3-47b1-a3a1-973110d87adf",
+    "7b4e1c99-a5d7-4bc5-8dd1-0188e4386173",
+    "df674d58-4a1f-4050-b04f-e85dbde2cf96",
+    "96d4938a-2ac4-47c6-8079-46dcc018e80c",
+    "d735c6d8-e019-4f8e-b015-e6340c815b2b",
+    "02a8dfb9-5e26-4c77-99c8-7956ea32ddde",
+    "a1a85a48-e8c2-4dd3-9302-d0169fe396cc",
+    "01002fd1-e695-4577-8cb7-5cb1fff720f3",
+    "6d0728b7-ff0e-40ff-a404-01d1c9cbe639",
+    "8a639376-37dd-4718-93fe-1645a8945bfb",
+    "653763d1-d210-4d31-83b6-67c4e88b5a78",
+    "cd00edcf-c4e6-4b03-bca1-855fe6cd057c",
+    "84930a9f-a032-4f04-a2d8-eaf236fee791",
+    "a64d57aa-468e-4c83-89f3-4593520533d8",
+    "21a10e2b-a0e9-480a-813c-813211e2f3eb",
+    "78e28651-643b-4590-9411-193366351301",
+    "21ebb02b-765e-4a37-a840-0c642bd44104",
+    "f8704649-56de-495c-a593-c74af88d2e10",
+    "ea967047-1f15-428a-8591-56725f05bc58",
+    "e493a380-95ba-4ec3-94ea-079eb689968b",
+    "f7019466-ff7c-4691-aa0b-7c1045090219",
+    "a451f0eb-5884-4e76-92fd-54f9a2021857",
+    "1c6d63d0-3e4b-4c76-90fc-66fb71fb19fc",
+    "21b01687-fec4-4a21-94da-b106def5e122",
+    "33d961cb-9b40-41ea-9467-b15bab6511bd",
+    "0459371f-56dd-4ea2-b1a7-0f9248c62ef2",
+    "0e7b360e-e926-4adc-a9f9-1efe433707c0",
+    "501d5bac-317f-4f73-beb5-d37f5c1909ae",
+    "63fcb087-5136-4763-b5f7-599fc509003a",
+    "24ac9e26-a930-490f-a1f7-f2e8f144757d",
+    "c59e1e60-72df-47c6-944c-542e5439439b",
+    "d2ea5894-c74c-47c6-a766-f181eebd595c",
+    "185767a7-59f6-4aa8-b538-1d3150e16ce6",
+    "1ddeebdc-9a0e-49d8-819a-193af559dfc3",
+    "8aaf3f4c-8a4f-4e67-ac1d-26c4d4a50725",
+    "7f555f5b-2cdb-473e-a255-5690d6fe0e8a",
+    "754ff93e-928f-4b27-b43c-e7246020a598",
+    "eb536079-dbbf-4ab8-8659-0ad61968583a",
+    "4f1df2e4-ecb5-4975-9037-6d6d0e7cfcb6",
+    "1af6cc71-bf94-4750-a05a-8ddf0c00e1d3",
+    "b9b9c35e-b82b-44d8-8a98-5eb3215ce1f4",
+    "7ffd430d-24cf-418c-8962-522e0b81c15e",
+    "92fe1432-d308-4462-a250-56df1205095a",
+    "1f9390b1-ad05-4a6b-819e-6b32520ef1aa",
+    "fe7175ae-571d-4ec2-b9d1-5e286a1f439b",
+    "61e729cc-f853-4f5b-a05f-6819424bf98b",
+    "c7f1da40-1a89-4598-b2d0-f067dc5d7bef",
+    "97592b7f-e238-4d91-97b1-c356f70d0d90",
+    "f63224a9-e014-47f8-965e-e2909c6f438d",
+    "5da83d87-f594-4e97-b780-d19c87aebff5",
+    "1788dff7-8e3e-42fe-bffb-01b146769de9",
+    "ace4fc47-22d0-4961-9711-904fe2c677fd",
+    "71da7a8f-3ca4-4192-962b-c501280aed6e",
+    "3c38992d-0974-42a1-9532-210a9bb94c40",
+    "71033a99-b097-4ad8-9c86-d24b14fd31be",
+    "56de6d6f-bdb8-49dd-be0c-c929eb1aa820",
+    "63652c6a-9735-4334-b55a-4543fdb0f1ca",
+    "3f6dc323-521a-4cb3-a653-f8bd235a04f4",
+    "29c1e9ac-e42f-4e4a-bc8a-dd0a13aeb961",
+    "4456ddc4-c786-4afa-b0eb-6dc90fbf4e58",
+    "a38ac201-5ad1-4f11-a9dd-4c92142e3981",
+    "39fa6be2-fcaf-4c2b-b145-470bf6c2fa69",
+    "6ddff16d-4e2d-4e60-8695-9e70c0126ea3",
+    "db159ed9-64ca-4b8e-8290-798bd404d9c3",
+    "9ef4f4ec-1ee5-4074-99aa-eb719b42d88d",
+    "b66dabe1-7554-4a3d-a6a3-adbcdeb1a4e0",
+    "a447501b-fe73-458a-9333-db3bd59cdfcc",
+    "eef61a75-58fe-43f0-a45c-6655de1e7852",
+    "f3437c16-f6ae-41ce-bd3e-3e75f2e7d6f4",
+    "1af0b10e-1133-400e-8271-2e4d393c3a4d",
+    "44e53eec-4a26-4143-bf71-3d6c6a5c704b",
+    "ad587b90-7409-4433-b7a3-f53def7f9d40",
+    "6936d862-01c5-4fad-ae60-6331edda4ce3",
+    "87735e32-06fa-4b5d-9546-73ec8c5fc759",
+    "86860b01-47c9-4ac3-bc01-aa84f29d1cc7",
+    "a74180ef-5ada-4289-8a7d-be3d82c8a932",
+    "71af9f2c-3f48-4acd-92b1-e7b647e76dae",
+    "38cc183d-85a7-427c-9b73-ec17efba05cf",
+    "78adcf26-6cab-4042-9fc4-79257589bef5",
+    "1f268d7e-7cfa-4b74-b3a4-ce75ead4049c",
+    "0c725fb0-aa7b-4c14-a2d8-8a1ad086dbc8",
+    "5b411cbb-3357-4f68-aa73-0df14458ed55",
+    "9834cbd3-e30f-4d58-84a2-67da272ed738",
+    "1ad4d0eb-6e77-4361-97d0-258f163b29fb",
+    "a7137378-385d-4d37-8065-3870cf3d4a62",
+    "1c302217-86c2-4ffc-a56a-99e38bdd4566",
+    "b8e725a8-de43-4d12-af8d-3a417bebdbbf",
+    "0c60c99a-fbdd-43e7-82f8-4ce90d6654f6",
+    "f07f9f89-a598-4f9e-9de0-01951cee7d1c",
+    "cfbe61fb-fa34-4da1-9e61-3f79fdb48932",
+    "4a9a7278-5d82-4f16-8424-ba66b2aefa31",
+    "b680cb3f-beb7-4bf7-ae64-10844b2a0310",
+    "f10e4ea5-f77f-4c95-9568-a9babd7ec6b2",
+    "aee7d8f4-af58-4ed6-ad79-c30dab78a6ef",
+    "5884102f-c521-42bf-b6a1-7da48cae0037",
+    "898566f0-d882-4e9b-99bd-4e629ace1ee1",
+    "754aea6b-1473-45f6-bd91-e924adfcda8d",
+    "72cd59e5-1ed8-4ad3-8b50-60c8d167c998",
+    "70ed8854-6c86-47ba-9585-32e1735bd363",
+    "d61cb226-7500-4288-b04b-89828c8707f5",
+    "774568f0-3603-4248-af03-c82affd11124",
+    "00ce1c25-f0a5-4f6a-90d6-0663722f6e8d",
+    "0f6656d9-5375-43dc-976a-ff0a75b855fa",
+    "117304a5-a70e-4633-a4bc-2f10cfaba075",
+    "e63c41ba-a875-4a81-9746-e3b772a0dff9",
+    "37fef08f-cab1-4225-8347-ca0acec3ce5c",
+    "1703b6ed-f80e-42fe-9951-1e2709c309d1",
+    "002d90b9-2a0a-496c-a4bc-06b5b5bc7795",
+    "f3e0762a-e37c-4f42-a577-020daed483d5",
+    "075bc0d4-c9d3-4543-bac9-61401da50bf8",
+    "8e45ec30-505f-4e33-ad87-bc605284a568",
+    "7f312d93-adf7-4665-b7a5-3190dfa6b921",
+    "fa129156-11ec-47e5-b28f-2c43b3c66d0d",
+    "faced41f-0a0c-4e61-8199-1b0d63874104",
+    "1f8c543c-3dd3-4a2b-a243-4e85b39dda4a",
+    "e24e681d-de26-4bd9-bdaa-0864460b9802",
+    "98b606b5-b209-487f-a532-36383165c931",
+    "61d02f30-8d24-4d0d-aa48-43d6cc18afb0",
+    "c828f8b3-3394-4d84-ab52-bb59e523d44f",
+    "d7db6492-f9ea-44f1-9f10-cbc26caa0d03",
+    "8ddc13fc-1a89-472f-b0df-bce4b3c74750",
+    "bdacc389-975b-4f36-89b1-a53545d1a848",
+    "8f6ab7ab-ed44-492b-9e38-797747e68517",
+    "807688e2-6f04-4cf3-82c7-b6dbff45343e",
+    "21a979d3-1133-4cde-955d-0461b0d765d0",
+    "e63c9776-9d7e-4f79-aa26-16d5a25a27d4",
+    "92c15759-cbe0-4fe9-865d-03c74ca808d9",
+    "a1359f48-7fa1-4b65-8895-2d75508acf5e",
+    "3a02bf9f-0d44-45c3-87bb-9c178e950875",
+    "2a26b279-45d7-4a9d-a4d1-8ca23fb58159",
+    "3af61139-9a6b-491b-96d1-9f0d902d7c8b",
+    "6a52984c-d00b-4714-9713-1f8623138526",
+    "1e431f9c-0830-4a35-ad30-7099649f1f1d",
+    "aee883ce-3b35-469f-8d18-10912a54d08c",
+    "19ec8aaf-6c52-4131-be47-bf12de7f0725",
+    "5d5f6ff1-e6ed-4329-b9e7-8140bef3cf6a",
+    "ce3a026f-861e-46b7-a8d7-0ddd34f3d5e8",
+    "6aca3830-bd09-4783-a894-254d4ae8991a",
+    "02644bb7-453b-47ab-894b-95f0b3cb14ff",
+    "98a29f6d-7cc4-4418-aa24-33d148dfe98c"
+  ],
+  "final_drop_artwork_ids": [
+    "b8ee1332-163d-4fb1-a41e-484b27fde17f",
+    "73db3352-0c66-4802-9804-7d1708259f98",
+    "2f1b3f3b-806a-4496-b5b4-ecca99120698",
+    "ff6ee304-2b85-4fb4-bc25-39dcf6e79d46",
+    "4d6fd507-a150-4683-833f-c73dd6eb54b8",
+    "72cdddce-8686-49ec-8018-0c14e15118bd",
+    "ee3d0eba-29d6-46d5-9a53-13146c179769",
+    "a90684bf-048f-44ad-9fa7-7e632344ea96",
+    "8c38f1e9-d48a-465f-811e-8a66acca2b2d",
+    "dbbd2421-1e63-4683-a30d-1a2b2d7fc8de",
+    "71d82b3c-f734-43a4-9f95-b24523d2c598",
+    "46dbe196-d68b-4872-9cb9-7cfdbcccebe6",
+    "a7882d22-093c-46c4-86eb-2d405b1956e9",
+    "778160cb-838e-44c6-8e4d-f91affe29149",
+    "347f82c0-bc3d-48a2-8ab6-433bed568417",
+    "9a065522-7010-4fc6-b8fa-26e018a45b34",
+    "537eb976-e83f-40fc-a992-a2d07d625259",
+    "72af0a3f-defd-4360-a2c8-8252ac40b278",
+    "8703081e-98d5-4216-a403-90ea0790359a",
+    "10f5c8db-bb26-4532-9c5c-3dd6f99b7353",
+    "f01d0257-ebbc-499d-bcd9-452bed90c3a1",
+    "28b1455c-5a49-43e3-9e1e-74f1f4bfb27a",
+    "1e5f021f-644e-4545-93e8-3c863e469fb3",
+    "46641215-c442-449e-8971-74c9c34b1ab1",
+    "c71fe3f6-c2f6-4c71-8ee2-c7d41f015756",
+    "b5fb9e69-87e4-4970-b9bf-b371734dd46f",
+    "e88f2af7-a2df-483b-8bcb-29eb1003592c",
+    "18bfbda6-7f52-4233-be2f-bfd3b7de922f",
+    "1a10315a-9cf1-43db-b07a-1576c15f11ee",
+    "71f9652c-045b-4dc6-9909-43ecfbf3275c",
+    "056339f7-39c1-42d5-9238-85b701e2dd68",
+    "2174976f-f6d1-49df-aa04-18a50b1fc28f",
+    "dd431d62-38d4-468e-b46b-bee159b8641b",
+    "aa4f737c-efa6-415b-b998-257075fc2aa8",
+    "27d81855-b91e-4dc3-b109-b6da967cd563",
+    "a125cde4-1f9a-4d95-95e8-5ead18d8d056",
+    "86aeb6ee-b153-430c-b4ed-bbf2ce0bdae9",
+    "31f0c698-982a-49d6-9f52-6c22baa0cc0c",
+    "fff08d64-6090-4e0a-8853-c1c30e0cb68f",
+    "2525c245-8d0b-442d-90d3-9d17a7222862",
+    "e9c1e8af-9ce7-454b-bfff-858ccfda9bbc",
+    "db6a817f-95e8-47fc-aef7-6c0aa2712b29",
+    "7ca3fc19-52ba-467c-a222-5fb435e5339b",
+    "d1150f69-9eae-4761-88a6-9a56085e6543",
+    "97e3d224-0306-4ed7-be10-ea8d05b65474",
+    "b1fd00ee-bfd8-4b55-ae96-f564fd00eac9",
+    "dbbda04a-3f6d-4523-88f1-03d509f97bfc",
+    "ed8256c3-20aa-4ab6-9b70-ac411d113769",
+    "810580df-7ded-4a42-9b43-32fe63b59913",
+    "d9a30aec-552b-46e5-9308-1667c6f5653e",
+    "645c4b33-93f9-496d-a84c-c7059409fc06",
+    "6967592f-5e88-4553-9335-e18d8d53f070",
+    "269ca97a-bb07-4ac9-972b-08b80d766fbb",
+    "4c1e98fa-f261-4ee2-861c-3ddf05a09a6f",
+    "9e7403b2-6e52-441f-a023-7b19a3c29b6f",
+    "3a622c11-d892-4fd6-a07b-b301b25b2da4",
+    "deef3c6d-9254-426b-ac08-9ed823de8638",
+    "eb3abac3-368b-4e5e-96d2-afb44d4a35e2",
+    "6d9cdc23-ee3a-455e-8f57-78a12e6083f1",
+    "16ec8117-1446-44b4-9a49-455a00a3f5a9",
+    "85d652d8-1075-4848-9408-30f7625d8f0e",
+    "6fb4b922-7568-46a2-9818-4e51b8f6ac69",
+    "7a07ceb2-233c-40e1-833f-5afaac360a0b",
+    "051b814c-2ed7-4501-b5db-3a32f1cf26f1",
+    "ad4db984-5ec7-4ff5-8147-0fb73855d73c",
+    "83ccde44-a2ad-4d72-a681-4e58460a6f97",
+    "9aac9357-e854-4843-9c3e-3e74a61c52fe",
+    "8921e73e-8235-489a-8ea5-6a229533abb5",
+    "9155ebd8-2bbd-430b-9f6b-bc5f3400858c",
+    "0e21f768-d7f4-4d21-b053-e93d974fd1f2",
+    "3bf1fa84-418b-46da-b4f1-839d0c0bb777",
+    "88dafd45-4ef6-45ac-9838-c3eaab13bb92",
+    "3472c181-1734-48ae-9b8a-33874aa4e751",
+    "211a4d4c-6313-4078-bb42-6bd7b5d5111b",
+    "f225e1bf-4219-485c-818d-b727e183ef5b",
+    "13aa3635-42f8-4eeb-a51d-4d8837750d80",
+    "e58f98fe-ff1c-405b-a389-f986cff379da",
+    "4ef56957-9043-4ef6-87a7-a2d61e4fb0d9",
+    "267f2448-1cd2-4fc4-838b-4ca2f3045f70",
+    "5ae41473-f685-4786-835b-9eb9074f2e3b",
+    "14127e0a-5eda-4013-8f2d-d3be3dd5492c",
+    "3eb15a9a-3629-449e-80ff-a90558b15bda",
+    "4e45ad40-b4cd-4441-8f86-02bb35f1bb94",
+    "d3388809-343c-4e48-8620-9db612d82324",
+    "c0a1afb9-918b-46a8-90da-b57e4764ec58",
+    "823bea59-cb5e-4bed-9668-2278b6b10749",
+    "362b438d-9172-41dd-815f-2f5af96105c3",
+    "34bcc16d-3ed4-439d-a599-fb37df487096",
+    "2bb52a88-af22-42fa-94ab-c740d78562a0",
+    "96472ff1-ce16-46ee-859f-ab741df6557a",
+    "d017024e-6b40-4a82-82f2-c7da99e11e7c",
+    "294e2e1e-1f20-4e1e-8e90-403603fff514",
+    "413a297d-3cb8-46ca-9e2f-b0d5254b9761",
+    "135a0f89-12e8-4a11-8c01-43a2a5594df7",
+    "40434c67-d10e-42e6-9ed7-4f0590c109c9",
+    "52135998-2ab1-4deb-8853-702f06fc8cd3",
+    "52083300-fdcb-46a6-9c2c-b1a5bfbfa278",
+    "6df16f19-f318-4d0e-9315-38fb68753c03",
+    "ee4c5ba8-c8a9-4f0e-912f-28b6281a2930",
+    "9934fb01-41df-4407-a2db-8fede2553d40",
+    "9ea46c4b-821c-479b-953b-38484c5919c3",
+    "4bfbeb39-986b-44f0-9789-d7ffa99ca08a",
+    "58429d9a-86b9-4597-bf66-6e8fb0617439",
+    "5d64424c-3c50-4678-a11a-996cc7361704",
+    "0a2b250d-82c7-40f5-a76d-e4ea6b6daed0",
+    "64aa43e6-b7a1-487c-82c0-6c366fed8b14",
+    "a7f1f96f-05a3-4edc-b08a-1da9229d78a4",
+    "1840ce2c-0497-4a25-87fc-03e56d9ea02d",
+    "3373ef64-eb2a-446c-93c7-fa819cf0f1ec",
+    "fc62fa4b-75a7-4847-b6cd-18eb2406b557",
+    "3673d748-008d-4d12-9b1d-b732e639e6cf",
+    "b2895604-e96d-4e60-ab65-0abc63155b9c",
+    "f5883c23-6afb-4e39-a79d-a0d5b3b172d8",
+    "e4de521f-65cf-422f-923d-4c55ac55ce6d",
+    "36e02a86-37b4-4618-8d2a-48eee5031d27",
+    "b9a9125e-292b-4217-8ff8-88b0b444a0bd",
+    "d2e2df43-a842-465c-a8ce-2a3ae26e1fe5",
+    "866e6bbf-64a0-497f-af74-ca2951a8d3ac",
+    "b9f874ff-1ddf-417d-94f6-c1693af28779",
+    "326e1736-9bb4-4e54-9362-5c7c8a9387d7",
+    "9646ac87-ce4e-4153-a05d-fc9b49fddd47",
+    "606d70df-6981-45b5-8b2c-be775482a771",
+    "9d1fe923-668e-44e8-a924-36caad246beb",
+    "848fb4a5-862f-4796-92d5-da8ce0a40246",
+    "f7416ac3-fb14-4c93-84cd-81609c425321",
+    "edb571ae-40f8-4624-934d-c3662ee6ed5a",
+    "b9ed8e9f-6296-4962-ad1e-12d4ad3d6e9e",
+    "972e00fc-5e35-4929-9539-678c242921c9",
+    "6d9fc300-7381-470f-a214-5d548971421d",
+    "ca14696c-ace2-4cb8-9fbc-cc48a02eabde",
+    "eee990f3-3e6f-4228-beea-a710ee81d55f",
+    "b343fbb5-8657-4125-9a5b-55ce9aec43cf",
+    "d0934ded-9e80-4192-a5c3-f5a5f1ffeff0",
+    "17a923ce-98a5-4651-a730-32e4f4f3d53e",
+    "0adf3b05-61bc-4cfb-a78b-4ccd43ec39b1",
+    "e1f32633-ac1c-440b-a49e-1e98fcddd16f",
+    "c6b12d84-0c5e-4a63-8454-fe5771da6f56",
+    "63be380d-f18c-4d25-935d-44caa5be9ac7",
+    "6b9461a4-9c65-45a8-9570-1bdb02a2260d",
+    "577e487f-bb63-4d1a-9acf-8832a83b47c8",
+    "04337b24-eadd-441f-849c-dc0597d52e84",
+    "989ab5d7-3715-44b7-9017-6092d2ddacb9",
+    "968ecd8a-b43b-4e01-bd57-50b58c3cd4be",
+    "bb24fc4c-9d2b-4fd9-8fd3-438162951937",
+    "cbbc9bc9-52d8-49b5-8989-ad3579ded6c7",
+    "5d67a6d8-0d77-48c9-bdfe-e1ea1489af6f",
+    "d39620a7-e578-41ce-955b-d8eb6db7034c",
+    "1c43f8e3-1b2d-4fd0-933e-366e7be25e73",
+    "7cf0c74c-d74e-4343-89ef-868a2f5968b3",
+    "16102535-d5e2-46e1-822e-d58a9a696432",
+    "6de48303-54f4-462a-858e-4e15929718f0",
+    "428fe126-6a81-432e-b550-87cd40f90698",
+    "6ff5d7ce-ebc7-4410-a090-ffb3b9ad3f9a",
+    "281fc8bf-b385-4146-a46a-6074b4b1da2f",
+    "1bee52b1-c0bf-44ae-8faf-bc80bcb47e7c",
+    "7ba29d0f-4a35-4980-b750-08b0c7c5edfa",
+    "5a3b9b7d-f7ce-4683-af2f-75a8cafc2daa",
+    "c9dc1500-69f3-4ddc-851a-4838df8d9914",
+    "7435da9b-88c8-4817-9afc-534ee1711750",
+    "e430d123-5784-4a76-94ab-3ba868e55366",
+    "80dbb1b6-1da2-43fb-9e8c-8c1338b6d867",
+    "59ce2cca-bf7d-4775-9064-ece93c84e2fc",
+    "2425b9a5-571e-4d71-a02f-c409b25fbc41",
+    "dd9c264c-718c-4afb-a4a3-eaee75ea4017",
+    "dbfb779a-48fc-44ea-8073-5515081b7542",
+    "11895ba0-6d12-4764-9f5e-179286143fec",
+    "b65bb7e7-41e9-488f-b3b4-70e82c36d289",
+    "7dd6005d-89cb-4e63-b977-ce6b7d5f5b9f",
+    "c0e72590-26ea-46e3-b44e-daddadbdc17e",
+    "9ba8ebd7-ea62-4457-ac87-8715cc3e71e1",
+    "5e25cb8a-0e3d-40cf-a236-9b5dec47f598",
+    "bce33d48-6ed9-46ed-a53c-419760c168b6",
+    "48fa2009-b331-4496-ab6a-549f3e1ad67b",
+    "cebe5a55-a5fe-4da2-8372-ddda87cff687",
+    "be0ea7ba-15d0-4ac7-a519-01a20f2adcfc",
+    "1a856578-00fd-4810-9403-2a6e43217106",
+    "9dc22435-c896-4fc7-9464-37bfb79b423f",
+    "67cdf9bc-1167-4823-9c8c-27f7d8dde9da",
+    "25d6be63-f630-43f7-9518-2496235615da",
+    "033757b9-24ee-4705-9f5d-b83c276c524c",
+    "34699672-9197-4485-9e09-35309c659a4c",
+    "fcfaf796-c34c-49c7-8fb0-25b8ff976285",
+    "be706490-2914-4301-9dae-f995551dbba8",
+    "3fac5df7-f154-47a6-81c9-c2d4744b9381",
+    "6cbb4ddc-2a0c-4fb0-89c8-6b4221145e2f",
+    "75a19ddd-5472-4a0f-9d1f-aa69155f7db7",
+    "cf3d4ac4-9869-4c74-9d49-7f636fdd7424",
+    "b2adf65d-9529-4e48-8abc-6d6a46b34361",
+    "595b9526-f59d-414e-927d-cc982472b9a8",
+    "c32c8331-7649-4863-85e9-54ce6ff0e333",
+    "e12caa4d-ab31-4880-95b8-4c88c41eff5d",
+    "063b04fb-e73c-4ad9-8ed1-a18894aec261",
+    "cca8cc08-0275-41dc-9947-7a7022b2d280",
+    "2ca8d6aa-196d-49e4-b485-4f66b3f58c59",
+    "9b3fd9e0-76c5-411e-ac6b-a1d32d050936",
+    "0a9abbec-ef7d-4e9c-9773-39e8b005049b",
+    "617fd9f9-5d3d-4d83-bb61-646f59e72f6a",
+    "68431605-4bf6-49c7-8ca1-b241ba48835c",
+    "a55793f6-5cb7-4cfc-81a2-0592e5f9b16c",
+    "d1ee0b6a-3d9c-41e8-81d5-0cecdd05826a",
+    "2174753c-fe5f-4478-96c6-69231af4ab7d",
+    "3e041768-162e-45e5-b880-4e09e4b81895",
+    "305d3c08-96cc-41b8-9ffb-d9263e73bd5b",
+    "a9d09c6a-f7ef-4e3e-bbc8-e8b3ca6973cf",
+    "e9765813-712e-484b-ad10-27d42b9a280b",
+    "f57f5ef3-53ce-4271-aea8-84f961bad056",
+    "0848b97f-03af-4ceb-ae2d-ab2b7a8adfbe",
+    "3e4fc5bb-c010-4b99-a184-e2c231d9b13a",
+    "f5d7e0c0-3a2e-4580-8e7a-d910258e27b0"
+  ],
+  "empty_auction_ids": [
+    "9e699702-325f-4a7a-9d72-efb12aa44cc1",
+    "dae77ab3-2a0a-4b25-b222-49fcc1243728",
+    "4ff7340a-1bae-4958-86b2-d1829172d35a",
+    "b2c553e6-07af-4504-ae1c-36941e39544d",
+    "539567bf-cd54-46c9-8cb6-79eaa9bd9f3e",
+    "55ad036b-e82a-4ac6-b581-9804aabedcfa",
+    "ed618982-3233-452b-8d87-a7b933572e85",
+    "305334d2-0f09-4445-a318-c2afbd9609a1",
+    "e66298b1-1765-4b61-9b96-06df15060a7f",
+    "6dca0685-1b27-4ca7-b131-1381c05d5d70",
+    "13976baa-f6e2-4307-b505-849bc33c85b1",
+    "cb718351-d603-41b5-b743-44cb577cce3e",
+    "0eefd7f4-fc9a-4815-ad1b-d48329ef24f4",
+    "b0483941-f788-441a-b6da-c8651ccaa19a",
+    "a0023f11-e0a4-42d0-b09b-f2d7650861b6",
+    "da612b86-c628-4c9e-8f95-d19ddd22ee70",
+    "3e0c5b51-53d7-49e6-b447-24660cd08276",
+    "bcaee6ea-e6c9-4e31-bef9-8d8eebb5cfc8",
+    "9a1d2f41-9071-43f8-8c9e-1016a221307b",
+    "b08c2370-1e03-4253-9c67-f560600f1260",
+    "2ec6b2cb-fc5b-4f02-992f-14dfc8598498",
+    "c7585b10-aa38-477c-8165-0bb97d3bfb65",
+    "dc2ec643-47fe-4e91-8407-ce51b67f741a",
+    "10599111-d70a-4aff-8a9e-12207086af2a",
+    "93868f78-82aa-4276-9c8d-e952f62a1fa7",
+    "8df077f4-2e91-464b-ac05-1e4b01dd3149",
+    "7ad73875-a56a-4571-9fb4-9b7401ea8434",
+    "0187f2c4-f5c3-4be8-bdc6-44ebd6653a58",
+    "2bc40980-020d-4d39-8e03-afe972b4e48c",
+    "72fc2cc4-4241-4554-8f7c-56c62e49ca79",
+    "8b243b88-2343-4867-b89a-1a5f693afae3",
+    "b1101c89-4381-4b22-9aa4-089d5ed6d919",
+    "e728b9c0-7729-4293-8480-99ff9d5a58b0",
+    "207a0fe0-e1ef-4c84-bff4-84402e5f42d4",
+    "bfce45e2-1711-4b1e-9ab1-6df87431017a",
+    "ccf34f37-7df2-4d71-a4c5-abaa07749e0b",
+    "11682a8d-74a5-4da8-bc7b-233760e081b8",
+    "2e5ff062-bc74-4afd-864c-2ae1d758f955",
+    "02c74a72-3200-4299-9802-45c4b63669ac",
+    "6fcce0d0-2323-4054-9175-59ec7a5d64ce",
+    "436646bd-629c-4eee-8452-5f3c9b1f180c",
+    "55e5d136-57a3-49e4-808b-d9a091dfb4e8",
+    "9ac45866-1cf6-4f73-a041-ace3b35856a7",
+    "23a81ce3-0436-49a8-92a4-bf6e7a2d3154",
+    "c71037bf-5bad-4c2e-8adf-67929fbcf412",
+    "7658dd99-850c-4fcf-80c6-4f6163d9ac69",
+    "f765c1c8-be15-4cc1-a20c-96e3295f5d7f",
+    "a87a8c09-7af5-4995-adcf-56bf6e23bcd8",
+    "0a9fd6e3-4928-4e57-9442-bd67efa7a8d8",
+    "7dd5a6b5-af00-4277-adc1-eb98c8e23074",
+    "f1f568de-17dc-40f3-a5a0-4be5f2f4d89e",
+    "e5addf8c-0eaf-4f51-b33d-844e8728cc45",
+    "095e0e60-8665-408d-a5bd-39e8b429e49d",
+    "0f1a9a61-a293-42a3-8232-cfb4455daeda",
+    "874811e3-cb6b-43a9-99be-7da2fe104895",
+    "6737c093-074f-4f0f-9af8-1cb4f6442483",
+    "76b4b08b-e5a2-4393-9c5d-c080ca901246",
+    "4115271e-146e-4fd2-911e-8d4ba2b5a894",
+    "9ed56c45-1da8-49d3-8db7-5c28ecb6a33c",
+    "033522f6-3217-4383-8ee8-cfaad858e760",
+    "4fdf1c68-aa90-4bb2-826d-2e82cf8367df",
+    "12779755-8a7b-439a-a096-e1f968df0fbe",
+    "0f7bfa85-d147-4f85-842b-e208b2e6c86a",
+    "54d3ce1c-d33b-4c20-ab1d-8a649ceca805",
+    "8603cca9-c856-4d24-9175-2a413e38e8e9",
+    "e79bdb07-2466-4f35-8af4-376cf5b0b05c",
+    "c421f8e6-558e-4a73-afdb-90913c743005",
+    "ce1be298-0c7c-4bfe-a9c4-57e4d4bce378",
+    "eb6b3715-0471-4b16-9750-4dd0ba053bdd",
+    "c5c4e55d-013b-46c8-97ec-fc7f8a69a9a5",
+    "1edcbf43-d22a-4647-88a7-68fb2efb0a4d",
+    "c3999237-4ea0-4019-ada7-4765f8ba4932",
+    "75feebaa-44de-48ff-9765-543d95d70fa9",
+    "55c9c382-6c5b-4d7b-9916-c3f6094dbf79",
+    "86dd2f6a-715c-46c8-b970-e194b92f08b9",
+    "89c127ed-2d4b-42ee-810f-4894ceced0ff",
+    "ac4f950f-7e13-4263-8d1c-e3018b710e87",
+    "3b31bb39-0bd6-4930-b59f-44ea9f446cdd",
+    "90dfb563-f072-4e73-8d69-8912732757f2",
+    "5a189b69-66bc-48a0-a24f-288ac6c11eb5",
+    "030e1fec-0448-4d1f-b4d4-285e2d1ba785",
+    "e40fd551-d83d-4eb1-be32-2b61af76d326",
+    "1bbe1786-2c74-413f-bea5-79ec74231dbf",
+    "24eb10d4-5530-47f7-82ce-26b38300536f",
+    "9ce741a7-8a73-433b-9515-e8566fad38d6",
+    "fa2c4aae-8f34-47a9-8271-a10400f62cfa",
+    "d10a52d3-9639-440e-80f6-32642ca2d8c6",
+    "6bf60e0e-7529-40c2-98f3-b4f62f5a5a92",
+    "ad7aea5f-4e13-4dfc-abd6-eed22c7c461f",
+    "2f473542-0657-4689-9394-8fa3fa2c1bc0",
+    "4ebdd16e-cfd1-4395-9e83-afb0577e976d",
+    "5709e444-01ce-4ae8-9741-eb7d5bc8682c",
+    "97b92f20-1bc4-4cd6-89b6-3ff2a5538bee",
+    "7b896793-32ff-4d27-a375-13d0b9e07b5e",
+    "dea4f46c-7491-420c-8fa4-c1e1d95e6d2f",
+    "2280ccac-1359-43d5-b51f-6ff6bc338931",
+    "6602ab90-d97f-42de-94cc-02bbaa759139",
+    "690f7b70-c5c7-4f90-af9b-382f491a67bc",
+    "09bf5b52-9d49-410c-bce1-855a72170eba",
+    "d3b0e669-725f-4c21-b6d3-b89d940818f9",
+    "be6431da-e06f-4671-a96e-7173c9ae4aa9",
+    "f5b860d6-a1c2-4a52-bfe6-edb120c3cd9d",
+    "9c8c9c52-4258-444a-916e-8eaf9738e101",
+    "36ffc781-c294-4f76-9244-234afb45b317",
+    "d50c118a-e011-4d8a-9dfc-4caf0ac98238",
+    "2de10cbd-3afc-4ec0-94ac-edd993a76bbc",
+    "14c25f2f-bb80-4335-b494-bddb885859cf",
+    "b4033d82-b50b-4e9e-80ea-e551f5a7a3d9",
+    "85cfefd4-ed97-4b4d-8e2f-32c3da5f5134",
+    "7d5f2ba9-bfa8-48ba-959a-38c04738fba1",
+    "96797c8b-ea65-4cd6-a290-ee910cab4a7a",
+    "12e90314-8e86-4055-b493-e50ff38aa547",
+    "e40b80fe-2a18-4789-9b8b-5ff3d0de1c86",
+    "1788f974-e828-45fa-9c11-3f2c1bf37de7",
+    "6d5fe412-d946-4893-ab57-e697fa4d24ce",
+    "8b4d94c4-0cc6-4b4e-b71b-ea4c99321259",
+    "5d170696-9670-477d-89dd-1089b693b0cb",
+    "c2963622-2ee9-466e-ab8e-5c7278c92d69",
+    "6f1bfeab-3ede-4cf1-8be6-e457f54ac687",
+    "104e20aa-6f40-4ddc-b964-5dc437b0c170",
+    "f8ef2283-97c5-4b98-8ed2-6091de59085f",
+    "3e1a8f98-026b-49ab-af1b-7c81d0fb9212",
+    "8d9f70f7-e446-4c78-bd9c-1f1cf315faf6",
+    "d448e88d-9a8e-4d54-b2fd-c9f77c583be2",
+    "26122cf6-ef76-43b8-98b1-2bc9f763d1d2",
+    "7758fcc9-bbfb-4ad3-9f93-f5e7347274fe",
+    "9fedd4ef-444c-4d68-82d1-b62513408ad0",
+    "9d367f86-5d21-4665-8c18-693477d196de",
+    "decd0106-4e02-45fa-9bb1-002fb8954f59",
+    "78d935b1-49f0-4f70-a06e-91fb9fe00ab7",
+    "083f8018-7e62-4fb1-8a70-ca31974031c4",
+    "f3864791-b843-453f-b121-b2cb06de26dd",
+    "911a70df-980c-4b0d-aca2-6bd946d2c752",
+    "8bd5fcbc-f412-4bcc-90dd-bf5592564f01",
+    "3d530aab-bdee-473c-8992-2d8cdac13aaa",
+    "c7c096b4-802c-4cd8-8c03-2c61d3d619f5",
+    "b847b11a-5e0f-49a8-9a32-01633d2ba0a5",
+    "15a24bac-2bd5-4e44-9608-7913e4464a24",
+    "ae7400ce-a6a9-4075-8b61-eb62a2edaf3c",
+    "ad8ef15f-25a0-4e49-90aa-605171403944",
+    "fce63626-aa21-4188-b022-4dcde244bd29",
+    "e3305233-b7c0-4b19-8326-ada563b91152",
+    "2e112280-da40-41db-bc69-90ee2d5eea50",
+    "c4697813-e05c-4058-be2b-02ff590e0bc0",
+    "671e5b0a-99ac-4d57-8d77-b2485de1e612",
+    "ff098ff2-e5cd-408c-97bf-79ec5d10b82d",
+    "d8e8044b-3a63-42b4-b9f5-11029dca50b2",
+    "61028cfa-d495-49f4-85e9-4a66f89d876f",
+    "9d81ae3e-c446-4a40-bbc9-eb946a8b4c4e",
+    "ced8f39e-da18-4e3e-9817-6f9a5e3eff5d",
+    "8a9165c4-3772-46b6-ac76-efddf84b40d8",
+    "776cde5d-c58e-4dd8-8004-d13004ac2181",
+    "e17aa34f-c380-4ded-a99f-7c3e172e3166",
+    "e3abe48d-76c1-4e18-87ad-1e2223e52e9c",
+    "89d9e227-fa55-4489-8d9b-c293ee1bc6a0",
+    "1c422924-3ac5-49be-bd8a-18c6c90fb5df",
+    "56549fbb-bd16-4e0c-b281-9423c95abca1",
+    "1b8d9be7-5f4c-41d6-b225-c1a23808388e",
+    "b21ce24d-135c-4a49-962c-6e8b2de0e7c3",
+    "a005e722-efcb-4f16-83a9-22677fdaad21",
+    "a0a01f93-7532-4148-b98f-e468bfb8e90b",
+    "ecdb3054-54be-4edf-b82c-c8a84419e3cb",
+    "97209fee-2f02-42b5-a198-97346743e379",
+    "b8d24f9e-cbce-4449-ab81-4cabd5c3bd90",
+    "43dbeb21-ea33-4bad-b538-c06c2b8ba27d",
+    "44f81c74-30db-492d-858d-576674839df8",
+    "a75a7985-89c8-4f62-a8b5-5ee246a27e4a",
+    "b28b1a96-ba7c-4575-bfbe-aaa6cf9e719b",
+    "559f893e-b20f-4e4b-aaf9-b0f769547233"
+  ]
+}

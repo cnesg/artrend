@@ -1,0 +1,218 @@
+{
+  "generated_at": "2026-09-16T04:43:27.473251+00:00",
+  "questions": [
+    {
+      "n": 1,
+      "question": "이우환의 미술관 소장작과 경매 기록을 알려줘",
+      "elapsed_sec": 12.16,
+      "answer": "### 요약(Executive Summary)\n데이터베이스 조회 결과, 이우환(Lee Ufan) 작가의 미술관 소장작은 국내외 주요 미술관에 총 50건이 등록되어 있으며, 대화, 관계항, 바람과 함께 등 다양한 대표작이 포함되어 있습니다. 경매 기록의 경우 Bonhams 경매사 기준 총 1건의 낙찰 기록이 조회되었습니다. 본 데이터베이스는 미술관 취득 시점 정보 및 크리스티, 소더비, 국내 경매사 등의 기록을 포함하지 않음을 참고하시기 바랍니다.\n\n---\n\n### 1. 미술관 소장 현황\n이우환 작가의 작품은 국내외 다수의 유수 미술관에 소장되어 있으며, 회화, 조각, 판화 등 다양한 매체의 작품이 확인됩니다. (총 50건 중 일부 대표작 발췌)\n\n* **주요 소장 미술관 및 대표 작품**\n  * **부산시립미술관 (Busan Museum of Art, 대한민국 부산)**\n    * 대표작: *대화* (2019, 2018, 2015 등 다수), *관계항-안과 밖의 공간* (2016), *관계항-침묵A* (2015), *오브제* (연도미상) 등 (출처: `busan_art_museum`)\n  * **리움미술관 (Leeum Museum of Art, 대한민국 서울)**\n    * 대표작: *관계항-대화* (2014, 유리/돌, 160x170x2cm 등), *조응* (2001, 캔버스에 유채, 80x100.5cm), *바람과 함께* (1988, 캔버스에 유채, 162.4x130.4cm) (출처: `leeum`)\n  * **서울시립미술관 (SeMA, 대한민국 서울)**\n    * 대표작: *항(項)-대화* (2009, 철판/자연석), *다이얼로그* (2007, gravure carborundum), *From a Revelation* 시리즈 (2003, 종이에 석판), *correspondence* (1993) (출처: `sema`)\n  * **국립현대미술관 (MMCA, 대한민국)**\n    * 대표작: *조응* (1994), *관계* (1992), *관계항* (1988) (출처: `mmca`)\n  * **해외 미술관**\n    * **National Gallery of Art** (미국 워싱턴 D.C.): *Dialogue* (2011, oil on canvas, 161.93 × 130.02 cm) (출처: `nga`)\n    * **Solomon R. Guggenheim Museum** (미국 맨해튼): *Dialogue* (2010) (출처: `wikidata_guggenheim_nyc`)\n    * **Tate** (영국): *Correspondence* (1993, Oil paint and glue on canvas, 1940 x 2600 x 35 mm) (출처: `tate`)\n    * **Art Institute of Chicago** (미국 시카고): *Desert Ginza* (1989-99, Drypoint, 68 × 50 cm) (출처: `aic`)\n    * **Kunsthaus Zürich** (스위스): *Q131586056* (1990, oil paint) (출처: `wikidata_kunsthaus_zurich`)\n\n---\n\n### 2. 경매 기록\n조회된 데이터베이스 내 이우환 작가의 경매 기록은 Bonhams 경매사를 통한 1건이 존재합니다.\n\n| 경매사 (Auction House) | 낙찰일 (Auction Date) | 작품명 (Artwork Title) | 추정가 (Estimate) | 낙찰가 (Hammer Price) | 낙찰 여부 | 출처 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| **Bonhams** | 2019-11-25 | *李禹煥 With Winds No.8708-62* | 1,000,000 ~ 1,500,000 HKD | 850,000 HKD | 낙찰 (True) | `bonhams` (url) |\n\n* 데이터베이스 내에 Christie's, Sotheby's 및 국내 경매사(서울옥션, K옥션 등)의 기록은 등록되어 있지 않습니다.\n\n---\n\n데이터 범위: 경매는 Getty 1675~1944(유럽) + Bonhams 2003~현재 한 곳뿐이며 Christie's/Sotheby's/한국 경매사는 없음, 미술관 취득 시점 정보 없음.",
+      "queries": [
+        {
+          "title": "이우환 작가의 미술관 소장작 목록",
+          "sql": "SELECT \n    a.name AS artist_name,\n    aw.title AS artwork_title,\n    aw.year_created,\n    aw.medium,\n    aw.dimensions,\n    m.name AS museum_name,\n    m.city,\n    m.country,\n    mh.acquisition_date,\n    src.site_name AS source_site,\n    src.url AS source_url\nFROM artists a\nJOIN artworks aw ON a.id = aw.artist_id\nJOIN museum_holdings mh ON aw.id = mh.artwork_id\nJOIN museums m ON mh.museum_id = m.id\nLEFT JOIN sources src ON aw.source_id = src.id\nWHERE (a.name ILIKE '%이우환%' OR a.name_en ILIKE '%Lee Ufan%')\n  AND a.entity_kind = 'person'\n  AND (aw.attribution_qualifier IS NULL)\nORDER BY aw.year_created DESC NULLS LAST\nLIMIT 50;",
+          "row_count": 50,
+          "error": null
+        },
+        {
+          "title": "이우환 작가의 경매 기록 (Bonhams 등 보유 데이터)",
+          "sql": "SELECT \n    a.name AS artist_name,\n    aw.title AS artwork_title,\n    aw.year_created,\n    al.lot_number,\n    al.estimate_low,\n    al.estimate_high,\n    al.currency,\n    al.hammer_price,\n    al.sold,\n    auc.name AS auction_name,\n    auc.auction_date,\n    ah.name AS auction_house,\n    src.site_name AS source_site,\n    src.url AS source_url\nFROM artists a\nJOIN artworks aw ON a.id = aw.artist_id\nJOIN auction_lots al ON aw.id = al.artwork_id\nJOIN auctions auc ON al.auction_id = auc.id\nJOIN auction_houses ah ON auc.auction_house_id = ah.id\nLEFT JOIN sources src ON al.source_id = src.id\nWHERE (a.name ILIKE '%이우환%' OR a.name_en ILIKE '%Lee Ufan%')\n  AND a.entity_kind = 'person'\n  AND (aw.attribution_qualifier IS NULL)\nORDER BY auc.auction_date DESC NULLS LAST\nLIMIT 50;",
+          "row_count": 1,
+          "error": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "n": 2,
+      "question": "Rembrandt van Rijn 소장작 수와 경매 낙찰 상위 5건",
+      "elapsed_sec": 15.07,
+      "answer": "### 1. 요약 (Executive Summary)\n아트그래프(ArtGraph) 미술 데이터 분석 결과, 바로크 거장 **렘브란트 반 레인(Rembrandt van Rijn)**의 작품은 전 세계 69개 미술관에 총 3,662건 소장되어 있는 것으로 확인되었습니다. 경매 시장에서는 Christie's와 Bonhams 등을 통해 낙찰된 상위 기록이 집계되었으며, 최고 낙찰가 기록은 GBP 19,803,750를 기록한 《Portrait of a 62-year-old Woman, possibly Aeltje Pietersdr Uylenburgh》입니다.\n\n---\n\n### 2. 구조화된 본문\n\n#### ### 미술관 소장 현황\n데이터베이스에 등록된 렘브란트 반 레인의 정식 귀속(attribution_qualifier가 없는) 작품 소장 현황은 다음과 같습니다.\n* **총 소장 건수**: 3,662건\n* **소장 미술관 수**: 69개관\n* **출처**: 데이터베이스 내부 미술관 소장품 연동 데이터 (`museum_holdings`)\n\n#### ### 경매 낙찰 상위 5건 기록\n렘브란트 반 레인의 경매 낙찰가 기준 상위 5건의 세부 내역은 아래와 같습니다. (역사 통화 및 낙찰가는 원 통화 그대로 표기)\n\n| 순위 | 작품명 (Title) | 제작 연도 | 낙찰가 (Hammer Price) | 통화 | 경매사 (Auction House) | 출처 및 링크 |\n| :---: | :--- | :---: | :---: | :---: | :---: | :--- |\n| 1 | *Portrait of a 62-year-old Woman, possibly Aeltje Pietersdr Uylenburgh* | 미상 | 19,803,750.0 | GBP | Christie's | [auctions_wikidata](http://www.wikidata.org/entity/Q21501685) |\n| 2 | *Portrait of Jan Willemsz van der Pluym* | 미상 | 5,617,000.0 | GBP | Christie's | [auctions_wikidata](http://www.wikidata.org/entity/Q123786559) |\n| 3 | *Portrait of Jaapgen Carelsdr.* | 미상 | 5,617,000.0 | GBP | Christie's | [auctions_wikidata](http://www.wikidata.org/entity/Q123786572) |\n| 4 | *Portrait of Petronella Buys* | 미상 | 3,368,750.0 | GBP | Christie's | [auctions_wikidata](http://www.wikidata.org/entity/Q21470328) |\n| 5 | *Trois panthères marchant* | 미상 | 3,000,000 | EUR | Bonhams | [bonhams](https://www.bonhams.com/auctions/29763/) |\n\n* **참고사항**: 위 경매 기록 중 제작 연도가 확인된 작품의 `year_created` 정보는 데이터베이스에 등록되어 있지 않습니다.\n\n---\n\n### 데이터 범위\n* 경매는 Getty 1675~1944(유럽) + Bonhams 2003~현재 한 곳뿐이며 Christie's/Sotheby's/한국 경매사는 없음, 미술관 취득 시점 정보 없음.",
+      "queries": [
+        {
+          "title": "Rembrandt van Rijn 미술관 소장작 수 조회",
+          "sql": "SELECT COUNT(mh.id) AS holding_count, COUNT(DISTINCT m.id) AS museum_count FROM artists a JOIN artworks aw ON a.id = aw.artist_id JOIN museum_holdings mh ON aw.id = mh.artwork_id JOIN museums m ON mh.museum_id = m.id WHERE (a.name ILIKE '%Rembrandt%' OR a.name_en ILIKE '%Rembrandt%') AND a.entity_kind = 'person' AND aw.attribution_qualifier IS NULL;",
+          "row_count": 1,
+          "error": null
+        },
+        {
+          "title": "Rembrandt van Rijn 경매 낙찰 상위 5건 조회",
+          "sql": "SELECT aw.title, aw.year_created, al.hammer_price, al.currency, al.sold, ah.name AS auction_house, s.site_name, s.url FROM artists a JOIN artworks aw ON a.id = aw.artist_id JOIN auction_lots al ON aw.id = al.artwork_id JOIN auctions auc ON al.auction_id = auc.id JOIN auction_houses ah ON auc.auction_house_id = ah.id LEFT JOIN sources s ON al.source_id = s.id WHERE (a.name ILIKE '%Rembrandt%' OR a.name_en ILIKE '%Rembrandt%') AND a.entity_kind = 'person' AND aw.attribution_qualifier IS NULL AND al.sold = TRUE ORDER BY COALESCE(al.price_usd, al.hammer_price) DESC NULLS LAST LIMIT 5;",
+          "row_count": 5,
+          "error": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "n": 3,
+      "question": "국립현대미술관에서 2025년에 열린 전시 목록",
+      "elapsed_sec": 10.4,
+      "answer": "### [Executive Summary]\n국립현대미술관(MMCA)에서 2025년에 개최되었거나 진행 중인 전시는 총 49건으로 확인되었습니다. 이번 2025년 전시 목록에는 소장품 기획전, 해외 명작전, 이건희컬렉션 국외순회전, 이건희컬렉션 및 다원예술 등 장르를 아우르는 다양한 현대미술 및 근대미술 전시가 포함되어 있습니다.\n\n---\n\n### ### 2025년 국립현대미술관 주요 전시 목록\n\n데이터베이스 조회 결과에 따른 2025년 주요 전시 일정은 다음과 같습니다. (총 49건 중 일부 주요 전시 발췌)\n\n| 전시명 | 시작일 | 종료일 |\n| :--- | :--- | :--- |\n| 개방 수장고 개편 | 2020-12-03 | 2026-12-31 |\n| 창작의 순간 - 예술가의 작업실 | 2025-02-14 | 2025-05-24 |\n| MMCA 소장품 기획전 - 수채(水彩): 물을 그리다 | 2025-03-21 | 2025-09-07 |\n| 론 뮤익 | 2025-04-11 | 2025-07-13 |\n| 초현실주의와 한국근대미술 | 2025-04-17 | 2025-07-06 |\n| 젊은 모색 2025 : 지금, 여기 | 2025-04-24 | 2025-10-12 |\n| MMCA 서울 상설전 «한국현대미술 하이라이트» | 2025-05-01 | 2026-05-31 |\n| 이 땅에 숨 쉬는 모든 것을 위하여: 정영선과 협업자들 | 2025-05-09 | 2025-07-13 |\n| MMCA 소장품 «아더랜드 Ⅱ: 와엘 샤키, 아크람 자타리» | 2025-06-03 | 2025-08-17 |\n| 특별수장고: 국립현대미술관 드로잉·일본 현대 판화 소장품 | 2025-07-22 | 2026-12-31 |\n| MMCA×LG OLED 시리즈 2025—추수 | 2025-08-01 | 2026-02-01 |\n| 미술은행 20주년 특별전 «돌아온 미래: 형태와 생각의 발현» | 2025-08-08 | 2027-07-31 |\n| 광복 80주년 기념 «향수(鄕愁), 고향을 그리다» | 2025-08-14 | 2026-02-22 |\n| MMCA X CMOA 청주프로젝트 2025 «벙커: 어둠에서 빛으로» | 2025-08-20 | 2025-11-16 |\n| 김창열 | 2025-08-22 | 2025-12-21 |\n| 올해의 작가상 2025 | 2025-08-29 | 2026-02-01 |\n| MMCA 해외 명작: 수련과 샹들리에 | 2025-10-02 | 2027-01-03 |\n| 조우(遭遇), 모던아트협회 1957-1960 | 2025-10-02 | 2026-03-08 |\n| 이건희컬렉션 국외순회전 «한국의 보물: 모으고, 아끼고, 나누다» | 2025-11-15 | 2026-02-01 |\n| 신상호: 무한변주 | 2025-11-27 | 2026-03-29 |\n| 항상 옆에 있으니까 일본과 한국, 미술 80년 | 2025-12-06 | 2026-03-22 |\n\n*참고: DB 상 venue_name, city, country, url, site_name, source_url 필드의 값은 별도로 등록되어 있지 않거나 비어 있어 기재되지 않았습니다.*\n\n---\n\n### [출처 및 데이터 범위]\n- **데이터 소스**: 내부 미술 데이터베이스 (`exhibitions` 테이블)\n- **데이터 범위**: 경매는 Getty 1675~1944(유럽) + Bonhams 2003~현재 한 곳뿐이며 Christie's/Sotheby's/한국 경매사는 없음, 미술관 취득 시점 정보 없음.",
+      "queries": [
+        {
+          "title": "국립현대미술관 2025년 개최 전시 목록",
+          "sql": "SELECT e.id, e.title, e.venue_name, e.city, e.country, e.start_date, e.end_date, e.url, s.site_name, s.url AS source_url FROM exhibitions e LEFT JOIN museums m ON e.museum_id = m.id LEFT JOIN sources s ON e.source_id = s.id WHERE (e.venue_name ILIKE '%국립현대미술관%' OR m.name ILIKE '%국립현대미술관%' OR m.name_en ILIKE '%National Museum of Modern and Contemporary Art%') AND (EXTRACT(YEAR FROM e.start_date) = 2025 OR EXTRACT(YEAR FROM e.end_date) = 2025 OR (e.start_date <= '2025-12-31' AND e.end_date >= '2025-01-01')) ORDER BY e.start_date ASC LIMIT 50;",
+          "row_count": 49,
+          "error": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "n": 4,
+      "question": "2023년 한국 미술시장 경매 낙찰총액은?",
+      "elapsed_sec": 7.9,
+      "answer": "### **[요약 (Executive Summary)]**\n아트그래프(ArtGraph) 미술 데이터베이스를 조회한 결과, 2023년 한국 미술시장의 경매 낙찰총액과 관련된 공식 연간 공개 통계 데이터는 현재 등록되어 있지 않습니다. 따라서 해당 연도의 국내 미술시장 경매 총액에 대한 구체적인 수치를 제공해 드릴 수 없습니다.\n\n---\n\n### **[구조화된 본문]**\n\n#### **1. 데이터 조회 결과**\n* **조회 조건**: 2023년 한국 미술시장 경매 및 낙찰 관련 통계\n* **검색 결과**: 데이터 없음 (0건)\n* **상세 내용**: \n  - `market_stats_kr` 데이터베이스 테이블을 대상으로 연도(2023년) 및 관련 지표(경매, 낙찰)를 검색하였으나, 부합하는 레코드가 존재하지 않습니다.\n\n---\n\n### **[출처 인용]**\n* **데이터 소스**: 아트그래프 내부 데이터베이스 (`market_stats_kr`)\n* **데이터 부재 사유**: 2023년 한국 미술시장 경매 낙찰총액에 대한 통계 데이터가 아직 시스템에 수집 및 등록되지 않았습니다.\n\n---\n\n### **[데이터 범위 및 기준 시점]**\n* **데이터 범위**: 경매는 Getty 1675~1944(유럽) + Bonhams 2003~현재 한 곳뿐이며 Christie's/Sotheby's/한국 경매사는 없음, 미술관 취득 시점 정보 없음. 질문이 \"요즘/최근/시세/트렌드\"를 묻는 경우 이 한계를 요약 첫머리에서 먼저 밝히세요.",
+      "queries": [
+        {
+          "title": "2023년 한국 미술시장 경매 관련 연간 공개 통계 조회",
+          "sql": "SELECT year, metric, value, unit, source_url FROM market_stats_kr WHERE year = 2023 AND (metric ILIKE '%경매%' OR metric ILIKE '%낙찰%') ORDER BY value DESC;",
+          "row_count": 0,
+          "error": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "n": 5,
+      "question": "박서보가 받은 상은?",
+      "elapsed_sec": 6.99,
+      "answer": "### 요약 (Executive Summary)\n아트그래프(ArtGraph) 미술 데이터베이스를 조회한 결과, 박서보 작가의 수상 경력(award)에 대한 기록은 현재 등록되어 있지 않습니다. 따라서 제공된 데이터베이스만을 근거로 할 때, 박서보 작가가 받은 상에 대한 세부 정보를 확인할 수 없습니다.\n\n---\n\n### 수상 경력 조회 결과\n\n* **조회 조건**: 작가명 '박서보' 또는 'Park Seo-Bo', 이벤트 종류 '수상(award)'\n* **조회 결과**: 데이터베이스 내에 등록된 기록이 없습니다 (0건).\n\n---\n\n### 데이터 범위와 기준 시점 명시\n* **데이터 범위**: 경매는 Getty 1675~1944(유럽) + Bonhams 2003~현재 한 곳뿐이며 Christie's/Sotheby's/한국 경매사는 없음, 미술관 취득 시점 정보 없음.",
+      "queries": [
+        {
+          "title": "박서보 작가의 수상 경력 조회",
+          "sql": "SELECT a.name, a.name_en, ae.event_kind, ae.event_date, ae.detail, ae.url, s.site_name, s.url AS source_url FROM artists a JOIN artist_events ae ON a.id = ae.artist_id LEFT JOIN sources s ON ae.source_id = s.id WHERE (a.name ILIKE '%박서보%' OR a.name_en ILIKE '%Park Seo-Bo%') AND a.entity_kind = 'person' AND ae.event_kind = 'award' ORDER BY ae.event_date DESC LIMIT 50;",
+          "row_count": 0,
+          "error": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "n": 6,
+      "question": "Picasso 작품 중 귀속 한정(copy after 등) 없이 진작으로 기록된 소장작 수",
+      "elapsed_sec": 13.71,
+      "answer": "### 요약 (Executive Summary)\n아트그래프(ArtGraph) 미술 데이터베이스 조회 결과, 파블로 피카소(Pablo Picasso)의 이름으로 귀속 한정(copy after 등) 조건 없이 진작으로 기록된 작품은 총 **4,018점**(3,905점 및 113점)으로 집계되었습니다. 이 중 미술관 소장 이력이 확인된 진작 소장작은 총 **3,446건**(3,333건 및 113건)입니다.\n\n---\n\n### 소장 현황 및 진작 기록\n\n데이터베이스 내에 등록된 파블로 피카소(`entity_kind = 'person'`)의 귀속 한정(attribution qualifier)이 없는(`attribution_qualifier IS NULL`) 진작 작품 및 소장 현황은 다음과 같습니다.\n\n| 작가명 (데이터 표기) | 진작 작품 수 (authentic_artwork_count) | 미술관 소장 건수 (holding_count) |\n| :--- | :--- | :--- |\n| **Picasso, Pablo** | 3,905점 | 3,333건 |\n| **파블로 피카소** | 113점 | 113건 |\n| **합계** | **4,018점** | **3,446건** |\n\n- **세부 정보**: 상기 데이터는 영문 및 국문으로 등록된 파블로 피카소 레코드를 기준으로 추출되었으며, `attribution_qualifier`가 존재하지 않아 온전한 진작으로 분류된 건들입니다.\n\n---\n\n### 데이터 범위와 기준 시점 명시\n- **데이터 범위**: 경매는 Getty 1675~1944(유럽) + Bonhams 2003~현재 한 곳뿐이며 Christie's/Sotheby's/한국 경매사는 없음, 미술관 취득 시점 정보 없음.\n- **기준 시점(as of)**: 데이터베이스 조회 시점 기준",
+      "queries": [
+        {
+          "title": "파블로 피카소의 진작 소장품 수 및 미술관 목록",
+          "sql": "SELECT a.name AS artist_name, COUNT(DISTINCT ar.id) AS authentic_artwork_count, COUNT(DISTINCT mh.id) AS holding_count FROM artists a JOIN artworks ar ON a.id = ar.artist_id LEFT JOIN museum_holdings mh ON ar.id = mh.artwork_id WHERE (a.id = '25730670-e216-4000-bdbd-8c4f80d452bd' OR a.id = 'ac51ba11-2aa7-4306-a891-5c13fc931488') AND a.entity_kind = 'person' AND ar.attribution_qualifier IS NULL GROUP BY a.name;",
+          "row_count": 2,
+          "error": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "n": 7,
+      "question": "페이스갤러리 전속 작가 중 국립현대미술관 소장작이 있는 작가",
+      "elapsed_sec": 11.05,
+      "answer": "### 요약 (Executive Summary)\n페이스갤러리(Pace Gallery) 전속 작가 중 국립현대미술관에 소장품이 있는 작가는 데이터베이스 조회 결과 총 1명으로 확인되었습니다. 해당 작가는 한국 국적의 이우환(LEE Ufan) 작가로, 귀속 한정어(Attribution Qualifier)가 없는 정식 귀속 작품이 국립현대미술관에 소장되어 있습니다.\n\n---\n\n### 본문: 페이스갤러리 전속 작가 국립현대미술관 소장 현황\n\n#### 1. 작가 개요\n* **작가명**: 이우환 (LEE Ufan)\n* **국적**: 대한민국 (South Korean)\n* **작가 유형**: 개인 작가 (`person`)\n\n#### 2. 소장 현황 및 조건\n* **소장 기관**: 국립현대미술관 (Museum ID: `2cb82827-c5f0-43ee-911b-ba05554211a3`)\n* **소속 갤러리**: 페이스갤러리 (Gallery ID: `3f97b2fa-5c3c-41dd-8154-23ec3dcc07ef`)\n* **소장작 특징**: 작가 귀속이 확실한 작품(attribution_qualifier가 NULL이거나 공백인 작품)을 기준으로 조회되었습니다.\n\n---\n\n### 부재 정보 안내\n* 본 조회 결과는 제공된 조건(페이스갤러리 전속 + 국립현대미술관 소장 + 개인 작가 + 명확한 작품 귀속)을 만족하는 데이터만을 엄격히 반영한 것으로, 이외의 추가적인 작가 목록은 데이터베이스 내에 등록된 기록이 없습니다.\n\n---\n\n### 데이터 범위 및 기준\n* 데이터 범위: 경매는 Getty 1675~1944(유럽) + Bonhams 2003~현재 한 곳뿐이며 Christie's/Sotheby's/한국 경매사는 없음, 미술관 취득 시점 정보 없음.",
+      "queries": [
+        {
+          "title": "페이스갤러리 전속 작가 중 국립현대미술관 소장작이 있는 작가 목록",
+          "sql": "SELECT DISTINCT a.id AS artist_id, a.name AS artist_name, a.name_en AS artist_name_en, a.nationality\nFROM artists a\nJOIN gallery_representations gr ON a.id = gr.artist_id\nJOIN artworks art ON a.id = art.artist_id\nJOIN museum_holdings mh ON art.id = mh.artwork_id\nWHERE gr.gallery_id = '3f97b2fa-5c3c-41dd-8154-23ec3dcc07ef'\n  AND mh.museum_id = '2cb82827-c5f0-43ee-911b-ba05554211a3'\n  AND a.entity_kind = 'person'\n  AND (art.attribution_qualifier IS NULL OR art.attribution_qualifier = '')\nORDER BY a.name;",
+          "row_count": 1,
+          "error": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "n": 8,
+      "question": "2020년 이후 사망한 한국 작가",
+      "elapsed_sec": 11.01,
+      "answer": "### 요약(Executive Summary)\n아트그래프(ArtGraph) 미술 데이터베이스 조회 결과, **2020년 이후 사망한 한국 국적의 작가(Entity Kind: person)**는 총 17건이 등록되어 있습니다. 본 보고서에서는 데이터베이스에 기록된 사망 연도별 작가 목록과 관련 출처 정보를 구조화하여 제공합니다.\n\n---\n\n### 구조화된 본문: 2020년 이후 사망한 한국 작가 현황\n\n데이터베이스에 기록된 작가들을 사망 연도 역순으로 정리한 결과는 다음과 같습니다.\n\n| 사망 연도 | 작가명 (국문) | 영문명 (Name En) | 출생 연도 | 주요 출처(Site Name) 및 관련 링크 |\n| :---: | :--- | :--- | :---: | :--- |\n| **2026** | 정상화 | CHUNG Sanghwa | 1932 | [mmca](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=1003) |\n| **2026** | 이종상 | LEE Jongsang | 1938 | [mmca](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=10735) |\n| **2025** | 강서경 | KANG Seokyeong | 1977 | [mmca](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=7811) |\n| **2025** | Suki Seokyeong Kang | - | 1977 | [gallery_tinakimgallery](https://tinakimgallery.com/artists/37-suki-seokyeong-kang/) |\n| **2025** | 최병소 | CHOI Byungso | 1943 | [mmca](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=4696) |\n| **2023** | Park Seo-Bo | - | 1931 | [gallery_johyun](https://www.johyungallery.com/artists/55-park-seo-bo/overview/) |\n| **2023** | 조용익 | CHO Yongik | 1934 | [mmca](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=3462) |\n| **2023** | Seo-Bo Park | - | 1931 | [aic](https://api.artic.edu/api/v1/artworks/234003) |\n| **2023** | 박서보 | Park Seo-bo | 1931 | [busan_art_museum](https://art.busan.go.kr/tblTsite07ArtworkExp/listClient.nm?page_no=74) |\n| **2022** | 김중만 | Kim Jung-man | 1954 | [sema](https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=56) |\n| **2022** | 김병기 | KIM Byungki | 1916 | [mmca](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=15358) |\n| **2022** | 김차섭 | KIM Tchahsup | 1942 | [mmca](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=15812) |\n| **2021** | 한도룡 | Doryong Han | 1933 | [busan_art_museum](https://art.busan.go.kr/tblTsite07ArtworkExp/listClient.nm?page_no=284) |\n| **2021** | 김창열 | KIM Tschang-yeul | 1929 | [mmca](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=10017) |\n| **2021** | 공성훈 | KONG Sunghun | 1965 | [mmca](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=6333) |\n| **2020** | 민철홍 | MIN Chulhong | 1933 | [mmca](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=32121) |\n| **2020** | 서세옥 | SUH Seok | 1929 | [mmca](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=10270) |\n\n---\n\n### 사실성 및 부재 정보 명시\n* 본 데이터는 `entity_kind = 'person'` 조건에 부합하는 인물 데이터만을 대상으로 추출되었습니다.\n* 특정 작가(예: 박서보, 강서경 등)의 경우 표기 방식 및 등록 소스(`mmca`, `gallery_johyun`, `aic`, `busan_art_museum`, `sema`, `gallery_tinakimgallery` 등)에 따라 복수의 레코드가 존재할 수 있습니다.\n* 본 조회 결과 외에 추가적인 경매 기록이나 미술관 취득 시점 정보 등은 본 DB 결과에 포함되어 있지 않습니다.\n\n데이터 범위: 경매는 Getty 1675~1944(유럽) + Bonhams 2003~현재 한 곳뿐이며 Christie's/Sotheby's/한국 경매사는 없음, 미술관 취득 시점 정보 없음.",
+      "queries": [
+        {
+          "title": "2020년 이후 사망한 한국 작가 목록",
+          "sql": "SELECT a.id, a.name, a.name_en, a.birth_year, a.death_year, a.nationality, s.site_name, s.url FROM artists a LEFT JOIN sources s ON a.source_id = s.id WHERE a.entity_kind = 'person' AND a.death_year >= 2020 AND (a.nationality ILIKE '%Korea%' OR a.nationality ILIKE '%한국%') ORDER BY a.death_year DESC LIMIT 50;",
+          "row_count": 17,
+          "error": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "n": 9,
+      "question": "Bonhams에서 2021년에 낙찰된 최고가 작품",
+      "elapsed_sec": 11.86,
+      "answer": "### 요약(Executive Summary)\n아트그래프(ArtGraph) 미술 데이터 분석 결과, 2021년 한 해 동안 본햄스(Bonhams) 경매에서 가장 높은 가격에 낙찰된 작품은 파블로 피카소(Pablo Picasso)의 《Femme au béret mauve》로 확인되었습니다. 본 작품은 2021년 5월 13일 9,150,000 USD의 낙찰가를 기록하며 당해 연도 본햄스 경매 최고가 기록을 세웠습니다.\n\n---\n\n### 2021년 Bonhams 최고가 낙찰 작품 순위 (Top 10)\n\n데이터베이스 조회 결과에 따른 2021년 본햄스 경매 낙찰가 상위 10개 작품의 상세 내역은 다음과 같습니다.\n\n| 순위 | 작가명 | 작품명 | 낙찰가 (Hammer Price) | USD 환산가 | 통화 | 경매 일자 | 출처 정보 |\n| :---: | :--- | :--- | :---: | :---: | :---: | :---: | :--- |\n| **1** | Picasso, Pablo | Femme au béret mauve | 9,150,000 | $9,150,000.00 | USD | 2021-05-13 | [Bonhams 경매 링크](https://www.bonhams.com/auctions/26669/) (site_name: bonhams) |\n| **2** | René Magritte | Torse nu dans les nuages... (Painted circa 1937) | 8,400,000 | $8,400,000.00 | USD | 2021-12-07 | [Bonhams 경매 링크](https://www.bonhams.com/auctions/27371/) (site_name: bonhams) |\n| **3** | Alberto Giacometti | Figurine entre deux maisons... (Conceived in 1950...) | 4,100,000 | $4,100,000.00 | USD | 2021-12-07 | [Bonhams 경매 링크](https://www.bonhams.com/auctions/27371/) (site_name: bonhams) |\n| **4** | (작가 미상) | YAYOI KUSAMA (B. 1929) Untitled 1965 | 3,800,000 | $3,800,000.00 | USD | 2021-05-12 | [Bonhams 경매 링크](https://www.bonhams.com/auctions/26989/) (site_name: bonhams) |\n| **5** | (작가 미상) | YAYOI KUSAMA (B. 1929) Hudson River 1960 | 3,300,000 | $3,300,000.00 | USD | 2021-05-12 | [Bonhams 경매 링크](https://www.bonhams.com/auctions/26989/) (site_name: bonhams) |\n| **6** | Giorgio Morandi | Natura morta (Painted in 1954) | 2,400,000 | $3,120,000.00 | GBP | 2021-11-23 | [Bonhams 경매 링크](https://www.bonhams.com/auctions/26768/) (site_name: bonhams) |\n| **7** | (작가 미상) | YAYOI KUSAMA (B. 1929) Mississippi River 1960 | 3,000,000 | $3,000,000.00 | USD | 2021-05-12 | [Bonhams 경매 링크](https://www.bonhams.com/auctions/26989/) (site_name: bonhams) |\n| **8** | Camille Pissarro | Tête de jeune-fille de profil dite \"la Rosa\" | 1,450,000 | $1,450,000.00 | USD | 2021-05-13 | [Bonhams 경매 링크](https://www.bonhams.com/auctions/26669/) (site_name: bonhams) |\n| **9** | Irma Stern | Lelemana Dance (with original Zanzibar frame.) | 1,000,000 | $1,300,000.00 | GBP | 2021-10-12 | [Bonhams 경매 링크](https://www.bonhams.com/auctions/27021/) (site_name: bonhams) |\n| **10** | Howard Hodgkin | Out of the Window 2000 | 940,000 | $1,222,000.00 | GBP | 2021-10-15 | [Bonhams 경매 링크](https://www.bonhams.com/auctions/26821/) (site_name: bonhams) |\n\n*참고: 순위 4, 5, 7번에 등록된 야요이 쿠사마(Yayoi Kusama) 관련 작품들은 데이터베이스 내 `artists` 테이블의 `artist_name`이 누락되어 있어, 본 보고서에서는 제공된 원본 데이터 표기에 따라 '작가 미상(또는 미등록)' 항목으로 분류하였습니다.*\n\n---\n\n데이터 범위: 경매는 Getty 1675~1944(유럽) + Bonhams 2003~현재 한 곳뿐이며 Christie's/Sotheby's/한국 경매사는 없음, 미술관 취득 시점 정보 없음.",
+      "queries": [
+        {
+          "title": "2021년 Bonhams 최고가 낙찰 작품 조회",
+          "sql": "SELECT \n    a.name AS artist_name,\n    aw.title AS artwork_title,\n    aw.year_created,\n    al.hammer_price,\n    al.price_usd,\n    al.currency,\n    au.auction_date,\n    au.name AS auction_name,\n    src.site_name,\n    src.url\nFROM auction_lots al\nJOIN auctions au ON al.auction_id = au.id\nJOIN auction_houses ah ON au.auction_house_id = ah.id\nJOIN artworks aw ON al.artwork_id = aw.id\nLEFT JOIN artists a ON aw.artist_id = a.id\nLEFT JOIN sources src ON al.source_id = src.id\nWHERE ah.name ILIKE '%Bonhams%'\n  AND au.auction_date >= '2021-01-01'\n  AND au.auction_date <= '2021-12-31'\n  AND al.sold = TRUE\nORDER BY COALESCE(al.price_usd, al.hammer_price) DESC NULLS LAST\nLIMIT 10;",
+          "row_count": 10,
+          "error": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "n": 10,
+      "question": "1850~1999년 경매 기록이 왜 적은지",
+      "elapsed_sec": 10.23,
+      "answer": "### 요약 (Executive Summary)\n제공된 데이터베이스 조회 결과에 따르면, 1850~1999년 구간의 경매 기록과 출품작 수는 해당 데이터셋 내에 등록된 기록이 없습니다. 본 데이터베이스의 경매 기록은 1675년부터 1761년(일부 초기 데이터 구간)까지만 주로 분포하고 있어, 1850~1999년 사이에 데이터가 존재하지 않는 것은 이 기간의 실제 역사적 경매 부재가 아니라 **데이터베이스에 수록된 소스 및 기간의 범위적 한계**에 기인합니다.\n\n---\n\n### 구조화된 본문\n\n#### 1. 데이터셋 내 경매 기록 분포 현황\n* 제공된 1675년~1761년 구간의 데이터(총 231건 중 일부 발췌)를 분석한 결과, 경매 기록은 18세기 중반 이전(예: 1740~1760년대)에 집중되어 있습니다.\n* 질문에서 언급된 **1850~1999년 구간**의 데이터는 조회 결과 상에 단 한 건도 존재하지 않으며, 해당 기간의 연도별 경매 회차 및 출품작 수 집계 결과는 **0건**으로 확인됩니다.\n\n#### 2. 연도별 경매 기록 예시 (비교용)\n데이터베이스에 기록된 대표적인 연도별 경매 건수 및 출품작(lot) 수의 일부는 다음과 같습니다:\n\n| 경매 연도 | 경매 회차 (Auction Count) | 출품작 수 (Lot Count) |\n| :--- | :--- | :--- |\n| **1675년** | 1회 | 344개 |\n| **1741년** | 3회 | 2,085개 |\n| **1756년** | 13회 | 1,347개 |\n| **1758년** | 16회 | 1,555개 |\n| **1761년** | 9회 | 541개 |\n\n*(상기 기간 외 1850~1999년 기간의 데이터는 등록되어 있지 않습니다.)*\n\n---\n\n### 데이터 범위 및 기준 시점 명시\n* **데이터 범위**: 경매는 Getty 1675~1944(유럽) + Bonhams 2003~현재 한 곳뿐이며 Christie's/Sotheby's/한국 경매사는 없음, 미술관 취득 시점 정보 없음.\n* **기준 시점 (as of)**: 제공된 데이터셋 내 `sources.fetched_at` 필드가 명시되어 있지 않아 별도의 기준 시점은 표기하지 않습니다.",
+      "queries": [
+        {
+          "title": "연도별 경매 회차 및 출품작 수 집계 (1850~1999년 구간 확인)",
+          "sql": "SELECT EXTRACT(YEAR FROM a.auction_date) AS auction_year, COUNT(DISTINCT a.id) AS auction_count, COUNT(al.id) AS lot_count FROM auctions a LEFT JOIN auction_lots al ON a.id = al.auction_id WHERE a.auction_date IS NOT NULL GROUP BY auction_year ORDER BY auction_year ASC;",
+          "row_count": 231,
+          "error": null
+        }
+      ],
+      "error": null
+    }
+  ],
+  "reruns": {
+    "generated_at": "2026-09-16T04:50:34.188601+00:00",
+    "note": "메인이 결함 수정 후 재검증 (질문4 market_stats_kr metric 프롬프트 보강, 질문6 Picasso 병합)",
+    "items": [
+      {
+        "n": 4,
+        "question": "2023년 한국 미술시장 경매 낙찰총액은?",
+        "elapsed_sec": 7.93,
+        "answer": "### 요약 (Executive Summary)\n아트그래프(ArtGraph) 미술 데이터베이스에 따르면, 2023년 한국 미술시장 경매 낙찰총액은 **1,572억 1,600만 원**(157,216.0 백만원)으로 집계되었습니다. 본 데이터는 'K-ARTMARKET 시장조사 통계'의 공식 집계 수치를 바탕으로 제공됩니다.\n\n---\n\n### 2023년 한국 미술시장 경매 낙찰총액 현황\n\n| 연도 | 지표 (Metric) | 낙찰총액 | 단위 | 비고 / 출처 |\n| :--- | :--- | :---: | :---: | :--- |\n| 2023 | auction_total_krw | 157,216.0 | 백만원 | 원문 표기 그대로 (K-ARTMARKET 시장조사 통계, 2023년) |\n\n- **출처 인용**: [K-ARTMARKET 시장조사 통계](https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do)\n\n---\n\n> **데이터 범위와 기준 시점 명시**\n> - 본 답변의 경매 데이터는 크리스티(Christie's), 소더비(Sotheby's) 및 국내 주요 경매사의 개별 상세 데이터가 아닌, K-ARTMARKET 통계에 기반한 한국 미술시장 전체 경매 낙찰총액 지표를 기준으로 합니다.\n> - 미술관 취득 시점 정보는 포함되어 있지 않습니다.",
+        "queries": [
+          {
+            "title": "2023년 한국 미술시장 경매 낙찰총액",
+            "sql": "SELECT year, metric, value, unit, note, source_url FROM market_stats_kr WHERE year = 2023 AND metric = 'auction_total_krw';",
+            "row_count": 1,
+            "rows": [
+              {
+                "year": "2023",
+                "metric": "auction_total_krw",
+                "value": "157216.0",
+                "unit": "백만원",
+                "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2023년)",
+                "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do"
+              }
+            ],
+            "error": null
+          }
+        ],
+        "error": null
+      },
+      {
+        "n": 6,
+        "question": "Picasso 작품 중 귀속 한정(copy after 등) 없이 진작으로 기록된 소장작 수",
+        "elapsed_sec": 14.81,
+        "answer": "### [Executive Summary]\n아트그래프 미술 데이터베이스 분석 결과, 파블로 피카소(Pablo Picasso)의 작품 중 귀속 한정(copy after 등) 수식어가 없는 진작(Attribution Qualifier가 없는 작품)의 전 세계 미술관 소장 건수는 총 **3,446건**으로 집계되었습니다. 본 수치는 제공된 데이터베이스 내에서 엄격하게 분류된 진작 소장 기록만을 반영한 결과입니다.\n\n---\n\n### [파블로 피카소 진작 소장 현황]\n\n* **작가명**: 파블로 피카소 (Pablo Picasso, `25730670-e216-4000-bdbd-8c4f80d452bd`)\n* **귀속 한정 없는 진작 소장작 총수**: **3,446건**\n\n| 구분 | 조건 | 소장 수량 |\n| :--- | :--- | :--- |\n| **진작 (Authentic Works)** | `attribution_qualifier IS NULL` (모사, 추정, 공방작 등 제외) | 3,446건 |\n\n---\n\n### [데이터 검증 및 부재 정보 명시]\n* **추가 경매 기록 및 상세 소장처 정보**: 본 쿼리 결과에서는 전체 미술관 소장 총수(COUNT)만 조회되었으며, 개별 미술관별 상세 소장 건수, 개별 작품명, 제작 연도, 재료/기법 및 경매 기록 등의 상세 데이터는 본 조회 범위에 포함되어 있지 않습니다. \n* **가상 데이터 배제**: 데이터베이스에 존재하지 않는 개별 작품 리스트나 추가적인 갤러리/경매 정보는 임의로 생성하지 않았습니다.\n\n---\n\n### [출처 인용]\n* **데이터 소스**: 아트그래프(ArtGraph) 미술 데이터베이스 (`artworks`, `museum_holdings`, `museums` 테이블 조인 결과)\n\n---\n\n**데이터 범위**: 경매는 Getty 1675~1944(유럽) + Bonhams 2003~현재 한 곳뿐이며 Christie's/Sotheby's/한국 경매사는 없음, 미술관 취득 시점 정보 없음.",
+        "queries": [
+          {
+            "title": "파블로 피카소의 진작 소장작 수 조회",
+            "sql": "SELECT COUNT(mh.id) AS holding_count FROM artworks aw JOIN museum_holdings mh ON aw.id = mh.artwork_id JOIN museums m ON mh.museum_id = m.id WHERE aw.artist_id = '25730670-e216-4000-bdbd-8c4f80d452bd' AND aw.attribution_qualifier IS NULL",
+            "row_count": 1,
+            "rows": [
+              {
+                "holding_count": "3446"
+              }
+            ],
+            "error": null
+          }
+        ],
+        "error": null
+      }
+    ]
+  }
+}
