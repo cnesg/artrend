@@ -52,13 +52,28 @@ def load(store) -> int:
             if row.get("Classification") not in ART_CLASSIFICATIONS:
                 continue
 
+            # MoMA CSV는 작가가 여럿이면 Artist를 ", "로, ConstituentID를 ", "로,
+            # Nationality/BeginDate/EndDate를 "(A) (B)"로 병렬 나열한다. Met "|"와 같은
+            # 구조라 첫 번째(주작가)만 취한다(2026-09-15, 진단 §3-2-3 — 이전엔 통째로
+            # 저장해 "Pablo Picasso, Ilia Zdanevich" 같은 행이 1,126건 생겼음).
+            multi = ", " in (row.get("ConstituentID") or "")
             artist_name = (row.get("Artist") or "").strip() or None
+            nationality = (row.get("Nationality") or "").strip()
+            begin_date = (row.get("BeginDate") or "").strip()
+            end_date = (row.get("EndDate") or "").strip()
+            bio = (row.get("ArtistBio") or "").strip()
+            if multi and artist_name:
+                artist_name = artist_name.split(", ")[0].strip() or None
+                nationality = nationality.split(") (")[0]
+                begin_date = begin_date.split(") (")[0]
+                end_date = end_date.split(") (")[0]
+                bio = bio.split(") (")[0]
             artist_id = store.get_or_create_artist(
                 artist_name,
-                nationality=(row.get("Nationality") or "").strip("() ") or None,
-                birth_year=to_int((row.get("BeginDate") or "").strip("() ")),
-                death_year=to_int((row.get("EndDate") or "").strip("() ")),
-                bio=(row.get("ArtistBio") or None),
+                nationality=nationality.strip("() ") or None,
+                birth_year=to_int(begin_date.strip("() ")) or None,
+                death_year=to_int(end_date.strip("() ")) or None,
+                bio=(bio.strip("() ") or None),
                 source_id=source_id,
             )
 

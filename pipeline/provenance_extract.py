@@ -86,10 +86,34 @@ NAME_STOPWORD_RE = re.compile(
 )
 
 INSTITUTION_MUSEUM_RE = re.compile(
-    r"\bmuseum\b|\binstitute\b|\bacademy\b|national gallery|kunsthalle|kunstmuseum|rijksmuseum",
+    r"\bmuseum\b|national gallery|kunsthalle|kunstmuseum|rijksmuseum",
     re.IGNORECASE,
 )
 FOUNDATION_RE = re.compile(r"\bfoundation\b", re.IGNORECASE)
+# "institute"/"academy"도 foundation과 같은 문제 — Art Institute of Chicago/Minneapolis
+# Institute of Art처럼 실제 소장 기관인 경우가 있는 반면, "Agnew to the Art Institute"
+# (credit line 추출 오류로 문장 일부가 통째로 이름이 됨), "American Institute of Interior
+# Designers"/"United States Military Academy"(실존 단체지만 미술관 아님)처럼 압도적
+# 다수가 오분류였다(museums 0건-소장 유령 행 검증 결과 institute 288/299건, academy
+# 21/25건 — 2026-09-08, docs/정합성작업.md §7·§11 후속). 이미 실제로 크롤링해 소장품이
+# 있는 이름과 정확히 일치할 때만 museum으로 인정.
+INSTITUTE_ACADEMY_RE = re.compile(r"\binstitute\b|\bacademy\b", re.IGNORECASE)
+KNOWN_MUSEUM_INSTITUTES = {
+    "art institute of chicago",
+    "minneapolis institute of art",
+    "detroit institute of arts",
+    "gavrilă simion eco-museum research institute tulcea",
+    "gavrilă simion eco-museum research institute tulcea - art museum",
+    "gavrilă simion eco-museum research institute tulcea - history and archaeology museum",
+    "national heritage institute, bucharest",
+    "royal institute for cultural heritage",
+    "romanian academy - iași archeological institute",
+    "netherlands institute for military history",
+    "international institute of social history",
+    "romanian academy in bucharest",
+    "romanian academy library",
+    "royal irish academy",
+}
 # "Foundation"은 museum(위 정규식)과 collector-fund(아래 INSTITUTION_ORG_RE) 양쪽에
 # 다 걸칠 수 있는 애매한 단어다 — Barnes Foundation처럼 실제 소장 기관인 경우가 있는
 # 반면 "Quentin Foundation", "Purchased with funds provided by The Judith Rothschild
@@ -222,6 +246,10 @@ def _classify_owner_type(name: str) -> tuple[str, bool]:
         if name.strip().lower() in KNOWN_MUSEUM_FOUNDATIONS:
             return "museum", False
         return "collector", True  # 실제 소장 기관으로 확인 안 된 foundation — 펀드/단체로 취급
+    if INSTITUTE_ACADEMY_RE.search(name):
+        if name.strip().lower() in KNOWN_MUSEUM_INSTITUTES:
+            return "museum", False
+        return "collector", True  # 실제 소장 기관으로 확인 안 된 institute/academy — 단체로 취급
     if AUCTION_HOUSE_RE.search(name):
         return "auction_house", False
     if GALLERY_RE.search(name):

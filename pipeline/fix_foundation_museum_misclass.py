@@ -25,13 +25,18 @@ Rothschild Foundation")이다. 원인은 `pipeline/provenance_extract.py`의
 from __future__ import annotations
 
 import argparse
+import json
+import os
 import sys
+from datetime import datetime, timezone
 
 if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     sys.stdout.reconfigure(encoding="utf-8")
 
 from db import get_connection
 from provenance_extract import FOUNDATION_RE, KNOWN_MUSEUM_FOUNDATIONS
+
+DOCS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "docs"))
 
 
 def main() -> None:
@@ -66,6 +71,15 @@ def main() -> None:
     if not args.apply:
         print("\n[fix_foundation_museum] --apply 없이 리포트만 실행함 (DB 변경 없음)")
         return
+
+    # 삭제 전 롤백용 전체 대상 덤프 (2026-09-08 institute/academy 스크립트 지적 반영,
+    # 같은 패턴의 이 스크립트에도 소급 적용).
+    log_path = os.path.join(
+        DOCS_DIR, f"museums_foundation_삭제대상_{datetime.now(timezone.utc).strftime('%Y%m%d_%H%M%S')}.json"
+    )
+    with open(log_path, "w", encoding="utf-8") as f:
+        json.dump([{"id": str(mid), "name": name} for mid, name in targets], f, ensure_ascii=False, indent=2)
+    print(f"[fix_foundation_museum] 삭제 전 전체 대상({len(targets)}건) 로그 저장: {log_path}")
 
     total_museums_deleted = 0
     total_records_reconnected = 0
