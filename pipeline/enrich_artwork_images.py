@@ -31,15 +31,19 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 RAW_ROOT = BASE_DIR / "crawlers" / "raw"
 VAULT_CURATED = BASE_DIR / "vault_curated" / "artworks"
 
-DEFAULT_DB_URL = "postgresql://postgres@127.0.0.1:5433/artrend"
 USER_AGENT = "ArtrendBot/1.0 (artgraph@artrend.com)"
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from db import get_connection  # noqa: E402
 
 
 def get_db_connection(dsn: str | None = None) -> psycopg2.extensions.connection:
-    url = dsn or os.environ.get("DATABASE_URL", DEFAULT_DB_URL)
-    conn = psycopg2.connect(url)
-    conn.autocommit = True
-    return conn
+    if dsn:
+        conn = psycopg2.connect(dsn)
+        conn.set_client_encoding("UTF8")
+        conn.autocommit = True
+        return conn
+    return get_connection(autocommit=True)
 
 
 def ensure_schema(conn: psycopg2.extensions.connection) -> None:

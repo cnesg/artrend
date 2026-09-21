@@ -100,7 +100,8 @@ def main() -> None:
         print("--apply 없음: 리포트만")
         return
 
-    cur.execute("insert into sources (url, site_name, fetched_at, raw_path, license_note) values (%s, %s, now(), %s, %s) returning id",
+    cur.execute("""insert into sources (url, site_name, fetched_at, raw_path, license_note) values (%s, %s, now(), %s, %s)
+                   on conflict (raw_path) do update set fetched_at = now() returning id""",
                 ("https://query.wikidata.org/sparql", "wikidata_artist_events", "crawlers/raw/wikidata_artist_events/", LICENSE_NOTE))
     source_id = cur.fetchone()[0]
     n = Counter()

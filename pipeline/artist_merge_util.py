@@ -13,17 +13,13 @@ from pathlib import Path
 
 
 def get_conn():
-    import psycopg2
+    """db.get_connection 위임(2026-09-17 P3 일원화). 기존 import 경로 호환용으로 남긴다."""
+    import sys
 
-    dsn = os.environ.get("DATABASE_URL")
-    if not dsn:
-        from dotenv import load_dotenv
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from db import get_connection
 
-        load_dotenv(Path(__file__).resolve().parent / ".env")
-        dsn = os.environ["DATABASE_URL"]
-    conn = psycopg2.connect(dsn)
-    conn.set_client_encoding("UTF8")
-    return conn
+    return get_connection()
 
 
 def norm_exact(name: str) -> str:

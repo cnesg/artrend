@@ -1,6 +1,6 @@
-import psycopg2
+from db import get_connection
 
-conn = psycopg2.connect("postgresql://postgres@127.0.0.1:5433/artrend")
+conn = get_connection()
 cur = conn.cursor()
 
 print("=== 1. 작가 (Artists) 선정 기준 분석 ===")

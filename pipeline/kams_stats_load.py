@@ -15,6 +15,12 @@ crawlers/kams_stats.py가 저장한 `crawlers/raw/kams_stats/market_size_progres
   직접 제공한 수치가 아니므로 note에 "[산출값] 화랑+경매+아트페어 판매금액
   합산(원문에 합계 항목 없음)"이라고 명시하고, 세 지표가 모두 있는 연도만 채운다.
 
+2026-09-17 갱신잡 정리 후속 수정: `crawlers/kams_stats.py`가 이제 매달 새 raw
+파일(`market_size_progress_YYYYMM.html`)을 저장하므로, 여기서는 **가장 최신
+raw 파일**을 읽는다. DB 반영은 `(year, metric)` 기준 upsert로 바꿔 원문 값이
+바뀌면 갱신되게 했다(기존엔 `on conflict do nothing`이라 최초 1회 값에서 영원히
+안 바뀌는 결함이 있었음) — 값이 실제로 달라진 행만 리포트에 diff로 남긴다.
+
 사용법:
     python pipeline/kams_stats_load.py            # 리포트만
     python pipeline/kams_stats_load.py --apply     # 실제 반영
@@ -38,8 +44,13 @@ sys.path.insert(0, str(Path(__file__).parent))
 from db import get_connection  # noqa: E402
 
 DOCS_DIR = Path(__file__).resolve().parent.parent / "docs" / "logs"
-RAW_HTML = Path(__file__).resolve().parent.parent / "crawlers" / "raw" / "kams_stats" / "market_size_progress.html"
+RAW_DIR = Path(__file__).resolve().parent.parent / "crawlers" / "raw" / "kams_stats"
 SOURCE_URL = "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do"
+
+
+def latest_raw_html() -> Path | None:
+    candidates = sorted(RAW_DIR.glob("market_size_progress*.html"))
+    return candidates[-1] if candidates else None
 
 # (h5 섹션 제목, 표 안 행 라벨) -> (metric, unit)
 METRIC_MAP = {
@@ -62,9 +73,9 @@ def parse_number(s: str) -> float | None:
         return None
 
 
-def extract_year_series() -> dict[tuple[str, int], tuple[float, str]]:
+def extract_year_series(raw_html: Path) -> dict[tuple[str, int], tuple[float, str]]:
     """(metric, year) -> (value, unit)"""
-    html = RAW_HTML.read_text(encoding="utf-8")
+    html = raw_html.read_text(encoding="utf-8")
     soup = BeautifulSoup(html, "html.parser")
     tables = soup.find_all("table")
 
@@ -103,11 +114,13 @@ def main():
     ap.add_argument("--apply", action="store_true")
     args = ap.parse_args()
 
-    if not RAW_HTML.exists():
-        print(f"[kams_stats_load] raw 파일 없음: {RAW_HTML} — crawlers/kams_stats.py 먼저 실행")
+    raw_html = latest_raw_html()
+    if raw_html is None:
+        print(f"[kams_stats_load] raw 파일 없음: {RAW_DIR} — crawlers/kams_stats.py 먼저 실행")
         return
+    print(f"[kams_stats_load] raw 파일: {raw_html.name}")
 
-    series = extract_year_series()
+    series = extract_year_series(raw_html)
 
     rows = []
     for (metric, year), (value, unit) in series.items():
@@ -164,20 +177,41 @@ def main():
     conn = get_connection()
     cur = conn.cursor()
     inserted = 0
+    updated = 0
+    unchanged = 0
+    diffs = []
     for r in rows:
+        cur.execute(
+            "select value from market_stats_kr where year=%s and metric=%s and coalesce(source_url,'')=coalesce(%s,'')",
+            (r["year"], r["metric"], r["source_url"]),
+        )
+        existing = cur.fetchone()
         cur.execute(
             """
             insert into market_stats_kr (year, metric, value, unit, source_url, note)
             values (%s, %s, %s, %s, %s, %s)
-            on conflict (year, metric, coalesce(source_url,'')) do nothing
+            on conflict (year, metric, coalesce(source_url,'')) do update
+              set value = excluded.value, unit = excluded.unit, note = excluded.note
+              where market_stats_kr.value is distinct from excluded.value
             returning id
             """,
             (r["year"], r["metric"], r["value"], r["unit"], r["source_url"], r["note"]),
         )
-        if cur.fetchone() is not None:
-            inserted += 1
+        touched = cur.fetchone() is not None
+        if existing is None:
+            if touched:
+                inserted += 1
+        elif touched:
+            updated += 1
+            diffs.append({"year": r["year"], "metric": r["metric"], "old": float(existing[0]) if existing[0] is not None else None, "new": r["value"]})
+        else:
+            unchanged += 1
     conn.commit()
-    print(f"[kams_stats_load] 적용 완료 — market_stats_kr 신규 {inserted}건")
+    print(f"[kams_stats_load] 적용 완료 — 신규 {inserted}건 / 갱신 {updated}건 / 변동없음 {unchanged}건")
+    if diffs:
+        print("[kams_stats_load] 값 변경 상세:")
+        for d in diffs:
+            print(f"  {d['year']} {d['metric']}: {d['old']} -> {d['new']}")
 
 
 if __name__ == "__main__":

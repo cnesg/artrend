@@ -1,9 +1,10 @@
 import sys
-import psycopg2
+
+from db import get_connection
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-conn = psycopg2.connect("postgresql://postgres@127.0.0.1:5433/artrend")
+conn = get_connection()
 cur = conn.cursor()
 
 print("--- Noise pattern check across all entity tables ---")

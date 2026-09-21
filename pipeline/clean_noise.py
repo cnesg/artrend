@@ -19,12 +19,13 @@
 """
 import sys
 import re
-import psycopg2
+
+from db import get_connection
 
 sys.stdout.reconfigure(encoding="utf-8")
 
 def clean_database():
-    conn = psycopg2.connect("postgresql://postgres@127.0.0.1:5433/artrend")
+    conn = get_connection()
     conn.autocommit = False
     cur = conn.cursor()
 

@@ -18,7 +18,8 @@ import time
 from collections import defaultdict
 from pathlib import Path
 
-import psycopg2
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from db import get_connection  # noqa: E402
 
 if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     sys.stdout.reconfigure(encoding="utf-8")
@@ -141,8 +142,7 @@ def main():
     for sub in ["artists", "museums", "galleries", "auction_houses", "collectors", "artworks"]:
         (VAULT_DIR / sub).mkdir(parents=True, exist_ok=True)
 
-    conn = psycopg2.connect("postgresql://postgres@127.0.0.1:5433/artrend")
-    conn.set_client_encoding("UTF8")
+    conn = get_connection()
     cur = conn.cursor()
 
     # -------------------------------------------------------------

@@ -50,7 +50,9 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
 ENV_PATH = Path(__file__).resolve().parent / ".env"
 load_dotenv(ENV_PATH)
 
-DATABASE_URL = os.environ.get("DATABASE_URL", "postgresql://postgres@127.0.0.1:5433/artrend")
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from db import get_connection, get_dsn  # noqa: E402
+
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
 CACHE_FILE = Path(__file__).resolve().parent / "cache_core_2500_artists.json"
@@ -66,9 +68,7 @@ GEMINI_MODELS = [
 
 def get_db_connection():
     """PostgreSQL 연결 생성 (UTF-8 인코딩)"""
-    conn = psycopg2.connect(DATABASE_URL)
-    conn.set_client_encoding("UTF8")
-    return conn
+    return get_connection()
 
 
 def get_core_2500_artists(use_cache: bool = True) -> list[dict[str, Any]]:
@@ -432,7 +432,7 @@ def main():
     print("=" * 70)
     print("🎨 [ArtGraph] 핵심 작가 2,500명 한국어 약력(Bio) & 사조(Movement) 보강 파이프라인")
     print("=" * 70)
-    print(f"  - DB URL: {DATABASE_URL}")
+    print(f"  - DB: {get_dsn().rsplit('@', 1)[-1]}")
     print(f"  - 병렬 워커: {args.workers}개")
     print(f"  - 배치 크기: 요청당 {args.batch_size}명")
     print(f"  - 보강 모드: {args.mode}")

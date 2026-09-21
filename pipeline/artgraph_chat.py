@@ -39,7 +39,9 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
 ENV_PATH = Path(__file__).resolve().parent / ".env"
 load_dotenv(ENV_PATH)
 
-DATABASE_URL = os.environ.get("DATABASE_URL", "postgresql://postgres@127.0.0.1:5433/artrend")
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from db import get_connection  # noqa: E402
+
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
 # Gemini 모델 설정
@@ -53,7 +55,7 @@ SCHEMA_DESCRIPTION = """
 [PostgreSQL DB 스키마: ArtGraph (artrend)]
 
 1. artists (작가):
-   - id (uuid, PK), name (text), name_en (text), birth_year (int), death_year (int), nationality (text), bio (text, 원본 소스 약력만), source_id (uuid)
+   - id (uuid, PK), name (text), name_en (text), birth_year (int), death_year (int), nationality (text), bio (text, 소스/위키 인용 약력), bio_source (text, 약력 출처 URL — 있으면 답변에 인용), source_id (uuid)
    - entity_kind (text: 'person'|'anonymous'|'culture'|'organization'|'attribution') — 작가 질문은 기본적으로 entity_kind='person'만 대상. 'anonymous'(작자 미상)·'culture'(국가/시대명)·'organization'(기업/공방)·'attribution'(귀속 표기, attribution_of → 본체 작가 id)은 사람 작가가 아님
    - ulan_id (text, Getty ULAN), wikidata_qid (text, Wikidata Q-ID) — 같은 ID면 같은 작가
 1-b. artist_bio_generated (AI 생성 약력, 원본 아님): artist_id (FK), bio (text), model (text), generated_at — 인용 시 반드시 "[AI 생성 약력]"으로 표기
@@ -136,15 +138,13 @@ ANSWER_SYNTHESIS_SYSTEM_PROMPT = """당신은 아트그래프(ArtGraph) 미술 �
 6. **데이터 범위와 기준 시점 명시**:
    - 답변 끝에 "데이터 범위" 한 줄을 붙이세요: 경매는 Getty 1675~1944(유럽) + Bonhams 2003~현재 한 곳뿐이며 Christie's/Sotheby's/한국 경매사는 없음, 미술관 취득 시점 정보 없음. 질문이 "요즘/최근/시세/트렌드"를 묻는 경우 이 한계를 요약 첫머리에서 먼저 밝히세요.
    - 조회 결과에 sources.fetched_at이 있으면 "기준 시점(as of)"으로 표기하세요. 역사 통화(livres, florins, guilders 등) 가격은 USD로 환산하지 말고 원 통화 그대로 적으세요.
-   - artists.entity_kind가 'anonymous'/'culture'/'organization'인 행을 "작가"로 서술하지 마세요("작자 미상", "국가/시대 분류", "제작사"로 구분). artist_bio_generated의 약력은 "[AI 생성 약력]"이라고 명시하세요.
+   - artists.entity_kind가 'anonymous'/'culture'/'organization'인 행을 "작가"로 서술하지 마세요("작자 미상", "국가/시대 분류", "제작사"로 구분). artists.bio에 bio_source(URL)가 있으면 그 출처를 근거로 인용하세요. artist_bio_generated의 약력은 "[AI 생성 약력]"이라고 명시하세요.
 """
 
 
 def get_db_connection():
     """PostgreSQL 연결 생성 (UTF-8 인코딩)"""
-    dsn = os.environ.get("DATABASE_URL", DATABASE_URL)
-    conn = psycopg2.connect(dsn)
-    conn.set_client_encoding("UTF8")
+    conn = get_connection()
     with conn.cursor() as cur:
         cur.execute("SET default_transaction_read_only = on;")
     return conn

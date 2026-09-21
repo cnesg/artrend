@@ -24,7 +24,10 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     sys.stdout.reconfigure(encoding="utf-8")
 sys.stdout.reconfigure(line_buffering=True)
 
-DB_URL = "postgresql://postgres@127.0.0.1:5433/artrend"
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from db import get_connection  # noqa: E402
 
 # Currency conversion rates to USD (approximate reference standard).
 # ISO 4217 코드 현대 통화만 — 2026-09-15 작업분담 §W2: 역사 통화(18~19세기 유럽
@@ -60,7 +63,7 @@ def main():
     print("  Artrend 경매 DB 정규화 & 시장 지표 테이블 구축")
     print("==================================================")
 
-    conn = psycopg2.connect(DB_URL)
+    conn = get_connection()
     conn.set_client_encoding("UTF8")
     conn.autocommit = True
     cur = conn.cursor()

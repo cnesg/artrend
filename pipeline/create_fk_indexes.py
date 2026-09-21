@@ -1,7 +1,6 @@
-import psycopg2
+from db import get_connection
 
-conn = psycopg2.connect("postgresql://postgres@127.0.0.1:5433/artrend")
-conn.autocommit = True
+conn = get_connection(autocommit=True)
 cur = conn.cursor()
 
 indexes = [
