@@ -41,6 +41,7 @@ import argparse
 import sys
 import time
 import xml.etree.ElementTree as ET
+import zlib
 
 import requests
 
@@ -68,9 +69,15 @@ NS = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 DEAD_LOG = RAW_ROOT / SITE_NAME / "_dead_urls.txt"
 
 
+class Blocked(Exception):
+    """HTTP 403 — 봇 차단 신호. 재시도·우회하지 않고 크롤을 멈춘다."""
+
+
 def _get(url: str, **kw) -> requests.Response:
     def _do():
         resp = requests.get(url, headers=HEADERS, timeout=60, **kw)
+        if resp.status_code == 403:
+            raise Blocked(url)
         resp.raise_for_status()
         return resp
 
@@ -89,6 +96,8 @@ def _get_lot(url: str) -> requests.Response | None:
 
     def _do():
         resp = requests.get(url, headers=HEADERS, timeout=60)
+        if resp.status_code == 403:
+            raise Blocked(url)
         if resp.status_code >= 500 or resp.status_code == 429:
             resp.raise_for_status()  # with_retry가 재시도하도록 예외로 승격
         return resp
@@ -143,8 +152,13 @@ def _append_dead(url: str) -> None:
         f.write(url + "\n")
 
 
-def crawl_lots(limit: int | None, skip_existing: bool) -> None:
+def crawl_lots(limit: int | None, skip_existing: bool, shard: tuple[int, int] | None = None) -> None:
     lot_urls = discover_lot_urls()
+    if shard is not None:
+        # URL 해시로 나눠 sitemap 순서가 바뀌어도 샤드 간 겹침·누락이 없다.
+        k, n = shard
+        lot_urls = [u for u in lot_urls if zlib.crc32(u.encode()) % n == k]
+        print(f"[lempertz] 샤드 {k}/{n}: 로트 URL {len(lot_urls)}건")
     dead = _load_dead_set()
 
     saved = 0
@@ -214,5 +228,11 @@ if __name__ == "__main__":
         "--no-skip-existing", dest="skip_existing", action="store_false",
         help="이미 저장된 로트도 다시 수집",
     )
+    parser.add_argument("--shard", default=None, help="K/N — 로트 URL 해시로 N분할 중 K번째만 수집")
     args = parser.parse_args()
-    crawl_lots(args.limit, args.skip_existing)
+    shard = tuple(int(x) for x in args.shard.split("/")) if args.shard else None
+    try:
+        crawl_lots(args.limit, args.skip_existing, shard)
+    except Blocked as exc:
+        print(f"[lempertz] HTTP 403(봇 차단 신호) — 우회하지 않고 중단: {exc}")
+        sys.exit(3)

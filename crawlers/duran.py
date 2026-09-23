@@ -97,9 +97,15 @@ AUCTION_INFO_RE = re.compile(
 )
 
 
+class Blocked(Exception):
+    """HTTP 403 — 봇 차단 신호. 재시도·우회하지 않고 크롤을 멈춘다."""
+
+
 def _get(session: requests.Session, url: str, **kw) -> requests.Response:
     def _do():
         resp = session.get(url, headers=HEADERS, timeout=60, **kw)
+        if resp.status_code == 403:
+            raise Blocked(url)
         resp.raise_for_status()
         return resp
 
@@ -169,6 +175,8 @@ def collect_lot_urls(session: requests.Session, auction: dict) -> list[tuple[str
                 AJAX_URL, data=body, timeout=60,
                 headers={**HEADERS, "X-Requested-With": "XMLHttpRequest", "Referer": page_url},
             )
+            if r.status_code == 403:
+                raise Blocked(AJAX_URL)
             r.raise_for_status()
             return r
 
@@ -200,11 +208,17 @@ def crawl(
     limit: int | None,
     skip_existing: bool,
     per_auction: int | None = None,
+    shard: tuple[int, int] | None = None,
 ) -> None:
     session = requests.Session()
     auctions = discover_auctions(session)
     if auction_count is not None:
         auctions = auctions[:auction_count]
+    if shard is not None:
+        # 최신순 정렬 목록을 라운드로빈으로 나눠 샤드마다 최신 경매부터 돈다.
+        k, n = shard
+        auctions = auctions[k::n]
+        print(f"[duran] 샤드 {k}/{n}: 경매 {len(auctions)}개")
 
     saved = 0
     skipped_cached = 0
@@ -253,6 +267,12 @@ if __name__ == "__main__":
                         help="경매 1개당 최대 로트 수(여러 경매에 고르게 퍼뜨릴 때)")
     parser.add_argument("--no-skip-existing", dest="skip_existing", action="store_false",
                         help="이미 저장된 로트도 다시 수집")
+    parser.add_argument("--shard", default=None, help="K/N — 경매 목록을 N분할 중 K번째만 수집")
     args = parser.parse_args()
-    crawl(None if args.all else args.auctions, args.limit, args.skip_existing,
-          per_auction=args.per_auction)
+    shard = tuple(int(x) for x in args.shard.split("/")) if args.shard else None
+    try:
+        crawl(None if args.all else args.auctions, args.limit, args.skip_existing,
+              per_auction=args.per_auction, shard=shard)
+    except Blocked as exc:
+        print(f"[duran] HTTP 403(봇 차단 신호) — 우회하지 않고 중단: {exc}")
+        sys.exit(3)
