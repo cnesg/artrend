@@ -16,20 +16,35 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
 sys.stdout.reconfigure(line_buffering=True)
 
 import aic
+import astaguru
+import auctionet
 import auctions
 import barnes
 import bonhams
+import bukowskis
 import busan_art_museum
 import cleveland
+import duran
 import europeana
 import galleries
 import getty
 import getty_provenance_sales
 import gmoma
+import grisebach
+import im_kinsky
 import japan_museums
+import k_artmarket_works
+import kanauction
+import kogirekai
 import leeum
+import lempertz
 import louvre
+import lyonandturnbull
 import mia
+import nagel
+import phillips
+import polypm
+import sworders
 import walters
 import met
 import mmca
@@ -74,12 +89,30 @@ LOADERS = {
     "gmoma": gmoma.load,
     "leeum": leeum.load,
     "pinault": pinault.load,
+    "grisebach": grisebach.load,
+    "k_artmarket_works": k_artmarket_works.load,
+    "kanauction": kanauction.load,
+    "astaguru": astaguru.load,
+    "auctionet": auctionet.load,
+    "bukowskis": bukowskis.load,
+    "duran": duran.load,
+    "im_kinsky": im_kinsky.load,
+    "kogirekai": kogirekai.load,
+    "lempertz": lempertz.load,
+    "lyonandturnbull": lyonandturnbull.load,
+    "nagel": nagel.load,
+    "phillips": phillips.load,
+    "polypm": polypm.load,
+    "sworders": sworders.load,
 }
 ALL_SITES = [
     "met", "aic", "cleveland", "nga", "smithsonian", "mmca", "smk", "galleries",
     "moma", "tate", "louvre", "rijksmuseum", "wikidata_museums", "japan_museums",
     "getty", "barnes", "walters", "mia", "auctions", "vam", "getty_provenance_sales",
     "europeana", "bonhams", "sema", "busan_art_museum", "gmoma", "leeum", "pinault",
+    "grisebach", "k_artmarket_works", "kanauction",
+    "astaguru", "auctionet", "bukowskis", "duran", "im_kinsky", "kogirekai", "lempertz",
+    "lyonandturnbull", "nagel", "phillips", "polypm", "sworders",
 ]
 
 

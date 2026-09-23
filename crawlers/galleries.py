@@ -526,6 +526,72 @@ GALLERIES: dict[str, dict] = {
         "unescape": True,
         "swap_groups": True,
     },
+    # --- 2026-09-22 신규 추가 (국내 갤러리 축 확대) ---
+    "rhogallery": {
+        # 노화랑(Gallery Rho). WordPress 기본 테마 — 개별 작가 글이 최상위
+        # 경로(/작가슬러그/)에 있고 entry-title 안 <a title="이름" rel="bookmark">
+        # 형태로 이름이 들어있음.
+        "base": "",
+        "list_path": "https://rhogallery.com/artists/",
+        "pattern": r'href="(https://rhogallery\.com/[a-z0-9\-]+/)" title="[^"]*" rel="bookmark">(.*?)</a>',
+    },
+    "artside": {
+        # 아트사이드갤러리. artside.org(자체 개발, Bulma CSS) — 작가 목록은
+        # 복수형 /artists가 아니라 단수형 /artist 경로. 링크 자체가
+        # 해시형 ID(href="/artist/<hash>")라 record_id도 자동으로 그 해시를 씀.
+        "base": "https://artside.org",
+        "list_path": "/artist",
+        "pattern": r'href="(/artist/[a-z0-9]+)" class="ml-5">(.*?)</a>',
+    },
+    # --- 2026-09-22 신규 추가 (해외 갤러리 축 확대) ---
+    "pilarcorrias": {
+        # Pilar Corrias(런던). Artlogic — 이름이 <a> 안이 아니라 뒤따르는
+        # <div class="artist_name">이름</div>에 있어 paulacooper와 같은 계열
+        # 패턴 필요.
+        "base": "https://www.pilarcorrias.com",
+        "list_path": "/artists",
+        "pattern": r'href="(/artists/[a-zA-Z0-9\-]+/)">.*?<div class="artist_name">(.*?)</div>',
+    },
+    "nordenhake": {
+        "base": "https://nordenhake.com",
+        "list_path": "/artists",
+        "pattern": r'<a class="ndh-artistList__link" href="(https://nordenhake\.com/artists/[a-z0-9\-]+)">(.*?)</a>',
+    },
+    "companygallery": {
+        "base": "https://companygallery.us",
+        "list_path": "/artists",
+        "pattern": r'href="(/artists/[a-zA-Z0-9\-]+)" class="artist_link heart_hover">(.*?)</a>',
+    },
+    "greenenaftaligallery": {
+        "base": "https://greenenaftaligallery.com",
+        "list_path": "/artists",
+        "pattern": r'href="(/artists/[a-zA-Z0-9\-]+)"><header class="thumb_header"><h2 class="caps b">(.*?)</h2>',
+    },
+    "bortolamigallery": {
+        "base": "https://www.bortolamigallery.com",
+        "list_path": "/artists",
+        "pattern": r'href="(/artists/[a-zA-Z0-9\-]+)">(.*?)</a>',
+    },
+    "konradfischergalerie": {
+        # gallerychosun/barakatcontemporary와 동일 패턴 — 이름이 <a> 태그
+        # 바로 앞 HTML 주석에 들어있음(예: `<!-- Carl Andre --><a href="/artists/43/">`).
+        "base": "https://konradfischergalerie.de",
+        "list_path": "/artists/",
+        "pattern": r'<!-- ([^>]+) -->\s*<a href="(/artists/\d+/)"',
+        "swap_groups": True,
+    },
+    "maureenpaley": {
+        "base": "https://www.maureenpaley.com",
+        "list_path": "/artists",
+        "pattern": r'href="(/artists/[a-zA-Z0-9\-]+)"[^>]*>(.*?)</a>',
+    },
+    "corbettvsdempsey": {
+        # 슬러그에 움라우트 등 비-ASCII 문자가 URL 인코딩되어 들어있는 경우가
+        # 있어(예: peter-br%C3%B6tzmann) 슬러그 패턴에 %를 포함시켰다.
+        "base": "https://corbettvsdempsey.com",
+        "list_path": "/artists/",
+        "pattern": r'href="(/artists/[a-zA-Z0-9%_\-]+/)">(.*?)</a>',
+    },
 }
 
 # 확인했지만 크롤링하지 않기로 한 곳:
@@ -547,6 +613,47 @@ GALLERIES: dict[str, dict] = {
 #   텍스트 소스가 없음(Simon) — requests 기반으로는 해결 불가 확인, 계속 보류.
 # - Galerie Krinzinger, Sadie Coles HQ: 2026-09-03 페이지네이션/이스케이프
 #   해제 처리 추가 후 GALLERIES에 등록 완료(각각 "krinzinger"/"sadiecoles").
+# 2026-09-22 신규 발굴 라운드에서 확인했지만 보류한 곳:
+# - P21: 도메인 자체가 Angular SPA(ng-app)라 robots.txt조차 index.html로
+#   폴백 — 정적 작가 링크 없음.
+# - 두산갤러리(Doosan Gallery): doosanartcenter.com 서브도메인
+#   doosangallery.com은 있으나 /artists, /artist, /en(ko)/artists 전부 404 —
+#   React 기반 클라이언트 라우팅으로 추정. 개념적으로도 상시 전속작가
+#   로스터보다는 공모/기획전 중심이라 "작가 로스터" 구조 자체가 불명확.
+# - 이화익갤러리(Leehwaik Gallery): robots.txt는 문제없으나 /artistList가
+#   wookmark.js 그리드로 JS 렌더링 — 정적 HTML에 작가 링크 없음.
+# - PIBI Gallery(피비갤러리): robots.txt 문제없으나 /pages/artists/artists.php
+#   응답에 swiper/AOS만 있고 개별 작가 링크가 없음 — JS/AJAX 렌더링으로 판단.
+# - 원앤제이갤러리: 이미 제외 확정(위 목록 참고, HTTP 410) — 재확인 없이 스킵.
+# - David Kordansky Gallery: /artists가 /exception/info로 리다이렉트 —
+#   봇 감지/WAF 차단 페이지로 판단.
+# - Peres Projects: /artists가 도메인 파킹 페이지 스타일의 /lander로
+#   리다이렉트(요청 도메인이 실제로는 파킹/프록시 상태로 추정) — 정적 컨텐츠 없음.
+# - Galerie Chantal Crousel: /artists, /en/artists/ 전부 404 또는 빈 페이지 —
+#   실제 작가 목록은 /artistes/, /en/artistes/ 등 프랑스어 경로인데도
+#   정적 HTML에 개별 링크가 없어(JS 렌더링) 보류.
+# - Corvi-Mora: /artists가 401 Unauthorized — 접근 자체가 차단됨.
+# - Herald St: robots.txt는 AI봇 다수를 이름으로 나열하지만 실제 Disallow는
+#   `/config` 하나뿐이라 명시적 차단은 아님. 다만 /artists 페이지가
+#   Squarespace 동적 렌더링이라 정적 HTML에서 개별 작가 링크를 못 찾음 — 보류.
+# - Galerie Eva Presenhuber: robots.txt 문제없으나 /artists 응답(114KB)에
+#   개별 작가 슬러그 링크가 전혀 없음 — 클라이언트 렌더링으로 판단.
+# - Galerie Buchholz: 커스텀 JS 프레임워크("chewing the sun") 기반이라
+#   /artists 정적 HTML에 네비게이션 링크 하나만 있고 실제 목록은 JS 로드.
+# - Galerie Thomas: galerie-thomas.de 연결 자체가 타임아웃(접속 실패) — 스킵.
+# - Contemporary Fine Arts(CFA Berlin): 실제 도메인은 cfa-gallery.com(WordPress,
+#   robots.txt 문제없음)이나 /artists/ 페이지가 Elementor 위젯으로 렌더링돼
+#   정적 HTML에는 "Other Artists" 같은 메뉴 텍스트만 있고 개별 링크가 없음.
+# - Foksal Gallery Foundation: foksalgalleryfoundation.com(Drupal, robots.txt
+#   문제없음)에 /artists 경로 자체가 없고 홈페이지 내비게이션에도 작가 로스터
+#   섹션이 보이지 않음 — 공개된 정적 작가 목록 페이지를 찾지 못함.
+# - Chapter II(챕터투): 사이트 자체는 Artlogic 브랜딩이지만 /artists,
+#   /artists/list 응답 모두 카테고리 필터 내비게이션뿐이고 실제 작가 카드는
+#   JS/AJAX로 채워짐(정적 HTML에 artist_name/title류 마크업 전무) — 보류.
+# - Timothy Taylor: Artlogic, robots.txt 문제없고 /artists도 정적 링크가
+#   있으나 작가 이름이 <a> 텍스트가 아니라 썸네일 img의 alt 속성에
+#   "이름 - 작품명, 연도" 형태로 작품명과 섞여 있어 안정적으로 이름만
+#   뽑아내는 패턴을 찾지 못함 — 데이터 품질 우려로 보류.
 
 
 def _extract(html_text: str, pattern: str, cfg: dict, exclude_slugs: set, seen: dict) -> int:

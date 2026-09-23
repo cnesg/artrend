@@ -21,10 +21,29 @@ SITE_NAME = "bonhams"
 HOUSE_NAME = "Bonhams"
 
 
+# 2026-09-22 확장: 지금까지 `PIC*`/`PHO`만 미술로 봤는데, raw 전수(11,396 세일)의 부서
+# 코드 126종을 훑어보니 `PIC` 접두사를 안 쓰면서도 명백히 순수미술인 부서가 남아 있었다.
+# 아래 6+3개가 그것 — 표본으로 로트 제목을 직접 확인해 회화/조각/사진 작품이 맞는 것만 넣었다.
+# (확인 과정에서 가장 큰 후보였던 `WOA`(Sculpture and Works of Art, 낙찰 5,921건)는
+#  표본이 "George III style oak music stand", "brass door knocker" 류의 장식·가구여서
+#  **제외**했다. e뮤지엄(유물 데이터)을 스코프 밖으로 판정한 것과 같은 기준.)
+EXTRA_ART_DEPARTMENTS = {
+    "MIN",      # Portrait Miniatures — 초상 세밀화(회화)
+    "MEA",      # Modern & Contemporary Middle Eastern Art
+    "IND",      # Modern & Contemporary South Asian Art
+    "ABL",      # Aboriginal Art
+    "CON-ART",  # Contemporary Art and Design
+    "ORI-CON",  # Asian Contemporary Art
+    "TUR",      # Modern and Contemporary Turkish Art
+    "OTL",      # Orientalist Art
+    "PTO",      # Photographers
+}
+
+
 def _is_art_department(code: str | None) -> bool:
     if not code:
         return False
-    return code.startswith("PIC") or code == "PHO"
+    return code.startswith("PIC") or code == "PHO" or code in EXTRA_ART_DEPARTMENTS
 
 
 def load(store) -> int:

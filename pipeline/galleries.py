@@ -104,6 +104,17 @@ GALLERY_INFO: dict[str, tuple[str, str, str]] = {
     "takaishii": ("타카이시이갤러리 (Taka Ishii Gallery)", "도쿄", "일본"),
     "simon": ("갤러리시몬 (Gallery Simon)", "서울", "대한민국"),
     "pyo": ("표갤러리 (Pyo Gallery)", "서울", "대한민국"),
+    # 2026-09-22 신규 추가
+    "rhogallery": ("노화랑 (Gallery Rho)", "서울", "대한민국"),
+    "artside": ("아트사이드갤러리 (Artside Gallery)", "서울", "대한민국"),
+    "pilarcorrias": ("필라코리아스 (Pilar Corrias)", "런던", "영국"),
+    "nordenhake": ("갤러리노르덴하케 (Galerie Nordenhake)", "스톡홀름", "스웨덴"),
+    "companygallery": ("컴퍼니갤러리 (Company Gallery)", "뉴욕", "미국"),
+    "greenenaftaligallery": ("그린내프탈리갤러리 (Greene Naftali)", "뉴욕", "미국"),
+    "bortolamigallery": ("보르톨라미갤러리 (Bortolami)", "뉴욕", "미국"),
+    "konradfischergalerie": ("콘라드피셔갤러리 (Konrad Fischer Galerie)", "뒤셀도르프", "독일"),
+    "maureenpaley": ("모린페일리 (Maureen Paley)", "런던", "영국"),
+    "corbettvsdempsey": ("코벳앤뎀시 (Corbett vs. Dempsey)", "시카고", "미국"),
 }
 
 

@@ -97,10 +97,23 @@ MERGE_GROUPS: dict[str, list[str]] = {
         "Phillips de Pury & Luxembourg",
         "Phillips de Pury and Luxembourg",
     ],
+    # 2026-09-22 추가 — K-ARTMARKET 낙찰 작품 DB(`k_artmarket_works`) 적재분.
+    # **출처 데이터가 경매사 칸을 잘라 넣은 행**이 소수 있다(전체 52,651건 중 132건).
+    # 아래 셋은 전부 canonical 이름의 **정확한 접두 부분문자열**이고, 그 접두사로
+    # 시작하는 국내 경매사가 그 하나뿐이라 동일 개체가 확실하다(유사도 매칭 아님).
+    # 같은 원인으로 생긴 'HERALD ARTDAY AUCTION'(영문 병기)과 '마아아트옥션'(오타)은
+    # 접두 관계가 아니라 판단 근거가 약해 **아래 EXCLUDED_AMBIGUOUS로 남긴다**.
+    "라이즈아트": ["라이즈"],
+    "마이아트옥션": ["마이", "마이아"],
 }
 
 # 검토했으나 근거 부족으로 자동 병합에서 제외한 것들 (리포트에만 남김)
 EXCLUDED_AMBIGUOUS = [
+    # 2026-09-22 K-ARTMARKET 적재분에서 나온 출처 표기 이상 — 접두 관계가 아니라
+    # 자동 병합 근거가 약해 제외하고 사람 판단으로 남긴다.
+    "HERALD ARTDAY AUCTION (헤럴드아트데이의 영문 병기로 보이나 교차언어 매칭이라 제외)",
+    "마아아트옥션 (마이아트옥션 오타로 보이나 접두 일치가 아니라 제외)",
+    "크리스티 (Christie's 한글 표기로 보이나 교차언어 매칭이라 제외)",
     "Christie",
     "Christie & Manson (재검토용 — 포함됨, 혼동 방지 주석)",
     "Sotheby Mak van Waay",

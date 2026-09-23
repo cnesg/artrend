@@ -1,0 +1,246 @@
+{
+  "generated_at": "2026-09-23T00:06:42.104813+00:00",
+  "strong_exact_duplicate_artworks_reference_only": 40406,
+  "artist_null_pct_by_source_top15": [
+    {
+      "site_name": "polypm",
+      "total": 21182,
+      "no_artist": 21143,
+      "pct_null": 99.8
+    },
+    {
+      "site_name": "nagel",
+      "total": 530,
+      "no_artist": 514,
+      "pct_null": 97.0
+    },
+    {
+      "site_name": "wikidata_shanghai_museum",
+      "total": 8148,
+      "no_artist": 7749,
+      "pct_null": 95.1
+    },
+    {
+      "site_name": "wikidata_ivam",
+      "total": 565,
+      "no_artist": 518,
+      "pct_null": 91.7
+    },
+    {
+      "site_name": "louvre",
+      "total": 47752,
+      "no_artist": 40949,
+      "pct_null": 85.8
+    },
+    {
+      "site_name": "kogirekai",
+      "total": 11778,
+      "no_artist": 9447,
+      "pct_null": 80.2
+    },
+    {
+      "site_name": "smithsonian",
+      "total": 83391,
+      "no_artist": 50835,
+      "pct_null": 61.0
+    },
+    {
+      "site_name": "wikidata_princeton_art_museum",
+      "total": 3368,
+      "no_artist": 1712,
+      "pct_null": 50.8
+    },
+    {
+      "site_name": "europeana",
+      "total": 150113,
+      "no_artist": 76281,
+      "pct_null": 50.8
+    },
+    {
+      "site_name": "vam",
+      "total": 54293,
+      "no_artist": 24612,
+      "pct_null": 45.3
+    },
+    {
+      "site_name": "wikidata_detroit_institute",
+      "total": 4062,
+      "no_artist": 1757,
+      "pct_null": 43.3
+    },
+    {
+      "site_name": "wikidata_ashmolean",
+      "total": 3401,
+      "no_artist": 1471,
+      "pct_null": 43.3
+    },
+    {
+      "site_name": "bonhams",
+      "total": 94661,
+      "no_artist": 38559,
+      "pct_null": 40.7
+    },
+    {
+      "site_name": "wikidata_nelson_atkins",
+      "total": 1829,
+      "no_artist": 721,
+      "pct_null": 39.4
+    },
+    {
+      "site_name": "wikidata_israel_museum",
+      "total": 2158,
+      "no_artist": 758,
+      "pct_null": 35.1
+    }
+  ],
+  "entity_kind_breakdown": [
+    {
+      "entity_kind": "person",
+      "artists": 163628,
+      "artworks": 2053451
+    },
+    {
+      "entity_kind": "anonymous",
+      "artists": 781,
+      "artworks": 111015
+    },
+    {
+      "entity_kind": "organization",
+      "artists": 4652,
+      "artworks": 59861
+    },
+    {
+      "entity_kind": "culture",
+      "artists": 1708,
+      "artworks": 42694
+    },
+    {
+      "entity_kind": "attribution",
+      "artists": 3291,
+      "artworks": 7642
+    }
+  ],
+  "holding_auction_artist_overlap": {
+    "holding": 130758,
+    "auction": 54403,
+    "both": 13594
+  },
+  "ghost_museums": 21,
+  "ghost_auction_houses": 94,
+  "ghost_galleries": 1486,
+  "price_usd_currency_top10": [
+    {
+      "currency": "GBP",
+      "count": 48513
+    },
+    {
+      "currency": "USD",
+      "count": 30916
+    },
+    {
+      "currency": "EUR",
+      "count": 4403
+    },
+    {
+      "currency": "AUD",
+      "count": 3314
+    },
+    {
+      "currency": "HKD",
+      "count": 2650
+    },
+    {
+      "currency": "PLN",
+      "count": 243
+    },
+    {
+      "currency": "CAD",
+      "count": 68
+    },
+    {
+      "currency": "NOK",
+      "count": 55
+    },
+    {
+      "currency": "DKK",
+      "count": 5
+    },
+    {
+      "currency": "CZK",
+      "count": 3
+    }
+  ],
+  "bio_original_count": 58457,
+  "bio_generated_count": 2109,
+  "live_schema_summary": {
+    "tables": 19,
+    "columns": 173,
+    "indexes": 70
+  },
+  "migration_files": [
+    "0001_init_schema.sql",
+    "0002_add_vault_embeddings.sql",
+    "0003_live_schema_sync_20260915.sql",
+    "0004_drop_artist_market_metrics.sql",
+    "0005_rename_vault_embeddings.sql",
+    "0006_artist_bio_generated.sql",
+    "0007_artists_entity_kind.sql",
+    "0008_artists_authority_ids.sql",
+    "0009_events_schema.sql",
+    "0010_artworks_attribution_qualifier.sql",
+    "0011_institutions_wikidata_qid.sql",
+    "0012_vault_embeddings_curated.sql",
+    "0013_artists_bio_source.sql"
+  ],
+  "artworks_since_2020": 7577,
+  "auction_lots_since_2020_by_house": [
+    {
+      "auction_house": "Bonhams",
+      "count": 34419
+    },
+    {
+      "auction_house": "北京保利（Poly Auction）",
+      "count": 21182
+    },
+    {
+      "auction_house": "케이옥션",
+      "count": 14881
+    },
+    {
+      "auction_house": "서울옥션",
+      "count": 13591
+    },
+    {
+      "auction_house": "아이옥션",
+      "count": 11835
+    },
+    {
+      "auction_house": "古裂會（Kogire-kai）",
+      "count": 11778
+    },
+    {
+      "auction_house": "Villa Grisebach",
+      "count": 11033
+    },
+    {
+      "auction_house": "에이옥션",
+      "count": 4833
+    },
+    {
+      "auction_house": "라이즈아트",
+      "count": 4631
+    },
+    {
+      "auction_house": "칸옥션",
+      "count": 4322
+    }
+  ],
+  "exhibitions_count": 6913,
+  "exhibition_artists_count": 9923,
+  "artist_events_count": 44150,
+  "survivor_artists": {
+    "total": 5635,
+    "with_recent_lot": 905,
+    "with_exhibition": 373
+  }
+}

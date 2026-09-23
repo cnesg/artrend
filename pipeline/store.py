@@ -250,8 +250,21 @@ class PgStore:
         self._museum_cache[cache_key] = house_id
         return house_id
 
-    def get_or_create_auction(self, auction_house_id: str, auction_date: str | None, source_id: str | None = None) -> str:
-        cache_key = f"auction:{auction_house_id}:{auction_date}"
+    def get_or_create_auction(
+        self,
+        auction_house_id: str,
+        auction_date: str | None,
+        source_id: str | None = None,
+        sale_key: str | None = None,
+    ) -> str:
+        """sale_key를 주면 (경매사, 날짜) 대신 (경매사, sale_key)로 auctions 행을 구분한다.
+
+        원래는 (경매사, 날짜) 조합으로만 캐싱해서 **같은 날 열린 서로 다른 세일이 하나의
+        auctions 행으로 합쳐지고, 날짜를 모르는 소스는 전부 한 행으로 뭉개지는** 한계가
+        있었다(bonhams.py 상단 주석에 기록돼 있던 그 문제). 세일 이름/회차처럼 세일을
+        식별하는 값이 있는 소스는 sale_key로 넘기면 된다. 안 주면 기존 동작 그대로다.
+        """
+        cache_key = f"auction:{auction_house_id}:{sale_key if sale_key is not None else auction_date}"
         if cache_key in self._museum_cache:
             return self._museum_cache[cache_key]
         self.cur.execute(
@@ -423,8 +436,14 @@ class DryRunStore:
             self._auction_house_cache[name] = self._fresh_id()
         return self._auction_house_cache[name]
 
-    def get_or_create_auction(self, auction_house_id: str, auction_date: str | None, source_id: str | None = None) -> str:
-        cache_key = f"{auction_house_id}:{auction_date}"
+    def get_or_create_auction(
+        self,
+        auction_house_id: str,
+        auction_date: str | None,
+        source_id: str | None = None,
+        sale_key: str | None = None,
+    ) -> str:
+        cache_key = f"{auction_house_id}:{sale_key if sale_key is not None else auction_date}"
         if cache_key not in self._auction_cache:
             self.counts.setdefault("auctions", 0)
             self.counts["auctions"] += 1

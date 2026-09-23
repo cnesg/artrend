@@ -18,9 +18,15 @@
 sculpture(Q860861) 5건 + print/photograph/work_of_art 각 1~2건 — 소규모지만
 실제 organizer/date/lot/price가 다 채워진 구조화 데이터.
 
+2026-09-22 추가: P793의 **값**을 Q177923 하나로 못 박은 탓에 art auction(Q74570489)·
+sale(Q194189)·경매사별 개별 세일 아이템 등에 달린 낙찰가를 통째로 놓치고 있었다.
+`--broad`가 값 고정을 풀고 "가격(P2284) 한정자가 붙은 P793 statement 전부"를 가져온다
+(자세한 근거는 BROAD_QUERY_TEMPLATE 위 주석, docs/경매소스확장_20260922.md).
+
 사용법:
     python auctions.py --type all
     python auctions.py --type painting
+    python auctions.py --type all --broad
 """
 from __future__ import annotations
 
@@ -79,6 +85,31 @@ ART_TYPES: dict[str, str] = {
     "illuminated_manuscript": "Q48498",
 }
 
+# 2026-09-22 확장 — 기존 질의는 P793(중요 사건)의 값이 **정확히 Q177923(auction)** 인
+# statement만 봤다. 실제로 pq:P2284(가격) 한정자가 붙은 P793 statement의 값 분포를 직접
+# 조회해 보니 Q177923은 956건뿐이고, Q74570489(art auction) 615, Q194189(sale) 83,
+# Q1369832(purchasing) 34, Q110817391(listed for sale) 32에 더해 "Christie's Old masters
+# evening sale, 3 dec 2019", Lempertz 개별 세일처럼 **세일 자체가 별도 아이템으로 만들어진
+# 값**이 51종 더 있었다(총 1,959 statement). 즉 값을 하나로 못 박으면 상당수를 놓친다.
+# --broad 모드는 값을 고정하지 않고 "가격 한정자가 붙은 P793"을 전부 가져온다.
+BROAD_QUERY_TEMPLATE = """
+SELECT ?item ?itemLabel ?creator ?creatorLabel ?stmt ?event ?eventLabel ?organizer ?organizerLabel
+       ?date ?lotNumber ?price ?priceUnit ?priceUnitLabel ?refUrl WHERE {{
+  ?item wdt:P31 wd:{type_qid} .
+  ?item p:P793 ?stmt .
+  ?stmt ps:P793 ?event .
+  ?stmt pqv:P2284 ?priceValue .
+  ?priceValue wikibase:quantityAmount ?price .
+  ?priceValue wikibase:quantityUnit ?priceUnit .
+  OPTIONAL {{ ?item wdt:P170 ?creator. }}
+  OPTIONAL {{ ?stmt pq:P664 ?organizer. }}
+  OPTIONAL {{ ?stmt pq:P585 ?date. }}
+  OPTIONAL {{ ?stmt pq:P4775 ?lotNumber. }}
+  OPTIONAL {{ ?stmt prov:wasDerivedFrom/pr:P854 ?refUrl. }}
+  SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en,ko". }}
+}}
+"""
+
 QUERY_TEMPLATE = """
 SELECT ?item ?itemLabel ?creator ?creatorLabel ?stmt ?organizer ?organizerLabel
        ?date ?lotNumber ?price ?priceUnit ?priceUnitLabel ?refUrl WHERE {{
@@ -100,8 +131,9 @@ SELECT ?item ?itemLabel ?creator ?creatorLabel ?stmt ?organizer ?organizerLabel
 """
 
 
-def _run_query(type_qid: str) -> list[dict]:
-    query = QUERY_TEMPLATE.format(type_qid=type_qid, auction_qid=AUCTION_EVENT_QID)
+def _run_query(type_qid: str, broad: bool = False) -> list[dict]:
+    template = BROAD_QUERY_TEMPLATE if broad else QUERY_TEMPLATE
+    query = template.format(type_qid=type_qid, auction_qid=AUCTION_EVENT_QID)
 
     def _do():
         resp = requests.get(SPARQL_URL, params={"query": query, "format": "json"}, headers=HEADERS, timeout=90)
@@ -112,11 +144,11 @@ def _run_query(type_qid: str) -> list[dict]:
     return data["results"]["bindings"]
 
 
-def crawl(type_key: str, skip_existing: bool) -> None:
+def crawl(type_key: str, skip_existing: bool, broad: bool = False) -> None:
     type_qid = ART_TYPES[type_key]
     site_name = "auctions_wikidata"
 
-    bindings = _run_query(type_qid)
+    bindings = _run_query(type_qid, broad=broad)
     print(f"[auctions:{type_key}] 낙찰 기록 {len(bindings)}건 조회됨")
 
     saved = 0
@@ -159,10 +191,16 @@ if __name__ == "__main__":
         action="store_false",
         help="이미 저장된 레코드도 다시 수집",
     )
+    parser.add_argument(
+        "--broad",
+        action="store_true",
+        help="P793 값을 auction(Q177923)으로 고정하지 않고, 가격(P2284) 한정자가 붙은 "
+             "P793 statement를 전부 수집(art auction/sale/개별 세일 아이템 등 포함)",
+    )
     args = parser.parse_args()
     keys = list(ART_TYPES.keys()) if args.type == "all" else args.type.split(",")
     for key in keys:
         if key not in ART_TYPES:
             print(f"[auctions] 알 수 없는 타입 키: {key} (사용 가능: {list(ART_TYPES.keys())})")
             continue
-        crawl(key, args.skip_existing)
+        crawl(key, args.skip_existing, broad=args.broad)

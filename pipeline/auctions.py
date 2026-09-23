@@ -47,6 +47,26 @@ DOMAIN_TO_HOUSE: dict[str, str] = {
     "www.christies.com.cn": "Christie's",
     "www.galeriekodl.cz": "Galerie Kodl",
     "artlibra.pl": "Art Libra Dom Aukcyjny",
+    # 2026-09-22 추가 — --broad 수집분에서 organizer가 비어 스킵되던 레코드의 refUrl
+    # 도메인 분포를 보고, 단일 경매사로 확실히 좁혀지는 것만 넣음(애그리게이터 제외 원칙 유지).
+    "onlineonly.christies.com": "Christie's",
+    "www.groganco.com": "Grogan & Company",
+}
+
+# 2026-09-22 — `crawlers/auctions.py --broad`가 P793 값 고정을 풀면서 **경매가 아닌 사건**까지
+# 딸려 들어온다(구입/수여/소유권 변경/평가 등). 이것들은 낙찰가가 아니라 거래가·평가액이라
+# auction_lots에 섞이면 안 된다. eventLabel이 아래에 해당하면 적재하지 않는다.
+# (auction/art auction/sale, 그리고 "Lempertz Auction 1155 …"처럼 세일 자체가 아이템인
+#  경우는 전부 통과시킨다 — 이쪽이 --broad로 얻으려던 본체다.)
+NON_AUCTION_EVENT_LABELS = {
+    "purchasing",
+    "commission",
+    "acquisition",
+    "change of ownership",
+    "valuation",
+    "listed for sale",
+    "donation",
+    "bequest",
 }
 
 # priceUnit Wikidata QID -> 통화 코드/명칭 (crawlers/raw/auctions_wikidata 실제 등장 값 기준, 2026-09-03)
@@ -75,9 +95,14 @@ def _currency(price_unit: str | None) -> str | None:
 def load(store) -> int:
     loaded = 0
     skipped_no_organizer = 0
+    skipped_not_auction = 0
 
     for _record_id, data, meta in iter_records(SITE_NAME):
         if store.source_already_loaded(meta["raw_path"]):
+            continue
+
+        if (data.get("eventLabel") or "").strip().lower() in NON_AUCTION_EVENT_LABELS:
+            skipped_not_auction += 1
             continue
 
         organizer_name = (data.get("organizerLabel") or "").strip()
@@ -124,5 +149,8 @@ def load(store) -> int:
         loaded += 1
 
     store.commit()
-    print(f"[pipeline:auctions] {loaded}건 적재, organizer 없어 스킵 {skipped_no_organizer}건")
+    print(
+        f"[pipeline:auctions] {loaded}건 적재, organizer 없어 스킵 {skipped_no_organizer}건, "
+        f"경매 아닌 사건이라 스킵 {skipped_not_auction}건"
+    )
     return loaded
