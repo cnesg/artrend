@@ -109,7 +109,36 @@ def _get_lot(url: str) -> requests.Response | None:
     return resp
 
 
+URL_CACHE = RAW_ROOT / SITE_NAME / "_lot_urls_cache.txt"
+EMPTY_SITEMAP_WAIT = 900  # 초
+EMPTY_SITEMAP_TRIES = 16
+
+
 def discover_lot_urls() -> list[str]:
+    """sitemap을 순회해 로트 URL 리스트를 만든다. 성공하면 캐시에 남긴다.
+
+    2026-09-28에 sitemapindex.xml이 200 + 빈 본문을 돌려 샤드 재기동이 ParseError로
+    죽었다(서버 측 sitemap 재생성 중으로 추정). 캐시가 있으면 그걸 쓰고, 없으면 15분 간격으로
+    최대 4시간 다시 시도한다.
+    """
+    for attempt in range(EMPTY_SITEMAP_TRIES):
+        try:
+            lot_urls = _discover_lot_urls_once()
+        except ET.ParseError:
+            if URL_CACHE.exists():
+                lot_urls = URL_CACHE.read_text(encoding="utf-8").splitlines()
+                print(f"[lempertz] sitemap 빈 응답 — 캐시 {len(lot_urls)}건 사용")
+                return lot_urls
+            print(f"[lempertz] sitemap 빈 응답 — {EMPTY_SITEMAP_WAIT // 60}분 후 재시도 ({attempt + 1}/{EMPTY_SITEMAP_TRIES})")
+            time.sleep(EMPTY_SITEMAP_WAIT)
+            continue
+        URL_CACHE.parent.mkdir(parents=True, exist_ok=True)
+        URL_CACHE.write_text("\n".join(lot_urls), encoding="utf-8")
+        return lot_urls
+    raise RuntimeError("sitemap이 계속 빈 응답 — 수동 확인 필요")
+
+
+def _discover_lot_urls_once() -> list[str]:
     """sitemapindex.xml -> sitemap-en-lots-N.xml 전부 순회해 로트 URL 리스트를 만든다."""
     resp = _get(SITEMAP_INDEX)
     root = ET.fromstring(resp.content)
@@ -137,7 +166,13 @@ def _record_id_from_url(url: str) -> str:
     path = url.split("/catalogues/lot/", 1)[1]
     if path.endswith(".html"):
         path = path[: -len(".html")]
-    return path.replace("/", "_")
+    record_id = path.replace("/", "_")
+    # 슬러그가 로트 설명 전체라 수백 자가 되는 경우가 있어 .meta.json 경로가 Windows
+    # MAX_PATH(260)를 넘고 크롤러가 OSError로 죽었다(9/28). 로더는 id를 파싱하지 않고
+    # meta의 url을 쓰므로 앞부분 + URL 해시로 줄여도 된다.
+    if len(record_id) > 120:
+        record_id = f"{record_id[:110]}-{zlib.crc32(url.encode()):08x}"
+    return record_id
 
 
 def _load_dead_set() -> set[str]:
