@@ -90,9 +90,9 @@ SCHEMA_DESCRIPTION = """
 
 [데이터 범위 — 반드시 숙지]
 - 미술관 소장품(약 200만 건)은 대형 공공 컬렉션 위주로 과거 작품이 대부분이며, museum_holdings.acquisition_date는 사실상 비어 있어 "최근 취득" 질문에는 답할 수 없다.
-- 경매 기록은 (a) Getty Provenance Index 1675~1944년 유럽 판매 기록과 (b) Bonhams 2003년~현재 한 곳뿐이다. Christie's/Sotheby's/Phillips/서울옥션/K옥션 기록은 없다. 1950~1999년은 거의 공백. "최근 시세·시장 흐름" 질문은 Bonhams 단일 경매사 표본임을 명시해야 한다.
-- 갤러리 전속 관계는 93개 갤러리 명부 기준이며 시작일이 없다. 전시·사건 테이블(13~15)은 2026-09-15 신설로 아직 비어 있을 수 있다.
-- 한국 데이터는 국립현대미술관·서울시립·부산시립·리움·경기도미술관 소장품과 국내 갤러리 일부뿐이며 한국 경매 기록은 없다.
+- 경매 기록은 약 120만 로트·675개 경매사이며 시기가 고르지 않다: 18세기 말~19세기 중반(Getty 등 유럽 판매 아카이브)·1930~40년대 일부·2010년 이후가 대부분이고 1850~2000년 사이는 매우 적다. 경매사별 주요 로트 수(2026-10 기준): Poly Auction 약 31.7만, Christie's 약 11.1만, Bonhams 약 9.5만, Lempertz 약 7.0만, Durán 약 5.6만(적재 진행 중), Villa Grisebach·Bukowskis·im Kinsky 각 3~4만, 케이옥션 약 1.5만, 서울옥션 약 1.4만, 아이옥션 약 1.2만, Sotheby's 약 0.4만. 경매사 이름은 표기가 여럿이므로(예: Sotheby's / Sotheby's Paris, Phillips / Phillips (Harry)) 반드시 ILIKE로 찾고, 조회가 비면 "DB에 없다"가 아니라 "조회 범위 내 기록 없음"이다.
+- 미술관 소장품 취득 시점(acquisition_date)은 비어 있다. 한국 경매는 케이옥션·서울옥션·아이옥션 등 2010년대 이후 낙찰 기록이 있다(통화 KRW 원 그대로, 다른 통화와 합산·비교 금지).
+- 갤러리 전속 관계(gallery_representations)는 수집 시점 로스터이며 start_date/end_date는 수집일이라 실제 전속 기간이 아니다. exhibitions는 6,900여 건이고, 미술관·갤러리 전시 중 venue_name이 비어 museum_id/gallery_id로만 연결된 행이 많다(미술관 601건, 갤러리 830건) → 전시 조회는 반드시 LEFT JOIN museums m ON e.museum_id = m.id, LEFT JOIN galleries g ON e.gallery_id = g.id 한 뒤 e.venue_name, m.name, m.name_en, g.name을 모두 ILIKE로 검사한다(galleries에는 name_en 칼럼이 없다). 기간 조건은 start_date <= 기간끝 AND end_date >= 기간시작으로 겹침 판정한다.
 """
 
 TEXT_TO_SQL_SYSTEM_PROMPT = f"""당신은 아트그래프(ArtGraph) 데이터베이스 전문 SQL 엔지니어입니다.
@@ -136,9 +136,16 @@ ANSWER_SYNTHESIS_SYSTEM_PROMPT = """당신은 아트그래프(ArtGraph) 미술 �
 5. **어조**:
    - 전문적이고 신뢰감 있는 한국어 문체로 작성하세요.
 6. **데이터 범위와 기준 시점 명시**:
-   - 답변 끝에 "데이터 범위" 한 줄을 붙이세요: 경매는 Getty 1675~1944(유럽) + Bonhams 2003~현재 한 곳뿐이며 Christie's/Sotheby's/한국 경매사는 없음, 미술관 취득 시점 정보 없음. 질문이 "요즘/최근/시세/트렌드"를 묻는 경우 이 한계를 요약 첫머리에서 먼저 밝히세요.
+   - 답변 끝에 아래 따옴표 안의 문장을 한 글자도 바꾸지 말고 그대로 한 줄 붙이세요(이 규칙 설명 자체는 답변에 쓰지 마세요):
+     "데이터 범위: 경매 기록은 시기가 고르지 않아 18세기 말~19세기 중반 유럽 판매 아카이브, 1930~40년대 일부, 2010년 이후가 대부분이며 1850~2000년 사이는 매우 적습니다. 미술관 취득 시점 정보는 없습니다."
+   - (작성 지침, 답변에 옮기지 말 것) 특정 경매사가 조회 결과에 없으면 "DB에 없다"고 단정하지 말고 "조회 범위 내 기록 없음"으로 쓰세요. 질문이 "요즘/최근/시세/트렌드"를 묻는 경우 위 시기 한계를 요약 첫머리에서 먼저 밝히세요.
    - 조회 결과에 sources.fetched_at이 있으면 "기준 시점(as of)"으로 표기하세요. 역사 통화(livres, florins, guilders 등) 가격은 USD로 환산하지 말고 원 통화 그대로 적으세요.
    - artists.entity_kind가 'anonymous'/'culture'/'organization'인 행을 "작가"로 서술하지 마세요("작자 미상", "국가/시대 분류", "제작사"로 구분). artists.bio에 bio_source(URL)가 있으면 그 출처를 근거로 인용하세요. artist_bio_generated의 약력은 "[AI 생성 약력]"이라고 명시하세요.
+7. **작가 허브 요약(있을 때만)**:
+   - 데이터셋에 "[작가 허브 요약]"이 있으면 질문과 관련된 부분만 보조 근거로 쓰고, SQL 조회 결과와 어긋나면 SQL 결과를 따르세요.
+   - 소장처·경매·갤러리·전시를 "작가 → 소장처/경매 → 근거(출처명·URL)" 경로로 이어서 서술하고, 허브의 '근거' 줄에 있는 URL을 그대로 인용하세요.
+   - 허브의 "약력(원본 — AI 생성 아님, 출처 URL)"은 출처가 있는 원본 약력이므로 "[AI 생성]"이라 표기하지 말고 출처와 함께 "원본 약력"으로 쓰세요. "약력 [AI 생성, 미검증]"으로 시작하는 경우에만 AI 생성 표기를 붙이세요.
+   - 갤러리 전속은 "수집 시점 로스터"이며 실제 전속 시작·종료 시점이 아닙니다. 경매 가격은 원 통화 그대로 쓰고 서로 다른 통화를 합산·비교하지 마세요.
 """
 
 
@@ -150,7 +157,7 @@ def get_db_connection():
     return conn
 
 
-def call_gemini_api(system_prompt: str, user_content: str, max_retries: int = 3) -> str:
+def call_gemini_api(system_prompt: str, user_content: str, max_retries: int = 3, temperature: float = 0.1) -> str:
     """Gemini REST API 호출 (모델 폴백 및 재시도)"""
     if not GEMINI_API_KEY:
         raise RuntimeError("GEMINI_API_KEY가 설정되지 않았습니다. pipeline/.env를 확인하세요.")
@@ -167,7 +174,7 @@ def call_gemini_api(system_prompt: str, user_content: str, max_retries: int = 3)
                 }
             ],
             "generationConfig": {
-                "temperature": 0.1,
+                "temperature": temperature,
             },
         }
 
@@ -272,10 +279,99 @@ def find_entity_hints(conn, question: str) -> str:
     return ""
 
 
-def generate_sql_queries(question: str, entity_hints: str) -> list[dict[str, str]]:
-    """Gemini를 호출하여 질문에 맞는 SQL 쿼리 목록 생성"""
-    user_prompt = f"질문: {question}\n{entity_hints}\n\n위 질문에 답하기 위한 최적의 PostgreSQL SELECT 쿼리 JSON을 작성하세요."
-    response_text = call_gemini_api(TEXT_TO_SQL_SYSTEM_PROMPT, user_prompt)
+HUB_ENABLED = os.environ.get("ARTGRAPH_HUB", "1") != "0"
+_PARTICLES = ("에서", "으로", "이랑", "의", "은", "는", "이", "가", "을", "를", "와", "과", "도", "로", "에")
+
+
+def find_hub_context(conn, question: str, max_hubs: int = 2) -> str:
+    """질문에 작가 이름이 '정확히' 들어 있으면 그 작가의 허브 요약(artist_hub.render)을 만든다.
+
+    이름 일치는 name/name_en 전체 문자열 정확일치(대소문자 무시, 한글 조사 제거)만 쓴다.
+    같은 이름 후보가 여럿이고 작품 수가 비슷하면(2위가 1위의 20% 이상) 모호하므로 허브를 만들지 않는다.
+    병합·추정은 하지 않는다.
+    """
+    if not HUB_ENABLED:
+        return ""
+    import artist_hub  # 지연 import: 허브 비활성/오류가 기존 경로를 막지 않게
+
+    words = re.findall(r"[가-힣A-Za-z0-9.'\-]+", question)
+    variants: list[tuple[str, int, int]] = []  # (후보 문자열, 시작, 끝)
+    for n in (4, 3, 2, 1):
+        for i in range(len(words) - n + 1):
+            base = " ".join(words[i:i + n])
+            forms = {base}
+            if re.search(r"[가-힣]$", base):
+                forms |= {base[:-len(p)] for p in _PARTICLES if base.endswith(p) and len(base) - len(p) >= 2}
+            for f in forms:
+                if len(f) >= 3:
+                    variants.append((f, i, i + n))
+
+    cand_set = {v[0].lower() for v in variants}
+    if not cand_set:
+        return ""
+    used: list[tuple[int, int]] = []
+    chosen: list[str] = []
+    with conn.cursor() as cur:
+        # lower(name)에 인덱스가 없어 후보마다 훑으면 느리다 → 모든 후보를 한 번의 스캔으로 조회
+        cur.execute(
+            """SELECT a.id, lower(a.name), lower(a.name_en) FROM artists a
+               WHERE a.entity_kind = 'person' AND (lower(a.name) = ANY(%s) OR lower(a.name_en) = ANY(%s))""",
+            (list(cand_set), list(cand_set)),
+        )
+        by_str: dict[str, set[str]] = {}
+        for aid, n1, n2 in cur.fetchall():
+            for s_ in {n1, n2}:
+                if s_ in cand_set:
+                    by_str.setdefault(s_, set()).add(str(aid))
+        if not by_str:
+            return ""
+        ids = sorted({i for v in by_str.values() for i in v})
+        cur.execute("SELECT artist_id, count(*) FROM artworks WHERE artist_id = ANY(%s::uuid[]) GROUP BY 1", (ids,))
+        n_works = {str(k): v for k, v in cur.fetchall()}
+        for cand, s, e in variants:  # 긴 구간부터
+            if len(chosen) >= max_hubs:
+                break
+            if any(not (e <= us or s >= ue) for us, ue in used):
+                continue
+            rows = sorted(((i, n_works.get(i, 0)) for i in by_str.get(cand.lower(), ())),
+                          key=lambda r: -r[1])[:3]
+            rows = [r for r in rows if r[1] > 0]
+            if not rows:
+                continue
+            if len(rows) > 1 and rows[1][1] >= 0.2 * rows[0][1]:
+                used.append((s, e))  # 모호 → 이 구간은 소비하되 허브는 만들지 않음
+                continue
+            used.append((s, e))
+            chosen.append(rows[0][0])
+        hubs = []
+        for aid in dict.fromkeys(chosen):
+            try:
+                hubs.append(artist_hub.render(artist_hub.hub(cur, aid, 2)))
+            except Exception:  # noqa: BLE001 - 허브 실패는 답변 경로를 막지 않는다
+                conn.rollback()
+    return "\n\n".join(hubs)
+
+
+SQL_RETRY_ENABLED = os.environ.get("ARTGRAPH_SQL_RETRY", "1") != "0"
+
+
+def _retry_note(results: list[dict[str, Any]]) -> str:
+    """0건/오류였던 이전 시도를 요약해 재생성 프롬프트에 붙인다."""
+    lines = ["[재시도 지침] 이전 시도의 쿼리가 모두 0건이거나 오류였습니다. 같은 SQL을 반복하지 말고 다음을 지키세요:",
+             "- 스키마 설명에 있는 칼럼만 사용(없는 칼럼 금지).",
+             "- 이름·장소는 정확일치 대신 ILIKE '%키워드%'로 넓히고, name과 name_en(해당 칼럼이 있는 테이블만)을 모두 확인.",
+             "- 연도·기간 조건이 있으면 start_date/end_date/auction_date 등 실제 날짜 칼럼 기준으로, 너무 좁은 조건은 완화.",
+             "이전 시도:"]
+    for r in results[:3]:
+        lines.append(f"- {r.get('title')}: {r['row_count']}건, 오류={str(r.get('error'))[:120]}, SQL={str(r.get('sql'))[:300]}")
+    return "\n".join(lines) + "\n"
+
+
+def generate_sql_queries(question: str, entity_hints: str, retry_note: str = "",
+                         temperature: float = 0.0) -> list[dict[str, str]]:
+    """Gemini를 호출하여 질문에 맞는 SQL 쿼리 목록 생성 (기본 temperature 0 — 같은 질문엔 같은 SQL)"""
+    user_prompt = f"질문: {question}\n{entity_hints}\n{retry_note}\n위 질문에 답하기 위한 최적의 PostgreSQL SELECT 쿼리 JSON을 작성하세요."
+    response_text = call_gemini_api(TEXT_TO_SQL_SYSTEM_PROMPT, user_prompt, temperature=temperature)
 
     # JSON 추출
     json_match = re.search(r"\{[\s\S]*\}", response_text)
@@ -283,7 +379,7 @@ def generate_sql_queries(question: str, entity_hints: str) -> list[dict[str, str
         raise ValueError(f"LLM 응답에서 JSON을 파싱할 수 없습니다:\n{response_text}")
 
     try:
-        parsed = json.loads(json_match.group(0))
+        parsed = json.loads(json_match.group(0), strict=False)  # SQL 문자열 안 개행 등 제어문자 허용
         queries = parsed.get("queries", [])
         if not queries and "sql" in parsed:
             queries = [{"title": "데이터 조회", "sql": parsed["sql"]}]
@@ -352,10 +448,10 @@ def execute_queries(conn, queries: list[dict[str, str]], question: str, max_fix_
 {{"title": "{title}", "sql": "수정된 SELECT SQL"}}
 """
                         try:
-                            fix_resp = call_gemini_api(TEXT_TO_SQL_SYSTEM_PROMPT, fix_prompt)
+                            fix_resp = call_gemini_api(TEXT_TO_SQL_SYSTEM_PROMPT, fix_prompt, temperature=0.0)
                             fix_json = re.search(r"\{[\s\S]*\}", fix_resp)
                             if fix_json:
-                                fix_data = json.loads(fix_json.group(0))
+                                fix_data = json.loads(fix_json.group(0), strict=False)
                                 current_sql = fix_data.get("sql", current_sql).strip()
                         except Exception:
                             pass
@@ -371,7 +467,7 @@ def execute_queries(conn, queries: list[dict[str, str]], question: str, max_fix_
     return results
 
 
-def synthesize_answer(question: str, query_results: list[dict[str, Any]]) -> str:
+def synthesize_answer(question: str, query_results: list[dict[str, Any]], hub_context: str = "") -> str:
     """DB 쿼리 결과들을 기반으로 Gemini를 통해 최종 마크다운 답변 생성"""
     context_sections = []
     for i, res in enumerate(query_results, 1):
@@ -389,6 +485,8 @@ def synthesize_answer(question: str, query_results: list[dict[str, Any]]) -> str
             section += "\n```\n"
         context_sections.append(section)
 
+    if hub_context:
+        context_sections.append("### [작가 허브 요약] (읽기 전용 사전 집계, 질문과 관련된 부분만 사용)\n" + hub_context)
     full_context = "\n\n".join(context_sections)
     user_prompt = f"""[사용자 질문]
 {question}
@@ -423,13 +521,29 @@ def answer_artgraph_question(question: str, verbose: bool = False) -> tuple[str,
             print(f"[ArtGraph] SQL 실행 및 데이터 추출 중...")
         query_results = execute_queries(conn, queries, question)
 
+        # 전부 0건/오류면 한 번만 다른 접근으로 재생성 — 더 많은 행을 얻을 때만 교체(원래 0건이 맞는 질문은 그대로 0건)
+        if SQL_RETRY_ENABLED and not any(r["row_count"] for r in query_results):
+            note = _retry_note(query_results)
+            if verbose:
+                print("[ArtGraph] 전 쿼리 0건/오류 → 재생성 1회 시도")
+            try:
+                retry_queries = generate_sql_queries(question, entity_hints, retry_note=note, temperature=0.3)
+                retry_results = execute_queries(conn, retry_queries, question)
+                if sum(r["row_count"] for r in retry_results) > 0:
+                    queries, query_results = retry_queries, retry_results
+            except Exception:  # noqa: BLE001 - 재시도 실패는 원래 결과를 그대로 쓴다
+                conn.rollback()
+
         if verbose:
             for res in query_results:
                 print(f"  - [{res['title']}]: {res['row_count']}건 반환 (에러: {res.get('error')})")
 
         if verbose:
             print(f"[ArtGraph] Gemini 답변 생성 중...\n")
-        markdown_answer = synthesize_answer(question, query_results)
+        hub_context = find_hub_context(conn, question)
+        if verbose and hub_context:
+            print(f"[ArtGraph] 작가 허브 요약 첨부 ({len(hub_context)}자)")
+        markdown_answer = synthesize_answer(question, query_results, hub_context)
 
         return markdown_answer, query_results
     finally:

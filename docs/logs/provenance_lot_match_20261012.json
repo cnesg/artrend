@@ -1,0 +1,473 @@
+{
+ "stat": {
+  "provenance_rows": 6315,
+  "parsed_house_date_lot": 5925,
+  "auction_not_in_db": 5782,
+  "date_no_lot": 121,
+  "no_full_date": 269,
+  "auction_found": 143,
+  "auction_found_lot_missing": 141,
+  "lot_matched": 2,
+  "lot_matched_same_artist": 0
+ },
+ "by_year": {
+  "1934": {
+   "parsed": 3
+  },
+  "1997": {
+   "parsed": 11
+  },
+  "2014": {
+   "parsed": 93,
+   "auction_found": 83
+  },
+  "2019": {
+   "parsed": 14,
+   "auction_found": 2
+  },
+  "2015": {
+   "parsed": 24
+  },
+  "2000": {
+   "parsed": 104,
+   "auction_found": 1
+  },
+  "1921": {
+   "parsed": 3
+  },
+  "1972": {
+   "parsed": 39
+  },
+  "1942": {
+   "parsed": 1973
+  },
+  "1948": {
+   "parsed": 2085
+  },
+  "2005": {
+   "parsed": 19
+  },
+  "2009": {
+   "parsed": 37,
+   "auction_found": 3
+  },
+  "1990": {
+   "parsed": 31,
+   "auction_found": 1
+  },
+  "1958": {
+   "parsed": 4
+  },
+  "1913": {
+   "parsed": 288
+  },
+  "1995": {
+   "parsed": 24
+  },
+  "2002": {
+   "parsed": 36,
+   "auction_found": 1
+  },
+  "1968": {
+   "parsed": 3
+  },
+  "1985": {
+   "parsed": 88
+  },
+  "1978": {
+   "parsed": 3
+  },
+  "1993": {
+   "parsed": 17
+  },
+  "1994": {
+   "parsed": 52
+  },
+  "1988": {
+   "parsed": 29
+  },
+  "2012": {
+   "parsed": 42,
+   "auction_found": 3
+  },
+  "1922": {
+   "parsed": 42
+  },
+  "1976": {
+   "parsed": 10
+  },
+  "1989": {
+   "parsed": 16
+  },
+  "1992": {
+   "parsed": 31
+  },
+  "1973": {
+   "parsed": 7
+  },
+  "2020": {
+   "parsed": 5,
+   "auction_found": 2
+  },
+  "1969": {
+   "parsed": 7
+  },
+  "2001": {
+   "parsed": 43
+  },
+  "1965": {
+   "parsed": 2
+  },
+  "1977": {
+   "parsed": 9
+  },
+  "1928": {
+   "parsed": 2
+  },
+  "1986": {
+   "parsed": 21
+  },
+  "2008": {
+   "parsed": 24,
+   "auction_found": 5
+  },
+  "1926": {
+   "parsed": 2
+  },
+  "1998": {
+   "parsed": 19,
+   "auction_found": 1
+  },
+  "2010": {
+   "parsed": 12,
+   "auction_found": 6
+  },
+  "1936": {
+   "parsed": 5
+  },
+  "2004": {
+   "parsed": 14,
+   "auction_found": 2
+  },
+  "1980": {
+   "parsed": 18
+  },
+  "1987": {
+   "parsed": 10
+  },
+  "2017": {
+   "parsed": 26,
+   "auction_found": 3
+  },
+  "1975": {
+   "parsed": 11
+  },
+  "1991": {
+   "parsed": 13
+  },
+  "2011": {
+   "parsed": 8,
+   "auction_found": 1
+  },
+  "1974": {
+   "parsed": 15
+  },
+  "1999": {
+   "parsed": 30
+  },
+  "1983": {
+   "parsed": 12
+  },
+  "1964": {
+   "parsed": 8
+  },
+  "2016": {
+   "parsed": 12,
+   "auction_found": 3
+  },
+  "1931": {
+   "parsed": 3
+  },
+  "2007": {
+   "parsed": 18,
+   "auction_found": 2
+  },
+  "1996": {
+   "parsed": 18
+  },
+  "2023": {
+   "parsed": 18,
+   "auction_found": 2
+  },
+  "1920": {
+   "parsed": 1
+  },
+  "1970": {
+   "parsed": 3
+  },
+  "2003": {
+   "parsed": 10,
+   "auction_found": 1
+  },
+  "1981": {
+   "parsed": 7
+  },
+  "1962": {
+   "parsed": 2
+  },
+  "1979": {
+   "parsed": 8
+  },
+  "1935": {
+   "parsed": 1
+  },
+  "2021": {
+   "parsed": 10,
+   "auction_found": 4,
+   "lot_matched": 1
+  },
+  "1952": {
+   "parsed": 1
+  },
+  "1915": {
+   "parsed": 1
+  },
+  "1938": {
+   "parsed": 2
+  },
+  "1955": {
+   "parsed": 3
+  },
+  "2006": {
+   "parsed": 16,
+   "auction_found": 2
+  },
+  "1963": {
+   "parsed": 3
+  },
+  "1953": {
+   "parsed": 1
+  },
+  "1887": {
+   "parsed": 3
+  },
+  "1924": {
+   "parsed": 3
+  },
+  "1982": {
+   "parsed": 6
+  },
+  "1919": {
+   "parsed": 2
+  },
+  "1984": {
+   "parsed": 6
+  },
+  "1967": {
+   "parsed": 2
+  },
+  "2013": {
+   "parsed": 202,
+   "auction_found": 7
+  },
+  "1917": {
+   "parsed": 3
+  },
+  "1961": {
+   "parsed": 2
+  },
+  "2022": {
+   "parsed": 9
+  },
+  "1885": {
+   "parsed": 2
+  },
+  "1959": {
+   "parsed": 2
+  },
+  "1966": {
+   "parsed": 7
+  },
+  "1939": {
+   "parsed": 1
+  },
+  "1937": {
+   "parsed": 2
+  },
+  "1889": {
+   "parsed": 3
+  },
+  "1872": {
+   "parsed": 2
+  },
+  "1896": {
+   "parsed": 2
+  },
+  "1951": {
+   "parsed": 3
+  },
+  "1897": {
+   "parsed": 1
+  },
+  "1902": {
+   "parsed": 5
+  },
+  "1892": {
+   "parsed": 3
+  },
+  "1918": {
+   "parsed": 1
+  },
+  "1903": {
+   "parsed": 1
+  },
+  "1870": {
+   "parsed": 1
+  },
+  "1899": {
+   "parsed": 2
+  },
+  "1927": {
+   "parsed": 1,
+   "auction_found": 1
+  },
+  "1838": {
+   "parsed": 1,
+   "auction_found": 1
+  },
+  "1843": {
+   "parsed": 1
+  },
+  "1881": {
+   "parsed": 2
+  },
+  "2018": {
+   "parsed": 12,
+   "auction_found": 2
+  },
+  "1929": {
+   "parsed": 1
+  },
+  "1797": {
+   "parsed": 1
+  },
+  "1856": {
+   "parsed": 1
+  },
+  "1895": {
+   "parsed": 2
+  },
+  "1888": {
+   "parsed": 1
+  },
+  "1898": {
+   "parsed": 1
+  },
+  "1893": {
+   "parsed": 2
+  },
+  "1878": {
+   "parsed": 2
+  },
+  "1850": {
+   "parsed": 1
+  },
+  "1886": {
+   "parsed": 2
+  },
+  "1946": {
+   "parsed": 1
+  },
+  "1954": {
+   "parsed": 1
+  },
+  "1912": {
+   "parsed": 2
+  },
+  "1906": {
+   "parsed": 1
+  },
+  "1905": {
+   "parsed": 1
+  },
+  "1855": {
+   "parsed": 1
+  },
+  "1901": {
+   "parsed": 1
+  },
+  "1867": {
+   "parsed": 1
+  },
+  "1894": {
+   "parsed": 1
+  },
+  "1949": {
+   "parsed": 1
+  },
+  "1848": {
+   "parsed": 2
+  },
+  "2025": {
+   "parsed": 5
+  },
+  "1859": {
+   "parsed": 1
+  },
+  "1971": {
+   "parsed": 1
+  },
+  "1900": {
+   "parsed": 2
+  },
+  "1854": {
+   "parsed": 1
+  },
+  "1930": {
+   "parsed": 3
+  },
+  "1809": {
+   "parsed": 2
+  },
+  "1835": {
+   "parsed": 2,
+   "auction_found": 2
+  },
+  "1883": {
+   "parsed": 2
+  },
+  "1826": {
+   "parsed": 1,
+   "auction_found": 1
+  },
+  "1925": {
+   "parsed": 1
+  },
+  "1932": {
+   "parsed": 1
+  },
+  "1819": {
+   "parsed": 1,
+   "auction_found": 1,
+   "lot_matched": 1
+  }
+ },
+ "candidates_sample": [
+  {
+   "provenance_id": "e61418a4-0cc2-4449-9af0-5c56c1f1d065",
+   "artwork_id": "ec3193a5-0bf2-4ec4-8183-3c03736e6a9a",
+   "lot_ids": [
+    "3a27041e-f4b8-4400-bc99-347f13216670"
+   ],
+   "strong": false
+  },
+  {
+   "provenance_id": "23ddb09d-2a35-45fd-bfe4-2df36f010381",
+   "artwork_id": "a9d019ae-3b8f-4d8a-90cd-5dfb352125e4",
+   "lot_ids": [
+    "83b23348-fcf7-47f6-8a37-1353460b9988"
+   ],
+   "strong": false
+  }
+ ]
+}

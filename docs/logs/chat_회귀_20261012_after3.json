@@ -1,0 +1,362 @@
+{
+  "generated_at": "2026-10-12T01:17:50.813275+00:00",
+  "label": "after3",
+  "questions": [
+    {
+      "n": 1,
+      "question": "이우환의 미술관 소장작과 경매 기록을 알려줘",
+      "elapsed_sec": 19.67,
+      "answer": "### 요약 (Executive Summary)\n대한민국의 대표적인 조각가이자 화가이며 일본 모노파의 창시자인 이우환(LEE Ufan, 1936~ )의 미술관 소장 현황 및 경매 기록에 대한 분석 결과입니다. 본 데이터베이스 조회 및 작가 허브 요약에 따르면, 국내외 주요 미술관에 다수의 작품이 소장되어 있으며, 국내외 경매 시장에서 활발한 거래 기록을 보유하고 있습니다. (단, SQL 조회 과정에서 구문 오류로 인해 상세 경매 데이터 목록은 직접 조회되지 않았으나, 작가 허브 요약을 통해 상세 거래 통계 및 대표 기록이 확인됩니다.)\n\n---\n\n### 작가 개요\n* **이름**: 이우환 (LEE Ufan)\n* **생애 및 국적**: 1936년 ~ , South Korean\n* **식별자**: ULAN 500061220, Wikidata Q399775\n* **원본 약력** (출처: [위키백과 이우환](https://ko.wikipedia.org/wiki/이우환)): 이우환은 일본의 획기적 미술 운동인 모노파의 창시자이며, 동양사상으로 미니멀리즘의 한계를 극복하여 국제적으로 명성이 높다. 주요 작품으로는 〈선으로부터(From Line)〉(1974), 〈동풍〉(1974), 〈조응〉(1988), 〈점에서〉(1975), 〈상응〉(1998), 〈관계항(Relatum)〉 등이 있다.\n\n---\n\n### 미술관 소장 현황\n데이터베이스에 등록된 미술관별 소장 건수는 총 집계 기준 국내외 다수의 기관에 분포되어 있습니다. (SQL 조회 결과 상위 주요 작품 일부 포함)\n\n* **주요 미술관별 소장 건수 요약** (작가 허브 기준)\n  * 부산시립미술관 (Busan Museum of Art, South Korea): 50점\n  * 국립현대미술관 (MMCA, South Korea): 14점\n  * 서울시립미술관 (SeMA, South Korea): 11점\n  * 리움미술관 (Leeum Museum of Art, South Korea): 6점\n  * The Museum of Modern Art (MoMA, United States): 4점\n  * Tate (-): 3점\n  * Art Institute of Chicago (United States): 1점\n  * Solomon R. Guggenheim Museum (United States): 1점\n  * National Gallery of Art (United States): 1점\n  * Kunsthaus Zürich (Switzerland): 1점\n\n* **대표 소장 작품 예시 (일부)**\n  * **부산시립미술관**: 《대화》(2019), 《관계항-안과 밖의 공간》(2016), 《오브제》(연도미상) 등 ([부산시립미술관 소장품 링크](https://art.busan.go.kr/tblTsite07ArtworkExp/listClient.nm?page_no=321))\n  * **리움미술관**: 《관계항-대화》(2014, 유리 및 돌, [출처 링크](https://www.leeumhoam.org/leeum/collection/api/modern?&page=10)), 《조응》(2001), 《바람과 함께》(1988)\n  * **국립현대미술관 (MMCA)**: 《조응》(1994), 《관계》(1992), 《관계항》(1988) ([MMCA 소장품 상세](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=3509))\n  * **서울시립미술관 (SeMA)**: 《항(項)-대화》(2009), 《다이얼로그》(2007), 《From a Revelation》 시리즈 (2003), 《correspondence》(1993) ([SeMA 소장품 목록](https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=125))\n  * **National Gallery of Art (미국)**: 《Dialogue》(2011, oil on canvas) ([NGA 오픈데이터](https://raw.githubusercontent.com/NationalGalleryOfArt/opendata/main/data/objects.csv))\n  * **Tate (영국)**: 《Correspondence》(1993, Oil paint and glue on canvas) ([Tate 콜렉션 데이터](https://raw.githubusercontent.com/tategallery/collection/master/artwork_data.csv))\n\n---\n\n### 경매 기록\n* **SQL 조회 결과**: 경매 관련 SQL 실행 시 구문 오류(`LEFT JOIN sources src = al.source_id`)가 발생하여 직접 조회 결과는 0건으로 나타났습니다.\n* **작가 허브 요약 기반 경매 통계** (로트 614건, 경매 322회, 낙찰가 있는 614건, 기간: 2019-11-25 ~ 2026-08-26)\n  * **KRW 통화**: 613건, 중앙값 15,500,000 (최저 100,000 ~ 최고 1,600,000,000) [원 통화 그대로]\n  * **HKD 통화**: 1건, 중앙값 850,000 (최저 850,000 ~ 최고 850,000) [원 통화 그대로]\n  * **주요 경매사**: 케이옥션 273건, 서울옥션 227건, 라이즈아트 56건, 헤럴드아트데이 35건, 에이옥션 10건\n  * **주요 경매 기록 예시**:\n    * 《李禹煥 With Winds No.8708-62》 | 본햄스(Bonhams) | 2019-11-25 | 850,000 HKD ([출처](https://www.bonhams.com/auctions/25527/))\n    * 《Dialogue》 | 서울옥션 | 2025-05-27 | 1,600,000,000 KRW ([출처](https://k-artmarket.kr/member/work/WorkList.do?pageNo=929&recordCountPerPage=48&sortKey=end_dt_asc))\n\n---\n\n데이터 범위: 경매 기록은 시기가 고르지 않아 18세기 말~19세기 중반 유럽 판매 아카이브, 1930~40년대 일부, 2010년 이후가 대부분이며 1850~2000년 사이는 매우 적습니다. 미술관 취득 시점 정보는 없습니다.",
+      "error": null,
+      "queries": [
+        {
+          "title": "이우환의 미술관 소장작 목록",
+          "row_count": 50,
+          "error": null
+        },
+        {
+          "title": "이우환의 경매 출품 및 낙찰 기록",
+          "row_count": 0,
+          "error": "오류:  구문 오류, \"=\" 부근\nLINE 21: LEFT JOIN sources src = al.source_id\n                               ^\n"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "question": "Rembrandt van Rijn 소장작 수와 경매 낙찰 상위 5건",
+      "elapsed_sec": 29.42,
+      "answer": "### 요약 (Executive Summary)\n렘브란트 반 레인(Rembrandt van Rijn)의 미술관 소장 현황 및 경매 낙찰 상위 5건에 대한 분석 결과입니다. SQL 직접 조회 결과 미술관 소장품 수는 0건으로 확인되었으나, 보조 근거인 작가 허브 요약을 통해 주요 미술관별 소장 현황을 확인할 수 있습니다. 경매 기록의 경우, 서로 다른 통화(USD, GBP)로 거래된 상위 5건의 낙찰 기록이 확인됩니다.\n\n---\n\n### 1. 미술관 소장 현황\n* **SQL 직접 조회 결과**: 데이터베이스 내 등록된 기록이 없습니다 (0건).\n* **작가 허브 요약 기준 주요 소장처 및 작품 수**:\n  - Rijksmuseum (Netherlands): 1,352점\n  - Statens Museum for Kunst (SMK) (Denmark): 493점\n  - National Gallery of Art (United States): 379점\n  - The Metropolitan Museum of Art (Met) (United States): 354점\n  - Art Institute of Chicago (United States): 237점\n  - Minneapolis Institute of Art (United States): 183점\n  - Museum Boijmans Van Beuningen (Netherlands): 163점\n  - Cleveland Museum of Art (United States): 113점\n  - Hermitage Museum (Russia): 36점\n  - Gemäldegalerie Berlin (Germany): 28점\n  - *근거 사례*: \n    - 《Nedtagelsen fra korset》, Statens Museum for Kunst (SMK) KKSgb10113 ([출처 링크](https://open.smk.dk/artwork/image/KKSgb10113))\n    - 《Head of Christ》, Philadelphia Museum of Art Cat. 480 ([출처 링크](http://www.wikidata.org/entity/Q20809879))\n\n---\n\n### 2. 경매 낙찰 상위 5건\nDB 조회 결과에 따른 렘브란트의 경매 낙찰 상위 5건은 다음과 같습니다. (역사 통화 및 각 기록의 원 통화 그대로 표기)\n\n| 순위 | 작품명 (Title) | 제작 연도 | 낙찰가 (Hammer Price) | 통화 | 출처 및 상세 정보 |\n| :---: | :--- | :---: | :---: | :---: | :--- |\n| **1** | St. James the Greater praying | 미상 | 25,800,000.0 | USD | [Wikidata Q21520205](http://www.wikidata.org/entity/Q21520205) (`auctions_wikidata`) |\n| **2** | Portrait of a 62-year-old Woman, possibly Aeltje Pietersdr Uylenburgh | 미상 | 19,803,750.0 | GBP | [Wikidata Q21501685](http://www.wikidata.org/entity/Q21501685) (`auctions_wikidata`) / [Christie's 2000-12-13](http://www.wikidata.org/entity/Q21501685) |\n| **3** | Bust of a Young Woman in a Feathered Beret | 미상 | 9,000,000.0 | USD | [Wikidata Q21467840](http://www.wikidata.org/entity/Q21467840) (`auctions_wikidata`) |\n| **4** | Portrait of Jan Willemsz van der Pluym | 미상 | 5,617,000.0 | GBP | [Wikidata Q123786559](http://www.wikidata.org/entity/Q123786559) (`auctions_wikidata`) / [Christie's 2023-07-06](http://www.wikidata.org/entity/Q123786559) |\n| **5** | Portrait of Jaapgen Carelsdr. | 미상 | 5,617,000.0 | GBP | [Wikidata Q123786572](http://www.wikidata.org/entity/Q123786572) (`auctions_wikidata`) |\n\n---\n\n데이터 범위: 경매 기록은 시기가 고르지 않아 18세기 말~19세기 중반 유럽 판매 아카이브, 1930~40년대 일부, 2010년 이후가 대부분이며 1850~2000년 사이는 매우 적습니다. 미술관 취득 시점 정보는 없습니다.",
+      "error": null,
+      "queries": [
+        {
+          "title": "Rembrandt 미술관 소장품 수 조회",
+          "row_count": 0,
+          "error": null
+        },
+        {
+          "title": "Rembrandt 경매 낙찰 상위 5건 조회",
+          "row_count": 5,
+          "error": null
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "question": "국립현대미술관에서 2025년에 열린 전시 목록",
+      "elapsed_sec": 16.03,
+      "answer": "### 요약(Executive Summary)\n국립현대미술관(MMCA)에서 2025년에 개최되었거나 개최 예정인 전시 목록은 총 49건이 확인되었습니다. 본 보고서에서는 데이터베이스에 등록된 2025년 기준 주요 기획전, 소장품전, 상설전 및 레지던시 전시 일정을 시작일 순으로 정리하여 제공합니다.\n\n---\n\n### 2025년 국립현대미술관 전시 목록\n\n데이터베이스 조회 결과에 따른 국립현대미술관(National Museum of Modern and Contemporary Art, Korea)의 2025년 전시 일정은 다음과 같습니다.\n\n| 전시명 | 시작일 | 종료일 | 소장 미술관 |\n| :--- | :--- | :--- | :--- |\n| 개방 수장고 개편 | 2020-12-03 | 2026-12-31 | 국립현대미술관 (MMCA) |\n| 디지털스토리 : 이야기가 필요해 | 2022-11-22 | 2025-06-30 | 국립현대미술관 (MMCA) |\n| 다섯 발자국 숲 | 2024-03-22 | 2025-02-09 | 국립현대미술관 (MMCA) |\n| 국립현대미술관 다원예술 2024: 우주 엘리베이터 | 2024-05-25 | 2025-03-30 | 국립현대미술관 (MMCA) |\n| 연결하는 집: 대안적 삶을 위한 건축 | 2024-07-19 | 2025-02-02 | 국립현대미술관 (MMCA) |\n| 접속하는 몸: 아시아 여성 미술가들 | 2024-09-03 | 2025-03-03 | 국립현대미술관 (MMCA) |\n| MMCA 뉴미디어 소장품전-아더랜드 | 2024-09-10 | 2025-04-23 | 국립현대미술관 (MMCA) |\n| 이름의 기술 | 2024-10-11 | 2025-02-23 | 국립현대미술관 (MMCA) |\n| 순간이동 | 2024-10-18 | 2025-02-16 | 국립현대미술관 (MMCA) |\n| 올해의 작가상 2024 | 2024-10-25 | 2025-03-23 | 국립현대미술관 (MMCA) |\n| 이강소: 風來水面時 풍래수면시 | 2024-11-01 | 2025-04-13 | 국립현대미술관 (MMCA) |\n| 프로젝트 해시태그 2024 | 2024-11-15 | 2025-04-27 | 국립현대미술관 (MMCA) |\n| 한국 현대 도자공예: 영원의 지금에서 늘 새로운 | 2024-11-21 | 2025-05-06 | 국립현대미술관 (MMCA) |\n| 수묵별미(水墨別美): 한 · 중 근현대 회화 | 2024-11-28 | 2025-02-16 | 국립현대미술관 (MMCA) |\n| 무빙 이미지의 예술: 폴란드 애니메이션과 필름 아방가르드 | 2024-12-06 | 2025-01-11 | 국립현대미술관 (MMCA) |\n| 창작의 순간 - 예술가의 작업실 | 2025-02-14 | 2025-05-24 | 국립현대미술관 (MMCA) |\n| MMCA 소장품 기획전 - 수채(水彩): 물을 그리다 | 2025-03-21 | 2025-09-07 | 국립현대미술관 (MMCA) |\n| 열린공간7 «우리를 바꾸는 다섯 가지 대화» | 2025-04-04 | 2025-07-13 | 국립현대미술관 (MMCA) |\n| 론 뮤익 | 2025-04-11 | 2025-07-13 | 국립현대미술관 (MMCA) |\n| 초현실주의와 한국근대미술 | 2025-04-17 | 2025-07-06 | 국립현대미술관 (MMCA) |\n| 젊은 모색 2025 : 지금, 여기 | 2025-04-24 | 2025-10-12 | 국립현대미술관 (MMCA) |\n| MMCA 서울 상설전 «한국현대미술 하이라이트» | 2025-05-01 | 2026-05-31 | 국립현대미술관 (MMCA) |\n| 내일 우리는 | 2025-05-01 | 2026-02-18 | 국립현대미술관 (MMCA) |\n| 마음_봄 | 2025-05-02 | 2026-02-27 | 국립현대미술관 (MMCA) |\n| 이 땅에 숨 쉬는 모든 것을 위하여: 정영선과 협업자들 | 2025-05-09 | 2025-07-13 | 국립현대미술관 (MMCA) |\n| 기울인 몸들: 서로의 취약함이 만날 때 | 2025-05-16 | 2025-07-20 | 국립현대미술관 (MMCA) |\n| MMCA 다원예술 : 숲 | 2025-05-23 | 2026-01-25 | 국립현대미술관 (MMCA) |\n| 2025년 창동레지던시 상반기 입주작가전 «공명의 숲» | 2025-05-23 | 2025-06-01 | 국립현대미술관 (MMCA) |\n| MMCA 소장품 «아더랜드 Ⅱ: 와엘 샤키, 아크람 자타리» | 2025-06-03 | 2025-08-17 | 국립현대미술관 (MMCA) |\n| 무인공장 | 2025-06-05 | 2025-06-12 | 국립현대미술관 (MMCA) |\n| «수묵별미: 한·중 근현대 회화» 중국 순회전 | 2025-06-11 | 2025-08-11 | 국립현대미술관 (MMCA) |\n| 2025 막간: 경계에 머무는 시선 | 2025-07-11 | 2025-09-13 | 국립현대미술관 (MMCA) |\n| MMCA 다원예술: 하이너 괴벨스 ‹겐코-안 03062› | 2025-07-14 | 2025-08-10 | 국립현대미술관 (MMCA) |\n| 특별수장고: 국립현대미술관 드로잉·일본 현대 판화 소장품 | 2025-07-22 | 2026-12-31 | 국립현대미술관 (MMCA) |\n| 로버트 비버스: 2025 서울국제실험영화페스티벌 인디비주얼 | 2025-07-25 | 2025-07-30 | 국립현대미술관 (MMCA) |\n| MMCA×LG OLED 시리즈 2025—추수 | 2025-08-01 | 2026-02-01 | 국립현대미술관 (MMCA) |\n| 미술은행 20주년 특별전 «돌아온 미래: 형태와 생각의 발현» | 2025-08-08 | 2027-07-31 | 국립현대미술관 (MMCA) |\n| 리가 스푼데 «어떻게 될지는 아무도 몰라» | 2025-08-11 | 2025-08-24 | 국립현대미술관 (MMCA) |\n| 광복 80주년 기념 «향수(鄕愁), 고향을 그리다» | 2025-08-14 | 2026-02-22 | 국립현대미술관 (MMCA) |\n| MMCA X CMOA 청주프로젝트 2025 «벙커: 어둠에서 빛으로» | 2025-08-20 | 2025-11-16 | 국립현대미술관 (MMCA) |\n| 김창열 | 2025-08-22 | 2025-12-21 | 국립현대미술관 (MMCA) |\n| 올해의 작가상 2025 | 2025-08-29 | 2026-02-01 | 국립현대미술관 (MMCA) |\n| MMCA 해외 명작: 수련과 샹들리에 | 2025-10-02 | 2027-01-03 | 국립현대미술관 (MMCA) |\n| 조우(遭遇), 모던아트협회 1957-1960 | 2025-10-02 | 2026-03-08 | 국립현대미술관 (MMCA) |\n| 창동레지던시 입주보고서 2025: 다시- 장면 | 2025-11-14 | 2025-11-23 | 국립현대미술관 (MMCA) |\n| 이건희컬렉션 국외순회전 «한국의 보물: 모으고, 아끼고, 나누다» | 2025-11-15 | 2026-02-01 | 국립현대미술관 (MMCA) |\n| 이중시선 | 2025-11-26 | 2026-01-10 | 국립현대미술관 (MMCA) |\n| 신상호: 무한변주 | 2025-11-27 | 2026-03-29 | 국립현대미술관 (MMCA) |\n| 항상 옆에 있으니까 일본과 한국, 미술 80년 | 2025-12-06 | 2026-03-22 | 국립현대미술관 (MMCA) |\n\n---\n\n* 출처: 국립현대미술관 (National Museum of Modern and Contemporary Art, Korea) 데이터베이스 기록 기준\n데이터 범위: 경매 기록은 시기가 고르지 않아 18세기 말~19세기 중반 유럽 판매 아카이브, 1930~40년대 일부, 2010년 이후가 대부분이며 1850~2000년 사이는 매우 적습니다. 미술관 취득 시점 정보는 없습니다.",
+      "error": null,
+      "queries": [
+        {
+          "title": "국립현대미술관 2025년 개최 전시 목록",
+          "row_count": 49,
+          "error": null
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "question": "2023년 한국 미술시장 경매 낙찰총액은?",
+      "elapsed_sec": 10.08,
+      "answer": "### 요약 (Executive Summary)\n데이터베이스 조회 결과에 따르면, 2023년 한국 미술시장 경매 낙찰총액은 157,216백만원(약 1,572억 1,600만원)으로 집계되었습니다. 본 수치는 K-ARTMARKET 시장조사 통계를 근거로 합니다.\n\n---\n\n### 2023년 한국 미술시장 경매 낙찰 현황\n\n* **연도**: 2023년\n* **지표**: 경매 낙찰총액 (`auction_total_krw`)\n* **낙찰총액**: 157,216 백만원\n* **출처 및 비고**: K-ARTMARKET 시장조사 통계 (출처 URL: [K-ARTMARKET 통계 페이지](https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do))\n\n---\n\n데이터 범위: 경매 기록은 시기가 고르지 않아 18세기 말~19세기 중반 유럽 판매 아카이브, 1930~40년대 일부, 2010년 이후가 대부분이며 1850~2000년 사이는 매우 적습니다. 미술관 취득 시점 정보는 없습니다.",
+      "error": null,
+      "queries": [
+        {
+          "title": "2023년 한국 미술시장 경매 낙찰총액 조회",
+          "row_count": 1,
+          "error": null
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "question": "박서보가 받은 상은?",
+      "elapsed_sec": 16.32,
+      "answer": "### 요약 (Executive Summary)\n아트그래프(ArtGraph) 미술 데이터베이스 조회 결과, 박서보 작가의 수상 이력(`event_kind = 'award'`)과 관련하여 등록된 공식 기록은 데이터베이스 내에 존재하지 않습니다. 다만, 작가의 기본 소장 현황 및 활동 이력은 데이터베이스에 일부 포함되어 있습니다.\n\n---\n\n### 구조화된 본문\n\n#### 1. 수상 이력 조회 결과\n* **조회 결과**: 데이터베이스 내에 등록된 수상 기록 없음 (0건)\n* **근거**: `artist_events` 테이블 조회 결과, 박서보(`Park Seo-bo`) 작가의 수상(`award`)과 관련된 기록은 발견되지 않았습니다.\n\n#### 2. 작가 기본 정보 (작가 허브 요약)\n* **작가명**: 박서보 (Park Seo-bo)\n* **생몰년**: 1931–2023\n* **국적/분류**: 대한민국 (Korean), 개인(person)\n* **식별자**: ULAN 500323715, Wikidata Q4984536\n* **원본 약력** (출처: [위키백과](https://ko.wikipedia.org/wiki/박서보)): \n  > 박서보(朴栖甫, 본명: 박재홍, 본명 한자: 朴在弘, 1931년 11월 15일~2023년 10월 14일)는 대한민국의 미술가이다.\n\n#### 3. 주요 소장 현황\n미술관별 박서보 작가의 소장 작품 수 및 대표 근거는 다음과 같습니다.\n* **리움미술관 (Leeum Museum of Art, South Korea)**: 4점\n  * 대표 작품: 《원형질 No. 63-3》 (1963), 《묘법 No. 41-78》 (1978) — [리움미술관 소장품 API](https://www.leeumhoam.org/leeum/collection/api/modern?&page=5)\n* **서울시립미술관 (SeMA, South Korea)**: 4점\n* **부산시립미술관 (Busan Museum of Art, South Korea)**: 3점\n* **경기도미술관 (GMoMA, South Korea)**: 1점\n\n---\n\n데이터 범위: 경매 기록은 시기가 고르지 않아 18세기 말~19세기 중반 유럽 판매 아카이브, 1930~40년대 일부, 2010년 이후가 대부분이며 1850~2000년 사이는 매우 적습니다. 미술관 취득 시점 정보는 없습니다.",
+      "error": null,
+      "queries": [
+        {
+          "title": "박서보 작가의 수상 이력 조회",
+          "row_count": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "question": "Picasso 작품 중 귀속 한정(copy after 등) 없이 진작으로 기록된 소장작 수",
+      "elapsed_sec": 21.75,
+      "answer": "### 1. 요약 (Executive Summary)\n파블로 피카소(Pablo Picasso)의 작품 중 귀속 한정(copy after 등) 없이 진작(Authentic)으로 기록된 미술관 소장작은 총 **3,446건**입니다. 데이터베이스 조회 결과, 메트로폴리탄 미술관(Met), 뉴욕 현대미술관(MoMA), 덴마크 국립미술관(SMK), 시카고 미술관(AIC) 등 주요 글로벌 미술관에 분산 소장되어 있습니다.\n\n---\n\n### 2. 구조화된 본문\n\n#### 가. 소장 현황 및 통계\n* **총 진작 소장 건수**: 3,446건 (`attribution_qualifier IS NULL` 조건 기준)\n* **대표 소장 기관 및 예시 작품**:\n  * **The Metropolitan Museum of Art (Met)** (미국 맨해튼)\n    * 대표 작품: `\"291,\" no. 9, November 1915` (1915년, Periodical, 소장번호: `49.55.330(15)`) [출처: met]\n    * 대표 작품: `\"Le déjeuner sur l'herbe\", after Manet I` (1964년, Terracotta with black slip, 소장번호: `1980.481.1`) [출처: met]\n  * **The Museum of Modern Art (MoMA)** (미국 맨해튼)\n    * 대표 작품: `\"Ma Jolie\"` (Paris, winter 1911-12, Oil on canvas, 소장번호: `176.1945`) [출처: moma]\n    * 대표 작품: `\"Away\" (chapter title, page 73) from Corps perdu` (1949, published 1950, Aquatint, 소장번호: `995.1964.21`) [출처: moma]\n  * **Statens Museum for Kunst (SMK)** (덴마크 코펜하겐)\n    * 대표 작품: `\"A los toros\"` (1959년, Sukkerakvatinte, 소장번호: `KKS1960-907/2`) [출처: smk]\n    * 대표 작품: `\"Toros en el campo\"` (1959년, Sukkerakvatinte, 소장번호: `KKS1960-907/1`) [출처: smk]\n  * **Art Institute of Chicago (AIC)** (미국 시카고)\n    * 대표 작품: `111, from 347 Gravures` (May 25, 1968, Etching and aquatint, 소장번호: `111389`) [출처: aic]\n    * 대표 작품: `1952 Exhibition Poster` (1952년, Linocut, 소장번호: `122394`) [출처: aic]\n\n#### 나. 경매 기록 및 기타 정보\n* **경매 기록**: 본 데이터셋에는 미술관 소장품(museum_holdings)을 중심으로 한 조회 결과만 포함되어 있어, 별도의 경매 낙찰 기록은 데이터베이스 내에 등록된 기록이 없습니다.\n* **재료 및 기법**: 유화(Oil on canvas), 테라코타(Terracotta with black slip), 에칭 및 아쿠아틴트(Etching and aquatint), 리놀륨 컷(Linocut), 정기간행물(Periodical) 등 회화, 조각, 판화, 일러스트 북 등 다양한 매체로 구성되어 있습니다.\n\n---\n\n데이터 범위: 경매 기록은 시기가 고르지 않아 18세기 말~19세기 중반 유럽 판매 아카이브, 1930~40년대 일부, 2010년 이후가 대부분이며 1850~2000년 사이는 매우 적습니다. 미술관 취득 시점 정보는 없습니다.",
+      "error": null,
+      "queries": [
+        {
+          "title": "피카소 진작 소장 미술관 및 작품 목록",
+          "row_count": 100,
+          "error": null
+        },
+        {
+          "title": "피카소 진작 소장작 총 수 (미술관 소장 기준)",
+          "row_count": 1,
+          "error": null
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "question": "페이스갤러리 전속 작가 중 국립현대미술관 소장작이 있는 작가",
+      "elapsed_sec": 18.7,
+      "answer": "### 요약(Executive Summary)\n페이스갤러리 전속 작가 중 국립현대미술관(MMCA)에 소장된 작품이 있는 작가로는 스페인 국적의 **파블로 피카소(Pablo Picasso)**가 확인되었습니다. 본 조회 결과에서는 총 50건의 피카소 작품이 국립현대미술관에 소장되어 있는 것으로 나타났으며, 주요 작품의 제작 연도는 1930년대 후반부터 1970년대까지 다양하게 분포되어 있습니다.\n\n---\n\n### 구조화된 본문\n\n#### 1. 작가 정보\n* **작가명**: 파블로 피카소 (Picasso, Pablo / Pablo Picasso)\n* **국적**: 스페인 (Spanish)\n* **갤러리 연계**: 페이스갤러리 수집 시점 로스터 기준 전속 작가\n\n#### 2. 국립현대미술관 소장 작품 현황 (총 50건 중 일부 대표작)\n조회된 데이터베이스에 따르면, 피카소의 세라믹 및 판화, 회화 등 다양한 장르의 작품들이 국립현대미술관에 소장되어 있습니다. 대표적인 작품 목록과 상세 정보는 다음과 같습니다.\n\n| 작품명 | 제작 연도 | 관리번호(Accession Number) | 출처 및 상세 링크 |\n| :--- | :--- | :--- | :--- |\n| **Y자형 얼굴** | 1968 - 1969 | 10427 | [MMCA 바로가기](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=11182) |\n| **검은 바탕 위의 투우** | 1953 | 10404, 10350 | [MMCA 바로가기](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=11159) |\n| **검은 얼굴** | 1948 | 10387, 10421, 10416, 10352 | [MMCA 바로가기](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=11142) |\n| **곡선이 있는 얼굴** | 1971 | 10428 | [MMCA 바로가기](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=11183) |\n| **꽃다발** | 1955 | 10426 | [MMCA 바로가기](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=11181) |\n| **나뭇잎 테두리가 있는 황소** | 1957 | 10364, 10400 | [MMCA 바로가기](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=11119) |\n| **목신의 얼굴** | 1937년경 | 10358 | [MMCA 바로가기](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=11113) |\n| **물고기** | 1952 | 10450, 10451 | [MMCA 바로가기](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=11205) |\n| **부엉이** | 1954 | 10446 | [MMCA 바로가기](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=11201) |\n| **얼굴** | 1953–1959 | 10361, 10372, 10359, 10395 등 | [MMCA 바로가기](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=11116) |\n\n---\n\n### 부재 정보 및 유의 사항\n* 본 조회 결과는 페이스갤러리 전속 로스터와 국립현대미술관 소장품 DB의 교집합을 나타내며, 파블로 피카소 외에 추가로 조건에 부합하는 다른 작가는 본 쿼리 결과(50건 제한) 내에 존재하지 않습니다.\n* 갤러리 전속 정보는 실제 전속 계약의 시작·종료 시점이 아닌 수집 시점의 로스터 기준입니다.\n\n데이터 범위: 경매 기록은 시기가 고르지 않아 18세기 말~19세기 중반 유럽 판매 아카이브, 1930~40년대 일부, 2010년 이후가 대부분이며 1850~2000년 사이는 매우 적습니다. 미술관 취득 시점 정보는 없습니다.",
+      "error": null,
+      "queries": [
+        {
+          "title": "페이스갤러리 전속 작가 중 국립현대미술관 소장작이 있는 작가 목록",
+          "row_count": 50,
+          "error": null
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "question": "2020년 이후 사망한 한국 작가",
+      "elapsed_sec": 15.33,
+      "answer": "### 요약 (Executive Summary)\n데이터베이스 조회 결과, 2020년 이후에 사망한 한국 국적의 작가(개인 인물 기준)는 총 17명으로 확인되었습니다. 본 보고서에서는 해당 작가들의 명단과 출생·사망 연도, 주요 약력 및 관련 데이터 출처를 구조화하여 제공합니다.\n\n---\n\n### 2020년 이후 사망한 한국 작가 소장 및 기록 현황\n\n데이터베이스에 등록된 2020년 이후 사망 한국 작가(17명)의 상세 정보는 다음과 같습니다.\n\n| 작가명 (국문) | 영문명 (Name En) | 출생 연도 | 사망 연도 | 주요 활동 및 약력 요약 | 데이터 출처 |\n| :--- | :--- | :---: | :---: | :--- | :--- |\n| **이종상** | LEE Jongsang | 1938 | 2026 | 화가, 서울대학교 명예교수, 화폐 초상화 및 역사 인물 영정 제작 | 국립현대미술관 (`mmca`) [출처 URL](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=10735) |\n| **정상화** | CHUNG Sanghwa | 1932 | 2026 | 화가 | 국립현대미술관 (`mmca`) [출처 URL](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=1003) |\n| **Suki Seokyeong Kang** | - | 1977 | 2025 | - | 티나 킴 갤러리 (`gallery_tinakimgallery`) [출처 URL](https://tinakimgallery.com/artists/37-suki-seokyeong-kang/) |\n| **강서경** | KANG Seokyeong | 1977 | 2025 | 비주얼 아티스트, 회화·조각·퍼포먼스·설치 등 다방면 활동 | 국립현대미술관 (`mmca`) [출처 URL](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=7811) |\n| **최병소** | CHOI Byungso | 1943 | 2025 | 현대미술가, 1970년대 한국 실험미술 및 단색화 흐름 대표 | 국립현대미술관 (`mmca`) [출처 URL](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=4696) |\n| **Park Seo-Bo** | - | 1931 | 2023 | 미술가 | 조현화랑 (`gallery_johyun`) [출처 URL](https://www.johyungallery.com/artists/55-park-seo-bo/overview/) |\n| **Seo-Bo Park** | - | 1931 | 2023 | 미술가 | 시카고 미술관 (`aic`) [출처 URL](https://api.artic.edu/api/v1/artworks/234003) |\n| **박서보** | Park Seo-bo | 1931 | 2023 | 미술가 (단색화 거장) | 부산시립미술관 (`busan_art_museum`) [출처 URL](https://art.busan.go.kr/tblTsite07ArtworkExp/listClient.nm?page_no=74) |\n| **조용익** | CHO Yongik | 1934 | 2023 | 서양화가, 단색화 및 추상 회화 거장 | 국립현대미술관 (`mmca`) [출처 URL](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=3462) |\n| **김병기** | KIM Byungki | 1916 | 2022 | 서양화가 (평양 출신) | 국립현대미술관 (`mmca`) [출처 URL](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=15358) |\n| **김중만** | Kim Jung-man | 1954 | 2022 | 사진작가, 영화 포스터 광고사진감독 | 서울시립미술관 (`sema`) [출처 URL](https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=56) |\n| **김차섭** | KIM Tchahsup | 1942 | 2022 | 미술가 | 국립현대미술관 (`mmca`) [출처 URL](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=15812) |\n| **공성훈** | KONG Sunghun | 1965 | 2021 | 화가 | 국립현대미술관 (`mmca`) [출처 URL](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=6333) |\n| **김창열** | KIM Tschang-yeul | 1929 | 2021 | 미술가, 프랑스 활동, '물방울 화가' | 국립현대미술관 (`mmca`) [출처 URL](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=10017) |\n| **한도룡** | Doryong Han | 1933 | 2021 | 디자이너, 교수, 홍익대학교 미술대학장 역임 | 부산시립미술관 (`busan_art_museum`) [출처 URL](https://art.busan.go.kr/tblTsite07ArtworkExp/listClient.nm?page_no=284) |\n| **민철홍** | MIN Chulhong | 1933 | 2020 | 디자이너, 서울대학교 미술대학 교수 | 국립현대미술관 (`mmca`) [출처 URL](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=32121) |\n| **서세옥** | SUH Seok | 1929 | 2020 | 동양화가 | 국립현대미술관 (`mmca`) [출처 URL](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=10270) |\n\n*(※ 동일 인물인 박서보 작가의 경우, 영문 표기 및 국문 표기에 따라 데이터 소스별로 각각 다르게 등록되어 총 3건으로 조회되었습니다.)*\n\n---\n\n데이터 범위: 경매 기록은 시기가 고르지 않아 18세기 말~19세기 중반 유럽 판매 아카이브, 1930~40년대 일부, 2010년 이후가 대부분이며 1850~2000년 사이는 매우 적습니다. 미술관 취득 시점 정보는 없습니다.",
+      "error": null,
+      "queries": [
+        {
+          "title": "2020년 이후 사망한 한국 작가 목록 조회",
+          "row_count": 17,
+          "error": null
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "question": "Bonhams에서 2021년에 낙찰된 최고가 작품",
+      "elapsed_sec": 8.53,
+      "answer": null,
+      "error": "JSON 파싱 오류 (Invalid control character at: line 6 column 22 (char 434)):\n{\n  \"thought\": \"사용자는 'Bonhams' 경매사에서 '2021년'에 낙찰된 '최고가' 작품의 정보를 원합니다. 본햄스(Bonhams)는 auction_houses 테이블에서 ILIKE로 검색하고, 2021년 낙찰(sold = true 및 auctions.auction_date 연도가 2021년)된 기록 중 hammer_price(또는 통화별 가격)가 가장 높은 순으로 정렬하여 LIMIT 1로 조회합니다. 진작 조건을 위해 artworks의 attribution_qualifier IS NULL 조건을 반영하며, 경매사 이름, 경매 정보, 작품 정보, 가격, 출처(sources) 정보를 포함합니다.\",\n  \"queries\": [\n    {\n      \"title\": \"Bonhams 2021년 최고가 낙찰 작품 조회\",\n      \"sql\": \"SELECT \n    art.title AS artwork_title,\n    art.year_created,\n    a.name AS artist_name,\n    al.hammer_price,\n    al.currency,\n    auc.name AS auction_name,\n    auc.auction_date,\n    ah.name AS auction_house_name,\n    s.site_name,\n    s.url\nFROM auction_lots al\nJOIN auctions auc ON al.auction_id = auc.id\nJOIN auction_houses ah ON auc.auction_house_id = ah.id\nJOIN artworks art ON al.artwork_id = art.id\nLEFT JOIN artists a ON art.artist_id = a.id\nLEFT JOIN sources s ON al.source_id = s.id\nWHERE ah.name ILIKE '%Bonhams%'\n  AND EXTRACT(YEAR FROM auc.auction_date) = 2021\n  AND al.sold = true\n  AND art.attribution_qualifier IS NULL\nORDER BY al.hammer_price DESC NULLS LAST\nLIMIT 1;\"\n    }\n  ]\n}",
+      "queries": []
+    },
+    {
+      "n": 10,
+      "question": "1850~1999년 경매 기록이 왜 적은지",
+      "elapsed_sec": 12.92,
+      "answer": "### 요약(Executive Summary)\n아트그래프(ArtGraph) 미술 데이터베이스의 연도별 경매 로트 수 분포 조회 결과에 따르면, 1850~1999년 구간의 경매 기록 데이터는 등록된 결과가 0건으로 확인됩니다. 본 데이터베이스는 17세기 후반부터 18세기 중후반(1675년~1760년) 및 일부 최신 기록(201년 등) 중심의 아카이브로 구성되어 있어 해당 기간의 데이터가 부재합니다.\n\n---\n\n### 구조화된 본문\n\n#### 1. 경매 기록 연도별 분포 현황\n제공된 데이터베이스 조회 결과(`auctions` 및 `auction_lots` 테이블 조인 집계)에 따르면, 1675년부터 1760년 사이의 기록은 다수 존재하나, 사용자가 질의한 **1850년부터 1999년 사이의 연도별 경매 로트 수 데이터는 존재하지 않습니다.**\n\n- **조회된 주요 연도 구간**: \n  - 17세기 후반: 1675년(344건), 1682년(122건), 1690년(194건) 등\n  - 18세기 전·중반: 1702년~1760년 (예: 1741년 2,085건, 1758년 1,555건 등 대량의 로트 기록 존재)\n- **1850~1999년 구간 소장/경매 기록**: **데이터베이스 내에 등록된 기록이 없습니다.** (조회된 결과 없음)\n\n---\n\n### 출처 인용(Citations)\n- 데이터 소스: 아트그래프(ArtGraph) 미술 데이터베이스 연도별 경매 로트 수 분포 조회 (`auction_date`, `auction_lots`)\n\n---\n\n데이터 범위: 경매 기록은 시기가 고르지 않아 18세기 말~19세기 중반 유럽 판매 아카이브, 1930~40년대 일부, 2010년 이후가 대부분이며 1850~2000년 사이는 매우 적습니다. 미술관 취득 시점 정보는 없습니다.",
+      "error": null,
+      "queries": [
+        {
+          "title": "연도별 경매 로트 수 분포 조회 (1850~1999년 구간 포함)",
+          "row_count": 241,
+          "error": null
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "question": "글래드스톤 갤러리에서 열린 전시 목록을 알려줘",
+      "elapsed_sec": 17.7,
+      "answer": "### 요약 (Executive Summary)\n아트그래프(ArtGraph) 데이터베이스 조회 결과, 글래드스톤 갤러리(Gladstone Gallery)에서 개최되었거나 개최 예정인 총 50건의 전시 목록이 확인되었습니다. 본 보고서에서는 2024년부터 2026년까지 진행된 주요 전시들의 제목과 일정 정보를 구조화하여 제공합니다.\n\n---\n\n### 구조화된 본문: 글래드스톤 갤러리 전시 목록\n\n데이터베이스에 기록된 글래드스톤 갤러리의 최근 전시 일정은 다음과 같습니다. (최신 시작일 기준 상위 목록)\n\n| 전시 제목 (Title) | 시작일 (Start Date) | 종료일 (End Date) | 관련 링크 (URL) |\n| :--- | :--- | :--- | :--- |\n| waterfall | 2026-09-17 | 2026-10-31 | [바로가기](https://www.gladstonegallery.com/exhibitions/ugo-rondinone-waterfall) |\n| Agita | 2026-09-16 | 2026-10-31 | [바로가기](https://www.gladstonegallery.com/exhibitions/joseph-yaeger-agita) |\n| M.Kokopeli CURSED/01 | 2026-09-12 | 2026-10-24 | [바로가기](https://www.gladstonegallery.com/exhibitions/marc-kokopeli-bgg26) |\n| primordial (rainbow) | 2026-09-04 | 2026-10-31 | [바로가기](https://www.gladstonegallery.com/exhibitions/ugo-rondinone-primordial-rainbow) |\n| 1 day in space | 2026-08-31 | 2026-10-31 | [바로가기](https://www.gladstonegallery.com/exhibitions/ed-atkins-1-day-in-space) |\n| The Vandals | 2026-06-24 | 2026-08-07 | [바로가기](https://www.gladstonegallery.com/exhibitions/the-vandals-bgg26) |\n| Beast in Both Palms | 2026-06-24 | 2026-08-07 | [바로가기](https://www.gladstonegallery.com/exhibitions/shahryar-nashat-beast-in-both-palms) |\n| Gustav Klimt: Women | 2026-05-15 | 2026-06-17 | [바로가기](https://www.gladstonegallery.com/exhibitions/gustav-klimt-women-bgg26) |\n| Noor | 2026-05-13 | 2026-06-26 | [바로가기](https://www.gladstonegallery.com/exhibitions/noor-philippe-parreno-bgg26) |\n| Innervisions | 2026-04-28 | 2026-06-13 | [바로가기](https://www.gladstonegallery.com/exhibitions/celia-paul-innervisions) |\n| April 2026 | 2026-04-09 | 2026-05-16 | [바로가기](https://www.gladstonegallery.com/exhibitions/maureen-gallace-april-2026) |\n| The Rest | 2026-03-13 | 2026-04-25 | [바로가기](https://www.gladstonegallery.com/exhibitions/rachel-rose-the-rest) |\n| Peter Saul’s Art History | 2026-03-07 | 2026-04-18 | [바로가기](https://www.gladstonegallery.com/exhibitions/peter-saul-bgg26) |\n| Peas, Pod | 2026-01-29 | 2026-03-14 | [바로가기](https://www.gladstonegallery.com/exhibitions/peas-pod) |\n| Thought in Material: Selected Works 1984-2025 | 2026-01-15 | 2026-02-21 | [바로가기](https://www.gladstonegallery.com/exhibitions/thought-in-material-selected-works-1984-2025) |\n| Skunks Misery Road | 2026-01-15 | 2026-02-28 | [바로가기](https://www.gladstonegallery.com/exhibitions/skunks-misery-road) |\n| Irreverent Forms | 2025-11-20 | 2026-01-03 | [바로가기](https://www.gladstonegallery.com/exhibitions/irreverent-forms) |\n| (the intellects take leave) | 2025-11-05 | 2025-12-20 | [바로가기](https://www.gladstonegallery.com/exhibitions/rirkrit-tiravanija-brussel25) |\n| Liberating the Soul: Keith Haring’s Paintings | 2025-09-18 | 2025-11-01 | [바로가기](https://www.gladstonegallery.com/exhibitions/keith-haring-liberating-gg25) |\n| In the Absence of Paradise | 2025-09-04 | 2025-10-25 | [바로가기](https://www.gladstonegallery.com/exhibitions/nicholas-bierk-gg25) |\n| in beauty bright | 2025-08-29 | 2025-10-18 | [바로가기](https://www.gladstonegallery.com/exhibitions/rondinone-in-beauty-bright) |\n| Sculptures, Drawings, Models | 2025-06-27 | 2025-08-01 | [바로가기](https://www.gladstonegallery.com/exhibitions/walter-pichler-sculpture-drawings-models) |\n| Salvo, in Viaggio | 2025-05-29 | 2025-07-12 | [바로가기](https://www.gladstonegallery.com/exhibitions/salvo-in-viaggio) |\n| I'd do it all again | 2025-05-15 | 2025-07-05 | [바로가기](https://www.gladstonegallery.com/exhibitions/id-do-it-all-again) |\n| The Kiss | 2025-05-07 | 2025-08-01 | [바로가기](https://www.gladstonegallery.com/exhibitions/rosemarie-trockel-bgg25) |\n| Sympathy for Abandoned Objects | 2025-05-01 | 2025-06-14 | [바로가기](https://www.gladstonegallery.com/exhibitions/robert-rauschenberg-bgg25) |\n| World Without End | 2025-03-07 | 2025-04-19 | [바로가기](https://www.gladstonegallery.com/exhibitions/world-without-end) |\n| Empty Rooms | 2025-03-01 | 2025-04-25 | [바로가기](https://www.gladstonegallery.com/exhibitions/empty-rooms) |\n| MƎTA | 2025-01-22 | 2025-04-26 | [바로가기](https://www.gladstonegallery.com/exhibitions/m-ta) |\n| 3 Songs from the Liver | 2024-11-21 | 2025-02-15 | [바로가기](https://www.gladstonegallery.com/exhibitions/3-songs-from-the-liver) |\n| Ceremony | 2024-11-14 | 2024-12-20 | [바로가기](https://www.gladstonegallery.com/exhibitions/ceremony) |\n| The Oklahoma Nature Theater | 2024-11-08 | 2024-12-20 | [바로가기](https://www.gladstonegallery.com/exhibitions/the-oklahoma-nature-theater) |\n| Double Gemini | 2024-10-30 | 2024-12-21 | [바로가기](https://www.gladstonegallery.com/exhibitions/double-gemini) |\n| Pape Satàn Aleppe | 2024-10-18 | 2024-12-21 | [바로가기](https://www.gladstonegallery.com/exhibitions/pape-satan-aleppe) |\n| New Pastorals | 2024-09-26 | 2024-11-02 | [바로가기](https://www.gladstonegallery.com/exhibitions/new-pastorals) |\n| Arcanums | 2024-09-21 | 2024-11-02 | [바로가기](https://www.gladstonegallery.com/exhibitions/arcanums) |\n| The Shape of Things | 2024-09-14 | 2024-11-09 | [바로가기](https://www.gladstonegallery.com/exhibitions/the-shape-of-things) |\n| When It Was Dark I Called and You Came | 2024-09-11 | 2024-10-12 | [바로가기](https://www.gladstonegallery.com/exhibitions/when-it-was-dark-i-called-and-you-came) |\n| the Wind sings | 2024-09-05 | 2024-10-12 | [바로가기](https://www.gladstonegallery.com/exhibitions/the-wind-sings) |\n| The Secret History | 2024-06-20 | 2024-08-02 | [바로가기](https://www.gladstonegallery.com/exhibitions/the-secret-history) |\n| Studiosis | 2024-06-20 | 2024-08-02 | [바로가기](https://www.gladstonegallery.com/exhibitions/michael-williams-studiosis) |\n| Minimally Invasive (최소침습) | 2024-06-20 | 2024-08-03 | [바로가기](https://www.gladstonegallery.com/exhibitions/minimally-invasive) |\n| SECONDARY: object replay | 2024-05-16 | 2024-07-26 | [바로가기](https://www.gladstonegallery.com/exhibitions/secondary-object-replay) |\n| To Be Other-Wise | 2024-05-02 | 2024-06-15 | [바로가기](https://www.gladstonegallery.com/exhibitions/to-be-other-wise) |\n| Drawings (1974–2006) | 2024-04-30 | 2024-06-12 | [바로가기](https://www.gladstonegallery.com/exhibitions/drawings-1974-2006) |\n| Nana and other stories | 2024-04-26 | 2024-06-08 | [바로가기](https://www.gladstonegallery.com/exhibitions/nana-and-other-stories) |\n| reasons to be cheerful | 2024-04-24 | 2024-06-01 | [바로가기](https://www.gladstonegallery.com/exhibitions/reasons-to-be-cheerful-brussels24) |\n| \\*\\*\\*\\*\\* | 2024-04-04 | 2024-05-04 | [바로가기](https://www.gladstonegallery.com/exhibitions/arthur-jafa-bg24) |\n| Unique constructions | 2024-03-19 | 2024-04-20 | [바로가기](https://www.gladstonegallery.com/exhibitions/unique-constructions) |\n| Thousand Lives | 2024-02-23 | 2024-04-13 | [바로가기](https://www.gladstonegallery.com/exhibitions/thousand-lives-ian-cheng) |\n\n---\n\n### 출처 인용 (Citations)\n- **데이터 소스**: `gallery_exhibitions_pages` (`https://www.gladstonegallery.com/exhibitions`)\n- **갤러리명**: 글래드스톤갤러리 (Gladstone Gallery)\n\n데이터 범위: 경매 기록은 시기가 고르지 않아 18세기 말~19세기 중반 유럽 판매 아카이브, 1930~40년대 일부, 2010년 이후가 대부분이며 1850~2000년 사이는 매우 적습니다. 미술관 취득 시점 정보는 없습니다.",
+      "error": null,
+      "queries": [
+        {
+          "title": "글래드스톤 갤러리 개최 전시 목록",
+          "row_count": 50,
+          "error": null
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "question": "리만머핀 갤러리 전속 작가들의 전시 이력",
+      "elapsed_sec": 15.42,
+      "answer": "### 요약(Executive Summary)\n리만머핀(Lehmann Maupin) 갤러리 전속 작가들의 전시 이력 데이터베이스 조회 결과, David Salle, Erwin Wurm, Marilyn Minter, Teresa Solar Abboud, Rana Begum, Anna Park 등 주요 작가들의 국내외 전시장 전시 이력이 확인되었습니다. 본 보고서는 제공된 DB 기록을 바탕으로 작가별 주요 전시 일정 및 개최 장소를 구조화하여 정리하였습니다.\n\n---\n\n### 리만머핀 전속 작가 전시 이력 현황\n\n데이터베이스에 기록된 리만머핀 전속 작가의 전시 이력은 다음과 같습니다. (참고: 갤러리 전속은 '수집 시점 로스터'이며 실제 전속 시작·종료 시점과는 다를 수 있습니다.)\n\n| 작가명 (Artist) | 전시 제목 (Exhibition Title) | 개최 기간 (Start ~ End) | 전시장 / 장소 (Venue) | 국가 | 출처 (Source / URL) |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **David Salle** | New Pastorals | 2024-09-26 ~ 2024-11-02 | 글래드스톤갤러리 (Gladstone Gallery) | - | gallery_exhibitions_pages<br>([Link](https://www.gladstonegallery.com/exhibitions (+4곳))) |\n| **Erwin Wurm** | Q55357591 / Peace & Plenty | 2018-06-09 ~ 2018-09-23 | Kunstmuseum Luzern | 스위스 | wikidata_artist_events<br>([Link](https://query.wikidata.org/sparql)) |\n| **Erwin Wurm** | Q55373605 / Truck | 2015-06-19 ~ 2015-09-27 | ZKM Center for Art and Media Karlsruhe | 독일 | wikidata_artist_events<br>([Link](https://query.wikidata.org/sparql)) |\n| **Erwin Wurm** | Q55358419 / Sculpture 21st | 2014-08-30 ~ 2014-09-28 | Lehmbruck Museum | 독일 | wikidata_artist_events<br>([Link](https://query.wikidata.org/sparql)) |\n| **Erwin Wurm** | Synthesa / Q55373205 | 2013-11-07 ~ 2014-01-04 | Xavier Hufkens | 벨기에 | wikidata_artist_events<br>([Link](https://query.wikidata.org/sparql)) |\n| **Erwin Wurm** | Erwin Wurm / Q55337656 | 2012-12-12 ~ 2013-02-17 | 알베르티나 | 오스트리아 | wikidata_artist_events<br>([Link](https://query.wikidata.org/sparql)) |\n| **Erwin Wurm** | Wear me out / Q55367018 | 2011-05-29 ~ 2011-09-25 | Middelheim Museum | 벨기에 | wikidata_artist_events<br>([Link](https://query.wikidata.org/sparql)) |\n| **Marilyn Minter** | Marilyn Minter / Q55351179 | 2011-04-30 ~ 2011-06-12 | Deichtorhallen | 독일 | wikidata_artist_events<br>([Link](https://query.wikidata.org/sparql)) |\n| **Erwin Wurm** | Private Wurm / Q55352345 | 2010-10-20 ~ 2011-01-30 | Essl Collection | 오스트리아 | wikidata_artist_events<br>([Link](https://query.wikidata.org/sparql)) |\n| **Teresa Solar Abboud** | Atlantic Ridge Multiplicity | 일자 미상 | 리만머핀 (Lehmann Maupin) | - | gallery_exhibitions_pages<br>([Link](https://www.gladstonegallery.com/exhibitions (+4곳))) |\n| **Rana Begum** | rana begum 2026 09 10 | 일자 미상 | 리만머핀 (Lehmann Maupin) | - | gallery_exhibitions_pages<br>([Link](https://www.gladstonegallery.com/exhibitions (+4곳))) |\n| **Anna Park** | House Rules | 일자 미상 | 리만머핀 (Lehmann Maupin) | - | gallery_exhibitions_pages<br>([Link](https://www.gladstonegallery.com/exhibitions (+4곳))) |\n\n---\n\n데이터 범위: 경매 기록은 시기가 고르지 않아 18세기 말~19세기 중반 유럽 판매 아카이브, 1930~40년대 일부, 2010년 이후가 대부분이며 1850~2000년 사이는 매우 적습니다. 미술관 취득 시점 정보는 없습니다.",
+      "error": null,
+      "queries": [
+        {
+          "title": "리만머핀 갤러리 전속 작가 및 전시 이력 조회",
+          "row_count": 20,
+          "error": null
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "question": "타카 이시이 갤러리 도쿄 전시 목록",
+      "elapsed_sec": 12.63,
+      "answer": "### 요약 (Executive Summary)\n데이터베이스 조회 결과, 타카 이시이 갤러리(Taka Ishii Gallery)와 연계된 도쿄 지역 및 관련 복합 공간의 전시 기록은 총 21건이 확인되었습니다. 본 보고서에서는 해당 전시장들의 명칭, 전시 제목, 개최 시기 및 관련 출처 정보를 구조화하여 제공합니다.\n\n---\n\n### 전시 목록 및 소장 현황\n\n데이터베이스에 기록된 타카 이시이 갤러리 관련 전시 정보는 아래와 같습니다. (출처: `gallery_exhibitions_pages`, 소스 URL: `https://www.gladstonegallery.com/exhibitions` 등)\n\n| 전시 제목 (Title) | 전시장 명칭 (Venue Name) | 시작일 (Start Date) | 종료일 (End Date) |\n| :--- | :--- | :--- | :--- |\n| **Fukei-Ga (Landscape Painting)** | Taka Ishii Gallery (complex) | 2024-03-23 | 2024-04-27 |\n| **Kagami-ita** | Taka Ishii Gallery (complex) | 2023-04-01 | 2023-04-28 |\n| **ECCHYMOSES** | Taka Ishii Gallery (complex) | 2023-01-21 | 2023-02-18 |\n| **Beyond the Garden** | Taka Ishii Gallery (complex) | 2022-10-15 | 2022-11-12 |\n| **the homemaker and her domain, IV** | Taka Ishii Gallery (complex) | 2022-08-06 | 2022-09-03 |\n| **Winter to Spring** | Taka Ishii Gallery (complex) | 2022-06-04 | 2022-07-02 |\n| **1, 2** | Taka Ishii Gallery (complex) | 2022-04-23 | 2022-05-21 |\n| **Graham Little** | Taka Ishii Gallery (complex) | 2022-03-19 | 2022-04-16 |\n| **MOMENTUM** | Taka Ishii Gallery (complex) | 2022-02-12 | 2022-03-12 |\n| **geopolitics (manifestations)** | Taka Ishii Gallery (complex) | 2021-09-04 | 2021-10-02 |\n| **Rei Naito** | Taka Ishii Gallery (complex) | 2020-11-27 | 2020-12-26 |\n| **The Strange Moves That We Make** | Taka Ishii Gallery Tokyo | 2016-09-16 | 2016-10-15 |\n| **nowhere now here** | Taka Ishii Gallery Tokyo | 2015-02-14 | 2015-03-14 |\n| **Open-Ended Propositions** (교토 공동 개최 포함) | Taka Ishii Gallery (Kiyosumi, Tokyo) 등 | 2011-09-03 | 2011-10-01 |\n| **Visible, Invisible. Face Landscape 2021** | Taka Ishii Gallery (complex) | - | - |\n| **Group Exhibition** | Taka Ishii Gallery (complex) | - | - |\n| **ECHOES** | Taka Ishii Gallery (Kiyosumi, Tokyo) | - | - |\n| **Daichi Takagi, Lucía Vidales, Hiroka Yamashita** | Taka Ishii Gallery (complex) | - | - |\n| **Hypnos** | Taka Ishii Gallery (complex) | - | - |\n| **Vivian Springford** | Taka Ishii Gallery (complex) | - | - |\n| **Keramikos** | Taka Ishii Gallery (complex) | - | - |\n\n*참고: 위 전시 데이터 중 일부는 개최 일자가 명시되지 않은 기록(총 7건)이 포함되어 있습니다.*\n\n---\n\n데이터 범위: 경매 기록은 시기가 고르지 않아 18세기 말~19세기 중반 유럽 판매 아카이브, 1930~40년대 일부, 2010년 이후가 대부분이며 1850~2000년 사이는 매우 적습니다. 미술관 취득 시점 정보는 없습니다.",
+      "error": null,
+      "queries": [
+        {
+          "title": "타카 이시이 갤러리 전시 목록 조회",
+          "row_count": 21,
+          "error": null
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "question": "표갤러리에서 전시한 작가 목록",
+      "elapsed_sec": 10.53,
+      "answer": "### 요약(Executive Summary)\n아트그래프(ArtGraph) 데이터베이스 조회 결과, 표갤러리(Pyo Gallery) 전시 이력이 확인된 작가는 총 22명입니다. 본 보고서에서는 해당 데이터베이스에 등록된 국내외 작가 목록과 관련 출처 정보를 구조화하여 제공합니다.\n\n---\n\n### 구조화된 본문: 표갤러리 전시 참여 작가 목록\n\n데이터베이스에 기록된 표갤러리 전시 참여 작가는 다음과 같으며, 영문명, 국적, 생몰년 및 관련 데이터 출처(`site_name` 및 `url`)를 함께 정리하였습니다.\n\n| 작가명 (국문/영문) | 국적 | 생몰년 | 데이터 출처 | 관련 링크 |\n| :--- | :--- | :--- | :--- | :--- |\n| **Jonathan Borofsky** | American | 1942~ | met | [MetObjects](https://media.githubusercontent.com/media/metmuseum/openaccess/master/MetObjects.csv) |\n| **Jung Jin** | - | - | gallery_wooson | [우손갤러리](https://www.woosongallery.com/artists/61-jung-jin/) |\n| **LEE Jihyun** | - | - | gallery_arario | [아라리오갤러리](https://www.arariogallery.com/artists/68-lee-jihyun/) |\n| **Paek Yunzo** | - | - | gallery_313artproject | [313아트프로젝트](https://313artproject.com/artists/46-paek-yunzo/) |\n| **Tod Wizon** | American | 1952~ | met | [MetObjects](https://media.githubusercontent.com/media/metmuseum/openaccess/master/MetObjects.csv) |\n| **Woo Kukwon** | - | - | gallery_313artproject | [313아트프로젝트](https://313artproject.com/artists/35-woo-kukwon/) |\n| **곽덕준** (KWAK Duckjun) | - | - | mmca | [국립현대미술관](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=1015) |\n| **김영원** (KIM Youngwon) | - | - | mmca | [국립현대미술관](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=152) |\n| **김인겸** (KIM Inkyum) | - | - | mmca | [국립현대미술관](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=3518) |\n| **김지희** (KIM Jihee) | Korean | 1984~ | mmca | [국립현대미술관](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=5920) |\n| **김창열** (KIM Tschang-yeul) | Korean | 1929~2021 | mmca | [국립현대미술관](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=10017) |\n| **노정란** (NOH Jungran) | - | - | mmca | [국립현대미술관](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=1047) |\n| **박동인** (PARK Dongin) | - | - | mmca | [국립현대미술관](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=2844) |\n| **박성태** (PARK Sungtae) | - | - | mmca | [국립현대미술관](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=5216) |\n| **박영하** (PARK Youngha) | - | - | mmca | [국립현대미술관](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=3580) |\n| **육근병** (YOOK Keunbyung) | - | - | mmca | [국립현대미술관](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=3558) |\n| **이강소** (LEE Kangso) | - | 1943~ | mmca | [국립현대미술관](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=2982) |\n| **전수천** (JHEON Soocheon) | - | - | mmca | [국립현대미술관](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=3067) |\n| **정보원** (CHUNG Bowon) | - | - | mmca | [국립현대미술관](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=2681) |\n| **차영석** (CHA Youngseok) | - | - | mmca | [국립현대미술관](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=9357) |\n| **차우희** (CHA Ouhi) | - | - | mmca | [국립현대미술관](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=2002) |\n| **천원링** (CHEN Wenling) | - | - | mmca | [국립현대미술관](https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=5604) |\n\n---\n\n데이터 범위: 경매 기록은 시기가 고르지 않아 18세기 말~19세기 중반 유럽 판매 아카이브, 1930~40년대 일부, 2010년 이후가 대부분이며 1850~2000년 사이는 매우 적습니다. 미술관 취득 시점 정보는 없습니다.",
+      "error": null,
+      "queries": [
+        {
+          "title": "표갤러리 전시 참여 작가 목록",
+          "row_count": 22,
+          "error": null
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "question": "갤러리 시몬 전시 이력",
+      "elapsed_sec": 12.39,
+      "answer": "### 요약(Executive Summary)\n아트그래프(ArtGraph) 미술 데이터베이스 조회 결과, **갤러리 시몬(Gallery Simon)**에서 개최된 주요 전시 이력은 총 50건이 확인되었습니다. 본 보고서에서는 2012년부터 2026년까지 개최된 주요 전시들의 명칭, 일정, 그리고 데이터 출처 정보를 구조화하여 제공합니다.\n\n---\n\n### 구조화된 본문: 갤러리 시몬 전시 이력\n\n조회된 데이터에 따르면 갤러리 시몬(`갤러리시몬 (Gallery Simon)`)은 동시대 미술을 아우르는 다양한 주제와 기획 전시를 선보여 왔습니다. 아래는 최근 주요 전시 일정 및 명칭입니다.\n\n#### 1. 주요 전시 목록 (최신순)\n\n| 전시 명칭 (Title) | 시작일 (Start Date) | 종료일 (End Date) | 상세 링크 |\n| :--- | :--- | :--- | :--- |\n| **Becoming With** | 2026-09-03 | 2026-10-15 | [링크](https://www.gallerysimon.com/exhibition/2026-02) |\n| **What Still Remains** | 2026-03-05 | 2026-06-05 | [링크](https://www.gallerysimon.com/exhibition/2004-01) |\n| **What Still Remains** | 2026-03-05 | 2026-06-05 | [링크](https://www.gallerysimon.com/exhibition/2026-01) |\n| **Round and Round** | 2025-05-22 | 2025-07-12 | [링크](https://www.gallerysimon.com/exhibition/2025-02) |\n| **Timeless** | 2025-03-06 | 2025-05-03 | [링크](https://www.gallerysimon.com/exhibition/2025-01) |\n| **The Contemplation of Books** | 2024-10-24 | 2024-12-14 | [링크](https://www.gallerysimon.com/exhibition/2024-04) |\n| **Echoes of Colors: 색의 메아리** | 2024-08-22 | 2024-10-10 | [링크](https://www.gallerysimon.com/exhibition/2024-03) |\n| **43200 sec.** | 2024-05-16 | 2024-07-06 | [링크](https://www.gallerysimon.com/exhibition/2024-02) |\n| **Forgetting is Remembering** | 2023-10-26 | 2023-12-23 | [링크](https://www.gallerysimon.com/exhibition/2023-03) |\n| **Romantic Reflexes: 낭만적 반사** | 2023-08-24 | 2023-10-12 | [링크](https://www.gallerysimon.com/exhibition/2023-02) |\n| **無** | 2023-03-16 | 2023-05-20 | [링크](https://www.gallerysimon.com/exhibition/2023-01) |\n| **&lt;Pairs&gt; 쌍-댓구** | 2022-10-20 | 2022-12-21 | [링크](https://www.gallerysimon.com/exhibition/2022-04) |\n| **La mia Italia** | 2022-08-11 | 2022-10-01 | [링크](https://www.gallerysimon.com/exhibition/2022-03) |\n| **The Nature of Line 선의 본성** | 2022-06-09 | 2022-07-23 | [링크](https://www.gallerysimon.com/exhibition/2022-02) |\n| **Autumn Winter / Spring Summer** | 2022-03-17 | 2022-05-21 | [링크](https://www.gallerysimon.com/exhibition/2022-01) |\n\n*(※ 상기 목록 외에도 2012년부터 2021년까지의 'Obscurity-2021', 'Simon's Collection', 'Arrival', 'melo' 등 총 50건의 전시 이력이 데이터베이스에 등록되어 있습니다.)*\n\n#### 2. 데이터 출처 및 정보\n- **데이터 소스 (Site Name)**: `gallery_exhibitions_pages`\n- **출처 URL**: `https://www.gladstonegallery.com/exhibitions (+4곳)`\n- **장소 유형 (Venue Kind)**: 갤러리 (`gallery`)\n\n---\n\n데이터 범위: 경매 기록은 시기가 고르지 않아 18세기 말~19세기 중반 유럽 판매 아카이브, 1930~40년대 일부, 2010년 이후가 대부분이며 1850~2000년 사이는 매우 적습니다. 미술관 취득 시점 정보는 없습니다.",
+      "error": null,
+      "queries": [
+        {
+          "title": "갤러리 시몬 전시 이력 조회",
+          "row_count": 50,
+          "error": null
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "question": "이우환의 전시 이력과 수상 경력을 알려줘",
+      "elapsed_sec": 18.23,
+      "answer": "### 요약(Executive Summary)\n이우환 작가는 모노파의 창시자이자 국제적으로 명성이 높은 대한민국의 조각가 겸 화가입니다. 데이터베이스 조회 결과에 따르면, 국립현대미술관과 경기도미술관 등 주요 기관에서 개최한 다수의 단체전 및 상설전에 참여해 왔으며, 국내외에서 문화훈장, 욱일소수장, 호암 예술상 등 저명한 상훈을 수여받은 이력이 확인됩니다.\n\n---\n\n### 1. 전시 이력\n데이터베이스에 등록된 이우환 작가의 주요 전시 이력은 다음과 같습니다.\n\n*   **로드 무비: 1945년 이후 한·일 미술**\n    *   **장소**: 국립현대미술관 (MMCA) (`museum`)\n    *   **일정**: 2026-05-14 ~ 2026-09-27\n*   **MMCA 서울 상설전 «한국현대미술 하이라이트»**\n    *   **장소**: 국립현대미술관 (MMCA) (`museum`)\n    *   **일정**: 2025-05-01 ~ 2026-05-31\n*   **미술관에 「書」: 한국 근현대 서예**\n    *   **장소**: 국립현대미술관 (MMCA) (`museum`)\n    *   **일정**: 2024-07-06 ~ 2024-10-21\n*   **미술관에 書: 한국 근현대 서예전**\n    *   **장소**: 국립현대미술관 (MMCA) (`museum`)\n    *   **일정**: 2020-05-06 ~ 2020-08-23\n*   **수행의 길: 한국의 단색화**\n    *   **장소**: 경기도미술관 (GMoMA) (`museum`)\n    *   **일정**: 2017-10-13 ~ 2017-11-12\n*   **영상과 물질 – 1970년대 일본의 판화**\n    *   **장소**: 경기도미술관 (GMoMA) (`museum`)\n    *   **일정**: 2016-02-02 ~ 2016-04-03\n*   **De Calder à Koons, Bijoux d'Artistes, La Collection Idéale de Diane Venet**\n    *   **장소**: 파리 장식미술관 (`other`)\n    *   **출처**: wikidata_artist_events (URL: [Wikidata SPARQL](https://query.wikidata.org/sparql))\n*   **From Picasso to Koons: The Artist as Jeweler**\n    *   **장소**: Benaki Museum (`museum`)\n    *   **출처**: wikidata_artist_events (URL: [Wikidata SPARQL](https://query.wikidata.org/sparql))\n\n---\n\n### 2. 수상 경력\n데이터베이스에 기록된 이우환 작가의 수상 내역은 다음과 같습니다 (출처: `wikidata_artist_events`).\n\n| 수상 내역 (Detail) | 일자 (Event Date) | 관련 링크 |\n| :--- | :--- | :--- |\n| **욱일소수장** | 2009-01-01 | [Wikidata 항목](http://www.wikidata.org/entity/Q55339174) |\n| **보라색 리본 메달** | 2002-01-01 | [Wikidata 항목](http://www.wikidata.org/entity/Q11605748) |\n| **다카마쓰노미야 전하기념 세계문화상** | 2001-01-01 | [Wikidata 항목](http://www.wikidata.org/entity/Q268670) |\n| **문화훈장** | 1990-01-01 | [Wikidata 항목](http://www.wikidata.org/entity/Q2447242) |\n| **레지옹 도뇌르 훈장** | 일자 미상 | [Wikidata 항목](http://www.wikidata.org/entity/Q163700) |\n| **호암 예술상** | 일자 미상 | [Wikidata 항목](http://www.wikidata.org/entity/Q5873868) |\n\n---\n\n데이터 범위: 경매 기록은 시기가 고르지 않아 18세기 말~19세기 중반 유럽 판매 아카이브, 1930~40년대 일부, 2010년 이후가 대부분이며 1850~2000년 사이는 매우 적습니다. 미술관 취득 시점 정보는 없습니다.",
+      "error": null,
+      "queries": [
+        {
+          "title": "이우환 작가 전시 이력 조회",
+          "row_count": 8,
+          "error": null
+        },
+        {
+          "title": "이우환 작가 수상 및 사건 이력 조회",
+          "row_count": 6,
+          "error": null
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "question": "2015~2024년 한국 미술시장 낙찰총액 연도별 추이",
+      "elapsed_sec": 17.65,
+      "answer": "### 요약(Executive Summary)\n아트그래프(ArtGraph) 미술 데이터 분석 결과, 2015년부터 2024년까지의 한국 미술시장 경매 낙찰총액은 꾸준한 상승과 조정을 거쳐 2021년에 최고점에 달한 후 안정화되는 추이를 보였습니다. 특히 2021년에는 약 3,384억 원을 기록하며 전년 대비 큰 폭의 급증을 나타냈으나, 이후 점진적인 하향 안정세를 보이고 있습니다. 본 보고서는 K-ARTMARKET 시장조사 통계를 바탕으로 연도별 낙찰총액의 흐름을 구조화하여 제공합니다.\n\n---\n\n### 구조화된 본문\n\n#### 1. 2015~2024년 한국 미술시장 경매 낙찰총액 연도별 추이\n제공된 데이터베이스에 따르면, 2015년 98,472백만 원이었던 낙찰총액은 2018년까지 완만한 상승세를 보였습니다. 이후 2021년 폭발적인 성장을 기록한 뒤, 2022년부터 2024년까지는 조정을 거치며 1,200억 원대 규모를 형성하고 있습니다.\n\n| 연도 | 낙찰총액 (단위: 백만원) | 비고 | 출처 |\n| :--- | :--- | :--- | :--- |\n| **2015** | 98,472.0 | K-ARTMARKET 시장조사 통계 (2015년) | [K-ARTMARKET](https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do) |\n| **2016** | 127,798.0 | K-ARTMARKET 시장조사 통계 (2016년) | [K-ARTMARKET](https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do) |\n| **2017** | 149,282.0 | K-ARTMARKET 시장조사 통계 (2017년) | [K-ARTMARKET](https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do) |\n| **2018** | 151,147.0 | K-ARTMARKET 시장조사 통계 (2018년) | [K-ARTMARKET](https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do) |\n| **2019** | 115,820.0 | K-ARTMARKET 시장조사 통계 (2019년) | [K-ARTMARKET](https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do) |\n| **2020** | 115,298.0 | K-ARTMARKET 시장조사 통계 (2020년) | [K-ARTMARKET](https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do) |\n| **2021** | 338,463.0 | K-ARTMARKET 시장조사 통계 (2021년) | [K-ARTMARKET](https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do) |\n| **2022** | 234,523.0 | K-ARTMARKET 시장조사 통계 (2022년) | [K-ARTMARKET](https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do) |\n| **2023** | 157,216.0 | K-ARTMARKET 시장조사 통계 (2023년) | [K-ARTMARKET](https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do) |\n| **2024** | 120,473.0 | K-ARTMARKET 시장조사 통계 (2024년) | [K-ARTMARKET](https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do) |\n\n---\n\n데이터 범위: 경매 기록은 시기가 고르지 않아 18세기 말~19세기 중반 유럽 판매 아카이브, 1930~40년대 일부, 2010년 이후가 대부분이며 1850~2000년 사이는 매우 적습니다. 미술관 취득 시점 정보는 없습니다.",
+      "error": null,
+      "queries": [
+        {
+          "title": "2015~2024년 한국 미술시장 경매 낙찰총액 연도별 추이",
+          "row_count": 10,
+          "error": null
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "question": "2021년 market_stats_kr에 등록된 지표는 뭐가 있어?",
+      "elapsed_sec": 16.94,
+      "answer": "### 요약 (Executive Summary)\n아트그래프(ArtGraph) 미술 데이터베이스에 따르면, 2021년 한국 미술시장 통계 지표(`market_stats_kr`)는 총 5건의 핵심 지표가 등록되어 있습니다. 해당 연도 한국 미술시장의 총 시장 규모는 약 8,416.53억 원(841,653 백만원)으로 집계되었으며, 화랑, 경매, 아트페어의 부문별 판매 금액과 경매 낙찰률 정보가 포함되어 있습니다.\n\n---\n\n### 구조화된 본문: 2021년 한국 미술시장 통계 지표\n\n제공된 데이터베이스 조회 결과에 따른 2021년 한국 미술시장 통계 지표는 다음과 같습니다.\n\n| 지표명 (Metric) | 수치 (Value) | 단위 (Unit) | 비고 (Note) | 출처 (Source) |\n| :--- | :--- | :--- | :--- | :--- |\n| **artfair_sales_krw** | 188,966.0 | 백만원 | 원문 표기 그대로 (K-ARTMARKET 시장조사 통계, 2021년) | [K-ARTMARKET](https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do) |\n| **auction_sell_through_rate** | 61.4 | % | 원문 표기 그대로 (K-ARTMARKET 시장조사 통계, 2021년) | [K-ARTMARKET](https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do) |\n| **auction_total_krw** | 338,463.0 | 백만원 | 원문 표기 그대로 (K-ARTMARKET 시장조사 통계, 2021년) | [K-ARTMARKET](https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do) |\n| **gallery_sales_krw** | 314,224.0 | 백만원 | 원문 표기 그대로 (K-ARTMARKET 시장조사 통계, 2021년) | [K-ARTMARKET](https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do) |\n| **market_total_krw** | 841,653.0 | 백만원 | [산출값] 화랑+경매+아트페어 판매금액 합산(원문에 합계 항목 없음, 추정 아님 — 세 원문 수치의 단순 합) | [K-ARTMARKET](https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do) |\n\n* **부문별 판매금액 상세**\n  * **경매 총액 (`auction_total_krw`)**: 338,463 백만원 (낙찰률 `auction_sell_through_rate`: 61.4%)\n  * **화랑 판매액 (`gallery_sales_krw`)**: 314,224 백만원\n  * **아트페어 판매액 (`artfair_sales_krw`)**: 188,966 백만원\n\n---\n\n데이터 범위: 경매 기록은 시기가 고르지 않아 18세기 말~19세기 중반 유럽 판매 아카이브, 1930~40년대 일부, 2010년 이후가 대부분이며 1850~2000년 사이는 매우 적습니다. 미술관 취득 시점 정보는 없습니다.",
+      "error": null,
+      "queries": [
+        {
+          "title": "2021년 한국 미술시장 통계 지표 조회",
+          "row_count": 5,
+          "error": null
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "question": "국립현대미술관 소장작 중 개인 작가(단체·재단·국가 명의 제외) 작품은 몇 건이야?",
+      "elapsed_sec": 21.39,
+      "answer": "### 요약 (Executive Summary)\n아트그래프(ArtGraph) 미술 데이터베이스 조회 결과, 국립현대미술관이 소장하고 있는 개인 작가(단체·재단·국가 명의 제외, 속성 한정어 없음)의 작품은 총 **11,747건**으로 집계되었습니다. 본 보고서는 제공된 데이터베이스의 엄격한 조회 결과를 바탕으로 국립현대미술관의 개인 작가 소장 현황을 구조화하여 제공합니다.\n\n---\n\n### 국립현대미술관 개인 작가 소장 현황\n\n* **소장 미술관**: 국립현대미술관 (`museum_id`: `2cb82827-c5f0-43ee-911b-ba05554211a3`)\n* **작가 유형**: 개인 작가 (`entity_kind = 'person'`)\n* **작품 속성 조건**: 귀속 한정어 없음 (`attribution_qualifier IS NULL`)\n* **총 소장 건수**: **11,747건**\n\n---\n\n### 데이터 범위 및 참고 사항\n* 데이터베이스에 등록된 쿼리 실행 결과만을 근거로 하였으며, 특정 작가별 세부 목록이나 개별 작품의 제작 연도, 재료/기법 및 추가 경매·갤러리 기록은 본 조회 결과에 포함되어 있지 않아 기재하지 않습니다.\n* 본 데이터는 데이터베이스 조회 시점을 기준으로 합니다.\n\n데이터 범위: 경매 기록은 시기가 고르지 않아 18세기 말~19세기 중반 유럽 판매 아카이브, 1930~40년대 일부, 2010년 이후가 대부분이며 1850~2000년 사이는 매우 적습니다. 미술관 취득 시점 정보는 없습니다.",
+      "error": null,
+      "queries": [
+        {
+          "title": "국립현대미술관 개인 작가 소장품 총 건수",
+          "row_count": 1,
+          "error": null
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "question": "요즘 한국 미술시장 트렌드가 어때?",
+      "elapsed_sec": 13.86,
+      "answer": "### 요약 (Executive Summary)\n아트그래프(ArtGraph) 미술 데이터베이스에 따르면, 최근 한국 미술시장은 2022년 약 9,903억 원의 시장 규모로 정점을 기록한 이후, 2023년과 2024년에는 다소 조정 국면 및 하향 안정세를 보이고 있습니다. 화랑, 경매, 아트페어 등 각 부문별 판매 금액과 경매 낙찰률 모두 2022년 대비 2024년에 전반적인 감소 추세를 나타내고 있습니다.\n\n---\n\n### 구조화된 본문: 연도별 한국 미술시장 규모 및 트렌드\n\nK-ARTMARKET 시장조사 통계를 바탕으로 집계된 2020년부터 2024년까지의 부문별 판매 금액 및 주요 지표는 다음과 같습니다. (단위: 백만원, %)\n\n| 연도 | 화랑 판매액 (`gallery_sales`) | 경매 판매액 (`auction_total`) | 아트페어 판매액 (`artfair_sales`) | 시장 총합 (`market_total`, 산출값) | 경매 낙찰률 (`auction_sell_through_rate`) |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **2024** | 347,003.0 | 120,473.0 | 217,379.0 | 684,855.0 | 45.7% |\n| **2023** | 416,610.0 | 157,216.0 | 295,778.0 | 869,604.0 | 47.5% |\n| **2022** | 450,640.0 | 234,523.0 | 305,231.0 | 990,394.0 | 47.2% |\n| **2021** | 314,224.0 | 338,463.0 | 188,966.0 | 841,653.0 | 61.4% |\n| **2020** | 165,773.0 | 115,298.0 | 46,890.0 | 327,961.0 | 59.2% |\n\n*(출처: [K-ARTMARKET 시장조사 통계](https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do))*\n\n#### 1. 시장 규모 추이\n* **성장기 (2020~2022)**: 2020년 3,279억 원 규모였던 시장 총합은 2021년 급격히 성장하여 8,416억 원을 기록했고, 2022년에는 **9,903억 원**으로 최고치를 달성했습니다. 특히 화랑 판매액이 4,506억 원, 아트페어 판매액이 3,052억 원으로 시장 성장을 견인했습니다.\n* **조정기 (2023~2024)**: 2023년 시장 총합은 8,696억 원으로 감소세로 돌아섰으며, 2024년에는 **6,848억 원**으로 2020년 이후 최저 수준의 합산 규모를 기록하였습니다.\n\n#### 2. 경매 시장 및 낙찰률 변화\n* **경매 총액**: 2021년 3,384억 원으로 정점을 찍은 후, 2022년(2,345억 원), 2023년(1,572억 원)을 거쳐 2024년에는 **1,204억 원** 대까지 축소되었습니다.\n* **낙찰률**: 2020년 59.2%, 2021년 61.4%에 달하던 경매 낙찰률은 2022년 47.2%, 2023년 47.5%, 2024년 **45.7%**로 하락하여 보수적인 구매 경향이 지속되고 있음을 보여줍니다.\n\n---\n\n### 출처 인용 (Citations)\n* **데이터 소스**: K-ARTMARKET 시장조사 통계 (URL: `https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do`)\n\n데이터 범위: 경매 기록은 시기가 고르지 않아 18세기 말~19세기 중반 유럽 판매 아카이브, 1930~40년대 일부, 2010년 이후가 대부분이며 1850~2000년 사이는 매우 적습니다. 미술관 취득 시점 정보는 없습니다.",
+      "error": null,
+      "queries": [
+        {
+          "title": "최근 한국 미술시장 연도별 주요 통계 및 트렌드 조회",
+          "row_count": 25,
+          "error": null
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "question": "이우환의 1차 시장(전속 갤러리)과 2차 시장(경매) 현황을 비교해줘",
+      "elapsed_sec": 20.12,
+      "answer": "### 요약 (Executive Summary)\n데이터 범위: 경매 기록은 시기가 고르지 않아 18세기 말~19세기 중반 유럽 판매 아카이브, 1930~40년대 일부, 2010년 이후가 대부분이며 1850~2000년 사이는 매우 적습니다. 미술관 취득 시점 정보는 없습니다.\n\n이우환 작가는 글로벌 미술시장에서 탄탄한 1차 시장(전속 갤러리) 네트워크와 활발한 2차 시장(경매) 거래를 동시에 보유하고 있습니다. 서울, 도쿄, 뉴욕, 파리, 밀라노 등 세계 주요 미술 거점의 유력 갤러리들을 통해 작품을 선보이고 있으며, 2차 시장에서는 국내외 주요 경매사를 통해 다수의 낙찰 기록을 형성하고 있습니다.\n\n---\n\n### 1. 1차 시장 (전속 및 대표 갤러리) 현황\n이우환 작가는 국내외 유수의 갤러리들과 협력 관계(수집 시점 로스터 기준)를 맺고 글로벌 시장에 진입해 있습니다.\n\n* **국내 갤러리**\n  * **국제갤러리 (Kukje Gallery)** - 서울, 대한민국 (`https://www.kukjegallery.com/artists/view?seq=190` [출처: `gallery_kukje`])\n  * **갤러리현대 (Gallery Hyundai)** - 서울, 대한민국 (`https://www.galleryhyundai.com/artist/view/20000000025` [출처: `gallery_gallery_hyundai`])\n  * **313 Art Project** - 서울, 대한민국 (`https://313artproject.com/artists/38-lee-wan/` [출처: `gallery_313artproject`])\n* **해외 갤러리**\n  * **티나킴갤러리 (Tina Kim Gallery)** - 뉴욕, 미국 (`https://tinakimgallery.com/artists/47-lee-ufan/` [출처: `gallery_tinakimgallery`])\n  * **페이스갤러리 (Pace Gallery)** - 뉴욕, 미국 (`https://www.pacegallery.com/artists/lee-ufan/` [출처: `gallery_pace`])\n  * **스카이더배스하우스 (SCAI The Bathhouse)** - 도쿄, 일본 (`https://www.scaithebathhouse.com/en/artists/lee_ufan/` [출처: `gallery_scaithebathhouse`])\n  * **멘누르 (Kamel Mennour)** - 파리, 프랑스 (`https://www.mennour.com/artist/lee-ufan` [출처: `gallery_mennour`])\n  * **카르디갤러리 (Cardi Gallery)** - 밀라노, 이탈리아 (`https://cardigallery.com/artists/lee-ufan/` [출처: `gallery_cardigallery`])\n\n---\n\n### 2. 2차 시장 (경매) 현황\n2차 시장인 경매 분야에서 이우환 작가는 국내외 주요 경매사를 통해 폭넓은 거래 기록을 보유하고 있습니다. (※ 작가 허브 요약 기준, 총 614건의 낙찰 기록 및 322회의 경매 이력 확인)\n\n* **주요 경매사 분포**: 케이옥션, 서울옥션, 라이즈아트, 헤럴드아트데이, 에이옥션 등 (출처: [작가 허브 요약] 경매 통계)\n* **최근 경매 낙찰 사례 (일부)**:\n  * **케이옥션**: 2026년 6월 24일 낙찰가 `1,500,000,000 KRW` (`https://k-artmarket.kr/member/work/WorkList.do?pageNo=1127&recordCountPerPage=48&sortKey=end_dt_asc` [출처: `k_artmarket_works`])\n  * **서울옥션**: 2026년 5월 28일 낙찰가 `1,040,000,000 KRW` (`https://k-artmarket.kr/member/work/WorkList.do?pageNo=1114&recordCountPerPage=48&sortKey=end_dt_asc` [출처: `k_artmarket_works`])\n  * 기타 2026년 상반기 동안 서울옥션 및 케이옥션 등을 통해 수천만 원에서 수억 원대 규모의 낙찰 기록이 다수 확인됩니다.\n  * *참고 (타 통화 기록)*: Bonhams 경매 등 해외 경매를 통한 거래 기록도 존재하며, 원 통화 기준(예: 850,000 HKD)으로 기록되어 있습니다 (`https://www.bonhams.com/auctions/25527/` [출처: 본햄스]).\n\n---\n\n데이터 범위: 경매 기록은 시기가 고르지 않아 18세기 말~19세기 중반 유럽 판매 아카이브, 1930~40년대 일부, 2010년 이후가 대부분이며 1850~2000년 사이는 매우 적습니다. 미술관 취득 시점 정보는 없습니다.",
+      "error": null,
+      "queries": [
+        {
+          "title": "이우환 작가의 전속 및 대표 갤러리(1차 시장) 현황",
+          "row_count": 8,
+          "error": null
+        },
+        {
+          "title": "이우환 작가의 경매 출품 및 낙찰 기록(2차 시장) 현황",
+          "row_count": 50,
+          "error": null
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "question": "Jeff Wall은 어떤 미술관·갤러리·경매에서 확인돼?",
+      "elapsed_sec": 19.92,
+      "answer": "### 요약 (Executive Summary)\n예술가 Jeff Wall(1946년생, 캐나다)의 데이터베이스 조회 결과, 주요 미술관 소장품은 총 17건(테이트, MoMA, 시카고 미술관 등)이 확인되었습니다. 또한 국제갤러리를 비롯한 4개의 주요 갤러리 로스터에 이름을 올리고 있으며, 빌라 그리제바흐(Villa Grisebach)를 통한 3건의 경매 낙찰 기록이 확인됩니다.\n\n---\n\n### 1. 미술관 소장 현황 (총 17건)\n데이터베이스에 등록된 Jeff Wall의 주요 미술관 소장 내역과 대표 작품은 다음과 같습니다.\n\n* **테이트 (Tate)** — 총 6점\n  * 대표 작품: 《A Sapling Held by a Post》 (관리번호: P11684), 《A Sudden Gust of Wind (after Hokusai)》 (관리번호: T06951), 《Study for ‘A Sudden Gust of Wind (After Hokusai)’》 (관리번호: T07235), 《Diagonal Composition》 (관리번호: T07961), 《A View from an Apartment》 (관리번호: T12219), 《Morning Cleaning, Mies van der Rohe Foundation, Barcelona》 (관리번호: T12294)\n  * 출처: [Tate Collection](https://raw.githubusercontent.com/tategallery/collection/master/artwork_data.csv) (`tate`)\n\n* **현대미술관 (The Museum of Modern Art - MoMA)** (미국 맨해튼) — 총 6점\n  * 대표 작품: 《Milk》 (관리번호: 480.2004), 《Bloodstained Garment》 (관리번호: 1406.2016), 《Boy on TV (for Parkett no. 22)》 (관리번호: 138.1998), 《Untitled (for Parkett no. 49)》 (관리번호: 139.1998), 《After \"Invisible Man\" by Ralph Ellison, the Prologue》 (관리번호: 53.2003), 《Restoration》 (관리번호: 481.2004)\n  * 출처: [MoMA Collection](https://media.githubusercontent.com/media/MuseumofModernArt/collection/main/Artworks.csv) (`moma`)\n\n* **시카고 미술관 (Art Institute of Chicago)** (미국 시카고) — 총 3점\n  * 대표 작품: 《The Flooded Grave》 (관리번호: 157160), 《Rainfilled suitcase》 (관리번호: 187289), 《Double Self-Portrait》 (관리번호: 258478)\n  * 출처: [Art Institute of Chicago API](https://api.artic.edu/api/v1/artworks/157160) (`aic`)\n\n* **클리블랜드 미술관 (Cleveland Museum of Art)** (미국 클리블랜드) — 총 1점\n  * 대표 작품: 《Outburst》 (관리번호: 1995.204.8)\n  * 출처: [Cleveland Museum of Art API](https://openaccess-api.clevelandart.org/api/artworks/158993) (`cleveland`)\n\n* **메트로폴리탄 미술관 (The Metropolitan Museum of Art - Met)** (미국 맨해튼) — 총 1점\n  * 대표 작품: 《The Storyteller》 (관리번호: 2006.91)\n  * 출처: [Metropolitan Museum of Art Open Access](https://media.githubusercontent.com/media/metmuseum/openaccess/master/MetObjects.csv) (`met`)\n\n---\n\n### 2. 갤러리 대표/전속 관계 (수집 시점 로스터)\n조회된 갤러리 네트워크 정보는 다음과 같습니다.\n\n| 갤러리명 | 도시 | 국가 | 로스터 등록일 (시작일) | 출처 링크 |\n| :--- | :--- | :--- | :--- | :--- |\n| **국제갤러리 (Kukje Gallery)** | 서울 | 대한민국 | 2026-09-02 | [Kukje Gallery](https://www.kukjegallery.com/artists/view?seq=216) (`gallery_kukje`) |\n| **화이트큐브 (White Cube)** | 런던 | 영국 | 2026-09-02 | [White Cube](https://www.whitecube.com/artists/jeff-wall) (`gallery_whitecube`) |\n| **마리안굿맨 (Marian Goodman Gallery)** | 뉴욕 | 미국 | 2026-09-02 | [Marian Goodman Gallery](https://www.mariangoodman.com/artists/69-jeff-wall/) (`gallery_mariangoodman`) |\n| **폴라쿠퍼갤러리 (Paula Cooper Gallery)** | 뉴욕 | 미국 | 2026-09-03 | [Paula Cooper Gallery](https://www.paulacoopergallery.com/artists/jeff-wall) (`gallery_paulacooper`) |\n\n---\n\n### 3. 경매 출품 및 낙찰 기록\n데이터베이스에 등록된 경매 낙찰 기록은 총 3건이며, 모두 **빌라 그리제바흐(Villa Grisebach)** 경매사를 통해 이루어졌습니다. (역사 통화 그대로 표기)\n\n* **2015-11-28 경매**\n  * 작품명: „Corner Store“ (로트번호: 1696)\n  * 낙찰가: 2,500.0 EUR (낙찰 완료)\n  * 출처: [Villa Grisebach Archive](https://www.grisebach.com/en/auctions/archive-collection?page=374&sortBy=auction_number&sortDirection=asc) (`grisebach`)\n* **2012-12-01 경매**\n  * 작품명: Torso (로트번호: 1452)\n  * 낙찰가: 2,196.0 EUR (낙찰 완료)\n  * 출처: [Villa Grisebach Archive](https://www.grisebach.com/en/auctions/archive-collection?page=221&sortBy=auction_number&sortDirection=asc) (`grisebach`)\n* **2011-11-23 경매**\n  * 작품명: Case „Corner Store“ (로트번호: 2172)\n  * 낙찰가: 2,440.0 EUR (낙찰 완료)\n  * 출처: [Villa Grisebach Archive](https://www.grisebach.com/en/auctions/archive-collection?page=161&sortBy=auction_number&sortDirection=asc) (`grisebach`)\n\n데이터 범위: 경매 기록은 시기가 고르지 않아 18세기 말~19세기 중반 유럽 판매 아카이브, 1930~40년대 일부, 2010년 이후가 대부분이며 1850~2000년 사이는 매우 적습니다. 미술관 취득 시점 정보는 없습니다.",
+      "error": null,
+      "queries": [
+        {
+          "title": "미술관 소장 현황",
+          "row_count": 17,
+          "error": null
+        },
+        {
+          "title": "갤러리 대표/전속 관계",
+          "row_count": 4,
+          "error": null
+        },
+        {
+          "title": "경매 출품 및 낙찰 기록",
+          "row_count": 3,
+          "error": null
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "question": "박서보의 소장처와 경매 낙찰가 분포를 알려줘",
+      "elapsed_sec": 18.41,
+      "answer": "### 1. 요약 (Executive Summary)\n데이터 범위: 경매 기록은 시기가 고르지 않아 18세기 말~19세기 중반 유럽 판매 아카이브, 1930~40년대 일부, 2010년 이후가 대부분이며 1850~2000년 사이는 매우 적습니다. 미술관 취득 시점 정보는 없습니다.\n\n박서보(Park Seo-bo, 1931–2023)의 주요 소장처는 국내 주요 미술관(리움미술관, 서울시립미술관, 부산시립미술관, 경기도미술관 등)에 집중되어 있으며, 경매 시장에서는 <묘법> 연작을 중심으로 케이옥션과 서울옥션을 통해 활발히 거래되고 있습니다. 데이터베이스 조회 결과에 따르면, 국내 주요 경매에서 최고 10억 6천만 원의 낙찰가를 기록하는 등 높은 시장 가치를 형성하고 있습니다.\n\n---\n\n### 2. 소장 현황 (Museum Holdings)\n박서보 작가의 작품은 국내 주요 미술관에 소장되어 있으며, 주요 소장 현황은 다음과 같습니다.\n\n* **리움미술관 (Leeum Museum of Art, 서울)**: 4점\n  · 대표 작품: 《원형질 No. 63-3》(1963), 《묘법 No. 41-78》(1978) 등 — [리움미술관 컬렉션](https://www.leeumhoam.org/leeum/collection/api/modern?&page=5)\n* **서울시립미술관 (SeMA, 서울)**: 4점\n  · 대표 작품: 《묘법 No.990608》(1999), 《묘법 No.991009》(1999) 등 — [서울시립미술관 소장품](https://sema.seoul.go.kr/kr/knowledge_research/collection/list?currentPage=227)\n* **부산시립미술관 (Busan Museum of Art, 부산)**: 3점\n  · 대표 작품: 《묘법》(연도미상), 《묘법 No. 970520》(1997) 등 — [부산시립미술관 소장품](https://art.busan.go.kr/tblTsite07ArtworkExp/listClient.nm?page_no=192)\n* **경기도미술관 (GMoMA, 안산)**: 1점\n  · 대표 작품: 《묘법 No.031219》(2003) — [경기도미술관 소장품](https://gmoma.ggcf.kr/collections/64)\n\n---\n\n### 3. 경매 낙찰가 분포 (Auction Records)\n조회된 경매 기록(2022년~2026년 데이터 중심)에 따르면, 박서보의 작품은 국내 주요 경매사(케이옥션, 서울옥션 등)를 통해 거래되었으며, 주요 고가 낙찰 작품의 분포는 다음과 같습니다. (가격은 모두 원 통화인 KRW 기준)\n\n| 작품명 | 제작 연도 | 낙찰가 (KRW) | 경매사 | 경매 일자 | 출처 / 링크 |\n| :--- | :---: | :---: | :---: | :---: | :--- |\n| 《묘법 No.48-75-77》 | 미상 | 1,060,000,000 | 케이옥션 | 2023-11-22 | [케이옥션 아카이브](https://k-artmarket.kr/member/work/WorkList.do?pageNo=588&recordCountPerPage=48&sortKey=end_dt_asc) |\n| 《묘법 No. 10-78》 | 미상 | 1,000,000,000 | 케이옥션 | 2024-05-22 | [케이옥션 아카이브](https://k-artmarket.kr/member/work/WorkList.do?pageNo=715&recordCountPerPage=48&sortKey=end_dt_asc) |\n| 《묘법 No. 213-85》 | 미상 | 775,000,000 | 케이옥션 | 2023-12-20 | [케이옥션 아카이브](https://k-artmarket.kr/member/work/WorkList.do?pageNo=608&recordCountPerPage=48&sortKey=end_dt_asc) |\n| 《묘법 No. 23-77》 | 미상 | 680,000,000 | 케이옥션 | 2022-02-23 | [케이옥션 아카이브](https://k-artmarket.kr/member/work/WorkList.do?pageNo=58&recordCountPerPage=48&sortKey=end_dt_asc) |\n| 《묘법 No.080704》 | 미상 | 650,000,000 | 서울옥션 | 2023-08-29 | [서울옥션 아카이브](https://k-artmarket.kr/member/work/WorkList.do?pageNo=528&recordCountPerPage=48&sortKey=end_dt_asc) |\n| 《묘법 No. 213-85》 | 미상 | 650,000,000 | 케이옥션 | 2022-06-22 | [케이옥션 아카이브](https://k-artmarket.kr/member/work/WorkList.do?pageNo=185&recordCountPerPage=48&sortKey=end_dt_asc) |\n| 《묘법 No.130808》 | 미상 | 640,000,000 | 서울옥션 | 2022-02-22 | [서울옥션 아카이브](https://k-artmarket.kr/member/work/WorkList.do?pageNo=56&recordCountPerPage=48&sortKey=end_dt_asc) |\n| 《묘법 No. 101104》 | 미상 | 640,000,000 | 케이옥션 | 2023-12-20 | [케이옥션 아카이브](https://k-artmarket.kr/member/work/WorkList.do?pageNo=608&recordCountPerPage=48&sortKey=end_dt_asc) |\n\n* **작가 허브 요약 참고**: 데이터베이스 전체 경매 통계(총 428건) 기준 중앙값은 14,000,000 KRW이며, 최저 450,000 KRW에서 최고 1,060,000,000 KRW의 낙찰가 범위를 보이고 있습니다. 주요 경매사는 케이옥션(199건)과 서울옥션(198건)이 주를 이룹니다.\n\n---\n\n### 4. 추가 참고 정보 (작가 원본 약력 및 갤러리)\n* **원본 약력**: 박서보(朴栖甫, 본명: 박재홍, 1931년 11월 15일~2023년 10월 14일)는 대한민국의 미술가이다. (출처: [위키백과 박서보](https://ko.wikipedia.org/wiki/박서보))\n* **갤러리 전속**: 국제갤러리 (Kukje Gallery, 서울) [수집 시점 로스터 기준]\n\n---\n데이터 범위: 경매 기록은 시기가 고르지 않아 18세기 말~19세기 중반 유럽 판매 아카이브, 1930~40년대 일부, 2010년 이후가 대부분이며 1850~2000년 사이는 매우 적습니다. 미술관 취득 시점 정보는 없습니다.",
+      "error": null,
+      "queries": [
+        {
+          "title": "박서보 작품 소장 미술관 및 소장처 정보",
+          "row_count": 50,
+          "error": null
+        },
+        {
+          "title": "박서보 경매 출품작 및 낙찰가 분포 기록",
+          "row_count": 50,
+          "error": null
+        }
+      ]
+    }
+  ]
+}
