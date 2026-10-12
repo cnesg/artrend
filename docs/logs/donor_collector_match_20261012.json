@@ -1,0 +1,14 @@
+{
+ "stat": {
+  "credit_rows": 305135,
+  "parsed": 304379,
+  "matched": 223355,
+  "already_linked": 215940,
+  "no_collector_match": 64957,
+  "unparsed": 756,
+  "new_link": 7415,
+  "ambiguous_name_skipped": 16067
+ },
+ "distinct_donors": 15473,
+ "multi_museum": 750
+}

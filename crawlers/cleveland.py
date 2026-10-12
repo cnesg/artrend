@@ -15,10 +15,11 @@ import time
 
 import requests
 
-from common import already_fetched, save_raw
+from common import already_fetched, save_raw, with_retry
 
 if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     sys.stdout.reconfigure(encoding="utf-8")
+sys.stdout.reconfigure(line_buffering=True)
 
 API_BASE = "https://openaccess-api.clevelandart.org/api"
 SITE_NAME = "cleveland"
@@ -31,13 +32,20 @@ def crawl(limit: int, delay: float, skip_existing: bool) -> None:
     saved = 0
     skip = 0
     while saved < limit:
-        resp = requests.get(
-            f"{API_BASE}/artworks/",
-            params={"skip": skip, "limit": min(PAGE_SIZE, limit - saved)},
-            timeout=30,
-        )
-        resp.raise_for_status()
-        items = resp.json().get("data") or []
+        def _fetch_page():
+            resp = requests.get(
+                f"{API_BASE}/artworks/",
+                params={"skip": skip, "limit": min(PAGE_SIZE, limit - saved)},
+                timeout=30,
+            )
+            resp.raise_for_status()
+            return resp.json().get("data") or []
+
+        try:
+            items = with_retry(_fetch_page)
+        except requests.RequestException as exc:
+            print(f"[cleveland] skip={skip} 조회 실패, 중단: {exc}")
+            break
         if not items:
             break
 
@@ -57,8 +65,9 @@ def crawl(limit: int, delay: float, skip_existing: bool) -> None:
                 license_note=LICENSE_NOTE,
             )
             saved += 1
-            time.sleep(delay)
 
+        print(f"[cleveland] {saved}건 진행 중...", flush=True)
+        time.sleep(delay)
         skip += len(items)
 
     print(f"[cleveland] 완료 — {saved}건 저장")

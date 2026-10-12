@@ -58,4 +58,3 @@ erDiagram
 - [ ] `owner_type` CHECK 제약이 실제 크롤링 데이터의 소유자 유형을 다 커버하는지 1차 대상 사이트 확정 후 재검토
 - [ ] Supabase 프로젝트에 이 마이그레이션 적용 (`db/migrations/0001_init_schema.sql`)
 - [ ] RLS(Row Level Security) 정책은 이 단계에서는 보류 — 내부 파이프라인 전용이므로 서비스 프론트엔드가 붙는 시점에 설계
-</content>

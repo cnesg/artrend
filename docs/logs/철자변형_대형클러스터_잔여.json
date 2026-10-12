@@ -1,0 +1,777 @@
+[
+  {
+    "keep_name": "la Rue",
+    "keep_id": "457b4069-f025-4048-ad4e-d54f1a1cc519",
+    "candidates": [
+      {
+        "id": "98a44f8c-6df0-4edb-aed1-1cf260d3f6db",
+        "name": "La Joue",
+        "richness": 18
+      },
+      {
+        "id": "c6fa7c82-2e4b-498a-8324-10ddb17a631e",
+        "name": "La Jouë",
+        "richness": 12
+      },
+      {
+        "id": "3581a578-aa0f-48c3-a101-b8e93d38402a",
+        "name": "la Rüe",
+        "richness": 10
+      },
+      {
+        "id": "c61a7d58-52c6-4bb6-86d3-0794ebf71936",
+        "name": "La Rive",
+        "richness": 7
+      },
+      {
+        "id": "a2749faf-d82b-4627-b2a7-896c3db8b3fd",
+        "name": "La Suer",
+        "richness": 5
+      },
+      {
+        "id": "1eba55a5-1b38-4714-90b3-4361e6e2c58b",
+        "name": "La Ruë",
+        "richness": 4
+      },
+      {
+        "id": "b85b822c-15aa-443d-b5ac-9a825f19360b",
+        "name": "La Res",
+        "richness": 3
+      },
+      {
+        "id": "01cfae8c-d215-4655-abeb-b73128088d55",
+        "name": "La Duc",
+        "richness": 3
+      },
+      {
+        "id": "56ed8dff-923c-4e93-8aa9-814147350086",
+        "name": "la Joüe",
+        "richness": 2
+      },
+      {
+        "id": "9ccf73f8-3b0a-43ad-8bac-e7045ef8aac1",
+        "name": "La Ros",
+        "richness": 1
+      },
+      {
+        "id": "0653f2ca-e30f-4c5e-9df3-f8a67f12bcbe",
+        "name": "La Joué",
+        "richness": 1
+      },
+      {
+        "id": "5dbe0eac-d79c-4824-a165-0a96e8103389",
+        "name": "La Ris",
+        "richness": 1
+      },
+      {
+        "id": "eedab392-681c-4208-a38a-909bbcb7ea2b",
+        "name": "La Roi",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_name": "Philippe Wouwermans",
+    "keep_id": "b6149ca3-31fb-49a9-a403-e71b8df91685",
+    "candidates": [
+      {
+        "id": "2284be5a-15f6-42a9-888a-f48ea97bcd78",
+        "name": "Philippe Wouvermans",
+        "richness": 121
+      },
+      {
+        "id": "f571cb53-eeae-4e4e-9723-d41e0ae8e690",
+        "name": "Philippe Wauwermans",
+        "richness": 16
+      },
+      {
+        "id": "3f4bf98e-aea9-4ea8-aa4c-bf6dfb27d2cd",
+        "name": "Philippe Wouwerman",
+        "richness": 9
+      },
+      {
+        "id": "11571a8d-c693-4f94-acec-3818a3190c0f",
+        "name": "Philippe Wauvermans",
+        "richness": 5
+      },
+      {
+        "id": "8ed41ea8-587c-40bd-9543-a20f62d96009",
+        "name": "Philippe Wowermans",
+        "richness": 4
+      },
+      {
+        "id": "90e43a84-8105-4cc4-85cd-05f81479f8b8",
+        "name": "Philippe Vouwermans",
+        "richness": 4
+      },
+      {
+        "id": "7efe324c-b3df-47f3-909c-ec583dea7cc6",
+        "name": "Philippe Wauwerman",
+        "richness": 3
+      },
+      {
+        "id": "5b4c16b0-3fe3-42a5-85dc-066444a47aeb",
+        "name": "Philippe Vouvermans",
+        "richness": 3
+      },
+      {
+        "id": "3490d59b-f409-44a2-aa46-cd03f548b9d9",
+        "name": "Philippe Wouvermanns",
+        "richness": 1
+      },
+      {
+        "id": "5027d24a-acfd-464a-868e-e9332d0c3c2b",
+        "name": "Philippe Wovermans",
+        "richness": 1
+      },
+      {
+        "id": "207b2498-3991-46ae-bee8-805421fde287",
+        "name": "Philippe Wouermans",
+        "richness": 1
+      },
+      {
+        "id": "66d4dde7-7d1a-432f-b1ff-f24fabfeca7c",
+        "name": "Philippe Wouwremans",
+        "richness": 1
+      },
+      {
+        "id": "68207621-9b4f-4264-a188-7e9a4b1c28cb",
+        "name": "Philippe Wouwermants",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_name": "Carlo Maratti",
+    "keep_id": "2152094e-13c6-401e-9764-bc3622e3d58a",
+    "candidates": [
+      {
+        "id": "c8a6c523-69ae-47ce-adae-9032a602d72a",
+        "name": "Carlo Marratti",
+        "richness": 32
+      },
+      {
+        "id": "fd6d2e4c-0bef-49a2-bfad-e7a99adac9fd",
+        "name": "Carlo Maratte",
+        "richness": 10
+      },
+      {
+        "id": "0f79d1aa-65a2-4b95-99b0-e4fe06711c12",
+        "name": "Carlo Marratt",
+        "richness": 4
+      },
+      {
+        "id": "fe59ae28-0fdc-4e46-a1ef-e508e7e39fe1",
+        "name": "Carlo Maratt",
+        "richness": 4
+      },
+      {
+        "id": "cfeeed65-e172-4d73-b3ac-7c0b0666c1ed",
+        "name": "Carlo Marati",
+        "richness": 4
+      },
+      {
+        "id": "41b81ea9-e25c-43ef-b4ce-31d8ca70a523",
+        "name": "Carlo Moratti",
+        "richness": 2
+      },
+      {
+        "id": "0bc27c09-2c69-4ab0-b134-53b1d5797a1f",
+        "name": "Carlo Marat",
+        "richness": 2
+      },
+      {
+        "id": "cd3f855e-5f3c-4f50-a74b-7bdb110aaab0",
+        "name": "Carlo Maraty",
+        "richness": 1
+      },
+      {
+        "id": "95868159-36e1-4b2e-ba32-74848f790d2e",
+        "name": "Carlo Moratt",
+        "richness": 1
+      },
+      {
+        "id": "a15aa267-4e8d-47cd-aad9-2452fd565922",
+        "name": "Carlo Marotti",
+        "richness": 1
+      },
+      {
+        "id": "f6cbb3bd-756e-43e6-8b95-5db6fb83d1f0",
+        "name": "Carlo Marrattti",
+        "richness": 1
+      },
+      {
+        "id": "67887ce4-01f4-42ae-ad47-6ccc947d8bd1",
+        "name": "Carlo Marata",
+        "richness": 1
+      },
+      {
+        "id": "b4e0ca05-74a6-4044-a338-9381dcb2f73b",
+        "name": "Carlo Marratta",
+        "richness": 1
+      },
+      {
+        "id": "ad0a4061-0035-4c71-bd68-aba8f023ed52",
+        "name": "Carlo Marate",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_name": "Gerard Dow",
+    "keep_id": "7913c891-e1bc-4cbe-a85b-a4daf95b6caa",
+    "candidates": [
+      {
+        "id": "3aaa6a15-e627-4b80-b69f-4be1dd969a75",
+        "name": "Gerard Douw",
+        "richness": 70
+      },
+      {
+        "id": "29fa8e25-0052-451a-acf7-ad0a67b9bc25",
+        "name": "Gérard Dow",
+        "richness": 45
+      },
+      {
+        "id": "5b8c4e37-c39d-4678-b034-678dfd62846c",
+        "name": "Gérard Douw",
+        "richness": 7
+      },
+      {
+        "id": "13226393-7d9f-42ee-b894-0418cd3ca267",
+        "name": "Gerard Dov",
+        "richness": 4
+      },
+      {
+        "id": "8408f004-3822-4015-a71e-f52e11965f6a",
+        "name": "Gerard Douv",
+        "richness": 2
+      },
+      {
+        "id": "e8f93f18-1c9f-415b-afd0-c2bd26175a8b",
+        "name": "Gerard Dowe",
+        "richness": 2
+      },
+      {
+        "id": "d5e13cce-2d0d-4281-a317-8aebb72ac4ba",
+        "name": "Gérard Dowen",
+        "richness": 1
+      },
+      {
+        "id": "38a51de0-55de-478a-acf9-1d4a9ab9db0b",
+        "name": "Gerard Daouw",
+        "richness": 1
+      },
+      {
+        "id": "e13d6ee0-e41e-4cf0-aa70-09b22ea37ad8",
+        "name": "Gerard Dau",
+        "richness": 1
+      },
+      {
+        "id": "3b758721-b20d-47f1-a2c7-379c4facc5bd",
+        "name": "Gerard Daw",
+        "richness": 1
+      },
+      {
+        "id": "0ddea4b9-1aa2-4d09-86d2-dbcb07e61b48",
+        "name": "Gerard Dovv",
+        "richness": 1
+      },
+      {
+        "id": "f2044b74-a134-446a-9cd2-4b2d66d3fd26",
+        "name": "Gerard Dow.",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_name": "Ph. Wouvermans",
+    "keep_id": "0036e4b8-69ae-4fbe-9020-e7b605d4169b",
+    "candidates": [
+      {
+        "id": "7936a256-53be-4cd8-bc9d-f33fe0431ea6",
+        "name": "Ph. Wouwermans",
+        "richness": 57
+      },
+      {
+        "id": "ee34109f-2bdc-4edf-a89f-100996c6e993",
+        "name": "Ph. Wouwerman",
+        "richness": 53
+      },
+      {
+        "id": "17257f0d-775f-446e-bf8c-c27757e4c293",
+        "name": "Ph. Vouvermans",
+        "richness": 12
+      },
+      {
+        "id": "768b5da6-3bca-4698-ad10-65769d692de3",
+        "name": "Ph. Vouwermans",
+        "richness": 11
+      },
+      {
+        "id": "b7540652-b1b8-42ba-a2bc-d63354160796",
+        "name": "Ph. Woudermaus",
+        "richness": 7
+      },
+      {
+        "id": "55514fef-0525-433c-8a6e-c6a5af283b9b",
+        "name": "Ph. Wauwermans",
+        "richness": 4
+      },
+      {
+        "id": "1ee8a001-55f2-493e-869e-cb391aabf39c",
+        "name": "Ph. Wovermans",
+        "richness": 4
+      },
+      {
+        "id": "75f4ab9f-cbd0-4738-acb8-3c375c1845fd",
+        "name": "Ph. Wouvermann",
+        "richness": 3
+      },
+      {
+        "id": "28d98f90-a758-4c4b-942e-517ae06e7d96",
+        "name": "Ph. Wouwermann",
+        "richness": 2
+      },
+      {
+        "id": "a9f3fd91-ea6b-4cb2-8231-81505f53561b",
+        "name": "Ph. Wouverman",
+        "richness": 2
+      },
+      {
+        "id": "b9ad84ed-dc69-46d5-b08e-6b8d44769992",
+        "name": "Ph. Wouwermants",
+        "richness": 2
+      },
+      {
+        "id": "ed294a49-8cca-4c52-ada7-f0848e98e500",
+        "name": "Ph. Wauvermann",
+        "richness": 1
+      },
+      {
+        "id": "b475a0d5-ac00-4ca0-a931-cbd3422eed98",
+        "name": "Ph. Woumerman",
+        "richness": 1
+      },
+      {
+        "id": "62a4a3a0-62e6-4072-b13d-780c8354012a",
+        "name": "Ph Wouwerman",
+        "richness": 1
+      },
+      {
+        "id": "fe76105b-ce36-4704-9bad-e00f6a31ad2a",
+        "name": "Ph. Wouvermaus",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_name": "Corneille Poelemburg",
+    "keep_id": "98c6bb9c-8217-46ae-83bf-685e31a146ea",
+    "candidates": [
+      {
+        "id": "b16b0bec-d94b-4ab9-8895-b311d20b2174",
+        "name": "Corneille Poelenburg",
+        "richness": 54
+      },
+      {
+        "id": "5d703f84-2da7-4757-adcb-658013cc3a1b",
+        "name": "Corneille Poelembourg",
+        "richness": 52
+      },
+      {
+        "id": "3e0e4dd1-9fb0-4717-a030-8a62c7a74142",
+        "name": "Corneille Polembourg",
+        "richness": 21
+      },
+      {
+        "id": "412211b8-3ed9-4f18-bdb6-efb8b3c62215",
+        "name": "Corneille Poelenbourg",
+        "richness": 17
+      },
+      {
+        "id": "3315373d-c301-4b85-8a9f-e027d3f9c462",
+        "name": "Corneille Poëlemburg",
+        "richness": 7
+      },
+      {
+        "id": "4a8ec722-330d-4a44-a15c-afabe16da50b",
+        "name": "Corneille Polemburg",
+        "richness": 7
+      },
+      {
+        "id": "7cb2bb65-49a5-4440-87f0-7890e4f330fa",
+        "name": "Corneille Poélenbourg",
+        "richness": 6
+      },
+      {
+        "id": "32238e45-130d-405f-9598-79c9142df1fd",
+        "name": "Corneille Poélemburg",
+        "richness": 5
+      },
+      {
+        "id": "abf55f3a-f305-4360-a586-3ce1b11a291e",
+        "name": "Corneille Polenburg",
+        "richness": 4
+      },
+      {
+        "id": "3387d80d-148f-4e1a-9065-cfe2dad778d3",
+        "name": "Corneille Poélembourg",
+        "richness": 3
+      },
+      {
+        "id": "fce18165-7643-4b21-8cca-e652a043840b",
+        "name": "Corneille Polimburg",
+        "richness": 3
+      },
+      {
+        "id": "fae142ae-3a92-422a-bbfc-490fc0ebad55",
+        "name": "Corneille Poelemburgh",
+        "richness": 3
+      },
+      {
+        "id": "d6e02cf1-6b03-4bc4-99d7-8d974da6f009",
+        "name": "Corneille Poëlembourg",
+        "richness": 2
+      },
+      {
+        "id": "71f9066b-1b73-4e24-9eb1-c9082b80c0b3",
+        "name": "Corneille Poulembourg",
+        "richness": 2
+      },
+      {
+        "id": "508e20e0-6a38-45ed-b3c8-c4d603495754",
+        "name": "Corneille Pollembourg",
+        "richness": 2
+      },
+      {
+        "id": "27803d52-ce5c-41f9-b4c3-a47a532fc7c8",
+        "name": "Corneille Poélenburg",
+        "richness": 1
+      },
+      {
+        "id": "6466123a-7cd1-491c-93ab-75bdf7dc5c91",
+        "name": "Corneille Poelinburg",
+        "richness": 1
+      },
+      {
+        "id": "52e2e325-12a4-443d-9010-bd552b6ae837",
+        "name": "Corneille Boelembourg",
+        "richness": 1
+      },
+      {
+        "id": "898f5bc9-16b5-4d03-99af-691a019260fa",
+        "name": "Corneille Poelimburgh",
+        "richness": 1
+      },
+      {
+        "id": "0818a1bc-6f31-42eb-a0aa-164fe9be6508",
+        "name": "Corneille Poelemberg",
+        "richness": 1
+      },
+      {
+        "id": "2c1d80ff-1504-4916-8260-5c38caa849f7",
+        "name": "Corneille Pollenburg",
+        "richness": 1
+      },
+      {
+        "id": "ce5f466e-59f3-4406-a464-c656bdadc257",
+        "name": "Corneille Poelenborg",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_name": "Q. Matsys",
+    "keep_id": "22de3b74-e21f-435a-9432-97bf95b3ec9a",
+    "candidates": [
+      {
+        "id": "e965dda9-a990-4898-8d52-0140e4394189",
+        "name": "Q. Matzys",
+        "richness": 9
+      },
+      {
+        "id": "145fbd13-650c-43db-b38b-60fcd3193e64",
+        "name": "Q. Matzis",
+        "richness": 2
+      },
+      {
+        "id": "272cc9be-9d91-4c43-bf02-25990da35027",
+        "name": "Q. Messys",
+        "richness": 1
+      },
+      {
+        "id": "d1c4cbb9-bacf-4cc3-ac53-e774162dfaa4",
+        "name": "Q. Matius",
+        "richness": 1
+      },
+      {
+        "id": "b6eadc6f-aa84-4af8-a81b-03a8f5802a48",
+        "name": "Q. Metsys",
+        "richness": 1
+      },
+      {
+        "id": "be01ac18-6afa-4bf4-b287-a4ecb4209826",
+        "name": "Q. Marthys",
+        "richness": 1
+      },
+      {
+        "id": "e1b29bc4-e8f8-4862-bc51-50cdea58c415",
+        "name": "Q. Matzyz",
+        "richness": 1
+      },
+      {
+        "id": "05902bbc-6ffd-49c6-b3b0-a383e07113fb",
+        "name": "Q. Matias",
+        "richness": 1
+      },
+      {
+        "id": "e963a93b-50b3-46ea-899f-ec2ae450b468",
+        "name": "Q. Martys",
+        "richness": 1
+      },
+      {
+        "id": "6200fbb9-c149-4788-895b-ac987c0c2ce8",
+        "name": "Q Matzys",
+        "richness": 1
+      },
+      {
+        "id": "acd47e02-939a-4892-930d-ceb3dd4b2c0c",
+        "name": "Q. Matsis",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_name": "Bartholomé Breemberg",
+    "keep_id": "fcc3e18e-9101-4bb2-b27c-8837b2256668",
+    "candidates": [
+      {
+        "id": "bbae3944-bc07-4b37-b2e0-13ac88aec63f",
+        "name": "Bartholomé Bréenberg",
+        "richness": 39
+      },
+      {
+        "id": "d36b07a3-b5d6-4e29-84bc-a9d7df118f68",
+        "name": "Bartholomé Bréemberg",
+        "richness": 30
+      },
+      {
+        "id": "958721e9-d494-43f0-aef4-99deb2c765f4",
+        "name": "Bartholomé Breenberg",
+        "richness": 29
+      },
+      {
+        "id": "fec99c55-3479-42e9-a375-ca3939daed0f",
+        "name": "Bartholomé Bremberg",
+        "richness": 11
+      },
+      {
+        "id": "33044c54-7d2b-4ac7-948b-1238c5e0d83f",
+        "name": "Bartholomé Bréembergh",
+        "richness": 5
+      },
+      {
+        "id": "adec7c4a-c740-4ee8-ae2f-e1c3885b804b",
+        "name": "Bartholome Bréemberg",
+        "richness": 4
+      },
+      {
+        "id": "6d818db0-0c95-431b-bbb2-45863c2c98c8",
+        "name": "Bartholomé Brienberg",
+        "richness": 2
+      },
+      {
+        "id": "c9116fda-8c95-4858-996c-0a7f370484ae",
+        "name": "Bartholomé Bramberg",
+        "richness": 2
+      },
+      {
+        "id": "25f721eb-17b3-4b52-924e-1d018e04b634",
+        "name": "Bartholome Breemberg",
+        "richness": 2
+      },
+      {
+        "id": "c5eadb38-4900-4faa-b7b2-1d130ff8b193",
+        "name": "Bartholomé Brehenberg",
+        "richness": 2
+      },
+      {
+        "id": "e3922cc3-86d4-4f44-8f6e-d4898f1986c0",
+        "name": "Bartholome Bréenberg",
+        "richness": 1
+      },
+      {
+        "id": "8569b308-f2a8-4392-91d7-d08f0629dc0a",
+        "name": "Bartholomé Brenberg",
+        "richness": 1
+      },
+      {
+        "id": "1d4c78bc-cfcd-4742-9d2e-3bde04d6a57f",
+        "name": "Bartholomé Breénberg",
+        "richness": 1
+      },
+      {
+        "id": "a7a2cce8-b052-49bf-b8ee-be10a1881612",
+        "name": "Bartholomé Breamberg",
+        "richness": 1
+      },
+      {
+        "id": "185eefd0-b190-408e-b637-a6c9a11fbf58",
+        "name": "Bartholomé Broemberg",
+        "richness": 1
+      },
+      {
+        "id": "fefb5884-ffbc-433a-9ac5-1e1c33913dc4",
+        "name": "Bartholomé Breembergh",
+        "richness": 1
+      },
+      {
+        "id": "612f5303-7035-4d76-8bf4-cbf6e6569c9a",
+        "name": "Bartholomé Bréhenberg",
+        "richness": 1
+      },
+      {
+        "id": "001d7cd0-c027-4d60-9cee-6ac9ef7002f4",
+        "name": "Bartholome Bremberg",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_name": "Vander Helst",
+    "keep_id": "f4f82e6b-9371-45d8-9c43-beb617fb8faf",
+    "candidates": [
+      {
+        "id": "9938b157-8e98-4e0c-80c6-e677690402a6",
+        "name": "Vander Ulst",
+        "richness": 7
+      },
+      {
+        "id": "cb0949a7-75d8-411b-9899-740f3b63d6a3",
+        "name": "Vander Hulst",
+        "richness": 7
+      },
+      {
+        "id": "9af21d25-bf98-4bdc-99ec-5dff51c1b70b",
+        "name": "Vander Aelst",
+        "richness": 7
+      },
+      {
+        "id": "279a1949-b112-4dd4-a90d-cf79b46b34c2",
+        "name": "Vander Elst",
+        "richness": 5
+      },
+      {
+        "id": "6a547d69-d83a-4282-a047-e50c663bc681",
+        "name": "Vander Elst.",
+        "richness": 3
+      },
+      {
+        "id": "481895b3-f4d2-4d78-8dcf-0ce001b54cbd",
+        "name": "Vander Horst",
+        "richness": 2
+      },
+      {
+        "id": "c2e0f292-987e-4285-a9e9-21faa5be9341",
+        "name": "Vander Hulft",
+        "richness": 2
+      },
+      {
+        "id": "b73ea9e6-cd30-4822-8645-4dc67c4230bd",
+        "name": "Vander Elest",
+        "richness": 1
+      },
+      {
+        "id": "e3f9c522-5d62-463f-b4c8-8661084a96d0",
+        "name": "Vander Hetst",
+        "richness": 1
+      },
+      {
+        "id": "fc6f0a82-9e8e-497e-9f09-021377c1e7b8",
+        "name": "Vander Heldst",
+        "richness": 1
+      },
+      {
+        "id": "6af9c558-27b7-42a9-b65b-64ae52db980a",
+        "name": "Vander Elste",
+        "richness": 1
+      },
+      {
+        "id": "c2dbc712-ece6-4bb9-b857-2f0843cab778",
+        "name": "Vander Helk",
+        "richness": 1
+      },
+      {
+        "id": "6c2dad41-d37d-4744-8bc7-0d442012ea88",
+        "name": "Vander Ælst",
+        "richness": 1
+      },
+      {
+        "id": "4122c596-d39d-448e-8f9c-175c438eae3d",
+        "name": "Vander Vlst",
+        "richness": 1
+      }
+    ]
+  },
+  {
+    "keep_name": "Gasparo Van Vitelli",
+    "keep_id": "643f20df-302d-4c4e-96ba-6e053a448ef5",
+    "candidates": [
+      {
+        "id": "39124c93-3474-4bfa-a175-53c36d0b0bf8",
+        "name": "Gasparo Van Vitelle",
+        "richness": 14
+      },
+      {
+        "id": "d3d3555d-4158-4a2d-822f-1a1401a8a9f1",
+        "name": "Gasparo van Vitel",
+        "richness": 6
+      },
+      {
+        "id": "2769cfcb-449e-49d1-a24b-161e0e0069ca",
+        "name": "Gasparo Van Vitelly",
+        "richness": 3
+      },
+      {
+        "id": "cd97bd56-b4fd-4ae3-b972-ee2b4c83d3df",
+        "name": "Gasparo Van Vittelly",
+        "richness": 3
+      },
+      {
+        "id": "17e7b791-a36c-483c-8caf-8033a2859e50",
+        "name": "Gasparo (Van Vitelli)",
+        "richness": 2
+      },
+      {
+        "id": "e501f665-746c-46e4-8734-f7173e982bee",
+        "name": "Gasparo (van Vitelle)",
+        "richness": 2
+      },
+      {
+        "id": "0e647d47-2693-4d99-8fba-7dd7c40b5376",
+        "name": "Gasparo van Witelly",
+        "richness": 2
+      },
+      {
+        "id": "c8681c0d-8c86-4038-a229-dfc9f68d9843",
+        "name": "Gasparo van Witelli",
+        "richness": 1
+      },
+      {
+        "id": "3a34b462-5feb-4ea7-a483-bd9fa65391a3",
+        "name": "Gasparo Van Vittelle",
+        "richness": 1
+      },
+      {
+        "id": "aa76c2de-3a93-44bd-abeb-08c3e6ffa6bd",
+        "name": "Gasparo (Van Witelli)",
+        "richness": 1
+      },
+      {
+        "id": "a4342e47-d676-4d1e-b2a3-0a16ce0308c7",
+        "name": "Gasparo van Vitell",
+        "richness": 1
+      }
+    ]
+  }
+]

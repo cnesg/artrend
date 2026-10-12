@@ -1,0 +1,81 @@
+{
+  "generated_at": "2026-09-22T06:20:29.779236+00:00",
+  "plan": [
+    {
+      "canonical": "Christie's",
+      "canonical_id": "7a925474-8db7-4ee3-bc3b-3528ac77d0c0",
+      "loser_names": [
+        "Christie's, New York",
+        "Christie's, Paris",
+        "Christie’s London"
+      ],
+      "loser_ids": [
+        "354b5df9-94a8-4db7-944e-360b901b1b3c",
+        "d8a47f1f-3982-4b74-acc0-576cc1a2f0ee",
+        "d150fdc0-4c69-44eb-af3a-0415b567b2f9"
+      ],
+      "auctions_to_repoint": 31,
+      "provenance_to_repoint": 0
+    },
+    {
+      "canonical": "Sotheby's",
+      "canonical_id": "2405a7df-9593-4232-ae4c-f434f715406a",
+      "loser_names": [
+        "Sotheby's London",
+        "Sotheby's New York"
+      ],
+      "loser_ids": [
+        "c6415a96-8915-4288-bc8c-79afd93ecde0",
+        "ede3b0c1-3712-416d-8a6a-2ea423c88107"
+      ],
+      "auctions_to_repoint": 21,
+      "provenance_to_repoint": 0
+    },
+    {
+      "canonical": "라이즈아트",
+      "canonical_id": "b020f4eb-2686-4c1a-9159-af7d1ac4f8eb",
+      "loser_names": [
+        "라이즈"
+      ],
+      "loser_ids": [
+        "aa79c447-e7b3-4679-8bfb-ccbd25bb5f6d"
+      ],
+      "auctions_to_repoint": 1,
+      "provenance_to_repoint": 0
+    },
+    {
+      "canonical": "마이아트옥션",
+      "canonical_id": "9542e8b6-cb11-47c6-a511-59407710fe07",
+      "loser_names": [
+        "마이",
+        "마이아"
+      ],
+      "loser_ids": [
+        "6d053e9f-7edb-4b41-8ce9-96207a0356f9",
+        "049ca325-3f5b-4eab-a3e2-2acbb3c50812"
+      ],
+      "auctions_to_repoint": 2,
+      "provenance_to_repoint": 0
+    }
+  ],
+  "excluded_ambiguous": [
+    "HERALD ARTDAY AUCTION (헤럴드아트데이의 영문 병기로 보이나 교차언어 매칭이라 제외)",
+    "마아아트옥션 (마이아트옥션 오타로 보이나 접두 일치가 아니라 제외)",
+    "크리스티 (Christie's 한글 표기로 보이나 교차언어 매칭이라 제외)",
+    "Christie",
+    "Christie & Manson (재검토용 — 포함됨, 혼동 방지 주석)",
+    "Sotheby Mak van Waay",
+    "Sotheby's Mak van Waay",
+    "Sotheby Mak van Waay B.V",
+    "Colnaghi at Sotheby's",
+    "Artist's estate stamp created by Christie's in 2003",
+    "Phillips (Harry)",
+    "Graham and Phillips",
+    "Hoggart and Phillips",
+    "Phillips and Morris",
+    "James E. Christie",
+    "Christie McDonald and Joan McD Miller",
+    "Christie Zhou and The Gogel Collection",
+    "Dr. Guthrie McConnell and Christie McConnell"
+  ]
+}

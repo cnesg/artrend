@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-09-16T02:37:20.341925+00:00",
+  "total_exhibitions_scanned": 4750,
+  "total_groups": 4719,
+  "cross_source_dup_group_count": 2,
+  "cross_source_dup_row_count": 4,
+  "samples": [
+    {
+      "normalized_title": "works on paper",
+      "year": 2015,
+      "row_count": 2,
+      "sources": [
+        "gallery_raw_R2",
+        "other"
+      ],
+      "items": [
+        {
+          "id": "4554515c-8556-4887-81d0-740b7376713a",
+          "title": "'Works on paper'",
+          "start_date": "2015-01-01",
+          "url": null,
+          "venue_name": "Musée National d'Art Moderne – Centre Pompidou",
+          "source": "other"
+        },
+        {
+          "id": "684c9fd3-2c32-4461-a308-05c988178bf0",
+          "title": "'Works on Paper'",
+          "start_date": "2015-01-01",
+          "url": null,
+          "venue_name": "Xavier Hufkens",
+          "source": "gallery_raw_R2"
+        }
+      ]
+    },
+    {
+      "normalized_title": "the nova convention",
+      "year": 1978,
+      "row_count": 2,
+      "sources": [
+        "gallery_raw_R2",
+        "other"
+      ],
+      "items": [
+        {
+          "id": "6dc2f8c4-7db8-4170-ab63-61f314705486",
+          "title": "'The Nova Convention'",
+          "start_date": "1978-01-01",
+          "url": null,
+          "venue_name": "New York",
+          "source": "other"
+        },
+        {
+          "id": "69e98182-cac6-4c24-8bee-979c03384d00",
+          "title": "The Nova Convention",
+          "start_date": "1978-01-01",
+          "url": null,
+          "venue_name": null,
+          "source": "gallery_raw_R2"
+        }
+      ]
+    }
+  ]
+}

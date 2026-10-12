@@ -1,0 +1,4290 @@
+[
+  {
+    "keep_id": "df85068a-7061-4639-9e0a-b38243a2f133",
+    "keep_name": "Francis Bedford",
+    "dupe_id": "b3d35c58-527d-40e3-919f-319c2893d7df",
+    "dupe_name": "Francis Bedmore",
+    "decision": "merge",
+    "reasoning": "웹서치: 'Francis Bedmore'라는 독립 화가/사진가 기록을 찾지 못함. Francis Bedford(1815-1894)는 매우 유명한 영국 사진가로 풍부하게 문서화됨 - 대량 소스에서 반복된 OCR/전사 오류로 추정. 확신도는 중간."
+  },
+  {
+    "keep_id": "bb21bf31-ce26-41a7-9017-5c7dff9ba2a5",
+    "keep_name": "Rembrandt van Rijn",
+    "dupe_id": "2a5cb3e7-ec44-478e-a031-39be7457c978",
+    "dupe_name": "Rembrandt van Ryn",
+    "decision": "merge",
+    "reasoning": "사용자 확정: 렘브란트의 역사적 철자변형"
+  },
+  {
+    "keep_id": "967e852f-ee67-435b-b9b3-db4d88a0560b",
+    "keep_name": "Frans Huys",
+    "dupe_id": "8ecaa5b1-1edb-4cb5-9aad-23f62c0f4e4b",
+    "dupe_name": "Frans Hens",
+    "decision": "keep_separate",
+    "reasoning": "웹서치로 확인: Frans Hens(1856-1928)는 벨기에 후기인상주의 화가로 독립 문서화됨. Frans Huys(16세기 플랑드르 판화가)와 200년 이상 시대차."
+  },
+  {
+    "keep_id": "7bd6e07b-4b2c-46ef-b56a-5d6ac706a900",
+    "keep_name": "Paolo Monti",
+    "dupe_id": "38085c99-8ce4-40f7-96d1-3e7c644a5e2d",
+    "dupe_name": "Paolo Boni",
+    "decision": "keep_separate",
+    "reasoning": "웹서치로 확인: Paolo Boni(1926-)는 독립적으로 문서화된 실존 이탈리아 화가/조각가/판화가(MoMA 소장)."
+  },
+  {
+    "keep_id": "bb21bf31-ce26-41a7-9017-5c7dff9ba2a5",
+    "keep_name": "Rembrandt van Rijn",
+    "dupe_id": "600d9781-b184-4eb2-893d-0b845abfe56f",
+    "dupe_name": "Rembrandt Van Rhyn",
+    "decision": "merge",
+    "reasoning": "렘브란트 철자변형"
+  },
+  {
+    "keep_id": "aba4905c-8dae-4bc6-bcd7-68f4760d4bb5",
+    "keep_name": "een goed Meester",
+    "dupe_id": "8b3ae90b-3761-4ed9-a9fd-adc7102125c6",
+    "dupe_name": "Een Oud Meester",
+    "decision": "keep_separate",
+    "reasoning": "'좋은 거장'과 '오래된 거장'은 의미가 다른 별개의 무명거장 라벨"
+  },
+  {
+    "keep_id": "b1d7eb25-09db-4017-992a-156561b65105",
+    "keep_name": "Vander Poel",
+    "dupe_id": "77e9c083-5c1b-4ee2-bb6e-844b942123e5",
+    "dupe_name": "vander Does",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "ec63a91c-5578-439c-83f5-f5276846b9e8",
+    "keep_name": "Larry Clark",
+    "dupe_id": "4b69f716-2c17-4cda-8fe7-104632eea5ce",
+    "dupe_name": "Larry Stark",
+    "decision": "keep_separate",
+    "reasoning": "Larry Clark는 저명 미국 사진가/영화감독; Stark는 완전히 다른 성씨"
+  },
+  {
+    "keep_id": "91597d89-5369-4da0-9d74-606f882fed64",
+    "keep_name": "Bernard Essers",
+    "dupe_id": "cffe32c0-4abe-4cba-a313-dd0cd533c70b",
+    "dupe_name": "Bernard Eilers",
+    "decision": "keep_separate",
+    "reasoning": "둘 다 실존: Bernard Eilers(네덜란드 사진가)와 Bernard Essers(타이포그래퍼/디자이너)"
+  },
+  {
+    "keep_id": "b550d8d4-1889-4987-ad51-4022c91716b1",
+    "keep_name": "Os. (J. van)",
+    "dupe_id": "8462945a-c6e5-4037-86c5-d45be9d361fa",
+    "dupe_name": "Os, Jan van",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "ac71510d-0ac1-41d6-a4d1-f72e66620717",
+    "keep_name": "Baron Adolf de Meyer",
+    "dupe_id": "6e69bdf6-77ec-474a-8b2c-792afb4b2001",
+    "dupe_name": "Baron Adolph de Meyer",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "e98a36e9-4f12-4a62-8c5a-f96ab23134f6",
+    "keep_name": "Max Klinger",
+    "dupe_id": "7abf7366-8ee4-4deb-888f-ed7f8ef0f486",
+    "dupe_name": "Max Lingner",
+    "decision": "keep_separate",
+    "reasoning": "둘 다 실존: Max Klinger(독일 상징주의)와 Max Lingner(독일 벽화가, 동독)는 별개 인물"
+  },
+  {
+    "keep_id": "871b0a15-f00b-4b95-a7e9-a94b48af5ba6",
+    "keep_name": "Nielsen, Kai",
+    "dupe_id": "dc3515c9-d378-44b1-af7e-faeab40b95a2",
+    "dupe_name": "Nielsen, Jais",
+    "decision": "keep_separate",
+    "reasoning": "둘 다 실존 덴마크 작가: Kai Nielsen(조각가)과 Jais Nielsen(화가)은 별개 인물"
+  },
+  {
+    "keep_id": "092c888b-e0dc-43d5-bc58-ae75a66b44ed",
+    "keep_name": "Compe. (J. ten)",
+    "dupe_id": "4b2787af-9b3d-496b-a904-db1957f44962",
+    "dupe_name": "Compe, Jan ten",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "5a2673b2-d49b-475e-9a4e-5be0195105d3",
+    "keep_name": "Salomon Ruysdael",
+    "dupe_id": "39078e39-1e22-42fc-b919-bd54aa246fb7",
+    "dupe_name": "Salomon Ruisdaal",
+    "decision": "merge",
+    "reasoning": "동일 화가 Salomon van Ruysdael의 철자변형"
+  },
+  {
+    "keep_id": "02c23ff4-d112-4f9e-bb11-e14e78c400ec",
+    "keep_name": "Frans Post",
+    "dupe_id": "22641384-bb6b-4c64-91eb-9720e142017d",
+    "dupe_name": "Frans Proost",
+    "decision": "keep_separate",
+    "reasoning": "Frans Post는 브라질 풍경화로 유명한 화가; Proost는 다른 성씨로 확인 안 됨"
+  },
+  {
+    "keep_id": "2d781670-c454-466f-b11a-d321d24ff38d",
+    "keep_name": "Luca Giordano",
+    "dupe_id": "ca23f7b1-7bdd-4c2d-b186-911cdb37cd34",
+    "dupe_name": "Luca Jordano",
+    "decision": "merge",
+    "reasoning": "역사적으로 문서화된 대체 음역, Luca Giordano"
+  },
+  {
+    "keep_id": "e3103f84-17c3-40d8-a050-f177f18e1b0d",
+    "keep_name": "Lucas Giordano",
+    "dupe_id": "f8ae15dd-cdd4-4894-8798-d23cd30b9b8f",
+    "dupe_name": "Lucas Jordano",
+    "decision": "merge",
+    "reasoning": "위와 동일 인물의 다른 표기"
+  },
+  {
+    "keep_id": "9491a8ab-f0a2-402d-87bc-7b95234ba1e1",
+    "keep_name": "Benjamin Patterson",
+    "dupe_id": "fbe9275f-3c92-462e-9b4c-dd10eff919b0",
+    "dupe_name": "Benjamin Patersen",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "5e706016-cd95-4aeb-88a9-b3dbbbe0dca5",
+    "keep_name": "Adam Pynacker",
+    "dupe_id": "45585cf3-f2bd-4dae-8ed7-97b5bfe916b3",
+    "dupe_name": "Adam Pinaker",
+    "decision": "merge",
+    "reasoning": "동일 화가 Adam Pynacker의 철자변형"
+  },
+  {
+    "keep_id": "d2dd7eda-1926-4ca7-9d81-7e7b4090444f",
+    "keep_name": "Torii Kiyomitsu I",
+    "dupe_id": "80d541f6-9c14-4e23-b6ad-6ebd8ee4699c",
+    "dupe_name": "Torii Kiyomasu I",
+    "decision": "keep_separate",
+    "reasoning": "토리이파의 서로 다른 두 작가(Kiyomasu I, Kiyomitsu I 모두 별도 문서화됨)"
+  },
+  {
+    "keep_id": "52cf1039-7819-434f-8f40-9044abdd054a",
+    "keep_name": "Maria Martinez",
+    "dupe_id": "7badfa65-f051-440c-861b-337163281c52",
+    "dupe_name": "Maria Martins",
+    "decision": "keep_separate",
+    "reasoning": "둘 다 실존 저명 작가: Maria Martinez(푸에블로 도공)와 Maria Martins(브라질 초현실주의 조각가)"
+  },
+  {
+    "keep_id": "404640e5-55e0-4b43-8278-5fef7d769931",
+    "keep_name": "Heinrich Keuhn",
+    "dupe_id": "f8737683-0bf8-4909-9a72-25b8733c63a0",
+    "dupe_name": "Heinrich Kuehn",
+    "decision": "merge",
+    "reasoning": "동일 인물 Heinrich Kühn(오스트리아 픽토리얼리즘 사진가)의 철자변형"
+  },
+  {
+    "keep_id": "21219147-d3ca-43cc-a470-db3bf49f51a0",
+    "keep_name": "Saul, Peter",
+    "dupe_id": "a1aec481-3032-4408-adf3-76600408a2ea",
+    "dupe_name": "Saul Leiter",
+    "decision": "keep_separate",
+    "reasoning": "완전히 다른 유명 작가: Peter Saul(팝아티스트)과 Saul Leiter(사진작가) - 이름 위치만 우연히 비슷"
+  },
+  {
+    "keep_id": "ca36c034-7b2d-4ae5-827b-4025c4b36473",
+    "keep_name": "Jack Whitten",
+    "dupe_id": "a47cbd40-349d-46d7-a016-460bef818a0c",
+    "dupe_name": "Jack Britten",
+    "decision": "keep_separate",
+    "reasoning": "Jack Whitten은 저명 미국 추상화가; Britten은 독립 확인 안 됨, 다른 성씨"
+  },
+  {
+    "keep_id": "40d948f1-8645-4ffd-9673-d6ba6f35290e",
+    "keep_name": "Roger Chastel",
+    "dupe_id": "349d9f46-8a32-49c1-a459-b1d37cc39630",
+    "dupe_name": "Roger Chancel",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "2b5cb1ab-e185-4614-b99a-a420366105ab",
+    "keep_name": "O JUN",
+    "dupe_id": "37d47a91-cd82-443d-83f3-849a0650efcc",
+    "dupe_name": "O.J.",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "2d576632-9c5a-4e78-9be6-c1c092f2a342",
+    "keep_name": "Cornelis Bos",
+    "dupe_id": "b7bd4398-7074-40d1-b6f8-e632ec8a5686",
+    "dupe_name": "Cornelis Buys",
+    "decision": "keep_separate",
+    "reasoning": "둘 다 실존 별개 화가: Cornelis Bos(르네상스 판화가)와 Cornelis Buys(화가 가문)"
+  },
+  {
+    "keep_id": "2ce22ef8-8c21-4267-9792-9008c5ea2a45",
+    "keep_name": "Nicolaes Maes",
+    "dupe_id": "b9aeaecf-80a5-498f-addd-a19b70737147",
+    "dupe_name": "Nicolaes Muys",
+    "decision": "keep_separate",
+    "reasoning": "둘 다 실존: Nicolaes Maes(렘브란트 제자, 매우 유명)와 Nicolaas Muys(18세기 화가)"
+  },
+  {
+    "keep_id": "19db7715-776d-4def-8fa2-1b72604536dc",
+    "keep_name": "Katsukawa Shunkо̄",
+    "dupe_id": "f1349852-dc52-426e-923f-57c3dedf4f65",
+    "dupe_name": "Katsukawa Shunei",
+    "decision": "keep_separate",
+    "reasoning": "가쓰카와 슌쇼의 서로 다른 두 제자(Shunkō, Shunei 모두 별도 문서화됨)"
+  },
+  {
+    "keep_id": "2509905c-9d39-4416-87d6-c5626480e5f4",
+    "keep_name": "Rosa di Tivoli",
+    "dupe_id": "fed97979-4e3f-4e09-bb18-b285e24fd96d",
+    "dupe_name": "Rosa of Tivoli",
+    "decision": "merge",
+    "reasoning": "동일 별명의 이탈리아어/영어 번역, Philipp Peter Roos('Rosa da Tivoli')"
+  },
+  {
+    "keep_id": "1535b2a5-f452-4e6a-b398-23f5d668263a",
+    "keep_name": "Man Ray (Emmanuel Radnitzky)",
+    "dupe_id": "fc711426-8a5f-43ab-ac2c-01c04ff4fac5",
+    "dupe_name": "Man Ray (Emmanuel Rudnitsky)",
+    "decision": "merge",
+    "reasoning": "맨 레이 본명(Emmanuel Radnitzky)의 음역 변형"
+  },
+  {
+    "keep_id": "9c69ae13-03b6-4a47-ad42-c3add4d7d2af",
+    "keep_name": "Annibal Carrache",
+    "dupe_id": "97f0fa5f-8b9c-480c-b305-f2be7b772195",
+    "dupe_name": "Annibal Carracci",
+    "decision": "merge",
+    "reasoning": "안니발레 카라치의 프랑스어/이탈리아어 표기 변형"
+  },
+  {
+    "keep_id": "d2f88af7-1880-451f-8bda-20c241bc3921",
+    "keep_name": "La Fage",
+    "dupe_id": "6b98a3af-1dd7-4a0d-b02c-8f166ed1e62a",
+    "dupe_name": "La Fargue",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "9c5e4f09-0c94-4b49-99bb-61ebb8bafc82",
+    "keep_name": "ANN. CARRACCI",
+    "dupe_id": "7b7f89ff-58be-4518-ba31-5948924592df",
+    "dupe_name": "Ann. Carrache",
+    "decision": "merge",
+    "reasoning": "카라치 약칭 표기 변형"
+  },
+  {
+    "keep_id": "bce5ddc2-dbcc-45c4-a755-c94ffcc08f6e",
+    "keep_name": "Satō Gyodai",
+    "dupe_id": "927f78d9-1401-4f25-b6fd-d4f78d34c998",
+    "dupe_name": "Satō Hōdai",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "5c6525ec-c674-4deb-ad6d-6f61f75d8962",
+    "keep_name": "Félix Cogen",
+    "dupe_id": "e3bda0b7-a8ff-4096-af45-496b5682e7b1",
+    "dupe_name": "Félix Rozen",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "7139145d-03ab-4fe7-860c-6f8803a2ce24",
+    "keep_name": "Christiaan Josi",
+    "dupe_id": "49377f3b-a9f1-46df-a2b9-0d385ce4a621",
+    "dupe_name": "Christiaan Bos",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "8856e583-7ced-4f2e-aff5-e79bdc901c69",
+    "keep_name": "ein guter Meister",
+    "dupe_id": "7820fdb7-345b-47bd-a98a-2aef50681947",
+    "dupe_name": "ein alter Meister",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "219f8443-2277-4ea8-848f-37a928904331",
+    "keep_name": "Ding Yunpeng",
+    "dupe_id": "a4b92fcd-aa2c-4436-b70d-f37ecafb4fd0",
+    "dupe_name": "Ding Guanpeng",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "d2f88af7-1880-451f-8bda-20c241bc3921",
+    "keep_name": "La Fage",
+    "dupe_id": "0a224de7-1b61-4d76-8c21-1643b51d50fc",
+    "dupe_name": "La Cave",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "84a91041-61f9-4b4e-b898-86b64bec2390",
+    "keep_name": "Rudolf Koller",
+    "dupe_id": "7a80e40e-e7f4-4f17-80c6-8d2f97393f0d",
+    "dupe_name": "Rudolf Kügler",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "bcc11961-042f-4a8d-9e42-bc545706412c",
+    "keep_name": "Carel Lodewijk Dake",
+    "dupe_id": "eeea1605-8254-4965-acac-6ee7252dfcd7",
+    "dupe_name": "Carel Lodewyck Dake",
+    "decision": "merge",
+    "reasoning": "동일 인물 Carel Lodewijk Dake의 철자변형"
+  },
+  {
+    "keep_id": "e2018624-9c3c-4e9e-b27f-82c319dfd196",
+    "keep_name": "Gustave Pellet",
+    "dupe_id": "5dbe862c-51b4-40c5-af11-b7f3d5404a6c",
+    "dupe_name": "Gustave Keller",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "ffdcb4af-d342-45f7-9a2d-3495c196d6f1",
+    "keep_name": "Douglas Wilson",
+    "dupe_id": "ae52c0e4-3dff-4ec3-a99a-c7c5c3d31b65",
+    "dupe_name": "Douglas Watson",
+    "decision": "keep_separate",
+    "reasoning": "웹서치 패턴 확인: 서로 다른 실존 인물(우연히 편집거리만 가까움)"
+  },
+  {
+    "keep_id": "b09b1810-6833-416b-9dd8-c3338ef170ee",
+    "keep_name": "Justus van den Nijpoort",
+    "dupe_id": "4dfe61b8-01bd-422e-befc-c0f299708dbc",
+    "dupe_name": "Justus van den Nypoort",
+    "decision": "merge",
+    "reasoning": "동일 인물 판화가 Justus van den Nypoort의 철자변형"
+  },
+  {
+    "keep_id": "9971dfa7-20fa-40ab-9eaa-e58980773c70",
+    "keep_name": "Goupil & Cie.",
+    "dupe_id": "8b79455a-e71a-4994-b18c-293ba53e43d9",
+    "dupe_name": "Goupil et Cie.",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(company_suffix) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "aa010df8-c0d4-4196-8e00-6a9c5075c0be",
+    "keep_name": "Alan Cohen",
+    "dupe_id": "206f6e20-a2ad-4880-b07e-70304e46d56c",
+    "dupe_name": "Alan Cote",
+    "decision": "keep_separate",
+    "reasoning": "둘 다 실존 미국 작가: Alan Cohen(사진가)과 Alan Cote(화가)"
+  },
+  {
+    "keep_id": "90a68a16-d6e3-4b95-967a-ccbab40f226d",
+    "keep_name": "Watanabe Seitei",
+    "dupe_id": "35970df5-0b3d-4c56-82a2-8594915dfe93",
+    "dupe_name": "Watanabe Shōtei",
+    "decision": "merge",
+    "reasoning": "동일 인물의 서로 다른 한자 독음(같은 일본 화가)"
+  },
+  {
+    "keep_id": "bfb04003-d71f-4f9e-b0e6-5d3e520b0660",
+    "keep_name": "Nicolaes Lastman",
+    "dupe_id": "73a77198-0499-433a-a85a-9041cf216f76",
+    "dupe_name": "Nicolaes Aartman",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "64407eef-8437-45d8-b481-d9f4fd7b624a",
+    "keep_name": "Francisque Millet",
+    "dupe_id": "a871f9d2-cfde-4b81-b58d-470adfc217be",
+    "dupe_name": "Francisque Milé",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "9ed5f0fc-9e1b-4f6b-87af-5262da8f6ca7",
+    "keep_name": "Utagawa Yoshitora",
+    "dupe_id": "5854ab3b-3081-40a9-a44a-55b990d73dfc",
+    "dupe_name": "Utagawa Yoshitoyo",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "9ed5f0fc-9e1b-4f6b-87af-5262da8f6ca7",
+    "keep_name": "Utagawa Yoshitora",
+    "dupe_id": "d59c3521-e13a-4ccb-9573-fa916459ce56",
+    "dupe_name": "Utagawa Yoshimori",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "7a2485a6-ded1-4505-a952-13ec023f75bb",
+    "keep_name": "Antoine Vandick",
+    "dupe_id": "1882f936-5055-46ae-b6c3-5808808819d2",
+    "dupe_name": "Antoine Van-Dyck",
+    "decision": "merge",
+    "reasoning": "동일 인물 안토니 반 다이크의 프랑스어 표기 변형"
+  },
+  {
+    "keep_id": "0f91c18c-d940-4348-9728-9f149fa4d815",
+    "keep_name": "Roelof Loots",
+    "dupe_id": "977da457-742d-4f80-a4a0-19c4b202a11b",
+    "dupe_name": "Roelof Koets",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "9fcf9f1c-7052-41c4-850c-f9df1b69285b",
+    "keep_name": "Sir J Reynolds",
+    "dupe_id": "ed8efbb1-24bc-401a-8bdd-b5e94d8d43b1",
+    "dupe_name": "Sir Jos. Reynolds",
+    "decision": "merge",
+    "reasoning": "조슈아 레이놀즈 경 약칭 표기 변형"
+  },
+  {
+    "keep_id": "9971dfa7-20fa-40ab-9eaa-e58980773c70",
+    "keep_name": "Goupil & Cie.",
+    "dupe_id": "2714093c-c457-48ca-8b06-bc5fc0f80231",
+    "dupe_name": "Goupil & Co.",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(company_suffix) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "88775609-0752-466f-ba65-a9aa319a834d",
+    "keep_name": "Carlo Ponti",
+    "dupe_id": "f4e681fa-cf78-4f08-bb92-70df8a9f1b13",
+    "dupe_name": "Carlo Lotti",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "5c5458b2-4388-4db8-969f-ff56c9713154",
+    "keep_name": "Ikeda, Masuo",
+    "dupe_id": "06a670d1-058b-474a-b7ff-2862ac9b42e5",
+    "dupe_name": "Ikeda, Tatsuo",
+    "decision": "keep_separate",
+    "reasoning": "둘 다 실존 일본 작가: Ikeda Masuo(판화/조각)와 Ikeda Tatsuo(화가)"
+  },
+  {
+    "keep_id": "bea348ae-2c5b-441a-b3d9-737f35354369",
+    "keep_name": "Nicolaes Ryckmans",
+    "dupe_id": "b33a09b3-9ba8-4393-92f4-a324788d21e1",
+    "dupe_name": "Nicolaes Rijckmans",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "519417e0-8e93-4549-b0bc-358f032d40fd",
+    "keep_name": "Harry Meijer",
+    "dupe_id": "24983b35-4491-419c-bd96-afd83cdb08f6",
+    "dupe_name": "Harry Meyer",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "02c536fd-4623-43b3-9c74-03b04ddc2dc4",
+    "keep_name": "Nikolai Kul'bin",
+    "dupe_id": "f0721bcd-7ce3-455a-bef5-c11935690865",
+    "dupe_name": "Nikolai Il'in",
+    "decision": "keep_separate",
+    "reasoning": "Kulbin은 실존 러시아 미래주의자; Ilin은 다른 인물"
+  },
+  {
+    "keep_id": "7ee30d27-1451-4ff1-9207-acd17ff00ede",
+    "keep_name": "Italian 15th/16th Century",
+    "dupe_id": "da08a3ce-7b4e-4f26-8de1-84f404f0f016",
+    "dupe_name": "Italian 18th/19th Century",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "790f5e86-5d67-48f0-98f1-70234b48cc84",
+    "keep_name": "Fred Leist",
+    "dupe_id": "e5c415b4-f96e-46fc-9685-bf16e06dc4ac",
+    "dupe_name": "Fred Lewis",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "a01a818f-4701-49e6-90bf-de24c396b49a",
+    "keep_name": "Harry Weese",
+    "dupe_id": "1be19c14-405b-4ace-b8ae-ae251d31da9d",
+    "dupe_name": "Harry Wedge",
+    "decision": "keep_separate",
+    "reasoning": "Harry Weese는 저명 미국 건축가; Harry Wedge는 호주 원주민 화가"
+  },
+  {
+    "keep_id": "910f0e96-9d23-4320-95b2-ee027b91866e",
+    "keep_name": "Adrianus Kok",
+    "dupe_id": "dd461701-db21-4135-84e2-963ea7802ae2",
+    "dupe_name": "Adrianus Kocx",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "f5349a19-0705-4e61-8165-02c37b0516f8",
+    "keep_name": "Otto Dix",
+    "dupe_id": "92dd765b-c29c-4c2e-a2e4-b456a54cd454",
+    "dupe_name": "Otto Dill",
+    "decision": "keep_separate",
+    "reasoning": "웹서치로 확인: Otto Dill(1884-1957)은 독립 문서화된 실존 독일 동물화가. Otto Dix(1891-1969, 신즉물주의 거장)와 별개."
+  },
+  {
+    "keep_id": "a6077d73-50b6-4fa7-9f6d-a92ae1f46640",
+    "keep_name": "Barent Gaal",
+    "dupe_id": "4cb9c81b-c31f-4a14-b9e0-e5a1773528e3",
+    "dupe_name": "Barent Graat",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "f2c2566d-9892-415f-ba14-e45d687c44b8",
+    "keep_name": "Adam Elsheimer",
+    "dupe_id": "51685e6e-b250-4c04-8979-288f7ade0689",
+    "dupe_name": "Adam Elseymer",
+    "decision": "merge",
+    "reasoning": "동일 화가 Adam Elsheimer의 철자변형"
+  },
+  {
+    "keep_id": "127befc5-8605-4a46-b36e-68fa569f3bc0",
+    "keep_name": "Godefroy Scalken",
+    "dupe_id": "9306daaa-67c3-43d8-a571-903d43cacd8f",
+    "dupe_name": "Godefroy Schalcken",
+    "decision": "merge",
+    "reasoning": "동일 인물 Godfried Schalcken의 프랑스어 표기 변형"
+  },
+  {
+    "keep_id": "9e64e050-84b8-4f24-9f7d-96090ecaae06",
+    "keep_name": "Zhang Yu",
+    "dupe_id": "8af953cf-2b07-4326-ac82-3e7c56b6f5df",
+    "dupe_name": "Zhang Yin",
+    "decision": "keep_separate",
+    "reasoning": "둘 다 실존 중국 화가로 시대가 다름(원대 vs 청대)"
+  },
+  {
+    "keep_id": "4860da5b-5881-4a7f-8f27-5d238d4fe16f",
+    "keep_name": "Leo Katz",
+    "dupe_id": "e591bd01-bb53-4de6-a41a-388fd6149409",
+    "dupe_name": "Leo Putz",
+    "decision": "keep_separate",
+    "reasoning": "둘 다 실존 저명 화가: Leo Katz(오스트리아-미국)와 Leo Putz(독일)는 별개 인물"
+  },
+  {
+    "keep_id": "971626ca-22dd-4cac-aab9-c1ba826d2cf1",
+    "keep_name": "Disdéri & Co.",
+    "dupe_id": "aeb93793-f0ed-4ffa-896f-eec72a7be916",
+    "dupe_name": "Disdéri & Cie.",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(company_suffix) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "0745ecb0-f2a7-4715-919b-0e4c867e29ea",
+    "keep_name": "Conrad Buno",
+    "dupe_id": "cb7c6f63-eff8-41d2-b8cc-084c0af4773f",
+    "dupe_name": "Conrad Buff",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "08d33db2-390b-4bca-a46a-2cdafbde038d",
+    "keep_name": "Benjamin Sanders",
+    "dupe_id": "d72c052a-3f9c-4432-9ec6-1698921bfd32",
+    "dupe_name": "Benjamin Lander",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "3f01e102-02f8-45b1-a84e-a89ba44dd4a4",
+    "keep_name": "Hermann Huber",
+    "dupe_id": "7b34c125-f57f-4550-8977-ee086fadc2b9",
+    "dupe_name": "Hermann Teuber",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "b2485535-418c-4819-9247-5991f9628123",
+    "keep_name": "Alice Mason",
+    "dupe_id": "52c5d885-0689-4832-bee1-b2bbe3be4a11",
+    "dupe_name": "Alice Rahon",
+    "decision": "keep_separate",
+    "reasoning": "둘 다 저명한 실존 작가: Alice Mason(미국)과 Alice Rahon(초현실주의)"
+  },
+  {
+    "keep_id": "d92df09e-36e1-4eb8-a479-ed32828492b9",
+    "keep_name": "Mstislav Valerianovitch Dobuzinski",
+    "dupe_id": "b3337661-1893-401a-a653-a7a230264286",
+    "dupe_name": "Mstislav Valerianovic Dobuzinskij",
+    "decision": "merge",
+    "reasoning": "동일 인물 Mstislav Dobuzhinsky의 음역 변형"
+  },
+  {
+    "keep_id": "0cb440cd-0296-4e1a-8728-e135fefc0328",
+    "keep_name": "ein unbekannter Meister",
+    "dupe_id": "16d48da9-a101-4be1-a7cb-95361fd4a013",
+    "dupe_name": "ein ohnbekannter Meister",
+    "decision": "merge",
+    "reasoning": "고어체 철자(ohn=un의 옛 표기)일 뿐 동일 의미('무명 거장')"
+  },
+  {
+    "keep_id": "03d7a80d-9c0c-4efe-b803-99254dc66f7d",
+    "keep_name": "Kano Kazunobu",
+    "dupe_id": "2cda9cae-80bc-4fa2-ba9c-94b4c87945f7",
+    "dupe_name": "Kano Yasunobu",
+    "decision": "keep_separate",
+    "reasoning": "가노파 서로 다른 두 시대 작가(Kazunobu 19세기, Yasunobu 17세기, 별도 문서화됨)"
+  },
+  {
+    "keep_id": "d684a9ff-f064-4628-a32f-36d52c425a5f",
+    "keep_name": "Torii Kiyomitsu",
+    "dupe_id": "bac1a2eb-c317-4b79-affc-422b5f6af9c3",
+    "dupe_name": "Torii Kiyomasu",
+    "decision": "keep_separate",
+    "reasoning": "토리이파 서로 다른 두 작가"
+  },
+  {
+    "keep_id": "3c6be5af-334d-47b5-93a7-0e10466043b7",
+    "keep_name": "Chevalier Breydel",
+    "dupe_id": "eee22cb4-2d10-4b5d-89b9-f4b8be3881b2",
+    "dupe_name": "Chevalier Bredael",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "7672d007-bd9a-4251-b552-5bf3a978d66a",
+    "keep_name": "Julius Hübner",
+    "dupe_id": "88c47eb2-e1a3-44f5-890e-a92b118a0eff",
+    "dupe_name": "Julius Hüther",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "414a24f0-3775-4308-b190-de35dc67fd68",
+    "keep_name": "Sir P. Lely",
+    "dupe_id": "ef72dbc7-eea3-4a49-a21d-3749f31d63e4",
+    "dupe_name": "Sir P. Lilly",
+    "decision": "merge",
+    "reasoning": "동일 인물 Peter Lely 경의 표기 변형"
+  },
+  {
+    "keep_id": "13e19207-d106-452a-a33e-2b663c1a254a",
+    "keep_name": "Vois, Ary de",
+    "dupe_id": "5d4cc5ca-71e6-41fb-acd3-e0e989a97c44",
+    "dupe_name": "Vois (A. de)",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "1d420141-6903-4b8a-969e-14bf7be3730a",
+    "keep_name": "Rombouts, Theodoor",
+    "dupe_id": "d731ca47-2ff2-443b-aa59-7222574fdeaa",
+    "dupe_name": "Rombouts (Théodore)",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "d56d3b75-33ee-4f7d-9058-c40b747e444f",
+    "keep_name": "Anthony Caro",
+    "dupe_id": "27817f78-55aa-42e8-b2b7-9ca728844167",
+    "dupe_name": "Anthony Clark",
+    "decision": "keep_separate",
+    "reasoning": "Anthony Caro는 저명 영국 조각가; Clark는 다른 인물"
+  },
+  {
+    "keep_id": "000d00bd-e473-44e4-8580-d98d3e06f3b3",
+    "keep_name": "Anton Joseph von Prenner",
+    "dupe_id": "e1fe3798-80b8-4a71-a0eb-6946b0449b45",
+    "dupe_name": "Anton Josef von Kenner",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "b79e7be2-52f9-4c19-8e17-9f5024f5dc58",
+    "keep_name": "Ernst Fuchs",
+    "dupe_id": "4db7c399-545e-4918-80d1-258e3cddc749",
+    "dupe_name": "Ernst Juch",
+    "decision": "keep_separate",
+    "reasoning": "Ernst Fuchs는 저명 오스트리아 환상적 사실주의 화가; Juch는 완전히 다른 성씨"
+  },
+  {
+    "keep_id": "d2967f2f-46a8-405e-ab24-b278297ee0e2",
+    "keep_name": "Moor, Carel de",
+    "dupe_id": "ab43e1e9-499b-45a3-a901-916d88b282bf",
+    "dupe_name": "Moor (Carle De)",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "c192392a-ed19-4d33-8f3f-a2531c19c56f",
+    "keep_name": "Christian Mali",
+    "dupe_id": "a0684517-def9-446d-857f-e9cd9a4dfc56",
+    "dupe_name": "Christian Maler",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "db644099-e427-45f5-858d-a8ed8323be2d",
+    "keep_name": "Camille Bernabé",
+    "dupe_id": "6ce462d5-ba9d-49ca-b960-73147819f5f2",
+    "dupe_name": "CAMILLE BERNARD",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "1542bd6f-9dc2-436a-97a3-fab11f2e8e89",
+    "keep_name": "Sir Joshua Reynolds",
+    "dupe_id": "ae17f272-0a61-40f7-abde-b851394de2f8",
+    "dupe_name": "Sir Josh. Reynolds",
+    "decision": "merge",
+    "reasoning": "조슈아 레이놀즈 경 약칭 표기 변형"
+  },
+  {
+    "keep_id": "1d05b4cd-e544-4bfd-b203-e68eda292c84",
+    "keep_name": "Both, Jan",
+    "dupe_id": "fcf8c52c-f147-4d59-8176-4b505d882f28",
+    "dupe_name": "Both (J.)",
+    "decision": "merge",
+    "reasoning": "동일 화가 형식 변형"
+  },
+  {
+    "keep_id": "75c5afa1-ce1a-49f1-95bd-deaf370ccd9f",
+    "keep_name": "Heinrich Füger",
+    "dupe_id": "cc758049-6c56-4bc8-923b-ae033c166c23",
+    "dupe_name": "Heinrich Zügel",
+    "decision": "keep_separate",
+    "reasoning": "둘 다 저명: Heinrich Füger(오스트리아 신고전주의)와 Heinrich von Zügel(독일 동물화가)"
+  },
+  {
+    "keep_id": "f8ba4cb8-aec3-4af3-acea-1a7d18055f83",
+    "keep_name": "Nicolas Jacquin",
+    "dupe_id": "0350cbf2-761c-4fcd-9197-e6a7ecf51c9b",
+    "dupe_name": "Nicolas Jacques",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "2a5eaf5d-c313-4803-82a8-f86979dc6050",
+    "keep_name": "Rembrandt Van-Ryn",
+    "dupe_id": "01c75ae8-6f94-443d-8b92-e3fab115e9df",
+    "dupe_name": "Rembrandt Van-Rhin",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "9971dfa7-20fa-40ab-9eaa-e58980773c70",
+    "keep_name": "Goupil & Cie.",
+    "dupe_id": "bec04537-ca14-49bc-b47c-d703126a6cf9",
+    "dupe_name": "Goupil et Cie",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(company_suffix) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "43d4d1f8-5475-4bfa-8bb5-3f86bcc9768d",
+    "keep_name": "Adolphe Braun",
+    "dupe_id": "7228ff5c-b728-46ea-9078-1482cad93d86",
+    "dupe_name": "Adolphe Beau",
+    "decision": "keep_separate",
+    "reasoning": "둘 다 실존 사진가이나 별개 인물: Adolphe Braun과 Adolphe Beau"
+  },
+  {
+    "keep_id": "07cf65db-280f-405e-8c9e-b3b596bf36c8",
+    "keep_name": "Hermann Selle",
+    "dupe_id": "9b1ea9b8-272f-43e9-b040-597c477d0a7b",
+    "dupe_name": "Hermann Eller",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "a2b0eb23-4404-4596-bf02-98524da45d7c",
+    "keep_name": "Abraham de Blois",
+    "dupe_id": "abfa4349-4a0e-485a-a92d-6eae281a2eb3",
+    "dupe_name": "Abraham Le Blond",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "d1fed97a-273d-4cc6-b4e1-19227018702b",
+    "keep_name": "Utagawa Kunimasa",
+    "dupe_id": "553ba4ec-af7a-449e-94fd-1c44e3d6644f",
+    "dupe_name": "Utagawa Kunimaru",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "7adde283-f5ea-4a53-a496-5f5a837e342d",
+    "keep_name": "Pietro Paulo Tozzi",
+    "dupe_id": "af89d3b6-62e2-491e-ab91-4c01954d30aa",
+    "dupe_name": "Pietro Paolo Bonzi",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "cf9919d0-0ffb-4867-a538-bb97b9dd80ab",
+    "keep_name": "Adrien Vandenvelde",
+    "dupe_id": "42e4b59e-76b8-4d7e-b8a2-8707a2404084",
+    "dupe_name": "Adrien Vanden-Veld",
+    "decision": "merge",
+    "reasoning": "동일 화가 Adriaen van de Velde 표기 변형"
+  },
+  {
+    "keep_id": "f69b9038-2f32-4a5a-8611-9ff8cb629380",
+    "keep_name": "Claude Lorraine",
+    "dupe_id": "33a98a25-621e-45d4-a157-638d5161c4d2",
+    "dupe_name": "Claude Lorain",
+    "decision": "merge",
+    "reasoning": "동일 인물 Claude Lorrain 표기 변형"
+  },
+  {
+    "keep_id": "60af1c9c-1201-4137-ab2a-fe81020f823f",
+    "keep_name": "Perin del Vague",
+    "dupe_id": "a2f919f1-61e7-4005-b66a-c70c1d50bfcb",
+    "dupe_name": "Perin del Vaga",
+    "decision": "merge",
+    "reasoning": "동일 인물 Perino del Vaga 표기 변형"
+  },
+  {
+    "keep_id": "22c64668-fad4-4dce-a9b4-6aef0f36d40c",
+    "keep_name": "Fritz Erler",
+    "dupe_id": "c74e1cf3-6123-4de4-b8a3-7b2b0ae5fa67",
+    "dupe_name": "Fritz Werner",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "0f1465b6-af4b-49e1-9633-c778cdc0edff",
+    "keep_name": "Léonard Misonne",
+    "dupe_id": "0f284d95-101a-43c9-a98b-3e575b0c4097",
+    "dupe_name": "Léonard Missone",
+    "decision": "merge",
+    "reasoning": "동일 사진가 Léonard Misonne 철자변형"
+  },
+  {
+    "keep_id": "03d7a80d-9c0c-4efe-b803-99254dc66f7d",
+    "keep_name": "Kano Kazunobu",
+    "dupe_id": "a145c21f-fd49-4b44-97c2-aaebdf7403f8",
+    "dupe_name": "Kanō Yasunobu",
+    "decision": "keep_separate",
+    "reasoning": "가노파 서로 다른 두 시대 작가, 위와 동일"
+  },
+  {
+    "keep_id": "3d7f10ca-8516-4287-916c-940cefc46a21",
+    "keep_name": "Lang Jan",
+    "dupe_id": "11243b29-f2d7-4b81-8eea-24bf007f15c3",
+    "dupe_name": "Lang, John",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "09cb6089-e943-4e59-a8d9-28d8bf57b9c3",
+    "keep_name": "Benjamin Holl",
+    "dupe_id": "57329f9f-97f7-4bbd-ad93-00c302546b0a",
+    "dupe_name": "Benjamin Cole",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "b914bdc7-91df-401d-9c1a-109f1e5a4842",
+    "keep_name": "Rudolf Bacher",
+    "dupe_id": "47237ef3-9b48-4515-8c62-ae9aaeaf0024",
+    "dupe_name": "Rudolf Bauer",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "e47fa148-acc5-40a7-887e-db5875d73b39",
+    "keep_name": "Bernard Lens",
+    "dupe_id": "39f0a033-3371-40cc-925a-52adce87f3e2",
+    "dupe_name": "Bernard Klene",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "9dcb0d7e-73b9-46f5-a771-c46ea5780d9e",
+    "keep_name": "Neefs. (Pieter)",
+    "dupe_id": "439e6efa-8722-46ff-8a8e-5764d50a42c9",
+    "dupe_name": "Neefs (Peters)",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "c7af2013-45d8-4ee1-8541-cd239534101e",
+    "keep_name": "Marko ml., Karol",
+    "dupe_id": "390a7c02-f9e8-4ed5-b37c-b4d708bb33ab",
+    "dupe_name": "Marko st., Karol",
+    "decision": "keep_separate",
+    "reasoning": "세대 표기(elder/younger) 명시 - 부자 관계의 별개 실존 인물(Karol Markó the Elder/Younger)"
+  },
+  {
+    "keep_id": "84cf1ef0-5a1d-4023-8318-e7e20aa6bbb2",
+    "keep_name": "Andreas Lach",
+    "dupe_id": "17742abc-cd59-403c-8783-7ebe0a90f5ea",
+    "dupe_name": "Andreas Bloch",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "bb21bf31-ce26-41a7-9017-5c7dff9ba2a5",
+    "keep_name": "Rembrandt van Rijn",
+    "dupe_id": "d9b64f54-7640-4a7d-b310-d33ef3895e5b",
+    "dupe_name": "Rembrandt van Rhin",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "c984c487-a1cb-4538-8744-752db5858ea3",
+    "keep_name": "Old Franks",
+    "dupe_id": "3030a4eb-14d8-4fe0-91a9-c87013f71451",
+    "dupe_name": "Old Franck",
+    "decision": "merge",
+    "reasoning": "동일 별명 표기 변형('Old Franck', Frans Francken the Elder)으로 추정"
+  },
+  {
+    "keep_id": "88775609-0752-466f-ba65-a9aa319a834d",
+    "keep_name": "Carlo Ponti",
+    "dupe_id": "f2add81f-c7e9-455f-b9a0-09498bf4e938",
+    "dupe_name": "Carlo Loti",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "b7fe5570-f0f0-416f-ba5a-2ca534487c62",
+    "keep_name": "Christian Bérard",
+    "dupe_id": "ab7f89d2-a328-42c0-8f57-ef2aec968ded",
+    "dupe_name": "Christian Brand",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "0f29b8d9-d645-433d-a17f-34d3e806a512",
+    "keep_name": "Quinten Metsys",
+    "dupe_id": "9cccb22a-c039-43bc-b4b1-531803a79394",
+    "dupe_name": "Quinten Massys",
+    "decision": "merge",
+    "reasoning": "동일 화가 Quentin Matsys의 철자변형"
+  },
+  {
+    "keep_id": "8a8d1d69-2ff6-4f30-a568-787c478463c4",
+    "keep_name": "K. Molenaar",
+    "dupe_id": "496b28cd-21c1-4f36-baa9-fe93ce2cad44",
+    "dupe_name": "K. Molinaer",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "a3ff824e-1fad-4368-92d1-020ee8aaae16",
+    "keep_name": "Vander Heyden",
+    "dupe_id": "aae227b7-a909-4809-9723-92bee83c2d69",
+    "dupe_name": "Vander Hyde",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "74a6cca2-9e7d-4ae1-a5c7-e63ca5d3c84f",
+    "keep_name": "Sir A. More",
+    "dupe_id": "d318aa1e-cd6e-41ce-a32f-7938b8bcd5ee",
+    "dupe_name": "Sir Ant. More",
+    "decision": "merge",
+    "reasoning": "동일 인물 안토니스 모르 경 약칭 표기 변형"
+  },
+  {
+    "keep_id": "b83180c6-bd25-4a5c-98d4-d2bc4112ae04",
+    "keep_name": "Both d'Italie",
+    "dupe_id": "457a4576-41f0-4a48-9f6c-cdfbfcd37f7a",
+    "dupe_name": "Both of Italy",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "fd1dccc4-e08d-4f39-8578-23592400875b",
+    "keep_name": "Andrew Bush",
+    "dupe_id": "6d80ceb8-90a3-4b6e-afc3-cca902b169c0",
+    "dupe_name": "Andrew Both",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "6560b063-a10c-401b-a900-2e4351ced265",
+    "keep_name": "Tawaraya Sōtatsu",
+    "dupe_id": "31692fc7-6aae-4bc6-9cf9-179cd358754c",
+    "dupe_name": "Tawaraya Sōsetsu",
+    "decision": "keep_separate",
+    "reasoning": "다와라야 소타쓰와 그 후계자 소세쓰는 별도로 문서화된 인물"
+  },
+  {
+    "keep_id": "c85ca25d-208c-4c9f-8855-94dd43a770f0",
+    "keep_name": "Velde (Adriaan van de)",
+    "dupe_id": "98bdba82-d3a0-4f71-be13-35ddb2402257",
+    "dupe_name": "Velde (Adrien Van den)",
+    "decision": "merge",
+    "reasoning": "동일 화가 형식+언어 변형"
+  },
+  {
+    "keep_id": "93bc7806-99a9-47ea-9c78-52dd8772d231",
+    "keep_name": "Ludwig Bock",
+    "dupe_id": "d27e1709-20bb-4175-b689-9fff58418eb8",
+    "dupe_name": "Ludwig Koch",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "61fb060b-7a25-4af5-b4bd-28cce4fdf090",
+    "keep_name": "Adolf Loos",
+    "dupe_id": "77bfb313-b7ce-4ad7-8d18-8b0a8d63f55f",
+    "dupe_name": "Adolf Lins",
+    "decision": "keep_separate",
+    "reasoning": "둘 다 저명: Adolf Loos(건축가)와 Adolf Lins(화가)"
+  },
+  {
+    "keep_id": "edcc4003-e9d5-4bad-abf4-b3547eba3add",
+    "keep_name": "Rebecca Horn",
+    "dupe_id": "5817e59f-7e1e-4807-9b15-580b4ece4129",
+    "dupe_name": "Rebecca Shore",
+    "decision": "keep_separate",
+    "reasoning": "둘 다 실존 저명 작가: Rebecca Horn(독일 설치미술)과 Rebecca Shore(미국 화가)"
+  },
+  {
+    "keep_id": "87af5f9c-1cfb-47b6-bcd5-f78cedae152a",
+    "keep_name": "Adolphe Braun & Cie.",
+    "dupe_id": "e687745c-040d-4ef0-8d95-bdf3d63a6953",
+    "dupe_name": "Adolphe Braun & Co.",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(company_suffix) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "b1d7eb25-09db-4017-992a-156561b65105",
+    "keep_name": "Vander Poel",
+    "dupe_id": "9def1c5e-2236-4d13-8c8a-d8b8d66747af",
+    "dupe_name": "Vander Doës",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "d1fed97a-273d-4cc6-b4e1-19227018702b",
+    "keep_name": "Utagawa Kunimasa",
+    "dupe_id": "a0b14d7e-aa90-4f25-86b9-50e1345175ec",
+    "dupe_name": "Utagawa Kuninaga",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "f00d1db5-b250-4ef5-80a7-84b716afd191",
+    "keep_name": "Arnold H. Crane",
+    "dupe_id": "a29b455d-139e-4117-9c71-dd75ea94ec5b",
+    "dupe_name": "Arnold, A. Grant",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "db521d04-8403-462c-99cf-12de82ae7a81",
+    "keep_name": "Bartolomeo Schedoni",
+    "dupe_id": "fd9534e4-0226-4eae-adeb-ee15ae3a2c04",
+    "dupe_name": "Bartolomeo Schidone",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "5f98039f-152f-4ca4-a193-1abf4296d110",
+    "keep_name": "Ferdinand, Louis",
+    "dupe_id": "33bf4ff7-e48e-4c98-84db-c8f835b76683",
+    "dupe_name": "Ferdinand Kruis",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "e890f327-b1eb-4a53-a992-f64d8ef0d769",
+    "keep_name": "Ralph Balson",
+    "dupe_id": "ae22f1cb-f6d8-4486-8c94-0f148df46b1a",
+    "dupe_name": "Ralph Barton",
+    "decision": "keep_separate",
+    "reasoning": "Ralph Balson은 호주 추상화가; Barton은 다른 인물"
+  },
+  {
+    "keep_id": "bce5ddc2-dbcc-45c4-a755-c94ffcc08f6e",
+    "keep_name": "Satō Gyodai",
+    "dupe_id": "1bc6ac74-84c2-4947-92bb-0999f5ebd86a",
+    "dupe_name": "Sato Hodai",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "3f286f08-3415-4048-b62f-4c08eadd63d0",
+    "keep_name": "Brouwer, Jan",
+    "dupe_id": "0be90423-7768-425b-a4c5-9824ed707b65",
+    "dupe_name": "Brouwer (A.)",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "17e04249-7ab3-4d9b-8fb2-a2622fc794ea",
+    "keep_name": "Li Shan",
+    "dupe_id": "9f64b7e4-9ab4-48e8-9119-55a0ca59e32c",
+    "dupe_name": "Li Can",
+    "decision": "keep_separate",
+    "reasoning": "중국 화가 관례상 서로 다른 인물로 추정"
+  },
+  {
+    "keep_id": "e7a8928b-dfea-408e-941e-eded247906e4",
+    "keep_name": "Cornelis van Dalen",
+    "dupe_id": "4a9aafcf-d89d-4613-bd5e-520cdd899994",
+    "dupe_name": "Cornelis van Jagen",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "b1ab6119-a912-41ea-a229-01e05dd2b538",
+    "keep_name": "Chen Wu",
+    "dupe_id": "2ec700d6-1d68-48a9-8ecf-696301c6cffd",
+    "dupe_name": "Chen Qi",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "6550f82d-a66d-4b42-8504-efb811182ac9",
+    "keep_name": "Arthur F. Kales",
+    "dupe_id": "bb12df1e-c9db-4e75-8c65-f6b1d5118d4a",
+    "dupe_name": "Arthur B. Carles",
+    "decision": "keep_separate",
+    "reasoning": "둘 다 실존: Arthur Kales(사진가)와 Arthur B. Carles(화가)"
+  },
+  {
+    "keep_id": "e2300eed-26f9-4367-934d-5b15543b882f",
+    "keep_name": "Josef Lauer",
+    "dupe_id": "54f7b3e2-2059-4d2e-a588-4517a1014a14",
+    "dupe_name": "Josef Bayer",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "76001783-118a-4e7f-adfb-e74feabe46e4",
+    "keep_name": "Frank Moore",
+    "dupe_id": "f5bc9b55-f450-44f8-99d4-83995b1a0918",
+    "dupe_name": "Frank Majore",
+    "decision": "keep_separate",
+    "reasoning": "둘 다 실존: Frank Moore(화가)와 Frank Majore(사진가)"
+  },
+  {
+    "keep_id": "8ffeae2b-36b0-4bc1-9638-26e0ddfbef2b",
+    "keep_name": "Otto Nagel",
+    "dupe_id": "3dc99aba-c814-4e38-bf2b-9ad4762fed0d",
+    "dupe_name": "Otto Nebel",
+    "decision": "keep_separate",
+    "reasoning": "둘 다 실존 독일 작가로 별개 인물(Otto Nagel, Otto Nebel)"
+  },
+  {
+    "keep_id": "e1c948fa-9052-4867-b2a6-88252394bcf5",
+    "keep_name": "Simon Morris",
+    "dupe_id": "5f4c4c7d-b6bf-449f-8de1-313c44f79260",
+    "dupe_name": "Simon Maris",
+    "decision": "keep_separate",
+    "reasoning": "Simon Maris는 마리스 화가 가문의 실존 인물; Morris는 다른 성씨"
+  },
+  {
+    "keep_id": "3fc625dd-fe41-468a-af99-5946040c96a8",
+    "keep_name": "Bernhard Keil",
+    "dupe_id": "63619a89-04d9-475d-8baf-007709d2bb6b",
+    "dupe_name": "Bernhard Klein",
+    "decision": "keep_separate",
+    "reasoning": "Bernhard Keil은 덴마크-이탈리아 화가; Klein은 다른 인물"
+  },
+  {
+    "keep_id": "d70f5171-b312-4422-8815-d4be7f792fe9",
+    "keep_name": "Tai Dam",
+    "dupe_id": "243ae681-41b6-447d-a70b-f29fa67a3de9",
+    "dupe_name": "Tai Lao",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "4106f0aa-b085-450b-a986-4974f3304040",
+    "keep_name": "Mary Sully",
+    "dupe_id": "809ae4df-34b9-489a-b9b3-80647e231b0a",
+    "dupe_name": "Mary Kelly",
+    "decision": "keep_separate",
+    "reasoning": "둘 다 저명하나 별개: Mary Sully(원주민 예술가)와 Mary Kelly(개념미술가)"
+  },
+  {
+    "keep_id": "04e2809a-9964-4b01-b231-1101371b459f",
+    "keep_name": "Fred Cress",
+    "dupe_id": "44f517f0-f790-4e86-a93d-1e4f98c0f198",
+    "dupe_name": "Fred Ross",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "ca0f83fa-2441-4bfc-95da-a3b8e88a73bb",
+    "keep_name": "Paolo Caliari, dit Veronese",
+    "dupe_id": "d7a437c1-7b9b-465d-9273-1be302cfe672",
+    "dupe_name": "Paolo Caliari il Veronese",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "11c156bb-6227-42b5-a462-9af303009845",
+    "keep_name": "I. W. Taber",
+    "dupe_id": "807a1038-8c73-4ae1-9c49-d06b08b9ccb7",
+    "dupe_name": "I. H. Hamer",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "381fd4a6-4931-4291-adc6-30602cb2450d",
+    "keep_name": "Dorothy Hood",
+    "dupe_id": "e144f831-02e2-4018-ba94-1ff9e696ba02",
+    "dupe_name": "Dorothy Bond",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "c686e631-c39b-4bfe-83c0-325e5940ff6a",
+    "keep_name": "Philippe Morel",
+    "dupe_id": "419bcec6-cecf-405a-814e-aff644efa2c5",
+    "dupe_name": "Philippe Mora",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "06fbe352-a4a0-4b78-ae86-f258cfe100b9",
+    "keep_name": "Rosa Alba",
+    "dupe_id": "23f54ae3-4ef2-4d73-a46c-bf2446820b26",
+    "dupe_name": "Rosa Barba",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "0c140900-21e4-4c22-a046-946aab56122e",
+    "keep_name": "Cor. Jansen",
+    "dupe_id": "506164e7-95aa-4185-9480-025f4e9f5375",
+    "dupe_name": "Cor. Janssens",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "08d7085e-f17d-4009-843c-fb8b04ad9801",
+    "keep_name": "Mstislav Dobuzhinsky",
+    "dupe_id": "982885ef-f799-418b-8cd5-3cf839e09ece",
+    "dupe_name": "Mstislav Dobuzhinskii",
+    "decision": "merge",
+    "reasoning": "동일 인물 음역 변형"
+  },
+  {
+    "keep_id": "fca79ecb-d785-4f5f-aae1-eaa6d6027e1c",
+    "keep_name": "Pietro Novelli",
+    "dupe_id": "1c05e8dd-7aa8-4df1-9dc5-d987d85c74dc",
+    "dupe_name": "Pietro Roselli",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "714d38b9-5638-47b1-aa40-9eb78b8e90bb",
+    "keep_name": "Stanisław Kamocki",
+    "dupe_id": "c5023eeb-f6b6-4953-9165-a63cd5815e35",
+    "dupe_name": "Stanisław Jarocki",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "dc6019d7-1316-41b5-8dda-ec20ab908a54",
+    "keep_name": "Otto Eglau",
+    "dupe_id": "53e6eddf-e5ce-4058-9064-bbe669717374",
+    "dupe_name": "Otto Grau",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "806cce9b-6b83-4c7f-ada8-f4e631dd0a5d",
+    "keep_name": "Ernest Kees",
+    "dupe_id": "122863cc-15ea-4917-988f-96c980e2c376",
+    "dupe_name": "Ernest Knee",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "1baf8b6f-a99e-4991-a898-10afdc4a7675",
+    "keep_name": "Fritz Luckhardt",
+    "dupe_id": "0c0bb6b8-03b3-4622-90a0-9d5927f946a0",
+    "dupe_name": "Fritz Burkhardt",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "c1d7a355-ce3b-43cb-8a75-e7d85651d205",
+    "keep_name": "Bernard de Hoog",
+    "dupe_id": "dbc0440c-4a24-489c-957c-5d193a9ad1af",
+    "dupe_name": "Bernard de Jong",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "3cb703ae-0246-465f-ab6a-f9147237d8a8",
+    "keep_name": "Max Buri",
+    "dupe_id": "669b0e42-66cb-46ea-a601-8c21850196f9",
+    "dupe_name": "Max Bude",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "f618ce7b-e435-4db7-a281-0e77beaa4c24",
+    "keep_name": "Bob Hanf",
+    "dupe_id": "03468e3d-a768-4086-96b3-991b71ea01d5",
+    "dupe_name": "Bob Kane",
+    "decision": "keep_separate",
+    "reasoning": "Bob Kane은 배트맨 창작자로 완전히 다른 유명인"
+  },
+  {
+    "keep_id": "b94e4dbc-4373-419d-8b43-e7b7048dab1f",
+    "keep_name": "Mabel Juli",
+    "dupe_id": "c86143d4-57ea-4f57-aaee-0940be142f4a",
+    "dupe_name": "Mabel Rubli",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "3de5a30f-e51f-4b19-8e32-a74265312138",
+    "keep_name": "Dusacq et Cie.",
+    "dupe_id": "d11767fc-38ea-42cb-b06b-9250fd80b063",
+    "dupe_name": "Dusacq & Cie.",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(company_suffix) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "3e368626-4344-44cb-aec0-67e5b278c957",
+    "keep_name": "Partridge, John Bernard (Sir RI)",
+    "dupe_id": "dce540d4-40a3-49a7-97a2-6a7d672222f3",
+    "dupe_name": "Partridge, John Bernard RI (Sir)",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "5aacaa04-fef5-44e1-ab83-fc78bfc2dcf3",
+    "keep_name": "Maria Olsen",
+    "dupe_id": "9a9f46c9-0660-4a72-8ae3-e7609478ba4c",
+    "dupe_name": "Maria Roosen",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "2635a914-7494-438f-9dc3-c1dfe60ef916",
+    "keep_name": "Samson & Co.",
+    "dupe_id": "77d5a0ec-375a-48e4-9065-13a68355fe7c",
+    "dupe_name": "Samson & Cie.",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(company_suffix) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "960e60f9-89df-4c56-9296-1a1e2d33aabd",
+    "keep_name": "Francis Alÿs",
+    "dupe_id": "ffb63f7b-d2f5-4d3f-8deb-c679dc9b0549",
+    "dupe_name": "Francis Hals",
+    "decision": "keep_separate",
+    "reasoning": "Francis Alÿs(유명 현대미술가)와 무관, 오히려 'Frans Hals'의 영어식 오표기일 가능성 - Alÿs 그룹에 병합하는 것은 부적절"
+  },
+  {
+    "keep_id": "4a80df1c-81cf-4313-a004-dd65cfd1a310",
+    "keep_name": "Ludolf Bakhuysen",
+    "dupe_id": "4ac0cd74-fbc6-45f8-8243-96ceb9b9c3d1",
+    "dupe_name": "Ludolf Backhuyzen",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "e5dda77c-ab7e-4f42-b6cb-7b1826968ec0",
+    "keep_name": "La Hire",
+    "dupe_id": "6d028815-1838-412a-8ac2-620407be9dbc",
+    "dupe_name": "la Chine",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "0a198ce8-7d77-4074-b1f6-18fa315796b5",
+    "keep_name": "Lü Ji",
+    "dupe_id": "86e16a27-a9e1-4c71-85f2-4d59ad277785",
+    "dupe_name": "Lu Wei",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "587d1699-3440-4fd3-9b5f-9fc27be149b9",
+    "keep_name": "Q. Brekelenkamp",
+    "dupe_id": "c91b64d1-50f9-47cc-b7d3-00725a84adf5",
+    "dupe_name": "Q. Breekelekamp",
+    "decision": "merge",
+    "reasoning": "동일 인물 Quiringh van Brekelenkam 철자변형"
+  },
+  {
+    "keep_id": "ec8ae5ca-817f-4b31-851f-e7fdee778e94",
+    "keep_name": "Michel Ange",
+    "dupe_id": "60d6724d-9b29-4454-8a02-8b65f3b7c155",
+    "dupe_name": "Michel Angelo",
+    "decision": "merge",
+    "reasoning": "미켈란젤로의 프랑스어/영어 혼용 표기"
+  },
+  {
+    "keep_id": "28843866-b7de-4f48-b17e-d46b0cc755ca",
+    "keep_name": "Heinrich Schmidt",
+    "dupe_id": "cb292124-0028-40bb-b81f-7f265ac7c19a",
+    "dupe_name": "Heinrich Schlitt",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "e08e1db8-e46d-4d6d-9b71-9c466ac059a0",
+    "keep_name": "Old Wyck",
+    "dupe_id": "140dc751-c65a-4c3b-851f-2d66720da9e8",
+    "dupe_name": "Old Wyke",
+    "decision": "merge",
+    "reasoning": "'Old Wyck' 별명의 동일 인물(Thomas Wyck) 철자변형"
+  },
+  {
+    "keep_id": "e168034f-ae46-4cf0-bca6-a8c25a991df6",
+    "keep_name": "Raymond de Lafage",
+    "dupe_id": "b2ce3b74-a933-417e-8df3-6c30ee7d4da4",
+    "dupe_name": "Raymond la Fage",
+    "decision": "merge",
+    "reasoning": "동일 인물(Raymond Lafage) 표기 변형"
+  },
+  {
+    "keep_id": "bf50a952-c762-4e86-bfae-b004ea487624",
+    "keep_name": "Phil. Wouvermans",
+    "dupe_id": "e86c702e-d211-4033-851b-d4cc98efb8a2",
+    "dupe_name": "Phil. Wauwermans",
+    "decision": "merge",
+    "reasoning": "동일 화가 Philips Wouwerman 철자변형"
+  },
+  {
+    "keep_id": "8c67aa4f-bf0d-473a-bb97-aa3e16af9187",
+    "keep_name": "Max Schödl",
+    "dupe_id": "72ef2325-8586-45ad-88ec-d2b1c2aef5e9",
+    "dupe_name": "Max Scholz",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "51c77c02-6c45-42dd-8ad3-a5229c4b78c8",
+    "keep_name": "Barthelemi Schiedon",
+    "dupe_id": "fedd198d-1484-4afb-b3df-3688ef24aa3f",
+    "dupe_name": "Barthélemi Schidone",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "714f15a1-fb62-4c39-b7df-d262225825c8",
+    "keep_name": "Balthasar van den Bossche",
+    "dupe_id": "bd03f8a1-44c5-4455-bd15-e1060f034b0b",
+    "dupe_name": "Balthasar van den Bosch",
+    "decision": "merge",
+    "reasoning": "동일 화가 성씨 축약 표기"
+  },
+  {
+    "keep_id": "36ade7f2-820d-41a7-8c1e-71e227dbac5c",
+    "keep_name": "Hasegawa Settei",
+    "dupe_id": "64a55b80-5776-4061-870c-ffb47a6bd4f9",
+    "dupe_name": "Hasegawa Settan",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "b4db5bbf-b756-4f9b-a105-9e96870f9dd2",
+    "keep_name": "Niederrhein um 1500",
+    "dupe_id": "6583c8f9-f558-4ff8-a3c2-71e935454f46",
+    "dupe_name": "Niederrhein, um 1480",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "72c58dfa-ca18-4a89-a151-dea47cd491f0",
+    "keep_name": "Peeter Snijers",
+    "dupe_id": "9e67df68-11ad-42df-a5ad-871577b2bb75",
+    "dupe_name": "Peeter Snayers",
+    "decision": "merge",
+    "reasoning": "동일 화가 Pieter Snayers 철자변형"
+  },
+  {
+    "keep_id": "8d3f1da9-8a4a-4b04-8e44-692bf11bba40",
+    "keep_name": "Zhu Da",
+    "dupe_id": "a3772f57-0b64-4edb-affc-461f6fd3d8ba",
+    "dupe_name": "Zhu Duan",
+    "decision": "keep_separate",
+    "reasoning": "Zhu Da(팔대산인)는 매우 유명한 청대 화가; Zhu Duan은 명대의 다른 화가"
+  },
+  {
+    "keep_id": "306bd0c1-3fb3-4b63-b5cf-63b82ab20382",
+    "keep_name": "Sir Anthony More",
+    "dupe_id": "8c68828a-7d00-489f-bd06-2bcb8f3287e2",
+    "dupe_name": "Sir Anthony Moor",
+    "decision": "merge",
+    "reasoning": "동일 인물 안토니스 모르 경의 표기 변형"
+  },
+  {
+    "keep_id": "ff57d6c0-13f9-440f-bfc7-4abeec73595e",
+    "keep_name": "Emile Bernard",
+    "dupe_id": "6262ac21-0b93-4582-818f-289c4c31b7f9",
+    "dupe_name": "Emile Béchard",
+    "decision": "keep_separate",
+    "reasoning": "웹서치로 확인: Émile Béchard(1844-)는 독립 문서화된 실존 이집트 사진가. Emile Bernard(프랑스 후기인상주의 화가, 고갱/반고흐의 동료)와 완전히 다른 인물."
+  },
+  {
+    "keep_id": "81cd0c6a-f16b-4bb5-9b10-b68a6f5eeb85",
+    "keep_name": "Barbara Rossi",
+    "dupe_id": "a699118b-7424-45d3-ab0a-9652ec1f0423",
+    "dupe_name": "Barbara Rose",
+    "decision": "keep_separate",
+    "reasoning": "역할이 다른 별개 인물: Barbara Rossi(시카고 이미지스트 화가)와 Barbara Rose(평론가/큐레이터)"
+  },
+  {
+    "keep_id": "451ea5a6-a5d3-49a7-adb4-0ae49ddd22ad",
+    "keep_name": "Frans Hals",
+    "dupe_id": "cd5d8f66-98a4-4529-bf2c-cfc04f952e1e",
+    "dupe_name": "Frans Nols",
+    "decision": "keep_separate",
+    "reasoning": "Frans Hals는 매우 유명한 17세기 거장; Nols는 확인되지 않는 별개 성씨"
+  },
+  {
+    "keep_id": "4ccf54f5-e9c4-415b-baed-4e0a2ce20cb0",
+    "keep_name": "Kawanabe Kyōsai",
+    "dupe_id": "d1f875de-f1f5-42ef-9941-5223a32a84d3",
+    "dupe_name": "Kawanabe Kyо̄sui",
+    "decision": "keep_separate",
+    "reasoning": "가와나베 교사이와 그의 딸 교스이는 별도로 문서화된 인물"
+  },
+  {
+    "keep_id": "b7e83aac-cc35-47ec-94d5-d357f7641a30",
+    "keep_name": "Tom Roberts",
+    "dupe_id": "023b4c24-23c2-4e57-9443-f001f3b9daf7",
+    "dupe_name": "Tom Robertson",
+    "decision": "keep_separate",
+    "reasoning": "Tom Roberts는 호주 헤이델베르크파 거장; Robertson은 다른 성씨"
+  },
+  {
+    "keep_id": "8bfed85b-54bd-40fd-8af5-2f4575252d93",
+    "keep_name": "Otto van Veen",
+    "dupe_id": "17fc9b3d-00c5-4d42-8af1-7113cd36a5e4",
+    "dupe_name": "Otto van Rees",
+    "decision": "keep_separate",
+    "reasoning": "완전히 다른 시대: Otto van Veen(16세기, 루벤스의 스승)과 Otto van Rees(20세기 다다이즘)"
+  },
+  {
+    "keep_id": "20060baa-b1bb-4781-bcac-0b21c6d1b6b3",
+    "keep_name": "Roger Vieillard",
+    "dupe_id": "1c38a78d-73a9-426a-8d64-79ee2ef3cccf",
+    "dupe_name": "Roger Vuillard",
+    "decision": "uncertain",
+    "reasoning": "Roger Vieillard(판화가)와 Vuillard 혼동 가능성 있으나 확인 안 됨"
+  },
+  {
+    "keep_id": "3b45f2f0-d05a-4bdb-9580-22782f527d3c",
+    "keep_name": "Bakhuizen, Ludolf",
+    "dupe_id": "cdb60017-23d5-49c2-99eb-629ed9cd45c8",
+    "dupe_name": "Bakhuizen (Ludolph)",
+    "decision": "merge",
+    "reasoning": "동일 화가 형식 변형"
+  },
+  {
+    "keep_id": "1147101c-a7a1-4170-9d2b-40fea9525af5",
+    "keep_name": "Breughel de Velours",
+    "dupe_id": "1b8381bd-3d7f-4d07-958a-bc8946f89b4a",
+    "dupe_name": "Breughel de Vlour",
+    "decision": "merge",
+    "reasoning": "'벨벳 브뤼헐' 별명 철자변형"
+  },
+  {
+    "keep_id": "b3ca77ef-8b1a-4ce1-a151-cc4b02fd2e8e",
+    "keep_name": "Emanuel de Witte",
+    "dupe_id": "78af008c-06bc-41de-ab56-8d9f156bd1fd",
+    "dupe_name": "Emanuel De Wit",
+    "decision": "merge",
+    "reasoning": "동일 화가 축약 표기 변형"
+  },
+  {
+    "keep_id": "f09331e4-4376-4bf9-b78e-c3bfc4405cee",
+    "keep_name": "Bernard Cohen",
+    "dupe_id": "33eca6a7-ad01-4de2-8e26-9253b0d2d15d",
+    "dupe_name": "Bernard Kohn",
+    "decision": "keep_separate",
+    "reasoning": "Bernard Cohen은 실존 영국 추상화가; Kohn은 다른 인물"
+  },
+  {
+    "keep_id": "97f0eef8-a9b8-45e7-9661-2aaabc0cf618",
+    "keep_name": "Xu Bing",
+    "dupe_id": "9dd0eca6-d5f2-4bc5-a8fe-3d61c55ace8a",
+    "dupe_name": "Xu Fang",
+    "decision": "keep_separate",
+    "reasoning": "Xu Bing은 매우 유명한 현대 중국 미술가; Fang은 다른 인물"
+  },
+  {
+    "keep_id": "7f3b9f4f-b885-4d1b-be06-f04aa851af80",
+    "keep_name": "Wilson, Eva",
+    "dupe_id": "318df196-70e9-450f-b2de-943b139d9f0d",
+    "dupe_name": "Wilson, Emma",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "bb254078-a1de-42fe-982e-8b1ff8db0989",
+    "keep_name": "Hendrikus IJkelenstam",
+    "dupe_id": "4c3ae907-f884-4982-bb35-9307a9e596d2",
+    "dupe_name": "Hendrikus Ykelenstam",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "9b63ec7d-526d-4e83-b882-e2f5ea353090",
+    "keep_name": "Joe Zucker",
+    "dupe_id": "abee3784-4d19-4c86-a661-e70b00577c31",
+    "dupe_name": "Joe Zirker",
+    "decision": "keep_separate",
+    "reasoning": "Joe Zucker는 실존 미국 화가; Zirker는 다른 인물"
+  },
+  {
+    "keep_id": "9e64e050-84b8-4f24-9f7d-96090ecaae06",
+    "keep_name": "Zhang Yu",
+    "dupe_id": "61a4fad2-baca-4726-94ca-cc3e9e03b231",
+    "dupe_name": "Zhang Wo",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "fc9e192d-86c7-464a-986e-3b52e7f4deee",
+    "keep_name": "Dominique Zampieri dit le Dominiquain",
+    "dupe_id": "1e9369e6-a67e-4386-8016-8f5658ece3b1",
+    "dupe_name": "Dominique Zampieri, dit le Dominicain",
+    "decision": "merge",
+    "reasoning": "'도메니키노' 별명 표기 변형"
+  },
+  {
+    "keep_id": "75ef929f-7cd4-4649-be90-d8dc90b4ded5",
+    "keep_name": "Roger Vail",
+    "dupe_id": "a0034102-3b0a-4de8-869d-bcb9c4aea93f",
+    "dupe_name": "Roger Weil",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "1ebc6a69-dce3-4276-8d55-c2dd7829bb30",
+    "keep_name": "André Marty",
+    "dupe_id": "54a2acb4-e6b5-4129-a640-85133fb0267c",
+    "dupe_name": "André Maury",
+    "decision": "keep_separate",
+    "reasoning": "André Marty는 실존 프랑스 삽화가; Maury는 다른 인물"
+  },
+  {
+    "keep_id": "d41f1681-647b-4cb2-ae43-885701cc2e28",
+    "keep_name": "Geoffrey James",
+    "dupe_id": "d5d30682-947e-4986-889b-c88422cecb60",
+    "dupe_name": "Geoffrey Jones",
+    "decision": "keep_separate",
+    "reasoning": "Geoffrey James는 실존 캐나다 사진가; Jones는 다른 인물"
+  },
+  {
+    "keep_id": "a9653fdb-bd22-4e84-b34e-580b3bdae91e",
+    "keep_name": "Frederik Willem Zürcher",
+    "dupe_id": "17bc7b42-e136-49f0-a78d-df7ab85e147f",
+    "dupe_name": "Frederik William Zurcher",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "eb858439-d0ef-472e-8aa6-6792ac211a0d",
+    "keep_name": "Giacomo Balla",
+    "dupe_id": "473979d7-6f4a-4d8a-935d-ebf9f1ef0d72",
+    "dupe_name": "Giacomo Palma",
+    "decision": "keep_separate",
+    "reasoning": "Giacomo Balla는 저명 미래주의 화가; Palma(팔마 일 조바네 등)는 다른 인물"
+  },
+  {
+    "keep_id": "02215914-4cf8-43da-935f-9f18b2aeb145",
+    "keep_name": "Anton Hansch",
+    "dupe_id": "01794c9c-66f8-4b9e-9ef7-a4d944b9cf05",
+    "dupe_name": "Anton Hähnisch",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "7c050a7d-74c0-4ad0-8755-de321d0f3999",
+    "keep_name": "Keirincx, Alexander",
+    "dupe_id": "e9db5cc1-d5be-4908-8f5b-d3909c151a98",
+    "dupe_name": "Keirincx, Alexandre",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "17e04249-7ab3-4d9b-8fb2-a2622fc794ea",
+    "keep_name": "Li Shan",
+    "dupe_id": "7f62fe7e-f3ba-49ac-809d-8ea42e604967",
+    "dupe_name": "Li Jian",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "830b0e10-eada-41fc-897b-1d3204426ecc",
+    "keep_name": "Douglas Gordon",
+    "dupe_id": "a3648868-00de-4285-9a58-066d79c15a3a",
+    "dupe_name": "Douglas Morton",
+    "decision": "keep_separate",
+    "reasoning": "Douglas Gordon은 유명 스코틀랜드 현대미술가(터너상 수상); Morton은 다른 인물"
+  },
+  {
+    "keep_id": "607cc6de-6951-4bce-b473-f0bc94722f67",
+    "keep_name": "Morris, Carl",
+    "dupe_id": "6c4078c9-a251-4d97-b14f-3e5bcb38f69f",
+    "dupe_name": "Morris, Mary",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "933bd7c1-5214-44fe-9c30-de535f601cce",
+    "keep_name": "Mayer & Pierson",
+    "dupe_id": "f18d92d9-5fb2-48f4-b49b-e5efbf9a32ab",
+    "dupe_name": "Mayer et Pierson",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "63ebfd9f-fb44-4058-ab1c-08994645fb09",
+    "keep_name": "Johan Teyler",
+    "dupe_id": "d84c32f4-5656-494b-94e2-641b363e5269",
+    "dupe_name": "Johan Keller",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "72986a05-81fe-478c-af2b-6deff986e0a2",
+    "keep_name": "Heinrich Meyer",
+    "dupe_id": "29090296-ae83-4353-983a-9051e0918e97",
+    "dupe_name": "Heinrich Weber",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "14831d37-9b18-46ef-81db-e3d3ca3b8d09",
+    "keep_name": "Vander Velde",
+    "dupe_id": "7b199895-352b-4d28-991e-a77b16f41e9a",
+    "dupe_name": "Vander Venne",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "46b725cc-af99-450d-b8ab-50624212f75e",
+    "keep_name": "Wolf Kahn",
+    "dupe_id": "2b076068-2757-40b2-8e98-bd58922c6305",
+    "dupe_name": "Wolf Karl",
+    "decision": "keep_separate",
+    "reasoning": "Wolf Kahn은 유명 미국 풍경화가; Karl은 다른 인물"
+  },
+  {
+    "keep_id": "3b69f164-f2c5-412a-a788-0a8b16e4f125",
+    "keep_name": "Chen Chun",
+    "dupe_id": "1ccc958a-fde3-4471-a960-4d5b5ae14801",
+    "dupe_name": "Chen Huan",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "4e2c90e4-1cd7-446d-9190-d7cb8da53fbf",
+    "keep_name": "Mrs. Beale",
+    "dupe_id": "da77daba-9cd1-4bd8-a111-0aaf01dc5633",
+    "dupe_name": "Mrs. Bell",
+    "decision": "keep_separate",
+    "reasoning": "Mary Beale은 유명 17세기 영국 초상화가; Bell은 다른 인물"
+  },
+  {
+    "keep_id": "b70aa660-1977-4cfa-a0fe-f9a74e1e19ac",
+    "keep_name": "Velvet Breughel",
+    "dupe_id": "987ea299-5be6-4f42-b3b4-767f6ff53206",
+    "dupe_name": "Velvet Brueghel",
+    "decision": "merge",
+    "reasoning": "동일 화가 가문 성씨 철자변형(Breughel/Brueghel)"
+  },
+  {
+    "keep_id": "0fee125a-052b-410f-b414-2835e9988be7",
+    "keep_name": "Friedrich Dürer",
+    "dupe_id": "463379cc-0782-40ac-bb05-3e2cfbdc7d4a",
+    "dupe_name": "Friedrich Dürck",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "addf585a-6365-42e7-9479-d62dad955cfc",
+    "keep_name": "Susan Derges",
+    "dupe_id": "3df149e3-b345-499f-be74-2191f7d3e2db",
+    "dupe_name": "Susan Berger",
+    "decision": "keep_separate",
+    "reasoning": "Susan Derges는 실존 영국 사진가; Berger는 다른 인물"
+  },
+  {
+    "keep_id": "2db7cd59-1257-4cf3-9cd8-99936507009b",
+    "keep_name": "Nicolas Régnier",
+    "dupe_id": "918d344e-93a7-4e8a-ba1e-a549722d1f29",
+    "dupe_name": "Nicolas Besnier",
+    "decision": "keep_separate",
+    "reasoning": "Nicolas Régnier는 실존 플랑드르-이탈리아 카라바지스티 화가; Besnier는 다른 인물"
+  },
+  {
+    "keep_id": "4f6fbb92-bab5-463b-84b0-b635841d5330",
+    "keep_name": "Lucas Jordane",
+    "dupe_id": "75516088-e291-4b00-8211-33152fd35c4b",
+    "dupe_name": "Lucas Jordaens",
+    "decision": "keep_separate",
+    "reasoning": "중요: 'Jordane'(지오르다노 계열 표기)과 'Jordaens'(야콥 요르단스, 별개의 저명 플랑드르 화가)는 다른 인물"
+  },
+  {
+    "keep_id": "dd142d17-011b-47ce-a054-d04ac2fc4177",
+    "keep_name": "ein guter niederländischer Meister",
+    "dupe_id": "94ed7f72-946c-4163-bd30-1530b5ec8b7c",
+    "dupe_name": "ein alter niederländischer Meister",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "ea15c749-bcd2-4e9b-9fd6-2fe3654b0989",
+    "keep_name": "Adriaen de Grijef",
+    "dupe_id": "686b3452-37e7-4270-8321-7ae89a08e5eb",
+    "dupe_name": "Adriaen de Gryef",
+    "decision": "merge",
+    "reasoning": "동일 플랑드르 화가 철자변형"
+  },
+  {
+    "keep_id": "a644f2e9-6a26-4fd4-a76f-1e5b11704965",
+    "keep_name": "Alan Turner",
+    "dupe_id": "d0e4556d-228d-42ee-a565-422e115c95a2",
+    "dupe_name": "Alan Sumner",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "240ae000-c445-423f-9da5-8796fe24d5e5",
+    "keep_name": "Dirk Koedijck",
+    "dupe_id": "472ad628-9d16-4b01-b1b0-21821a3efca0",
+    "dupe_name": "Dirk Koedyck",
+    "decision": "merge",
+    "reasoning": "동일 화가 철자변형"
+  },
+  {
+    "keep_id": "789da061-a1d0-4c44-be1e-bdb751d900dd",
+    "keep_name": "Ulisse Aldrovandus",
+    "dupe_id": "1d39acc9-815d-4c47-8306-e6423dcff6ae",
+    "dupe_name": "Ulisse Aldrovandi",
+    "decision": "merge",
+    "reasoning": "동일 박물학자 라틴어/이탈리아어 표기"
+  },
+  {
+    "keep_id": "535722cc-24bc-4fdf-98ad-901571a70656",
+    "keep_name": "Guo Xi",
+    "dupe_id": "079f34a7-1c8e-481e-beac-e7cbe051f67f",
+    "dupe_name": "Guo Min",
+    "decision": "keep_separate",
+    "reasoning": "Guo Xi는 송대의 매우 저명한 거장; Guo Min은 다른 인물"
+  },
+  {
+    "keep_id": "33c61af1-d291-43e2-b742-6de3ac846e38",
+    "keep_name": "Huang Yan",
+    "dupe_id": "851ba1a1-da7a-44fa-9071-73db60d7b21f",
+    "dupe_name": "Huang Quan",
+    "decision": "keep_separate",
+    "reasoning": "Huang Quan은 오대십국 시대 저명 화가; Huang Yan은 다른 인물"
+  },
+  {
+    "keep_id": "33c61af1-d291-43e2-b742-6de3ac846e38",
+    "keep_name": "Huang Yan",
+    "dupe_id": "94444d6b-fcc0-42ab-bc9a-13afcc5b9e08",
+    "dupe_name": "Huang Yi",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "cafd16b7-ca2e-4aa4-81fe-791e192ed91d",
+    "keep_name": "Zacharias Blijhooft",
+    "dupe_id": "599483fd-4f74-4580-a8c9-2e50d454793f",
+    "dupe_name": "Zacharias Blyhooft",
+    "decision": "merge",
+    "reasoning": "동일 인물 철자변형"
+  },
+  {
+    "keep_id": "69e54624-691f-42b4-9223-b2c34bca0d99",
+    "keep_name": "Julian Hooper",
+    "dupe_id": "1a1e3f20-0bd8-433a-882a-1ca7b13aad07",
+    "dupe_name": "Julian Hoeber",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "ad13f51a-15e1-4225-8f40-a872d580a6e5",
+    "keep_name": "Eduard Steinberg",
+    "dupe_id": "551f1fa0-16c9-4178-8b93-2876923b5ad6",
+    "dupe_name": "Eduard Shteynberg",
+    "decision": "merge",
+    "reasoning": "동일 인물 Eduard Steinberg 음역 변형"
+  },
+  {
+    "keep_id": "23ad2be1-de92-4a39-8b45-6f4867bf8024",
+    "keep_name": "Yuki Kimura",
+    "dupe_id": "43dd0932-33c9-4990-a380-f29a68d953f9",
+    "dupe_name": "Yuki Kihara",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "b4db5bbf-b756-4f9b-a105-9e96870f9dd2",
+    "keep_name": "Niederrhein um 1500",
+    "dupe_id": "f2a1a851-3cdc-4b7b-b679-f6303888c968",
+    "dupe_name": "Niederrhein, um 1490",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "4df2b9de-a1ba-48ce-a985-da41ccdf09fb",
+    "keep_name": "Giuseppe Guzzi",
+    "dupe_id": "c5adabcd-e1a1-40c9-b8e2-b98ae66fdc44",
+    "dupe_name": "Giuseppe Cozzi",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "26b529a6-e9f6-4491-9937-3e40c9d73f94",
+    "keep_name": "Edwin Vazquez",
+    "dupe_id": "1bf961c9-9d4d-47ac-9a45-548e0bdf8a98",
+    "dupe_name": "Edwin Vazkez",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "0aad372f-2a37-4abf-8f1a-9c37b414dc83",
+    "keep_name": "Vladimir Makovsky",
+    "dupe_id": "fe152145-a456-4663-8ef5-5f0169e8be29",
+    "dupe_name": "Vladimir Mayakovsky",
+    "decision": "keep_separate",
+    "reasoning": "중요: Vladimir Makovsky(러시아 사실주의 화가)와 Vladimir Mayakovsky(러시아 시인)는 이름이 우연히 비슷할 뿐 완전히 다른 저명 인물"
+  },
+  {
+    "keep_id": "e96cbbf2-d47b-44ef-8809-b68bfb5cf57a",
+    "keep_name": "Aug. Carrache",
+    "dupe_id": "c50038e4-0db7-45ff-a0a6-5fe837e1483b",
+    "dupe_name": "Aug. Carracci",
+    "decision": "merge",
+    "reasoning": "아고스티노 카라치 약칭 표기 변형"
+  },
+  {
+    "keep_id": "11b81ea8-4c51-439a-8534-7289b6317ec8",
+    "keep_name": "Fred Koot",
+    "dupe_id": "eb779116-833a-4806-bd69-d06dd965be30",
+    "dupe_name": "Fred Korth",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "485e80ee-08e7-4613-8ab1-7a96a17a2352",
+    "keep_name": "Anton Altmann",
+    "dupe_id": "3c324563-e2e5-447d-8781-7b8e50c0b803",
+    "dupe_name": "Anton Hallmann",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "da06de36-eea6-45cb-9bb9-f55407ca3ee0",
+    "keep_name": "Heinrich Dreber",
+    "dupe_id": "0c8cc382-89ce-44db-9a13-a81d9003980d",
+    "dupe_name": "Heinrich Graber",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "194e752f-17e4-4c8f-9ac2-d2c38f9a32e4",
+    "keep_name": "Egbert Hemskerck",
+    "dupe_id": "8375124e-1dcc-4a8f-80c0-a16ac79374c4",
+    "dupe_name": "Egbert Heemskerk",
+    "decision": "merge",
+    "reasoning": "동일 화가 가문 철자변형"
+  },
+  {
+    "keep_id": "57d6b4fd-05aa-4fd4-b9d5-98b33242ed88",
+    "keep_name": "Calligrapher: Shen Hu",
+    "dupe_id": "a0c1cfdc-cc57-4922-a89b-d8d50624c941",
+    "dupe_name": "Calligrapher: Zheng Mu",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "00ed126a-c3af-43ad-9a9d-ac88c76211cf",
+    "keep_name": "Mary Miss",
+    "dupe_id": "0ba9a8eb-6ccb-4f3f-a3ca-6e25c2964b3b",
+    "dupe_name": "Mary Mito",
+    "decision": "keep_separate",
+    "reasoning": "Mary Miss는 유명 미국 랜드아트 작가; Mito는 다른 인물"
+  },
+  {
+    "keep_id": "10e74b5e-2344-47d8-b102-581cb91dccc4",
+    "keep_name": "Otto Schoff",
+    "dupe_id": "973bc8f5-7a8c-4dca-9c65-35e9a3a42b4b",
+    "dupe_name": "Otto Schön",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "3389f064-263c-45a0-9b68-3ffedd501775",
+    "keep_name": "Augustus Fay",
+    "dupe_id": "9ad64314-27cc-4dfa-b8d4-3ebdd8c48738",
+    "dupe_name": "Augustus Fox",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "cebe3ed3-cf2b-4a26-80c9-008a31602ff2",
+    "keep_name": "Sheng Mao",
+    "dupe_id": "244d0d30-71dc-4af2-8a68-5f5c6268e984",
+    "dupe_name": "Sheng Mou",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "b6e5aa32-836f-4ef1-8b7d-e8215181fa5f",
+    "keep_name": "Wang Fu",
+    "dupe_id": "6d3f9be0-cda5-4786-ad39-dd77b6b4eba0",
+    "dupe_name": "Wang E",
+    "decision": "keep_separate",
+    "reasoning": "둘 다 저명 명대 궁정화가로 별도 문서화된 다른 인물"
+  },
+  {
+    "keep_id": "cb25f106-fcb0-406f-8e44-ffef9a90a3e3",
+    "keep_name": "Xu Gu",
+    "dupe_id": "ae3bab68-684c-4fa1-987a-785b0e745825",
+    "dupe_name": "Xu Xi",
+    "decision": "keep_separate",
+    "reasoning": "둘 다 저명 중국 화가로 시대가 다름(오대 vs 근대)"
+  },
+  {
+    "keep_id": "e1125c1f-5467-4e1b-986a-9ded9f689d8f",
+    "keep_name": "Suzuki Nanrei",
+    "dupe_id": "4ed36e4a-fea4-4ce5-a5ae-c3ace2f589c0",
+    "dupe_name": "Suzuki Sansei",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "9aba821f-eda7-455b-b10b-862e8e88bf1d",
+    "keep_name": "Eugène Pirou",
+    "dupe_id": "b518b348-e5dd-4ac4-a434-47f849afbe01",
+    "dupe_name": "Eugène Piot",
+    "decision": "keep_separate",
+    "reasoning": "Eugène Pirou는 실존 프랑스 사진가; Piot는 다른 인물"
+  },
+  {
+    "keep_id": "c4f31b10-7eee-4633-a6a1-7809b8537391",
+    "keep_name": "Arthur Locker",
+    "dupe_id": "b01bc7e9-f712-4976-a79d-db374044673d",
+    "dupe_name": "Arthur Tucker",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "35dd94a3-6baa-46f9-ad19-dad6d9f9772b",
+    "keep_name": "Anton Hula",
+    "dupe_id": "02776a12-fb96-443d-be46-6c8547ab9b7a",
+    "dupe_name": "Anton Haala",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "709f50cc-5556-463c-b3fe-c5e12cf6ce13",
+    "keep_name": "Conrad Rooks",
+    "dupe_id": "d46dbf07-4760-49a8-aef5-ee3e2934cb30",
+    "dupe_name": "Conrad Cook",
+    "decision": "keep_separate",
+    "reasoning": "Conrad Rooks는 실존 미국 영화감독; Cook은 다른 인물"
+  },
+  {
+    "keep_id": "b3fe2f74-f0f9-4912-8d64-bb178ecc36b3",
+    "keep_name": "Calligrapher: Zeng Xi",
+    "dupe_id": "6a5fab19-ffd1-40f5-8bfb-1b0d9149bbea",
+    "dupe_name": "Calligrapher: Tang Di",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "c2589abf-c5c4-46a7-aa8b-e5f2457719e2",
+    "keep_name": "Dennis Rowan",
+    "dupe_id": "59a22e70-8a19-4e24-be30-013e6e25a52d",
+    "dupe_name": "Dennis Nolan",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "a5e98752-c6ce-4f18-9493-7de9d394dae1",
+    "keep_name": "Anton Fenz",
+    "dupe_id": "956ba27a-7394-4d28-ad1a-b9d1a59d2d18",
+    "dupe_name": "Anton Petz",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "7b3ce194-152d-45dc-b49c-62450f0eb114",
+    "keep_name": "Utagawa Kuninao",
+    "dupe_id": "a358a2e3-7aec-4284-9f02-966392108cec",
+    "dupe_name": "Utagawa Kunisato",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "81585d28-7651-4d44-a71d-a806d70ee283",
+    "keep_name": "Nicolas Pigné",
+    "dupe_id": "0028db90-e8e2-40ef-bdd5-b6ea7de296d3",
+    "dupe_name": "Nicolas Pinet",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "35910c3a-335f-4291-8fe4-8a45ec04ca15",
+    "keep_name": "Gerard Verdijk",
+    "dupe_id": "606cbaa1-6b03-42fb-addf-aa51c97c5d08",
+    "dupe_name": "Gerard Hordijk",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "a32ee28f-398a-4eaa-8281-024cfe016f4f",
+    "keep_name": "Alexandre Ken",
+    "dupe_id": "8e4e9271-e23a-47a5-88d2-93df5cfdbceb",
+    "dupe_name": "Alexandre Séon",
+    "decision": "keep_separate",
+    "reasoning": "Alexandre Séon은 실존 프랑스 상징주의 화가; Ken은 다른 인물"
+  },
+  {
+    "keep_id": "d85bcaab-9245-4812-bf13-3ae31d8e8370",
+    "keep_name": "Simon Braun",
+    "dupe_id": "0bbf7aaa-2ad7-433e-8bdb-482f7635347f",
+    "dupe_name": "Simon Baus",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "be46cbea-0199-4c8a-b63a-f3b85783c6a5",
+    "keep_name": "Ian Berry",
+    "dupe_id": "226d386b-bad4-46a8-8432-adb6f6d34529",
+    "dupe_name": "Ian Parry",
+    "decision": "keep_separate",
+    "reasoning": "Ian Berry는 매그넘 소속 유명 사진가; Parry는 다른 인물"
+  },
+  {
+    "keep_id": "a0108881-2763-4caa-a1f8-cf31a1adf7f2",
+    "keep_name": "Klaus Fußmann",
+    "dupe_id": "7f2859fb-9746-4afd-86e8-b1b953c61b99",
+    "dupe_name": "Klaus Fussmann",
+    "decision": "merge",
+    "reasoning": "동일 독일 화가 ß/ss 표기 변형"
+  },
+  {
+    "keep_id": "880e1681-8435-4f8c-b2dc-a8ad12127d4f",
+    "keep_name": "Jardin (Carle du)",
+    "dupe_id": "967d9b8c-8567-4102-a805-ca182313beca",
+    "dupe_name": "Jardin (Charles Du)",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "e92c9962-076a-4c28-a75c-9df01453b7ca",
+    "keep_name": "Preisler, Johann Daniel",
+    "dupe_id": "c3e8bb0b-4d0e-4406-b90b-8563805a3fee",
+    "dupe_name": "Preisler, Johannes Daniel",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "fce0ff06-b7f9-4551-b6ad-be4e6b297881",
+    "keep_name": "Claude Varin",
+    "dupe_id": "1f6bb454-34ea-45da-91ed-5034aeb185ce",
+    "dupe_name": "Claude Baron",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "1c5383bc-6c2d-4421-b279-4c8bd660a443",
+    "keep_name": "Pedro de Moya",
+    "dupe_id": "05abc226-8ef2-48bf-932e-52bf04816c70",
+    "dupe_name": "Pedro de Mena",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "052a0329-dac9-4e4f-8a19-84f97b3554f6",
+    "keep_name": "Veit Stoss",
+    "dupe_id": "dd11bed6-e1de-4f77-a296-49a6077ca96d",
+    "dupe_name": "Veit Stoß",
+    "decision": "merge",
+    "reasoning": "동일 조각가 Veit Stoß ß 표기 변형"
+  },
+  {
+    "keep_id": "992a6410-4fcf-45dc-90e8-aa2b308b7f27",
+    "keep_name": "Calligrapher: Tang Hong",
+    "dupe_id": "0e0f7b41-d38c-4024-8143-5210eb09d18c",
+    "dupe_name": "Calligrapher: Wang Ying",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "bb361621-a8c1-412a-9e4d-722b7e85c2e7",
+    "keep_name": "Herbert Cole",
+    "dupe_id": "83e4aed9-d510-4300-bc7b-aa54793afb19",
+    "dupe_name": "Herbert Rose",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "69244749-a18e-426f-8281-dcdc532446d8",
+    "keep_name": "Harper, Johann",
+    "dupe_id": "87ff5c1d-d87b-4105-bec4-81e3dd38bc63",
+    "dupe_name": "Harper, John",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "30e50814-f502-4dda-ae96-953f32370d26",
+    "keep_name": "Otto Hennig",
+    "dupe_id": "083fdb49-c6e4-44d6-86b1-65d1397f65ce",
+    "dupe_name": "Otto Herbig",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "29ba9eee-d347-4d7d-9f9c-7e26197c44e1",
+    "keep_name": "Philipp Helmer",
+    "dupe_id": "3147d6ae-98f7-4ac4-8053-70e22c276cb9",
+    "dupe_name": "Philipp Haller",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "951746c4-9437-4940-bdf6-c3df9a2a902f",
+    "keep_name": "Josef Achmann",
+    "dupe_id": "c782c707-68a7-4678-b86e-815dd85d7de7",
+    "dupe_name": "Josef Axmann",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "3148541e-349b-456d-a240-18a1b42e3f5e",
+    "keep_name": "Eduard Lange",
+    "dupe_id": "cc9efecf-a2a9-4843-b5c8-2039b4266267",
+    "dupe_name": "Eduard Daege",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "22cf5aec-a0d3-4244-9774-83b1a57204be",
+    "keep_name": "Marcus Amerman",
+    "dupe_id": "1b9d9918-3112-4d88-b18d-afa748356cfa",
+    "dupe_name": "Marcus Waterman",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "8bb873e4-5f10-4688-8869-e3f8b7ac546b",
+    "keep_name": "Ernst Adolf Meissner",
+    "dupe_id": "fbf8275e-fef0-43ec-9c0d-635e09b34d3c",
+    "dupe_name": "Ernst Adolph Meissner",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "c2374a53-5264-49e4-8d59-75a7bedc2d93",
+    "keep_name": "Engraver: Jacob Houbraken",
+    "dupe_id": "acf50671-c8ad-41b5-9f81-2655c68b067a",
+    "dupe_name": "Engraver: Jacobus Houbraken",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "8eaa3097-9cab-4880-a4e2-1b004b3e2fb3",
+    "keep_name": "Cole, Robert",
+    "dupe_id": "7980acf7-e2a5-4f8d-87bb-3d1c1e0e07ca",
+    "dupe_name": "Cole Rogers",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "f670bd2b-6367-481a-9c99-ef5646a61eba",
+    "keep_name": "Hering, Henry",
+    "dupe_id": "7e362861-7344-49ff-bb5c-194b57bed1f9",
+    "dupe_name": "Hering, Harry",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "e2e9c2d5-c0a1-4ad8-a437-57d0cf8d46cd",
+    "keep_name": "Mary T. Smith",
+    "dupe_id": "7ad2a082-743b-47b4-b837-2a37655870f2",
+    "dupe_name": "Mary N. Keith",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "750068b7-b15b-45fe-b2f0-1689f65ade00",
+    "keep_name": "Max Walter",
+    "dupe_id": "ebb41eb0-6095-456d-8c89-63faffaeb136",
+    "dupe_name": "Max Watters",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "9003dc21-e4f2-467b-884f-b025bfe7f912",
+    "keep_name": "Alois Auer",
+    "dupe_id": "4609df99-7e9f-46b9-8b76-3a232d035c78",
+    "dupe_name": "Alois Beer",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "fb702d5b-d4c5-46b1-af18-d3b674e2b462",
+    "keep_name": "Ethel Myers",
+    "dupe_id": "4810aa6d-0bfd-4fc4-831d-9b764b4e812c",
+    "dupe_name": "Ethel Mars",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "8097ac1e-2356-488f-9f4c-eafacf795e58",
+    "keep_name": "Mieczyslaw Berman",
+    "dupe_id": "e26aafea-d8a9-4efd-a879-8af4296610b6",
+    "dupe_name": "Mieczyslaw Wejman",
+    "decision": "keep_separate",
+    "reasoning": "둘 다 실존 폴란드 작가로 별개 인물"
+  },
+  {
+    "keep_id": "e60e652b-18f6-4b92-8b26-c515fd3d8417",
+    "keep_name": "Calligrapher: Zhao Zhiqian",
+    "dupe_id": "24cbbb40-1887-41f3-8caa-de7b68e0fe45",
+    "dupe_name": "Calligrapher: Zhang Zhihan",
+    "decision": "keep_separate",
+    "reasoning": "위와 동일"
+  },
+  {
+    "keep_id": "bb21bf31-ce26-41a7-9017-5c7dff9ba2a5",
+    "keep_name": "Rembrandt van Rijn",
+    "dupe_id": "d58a10ab-ecd3-4672-9ce7-80d9b594c562",
+    "dupe_name": "Rembrandt (Van Rhin)",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "eb96437f-1ad1-46ee-af0d-a1b63711809f",
+    "keep_name": "Katsushika Hokusai",
+    "dupe_id": "295dcae1-58d5-4c3c-b460-5d69414cd773",
+    "dupe_name": "Katsushika Hokuga",
+    "decision": "keep_separate",
+    "reasoning": "웹서치로 확인: Hokuga는 호쿠사이 본인이 아닌 그의 화파에 속한 별개 제자/관련 인물"
+  },
+  {
+    "keep_id": "b5658931-5b4a-4eea-b670-5c7b4e2e9a23",
+    "keep_name": "Theodor Werner",
+    "dupe_id": "7d811835-1dab-4bec-8464-15582d170384",
+    "dupe_name": "Theodor Weber",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "ad88f874-d28e-4bde-ac8a-4aed850ad0d1",
+    "keep_name": "Ferdinand Bol",
+    "dupe_id": "da5c0a47-2db6-4dff-986e-1c6916e6d871",
+    "dupe_name": "Ferdinand Jodl",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "b52e0674-dfbe-494c-a233-35dce4d31207",
+    "keep_name": "Anton Raphael Mengs",
+    "dupe_id": "2844ecdf-4301-47e0-9b17-6a25f7524d28",
+    "dupe_name": "Anton Rafael Mengs",
+    "decision": "merge",
+    "reasoning": "동일 인물 이름 표기 변형(Raphael/Rafael)"
+  },
+  {
+    "keep_id": "5a2673b2-d49b-475e-9a4e-5be0195105d3",
+    "keep_name": "Salomon Ruysdael",
+    "dupe_id": "ba4db527-28e3-4163-9f32-8e4a085ac003",
+    "dupe_name": "Salomon Ruisdal",
+    "decision": "merge",
+    "reasoning": "동일 화가 Salomon van Ruysdael의 철자변형"
+  },
+  {
+    "keep_id": "5e706016-cd95-4aeb-88a9-b3dbbbe0dca5",
+    "keep_name": "Adam Pynacker",
+    "dupe_id": "5d379ee5-4d13-414d-aaaa-3c85d8744b93",
+    "dupe_name": "Adam Pynakert",
+    "decision": "merge",
+    "reasoning": "동일 화가 Adam Pynacker의 철자변형"
+  },
+  {
+    "keep_id": "85df566a-4e3d-4305-8953-1726b5257b2d",
+    "keep_name": "Lorenzo Loli",
+    "dupe_id": "561a592a-c873-4f4c-b2ac-557058d26c4e",
+    "dupe_name": "Lorenzo Lotti",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "f39bcba5-e8ad-41e3-a2c7-c4c807f85c72",
+    "keep_name": "Luini, Bernardino",
+    "dupe_id": "d2216002-0849-4bb7-9ddd-0cf4c381ce03",
+    "dupe_name": "Luini (Bernardo)",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "f749ae3f-7713-4170-ba61-54cafa0bd36e",
+    "keep_name": "Lingelbach. (J.)",
+    "dupe_id": "093bee46-fe1f-4b39-89f5-f891cce067f9",
+    "dupe_name": "Lingelbach. (Jan)",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "34a981d5-b0f5-4c52-953b-ff9ea7a334b5",
+    "keep_name": "Corneille Dusart",
+    "dupe_id": "67046893-7bdc-42d2-9c2b-30a6da878b3a",
+    "dupe_name": "Corneille Dussaert",
+    "decision": "merge",
+    "reasoning": "동일 화가 Cornelis Dusart 철자변형"
+  },
+  {
+    "keep_id": "e5dda77c-ab7e-4f42-b6cb-7b1826968ec0",
+    "keep_name": "La Hire",
+    "dupe_id": "c034e6da-f9c7-4cef-a4d5-b33a837a2745",
+    "dupe_name": "La Pira",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "dd031aa7-bfd2-4559-a98c-5e5472b46988",
+    "keep_name": "Théobald Michau",
+    "dupe_id": "67adc0f1-edff-4fca-a405-8e2d358c92de",
+    "dupe_name": "Theobald Michault",
+    "decision": "merge",
+    "reasoning": "동일 플랑드르 화가 철자변형"
+  },
+  {
+    "keep_id": "88bb8aad-d8d8-43c0-bead-1b97f761de5f",
+    "keep_name": "Een Italiaansch Meester",
+    "dupe_id": "24e1f26f-7e82-4ffd-ab23-50df8ab8f048",
+    "dupe_name": "Een Italiaans Meester",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "9249daff-53d6-4e6a-80bc-8ea20f58f4c2",
+    "keep_name": "Wynants Jan",
+    "dupe_id": "28de5fa7-3a02-46ed-8be8-3666d16e748b",
+    "dupe_name": "Wynants (J.)",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "7d793afb-5730-4b83-a0ec-145e34703fbb",
+    "keep_name": "Sebastien Franck",
+    "dupe_id": "2e65fc97-4c4a-4bb1-9568-c24eb2953abc",
+    "dupe_name": "Sebastien Vranckx",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "65d526cb-ce12-4fea-a51c-9005ba81fcba",
+    "keep_name": "Ludolph Backhuysen",
+    "dupe_id": "8ff0a68b-6825-42c7-a7e8-34b2fbe66218",
+    "dupe_name": "Ludolph Backhuizen",
+    "decision": "merge",
+    "reasoning": "동일 화가 Ludolf Bakhuizen의 철자변형"
+  },
+  {
+    "keep_id": "b40de076-3c1a-4266-9c4c-5f9485e6cabd",
+    "keep_name": "Sir Anthony Vandyke",
+    "dupe_id": "97af42e3-06ac-4954-a80b-c4c6a380515b",
+    "dupe_name": "Sir Anthony Vandyck",
+    "decision": "merge",
+    "reasoning": "동일 인물 안토니 반 다이크의 표기 변형"
+  },
+  {
+    "keep_id": "0b88c497-b3c6-42fb-be46-bcf38ed1329d",
+    "keep_name": "Florenz um 1500",
+    "dupe_id": "5bbb3029-14bf-45d7-8b03-ad7ee2ae9140",
+    "dupe_name": "Florenz, um 1480",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "aec87b07-2e32-4ef8-90b7-1f33dc20fdcf",
+    "keep_name": "O. Masseus",
+    "dupe_id": "a3af5aaf-69dd-4ad5-83de-24ac82fb4957",
+    "dupe_name": "O. Marceus",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "4ab1208f-d9cf-40e0-bb28-6b0ee7edb6be",
+    "keep_name": "Cheng Men",
+    "dupe_id": "a4874be0-a55c-4f0d-a8e7-70e6a98af024",
+    "dupe_name": "Cheng Ming",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "d94d3bcc-e6df-409f-aa7f-7c1e005d3f36",
+    "keep_name": "Lieve Verschuier",
+    "dupe_id": "3ac202e6-45b4-4d3c-8751-d476f794613c",
+    "dupe_name": "Lieve Verschuur",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "76086679-eb86-49e6-a31c-5b0561113d7d",
+    "keep_name": "Seb. Franks",
+    "dupe_id": "1dcc06ed-dd7f-4441-b088-79fe199adf0e",
+    "dupe_name": "Seb. Franck",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "92b0a9ec-120c-467c-adeb-8b5f24276bfc",
+    "keep_name": "Jean-Baptiste Mallet",
+    "dupe_id": "add1ae59-5f42-4c04-ae72-06976c51cf02",
+    "dupe_name": "Jean-Baptiste Molle",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "88ab7304-8a77-4541-814b-f33335e62e59",
+    "keep_name": "Gasparo Van-Vitelle",
+    "dupe_id": "912f45b1-cbdb-4f7a-92e8-573f7c4d4fe0",
+    "dupe_name": "Gasparo Vanvitelli",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "88ab7304-8a77-4541-814b-f33335e62e59",
+    "keep_name": "Gasparo Van-Vitelle",
+    "dupe_id": "b86fd6bb-5e6b-4c22-82c9-c4d0433e2ae4",
+    "dupe_name": "Gasparo Vanvitelly",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "d5e2b96f-3927-4fbc-96ac-293db898aa01",
+    "keep_name": "Liu Du",
+    "dupe_id": "bcdcd4ab-3dd4-48c4-b8a4-41f524b7986e",
+    "dupe_name": "Liu Dan",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "194e752f-17e4-4c8f-9ac2-d2c38f9a32e4",
+    "keep_name": "Egbert Hemskerck",
+    "dupe_id": "545edbcf-c9d9-4c44-bb16-f0b3faeb3b5b",
+    "dupe_name": "Egbert Hemskirk",
+    "decision": "merge",
+    "reasoning": "동일 화가 가문 철자변형"
+  },
+  {
+    "keep_id": "96510aef-7f38-4a94-b1a7-615b5bb8c617",
+    "keep_name": "Paolo Pagani",
+    "dupe_id": "0fe7b57b-7c25-4169-9ad4-8fa5b7c56f6d",
+    "dupe_name": "Paolo Panini",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "c4e9328c-5516-4eb1-b7cc-6210750f3f27",
+    "keep_name": "Pierre-Antoine Demachy",
+    "dupe_id": "6a79506a-3c16-4c6b-9a6b-15ec77756a38",
+    "dupe_name": "Pierre-Antoine Machy",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "7747a1ae-8718-4cd0-bcc8-4973466e5fe6",
+    "keep_name": "Giuseppe Mazzuoli",
+    "dupe_id": "a68ff687-05d2-4420-aa06-c9819fe1b4db",
+    "dupe_name": "Giuseppe Bezzuoli",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "3f35ec00-3e24-48bf-9d24-6ada5baeb4a8",
+    "keep_name": "Cornelis Droochsloot",
+    "dupe_id": "d8618256-0adb-4f8a-9d14-89b6e724ae7a",
+    "dupe_name": "Cornelis Droogsloot",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "303ef5bf-9e32-4cca-ad9a-e8255d75c411",
+    "keep_name": "Vanden Bosch",
+    "dupe_id": "1a1a8cfc-d793-48a1-bcaf-7f71b0b01cc4",
+    "dupe_name": "Vanden Bos",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "3c3f28e4-acb1-42b7-b5e3-32e1a65f8726",
+    "keep_name": "Friedrich Hasler",
+    "dupe_id": "c99c4a95-61de-4485-93c8-7c1aa1273f53",
+    "dupe_name": "Friedrich Adler",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "9e20e7f0-c1b4-4693-9334-75369099ed2c",
+    "keep_name": "Godefroi Schalcken",
+    "dupe_id": "8c5303da-e99a-4f81-9e78-8a95d2ccfefd",
+    "dupe_name": "Godefroi Scalken",
+    "decision": "merge",
+    "reasoning": "동일 인물 Godfried Schalcken의 표기 변형"
+  },
+  {
+    "keep_id": "c6fa2a30-f129-404d-ab5b-dd74d42250a5",
+    "keep_name": "Dirk But",
+    "dupe_id": "1e978a9d-75f4-4b03-b1c7-b82bcd0b3be7",
+    "dupe_name": "Dirk Bouts",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "b850316d-649b-455f-894b-7c04bab6a95e",
+    "keep_name": "Asselijn (J.)",
+    "dupe_id": "bf219559-3b94-44a1-9e42-306a8b3c8031",
+    "dupe_name": "Asselijn (Jan)",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "c06387f1-6ae8-4f33-bcf2-b0bd9dde429e",
+    "keep_name": "Eglon v. der Neer",
+    "dupe_id": "7e901964-2daa-4861-b049-3f10b84456a5",
+    "dupe_name": "Eglon V.D. Neer",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "286ae3a2-d72a-4ed1-b06b-7672fdfe9afa",
+    "keep_name": "Dick Beer",
+    "dupe_id": "34a45dec-734c-49a5-a4cb-a11ddbe6cc5e",
+    "dupe_name": "Dick, Beau",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "1dd42f5c-1ccd-44e9-9635-bc715c165cfe",
+    "keep_name": "Utagawa Kunihiro",
+    "dupe_id": "6666e652-c47a-44ad-bd24-ad0c53ed1b8b",
+    "dupe_name": "Utagawa Kunihide",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "37e6058c-3991-42cd-92e5-48b8b504bb8c",
+    "keep_name": "Heinrich Walter",
+    "dupe_id": "8a676e8b-a453-4ebd-8a39-622caee03bb4",
+    "dupe_name": "Heinrich Winter",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "7c145297-8e77-4801-a106-86f15753de33",
+    "keep_name": "Andy Tsihnahjinnie",
+    "dupe_id": "8bb6fa75-1f26-485e-b444-ddf8b3a5a085",
+    "dupe_name": "Andy Tsinajinnie",
+    "decision": "merge",
+    "reasoning": "동일 나바호족 작가 Andy Tsinajinnie 철자변형"
+  },
+  {
+    "keep_id": "02e96063-641d-4a61-b1e9-f9ce4f03d26b",
+    "keep_name": "Anton Strassgschwandtner",
+    "dupe_id": "4a00bcb9-5f75-4173-a902-1ad954ff4aba",
+    "dupe_name": "Anton Straßgschwandtner",
+    "decision": "merge",
+    "reasoning": "동일 인물 ß/ss 표기 변형"
+  },
+  {
+    "keep_id": "eb96437f-1ad1-46ee-af0d-a1b63711809f",
+    "keep_name": "Katsushika Hokusai",
+    "dupe_id": "a3c6236f-3736-49eb-85ad-fee18ee8acd1",
+    "dupe_name": "Katsushika Hokumei",
+    "decision": "keep_separate",
+    "reasoning": "위와 동일 논리 - 호쿠사이 자신의 알려진 필명(Shunro/Sori/Taito/Iitsu/Manji)이 아닌 화파 내 다른 인물로 추정"
+  },
+  {
+    "keep_id": "878d228d-81c7-425b-9bb7-ac459801d3aa",
+    "keep_name": "Everdingen, Allaert van",
+    "dupe_id": "b2363969-c28d-40c9-9fc8-c8d4ecc7eb5a",
+    "dupe_name": "Everdingen (Albert van)",
+    "decision": "merge",
+    "reasoning": "동일 화가 형식+이름 표기 변형"
+  },
+  {
+    "keep_id": "e98a36e9-4f12-4a62-8c5a-f96ab23134f6",
+    "keep_name": "Max Klinger",
+    "dupe_id": "bce25520-600b-40df-83bc-d4b92dffe08c",
+    "dupe_name": "Max Krieger",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "eaae0321-7e41-42eb-b41a-4c54722b80f8",
+    "keep_name": "Anthonie van den Bos",
+    "dupe_id": "16362a27-dab5-455e-8a4a-1f06c00fea2d",
+    "dupe_name": "Anthonie van den Bosch",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "f3382bce-ad54-41a1-b8ae-08aa91545ad3",
+    "keep_name": "Antoine Watteau",
+    "dupe_id": "b7b3f091-51de-437e-9bf3-4d157d5e3bf3",
+    "dupe_name": "Antoine Vateau",
+    "decision": "merge",
+    "reasoning": "동일 인물 Antoine Watteau 철자변형"
+  },
+  {
+    "keep_id": "cc38b8b8-8c45-46ab-a913-83db05e42372",
+    "keep_name": "August Weger",
+    "dupe_id": "6222281e-8e3a-4cae-932e-6411feb8653f",
+    "dupe_name": "August Rieger",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "1d05b4cd-e544-4bfd-b203-e68eda292c84",
+    "keep_name": "Both, Jan",
+    "dupe_id": "3fef6903-6c6c-43bd-8e38-2f5f31a7db96",
+    "dupe_name": "Both (A.)",
+    "decision": "keep_separate",
+    "reasoning": "이니셜이 다름(Jan vs A.) - Jan Both의 형제 Andries Both로 추정되는 별개 실존 인물"
+  },
+  {
+    "keep_id": "960e60f9-89df-4c56-9296-1a1e2d33aabd",
+    "keep_name": "Francis Alÿs",
+    "dupe_id": "c6cf8297-74de-49d1-b751-09c9f94ef88c",
+    "dupe_name": "Francis Halls",
+    "decision": "keep_separate",
+    "reasoning": "위와 동일 이유"
+  },
+  {
+    "keep_id": "d2cb2d46-bc9f-404b-9cd4-a0066c992ab4",
+    "keep_name": "Veronese, Paolo",
+    "dupe_id": "ece5f59a-1818-4aa9-abc8-8b84d018d8b3",
+    "dupe_name": "Veronese (Paul)",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "b6c9cada-0bf9-4577-9146-d26f85edb306",
+    "keep_name": "Aelbert Cuyp",
+    "dupe_id": "9ec41bb7-f3d1-4a88-89a3-86555c5109b6",
+    "dupe_name": "Aelbert Cuijp",
+    "decision": "merge",
+    "reasoning": "동일 화가 철자변형(ij/y는 네덜란드어에서 동일)"
+  },
+  {
+    "keep_id": "2ce22ef8-8c21-4267-9792-9008c5ea2a45",
+    "keep_name": "Nicolaes Maes",
+    "dupe_id": "a448c586-cc75-4508-8205-86245ccf51b9",
+    "dupe_name": "Nicolaes Hals",
+    "decision": "keep_separate",
+    "reasoning": "서로 다른 화가 성씨로 추정"
+  },
+  {
+    "keep_id": "e0f82e72-60a6-4d85-a05e-c72dbc4ad22d",
+    "keep_name": "Huchtenburg, Jan van",
+    "dupe_id": "14268c0c-7d72-435a-a9c6-38374bf3453b",
+    "dupe_name": "Huchtenburg (J. van)",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "e0f82e72-60a6-4d85-a05e-c72dbc4ad22d",
+    "keep_name": "Huchtenburg, Jan van",
+    "dupe_id": "1ae88563-1e29-4600-9ae4-255ea7db3413",
+    "dupe_name": "Huchtenburg. (J. van)",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "9268e836-ce4f-4378-995e-9e9bf2ee734c",
+    "keep_name": "Claude Gillot",
+    "dupe_id": "096f710c-e3d5-4a90-bcab-802d5e006e37",
+    "dupe_name": "Claude Callot",
+    "decision": "keep_separate",
+    "reasoning": "중요: Claude Gillot과 Jacques Callot은 각각 별도로 매우 저명한 프랑스 판화가 - 혼동 주의"
+  },
+  {
+    "keep_id": "6a57caf4-5e93-493e-8105-cffea1726ac1",
+    "keep_name": "Kazimir Malevich",
+    "dupe_id": "7b1d17ce-4077-4c5d-b906-586c7cabc60f",
+    "dupe_name": "Kazimir Yasevich",
+    "decision": "keep_separate",
+    "reasoning": "웹서치로 확인: Kazimir Yasevich(1812-1888)는 독립 문서화된 실존 러시아 아카데미 화가. Kazimir Malevich(1879-1935, 절대주의 거장)와 시대·양식 모두 다름."
+  },
+  {
+    "keep_id": "284d04e3-4761-4a8b-ad70-86fc7555875b",
+    "keep_name": "Adolph Menzel",
+    "dupe_id": "b7092de9-80ed-456d-a996-9e6af6d9f5ac",
+    "dupe_name": "Adolph Münzer",
+    "decision": "keep_separate",
+    "reasoning": "Adolph Menzel은 매우 저명한 독일 사실주의 화가; Münzer는 다른 성씨"
+  },
+  {
+    "keep_id": "d3f7b86b-4f7d-4a74-94d7-c3c2c94ad476",
+    "keep_name": "Gerrit Lamberts",
+    "dupe_id": "fa90427f-6113-4b73-a0b8-040ac225b4b3",
+    "dupe_name": "Gerrit Alberts",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "4a80df1c-81cf-4313-a004-dd65cfd1a310",
+    "keep_name": "Ludolf Bakhuysen",
+    "dupe_id": "b137c5af-00d7-464c-9619-19e42af78e4e",
+    "dupe_name": "Ludolf Backuysen",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "2ff0ca10-ced6-4c0c-b4fd-797aaa9ce3f8",
+    "keep_name": "Herbert Bayer",
+    "dupe_id": "bb903bc7-7f1c-42f8-99be-73ea80bc935a",
+    "dupe_name": "Herbert Meyer",
+    "decision": "keep_separate",
+    "reasoning": "Herbert Bayer는 저명 바우하우스 디자이너; Meyer는 완전히 다른 이름"
+  },
+  {
+    "keep_id": "9019be43-f9fc-4862-b129-9ec28a52270b",
+    "keep_name": "Popa Ion",
+    "dupe_id": "9c1477b7-574f-47a6-a101-26ad03cfed27",
+    "dupe_name": "Popa Ivan",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "535bce55-3d75-45eb-b88a-06e8893e07c6",
+    "keep_name": "Ernest Hébert",
+    "dupe_id": "82a12098-4bf0-4306-9d72-1e409a6c089b",
+    "dupe_name": "Ernest Albert",
+    "decision": "keep_separate",
+    "reasoning": "Ernest Hébert는 저명 프랑스 화가; Albert는 다른 성씨"
+  },
+  {
+    "keep_id": "42339503-ab3c-4761-bb0b-cf8bb6c2a50f",
+    "keep_name": "Otto Mueller",
+    "dupe_id": "f4c376a2-10ac-469c-b3e8-2dcc303cbe96",
+    "dupe_name": "Otto Möller",
+    "decision": "keep_separate",
+    "reasoning": "Otto Mueller는 '다리파(Die Brücke)' 저명 화가; Möller는 다른 인물"
+  },
+  {
+    "keep_id": "fbcbc108-10f9-4a4a-9fac-ade4cdb997c7",
+    "keep_name": "Cornelis van Poelenburch",
+    "dupe_id": "ddf3fd34-97d4-4461-893d-f620fbabb75d",
+    "dupe_name": "Cornelis van Poelenburg",
+    "decision": "merge",
+    "reasoning": "동일 화가 철자변형"
+  },
+  {
+    "keep_id": "b0499738-66d6-49cb-bf47-fede4cfcfe95",
+    "keep_name": "Sir Thomas Lawrence",
+    "dupe_id": "e26218ee-965d-457d-8bd9-05d71bce56fb",
+    "dupe_name": "Sir Thos. Lawrence",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "f646db26-9fa5-44a7-8d68-20e84d844e31",
+    "keep_name": "Ronald Davis",
+    "dupe_id": "f2ffd3e0-cd89-4b4b-a1f0-706763218f21",
+    "dupe_name": "Ronald Paris",
+    "decision": "keep_separate",
+    "reasoning": "Ronald Davis는 실존 미국 추상화가; Paris는 다른 인물"
+  },
+  {
+    "keep_id": "d1fed97a-273d-4cc6-b4e1-19227018702b",
+    "keep_name": "Utagawa Kunimasa",
+    "dupe_id": "4d73eabc-32ca-4c1b-8b08-21cd10e01a46",
+    "dupe_name": "Utagawa Kunihisa",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "d1fed97a-273d-4cc6-b4e1-19227018702b",
+    "keep_name": "Utagawa Kunimasa",
+    "dupe_id": "82818b16-0481-4f10-9ccc-fb9603cd1787",
+    "dupe_name": "Utagawa Kokunimasa",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "80a91391-7cfa-42cc-bd20-f9e5f9d813aa",
+    "keep_name": "Fred Becker",
+    "dupe_id": "9d77bbab-6fed-4db6-a8e3-e30482d8c000",
+    "dupe_name": "Fred Picker",
+    "decision": "keep_separate",
+    "reasoning": "Fred Becker는 실존 미국 판화가; Picker는 다른 인물"
+  },
+  {
+    "keep_id": "89a2c74a-90aa-47ce-aff5-48eecfffe385",
+    "keep_name": "Remondini Family",
+    "dupe_id": "c14cf9ce-66bd-41b7-9070-5fc5fa22690a",
+    "dupe_name": "Remondini, familie",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "b25c9a4d-a5c5-4b89-a655-95304f3c508d",
+    "keep_name": "Marcus Behmer",
+    "dupe_id": "02031c48-dc5f-4c3f-a440-2869e9f35d1f",
+    "dupe_name": "Marcus Selmer",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "1b697fad-5497-4ff6-8cfa-d9e135bbcf8a",
+    "keep_name": "Léon Dolez",
+    "dupe_id": "fcf302c2-987f-4ae8-8429-a18df71f5770",
+    "dupe_name": "Leon Pole",
+    "decision": "keep_separate",
+    "reasoning": "확인 안 됨, 다른 성씨로 별개 인물로 추정"
+  },
+  {
+    "keep_id": "5c0cb4be-d7e2-40a0-b546-06aa5e659acf",
+    "keep_name": "Adriaen Isenbrandt",
+    "dupe_id": "38cd3217-7d1e-460b-b5d7-41fa79c5e298",
+    "dupe_name": "Adriaen Ysenbrant",
+    "decision": "merge",
+    "reasoning": "동일 플랑드르 화가 철자변형"
+  },
+  {
+    "keep_id": "922d7c25-5cc4-4a21-8a32-8cf41f4dd34a",
+    "keep_name": "Fritz Scholder",
+    "dupe_id": "9fcd87bb-cf37-4cc2-9833-dc7520dcdff4",
+    "dupe_name": "Fritz Schider",
+    "decision": "keep_separate",
+    "reasoning": "Fritz Scholder는 저명 원주민 팝아트 화가; Schider는 다른 인물"
+  },
+  {
+    "keep_id": "52cf1039-7819-434f-8f40-9044abdd054a",
+    "keep_name": "Maria Martinez",
+    "dupe_id": "f73eade7-4ad6-48ef-b5ed-758f5653b64c",
+    "dupe_name": "Maria Martineau",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "b9134224-6538-497c-9263-5759c641d04e",
+    "keep_name": "Philippe Lauri",
+    "dupe_id": "a7d13f76-da78-4cf7-a062-deb6474c34df",
+    "dupe_name": "Philippe Luti",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "dfafcf88-c88c-4d2e-b834-bc35bc020619",
+    "keep_name": "Wang Jian",
+    "dupe_id": "d41a0ca0-0d4a-4bca-a692-a5ac0d7164ab",
+    "dupe_name": "Wang Qiao",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "9e64e050-84b8-4f24-9f7d-96090ecaae06",
+    "keep_name": "Zhang Yu",
+    "dupe_id": "1ed8b0ea-b9c6-4556-82a8-608c9a89f08f",
+    "dupe_name": "Zhang Yihu",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "d759724c-132e-4b52-8ac1-7ab3f506aea2",
+    "keep_name": "Stoenescu Eustațiu",
+    "dupe_id": "a6710ffe-c2e4-41b4-a441-8842a3640e0e",
+    "dupe_name": "Stoenescu, Eustaițu",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "cea0369e-390f-4bdc-8871-a67ae0afeb01",
+    "keep_name": "WANG Chen",
+    "dupe_id": "fad014ac-a3b2-4c9a-846c-48e06103dc6f",
+    "dupe_name": "Wang Wen",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "2156c900-48d0-4a34-801b-9c2add2464fc",
+    "keep_name": "Adam Willaerts",
+    "dupe_id": "84b8a272-2ad9-435d-93f0-b259cffce1bc",
+    "dupe_name": "Adam Willards",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "e6a13357-da7f-4143-9f9e-0697c9db4154",
+    "keep_name": "Zhang Huan",
+    "dupe_id": "f4e641c5-1cd6-4847-a7e5-6cb82ead04ff",
+    "dupe_name": "Zhang Yan",
+    "decision": "keep_separate",
+    "reasoning": "Zhang Huan은 매우 유명한 현대 중국 미술가; Yan은 다른 인물"
+  },
+  {
+    "keep_id": "7e857b74-c7f1-497a-8eaa-4d585794148b",
+    "keep_name": "Gaston La Touche",
+    "dupe_id": "6112ee5a-2fd1-4526-9235-ce67176c0a1f",
+    "dupe_name": "Gaston de Latouche",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "ea0d8581-7308-42f2-b1b0-fd57cc4b8834",
+    "keep_name": "Taddeo Zuccaro",
+    "dupe_id": "78974c46-79bf-4846-a0ce-eaaaed39f377",
+    "dupe_name": "Taddeo Zucchero",
+    "decision": "merge",
+    "reasoning": "동일 이탈리아 화가 철자변형"
+  },
+  {
+    "keep_id": "3f286f08-3415-4048-b62f-4c08eadd63d0",
+    "keep_name": "Brouwer, Jan",
+    "dupe_id": "aec5501b-40b2-4472-b98e-82ba15557159",
+    "dupe_name": "Brouwer (A)",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "9249daff-53d6-4e6a-80bc-8ea20f58f4c2",
+    "keep_name": "Wynants Jan",
+    "dupe_id": "206d8a81-d6a3-4bd4-9d65-c750a1d07530",
+    "dupe_name": "Wynants. (J.)",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "896ed5b7-51e8-4309-90db-3efe40570667",
+    "keep_name": "Nancy Randall",
+    "dupe_id": "246df328-3523-46a7-8a2c-356dd6280a45",
+    "dupe_name": "Nancy Andell",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "17e04249-7ab3-4d9b-8fb2-a2622fc794ea",
+    "keep_name": "Li Shan",
+    "dupe_id": "c0ce3c44-d834-4a8e-8ca7-3e92133afab1",
+    "dupe_name": "Li Sheng",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "7ee30d27-1451-4ff1-9207-acd17ff00ede",
+    "keep_name": "Italian 15th/16th Century",
+    "dupe_id": "faae8e27-4b84-4add-b441-e9e9e94d203a",
+    "dupe_name": "Italian 17th/19th Century",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "fe167674-abc6-4314-8983-e5eed338fe4d",
+    "keep_name": "Conrad Gesner",
+    "dupe_id": "aefec830-b845-4ead-a504-8b1efff9c6fd",
+    "dupe_name": "Conrad Geiger",
+    "decision": "keep_separate",
+    "reasoning": "Conrad Gessner는 저명 스위스 박물학자; Geiger는 다른 인물"
+  },
+  {
+    "keep_id": "9c34b7b2-8e6c-4486-b80a-db916fad2604",
+    "keep_name": "Arthur Devis",
+    "dupe_id": "f3926387-1f92-4908-92c0-f0c3be71ecb8",
+    "dupe_name": "Arthur Davies",
+    "decision": "keep_separate",
+    "reasoning": "Arthur Devis는 저명 영국 초상화가; Davies는 다른 인물"
+  },
+  {
+    "keep_id": "4b0ac1fc-c701-449f-aacd-d5a37d43450b",
+    "keep_name": "Julius Hahn",
+    "dupe_id": "b9437299-847e-4edc-bbd4-c99b2eb01132",
+    "dupe_name": "Julius Hall",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "d5dc113c-70d1-4ea5-802f-88958515b2f2",
+    "keep_name": "Eugene Higgins",
+    "dupe_id": "ed5759a2-32f7-4075-a42c-f87b6e93dda6",
+    "dupe_name": "Eugene Dwiggins",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "5540eaf2-b398-43b4-bfca-623cc41cc65c",
+    "keep_name": "Max Kaus",
+    "dupe_id": "b7ad907b-bda4-4606-9ed5-5e167b61ba9a",
+    "dupe_name": "Max Baur",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "5540eaf2-b398-43b4-bfca-623cc41cc65c",
+    "keep_name": "Max Kaus",
+    "dupe_id": "738a78aa-13fc-4a9a-aada-f50060acc1cd",
+    "dupe_name": "Max Rauh",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "948d53de-4957-4d7d-a447-e9e10f459e0b",
+    "keep_name": "Tassaert, Philippe Joseph",
+    "dupe_id": "e3c0f39f-4f78-4782-9006-4b7f0f0d1200",
+    "dupe_name": "Tassaert, Philip Joseph",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "c4f6a250-5b48-4901-8716-2702e4cc7e5e",
+    "keep_name": "Walter Helbig",
+    "dupe_id": "eeb68c12-d25d-4e87-a8ff-6acdd865e9d2",
+    "dupe_name": "Walter Heimig",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "6ae1763b-a43b-4757-ac62-c05f89255747",
+    "keep_name": "Adrien Brouwer",
+    "dupe_id": "0c18aaf1-4fc3-49d9-ab11-95e09e47e050",
+    "dupe_name": "Adrien Brauver",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "8bbd1745-b807-4c4e-aa9e-867c2d652893",
+    "keep_name": "Rembrant van Rhyn",
+    "dupe_id": "5e949b49-6841-4674-87df-a435e6d8b6e3",
+    "dupe_name": "Rembrant Van Rin",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "ffd95d3f-26b4-4ac3-963e-42e6bcada7e5",
+    "keep_name": "Tom Lee",
+    "dupe_id": "c0c0418c-e26e-454b-a807-91507e2e52e9",
+    "dupe_name": "Tom Lid",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "b1ab6119-a912-41ea-a229-01e05dd2b538",
+    "keep_name": "Chen Wu",
+    "dupe_id": "8e726322-0358-415d-982a-cacf0d7ad10a",
+    "dupe_name": "Chen Gua",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "949b28cf-a1f6-42c3-8990-f133a2716022",
+    "keep_name": "Fränkisch um 1500",
+    "dupe_id": "5bfd4aa8-16f4-43da-b24c-5f74cca3f328",
+    "dupe_name": "Fränkisch um 1480",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "ca318f9b-51b7-4c2e-a7d6-5a1d6a730421",
+    "keep_name": "Guillaume De Heus",
+    "dupe_id": "756981ec-a4a0-4cec-a913-65d28a81c866",
+    "dupe_name": "Guillaume de Heusch",
+    "decision": "merge",
+    "reasoning": "동일 화가 Willem de Heusch 표기 변형"
+  },
+  {
+    "keep_id": "80798669-5e14-48a2-91d0-c1afe56c4dd6",
+    "keep_name": "Josef Mánes",
+    "dupe_id": "7483362f-bc31-483e-ac9b-8220e8b6a065",
+    "dupe_name": "Josef Mader",
+    "decision": "keep_separate",
+    "reasoning": "Josef Mánes는 저명 체코 화가; Mader는 다른 인물"
+  },
+  {
+    "keep_id": "8a9f0711-3ba1-4029-8955-872807db0eef",
+    "keep_name": "Wolfgang Huber",
+    "dupe_id": "f0fe799c-c921-4e66-a7b0-a305e33a7548",
+    "dupe_name": "Wolfgang Leber",
+    "decision": "keep_separate",
+    "reasoning": "Wolfgang Huber는 저명 독일 르네상스 화가; Leber는 다른 인물"
+  },
+  {
+    "keep_id": "cab94120-1fc4-4d77-ac9b-1c14ab2b9356",
+    "keep_name": "Gustav Sandberg",
+    "dupe_id": "daffd7e1-5997-4d71-8571-b74097f9165b",
+    "dupe_name": "Gustav Lundberg",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "a5ddf113-47df-4d51-8476-70906ba944e2",
+    "keep_name": "Poelenburg (Corneille)",
+    "dupe_id": "53135cdd-a4ed-4e27-af38-9d0beca05db1",
+    "dupe_name": "Poelenburg (Corneil)",
+    "decision": "merge",
+    "reasoning": "동일 화가 이름 철자변형"
+  },
+  {
+    "keep_id": "09c1dbde-ece6-4dcd-818f-7ebca742c3de",
+    "keep_name": "Kano Toshun",
+    "dupe_id": "de9f411f-bf3e-4f0d-91fc-8c90eb51c324",
+    "dupe_name": "Kanô Eishun",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "9a139444-e1ca-4fd0-a305-9205ee194d2f",
+    "keep_name": "Hermann Weyer",
+    "dupe_id": "23a843fd-38c8-4469-a8eb-72938de44c29",
+    "dupe_name": "Hermann Bever",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "3674e8ae-2276-451a-83d6-4a58b63b36e2",
+    "keep_name": "Jones, R.A.",
+    "dupe_id": "2be24a77-fb0b-4eb5-b66c-7ce3985c8470",
+    "dupe_name": "Jones & Co.",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "dedc93a7-8c80-4ee4-aed6-c78ead47a1a3",
+    "keep_name": "André Gill",
+    "dupe_id": "dfaf6851-9109-4f75-a2af-3a34c13d5ef3",
+    "dupe_name": "André Billy",
+    "decision": "keep_separate",
+    "reasoning": "André Gill은 저명 프랑스 캐리커처 작가; Billy는 다른 인물"
+  },
+  {
+    "keep_id": "8173a768-ef41-46a4-a0db-55830b9168fc",
+    "keep_name": "Jerzy Fedkowicz",
+    "dupe_id": "49192982-5c49-4d7e-95ca-39c77c281c46",
+    "dupe_name": "Jerzy Fedorowicz",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "91a4d995-724c-44e7-9214-273afe823e47",
+    "keep_name": "Thygesen, Rudolph",
+    "dupe_id": "1fc660c2-8a90-4664-b39b-b98da556f996",
+    "dupe_name": "Thygesen, Rudolf",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "71212ed4-1781-4128-bd93-d7148b5043a7",
+    "keep_name": "Anton Prinner",
+    "dupe_id": "98edf548-ee66-4f26-984b-d0dcb091c836",
+    "dupe_name": "Anton Psenner",
+    "decision": "keep_separate",
+    "reasoning": "Anton Prinner는 실존 헝가리-프랑스 조각가; Psenner는 다른 인물"
+  },
+  {
+    "keep_id": "3f01e102-02f8-45b1-a84e-a89ba44dd4a4",
+    "keep_name": "Hermann Huber",
+    "dupe_id": "de018ee8-d940-498f-99c8-cc9a0459170f",
+    "dupe_name": "Hermann Euler",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "b5183102-6ca7-4754-8407-b75b372c95b0",
+    "keep_name": "Kano Naonobu",
+    "dupe_id": "2f40a3d0-9362-4d4e-ba30-42bd658322d6",
+    "dupe_name": "Kanō Naganobu",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "188a8f0e-3d47-471d-bc58-5273d172e513",
+    "keep_name": "Wang Yongyu",
+    "dupe_id": "5d7bed82-244a-4888-afcc-af3d707a9959",
+    "dupe_name": "Wang Fangyu",
+    "decision": "keep_separate",
+    "reasoning": "Wang Fangyu는 저명 중국계 미국 서예가; Yongyu는 다른 인물"
+  },
+  {
+    "keep_id": "4280173a-e98c-4d65-bdab-59b47be33816",
+    "keep_name": "André Delsarte",
+    "dupe_id": "0a42308e-a687-4fdb-9a14-fc2c9dbe01e1",
+    "dupe_name": "André Del-Sarto",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "ce4d045c-d3b6-463a-9e57-8b43edf7f6e8",
+    "keep_name": "Herman Zagtleven",
+    "dupe_id": "52137f2b-91c1-4cc8-9538-f5401926b458",
+    "dupe_name": "Herman Zachtleven",
+    "decision": "merge",
+    "reasoning": "동일 화가 Herman Saftleven 철자변형"
+  },
+  {
+    "keep_id": "0b88c497-b3c6-42fb-be46-bcf38ed1329d",
+    "keep_name": "Florenz um 1500",
+    "dupe_id": "38fc0c1b-ea7d-4ddc-aa18-ce4c16e96198",
+    "dupe_name": "Florenz um 1450",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "07aa4519-6c68-4acd-ab54-d6271a5da2c7",
+    "keep_name": "Rudolf Grossmann",
+    "dupe_id": "2196a7b6-83d7-4bd0-91be-059e272139b1",
+    "dupe_name": "Rudolf Großmann",
+    "decision": "merge",
+    "reasoning": "동일 독일 판화가 ß/ss 표기 변형"
+  },
+  {
+    "keep_id": "4eb617f0-396b-4e22-9042-ca65c0634b44",
+    "keep_name": "Zhao Yong",
+    "dupe_id": "6e45d9bf-12fb-46af-96c6-6e1c0f97774c",
+    "dupe_name": "Zhao Yan",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "15948d18-7fb0-4762-8696-69d1dd978ff6",
+    "keep_name": "Schwaben um 1500",
+    "dupe_id": "6c6828f8-7840-497c-a8b7-92ec0fc00c54",
+    "dupe_name": "Schwaben um 1490",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "daac9ebb-bd66-4d33-ae32-d6053055dd60",
+    "keep_name": "Ludwig Sander",
+    "dupe_id": "df618f90-49cc-4ba2-b0eb-1f2dea9cac77",
+    "dupe_name": "Ludwig Bender",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "51c77c02-6c45-42dd-8ad3-a5229c4b78c8",
+    "keep_name": "Barthelemi Schiedon",
+    "dupe_id": "e3a07d65-43c5-4487-bae0-32ec0c6d3076",
+    "dupe_name": "Barthelemi Schidone",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "38a2f0db-1459-4547-b3d7-50fce1343995",
+    "keep_name": "Maurice Heaton",
+    "dupe_id": "3795a913-2d30-43f4-b750-b60b21a6247e",
+    "dupe_name": "Maurice Felton",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "920f8db8-b16b-460c-b897-5e78712c5e18",
+    "keep_name": "Tadeusz Brzozowski",
+    "dupe_id": "7021faf8-5fa1-4953-ab06-e7d6b0d8c53b",
+    "dupe_name": "Tadeusz Brodowski",
+    "decision": "keep_separate",
+    "reasoning": "Tadeusz Brzozowski는 저명 폴란드 아방가르드 화가; Brodowski는 다른 인물"
+  },
+  {
+    "keep_id": "2b4dbf21-108c-4315-b9d6-99d93e974c6a",
+    "keep_name": "Jules Hallez",
+    "dupe_id": "1e4c2713-b0a7-456e-942e-342f3a734788",
+    "dupe_name": "Jules Allen",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "c8c6e4e5-3d45-47e9-a109-a7a745420d64",
+    "keep_name": "Frans Francken",
+    "dupe_id": "6f42cb8d-b460-4a06-a63a-0046982fa873",
+    "dupe_name": "Frans Franck",
+    "decision": "merge",
+    "reasoning": "동일 플랑드르 화가 가문 성씨 축약 표기"
+  },
+  {
+    "keep_id": "4eeae435-82df-45cb-8408-95b751d28b55",
+    "keep_name": "Scott Wilson",
+    "dupe_id": "7383a7ac-90f3-454e-88c4-085956c6c87a",
+    "dupe_name": "Scott Olson",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "b914bdc7-91df-401d-9c1a-109f1e5a4842",
+    "keep_name": "Rudolf Bacher",
+    "dupe_id": "b153c364-dde6-418d-90f3-a57ac90fcdec",
+    "dupe_name": "Rudolf Wacker",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "ed24d300-5cc1-4821-b715-d08cf10ee310",
+    "keep_name": "Josef Holzer",
+    "dupe_id": "f680dca5-a7dc-4d74-ae95-8dfbede0b987",
+    "dupe_name": "Josef Haller",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "ed24d300-5cc1-4821-b715-d08cf10ee310",
+    "keep_name": "Josef Holzer",
+    "dupe_id": "04f684ca-346c-4b0f-8020-15e7c486bc82",
+    "dupe_name": "Josef Hofer",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "a74a0d4f-a868-4647-83ae-b33bf6b6dd93",
+    "keep_name": "Lan Franco",
+    "dupe_id": "490e7f62-cb9d-4010-b80e-54f3361040cd",
+    "dupe_name": "Lan Frank",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "8edf28f8-4b69-458a-b37b-6007d16ff853",
+    "keep_name": "Gool. (Jan van)",
+    "dupe_id": "933700bb-1d12-447a-8201-71a10f0e0421",
+    "dupe_name": "Gool. (J. van)",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "b4e98804-1203-4c9e-a128-22e75a23295c",
+    "keep_name": "Pavel Zamfir Zugrav din Laz",
+    "dupe_id": "99b62b3a-463b-4c65-bd8b-e61babba264e",
+    "dupe_name": "Pavel Zamfir Zugravu de Laz",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "571765f1-ecc0-4f4b-ac71-3e8c12127660",
+    "keep_name": "Lin Liang",
+    "dupe_id": "4d8e40c7-d538-41c9-80d0-c27f46b1a659",
+    "dupe_name": "Lin Gang",
+    "decision": "keep_separate",
+    "reasoning": "Lin Liang은 저명 명대 궁정화가; Gang은 다른 인물"
+  },
+  {
+    "keep_id": "d357f543-058e-4620-8237-13f7a94e2eb4",
+    "keep_name": "Otto Marcelis",
+    "dupe_id": "4d65d938-b53e-4828-aeee-c0f020115dba",
+    "dupe_name": "Otto Marceus",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "004fc92d-167c-45b1-9468-db51900ee005",
+    "keep_name": "Lucas Achtschellinck",
+    "dupe_id": "3d42c967-938f-413f-8614-88f53c73937d",
+    "dupe_name": "Lucas Achtschelling",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "9e2bd4b1-9db2-4d9a-b0e7-ec9dcaf0dc99",
+    "keep_name": "Corn. Poelenburg",
+    "dupe_id": "56c415e5-4b9a-4a38-bc51-664766d5b88a",
+    "dupe_name": "Corn. Poelembourg",
+    "decision": "merge",
+    "reasoning": "동일 화가 철자변형"
+  },
+  {
+    "keep_id": "2f722b64-8f90-4988-b97c-a352c17f7fb9",
+    "keep_name": "Johan David Swartz",
+    "dupe_id": "44afd526-f0d6-4181-8882-12126bea3618",
+    "dupe_name": "Johan David Schwartz",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "76e3f838-5be1-4989-bc44-e45c8ac03cbf",
+    "keep_name": "Marcelle Wahl",
+    "dupe_id": "387170ba-cb0d-4ee6-ac49-0250752e107f",
+    "dupe_name": "Marcelle Cahn",
+    "decision": "keep_separate",
+    "reasoning": "Marcelle Cahn은 저명 프랑스 큐비즘 화가; Wahl은 다른 성씨"
+  },
+  {
+    "keep_id": "bf64a4e7-4257-493d-bf19-0afc9ee563e0",
+    "keep_name": "Otto Neumann",
+    "dupe_id": "76c18ac1-ceac-463f-a5be-17ac8bb2abb2",
+    "dupe_name": "Otto Treumann",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "8a54d21d-addc-4600-8322-b91d3b95c1ce",
+    "keep_name": "Powell, F.W.",
+    "dupe_id": "21d285d2-a669-4fd4-be20-72d9d202f111",
+    "dupe_name": "Powell & Co.",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "3f0a6693-7503-41b9-87bd-23be77b8fee0",
+    "keep_name": "Eugène Druet",
+    "dupe_id": "ded8333e-46b4-4018-bc5b-2414aa24cf93",
+    "dupe_name": "Eugène Daudet",
+    "decision": "keep_separate",
+    "reasoning": "Eugène Druet는 저명 프랑스 사진가; Daudet은 다른 인물"
+  },
+  {
+    "keep_id": "c52a7df2-461c-41c6-906b-3a2bbfc26a4d",
+    "keep_name": "Ferdinand Berger",
+    "dupe_id": "30b87fe2-e06e-4c23-abb1-fa6190e5130d",
+    "dupe_name": "Ferdinand Beurer",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "bf8eafe8-a232-4ab4-a480-d3f62362fbd8",
+    "keep_name": "Theodor Glatz",
+    "dupe_id": "0c6b6075-b613-4bc8-a02e-45c89a8b050d",
+    "dupe_name": "Theodor Götz",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "b122458e-ef6e-4a86-b2ab-48cdebc5776c",
+    "keep_name": "Jakob Jordaens",
+    "dupe_id": "e721f772-ab65-4ff8-b81c-8f258b2bd631",
+    "dupe_name": "Jakob Jordan",
+    "decision": "merge",
+    "reasoning": "철자변형, 동일 저명 플랑드르 화가 Jacob Jordaens"
+  },
+  {
+    "keep_id": "2bcec603-f2b9-4242-af4b-6c4ce1cd8966",
+    "keep_name": "Aleksandr Orlovsky",
+    "dupe_id": "2437b7fd-acb6-4b0e-858b-889d64058fe1",
+    "dupe_name": "Aleksandr Orlowski",
+    "decision": "merge",
+    "reasoning": "동일 폴란드-러시아 화가 Aleksander Orłowski 음역 변형"
+  },
+  {
+    "keep_id": "9905a21b-6a61-4aec-bc46-46ff2e4127f2",
+    "keep_name": "Gotô Hôjô",
+    "dupe_id": "0a33e637-b70f-41e5-9993-24fb62c3cf62",
+    "dupe_name": "Gotô Enjô",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "271cf58b-b483-4d7b-9eb8-7af9ec3893e1",
+    "keep_name": "Susan Schwalb",
+    "dupe_id": "c35bf18d-7954-4f15-b2ae-b655ae137b81",
+    "dupe_name": "Susan Schmall",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "25c3d5bb-5ae7-466d-86ea-36af67f3ff09",
+    "keep_name": "Abraham Diepenbeck",
+    "dupe_id": "a5d3bf26-24e3-464c-8327-3f7ec7bc01cd",
+    "dupe_name": "Abraham Diepenbeke",
+    "decision": "merge",
+    "reasoning": "동일 플랑드르 화가 Abraham van Diepenbeeck 철자변형"
+  },
+  {
+    "keep_id": "dba0d0ff-9c9c-4c60-a93b-cbe316bb83d3",
+    "keep_name": "Max Kaufman",
+    "dupe_id": "0cbc20e6-7169-4d45-9e7a-880fb65682e1",
+    "dupe_name": "Max Kauffmann",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "dc3ae9cf-d38c-43b7-9a2a-74dd7208cd96",
+    "keep_name": "Eugène Baron",
+    "dupe_id": "ec2a6638-bb85-4186-8eca-4e021f4dc4d1",
+    "dupe_name": "Eugène Balan",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "7f7e7352-ddb8-4c5d-aedc-217c8760281a",
+    "keep_name": "Otto Seitz",
+    "dupe_id": "9a6f2a45-6644-45bf-85d1-bd42210b687a",
+    "dupe_name": "Otto Nemitz",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "d661b7b4-4570-401f-9590-bff3fd45c3e2",
+    "keep_name": "Ernest Board",
+    "dupe_id": "64d016d9-ae89-417c-a878-d3b24147fcf5",
+    "dupe_name": "Ernest Born",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "efb8d8ee-a0a5-4327-879a-652e3f936aa6",
+    "keep_name": "Rudolf Denk",
+    "dupe_id": "d3cc55c9-7c7d-4e9a-90c2-45a7a29d2783",
+    "dupe_name": "Rudolf Junk",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "edcac9c4-ea52-4a1c-a9e8-a634258b0f7e",
+    "keep_name": "Vera Molnar",
+    "dupe_id": "34144f2c-c437-4975-93dd-82e0b17ac1c5",
+    "dupe_name": "Vera Möller",
+    "decision": "keep_separate",
+    "reasoning": "Vera Molnár는 매우 저명한 컴퓨터아트 선구자; Möller는 다른 인물"
+  },
+  {
+    "keep_id": "4ca68646-2481-4af3-a59d-da2af3bd4ebc",
+    "keep_name": "Peeter Neeffs",
+    "dupe_id": "fb351cb8-198a-4bca-a559-a008ae62d8c9",
+    "dupe_name": "Peeter Neef",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "ff9ea0d6-a686-494a-9e67-655ca4825897",
+    "keep_name": "Bertall et Cie.",
+    "dupe_id": "8002c0c0-7ca4-4fe0-b8a5-c4bfededd4ac",
+    "dupe_name": "Bertall & Cie.",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(company_suffix) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "397ea44f-d862-4267-b239-9bf520522636",
+    "keep_name": "Lars Tiller",
+    "dupe_id": "6edbc05f-a347-4fc7-ad97-079f3e61f383",
+    "dupe_name": "Lars Müller",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "0953c471-7459-4b7b-a41c-a866598f78fb",
+    "keep_name": "Mieczysław Wejman",
+    "dupe_id": "25a14803-9c0d-422a-b10e-bc5df9497e3f",
+    "dupe_name": "Mieczysław Berman",
+    "decision": "keep_separate",
+    "reasoning": "위와 동일"
+  },
+  {
+    "keep_id": "9908e4ab-6e90-4161-9571-049e49e6dc7f",
+    "keep_name": "Gu Yun",
+    "dupe_id": "a3126f91-09a1-4051-ba87-b2b42c496e25",
+    "dupe_name": "Gu An",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "94a05588-a3d3-4714-ae05-8049518da094",
+    "keep_name": "Wang Jinsong",
+    "dupe_id": "c3af6d99-a425-4eb1-80da-06fa2b120792",
+    "dupe_name": "Wang Qingsong",
+    "decision": "keep_separate",
+    "reasoning": "위와 동일"
+  },
+  {
+    "keep_id": "303ef5bf-9e32-4cca-ad9a-e8255d75c411",
+    "keep_name": "Vanden Bosch",
+    "dupe_id": "94fd577b-baf0-4bcc-bedb-4891b59b85d5",
+    "dupe_name": "Vanden Bossche",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "d85bcaab-9245-4812-bf13-3ae31d8e8370",
+    "keep_name": "Simon Braun",
+    "dupe_id": "2b7158c9-dc41-454f-abb3-e8118e65aef5",
+    "dupe_name": "Simon Blau",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "19426b78-92d5-4b7f-b9a8-531366b2f7d5",
+    "keep_name": "Andrew McLeod",
+    "dupe_id": "c5bf5009-cfe7-4844-8d52-be98f4682007",
+    "dupe_name": "Andrew McLean",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "3689356e-ecfe-4aa1-8db1-e5e8cb3bf49d",
+    "keep_name": "Friedrich Lieder",
+    "dupe_id": "32d20790-b95d-4529-ade4-4171ed632e05",
+    "dupe_name": "Friedrich Roeder",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "3689356e-ecfe-4aa1-8db1-e5e8cb3bf49d",
+    "keep_name": "Friedrich Lieder",
+    "dupe_id": "b5a1b14b-42f7-4287-bea8-e4a15848204d",
+    "dupe_name": "Friedrich Liegel",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "4d1ec43c-dd47-4401-aa04-68058eebd832",
+    "keep_name": "Ernst Graner",
+    "dupe_id": "bac682ae-7ab0-44c5-8521-0e5d81043798",
+    "dupe_name": "Ernst Graef",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "0fde3f0a-a955-4817-852e-1fa4f33d2079",
+    "keep_name": "Dagron et Cie.",
+    "dupe_id": "ea47990c-f60e-434a-9370-f5fd62cef43f",
+    "dupe_name": "Dagron & Cie.",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(company_suffix) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "9ad0569e-e4ac-42c8-97e5-696ce6eaf325",
+    "keep_name": "Wu Bing",
+    "dupe_id": "86387185-68da-4629-91b0-e44ff3d02952",
+    "dupe_name": "Wu Hong",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "f6c98c1d-f95c-4585-8b39-cb878575445d",
+    "keep_name": "Raphael Sanctio da Urbino",
+    "dupe_id": "d5efd38d-e1b0-46f2-9255-7d65f6deaa81",
+    "dupe_name": "Raphael Sanzio d'Urbino",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "f2472f5b-1d96-46f1-9455-9d749feacb7f",
+    "keep_name": "Carlo Guarienti",
+    "dupe_id": "99334558-142b-4f51-af51-c464e4195cee",
+    "dupe_name": "Carlo Arienti",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "c07568b8-3950-4fef-9bd4-836921de2ed4",
+    "keep_name": "Jules Robert",
+    "dupe_id": "3f1a1e4a-3479-4a46-87ef-28c11fa0b158",
+    "dupe_name": "Jules Hébert",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "c1f3c973-cd82-41f6-8d87-972b814ba686",
+    "keep_name": "Leon Joliot",
+    "dupe_id": "4c8cb6a5-d19c-4a9f-8b21-0fd4f02043f5",
+    "dupe_name": "Léon Jallot",
+    "decision": "keep_separate",
+    "reasoning": "위와 동일"
+  },
+  {
+    "keep_id": "23274748-3b6d-420d-97c6-993fbf1dbd5a",
+    "keep_name": "Stephen Bram",
+    "dupe_id": "ee71af65-b058-48e9-83e7-872b685b156e",
+    "dupe_name": "Stephen Beal",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "50da8520-40fc-402e-a78d-6c1d8093a1d7",
+    "keep_name": "Barbara S. Spitz",
+    "dupe_id": "56f4c366-11d0-4450-a2ec-d3e3b2a08bf3",
+    "dupe_name": "Barbara T. Smith",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "a9e3dc5e-6d5f-4f38-8867-64545e919ddb",
+    "keep_name": "Peggy Hay",
+    "dupe_id": "334b9943-5b97-4cf4-9928-ad39cdf8d368",
+    "dupe_name": "Peggy Shaw",
+    "decision": "keep_separate",
+    "reasoning": "Peggy Shaw는 실존 미국 퍼포먼스 아티스트; Hay는 다른 인물"
+  },
+  {
+    "keep_id": "6867ec45-3710-4dc6-8867-f90e6ba8d86d",
+    "keep_name": "Rudolf Sieck",
+    "dupe_id": "b7447af6-8117-4ac3-b7c4-1bb13296f338",
+    "dupe_name": "Rudolf Fleck",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "0a1f1440-53d4-42db-9cf4-9162e6759bfb",
+    "keep_name": "Manfred Willmann",
+    "dupe_id": "672d07d4-b554-41c6-80d0-216cea42f6c2",
+    "dupe_name": "Manfred Hollmann",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "76bd833b-9605-4a27-a6a1-64754e6a2a08",
+    "keep_name": "Mihăescu, Viorela",
+    "dupe_id": "cb73fc69-56d0-455c-a6a5-3eddf823bd99",
+    "dupe_name": "Mihăescu Viorica",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "fb7ee769-1308-410a-bb04-04d055d99a8c",
+    "keep_name": "Raffaello Vanni",
+    "dupe_id": "c2fff107-7bd2-47a5-a294-f97ac2a38ec2",
+    "dupe_name": "Raffaello Santi",
+    "decision": "keep_separate",
+    "reasoning": "중요: Raffaello Vanni(17세기 화가)와 'Raffaello Santi'(라파엘로 본명, Raphael)는 전혀 다른 인물"
+  },
+  {
+    "keep_id": "e0b86827-65b6-46b3-9e9f-5fc2b1d89606",
+    "keep_name": "Professor Josef Wopfner",
+    "dupe_id": "19543881-5941-41fd-80b1-94805928bc18",
+    "dupe_name": "Professor Joseph Wopfner",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "4f73aaad-8e59-4db8-9703-2e5afb1c03c8",
+    "keep_name": "Lucca Giordano",
+    "dupe_id": "508b778a-dc48-4df7-bc7c-80c2d9a996be",
+    "dupe_name": "Lucca Jordano",
+    "decision": "merge",
+    "reasoning": "위와 동일 인물의 다른 표기"
+  },
+  {
+    "keep_id": "30972b1c-f057-4130-abc9-6a5cd017e11b",
+    "keep_name": "Frédéric Brentel",
+    "dupe_id": "ce2406a0-50e8-42b4-9063-bd42df5e8c1c",
+    "dupe_name": "Frederic Brenner",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "b7808781-70a4-498c-b949-dc19cc1e3ca0",
+    "keep_name": "André Favory",
+    "dupe_id": "2dbd5a08-b853-4e46-9339-2a06affd6742",
+    "dupe_name": "Andre Flory",
+    "decision": "keep_separate",
+    "reasoning": "André Favory는 실존 프랑스 큐비즘 계열 화가; Flory는 다른 인물"
+  },
+  {
+    "keep_id": "dae0e5c5-e113-4424-a3d3-637d00df6c32",
+    "keep_name": "Patrick, James",
+    "dupe_id": "265ba597-88bf-4e06-ae60-b23c5a9b2945",
+    "dupe_name": "Patrick Hayes",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "683a7616-529c-4285-9f4e-c2b53a9a71cd",
+    "keep_name": "Giuseppe Marri",
+    "dupe_id": "84368f90-2282-489a-a092-da6d21767130",
+    "dupe_name": "Giuseppe Barni",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "c1ae10c4-afa0-42e4-8c60-ebcf3ade0c54",
+    "keep_name": "Willy Boers",
+    "dupe_id": "83254c3a-db18-4464-bf2e-8aec7664af10",
+    "dupe_name": "Willy Blees",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "852ed7b6-5dd3-4306-a681-223692745155",
+    "keep_name": "Ernst Kaiser",
+    "dupe_id": "d1e71831-f9d9-4e42-a25b-b49f45b5372c",
+    "dupe_name": "Ernst Haider",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "3d683588-b426-465f-89bf-cfe59128598d",
+    "keep_name": "Day & Co.",
+    "dupe_id": "9c59bb4e-bf30-45c3-ad49-9d3ce1f92d20",
+    "dupe_name": "Day & Son",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "aa45df84-9efe-4871-b449-19606aa1fad7",
+    "keep_name": "Józef Polkowski",
+    "dupe_id": "67564e11-2113-4898-9e1a-84ea3894be10",
+    "dupe_name": "Józef Doskowski",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "03e44a36-bcbe-4c93-ac0d-85726fe09807",
+    "keep_name": "Stunder, Ján Jakub",
+    "dupe_id": "3d76255a-9244-44b7-801a-897d89c884a9",
+    "dupe_name": "Stunder, Johan Jacob",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "0ddd3750-4c81-402d-8864-833949e3c13f",
+    "keep_name": "Cornelius Pulenburg",
+    "dupe_id": "b73d11db-abde-42b2-b4ac-4e7eeb602365",
+    "dupe_name": "Cornelius Poelenburg",
+    "decision": "merge",
+    "reasoning": "동일 화가 철자변형"
+  },
+  {
+    "keep_id": "59c1f438-de0b-4029-a467-1c28bcfb6200",
+    "keep_name": "Old Vandevelde",
+    "dupe_id": "d357bbb1-007d-4d60-82e8-bda2d5c0a92b",
+    "dupe_name": "Old Vanderveldt",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "be9c923f-8219-4fb4-940f-ea46b4a82425",
+    "keep_name": "Diana Hobson",
+    "dupe_id": "3314464d-d53b-4e38-bf5c-cf8c3546be6c",
+    "dupe_name": "Diana Olson",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "32b0de89-bbd7-4968-85c2-a056942a0533",
+    "keep_name": "Dujardin (Carl)",
+    "dupe_id": "ebf46572-8839-42ef-967e-b6a615ddfe11",
+    "dupe_name": "Dujardin (Karle)",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "f9b484a2-0255-4584-9bc0-20bb059ff689",
+    "keep_name": "Anna Petrus",
+    "dupe_id": "a456bffc-278c-4d29-b599-d843f7280dd8",
+    "dupe_name": "Anna Peters",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "cc3044f4-72ed-404a-919e-5a221c998e4d",
+    "keep_name": "Lee Kang-So",
+    "dupe_id": "1b3483d6-26d6-4c41-bf9a-44adda6f3286",
+    "dupe_name": "Lee Kang-Hyo",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "daac529d-4599-4119-8d8d-99d22f4d19da",
+    "keep_name": "Nicolas Sanson",
+    "dupe_id": "cabe2e2a-e303-4534-be5c-a2c56ecc0dfc",
+    "dupe_name": "Nicolas Pinson",
+    "decision": "keep_separate",
+    "reasoning": "Nicolas Sanson은 저명 프랑스 지도제작자; Pinson은 다른 인물"
+  },
+  {
+    "keep_id": "8838ad8e-ab85-4e92-8567-0f33df9854cd",
+    "keep_name": "Martha Walter",
+    "dupe_id": "f8732610-5f8c-4dd8-b548-f1183f3fb5f9",
+    "dupe_name": "Martha Alber",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "62f9b22a-1285-4708-94d2-a2b89eca2d69",
+    "keep_name": "Frank Walter",
+    "dupe_id": "2fde3928-77f3-4314-9a29-f05ccbc51ee2",
+    "dupe_name": "Frank Walton",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "68a1d22d-2cc5-4be8-9325-d1c0c63cc4af",
+    "keep_name": "Emil Hoppé",
+    "dupe_id": "602114f9-9226-4c7f-abba-5c8461283cf4",
+    "dupe_name": "Emil Tappe",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "cb8346eb-d079-42ac-9aaa-b127752621b1",
+    "keep_name": "Walter Rose",
+    "dupe_id": "08f3eeab-d2e7-4c51-b011-fdfe0f071367",
+    "dupe_name": "Walter Bosse",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "24689fff-b401-4449-acf3-963c49d9599c",
+    "keep_name": "Friedrich Feigl",
+    "dupe_id": "0691e494-40c4-45ab-8105-1d164c335d32",
+    "dupe_name": "Friedrich Keil",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "81191d18-655f-4542-9a9a-0ac84a6ef7ae",
+    "keep_name": "Friedrich Giessmann",
+    "dupe_id": "3624c593-392e-4bc6-aca9-3463f404c95a",
+    "dupe_name": "Friedrich Lissmann",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "d035fd22-6638-4fd7-9d7a-a934aa1acfa4",
+    "keep_name": "Hermann Böbel",
+    "dupe_id": "c5b9c076-a283-49a8-9144-f1c4645e4f50",
+    "dupe_name": "Hermann Vogel",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "fe5513f8-12a9-4053-b0fb-7d3944f6bfce",
+    "keep_name": "Sam Falk",
+    "dupe_id": "75f867f8-91e4-4da3-b664-ff19c2732515",
+    "dupe_name": "Sam Falls",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "4da6f752-5a18-479d-8c1c-04a1d7d6fefa",
+    "keep_name": "Sam Kaner",
+    "dupe_id": "7f0fdb48-177b-418a-a25a-194e5a7c0caa",
+    "dupe_name": "Sam Kramer",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "c87f1bfe-c752-41c7-9691-584b81bf9be7",
+    "keep_name": "Chris Mars",
+    "dupe_id": "e5d99489-642f-4cae-895e-5e658d3e5e05",
+    "dupe_name": "Chris Ware",
+    "decision": "keep_separate",
+    "reasoning": "Chris Ware는 저명 만화가; Mars는 다른 화가"
+  },
+  {
+    "keep_id": "e770f245-bd11-434b-9fd1-0971e71d0c65",
+    "keep_name": "Dan, Lars",
+    "dupe_id": "49733750-de5f-4b15-b39a-06f58ae5f6a7",
+    "dupe_name": "Dan Arps",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "689e138d-2f86-4cb4-8381-709b384e8ea8",
+    "keep_name": "Suzanne Bucher",
+    "dupe_id": "2b422737-9774-4c14-9d1a-49f920c4f416",
+    "dupe_name": "Suzanne Archer",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "2c4383d0-770d-4419-8259-d536784869c3",
+    "keep_name": "Stefan Popowski",
+    "dupe_id": "3b1cff1c-1dc7-401d-b8a2-ab236927259d",
+    "dupe_name": "Stefan Poplawski",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "71323546-ed2f-41bf-b592-c83634609db3",
+    "keep_name": "Zhao Gan",
+    "dupe_id": "bf185f52-1367-4283-80bf-82224dcdaaeb",
+    "dupe_name": "Zhao Lin",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "1d6656ab-87a2-4947-9549-db7b2fb30eac",
+    "keep_name": "Chen Yanning",
+    "dupe_id": "07a14e0a-c38d-48fc-abcb-2eb35116bc53",
+    "dupe_name": "Chen Banding",
+    "decision": "keep_separate",
+    "reasoning": "Chen Banding은 저명 근대 중국 화가; Yanning은 다른 인물"
+  },
+  {
+    "keep_id": "565bd26d-6761-4877-83a8-ddcf4d5b8cb3",
+    "keep_name": "Liang Yuwei",
+    "dupe_id": "54d1c40e-5257-4f86-8f33-5049a2443b6d",
+    "dupe_name": "Liang Yue",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "213cc4b5-65df-45e0-9485-174cb1ea2ad1",
+    "keep_name": "Sun Hu",
+    "dupe_id": "9601c5ed-6fb5-4e26-8afc-19e6889c905a",
+    "dupe_name": "Sun Zhi",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "d9774b0e-a3e5-417f-8d5f-2c8d3e0ced59",
+    "keep_name": "Huijgh Pietersz Voskuijl",
+    "dupe_id": "28af8f0f-73f7-4d0d-89c0-ba836b4b3713",
+    "dupe_name": "Huijgh Pietersz. Voskuyl",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "efadb7da-5a80-4a38-99c7-a34cf14342b9",
+    "keep_name": "Charnaux frères & Co.",
+    "dupe_id": "051402d4-afec-482d-98c7-f3a344bdb55d",
+    "dupe_name": "Charnaux Frères & Cie.",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(company_suffix) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "2e77432f-b4f8-43ad-9832-a0c387529326",
+    "keep_name": "Hamano Yasuyuki",
+    "dupe_id": "7c381069-f648-4c92-96bc-6a7e8ef61566",
+    "dupe_name": "Hamano Masayuki",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "5f874243-b831-4984-95df-223607632c6b",
+    "keep_name": "Itaya Hiromasa",
+    "dupe_id": "7186817f-454c-4611-a5cb-74a41157a13f",
+    "dupe_name": "Itaya Hironaga",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "58711488-cffc-4454-b9d2-069965f6676c",
+    "keep_name": "Eleni Revi",
+    "dupe_id": "a0ab621c-13b8-4ebd-be36-d7aa507bdff1",
+    "dupe_name": "Eleni Deli",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "ecb43dba-fd33-4cbe-9ec5-0d4072c86d96",
+    "keep_name": "ein guter unbekannter Meister",
+    "dupe_id": "ae013c34-4c87-499c-9dda-f87babb2e0f0",
+    "dupe_name": "ein alter unbekanter Meister",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "27257938-4df9-438e-a003-d90a8e6fef7e",
+    "keep_name": "Jean-Baptiste Bénard",
+    "dupe_id": "df7dfee5-c03c-4189-ac8a-cda7b363df48",
+    "dupe_name": "Jean-Baptiste Lenardi",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "00bddd12-d6ee-45cc-9100-067842e77c08",
+    "keep_name": "August Leu",
+    "dupe_id": "f9c06a33-1cf3-4d70-8468-164e8fbe7f0d",
+    "dupe_name": "August Laux",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "8ebc2049-7c7b-46ab-8b3b-7e56ab5b5d0c",
+    "keep_name": "Tho. Wyck",
+    "dupe_id": "b5b47017-4c21-4581-93df-35a6b843f6f0",
+    "dupe_name": "Tho. Wyke",
+    "decision": "merge",
+    "reasoning": "동일 인물 Thomas Wyck 철자변형"
+  },
+  {
+    "keep_id": "47034e86-7a4a-41ae-9b16-c3526d86ede1",
+    "keep_name": "Petersen, Arne",
+    "dupe_id": "daa50a6f-1c53-4070-bd13-d0d12530c158",
+    "dupe_name": "Petersen, Aage",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "de15859b-b687-42ff-9757-104b96245b19",
+    "keep_name": "Lawrence Reiter",
+    "dupe_id": "081f77aa-e560-4012-96dc-2b68c0d4e2e1",
+    "dupe_name": "Lawrence, Peter",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "32af06f8-4d6d-4934-b7ce-1fa32f354508",
+    "keep_name": "Marvin Koner",
+    "dupe_id": "0fc22257-13ca-49ed-87d4-fcba25568454",
+    "dupe_name": "Marvin Cone",
+    "decision": "keep_separate",
+    "reasoning": "Marvin Koner는 실존 미국 사진가; Cone은 다른 인물"
+  },
+  {
+    "keep_id": "ca633f2f-3d2d-4c80-849d-b320475c8514",
+    "keep_name": "Frederick Sang",
+    "dupe_id": "80de687e-3e22-4f40-8cd4-430a5b062e9c",
+    "dupe_name": "Frederick Shane",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "07146548-24e5-49a0-90c7-dba48b63c9f5",
+    "keep_name": "Friedrich Hahn",
+    "dupe_id": "8680b323-4ded-49a3-8d6b-9063018bc792",
+    "dupe_name": "Friedrich Kuhn",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "227d43a2-4461-4161-b4f5-f1c687ae345c",
+    "keep_name": "Philipp Arons",
+    "dupe_id": "72583e70-9ada-466e-a2e6-3d23aaa4b616",
+    "dupe_name": "Philipp Roos",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "270ecb79-75f2-4600-93d3-a14218c628d4",
+    "keep_name": "Hermann Joseph Neefe",
+    "dupe_id": "b020163f-51a7-4bc3-bcdb-02fc7456343b",
+    "dupe_name": "Hermann Josef Neefe",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "91c890f2-0a84-488d-9ddc-7dbcb693a1c8",
+    "keep_name": "Andrei Voznesensky",
+    "dupe_id": "5555f030-18f2-4a73-8ea1-1f63c5262080",
+    "dupe_name": "Andrei Voznesenskii",
+    "decision": "merge",
+    "reasoning": "동일 저명 러시아 시인/예술가 음역 변형"
+  },
+  {
+    "keep_id": "5e90117b-f9cc-4b15-a357-e8ff1ad91be7",
+    "keep_name": "Barbara Gluck",
+    "dupe_id": "3dad858f-cd82-4b97-97fb-42cd6e9b0549",
+    "dupe_name": "Barbara Tuck",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "7c6a3b86-3023-4980-a94d-36e3f0216a05",
+    "keep_name": "Duroni et Murer",
+    "dupe_id": "7a38ae69-c2bd-406b-8b28-8fa2141c9d6f",
+    "dupe_name": "Duroni & Murer",
+    "decision": "merge",
+    "reasoning": "형식/회사명 표기 변형으로 자동 판정(format_variant) - 프로그램적으로 토큰 비교 검증"
+  },
+  {
+    "keep_id": "8196268f-5eba-4a5b-b72a-3eeba4674d77",
+    "keep_name": "Piet Esser",
+    "dupe_id": "29679201-a070-4021-9261-950116d8bcdb",
+    "dupe_name": "Piet Visser",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  },
+  {
+    "keep_id": "745d4ba5-b29a-4100-b97e-17ad59d213eb",
+    "keep_name": "Kanō Norinobu",
+    "dupe_id": "b3c0d1e0-ab68-4ca8-9eba-49834646207a",
+    "dupe_name": "Kanō Korenobu",
+    "decision": "uncertain",
+    "reasoning": "개별 검증 못함 - 이름이 서로 달라(우연한 편집거리 근접) 동일인 여부 불확실. 안전을 위해 병합하지 않고 보류."
+  }
+]

@@ -3,3 +3,7 @@ crawlers/__pycache__/
 __pycache__/
 *.pyc
 .env
+vault/
+pipeline/_*.log
+docs/_*.log
+vault_curated/

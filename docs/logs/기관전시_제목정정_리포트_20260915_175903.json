@@ -1,0 +1,247 @@
+{
+  "generated_at": "2026-09-15T08:59:03.743890+00:00",
+  "total_scanned": 563,
+  "total_changes": 85,
+  "samples": [
+    {
+      "id": "7ea82eb3-afb9-46b9-8c5b-b9da4343dc26",
+      "old_title": "국립현대미술관 «창동레지던시 입주보고서 2017»",
+      "new_title": "창동레지던시 입주보고서 2017",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "url": null,
+      "start_date": "2017-11-17"
+    },
+    {
+      "id": "5e2d4853-e78b-4278-bfac-d6f7838cbe4f",
+      "old_title": "국립현대미술관 «2022 고양레지던시 오픈스튜디오 18 모두 다른 빛깔»",
+      "new_title": "2022 고양레지던시 오픈스튜디오 18 모두 다른 빛깔",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "url": null,
+      "start_date": "2022-11-11"
+    },
+    {
+      "id": "8c31ef33-0948-4e4d-806c-fb81caf93ada",
+      "old_title": "경기도미술관 《당신의 가장 찬란한 순간》",
+      "new_title": "당신의 가장 찬란한 순간",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2022-06-29"
+    },
+    {
+      "id": "303bed94-a91c-4a51-b861-1e2060c61524",
+      "old_title": "경기도미술관 《지금 이따가 다음에》",
+      "new_title": "지금 이따가 다음에",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2022-04-05"
+    },
+    {
+      "id": "f2ff3657-f11c-4dad-9a9e-cc51c51dae9c",
+      "old_title": "경기도미술관 《김채린×서혜민: 조각음계 Sculpture Scale》",
+      "new_title": "김채린×서혜민: 조각음계 Sculpture Scale",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2021-12-02"
+    },
+    {
+      "id": "6013b7a8-5951-46d5-9208-9e497594e15d",
+      "old_title": "경기도미술관 《퀀텀점프: 홍란 – 무리지어 엉켜있는 상태》",
+      "new_title": "퀀텀점프: 홍란 – 무리지어 엉켜있는 상태",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2016-01-15"
+    },
+    {
+      "id": "ec138f58-d439-4601-8c1d-4b93963cbfa7",
+      "old_title": "경기도미술관 《영상과 물질 – 1970년대 일본의 판화》",
+      "new_title": "영상과 물질 – 1970년대 일본의 판화",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2016-02-02"
+    },
+    {
+      "id": "fc95ff2e-7359-4312-94ef-27c5e0f1ab10",
+      "old_title": "경기도미술관 《경기잡가京畿雜歌》",
+      "new_title": "경기잡가京畿雜歌",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2016-02-19"
+    },
+    {
+      "id": "ad1de108-6122-4f0c-8dcf-b34de9a28e10",
+      "old_title": "경기도미술관 《퀀텀점프: 편대식 – Existence》",
+      "new_title": "퀀텀점프: 편대식 – Existence",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2016-02-18"
+    },
+    {
+      "id": "eff1f0fb-546b-4618-ab21-c1f234910770",
+      "old_title": "경기도미술관 《G-Live: Fabien & Taeyoung》",
+      "new_title": "G-Live: Fabien & Taeyoung",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2016-07-07"
+    },
+    {
+      "id": "37bca5e2-76d0-48d5-84e5-3f07986546c7",
+      "old_title": "경기도미술관 《백화만발 만화방창 百花滿發 萬化方暢 – 백 개의 그림, 만 가지 이야기》",
+      "new_title": "백화만발 만화방창 百花滿發 萬化方暢 – 백 개의 그림, 만 가지 이야기",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2016-07-07"
+    },
+    {
+      "id": "4046c73f-6e3c-4bd0-b9bf-5813398dd360",
+      "old_title": "경기도미술관 《공간의 발견》",
+      "new_title": "공간의 발견",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2016-09-13"
+    },
+    {
+      "id": "a1d407e0-987d-4bc1-8541-7230213fc9ff",
+      "old_title": "경기도미술관 《광대하고 느리게: 권혜원, 박은태, 조은지》",
+      "new_title": "광대하고 느리게: 권혜원, 박은태, 조은지",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2021-11-11"
+    },
+    {
+      "id": "1de6d3bb-3add-4578-9dec-400fbe78f2d6",
+      "old_title": "경기도미술관 《기전본색畿甸本色 – 거장의 예술을 찾아서》",
+      "new_title": "기전본색畿甸本色 – 거장의 예술을 찾아서",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2016-09-29"
+    },
+    {
+      "id": "d76f4718-fe05-4126-a009-c19434cd8e4d",
+      "old_title": "경기도미술관 《경기도미술관 개관 10주년 아카이브 전시》",
+      "new_title": "경기도미술관 개관 10주년 아카이브 전시",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2016-09-29"
+    },
+    {
+      "id": "dfb45640-4582-4d86-b1e8-94519bbb1b36",
+      "old_title": "경기도미술관 《산책자의 시선》",
+      "new_title": "산책자의 시선",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2016-12-15"
+    },
+    {
+      "id": "0d430051-c45d-4cbd-9cdd-7c086c44a42f",
+      "old_title": "경기도미술관 《소장품, 미술관의 얼굴》",
+      "new_title": "소장품, 미술관의 얼굴",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2017-02-16"
+    },
+    {
+      "id": "211f917e-6694-42e7-a324-040c253a1124",
+      "old_title": "경기도미술관 《너희를 담은 시간》",
+      "new_title": "너희를 담은 시간",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2017-03-17"
+    },
+    {
+      "id": "a27857c5-2550-4eef-bfd5-6d24a55f47d8",
+      "old_title": "경기도미술관 《가족 보고서》",
+      "new_title": "가족 보고서",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2017-04-28"
+    },
+    {
+      "id": "39cce559-6aed-4660-bc77-7d1c570d62dc",
+      "old_title": "경기도미술관 《허우중 – 소셜 픽션》",
+      "new_title": "허우중 – 소셜 픽션",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2017-07-13"
+    },
+    {
+      "id": "2adad890-0d2d-4a1f-9ad6-cf81221c4877",
+      "old_title": "경기도미술관 《크래프트 클라이맥스: 경기 현대공예 2017》",
+      "new_title": "크래프트 클라이맥스: 경기 현대공예 2017",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2017-07-21"
+    },
+    {
+      "id": "5016062f-e46a-4980-a8d2-025e232747c3",
+      "old_title": "경기도미술관 《다시, 평화》",
+      "new_title": "다시, 평화",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2021-10-07"
+    },
+    {
+      "id": "84a78c39-2dd8-4186-a603-13976349c578",
+      "old_title": "경기도미술관 《이수진 – 먼나무 숲에서 갈대와 소나무가 돌에 뿌리를 내리고 돌과 함께 산다》",
+      "new_title": "이수진 – 먼나무 숲에서 갈대와 소나무가 돌에 뿌리를 내리고 돌과 함께 산다",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2017-09-07"
+    },
+    {
+      "id": "13fc0947-19b7-4162-a2d9-30960e263e75",
+      "old_title": "경기도미술관 《아이러니 ＆ 아이디얼리즘》",
+      "new_title": "아이러니 ＆ 아이디얼리즘",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2017-09-28"
+    },
+    {
+      "id": "9d81ed7f-43de-4618-b8b2-68faab5deb19",
+      "old_title": "경기도미술관 《수행의 길: 한국의 단색화》",
+      "new_title": "수행의 길: 한국의 단색화",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2017-10-13"
+    },
+    {
+      "id": "30ddf904-12b3-4943-b11a-8f657ccd08e9",
+      "old_title": "경기도미술관 《리듬풍경》",
+      "new_title": "리듬풍경",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2017-10-20"
+    },
+    {
+      "id": "2c76fad6-7d93-4fad-b720-de5a2fc1fe0f",
+      "old_title": "경기도미술관 《경기도미술관 민화동호회 첫 번째 회원전》",
+      "new_title": "경기도미술관 민화동호회 첫 번째 회원전",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2017-10-26"
+    },
+    {
+      "id": "9e999601-45e8-47eb-b4d2-e1edff0e0d7d",
+      "old_title": "경기도미술관 《경기아트프리즘 2017》",
+      "new_title": "경기아트프리즘 2017",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2017-11-09"
+    },
+    {
+      "id": "32962fb7-01e6-4445-b9ec-a4553f7f6c4e",
+      "old_title": "경기도미술관 《전우연 – 고보》",
+      "new_title": "전우연 – 고보",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2017-11-09"
+    },
+    {
+      "id": "6790ee85-8fcd-4b09-a682-6ad2d7c856e0",
+      "old_title": "경기도미술관 《이면 탐구자 Inside Out》",
+      "new_title": "이면 탐구자 Inside Out",
+      "museum_id": "224e8433-02f6-4401-90a3-0e6dda67f427",
+      "url": null,
+      "start_date": "2017-12-15"
+    }
+  ]
+}

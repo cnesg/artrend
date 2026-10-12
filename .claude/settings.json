@@ -4,6 +4,8 @@
       "Bash(python crawlers/*.py)",
       "Bash(python crawlers/*.py *)",
       "Bash(pip install -r crawlers/requirements.txt)",
+      "Bash(python pipeline/run.py *)",
+      "Bash(pip install -r pipeline/requirements.txt)",
       "Bash(git status)",
       "Bash(git diff*)",
       "Bash(git log*)",

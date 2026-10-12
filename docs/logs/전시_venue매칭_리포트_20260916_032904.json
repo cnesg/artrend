@@ -1,0 +1,258 @@
+{
+  "generated_at": "2026-09-15T18:29:04.089320+00:00",
+  "total_candidates": 3377,
+  "matched_museum": 13,
+  "matched_gallery": 119,
+  "unmatched": 3245,
+  "sample_museum_matches": [
+    {
+      "id": "3ec247c5-647b-485c-bf1f-90d84811baed",
+      "venue_name": "The Museum of Modern Art",
+      "museum_id": "302d1125-cc82-40b5-8d88-6db06423aed9"
+    },
+    {
+      "id": "cb60d0d1-bb1b-4240-a5e2-50d290b0f991",
+      "venue_name": "The Museum of Modern Art",
+      "museum_id": "302d1125-cc82-40b5-8d88-6db06423aed9"
+    },
+    {
+      "id": "f8bf3509-5995-42db-a174-6864491a7291",
+      "venue_name": "The Museum of Modern Art",
+      "museum_id": "302d1125-cc82-40b5-8d88-6db06423aed9"
+    },
+    {
+      "id": "3a71918c-5dcc-4d08-83d4-f5d2f1295c29",
+      "venue_name": "The Museum of Modern Art",
+      "museum_id": "302d1125-cc82-40b5-8d88-6db06423aed9"
+    },
+    {
+      "id": "bbb9ce16-eac8-4ef3-abe7-d093d2a636c2",
+      "venue_name": "The Museum of Modern Art",
+      "museum_id": "302d1125-cc82-40b5-8d88-6db06423aed9"
+    },
+    {
+      "id": "0f898a99-fbf8-4783-89e6-cdc104757ac5",
+      "venue_name": "The Museum of Modern Art",
+      "museum_id": "302d1125-cc82-40b5-8d88-6db06423aed9"
+    },
+    {
+      "id": "febaaeec-fc4a-4b41-b573-a7b864770155",
+      "venue_name": "The Museum of Modern Art",
+      "museum_id": "302d1125-cc82-40b5-8d88-6db06423aed9"
+    },
+    {
+      "id": "8b17cb02-6e0c-439e-bbac-5e894d67365a",
+      "venue_name": "The Museum of Modern Art",
+      "museum_id": "302d1125-cc82-40b5-8d88-6db06423aed9"
+    },
+    {
+      "id": "25864dc6-2d5a-49ad-88ae-40505ee63f3c",
+      "venue_name": "The Metropolitan Museum of Art",
+      "museum_id": "ca6ff3f5-5653-405d-8a20-286370dec7e4"
+    },
+    {
+      "id": "16c2fa49-5fc9-44b7-96f2-2859389738cd",
+      "venue_name": "Seoul Museum of Art",
+      "museum_id": "6f7fe637-71c6-49fc-b95c-6dfcf9b6b9f0"
+    },
+    {
+      "id": "7f22145e-26ff-41eb-ae2b-6203fd06c4e6",
+      "venue_name": "Seoul Museum of Art",
+      "museum_id": "6f7fe637-71c6-49fc-b95c-6dfcf9b6b9f0"
+    },
+    {
+      "id": "9b165759-26e2-4f80-a430-8cfd0914bb24",
+      "venue_name": "Leeum Museum of Art",
+      "museum_id": "6213d9c2-f1fb-4619-b4bb-4a37b6b17c93"
+    },
+    {
+      "id": "d9b85356-5f9e-4cc3-aa86-8dc6847145c6",
+      "venue_name": "리움미술관",
+      "museum_id": "6213d9c2-f1fb-4619-b4bb-4a37b6b17c93"
+    }
+  ],
+  "sample_gallery_matches": [
+    {
+      "id": "7e15fabe-fe24-4da8-90b5-0a27d362d620",
+      "venue_name": "Thaddaeus Ropac",
+      "gallery_id": "bcf2cba0-54e2-4667-b0c6-7dc58f69003b"
+    },
+    {
+      "id": "2018f2b8-3b20-4888-a4e9-e8bdff18b26e",
+      "venue_name": "Anton Kern Gallery",
+      "gallery_id": "2c564164-b058-4ba5-be44-fcb81edee58e"
+    },
+    {
+      "id": "759f4579-a380-447c-b5f8-a45034f00b92",
+      "venue_name": "Gallery Hyundai",
+      "gallery_id": "7223cefb-ede0-4bf7-9cce-2a984355ddf2"
+    },
+    {
+      "id": "f3710ff6-81ea-4840-9d67-5e29ef5045e9",
+      "venue_name": "Gallery Hyundai",
+      "gallery_id": "7223cefb-ede0-4bf7-9cce-2a984355ddf2"
+    },
+    {
+      "id": "d7f5bd4f-d95b-440a-9e7a-8006fafbb41b",
+      "venue_name": "Gallery Hyundai",
+      "gallery_id": "7223cefb-ede0-4bf7-9cce-2a984355ddf2"
+    },
+    {
+      "id": "1108fe72-1096-4c0d-b55b-907d6b3ea5df",
+      "venue_name": "Almine Rech",
+      "gallery_id": "10f937cc-6ad2-4081-bf4a-9994f5a02455"
+    },
+    {
+      "id": "2c79edb2-eb84-44ed-8e75-b6c842b81db0",
+      "venue_name": "Almine Rech",
+      "gallery_id": "10f937cc-6ad2-4081-bf4a-9994f5a02455"
+    },
+    {
+      "id": "6241fd52-71c4-4fd6-a01e-a92030645163",
+      "venue_name": "Almine Rech",
+      "gallery_id": "10f937cc-6ad2-4081-bf4a-9994f5a02455"
+    },
+    {
+      "id": "5d58f8fd-5ea1-4060-b815-2f483a36b23a",
+      "venue_name": "Almine Rech",
+      "gallery_id": "10f937cc-6ad2-4081-bf4a-9994f5a02455"
+    },
+    {
+      "id": "a244622f-000a-4e76-a685-6f48d6c76602",
+      "venue_name": "Almine Rech",
+      "gallery_id": "10f937cc-6ad2-4081-bf4a-9994f5a02455"
+    },
+    {
+      "id": "7d36f762-5d15-414b-b363-cfc1809a36f7",
+      "venue_name": "Almine Rech",
+      "gallery_id": "10f937cc-6ad2-4081-bf4a-9994f5a02455"
+    },
+    {
+      "id": "359069b8-8151-4052-960b-b884fb648896",
+      "venue_name": "Almine Rech",
+      "gallery_id": "10f937cc-6ad2-4081-bf4a-9994f5a02455"
+    },
+    {
+      "id": "c46d7213-e9c5-4735-96ce-fee021754b2b",
+      "venue_name": "Almine Rech",
+      "gallery_id": "10f937cc-6ad2-4081-bf4a-9994f5a02455"
+    },
+    {
+      "id": "ae97c377-99cb-47f2-984c-0641b9970b66",
+      "venue_name": "Almine Rech",
+      "gallery_id": "10f937cc-6ad2-4081-bf4a-9994f5a02455"
+    },
+    {
+      "id": "b7be90e7-d696-4787-93a4-c1f8d5c0b384",
+      "venue_name": "Almine Rech",
+      "gallery_id": "10f937cc-6ad2-4081-bf4a-9994f5a02455"
+    },
+    {
+      "id": "5628eb7f-d7d5-4b6d-ad84-423cc782f82c",
+      "venue_name": "Almine Rech",
+      "gallery_id": "10f937cc-6ad2-4081-bf4a-9994f5a02455"
+    },
+    {
+      "id": "8b5231f0-306a-446b-9a44-07149453b58a",
+      "venue_name": "Almine Rech",
+      "gallery_id": "10f937cc-6ad2-4081-bf4a-9994f5a02455"
+    },
+    {
+      "id": "5244ae94-be95-4105-8215-191441776948",
+      "venue_name": "Almine Rech",
+      "gallery_id": "10f937cc-6ad2-4081-bf4a-9994f5a02455"
+    },
+    {
+      "id": "7fc2a701-aea3-4354-bd1a-033e273fcf04",
+      "venue_name": "Almine Rech",
+      "gallery_id": "10f937cc-6ad2-4081-bf4a-9994f5a02455"
+    },
+    {
+      "id": "cf361fa9-7194-46b4-9775-06db39769d9c",
+      "venue_name": "Almine Rech",
+      "gallery_id": "10f937cc-6ad2-4081-bf4a-9994f5a02455"
+    }
+  ],
+  "top_unmatched_venue_names": [
+    [
+      "Pinakothek der Moderne",
+      55
+    ],
+    [
+      "New York",
+      47
+    ],
+    [
+      "M HKA - Museum van Hedendaagse Kunst Antwerpen",
+      36
+    ],
+    [
+      "Stedelijk Museum voor Actuele Kunst",
+      35
+    ],
+    [
+      "하우스 데어 쿤스트",
+      34
+    ],
+    [
+      "Museum Kunstpalast",
+      31
+    ],
+    [
+      "함부르거 반호프",
+      23
+    ],
+    [
+      "Deichtorhallen",
+      23
+    ],
+    [
+      "Wielemans Tower",
+      22
+    ],
+    [
+      "Building of the Winterthur Museum of Art",
+      21
+    ],
+    [
+      "Neues Museum Nürnberg",
+      21
+    ],
+    [
+      "Mu.ZEE - Kunstmuseum aan Zee",
+      21
+    ],
+    [
+      "Kunstmuseum Bonn",
+      21
+    ],
+    [
+      "Kunstmuseum Luzern",
+      20
+    ],
+    [
+      "CC Strombeek",
+      20
+    ],
+    [
+      "Museum Dhondt-Dhaenens",
+      20
+    ],
+    [
+      "Morsbroich Castle",
+      20
+    ],
+    [
+      "Deweer Gallery",
+      19
+    ],
+    [
+      "ZKM Center for Art and Media Karlsruhe",
+      18
+    ],
+    [
+      "M Leuven",
+      18
+    ]
+  ]
+}

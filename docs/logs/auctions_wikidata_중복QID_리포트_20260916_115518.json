@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-09-16T02:55:18.492452+00:00",
+  "note": "QID만으로 묶지 않고 (QID,statement GUID)로만 중복 판정 — 근거는 파일 상단 docstring 참고",
+  "raw_path_total": 803,
+  "qid_guid_groups": 803,
+  "duplicate_groups": 0,
+  "duplicate_lots_to_drop": 0,
+  "artworks_to_drop": 0,
+  "empty_auctions_to_drop": 0,
+  "samples": [],
+  "drop_lot_ids": [],
+  "final_drop_artwork_ids": [],
+  "empty_auction_ids": []
+}

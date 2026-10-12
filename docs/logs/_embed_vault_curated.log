@@ -1,0 +1,8 @@
+[embed] 대상 문서 5100건
+[embed] 모델 로딩 중: intfloat/multilingual-e5-small
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2283.15it/s]
+[embed] 모델 로딩 완료 (12.0초)
+[embed] 2048건 임베딩 완료 (스킵 0, 총 2048/5100)
+[embed] 4032건 임베딩 완료 (스킵 0, 총 4032/5100)
+[embed] 완료 — 임베딩 5100건, 스킵(변경없음) 0건

@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-09-15T05:06:22.389849+00:00",
+  "duplicate_groups": 0,
+  "duplicate_lots_to_drop": 0,
+  "artworks_to_drop": 0,
+  "bad_auction_dates": 0,
+  "bad_hammer_prices": 0,
+  "duplicate_detail": [],
+  "drop_lot_ids": [],
+  "final_drop_artwork_ids": [],
+  "bad_date_auction_ids": [],
+  "bad_price_lot_ids": []
+}

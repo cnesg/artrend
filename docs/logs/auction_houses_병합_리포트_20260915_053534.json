@@ -1,0 +1,150 @@
+{
+  "generated_at": "2026-09-15T05:35:34.006973+00:00",
+  "plan": [
+    {
+      "canonical": "Christie's",
+      "canonical_id": "7a925474-8db7-4ee3-bc3b-3528ac77d0c0",
+      "loser_names": [
+        "Christie & Manson",
+        "Christie's 1 July 1969",
+        "Christie's Auction House",
+        "Christie's Contemporary Art",
+        "Christie's Contemporary Art 1979",
+        "Christie's East",
+        "Christie's London",
+        "Christie's New York",
+        "Christie's New York 10 April 2013",
+        "Christie's Old Master and 19th Century Drawings",
+        "Christie's Paris",
+        "Christie's South Kensington",
+        "Christie's, New York",
+        "Christie's, Paris",
+        "Christies",
+        "Christies London",
+        "Christies auction 5138",
+        "Christie’s",
+        "Christie’s London",
+        "Christie’s New York"
+      ],
+      "loser_ids": [
+        "6929604d-ba89-44fe-a589-b8ceff1a27d8",
+        "07b7e76a-7682-45cf-94ea-1930d1738429",
+        "e9589dac-ea9a-4878-81fb-b3054838805e",
+        "5d1b4d3e-729d-4a46-8b3b-508c9b41a137",
+        "93052154-f6c9-4e93-8fe2-ecf4865385e0",
+        "314cc67a-1e19-4726-9c98-d9d718f4eb82",
+        "7643ae8b-4709-4819-b4f3-b3d5752d52ea",
+        "cb8d7c07-337a-4362-ba1d-af912e7f2d96",
+        "484baaed-5a4e-44b1-ade9-8179058a496c",
+        "bf1c32dd-ba29-4c53-86ce-9de9ab480ded",
+        "ed5e404a-ddb9-4d8d-98ae-eb62f1089e09",
+        "94e00463-37fb-4f5a-98ae-377f5a1a0d81",
+        "beae1b34-f350-43f2-98de-cf5433d50403",
+        "1edca8d8-974a-4eab-8663-e96c63fe68d1",
+        "4acd69dc-723f-4875-a7cf-d2070b57fcab",
+        "ad90bbe3-b1ad-4881-bcf8-d9cfe63c599e",
+        "4d5bf8e2-72e9-40cf-9bd1-bdb58df89cde",
+        "6e976834-5c9e-4049-a592-ed4a9553dd97",
+        "fda1f46a-58bd-486c-b620-7ef301ff5cdb",
+        "3749ad04-5f17-4aa8-920b-ba534be044de"
+      ],
+      "auctions_to_repoint": 22,
+      "provenance_to_repoint": 388
+    },
+    {
+      "canonical": "Sotheby's",
+      "canonical_id": "2405a7df-9593-4232-ae4c-f434f715406a",
+      "loser_names": [
+        "Sotheby",
+        "Sotheby & Co",
+        "Sotheby Parke Bernet",
+        "Sotheby Parke Bernet & Co",
+        "Sotheby Parke-Bernet",
+        "Sotheby's Amsterdam",
+        "Sotheby's Fine Art Auctions",
+        "Sotheby's London",
+        "Sotheby's London 20 November 2003",
+        "Sotheby's New York",
+        "Sotheby's Olympia",
+        "Sotheby's' London",
+        "Sotheby's)",
+        "Sotheby’s",
+        "Sotheby’s London",
+        "Sotheby’s New York"
+      ],
+      "loser_ids": [
+        "8ff68b93-2c65-4404-baff-2e4a20c3b86a",
+        "430501cc-27d5-416b-a800-8c67970ac579",
+        "b4c39dc9-f280-49ad-bde6-f186f2f6519f",
+        "5ecce1f5-51b7-4620-9800-8f6ccfe79a4e",
+        "9253d163-33e5-4d4f-82b9-31385ad8ab99",
+        "129cfe4c-8e92-4b9d-bbd5-680591ccaedf",
+        "84da9cf0-bc22-406c-b2e4-c8617b9838d4",
+        "f966ead6-6935-4aac-874f-9724e0631229",
+        "410ee7d9-f2c6-4471-8776-9fa0f20bae68",
+        "32ddf93c-8e20-4142-9841-9089d980fe6a",
+        "48303c8e-3ffd-42e8-b235-3304b521fa9e",
+        "5f4f5e04-b8e5-43f2-b271-81d2de9bf859",
+        "13eb5c75-edad-41a1-b521-4c66f292287b",
+        "972a0211-ef74-4fde-ba6a-4b1890a81e71",
+        "0342f6e2-b6da-42eb-a2d1-54894a99e40c",
+        "fea23211-b21b-4d75-ab80-af12b2deb6b9"
+      ],
+      "auctions_to_repoint": 18,
+      "provenance_to_repoint": 4695
+    },
+    {
+      "canonical": "Bonhams",
+      "canonical_id": "be6d2a14-985b-4b15-9797-a39df263fa56",
+      "loser_names": [
+        "Bonhams & Butterfields",
+        "Bonhams Edinborough",
+        "Bonhams Fine Art Auctioneers",
+        "Bonhams London"
+      ],
+      "loser_ids": [
+        "158039d1-ddc3-4254-84b3-0f577ada0da1",
+        "b8e9f4d6-05d0-47fa-949f-2dd5b7a7f2b1",
+        "52d822ca-f296-46a4-b192-cf5143d778ec",
+        "f1deb18a-7bda-488e-8284-c06d49dbd015"
+      ],
+      "auctions_to_repoint": 0,
+      "provenance_to_repoint": 89
+    },
+    {
+      "canonical": "Phillips",
+      "canonical_id": "64776891-71d1-4899-8089-8154a7d58f2e",
+      "loser_names": [
+        "Phillips de Pury",
+        "Phillips de Pury & Company",
+        "Phillips de Pury & Luxembourg",
+        "Phillips de Pury and Luxembourg"
+      ],
+      "loser_ids": [
+        "287f766a-3db6-4d97-a8c4-dd88a4bc47da",
+        "f6b5a337-009e-4436-ba29-cf2e59376c2e",
+        "20f6c958-d852-4cfe-a8da-2cdb590ae696",
+        "ba51c013-7f04-4fda-af60-709629c3d3c3"
+      ],
+      "auctions_to_repoint": 0,
+      "provenance_to_repoint": 17
+    }
+  ],
+  "excluded_ambiguous": [
+    "Christie",
+    "Christie & Manson (재검토용 — 포함됨, 혼동 방지 주석)",
+    "Sotheby Mak van Waay",
+    "Sotheby's Mak van Waay",
+    "Sotheby Mak van Waay B.V",
+    "Colnaghi at Sotheby's",
+    "Artist's estate stamp created by Christie's in 2003",
+    "Phillips (Harry)",
+    "Graham and Phillips",
+    "Hoggart and Phillips",
+    "Phillips and Morris",
+    "James E. Christie",
+    "Christie McDonald and Joan McD Miller",
+    "Christie Zhou and The Gogel Collection",
+    "Dr. Guthrie McConnell and Christie McConnell"
+  ]
+}

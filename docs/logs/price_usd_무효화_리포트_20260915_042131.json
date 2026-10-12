@@ -1,0 +1,1002 @@
+{
+  "generated_at": "2026-09-15T04:21:31.859831+00:00",
+  "iso_currencies": [
+    "USD",
+    "GBP",
+    "EUR",
+    "HKD",
+    "AUD",
+    "CHF",
+    "JPY",
+    "KRW",
+    "CNY",
+    "CAD",
+    "SGD",
+    "SEK",
+    "NOK",
+    "DKK",
+    "PLN",
+    "CZK",
+    "HUF",
+    "ILS",
+    "NZD",
+    "TWD"
+  ],
+  "total_usd_rows": 269965,
+  "total_keep": 90326,
+  "total_nullify": 179639,
+  "per_currency": [
+    {
+      "currency": "GBP",
+      "total": 48517,
+      "keep": 48516,
+      "nullify": 1
+    },
+    {
+      "currency": "livres",
+      "total": 38602,
+      "keep": 0,
+      "nullify": 38602
+    },
+    {
+      "currency": "francs",
+      "total": 32392,
+      "keep": 0,
+      "nullify": 32392
+    },
+    {
+      "currency": "Reichsmark",
+      "total": 31621,
+      "keep": 0,
+      "nullify": 31621
+    },
+    {
+      "currency": "USD",
+      "total": 30919,
+      "keep": 30919,
+      "nullify": 0
+    },
+    {
+      "currency": "frs",
+      "total": 17195,
+      "keep": 0,
+      "nullify": 17195
+    },
+    {
+      "currency": "Dutch guilders",
+      "total": 11769,
+      "keep": 0,
+      "nullify": 11769
+    },
+    {
+      "currency": "fl",
+      "total": 8478,
+      "keep": 0,
+      "nullify": 8478
+    },
+    {
+      "currency": "Österreichische Schilling",
+      "total": 8023,
+      "keep": 0,
+      "nullify": 8023
+    },
+    {
+      "currency": "Mark",
+      "total": 7975,
+      "keep": 0,
+      "nullify": 7975
+    },
+    {
+      "currency": "(NULL)",
+      "total": 6476,
+      "keep": 0,
+      "nullify": 6476
+    },
+    {
+      "currency": "EUR",
+      "total": 4404,
+      "keep": 4404,
+      "nullify": 0
+    },
+    {
+      "currency": "M",
+      "total": 3784,
+      "keep": 0,
+      "nullify": 3784
+    },
+    {
+      "currency": "AUD",
+      "total": 3314,
+      "keep": 3314,
+      "nullify": 0
+    },
+    {
+      "currency": "HKD",
+      "total": 2650,
+      "keep": 2650,
+      "nullify": 0
+    },
+    {
+      "currency": "fl.",
+      "total": 2166,
+      "keep": 0,
+      "nullify": 2166
+    },
+    {
+      "currency": "Schweizer Franken",
+      "total": 1914,
+      "keep": 0,
+      "nullify": 1914
+    },
+    {
+      "currency": "Danish rigsdaler",
+      "total": 1877,
+      "keep": 0,
+      "nullify": 1877
+    },
+    {
+      "currency": "pounds",
+      "total": 1464,
+      "keep": 0,
+      "nullify": 1464
+    },
+    {
+      "currency": "assignats",
+      "total": 1182,
+      "keep": 0,
+      "nullify": 1182
+    },
+    {
+      "currency": "guineas",
+      "total": 1112,
+      "keep": 0,
+      "nullify": 1112
+    },
+    {
+      "currency": "Rt",
+      "total": 1080,
+      "keep": 0,
+      "nullify": 1080
+    },
+    {
+      "currency": "thaler",
+      "total": 602,
+      "keep": 0,
+      "nullify": 602
+    },
+    {
+      "currency": "florins",
+      "total": 427,
+      "keep": 0,
+      "nullify": 427
+    },
+    {
+      "currency": "PLN",
+      "total": 392,
+      "keep": 392,
+      "nullify": 0
+    },
+    {
+      "currency": "Groschen",
+      "total": 286,
+      "keep": 0,
+      "nullify": 286
+    },
+    {
+      "currency": "Sch",
+      "total": 254,
+      "keep": 0,
+      "nullify": 254
+    },
+    {
+      "currency": "Kruezer",
+      "total": 239,
+      "keep": 0,
+      "nullify": 239
+    },
+    {
+      "currency": "pounds [or] guineas",
+      "total": 216,
+      "keep": 0,
+      "nullify": 216
+    },
+    {
+      "currency": "Österreichische Kronen",
+      "total": 151,
+      "keep": 0,
+      "nullify": 151
+    },
+    {
+      "currency": "CAD",
+      "total": 68,
+      "keep": 68,
+      "nullify": 0
+    },
+    {
+      "currency": "NOK",
+      "total": 55,
+      "keep": 55,
+      "nullify": 0
+    },
+    {
+      "currency": "silbergroschen",
+      "total": 44,
+      "keep": 0,
+      "nullify": 44
+    },
+    {
+      "currency": "Francs",
+      "total": 41,
+      "keep": 0,
+      "nullify": 41
+    },
+    {
+      "currency": "Sch [?]",
+      "total": 9,
+      "keep": 0,
+      "nullify": 9
+    },
+    {
+      "currency": "frs for lots 41 & 42",
+      "total": 8,
+      "keep": 0,
+      "nullify": 8
+    },
+    {
+      "currency": "DKK",
+      "total": 5,
+      "keep": 5,
+      "nullify": 0
+    },
+    {
+      "currency": "frs for lots 139 & 140",
+      "total": 4,
+      "keep": 0,
+      "nullify": 4
+    },
+    {
+      "currency": "frs for lots 650 & 651",
+      "total": 4,
+      "keep": 0,
+      "nullify": 4
+    },
+    {
+      "currency": "frs for lots 350 & 351",
+      "total": 4,
+      "keep": 0,
+      "nullify": 4
+    },
+    {
+      "currency": "frs for lots 36, 37, 38 & 39",
+      "total": 4,
+      "keep": 0,
+      "nullify": 4
+    },
+    {
+      "currency": "frs for lots 26 to 29",
+      "total": 4,
+      "keep": 0,
+      "nullify": 4
+    },
+    {
+      "currency": "frs for lots 79 & 80",
+      "total": 4,
+      "keep": 0,
+      "nullify": 4
+    },
+    {
+      "currency": "frs for lots 101 & 102",
+      "total": 4,
+      "keep": 0,
+      "nullify": 4
+    },
+    {
+      "currency": "frs for lots 75, 76 & 77",
+      "total": 3,
+      "keep": 0,
+      "nullify": 3
+    },
+    {
+      "currency": "CZK",
+      "total": 3,
+      "keep": 3,
+      "nullify": 0
+    },
+    {
+      "currency": "frs for lots 317, 318 & 319",
+      "total": 3,
+      "keep": 0,
+      "nullify": 3
+    },
+    {
+      "currency": "fl for lots 243, 244 & 245",
+      "total": 3,
+      "keep": 0,
+      "nullify": 3
+    },
+    {
+      "currency": "frs for lots 347, 348 & 349",
+      "total": 3,
+      "keep": 0,
+      "nullify": 3
+    },
+    {
+      "currency": "frs for lots 572, 573 & 574",
+      "total": 3,
+      "keep": 0,
+      "nullify": 3
+    },
+    {
+      "currency": "frs for lots 123, 124 & 125",
+      "total": 3,
+      "keep": 0,
+      "nullify": 3
+    },
+    {
+      "currency": "frs for lots 60 & 61",
+      "total": 3,
+      "keep": 0,
+      "nullify": 3
+    },
+    {
+      "currency": "frs for lots 355 & 356",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 368 & 369",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 373 & 374",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 40 & 41",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 410 & 411",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 421 & 422",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 43 & 44",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 444 & 445",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 452 & 453",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 46 & 47",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 461 & 462",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 473 & 474",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 490 & 491",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 50 & 51",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 54 & 55",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 6 & 7",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 633 & 634",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 64 & 65",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 65 & 66",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 67 & 68",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 675 & 676",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 719 & 720",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 727 & 728",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 73 & 74",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 767 & 768",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 783 & 784",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 8 & 9",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 83 & 84",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 84 & 85",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 843 & 844",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 86 & 87",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 88 & 89",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 891 & 892",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 9 & 10",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 908 & 909",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 91 & 92",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 934 & 935",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 96 & 97",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 969 & 970",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 99 & 100",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 839 & 840",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "fl for lots 119 & 120",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "fl for lots 124 & 125",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "fl for lots 128 & 129",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "fl for lots 170 & 171",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "fl for lots 188 & 189",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "fl for lots 203 & 204",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "fl for lots 68 & 69",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "fl. for lots 2 & 3",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "fl. for lots 90 & 91",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 10 & 11",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 100 & 101",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 104 & 105",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 106 & 107",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 11 & 12",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 112 & 113",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 116 & 117",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 12 & 13",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 123 & 126",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 127 & 128",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 128 & 129",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 13 & 14",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 135 & 136",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 145 & 146",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 148 & 149",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 155 & 156",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 168 & 169",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 17 & 18",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 183 & 184",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 21 & 22",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 219 & 220",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 22 & 23",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 224 & 225",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 226 & 227",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 24 & 25",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 240 & 241",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 243 & 244",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 247 & 248",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 282 & 283",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 3 & 4",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 31 & 32",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 314 & 315",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 323 & 324",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 325 & 326",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 327 & 328",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 33 & 34",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 335 & 336",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 34 & 35",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 341 & 342",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 344 & 345",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 352 & 353",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "frs for lots 353 & 354",
+      "total": 2,
+      "keep": 0,
+      "nullify": 2
+    },
+    {
+      "currency": "guldens",
+      "total": 1,
+      "keep": 0,
+      "nullify": 1
+    },
+    {
+      "currency": "guinea",
+      "total": 1,
+      "keep": 0,
+      "nullify": 1
+    },
+    {
+      "currency": "frs for lots 990 & 991",
+      "total": 1,
+      "keep": 0,
+      "nullify": 1
+    },
+    {
+      "currency": "frs for lots 989 & 990 [or] 990 & 991",
+      "total": 1,
+      "keep": 0,
+      "nullify": 1
+    },
+    {
+      "currency": "frs for lots 989 & 990",
+      "total": 1,
+      "keep": 0,
+      "nullify": 1
+    },
+    {
+      "currency": "frs for lots 49 & 55",
+      "total": 1,
+      "keep": 0,
+      "nullify": 1
+    },
+    {
+      "currency": "frs for lots 4 & 5",
+      "total": 1,
+      "keep": 0,
+      "nullify": 1
+    },
+    {
+      "currency": "frs for lots 337 & 338",
+      "total": 1,
+      "keep": 0,
+      "nullify": 1
+    },
+    {
+      "currency": "frs for lots 130 & 130a",
+      "total": 1,
+      "keep": 0,
+      "nullify": 1
+    },
+    {
+      "currency": "frs for lots 129 & 129a",
+      "total": 1,
+      "keep": 0,
+      "nullify": 1
+    },
+    {
+      "currency": "frs for lots 121 & 122",
+      "total": 1,
+      "keep": 0,
+      "nullify": 1
+    },
+    {
+      "currency": "frs for lots 115 & 115a",
+      "total": 1,
+      "keep": 0,
+      "nullify": 1
+    },
+    {
+      "currency": "frs d",
+      "total": 1,
+      "keep": 0,
+      "nullify": 1
+    },
+    {
+      "currency": "frs [or] 19",
+      "total": 1,
+      "keep": 0,
+      "nullify": 1
+    },
+    {
+      "currency": "frs [or] 10",
+      "total": 1,
+      "keep": 0,
+      "nullify": 1
+    },
+    {
+      "currency": "fl. for lots 60 & 61",
+      "total": 1,
+      "keep": 0,
+      "nullify": 1
+    },
+    {
+      "currency": "fl. for lots 4 & 5",
+      "total": 1,
+      "keep": 0,
+      "nullify": 1
+    },
+    {
+      "currency": "fl. for lots 121 & 122",
+      "total": 1,
+      "keep": 0,
+      "nullify": 1
+    }
+  ]
+}

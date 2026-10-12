@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-09-15T18:29:16.183153+00:00",
+  "total_candidates": 3245,
+  "matched_museum": 0,
+  "matched_gallery": 0,
+  "unmatched": 3245,
+  "sample_museum_matches": [],
+  "sample_gallery_matches": [],
+  "top_unmatched_venue_names": [
+    [
+      "Pinakothek der Moderne",
+      55
+    ],
+    [
+      "New York",
+      47
+    ],
+    [
+      "M HKA - Museum van Hedendaagse Kunst Antwerpen",
+      36
+    ],
+    [
+      "Stedelijk Museum voor Actuele Kunst",
+      35
+    ],
+    [
+      "하우스 데어 쿤스트",
+      34
+    ],
+    [
+      "Museum Kunstpalast",
+      31
+    ],
+    [
+      "함부르거 반호프",
+      23
+    ],
+    [
+      "Deichtorhallen",
+      23
+    ],
+    [
+      "Wielemans Tower",
+      22
+    ],
+    [
+      "Building of the Winterthur Museum of Art",
+      21
+    ],
+    [
+      "Neues Museum Nürnberg",
+      21
+    ],
+    [
+      "Mu.ZEE - Kunstmuseum aan Zee",
+      21
+    ],
+    [
+      "Kunstmuseum Bonn",
+      21
+    ],
+    [
+      "Kunstmuseum Luzern",
+      20
+    ],
+    [
+      "CC Strombeek",
+      20
+    ],
+    [
+      "Museum Dhondt-Dhaenens",
+      20
+    ],
+    [
+      "Morsbroich Castle",
+      20
+    ],
+    [
+      "Deweer Gallery",
+      19
+    ],
+    [
+      "ZKM Center for Art and Media Karlsruhe",
+      18
+    ],
+    [
+      "M Leuven",
+      18
+    ]
+  ]
+}

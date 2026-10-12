@@ -1,0 +1,677 @@
+{
+  "generated_at": "2026-09-15T07:05:11.421211+00:00",
+  "galleries": [
+    {
+      "key": "kukje",
+      "files": 88,
+      "entries": 373,
+      "rate_per_file": 4.24,
+      "low_quality_flag": false
+    },
+    {
+      "key": "gallery_hyundai",
+      "files": 52,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "pkm",
+      "files": 44,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "arario",
+      "files": 54,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "ropac",
+      "files": 77,
+      "entries": 1,
+      "rate_per_file": 0.01,
+      "low_quality_flag": true
+    },
+    {
+      "key": "wooson",
+      "files": 60,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "gallery_baton",
+      "files": 44,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "johyun",
+      "files": 42,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "pace",
+      "files": 102,
+      "entries": 743,
+      "rate_per_file": 7.28,
+      "low_quality_flag": false
+    },
+    {
+      "key": "lehmannmaupin",
+      "files": 0,
+      "entries": 0,
+      "rate_per_file": 0,
+      "low_quality_flag": false
+    },
+    {
+      "key": "perrotin",
+      "files": 0,
+      "entries": 0,
+      "rate_per_file": 0,
+      "low_quality_flag": false
+    },
+    {
+      "key": "davidzwirner",
+      "files": 86,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "whitecube",
+      "files": 71,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "mariangoodman",
+      "files": 83,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "spruethmagers",
+      "files": 80,
+      "entries": 2,
+      "rate_per_file": 0.03,
+      "low_quality_flag": true
+    },
+    {
+      "key": "victoriamiro",
+      "files": 46,
+      "entries": 1,
+      "rate_per_file": 0.02,
+      "low_quality_flag": true
+    },
+    {
+      "key": "koeniggalerie",
+      "files": 131,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "gladstone",
+      "files": 0,
+      "entries": 0,
+      "rate_per_file": 0,
+      "low_quality_flag": false
+    },
+    {
+      "key": "shugoarts",
+      "files": 17,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "tomiokoyama",
+      "excluded": "manual",
+      "files": 0,
+      "entries": 0
+    },
+    {
+      "key": "estherschipper",
+      "files": 60,
+      "entries": 1,
+      "rate_per_file": 0.02,
+      "low_quality_flag": true
+    },
+    {
+      "key": "maxhetzler",
+      "excluded": "manual",
+      "files": 0,
+      "entries": 0
+    },
+    {
+      "key": "otafinearts",
+      "excluded": "manual",
+      "files": 0,
+      "entries": 0
+    },
+    {
+      "key": "leeahn",
+      "files": 78,
+      "entries": 8,
+      "rate_per_file": 0.1,
+      "low_quality_flag": true
+    },
+    {
+      "key": "313artproject",
+      "files": 22,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "gallery2",
+      "files": 18,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "galleriacontinua",
+      "files": 72,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "massimodecarlo",
+      "excluded": "manual",
+      "files": 0,
+      "entries": 0
+    },
+    {
+      "key": "seankelly",
+      "files": 39,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "303gallery",
+      "files": 34,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "alminerech",
+      "files": 99,
+      "entries": 935,
+      "rate_per_file": 9.44,
+      "low_quality_flag": false
+    },
+    {
+      "key": "regenprojects",
+      "files": 35,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "mizuma",
+      "files": 47,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "scaithebathhouse",
+      "files": 29,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "skarstedt",
+      "files": 39,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "mennour",
+      "files": 49,
+      "entries": 24,
+      "rate_per_file": 0.49,
+      "low_quality_flag": false
+    },
+    {
+      "key": "gallerychosun",
+      "files": 16,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "matthewmarks",
+      "excluded": "manual",
+      "files": 0,
+      "entries": 0
+    },
+    {
+      "key": "paulacooper",
+      "files": 408,
+      "entries": 2,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "caseykaplan",
+      "files": 29,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "luhringaugustine",
+      "files": 50,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "petzel",
+      "excluded": "manual",
+      "files": 0,
+      "entries": 0
+    },
+    {
+      "key": "takeninagawa",
+      "files": 17,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "anomalytokyo",
+      "files": 40,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "carliergebauer",
+      "files": 35,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "kurimanzutto",
+      "files": 43,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "krinzinger",
+      "files": 100,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "sadiecoles",
+      "files": 63,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "sungallery",
+      "files": 24,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "ocimuseum",
+      "excluded": "manual",
+      "files": 0,
+      "entries": 0
+    },
+    {
+      "key": "tanyabonakdar",
+      "files": 43,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "jamescohan",
+      "files": 41,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "cheimread",
+      "files": 26,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "nararoesler",
+      "files": 8,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "kasmin",
+      "files": 42,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "milesmcenery",
+      "files": 66,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "jackshainman",
+      "files": 42,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "antonkern",
+      "files": 140,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "miandn",
+      "files": 13,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "nonakahill",
+      "files": 52,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "waitingroom",
+      "files": 9,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "meyerriegger",
+      "files": 29,
+      "entries": 1,
+      "rate_per_file": 0.03,
+      "low_quality_flag": true
+    },
+    {
+      "key": "wentrup",
+      "files": 22,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "mai36",
+      "files": 53,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "capitainpetzel",
+      "files": 32,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "annetgelink",
+      "files": 30,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "vielmetter",
+      "files": 48,
+      "entries": 24,
+      "rate_per_file": 0.5,
+      "low_quality_flag": false
+    },
+    {
+      "key": "zenox",
+      "files": 32,
+      "entries": 5,
+      "rate_per_file": 0.16,
+      "low_quality_flag": false
+    },
+    {
+      "key": "xavierhufkens",
+      "files": 56,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "dvirgallery",
+      "files": 51,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "cardigallery",
+      "files": 97,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "meminc",
+      "files": 33,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "proyectosmonclova",
+      "files": 25,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "gallerykiche",
+      "files": 12,
+      "entries": 105,
+      "rate_per_file": 8.75,
+      "low_quality_flag": false
+    },
+    {
+      "key": "cristinaguerra",
+      "files": 26,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "vsf",
+      "files": 19,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "nightgallery",
+      "files": 38,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "barakatcontemporary",
+      "files": 26,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "tinakimgallery",
+      "files": 27,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "andrewkreps",
+      "excluded": "manual",
+      "files": 0,
+      "entries": 0
+    },
+    {
+      "key": "thomasschulte",
+      "files": 14,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "kaynegriffin",
+      "files": 18,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "ghebaly",
+      "files": 40,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "taronasu",
+      "excluded": "no_gallery_row",
+      "files": 0,
+      "entries": 0
+    },
+    {
+      "key": "omr",
+      "files": 24,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "stpi",
+      "excluded": "manual",
+      "files": 0,
+      "entries": 0
+    },
+    {
+      "key": "whitespace",
+      "files": 31,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "thethirdline",
+      "files": 29,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "athrart",
+      "files": 7,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "goodmangallery",
+      "files": 41,
+      "entries": 0,
+      "rate_per_file": 0.0,
+      "low_quality_flag": true
+    },
+    {
+      "key": "roslynoxley9",
+      "excluded": "manual",
+      "files": 0,
+      "entries": 0
+    },
+    {
+      "key": "takaishii",
+      "files": 0,
+      "entries": 0,
+      "rate_per_file": 0,
+      "low_quality_flag": false
+    },
+    {
+      "key": "simon",
+      "files": 0,
+      "entries": 0,
+      "rate_per_file": 0,
+      "low_quality_flag": false
+    },
+    {
+      "key": "pyo",
+      "files": 0,
+      "entries": 0,
+      "rate_per_file": 0,
+      "low_quality_flag": false
+    }
+  ],
+  "total_galleries_processed": 83,
+  "total_entries_to_insert": 2209,
+  "skipped_no_artist_match": 555,
+  "parse_fail_samples": [
+    "kukje/artists-view-seq-219: [solo] 2019: Future and the Arts: AI, Robotics, Cities, Life - How Humanity Will Live Tomorrow , Mori Art Museum, Tokyo Japan Designs for Different Futures , Phila",
+    "kukje/artists-view-seq-219: [solo] 2018: Design et Merveilleux, Musee d'art moderne, Saint-Priest-en-Jarez, France When Attitude Become Chairs , Pizzuti Collection, Columbus, US",
+    "kukje/artists-view-seq-219: [solo] 2017: Mind the Digital , Design Society, Shenzen, China NGV Triennial, National Gallery of Victoria, Melbourne, Australia",
+    "ropac/artists-70-rona-pondick: [group] 2006: Museum Exhibitions Nassau County Museum of Art 23 July—6 November 2022 Rona Pondick Other Worlds Than This This exhibition summons a celestial realm o",
+    "pace/artists-adam-pendleton: [group] 2026: Adam Pendleton + Antoni Tàpies, Alfonso Artiaco, Naples, Italy, May 11–June 20, 2026. Ewa Partum: Contemplating Art, Contemplating Love , Museum of Co",
+    "pace/artists-adam-pendleton: [group] 2025: Sweeter than Honey: A Panorama of Written Art , Pinakothek der Moderne, Munich, December 11, 2025–April 12, 2026. (Catalogue) Summer Selections , Pace",
+    "pace/artists-adam-pendleton: [group] 2024: Imagining Black Diasporas: 21st-Century Art and Poetics , Los Angeles County Museum of Art, December 15, 2024–July 27, 2025. (Catalogue) Scrawlspace, ",
+    "pace/artists-adrian-ghenie: [group] 2016: Take care, amigo , Tim Van Laere Gallery, Antwerp, Belgium, October 13–November 19, 2016. Très Traits , Fondation Vincent van Gogh Arles, France, Febr",
+    "pace/artists-adrian-ghenie: [group] 2015: Berlin Show #4: Inventory , Galeria Plan B, Berlin, November 14, 2015–March 12, 2016. I Will Go There, Take me Home, The MAC, Belfast, May 8–July 26, ",
+    "mariangoodman/artists-nairy-baghramian: [solo] 2022: Nasher Sculpture Center In celebration of Nairy Baghramian recieving the 2022 Nasher Prize, the Nasher Sculpture Center presents sculptures from her r",
+    "spruethmagers/https-spruethmagers-com-artists-john-baldessari: [group] 2027: John Baldessari, a leading figure of American Conceptualism, reshaped the possibilities of contemporary art through a lifelong investigation into the ",
+    "spruethmagers/https-spruethmagers-com-artists-nora-turato: [group] 2026: The Stedelijk Museum Amsterdam presents i was empty and now i’m full , a new site-specific commission by Nora Turato. Created for the wall opposite La",
+    "leeahn/view-wm-id-112: [solo] 2025: Bom, Leeahn Gallery, Seoul, Republic of Korea Far East, Marian Goodman Gallery, Paris, France 2024          Kumgangsan, Wall painting, mumok - Museum ",
+    "leeahn/view-wm-id-112: [solo] 2021: 2020          April Mai, Galerie nächst St. Stephan Rosemarie Schwarzwälder, Vienna, Austria Jongsuk Yoon, Wallpaintings Sun and Moon, Nordiska Akvare",
+    "leeahn/view-wm-id-112: [solo] 2007: 2004          Days Like These, Städtische Galerie Iserlohn, Germany; Kunstverein Heidelberg, Heidelberg, Germany Things I See, Galerie Bugdahn und Kai",
+    "leeahn/view-wm-id-43: [group] 2025: Privacy Policy 9, Jahamun-ro 12-gil, Jongno-gu, Seoul, Korea 03043, +82 2 730 2243   | 184-31, Icheon-ro, Jung-gu, Daegu, Korea 41956 +82 53 424 2203 ",
+    "alminerech/https-www-alminerech-com-artists-10696-christopher-le-brun: [solo] 2024: 'Phases of the Moon', Lisson Gallery, Beijing, China 'Unenclosed', Academicians’ Room, Royal Academy of Arts, London, UK",
+    "alminerech/https-www-alminerech-com-artists-10696-christopher-le-brun: [solo] 2022: 'Making Light', Albertz Benda, Los Angeles, CA, US 'Momentarium', Lisson Gallery, London, UK",
+    "alminerech/https-www-alminerech-com-artists-10696-christopher-le-brun: [solo] 2018: 'Composer', Southampton City Art Gallery, Southampton, UK 'New Painting', Lisson Gallery, London, UK 'Dualities', Wolfson College, Cambrigde, UK",
+    "alminerech/https-www-alminerech-com-artists-10810-dustin-yellin: [solo] 2023: 'Cave Painting', Venus Over Manhattan, New York, NY, US 'Spooky Portal', Artivist, Seoul, South Korea 'Politics of Eternity', Liberty Science Center, "
+  ]
+}

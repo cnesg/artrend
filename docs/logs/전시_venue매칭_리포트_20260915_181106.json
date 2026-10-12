@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-09-15T09:11:06.063703+00:00",
+  "total_candidates": 3377,
+  "matched_museum": 3,
+  "matched_gallery": 0,
+  "unmatched": 3374,
+  "sample_museum_matches": [
+    {
+      "id": "16c2fa49-5fc9-44b7-96f2-2859389738cd",
+      "venue_name": "Seoul Museum of Art",
+      "museum_id": "6f7fe637-71c6-49fc-b95c-6dfcf9b6b9f0"
+    },
+    {
+      "id": "7f22145e-26ff-41eb-ae2b-6203fd06c4e6",
+      "venue_name": "Seoul Museum of Art",
+      "museum_id": "6f7fe637-71c6-49fc-b95c-6dfcf9b6b9f0"
+    },
+    {
+      "id": "9b165759-26e2-4f80-a430-8cfd0914bb24",
+      "venue_name": "Leeum Museum of Art",
+      "museum_id": "6213d9c2-f1fb-4619-b4bb-4a37b6b17c93"
+    }
+  ],
+  "sample_gallery_matches": [],
+  "top_unmatched_venue_names": [
+    [
+      "Almine Rech",
+      67
+    ],
+    [
+      "Pinakothek der Moderne",
+      55
+    ],
+    [
+      "New York",
+      47
+    ],
+    [
+      "M HKA - Museum van Hedendaagse Kunst Antwerpen",
+      36
+    ],
+    [
+      "Stedelijk Museum voor Actuele Kunst",
+      35
+    ],
+    [
+      "하우스 데어 쿤스트",
+      34
+    ],
+    [
+      "Xavier Hufkens",
+      32
+    ],
+    [
+      "Museum Kunstpalast",
+      31
+    ],
+    [
+      "함부르거 반호프",
+      23
+    ],
+    [
+      "Deichtorhallen",
+      23
+    ],
+    [
+      "Wielemans Tower",
+      22
+    ],
+    [
+      "Building of the Winterthur Museum of Art",
+      21
+    ],
+    [
+      "Neues Museum Nürnberg",
+      21
+    ],
+    [
+      "Mu.ZEE - Kunstmuseum aan Zee",
+      21
+    ],
+    [
+      "Kunstmuseum Bonn",
+      21
+    ],
+    [
+      "Kunstmuseum Luzern",
+      20
+    ],
+    [
+      "CC Strombeek",
+      20
+    ],
+    [
+      "Museum Dhondt-Dhaenens",
+      20
+    ],
+    [
+      "Morsbroich Castle",
+      20
+    ],
+    [
+      "Deweer Gallery",
+      19
+    ]
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "generated_at": "2026-09-15T08:51:36.318275+00:00",
+  "total_candidates": 566,
+  "museum_id_missing_sites": [],
+  "artist_name_miss_by_site": {
+    "mmca_exhibitions": 1304,
+    "gmoma_exhibitions": 400
+  },
+  "samples": [
+    {
+      "title": "윌리엄 켄트리지 William Kentridge",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2015-12-01",
+      "end_date": "2016-03-27",
+      "artist_id_count": 1
+    },
+    {
+      "title": "아키토피아의 실험",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2015-06-30",
+      "end_date": "2016-01-03",
+      "artist_id_count": 8
+    },
+    {
+      "title": "한국화 소장품 특별전 제1부 <멈추고, 보다>",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2015-09-08",
+      "end_date": "2016-03-06",
+      "artist_id_count": 0
+    },
+    {
+      "title": "국립현대미술관 현대차 시리즈 2015: 안규철 - 안 보이는 사랑의 나라",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2015-09-15",
+      "end_date": "2016-05-22",
+      "artist_id_count": 1
+    },
+    {
+      "title": "2015 한-호 국제교류전 뉴 로맨스",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2015-09-22",
+      "end_date": "2016-01-24",
+      "artist_id_count": 5
+    },
+    {
+      "title": "대한항공 박스 프로젝트 2015: 율리어스 포프",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2015-11-10",
+      "end_date": "2016-09-04",
+      "artist_id_count": 0
+    },
+    {
+      "title": "기증작품 특별전  «서세옥»전",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2015-10-27",
+      "end_date": "2016-04-03",
+      "artist_id_count": 1
+    },
+    {
+      "title": "아티스트 파일 2015: 동행",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2015-11-10",
+      "end_date": "2016-02-14",
+      "artist_id_count": 0
+    },
+    {
+      "title": "필립 가렐 - 찬란한 절망",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2015-11-25",
+      "end_date": "2016-02-28",
+      "artist_id_count": 0
+    },
+    {
+      "title": "필립 가렐 회고전",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2015-11-25",
+      "end_date": "2016-02-28",
+      "artist_id_count": 0
+    },
+    {
+      "title": "《님의 정원: 조덕현 아카이브》전",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2015-11-11",
+      "end_date": "2016-04-16",
+      "artist_id_count": 1
+    },
+    {
+      "title": "한국화 소장품 특별전 제2부 <독화(讀畵), 그림을 읽다>",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2015-11-24",
+      "end_date": "2016-02-10",
+      "artist_id_count": 7
+    },
+    {
+      "title": "시애틀미술관 한국현대미술전: 장소의 패러독스",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2015-10-31",
+      "end_date": "2016-03-13",
+      "artist_id_count": 5
+    },
+    {
+      "title": "오승우 기증작품특별전",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2015-11-24",
+      "end_date": "2016-05-29",
+      "artist_id_count": 1
+    },
+    {
+      "title": "한국현대미술작가시리즈_사진: <육명심>",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2015-12-11",
+      "end_date": "2016-06-06",
+      "artist_id_count": 1
+    },
+    {
+      "title": "《멋의 맛_조성묵》전",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2015-12-01",
+      "end_date": "2016-06-06",
+      "artist_id_count": 1
+    },
+    {
+      "title": "과천관 30년 특별전: 한국현대미술작가시리즈 <김태수>",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2016-02-19",
+      "end_date": "2016-06-06",
+      "artist_id_count": 1
+    },
+    {
+      "title": "한국현대미술작가시리즈 <초록빛 환영_이숙자>",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2016-03-25",
+      "end_date": "2016-07-17",
+      "artist_id_count": 1
+    },
+    {
+      "title": "변월룡(Пен Варлен) 1916~1990",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2016-03-03",
+      "end_date": "2016-05-08",
+      "artist_id_count": 1
+    },
+    {
+      "title": "한국현대미술작가시리즈 <최현칠_동행, 함께 날다>",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2016-03-11",
+      "end_date": "2016-06-12",
+      "artist_id_count": 1
+    },
+    {
+      "title": "망상지구",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2016-04-27",
+      "end_date": "2016-07-17",
+      "artist_id_count": 3
+    },
+    {
+      "title": "에코 시스템: 질 바비에",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2016-04-13",
+      "end_date": "2016-07-31",
+      "artist_id_count": 0
+    },
+    {
+      "title": "한국현대미술작가시리즈 김봉태",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2016-05-25",
+      "end_date": "2016-07-10",
+      "artist_id_count": 1
+    },
+    {
+      "title": "과천관 30주년 기념전 무릎을 뚫고 턱으로 빠지는 노래 - 김소라 프로젝트",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2016-05-25",
+      "end_date": "2016-07-10",
+      "artist_id_count": 2
+    },
+    {
+      "title": "유영국, 절대와 자유",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2016-11-04",
+      "end_date": "2017-03-01",
+      "artist_id_count": 1
+    },
+    {
+      "title": "백년의 신화: 한국근대미술 거장전 이중섭 1916~1956",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2016-06-03",
+      "end_date": "2016-10-03",
+      "artist_id_count": 1
+    },
+    {
+      "title": "국립현대미술관 과천30년 특별전 <달은, 차고, 이지러진다>",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2016-08-19",
+      "end_date": "2017-03-19",
+      "artist_id_count": 0
+    },
+    {
+      "title": "한국현대미술작가시리즈 <김형대 회고전>",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2016-04-08",
+      "end_date": "2016-07-17",
+      "artist_id_count": 1
+    },
+    {
+      "title": "2016 한-호 국제교류전 [뉴 로맨스 : 아트 앤 포스트 휴먼]",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2016-06-30",
+      "end_date": "2016-09-04",
+      "artist_id_count": 4
+    },
+    {
+      "title": "올해의 작가상 2016",
+      "venue_kind": "museum",
+      "museum_id": "2cb82827-c5f0-43ee-911b-ba05554211a3",
+      "venue_name": null,
+      "city": null,
+      "start_date": "2016-08-31",
+      "end_date": "2017-02-19",
+      "artist_id_count": 3
+    }
+  ]
+}

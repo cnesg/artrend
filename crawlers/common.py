@@ -6,12 +6,34 @@
 from __future__ import annotations
 
 import json
+import time
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Union
+from typing import Callable, TypeVar
+
+import requests
 
 RAW_ROOT = Path(__file__).resolve().parent / "raw"
 PROJECT_ROOT = RAW_ROOT.parent.parent
+
+T = TypeVar("T")
+
+
+def with_retry(fn: Callable[[], T], *, attempts: int = 5, base_delay: float = 2.0) -> T:
+    """일시적 네트워크 오류(타임아웃 등)에 지수 백오프로 재시도한다.
+
+    몇 시간씩 도는 대량 수집에서 타임아웃 한 번에 전체 프로세스가 죽는 걸 막기 위함.
+    """
+    for attempt in range(1, attempts + 1):
+        try:
+            return fn()
+        except requests.RequestException as exc:
+            if attempt == attempts:
+                raise
+            wait = base_delay * (2 ** (attempt - 1))
+            print(f"[retry] 요청 실패({exc}) — {wait:.0f}초 후 재시도 ({attempt}/{attempts})", flush=True)
+            time.sleep(wait)
+    raise AssertionError("unreachable")
 
 
 def _safe_id(record_id: str) -> str:

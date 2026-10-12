@@ -1,0 +1,630 @@
+{
+  "generated_at": "2026-09-17T00:06:51.743246+00:00",
+  "total_rows": 75,
+  "metrics": [
+    "artfair_sales_krw",
+    "auction_sell_through_rate",
+    "auction_total_krw",
+    "gallery_sales_krw",
+    "market_total_krw"
+  ],
+  "years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "rows": [
+    {
+      "year": 2010,
+      "metric": "artfair_sales_krw",
+      "value": 48387.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2010년)"
+    },
+    {
+      "year": 2011,
+      "metric": "artfair_sales_krw",
+      "value": 46446.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2011년)"
+    },
+    {
+      "year": 2012,
+      "metric": "artfair_sales_krw",
+      "value": 42021.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2012년)"
+    },
+    {
+      "year": 2013,
+      "metric": "artfair_sales_krw",
+      "value": 66113.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2013년)"
+    },
+    {
+      "year": 2014,
+      "metric": "artfair_sales_krw",
+      "value": 62427.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2014년)"
+    },
+    {
+      "year": 2015,
+      "metric": "artfair_sales_krw",
+      "value": 67388.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2015년)"
+    },
+    {
+      "year": 2016,
+      "metric": "artfair_sales_krw",
+      "value": 73593.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2016년)"
+    },
+    {
+      "year": 2017,
+      "metric": "artfair_sales_krw",
+      "value": 63803.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2017년)"
+    },
+    {
+      "year": 2018,
+      "metric": "artfair_sales_krw",
+      "value": 73290.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2018년)"
+    },
+    {
+      "year": 2019,
+      "metric": "artfair_sales_krw",
+      "value": 80256.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2019년)"
+    },
+    {
+      "year": 2020,
+      "metric": "artfair_sales_krw",
+      "value": 46890.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2020년)"
+    },
+    {
+      "year": 2021,
+      "metric": "artfair_sales_krw",
+      "value": 188966.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2021년)"
+    },
+    {
+      "year": 2022,
+      "metric": "artfair_sales_krw",
+      "value": 305231.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2022년)"
+    },
+    {
+      "year": 2023,
+      "metric": "artfair_sales_krw",
+      "value": 295778.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2023년)"
+    },
+    {
+      "year": 2024,
+      "metric": "artfair_sales_krw",
+      "value": 217379.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2024년)"
+    },
+    {
+      "year": 2010,
+      "metric": "auction_sell_through_rate",
+      "value": 49.8,
+      "unit": "%",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2010년)"
+    },
+    {
+      "year": 2011,
+      "metric": "auction_sell_through_rate",
+      "value": 52.3,
+      "unit": "%",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2011년)"
+    },
+    {
+      "year": 2012,
+      "metric": "auction_sell_through_rate",
+      "value": 67.3,
+      "unit": "%",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2012년)"
+    },
+    {
+      "year": 2013,
+      "metric": "auction_sell_through_rate",
+      "value": 52.3,
+      "unit": "%",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2013년)"
+    },
+    {
+      "year": 2014,
+      "metric": "auction_sell_through_rate",
+      "value": 57.2,
+      "unit": "%",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2014년)"
+    },
+    {
+      "year": 2015,
+      "metric": "auction_sell_through_rate",
+      "value": 67.9,
+      "unit": "%",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2015년)"
+    },
+    {
+      "year": 2016,
+      "metric": "auction_sell_through_rate",
+      "value": 62.1,
+      "unit": "%",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2016년)"
+    },
+    {
+      "year": 2017,
+      "metric": "auction_sell_through_rate",
+      "value": 50.8,
+      "unit": "%",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2017년)"
+    },
+    {
+      "year": 2018,
+      "metric": "auction_sell_through_rate",
+      "value": 57.4,
+      "unit": "%",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2018년)"
+    },
+    {
+      "year": 2019,
+      "metric": "auction_sell_through_rate",
+      "value": 58.8,
+      "unit": "%",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2019년)"
+    },
+    {
+      "year": 2020,
+      "metric": "auction_sell_through_rate",
+      "value": 59.2,
+      "unit": "%",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2020년)"
+    },
+    {
+      "year": 2021,
+      "metric": "auction_sell_through_rate",
+      "value": 61.4,
+      "unit": "%",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2021년)"
+    },
+    {
+      "year": 2022,
+      "metric": "auction_sell_through_rate",
+      "value": 47.2,
+      "unit": "%",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2022년)"
+    },
+    {
+      "year": 2023,
+      "metric": "auction_sell_through_rate",
+      "value": 47.5,
+      "unit": "%",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2023년)"
+    },
+    {
+      "year": 2024,
+      "metric": "auction_sell_through_rate",
+      "value": 45.7,
+      "unit": "%",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2024년)"
+    },
+    {
+      "year": 2010,
+      "metric": "auction_total_krw",
+      "value": 58595.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2010년)"
+    },
+    {
+      "year": 2011,
+      "metric": "auction_total_krw",
+      "value": 78238.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2011년)"
+    },
+    {
+      "year": 2012,
+      "metric": "auction_total_krw",
+      "value": 85274.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2012년)"
+    },
+    {
+      "year": 2013,
+      "metric": "auction_total_krw",
+      "value": 59216.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2013년)"
+    },
+    {
+      "year": 2014,
+      "metric": "auction_total_krw",
+      "value": 77868.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2014년)"
+    },
+    {
+      "year": 2015,
+      "metric": "auction_total_krw",
+      "value": 98472.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2015년)"
+    },
+    {
+      "year": 2016,
+      "metric": "auction_total_krw",
+      "value": 127798.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2016년)"
+    },
+    {
+      "year": 2017,
+      "metric": "auction_total_krw",
+      "value": 149282.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2017년)"
+    },
+    {
+      "year": 2018,
+      "metric": "auction_total_krw",
+      "value": 151147.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2018년)"
+    },
+    {
+      "year": 2019,
+      "metric": "auction_total_krw",
+      "value": 115820.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2019년)"
+    },
+    {
+      "year": 2020,
+      "metric": "auction_total_krw",
+      "value": 115298.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2020년)"
+    },
+    {
+      "year": 2021,
+      "metric": "auction_total_krw",
+      "value": 338463.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2021년)"
+    },
+    {
+      "year": 2022,
+      "metric": "auction_total_krw",
+      "value": 234523.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2022년)"
+    },
+    {
+      "year": 2023,
+      "metric": "auction_total_krw",
+      "value": 157216.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2023년)"
+    },
+    {
+      "year": 2024,
+      "metric": "auction_total_krw",
+      "value": 120473.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2024년)"
+    },
+    {
+      "year": 2010,
+      "metric": "gallery_sales_krw",
+      "value": 344596.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2010년)"
+    },
+    {
+      "year": 2011,
+      "metric": "gallery_sales_krw",
+      "value": 296308.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2011년)"
+    },
+    {
+      "year": 2012,
+      "metric": "gallery_sales_krw",
+      "value": 275136.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2012년)"
+    },
+    {
+      "year": 2013,
+      "metric": "gallery_sales_krw",
+      "value": 194504.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2013년)"
+    },
+    {
+      "year": 2014,
+      "metric": "gallery_sales_krw",
+      "value": 204841.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2014년)"
+    },
+    {
+      "year": 2015,
+      "metric": "gallery_sales_krw",
+      "value": 240655.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2015년)"
+    },
+    {
+      "year": 2016,
+      "metric": "gallery_sales_krw",
+      "value": 215825.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2016년)"
+    },
+    {
+      "year": 2017,
+      "metric": "gallery_sales_krw",
+      "value": 244663.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2017년)"
+    },
+    {
+      "year": 2018,
+      "metric": "gallery_sales_krw",
+      "value": 195387.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2018년)"
+    },
+    {
+      "year": 2019,
+      "metric": "gallery_sales_krw",
+      "value": 185161.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2019년)"
+    },
+    {
+      "year": 2020,
+      "metric": "gallery_sales_krw",
+      "value": 165773.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2020년)"
+    },
+    {
+      "year": 2021,
+      "metric": "gallery_sales_krw",
+      "value": 314224.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2021년)"
+    },
+    {
+      "year": 2022,
+      "metric": "gallery_sales_krw",
+      "value": 450640.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2022년)"
+    },
+    {
+      "year": 2023,
+      "metric": "gallery_sales_krw",
+      "value": 416610.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2023년)"
+    },
+    {
+      "year": 2024,
+      "metric": "gallery_sales_krw",
+      "value": 347003.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "원문 표기 그대로(K-ARTMARKET 시장조사 통계, 2024년)"
+    },
+    {
+      "year": 2010,
+      "metric": "market_total_krw",
+      "value": 451578.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "[산출값] 화랑+경매+아트페어 판매금액 합산(원문에 합계 항목 없음, 추정 아님 — 세 원문 수치의 단순 합)"
+    },
+    {
+      "year": 2011,
+      "metric": "market_total_krw",
+      "value": 420992.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "[산출값] 화랑+경매+아트페어 판매금액 합산(원문에 합계 항목 없음, 추정 아님 — 세 원문 수치의 단순 합)"
+    },
+    {
+      "year": 2012,
+      "metric": "market_total_krw",
+      "value": 402431.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "[산출값] 화랑+경매+아트페어 판매금액 합산(원문에 합계 항목 없음, 추정 아님 — 세 원문 수치의 단순 합)"
+    },
+    {
+      "year": 2013,
+      "metric": "market_total_krw",
+      "value": 319833.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "[산출값] 화랑+경매+아트페어 판매금액 합산(원문에 합계 항목 없음, 추정 아님 — 세 원문 수치의 단순 합)"
+    },
+    {
+      "year": 2014,
+      "metric": "market_total_krw",
+      "value": 345136.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "[산출값] 화랑+경매+아트페어 판매금액 합산(원문에 합계 항목 없음, 추정 아님 — 세 원문 수치의 단순 합)"
+    },
+    {
+      "year": 2015,
+      "metric": "market_total_krw",
+      "value": 406515.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "[산출값] 화랑+경매+아트페어 판매금액 합산(원문에 합계 항목 없음, 추정 아님 — 세 원문 수치의 단순 합)"
+    },
+    {
+      "year": 2016,
+      "metric": "market_total_krw",
+      "value": 417216.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "[산출값] 화랑+경매+아트페어 판매금액 합산(원문에 합계 항목 없음, 추정 아님 — 세 원문 수치의 단순 합)"
+    },
+    {
+      "year": 2017,
+      "metric": "market_total_krw",
+      "value": 457748.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "[산출값] 화랑+경매+아트페어 판매금액 합산(원문에 합계 항목 없음, 추정 아님 — 세 원문 수치의 단순 합)"
+    },
+    {
+      "year": 2018,
+      "metric": "market_total_krw",
+      "value": 419824.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "[산출값] 화랑+경매+아트페어 판매금액 합산(원문에 합계 항목 없음, 추정 아님 — 세 원문 수치의 단순 합)"
+    },
+    {
+      "year": 2019,
+      "metric": "market_total_krw",
+      "value": 381237.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "[산출값] 화랑+경매+아트페어 판매금액 합산(원문에 합계 항목 없음, 추정 아님 — 세 원문 수치의 단순 합)"
+    },
+    {
+      "year": 2020,
+      "metric": "market_total_krw",
+      "value": 327961.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "[산출값] 화랑+경매+아트페어 판매금액 합산(원문에 합계 항목 없음, 추정 아님 — 세 원문 수치의 단순 합)"
+    },
+    {
+      "year": 2021,
+      "metric": "market_total_krw",
+      "value": 841653.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "[산출값] 화랑+경매+아트페어 판매금액 합산(원문에 합계 항목 없음, 추정 아님 — 세 원문 수치의 단순 합)"
+    },
+    {
+      "year": 2022,
+      "metric": "market_total_krw",
+      "value": 990394.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "[산출값] 화랑+경매+아트페어 판매금액 합산(원문에 합계 항목 없음, 추정 아님 — 세 원문 수치의 단순 합)"
+    },
+    {
+      "year": 2023,
+      "metric": "market_total_krw",
+      "value": 869604.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "[산출값] 화랑+경매+아트페어 판매금액 합산(원문에 합계 항목 없음, 추정 아님 — 세 원문 수치의 단순 합)"
+    },
+    {
+      "year": 2024,
+      "metric": "market_total_krw",
+      "value": 684855.0,
+      "unit": "백만원",
+      "source_url": "https://k-artmarket.kr/member/stats/timeseries/MarketSizeProgress.do",
+      "note": "[산출값] 화랑+경매+아트페어 판매금액 합산(원문에 합계 항목 없음, 추정 아님 — 세 원문 수치의 단순 합)"
+    }
+  ]
+}
