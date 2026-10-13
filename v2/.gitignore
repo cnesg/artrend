@@ -1,0 +1,3 @@
+# export.py 산출물 — 재생성 가능하고 프리즈 내부 연구용 데이터가 섞여 있어 git에 올리지 않는다
+exports/
+__pycache__/
